@@ -1,11 +1,11 @@
 <?php
 /**
 *
-* info_acp_qi [English]
+* info_acp_qi [Swedish]
 *
 * @package language
+* @copyright  for the translation (c) 2010 Sinom & Peetra http://phpbb-se.com
 * @version $Id$
-* @copyright (c) 2008 evil3
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
 */

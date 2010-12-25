@@ -1,9 +1,10 @@
 <?php
 /**
 *
-* phpbb [English]
+* phpbb [Swedish]
 *
-* @package quickinstall
+* @package language
+* @copyright  for the translation (c) 2010 Sinom & Peetra http://phpbb-se.com
 * @version $Id$
 * @copyright (c) 2007, 2008 eviL3
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
