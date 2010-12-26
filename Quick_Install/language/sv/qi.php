@@ -137,7 +137,7 @@ $lang = array_merge($lang, array(
 	'MAKE_WRITABLE_EXPLAIN' => 'Gör filerna, config.php, och kataloger skrivbara för alla grupper som standard. Detta kan ändras när du skapar forum.',
 	'MANAGE_BOARDS' => 'Hantera forum',
 	'MAX' => 'Max',
-	'MIGHT_TAKE_LONG' => '<strong>Notera:</strong> Att skapa ett forum kan ta en stund, kanske upp till en minut eller mer, så tryck <strong>inte</strong> på submit flera gånger.',
+	'MIGHT_TAKE_LONG' => '<strong>Notera:</strong> Att skapa ett forum kan ta en stund, kanske upp till en minut eller mer, så tryck <strong>inte</strong> på [Skicka] flera gånger.',
 	'MIN' => 'Min',
 
 	'NEED_EMAIL_DOMAIN' => 'En e-postdomän krävs för att skapa testanvändare',
@@ -190,13 +190,13 @@ $lang = array_merge($lang, array(
 
 	'REDIRECT' => 'Omdirigera',
 	'REDIRECT_EXPLAIN' => 'Sätt omdirigera till nya forum som standard. Detta kan ändras när du skapar ett forum.',
-	'REDIRECT_BOARD' => 'Omdirigera till nytt forum',
-	'REQUIRED' => 'är omdirigerad',
+	'REDIRECT_BOARD' => 'Omdirigera till det nya forumet.',
+	'REQUIRED' => 'är obligatoriskt.',
 	'RESET' => 'Rensa',
 
 	'SELECT' => 'Välj',
 	'SETTINGS' => 'Inställningar',
-	'SETTINGS_FAILURE' => 'Det finns felmeddelande, ta en titt i rutan nedanför.',
+	'SETTINGS_FAILURE' => 'Något blev fel, ta en titt i rutan nedanför.',
 	'SETTINGS_SUCCESS' => 'Dina inställningar blev sparade.',
 	'SERVER_NAME' => 'Servernamn',
 	'SERVER_NAME_EXPLAIN' => 'Detta borde vanligtvis vara localhost då Snabbinstallation <strong>inte</strong> är ämnat för publika servrar. ',
