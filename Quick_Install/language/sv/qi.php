@@ -1,14 +1,28 @@
 <?php
 /**
 *
-* qi [Swedish]
+* This file is part of Swedish Quick Install translation.
+* Copyright (c) 2010 - 2011 Swedish translation group.
 *
-* @package language
-* @copyright  for the translation (c) 2010 Sinom & Peetra http://phpbb-se.com
-* @version $Id$
+* This program is free software; you can redistribute it and/or modify
+* it under the terms of the GNU General Public License as published by
+* the Free Software Foundation; version 2 of the License.
+*
+* This program is distributed in the hope that it will be useful,
+* but WITHOUT ANY WARRANTY; without even the implied warranty of
+* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+* GNU General Public License for more details.
+*
+* You should have received a copy of the GNU General Public License along
+* with this program; if not, write to the Free Software Foundation, Inc.,
+* 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+*
+* @package    Quick Install
+* @author     2010 Sinom & Peetra @ http://phpbb-se.com
 * @copyright (c) 2007, 2008 eviL3
-* @copyright (c) 2010 Jari Kanerva (tumba25)
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License
+* @copyright (c) 2010 Jari Kanerva (tumba25
+* @license    http://opensource.org/licenses/gpl-license.php GNU Public License
+* @version    $Id$
 *
 */
 
@@ -222,7 +236,7 @@ $lang = array_merge($lang, array(
 	'SUBMIT' => 'Skicka',
 	'SUBSILVER' => 'Installera Subsilver2',
 	'SUBSILVER_EXPLAIN' => 'Ange om du vill att Subsilver2 stilen skall bli installerad och om du vill att det skall vara standardstilen. Detta kan ändras när du skapat ett forum.',
-	'SUCCESS' => 'Wohoo, allt gick bra! _o/',
+	'SUCCESS' => 'Wohoo, allt gick bra! ^_^',
 
 	'TABLE_PREFIX' => 'Tabellprefix',
 	'TABLE_PREFIX_EXPLAIN' => 'Tabellprefixet som kommer att användas till dina forum. Du kan ändra detta i avancerade inställningar när du skapar ett forum.',
