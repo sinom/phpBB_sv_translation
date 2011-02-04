@@ -17,7 +17,7 @@
 * with this program; if not, write to the Free Software Foundation, Inc.,
 * 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
 *
-* @package    Support Toolkit - Recache Moderators
+* @package    Support Toolkit - MySQL Upgrader
 * @author     Simon Assgård <sassgard@gmail.com> (Simon Assgård) http://www.phpbb-se.com/
 * @copyright (c) 2009 phpBB Group
 * @license    http://opensource.org/licenses/gpl-license.php GNU Public License
@@ -33,9 +33,6 @@ if (!defined('IN_PHPBB'))
 	exit;
 }
 
-/**
-* DO NOT CHANGE
-*/
 if (empty($lang) || !is_array($lang))
 {
 	$lang = array();
@@ -58,9 +55,18 @@ if (empty($lang) || !is_array($lang))
 //
 
 $lang = array_merge($lang, array(
-	'RECACHE_MODERATORS'				=> 'Uppdatera moderatorer',
-	'RECACHE_MODERATORS_COMPLETE'		=> 'Moderatorerna har blivit uppdaterade.',
-	'RECACHE_MODERATORS_CONFIRM'		=> 'Är du säker på att du vill uppdatera alla moderatorer i cache-tabellen?',
-));
+	'MYSQL_UPGRADER'					=> 'MySQL-Uppgraderare',
+	'MYSQL_UPGRADER_BACKUP'				=> 'Detta verktyget kan vara farligt; var noga med att göra en backup av din databas före du fortsätter!',
+	'MYSQL_UPGRADER_EXPLAIN'			=> 'Detta verktyget är designat för att lösa vissa problem som kan tillkomma när du uppgraderar till phpBB-installation. Denna uppgraderingen kommer att göra så att ditt databasschema blir inkompatibelt med den nya versionen <em>Se också “<a href="http://www.phpbb.com/kb/article/doesnt-have-a-default-value-errors">Har inte standardvärde-felmeddelanden</a>” KB-artikeln.</em>',
+	'MYSQL_UPGRADER_DOWNLOAD'			=> 'Ladda ner',
+	'MYSQL_UPGRADER_DOWNLOAD_EXPLAIN'	=> 'Genom att kryssa i denna kommer MySQL-Uppgraderaren generera frågor och visa resultaten för dig, därifrån kan du ladda ner resulteten.',
+	'MYSQL_UPGRADER_RESULT'				=> 'Nedan finner du frågorna som måste köras för att uppdatera databasens schema till den korrekta MySQL-versionen. Klicka <a href="%s">här</a> för att ladda ner frågorna i en .sql fil.',
+	'MYSQL_UPGRADER_RUN'				=> 'Kör',
+	'MYSQL_UPGRADER_RUN_EXPLAIN'		=> 'Genom att kryssa i denna kommer MySQL-uppgraderaren generera frågor och automatiskt köra resultaten i din databas.<br />Detta kan ta en stund, stör <strong>inte</strong> denna process före verktyget säger till att det är färdigt.',
+	'MYSQL_UPGRADER_SCRIPT'				=> 'MySQL-Uppgraderare-skript',
+	'MYSQL_UPGRADER_SUCCESSFULL'		=> 'MySQL-Uppgraderaren är färdig',
+	
+	'QUERY_FINISHED'	=> 'Färdig med att köra fråga %1$d av %2$d, forstätter till nästa steg.',
 
-?>
+	'TOOL_MYSQL_ONLY'	=> 'Detta verktyg är endast tillgängligt för användare av MySQL DBMS',
+));

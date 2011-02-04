@@ -17,7 +17,7 @@
 * with this program; if not, write to the Free Software Foundation, Inc.,
 * 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
 *
-* @package    Support Toolkit - Recache Moderators
+* @package    Support Toolkit - Resync Attachments
 * @author     Simon Assgård <sassgard@gmail.com> (Simon Assgård) http://www.phpbb-se.com/
 * @copyright (c) 2009 phpBB Group
 * @license    http://opensource.org/licenses/gpl-license.php GNU Public License
@@ -26,16 +26,13 @@
 */
 
 /**
-* DO NOT CHANGE
-*/
+ * DO NOT CHANGE
+ */
 if (!defined('IN_PHPBB'))
 {
 	exit;
 }
 
-/**
-* DO NOT CHANGE
-*/
 if (empty($lang) || !is_array($lang))
 {
 	$lang = array();
@@ -58,9 +55,8 @@ if (empty($lang) || !is_array($lang))
 //
 
 $lang = array_merge($lang, array(
-	'RECACHE_MODERATORS'				=> 'Uppdatera moderatorer',
-	'RECACHE_MODERATORS_COMPLETE'		=> 'Moderatorerna har blivit uppdaterade.',
-	'RECACHE_MODERATORS_CONFIRM'		=> 'Är du säker på att du vill uppdatera alla moderatorer i cache-tabellen?',
+	'RESYNC_ATTACHMENTS'			=> 'Omsynkronisera bilagor',
+	'RESYNC_ATTACHMENTS_CONFIRM'	=> 'Detta verktyget kommer att kontrollera så att alla bilagor som användas faktiskt finns på servern. Om bilagan inte finns att hitta så kommer den att bli borttagen från inlägget. Är du säker på att du vill fortsätta?',
+	'RESYNC_ATTACHMENTS_FINISHED'	=> 'Bilagorna är nu omsynkroniserade!',
+	'RESYNC_ATTACHMENTS_PROGRESS'	=> 'Omsynkronisering av bilagor pågår, vänligen stör inte denna process.',
 ));
-
-?>

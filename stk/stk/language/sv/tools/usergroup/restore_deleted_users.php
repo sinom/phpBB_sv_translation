@@ -1,10 +1,27 @@
 <?php
 /**
 *
-* @package Support Toolkit - Restore Delted Users
-* @version $Id$
+* This file is part of Swedish STK translation.
+* Copyright (c) 2010 - 2011 Swedish translation group.
+*
+* This program is free software; you can redistribute it and/or modify
+* it under the terms of the GNU General Public License as published by
+* the Free Software Foundation; version 2 of the License.
+*
+* This program is distributed in the hope that it will be useful,
+* but WITHOUT ANY WARRANTY; without even the implied warranty of
+* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+* GNU General Public License for more details.
+*
+* You should have received a copy of the GNU General Public License along
+* with this program; if not, write to the Free Software Foundation, Inc.,
+* 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+*
+* @package    Support Toolkit - Restore Deleted Users
+* @author     Simon Assgård <sassgard@gmail.com> (Simon Assgård) http://www.phpbb-se.com/
 * @copyright (c) 2009 phpBB Group
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License
+* @license    http://opensource.org/licenses/gpl-license.php GNU Public License
+* @version    $Id$
 *
 */
 
@@ -38,18 +55,18 @@ if (empty($lang) || !is_array($lang))
 //
 
 $lang = array_merge($lang, array(
-	'NO_DELETED_USERS'	=> 'There are no deleted users that can be restored',
-	'NO_USER_SELECTED'	=> 'No users selected!',
+	'NO_DELETED_USERS'	=> 'Det finns inga användare som kan återställas',
+	'NO_USER_SELECTED'	=> 'Ingen användare är vald!',
 
-	'RESTORE_DELETED_USERS'						=> 'Restore Deleted Users',
-	'RESTORE_DELETED_USERS_CONFLICT'			=> 'Restore Deleted Users :: Conflicted',
-	'RESTORE_DELETED_USERS_CONFLICT_EXPLAIN'	=> 'This tool allows you to restore users that are deleted from the board but still have "guest" posts on the board.<br />These users will be assigned a random password that you must reset manually after the tool has ran. This tool doesn’t provide a list of generated passwords per user!<br /><br />During the last run this tool found some usernames that already exist on this board. Please provide a new name for these users.',
-	'RESTORE_DELETED_USERS_EXPLAIN'				=> 'This tool allows you to restore users that are deleted from the board but still have "guest" posts on the board.<br />These users will be assigned a random password that you must reset manually after the tool has ran. This tool doesn’t provide a list of generated passwords per user!',
+	'RESTORE_DELETED_USERS'						=> 'Återställ borttagen användare',
+	'RESTORE_DELETED_USERS_CONFLICT'			=> 'Återställ borttagen användare :: Konflikt',
+	'RESTORE_DELETED_USERS_CONFLICT_EXPLAIN'	=> 'Detta verktyget tillåter dig att återställa användare som har blivit borttagna men fortfarande har "gäst-inlägg" kvar på forumet. <br />Dessa användare tilldelas ett slummässigt lösenord som du måste återställa manuellt efter att verktyget är kört. Detta verktyget bistår inte med en lista av genererade lösneord per användare!<br /><br />Under senaste körningen fann detta verktyg användare som redan existerade på forumet. Vänligen fyll i ett nytt namn för dessa användare.',
+	'RESTORE_DELETED_USERS_EXPLAIN'				=> 'Detta verktyget tillåter dig att återställa användare som har blivit borttagna men fortfarande har "gäst-inlägg" kvar på forumet. <br />Dessa användare tilldelas ett slummässigt lösenord som du måste återställa manuellt efter att verktyget är kört. Detta verktyget bistår inte med en lista av genererade lösneord per användare!',
 
-	'SELECT_USERS'	=> 'Select users to restore',
+	'SELECT_USERS'	=> 'Markera användare som skall återställas',
 
-	'USER_RESTORED_SUCCESSFULLY'	=> 'The selected user has been restored successfully.',
-	'USERS_RESTORED_SUCCESSFULLY'	=> 'The selected users have been restored successfully.',
+	'USER_RESTORED_SUCCESSFULLY'	=> 'Den valda användaren har blivit återställd.',
+	'USERS_RESTORED_SUCCESSFULLY'	=> 'De valda användarna har blivit återställda.',
 ));
 
 ?>

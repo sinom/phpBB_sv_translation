@@ -2,7 +2,7 @@
 /**
 *
 * This file is part of Swedish STK translation.
-* Copyright (C) 2010 phpBB-se.com
+* Copyright (c) 2010 - 2011 Swedish translation group.
 *
 * This program is free software; you can redistribute it and/or modify
 * it under the terms of the GNU General Public License as published by
@@ -17,11 +17,11 @@
 * with this program; if not, write to the Free Software Foundation, Inc.,
 * 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
 *
-* @package   Support Toolkit
-* @author    Simon Assgård <sassgard@gmai.com> (Simon Assgård) http://www.phpbb-se.com/
+* @package    Support Toolkit - SQL Query
+* @author     Simon Assgård <sassgard@gmail.com> (Simon Assgård) http://www.phpbb-se.com/
 * @copyright (c) 2009 phpBB Group
-* @license   http://opensource.org/licenses/gpl-license.php GNU Public License
-* @version   $Id: common.php 482 2010-07-05 10:07:42Z erikfrerejean $
+* @license    http://opensource.org/licenses/gpl-license.php GNU Public License
+* @version    $Id$
 *
 */
 

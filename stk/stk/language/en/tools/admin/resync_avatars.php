@@ -1,24 +1,20 @@
 <?php
 /**
-*
-* @package Support Toolkit - Duplicate Permission Remover
-* @version $Id$
-* @copyright (c) 2009 phpBB Group
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License
-*
-*/
+ *
+ * @package Support Toolkit - Resync Avatars
+ * @copyright (c) 2009 phpBB Group
+ * @license http://opensource.org/licenses/gpl-license.php GNU Public License
+ *
+ */
 
 /**
-* DO NOT CHANGE
-*/
+ * DO NOT CHANGE
+ */
 if (!defined('IN_PHPBB'))
 {
 	exit;
 }
 
-/**
-* DO NOT CHANGE
-*/
 if (empty($lang) || !is_array($lang))
 {
 	$lang = array();
@@ -41,10 +37,9 @@ if (empty($lang) || !is_array($lang))
 //
 
 $lang = array_merge($lang, array(
-	'DUPLICATES_FOUND'						=> 'The tool has found and removed all duplicate permissions.',
-
-	'NO_DUPLICATES_FOUND'					=> 'The tool has finished checking for duplicate permissions and has found none.',
-
-	'REMOVE_DUPLICATE_PERMISSIONS'			=> 'Remove duplicate permissions',
-	'REMOVE_DUPLICATE_PERMISSIONS_CONFIRM'	=> 'Are you sure you want to remove the duplicate permissions?',
+	'RESYNC_AVATARS'			=> 'Resynchronise avatars',
+	'RESYNC_AVATARS_CONFIRM'	=> 'This tool will make sure that all avatars used on the board extually exist on the server. When missing files are found the avatar will be removed from the users profile. Are you sure you want to continue?',
+	'RESYNC_AVATARS_FINISHED'	=> 'Avatars successfully resynchronised!',
+	'RESYNC_AVATARS_NEXT_MODE'	=> 'Switching to the group avatars, please don’t interrupt this process!',
+	'RESYNC_AVATARS_PROGRESS'	=> 'Resynchronising avatars in process, please don’t interrupt this process!',
 ));

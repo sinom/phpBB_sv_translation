@@ -1,11 +1,29 @@
 <?php
 /**
- *
- * @package Support Toolkit - Flash checker
- * @copyright (c) 2009 phpBB Group
- * @license http://opensource.org/licenses/gpl-license.php GNU Public License
- *
- */
+*
+* This file is part of Swedish STK translation.
+* Copyright (c) 2010 - 2011 Swedish translation group.
+*
+* This program is free software; you can redistribute it and/or modify
+* it under the terms of the GNU General Public License as published by
+* the Free Software Foundation; version 2 of the License.
+*
+* This program is distributed in the hope that it will be useful,
+* but WITHOUT ANY WARRANTY; without even the implied warranty of
+* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+* GNU General Public License for more details.
+*
+* You should have received a copy of the GNU General Public License along
+* with this program; if not, write to the Free Software Foundation, Inc.,
+* 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+*
+* @package    Support Toolkit - Flash Checker
+* @author     Simon Assgård <sassgard@gmail.com> (Simon Assgård) http://www.phpbb-se.com/
+* @copyright (c) 2009 phpBB Group
+* @license    http://opensource.org/licenses/gpl-license.php GNU Public License
+* @version    $Id$
+*
+*/
 
 /**
  * DO NOT CHANGE
@@ -37,8 +55,8 @@ if (empty($lang) || !is_array($lang))
 //
 
 $lang = array_merge($lang, array(
-	'FLASH_CHECKER'				=> 'Flash checker',
-	'FLASH_CHECKER_CONFIRM'		=> 'In phpBB 3.0.7-pl1, a possible XSS vulnerability was found in the built-in flash BBCode. This issue was resolved in phpBB 3.0.8. This tool will check all posts, pms and signatures for this vulnerable BBCode. If found it allows you to quickly reparse these posts to make sure that your board is safe. Check <a href="http://www.phpbb.com/community/viewtopic.php?f=14&t=2111068">the phpBB 3.0.8 release announcement</a> for more information about the issue.',
-	'FLASH_CHECKER_FOUND'		=> 'The flash checker found some potentially dangerous flash bbcodes on your board. Click <a href="%s">here</a> to reparse the posts and private messages that contain this flash BBCode.',
-	'FLASH_CHECKER_NO_FOUND'	=> 'No potentially dangerous flash bbcodes found.',
+	'FLASH_CHECKER'				=> 'Flash-kontroll',
+	'FLASH_CHECKER_CONFIRM'		=> 'Det hittades en möjlig XSS-sårbarhet i den inbyggda flash BBkoden i 3.0.7-plp1. Detta årgärdades i phpBB 3.0.8. Detta verktyget kontrollerar alla inlägg, PMs och signaturer för denna sköra BBkod. Om denna BBkoden hittas så kommer den att omsynkronisera dessa inlägg för att säkerställa att ditt forum är säkert.',
+	'FLASH_CHECKER_FOUND'		=> 'Flash-kontrollen hittade några pontentiell farliga flash BBkoder på ditt forum. Klicka <a href="%s">här</a> för att omsynkronisera de inlägg och privata meddelanden som innehåller denna flash BBkod.',
+	'FLASH_CHECKER_NO_FOUND'	=> 'Inga potentiellt farliga flash BBkoder hittades.',
 ));

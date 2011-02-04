@@ -1,10 +1,27 @@
 <?php
 /**
 *
-* @package Support Toolkit - Anonymous group check
-* @version $Id: sanitize_anonymous_user.php 155 2009-06-13 20:06:09Z marshalrusty $
+* This file is part of Swedish STK translation.
+* Copyright (c) 2010 - 2011 Swedish translation group.
+*
+* This program is free software; you can redistribute it and/or modify
+* it under the terms of the GNU General Public License as published by
+* the Free Software Foundation; version 2 of the License.
+*
+* This program is distributed in the hope that it will be useful,
+* but WITHOUT ANY WARRANTY; without even the implied warranty of
+* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+* GNU General Public License for more details.
+*
+* You should have received a copy of the GNU General Public License along
+* with this program; if not, write to the Free Software Foundation, Inc.,
+* 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+*
+* @package    Support Toolkit - Anonymous Group Check
+* @author     Simon Assgård <sassgard@gmail.com> (Simon Assgård) http://www.phpbb-se.com/
 * @copyright (c) 2009 phpBB Group
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License
+* @license    http://opensource.org/licenses/gpl-license.php GNU Public License
+* @version    $Id$
 *
 */
 
@@ -38,21 +55,21 @@ if (empty($lang) || !is_array($lang))
 //
 
 $lang = array_merge($lang, array(
-	'ANONYMOUS_CLEANED'					=> 'The Anonymous user’s profile data has been successfully sanitised.',
-	'ANONYMOUS_CORRECT'					=> 'The Anonymous user exists and is correctly configured.',
-	'ANONYMOUS_CREATED'					=> 'The Anonymous user has been successfully re-created.',
-	'ANONYMOUS_CREATION_FAILED'			=> 'It was not possible to recreate the Anonymous user. Please ask for further assistance in the phpBB.com Support Forum.',
-	'ANONYMOUS_GROUPS_REMOVED'			=> 'The Anonymous user was successfully removed from all access groups.',
-	'ANONYMOUS_MISSING'					=> 'The Anonymous user is missing.',
-	'ANONYMOUS_MISSING_CONFIRM'			=> 'The Anonymous user is missing in your database. This user is used to allow guests to visit your board. Do you want to create a new one?',
-	'ANONYMOUS_WRONG_DATA'				=> 'The Anonymous user’s profile data is incorrect.',
-	'ANONYMOUS_WRONG_DATA_CONFIRM'		=> 'The Anonymous user’s profile data is partially incorrect. Would you like to repair this?',
-	'ANONYMOUS_WRONG_GROUPS'			=> 'The Anonymous user improperly belongs to multiple user groups.',
-	'ANONYMOUS_WRONG_GROUPS_CONFIRM'	=> 'The Anonymous user improperly belongs to multiple user groups. Would you like to remove the Anonymous user from all but the "GUESTS" group?',
+	'ANONYMOUS_CLEANED'					=> 'Den anonyma användarens profildata har blivit saniterad.',
+	'ANONYMOUS_CORRECT'					=> 'Den anonyma användaren finns och är korrekt konfigurerad.',
+	'ANONYMOUS_CREATED'					=> 'Den anonyma användaren har blivit återskapad.',
+	'ANONYMOUS_CREATION_FAILED'			=> 'Det gick inte att återskapa den anonyma användaren. Vänligen fråga efter ytterligare information på phpBB-se.com support forum.',
+	'ANONYMOUS_GROUPS_REMOVED'			=> 'Den anonyma användaren är nu borttagen från samtliga användargrupper.',
+	'ANONYMOUS_MISSING'					=> 'Den anonyma användaren saknas.',
+	'ANONYMOUS_MISSING_CONFIRM'			=> 'Den anonyma användaren saknas i din databas. Denna användaren används för att tillåta gäster att besöka ditt forum. Vill du skapa en ny sådan användare?',
+	'ANONYMOUS_WRONG_DATA'				=> 'Den anonyma användarens profildata är felaktig.',
+	'ANONYMOUS_WRONG_DATA_CONFIRM'		=> 'Den anonyma användarens profildata är delvis felaktig. Vill du åtgärda detta?',
+	'ANONYMOUS_WRONG_GROUPS'			=> 'Den anonyma användaren är felaktigt medlem i flera användargrupper.',
+	'ANONYMOUS_WRONG_GROUPS_CONFIRM'	=> 'Den anonyma användaren är felaktigt medlem i flera användargrupper. Vill du ta bort den anonyma användaren från samtliga grupper förutom gruppen "Gäster"?',
 
-	'REDIRECT_NEXT_STEP'				=> 'You are being redirected to the next step.',
+	'REDIRECT_NEXT_STEP'				=> 'Du blir vidarebefodrad till nästa steg.',
 
-	'SANITISE_ANONYMOUS_USER'			=> 'Sanitise Anonymous User',
+	'SANITISE_ANONYMOUS_USER'			=> 'Sanitera den anonyma användaren',
 ));
 
 ?>

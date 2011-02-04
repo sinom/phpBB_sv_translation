@@ -1,10 +1,27 @@
 <?php
 /**
 *
-* @package Support Toolkit - Database Cleaner
-* @version $Id$
+* This file is part of Swedish STK translation.
+* Copyright (c) 2010 - 2011 Swedish translation group.
+*
+* This program is free software; you can redistribute it and/or modify
+* it under the terms of the GNU General Public License as published by
+* the Free Software Foundation; version 2 of the License.
+*
+* This program is distributed in the hope that it will be useful,
+* but WITHOUT ANY WARRANTY; without even the implied warranty of
+* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+* GNU General Public License for more details.
+*
+* You should have received a copy of the GNU General Public License along
+* with this program; if not, write to the Free Software Foundation, Inc.,
+* 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+*
+* @package    Support Toolkit - Profile List
+* @author     Simon Assgård <sassgard@gmail.com> (Simon Assgård) http://www.phpbb-se.com/
 * @copyright (c) 2009 phpBB Group
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License
+* @license    http://opensource.org/licenses/gpl-license.php GNU Public License
+* @version    $Id$
 *
 */
 
@@ -38,75 +55,75 @@ if (empty($lang) || !is_array($lang))
 //
 
 $lang = array_merge($lang, array(
-	'BOARD_DISABLE_REASON'			=> 'The board is currently disabled due to some database maintenace. Please check back soon!',
-	'BOARD_DISABLE_SUCCESS'			=> 'The board has been disabled successfully!',
+	'BOARD_DISABLE_REASON'			=> 'Forumet är för nuvarande in-aktiverat på grund utav databas underhåll. Vänlig återkom senare!',
+	'BOARD_DISABLE_SUCCESS'			=> 'Forumet har blivit in-aktiverat!',
 
-	'COLUMNS'						=> 'Columns',
-	'CONFIG_SETTINGS'				=> 'Configuration Settings',
-	'CONFIG_UPDATE_SUCCESS'			=> 'The configuration settings have been updated successfully!',
-	'CONTINUE'						=> 'Continue',
+	'COLUMNS'						=> 'Kolumner',
+	'CONFIG_SETTINGS'				=> 'Konfigurations-inställningar',
+	'CONFIG_UPDATE_SUCCESS'			=> 'Konfigurations-inställningarna har blivit uppdaterade!',
+	'CONTINUE'						=> 'Fortsätt',
 
-	'DATABASE_CLEANER'				=> 'Database Cleaner',
-	'DATABASE_CLEANER_EXTRA'		=> 'Any others are extra items added by modifications.  <strong>If the check box is selected it will be removed</strong>.',
-	'DATABASE_CLEANER_MISSING'		=> 'Any fields with a red background like this are missing items that should be added.  <strong>If the check box is selected it will be added</strong>.',
-	'DATABASE_CLEANER_SUCCESS'		=> 'The database cleaner has successfully finished all tasks!<br /><br />Please be sure to backup your database again.',
-	'DATABASE_CLEANER_WARNING'		=> 'This tool comes with NO WARRANTY and users of this tool should back up their entire database in case of a failure.<br /><br />Before continuing, make sure you have a database backup!',
-	'DATABASE_CLEANER_WELCOME'		=> 'Welcome to the Database Cleaner tool!<br /><br />This tool was designed to remove extra columns, rows, and tables from the database not present in the default installation of phpBB3, and to add missing database elements that may be needed.<br /><br />When you are ready to continue click the Continue button to start using the Database Cleaner tool (note that your board will be disabled until this is finished).',
-	'DATABASE_COLUMNS_SUCCESS'		=> 'The database columns have been updated successfully!',
-	'DATABASE_TABLES'				=> 'Database Tables',
-	'DATABASE_TABLES_SUCCESS'		=> 'The database tables have been updated successfully!',
-	'DATAFILE_NOT_FOUND'			=> 'The Support Toolkit couldn’t find the required data-file for your phpBB version!',
+	'DATABASE_CLEANER'				=> 'Databas-rensaren',
+	'DATABASE_CLEANER_EXTRA'		=> 'Något utöver detta är modifikationer. <strong>Om kryss-rutan är ifylld så kommer dessa att tas bort</strong>.',
+	'DATABASE_CLEANER_MISSING'		=> 'Fält med en röd bakgrund, så som denna, saknar objekt som borde bli tilläggas. <strong>Om kryss-rutan är ifylld så kommer detta att läggas till</strong>.',
+	'DATABASE_CLEANER_SUCCESS'		=> 'Databas-rensaren är klar med samtliga uppgifter!<br /><br />Vänlig skapa en backup utav din databas igen.',
+	'DATABASE_CLEANER_WARNING'		=> 'Detta verktyg kommer helt utan GARANTI och användare utav detta verktyg borde skapa en backup utav hela deras databas, ut ifall någonting går snett.<br /><br />Innan du fortsätter, se till att du har en backup på din databas!',
+	'DATABASE_CLEANER_WELCOME'		=> 'Välkommen till Databas-rensaren-verktyget!<br /><br />Detta verktyget var designat för att ta bort extra kolumner, rader och tabeller från databasen som inte är standard i en phpBB-installation, samt att lägga till databas-objekt som saknas.<br /><br />När du är redo att fortsätta, klicka på Fortsätt-knappen för att börja använda Databas-rensaren-verktyget(notera att ditt forum kommer att in-aktiverat under tiden detta verktyget körs).',
+	'DATABASE_COLUMNS_SUCCESS'		=> 'Databas-kolumnerna har blivit tillagda!',
+	'DATABASE_TABLES'				=> 'Databastabeller',
+	'DATABASE_TABLES_SUCCESS'		=> 'Databastabellerna har blivit uppdaterade!',
+	'DATAFILE_NOT_FOUND'			=> 'Support Toolkit kunde inte hitta den data-filen som krävs för för din phpBB-version!',
 
-	'ERROR'							=> 'Error',
+	'ERROR'							=> 'Felmeddelande',
 	'EXTRA'							=> 'Extra',
 
-	'FINAL_STEP'					=> 'This is the final step.<br /><br />We will now re-enable your board and purge your board’s cache.',
+	'FINAL_STEP'					=> 'Detta är det sista steget.<br /><br />Vi kommer nu att aktivera ditt forum och tömma forumets cache.',
 
-	'INSTRUCTIONS'					=> 'Instructions',
+	'INSTRUCTIONS'					=> 'Instruktioner',
 
-	'MISSING'						=> 'Missing',
-	'MODULE_UPDATE_SUCCESS'			=> 'The modules have been updated successfully!',
+	'MISSING'						=> 'Saknas',
+	'MODULE_UPDATE_SUCCESS'			=> 'Modulerna har blivit uppdaterade!',
 
-	'NO_BOT_GROUP'					=> 'Could not reset the bots, missing Bot group.',
+	'NO_BOT_GROUP'					=> 'Kunde inte återställa bottarna, saknar Bot-gruppen.',
 
-	'PERMISSION_SETTINGS'			=> 'Permission Options',
-	'PERMISSION_UPDATE_SUCCESS'		=> 'The permission settings have been updated successfully!',
-	'PHPBB_VERSION_NOT_SUPPORTED'	=> 'Your version of phpBB3 is not supported (or some files from the Support Toolkit are missing).<br />phpBB 3.0.0+ should be supported, but it may take some time for this tool to be updated following the release of a new version of phpBB 3.0.',
+	'PERMISSION_SETTINGS'			=> 'Behörighetsinställningar',
+	'PERMISSION_UPDATE_SUCCESS'		=> 'Behörighetsinställningarna har blivit uppdaterade!',
+	'PHPBB_VERSION_NOT_SUPPORTED'	=> 'Din version utav phpBB3 stöds inte (eller så saknas några filer från Support-verktyget).<br />phpBB 3.0.0+ borde stödjas, men det kan ta en stund innan detta verktyget är uppdaterat för den senaste versionen utav phpBB.',
 
-	'QUIT'							=> 'Quit',
+	'QUIT'							=> 'Avsluta',
 
-	'RESET_BOTS'					=> 'Reset Bots',
-	'RESET_BOTS_EXPLAIN'			=> 'Would you like to reset the bots list to the default phpBB3 bot list?  All existing bots will be removed and be replaced with the default set.',
-	'RESET_BOTS_SKIP'				=> 'The bot reset has been skipped',
-	'RESET_BOT_SUCCESS'				=> 'The bots have been reset successfully!',
-	'RESET_MODULES'					=> 'Reset Modules',
-	'RESET_MODULES_EXPLAIN'			=> 'Would you like to reset the modules to the default phpBB3 modules?  All existing modules will be removed and be replaced with the default ones.',
-	'RESET_MODULES_SKIP'			=> 'The module reset has been skipped',
-	'RESET_MODULE_SUCCESS'			=> 'The modules have been reset successfully!',
-	'ROWS'							=> 'Rows',
+	'RESET_BOTS'					=> 'Återställ bottar',
+	'RESET_BOTS_EXPLAIN'			=> 'Vill du återställa bot-listan till standard-listan? Samtliga bottar kommer att tas bort, och ersättas med standard-listan utav bottar.',
+	'RESET_BOTS_SKIP'				=> 'Återställningen av bottarna har är överhoppad',
+	'RESET_BOT_SUCCESS'				=> 'Bottarna har blivit återställda!',
+	'RESET_MODULES'					=> 'Återställ moduler',
+	'RESET_MODULES_EXPLAIN'			=> 'Vill du återställa modulerna till phpBB3s standardmoduler? Samtliga moduler kommer att tas bort och ersättas med phpBB3s standardmoduler.',
+	'RESET_MODULES_SKIP'			=> 'Återställningen utav moduler är överhoppad',
+	'RESET_MODULE_SUCCESS'			=> 'Modulerna har blivit återställda!',
+	'ROWS'							=> 'Rader',
 
 	'SECTION_NOT_CHANGED_TITLE'		=> array(
-		1	=> 'Tables not changed',
-		2	=> 'Columns not changed',
-		3	=> 'Config not changed',
-		4	=> 'Permissions not changed',
-		5	=> 'Groups not changed',
-		8	=> 'Final step',
+		1	=> 'Oförändrade tabeller',
+		2	=> 'Oförändrade kolumner',
+		3	=> 'Oförändrad konfigurering',
+		4	=> 'Oförändrade behörigheter',
+		5	=> 'Oförändrade grupper',
+		8	=> 'Sista steget',
 	),
 	'SECTION_NOT_CHANGED_EXPLAIN'	=> array(
-		1	=> 'The database tables haven’t been changed',
-		2	=> 'The columns in the database haven’t been changed',
-		3	=> 'The configuration table doesn’t have any new/missing values',
-		4	=> 'There where no changes in the permission tables',
-		5	=> 'There where no changes in the phpBB system groups',
-		8	=> 'This last step will clear the cache and re-enable the board.',
+		1	=> 'Databastabellerna har inte blivit ändrade',
+		2	=> 'Kolumnerna i databasen har inte blivit ändrade',
+		3	=> 'Konfigurationstabellerna har inga nya/saknade värden',
+		4	=> 'Det fanns inga ändringar i behörighetstabellerna',
+		5	=> 'Det fanns inga ändringar i phpBBs systemgrupp',
+		8	=> 'Detta sista steget kommer att aktivera ditt forum och tömma forumets cache.',
 	),
-	'SUCCESS'						=> 'Success',
-	'SYSTEM_GROUP_UPDATE_SUCCESS'	=> 'The system groups have been reset successfully',
+	'SUCCESS'						=> 'Succé',
+	'SYSTEM_GROUP_UPDATE_SUCCESS'	=> 'Systemgrupperna har blivit återställda',
 
-	'TYPE'							=> 'Type',
+	'TYPE'							=> 'Typ',
 
-	'UNSTABLE_DEBUG_ONLY'			=> 'The database cleaner can only run on unstable phpBB versions <em>(dev, a, b, RC)</em>, when "DEBUG" is enabled through the phpBB config file.',
+	'UNSTABLE_DEBUG_ONLY'			=> 'Databas-rensaren kan endast köras på instabila phpBB-versioner <em>(dev, a, b, RC)</em>, när "DEBUG" är aktiverat i phpBBs konfig-fil.',
 ));
 
 ?>

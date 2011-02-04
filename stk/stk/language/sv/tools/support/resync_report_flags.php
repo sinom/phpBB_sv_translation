@@ -17,7 +17,7 @@
 * with this program; if not, write to the Free Software Foundation, Inc.,
 * 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
 *
-* @package    Support Toolkit - Recache Moderators
+* @package    Support Toolkit - Resync Report Flags
 * @author     Simon Assgård <sassgard@gmail.com> (Simon Assgård) http://www.phpbb-se.com/
 * @copyright (c) 2009 phpBB Group
 * @license    http://opensource.org/licenses/gpl-license.php GNU Public License
@@ -26,16 +26,13 @@
 */
 
 /**
-* DO NOT CHANGE
-*/
+ * DO NOT CHANGE
+ */
 if (!defined('IN_PHPBB'))
 {
 	exit;
 }
 
-/**
-* DO NOT CHANGE
-*/
 if (empty($lang) || !is_array($lang))
 {
 	$lang = array();
@@ -58,9 +55,8 @@ if (empty($lang) || !is_array($lang))
 //
 
 $lang = array_merge($lang, array(
-	'RECACHE_MODERATORS'				=> 'Uppdatera moderatorer',
-	'RECACHE_MODERATORS_COMPLETE'		=> 'Moderatorerna har blivit uppdaterade.',
-	'RECACHE_MODERATORS_CONFIRM'		=> 'Är du säker på att du vill uppdatera alla moderatorer i cache-tabellen?',
+	'RESYNC_REPORT_FLAGS'			=> 'Synkronisera rapportflaggor',
+	'RESYNC_REPORT_FLAGS_CONFIRM'	=> 'Detta verktyget kommer att synkronisera alla rapportflaggor för inlägg, trådar och privata meddelanden.',
+	'RESYNC_REPORT_FLAGS_FINISHED'	=> 'Alla rapportflaggor har blivit synkroniserade!',
+	'RESYNC_REPORT_FLAGS_NEXT'		=> 'Synkronisering av rapportflaggor pågår. Vänligen stör ej denna process',
 ));
-
-?>

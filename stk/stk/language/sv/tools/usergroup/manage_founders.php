@@ -1,10 +1,27 @@
 <?php
 /**
 *
-* @package Support Toolkit - Make Founder
-* @version $Id$
+* This file is part of Swedish STK translation.
+* Copyright (c) 2010 - 2011 Swedish translation group.
+*
+* This program is free software; you can redistribute it and/or modify
+* it under the terms of the GNU General Public License as published by
+* the Free Software Foundation; version 2 of the License.
+*
+* This program is distributed in the hope that it will be useful,
+* but WITHOUT ANY WARRANTY; without even the implied warranty of
+* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+* GNU General Public License for more details.
+*
+* You should have received a copy of the GNU General Public License along
+* with this program; if not, write to the Free Software Foundation, Inc.,
+* 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+*
+* @package    Support Toolkit - Manage Founders
+* @author     Simon Assgård <sassgard@gmail.com> (Simon Assgård) http://www.phpbb-se.com/
 * @copyright (c) 2009 phpBB Group
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License
+* @license    http://opensource.org/licenses/gpl-license.php GNU Public License
+* @version    $Id$
 *
 */
 
@@ -38,24 +55,24 @@ if (empty($lang) || !is_array($lang))
 //
 
 $lang = array_merge($lang, array(
-	'DEMOTE_FAILED'				=> 'Couldn’t remove founder status of all users!',
-	'DEMOTE_FOUNDERS'			=> 'Demote founders',
-	'DEMOTE_SUCCESSFULL'		=> 'Successfully removed the founder status of %d users!',
+	'DEMOTE_FAILED'				=> 'Kunde inte ta bort grundarstatus på alla användare!',
+	'DEMOTE_FOUNDERS'			=> 'Nedgradera grundare',
+	'DEMOTE_SUCCESSFULL'		=> 'Grundarstatus på användaren %d är borttaget!',
 
-	'FOUNDERS'					=> 'Users with founder status',
+	'FOUNDERS'					=> 'Användare med grundarstatus',
 
-	'MAKE_FOUNDER'				=> 'Make a user Board Founder',
-	'MAKE_FOUNDER_CONFIRM'		=> 'Are you sure you want to make <a href="%1$s">%2$s</a> a Board Founder?  This will give <a href="%1$s">%2$s</a> the ability to delete your account, among other powers.',
-	'MAKE_FOUNDER_FAILED'		=> 'Couldn’t promote this user to a founder',
-	'MAKE_FOUNDER_SUCCESS'		=> 'Successfully made <a href="%1$s">%2$s</a> a Board Founder.',
-	'MANAGE_FOUNDERS'			=> 'Manage board founders',
+	'MAKE_FOUNDER'				=> 'Gör en användare till grundare',
+	'MAKE_FOUNDER_CONFIRM'		=> 'Är du säker på att du vill göra <a href="%1$s">%2$s</a> till grundare?  Detta kommer att ge <a href="%1$s">%2$s</a> rättigheter att ta bort ditt konto.',
+	'MAKE_FOUNDER_FAILED'		=> 'Användaren kunde inte befodras till grundare',
+	'MAKE_FOUNDER_SUCCESS'		=> '<a href="%1$s">%2$s</a> är nu befodrad till grundare.',
+	'MANAGE_FOUNDERS'			=> 'Grundare',
 
-	'NO_FOUNDERS'				=> 'No Founders Found',
+	'NO_FOUNDERS'				=> 'Inga grundare hittades',
 
-	'PROMOTE_FOUNDER'			=> 'Promote to founder',
+	'PROMOTE_FOUNDER'			=> 'Befodra till grundare',
 
-	'USER_TO_FOUNDER'			=> 'User to make Founder',
-	'USER_TO_FOUNDER_EXPLAIN'	=> 'Enter the username or user ID of the user you would like to make a Board Founder.',
+	'USER_TO_FOUNDER'			=> 'Befodra användare till grundare',
+	'USER_TO_FOUNDER_EXPLAIN'	=> 'Skriv in användarnamnet eller de användare-ID för den användare du vill befodra till grundare.',
 ));
 
 ?>

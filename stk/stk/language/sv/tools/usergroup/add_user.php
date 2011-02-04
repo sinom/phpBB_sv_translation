@@ -1,10 +1,27 @@
 <?php
 /**
 *
-* @package Support Toolkit - Add User
-* @version $Id$
+* This file is part of Swedish STK translation.
+* Copyright (c) 2010 - 2011 Swedish translation group.
+*
+* This program is free software; you can redistribute it and/or modify
+* it under the terms of the GNU General Public License as published by
+* the Free Software Foundation; version 2 of the License.
+*
+* This program is distributed in the hope that it will be useful,
+* but WITHOUT ANY WARRANTY; without even the implied warranty of
+* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+* GNU General Public License for more details.
+*
+* You should have received a copy of the GNU General Public License along
+* with this program; if not, write to the Free Software Foundation, Inc.,
+* 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+*
+* @package    Support Toolkit - Add User
+* @author     Simon Assgård <sassgard@gmail.com> (Simon Assgård) http://www.phpbb-se.com/
 * @copyright (c) 2009 phpBB Group
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License
+* @license    http://opensource.org/licenses/gpl-license.php GNU Public License
+* @version    $Id$
 *
 */
 
@@ -38,18 +55,18 @@ if (empty($lang) || !is_array($lang))
 //
 
 $lang = array_merge($lang, array(
-	'ADD_USER'				=> 'Add user',
-	'ADD_USER_GROUP'		=> 'Add user to groups',
+	'ADD_USER'				=> 'Lägg till användare',
+	'ADD_USER_GROUP'		=> 'Lägg till användare till grupper',
 
-	'DEFAULT_GROUP'			=> 'Default group',
-	'DEFAULT_GROUP_EXPLAIN'	=> 'The default group for this user.',
+	'DEFAULT_GROUP'			=> 'Standardgrupp',
+	'DEFAULT_GROUP_EXPLAIN'	=> 'Standardgruppen för denna användare.',
 
-	'GROUP_LEADER'			=> 'Group leader',
-	'GROUP_LEADER_EXPLAIN'	=> 'Make this user the group leader of the selected groups.',
+	'GROUP_LEADER'			=> 'Gruppledare',
+	'GROUP_LEADER_EXPLAIN'	=> 'Gör denna användaren till ledare för valda grupper.',
 
-	'USER_ADDED'			=> 'The user was sucessfully created!',
-	'USER_GROUPS'			=> 'User groups',
-	'USER_GROUPS_EXPLAIN'	=> 'Make this user a member of the selected groups.',
+	'USER_ADDED'			=> 'Användaren är skapad!',
+	'USER_GROUPS'			=> 'Användargrupper',
+	'USER_GROUPS_EXPLAIN'	=> 'Gör denna användaren till medlem för valda grupper.',
 ));
 
 ?>

@@ -1,10 +1,27 @@
 <?php
 /**
 *
-* @package Support Toolkit - Update email hashes
-* @version $Id$
+* This file is part of Swedish STK translation.
+* Copyright (c) 2010 - 2011 Swedish translation group.
+*
+* This program is free software; you can redistribute it and/or modify
+* it under the terms of the GNU General Public License as published by
+* the Free Software Foundation; version 2 of the License.
+*
+* This program is distributed in the hope that it will be useful,
+* but WITHOUT ANY WARRANTY; without even the implied warranty of
+* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+* GNU General Public License for more details.
+*
+* You should have received a copy of the GNU General Public License along
+* with this program; if not, write to the Free Software Foundation, Inc.,
+* 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+*
+* @package    Support Toolkit - Update Email Hashes
+* @author     Simon Assgård <sassgard@gmail.com> (Simon Assgård) http://www.phpbb-se.com/
 * @copyright (c) 2009 phpBB Group
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License
+* @license    http://opensource.org/licenses/gpl-license.php GNU Public License
+* @version    $Id$
 *
 */
 
@@ -38,9 +55,9 @@ if (empty($lang) || !is_array($lang))
 //
 
 $lang = array_merge($lang, array(
-	'UPDATE_EMAIL_HASHES'				=> 'Update email hashes',
-	'UPDATE_EMAIL_HASHES_CONFIRM'		=> 'In phpBB installations prior to phpBB 3.0.7, a switch from a 32 bit OS to 64 bit would break email hashes. <em>(<a href="http://tracker.phpbb.com/browse/PHPBB3-9072">See the related bug report</a>)</em><br />This tool allows you update the hashes in the database so that they function properly.',
-	'UPDATE_EMAIL_HASHES_COMPLETE'		=> 'All email hashes have been updated successfully!',
-	'UPDATE_EMAIL_HASHES_NOT_COMPLETE'	=> 'Updating email hashes in progress.',
+	'UPDATE_EMAIL_HASHES'				=> 'Uppdatera e-post-strängar.',
+	'UPDATE_EMAIL_HASHES_CONFIRM'		=> 'I phpBB-installationer före phpBB 3.0.7, ett byte mellan 32-bitars OS och 64-bitars OS skulle bryta e-post-strängar.<em>(<a href="http://tracker.phpbb.com/browse/PHPBB3-9072">Se relaterad bug-rapport</a>)</em><br />Detta verktyg tillåter dig att uppdatera strängarna i databasen så att dom fungerar ordentligt.',
+	'UPDATE_EMAIL_HASHES_COMPLETE'		=> 'Alla e-post-strängar har blivit uppdaterade!',
+	'UPDATE_EMAIL_HASHES_NOT_COMPLETE'	=> 'Uppdatering utav e-post-strängar pågår.',
 ));
 ?>

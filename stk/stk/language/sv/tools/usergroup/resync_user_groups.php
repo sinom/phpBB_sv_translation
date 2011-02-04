@@ -17,7 +17,7 @@
 * with this program; if not, write to the Free Software Foundation, Inc.,
 * 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
 *
-* @package    Support Toolkit - Recache Moderators
+* @package    Support Toolkit - Resync User Groups
 * @author     Simon Assgård <sassgard@gmail.com> (Simon Assgård) http://www.phpbb-se.com/
 * @copyright (c) 2009 phpBB Group
 * @license    http://opensource.org/licenses/gpl-license.php GNU Public License
@@ -33,9 +33,6 @@ if (!defined('IN_PHPBB'))
 	exit;
 }
 
-/**
-* DO NOT CHANGE
-*/
 if (empty($lang) || !is_array($lang))
 {
 	$lang = array();
@@ -58,9 +55,18 @@ if (empty($lang) || !is_array($lang))
 //
 
 $lang = array_merge($lang, array(
-	'RECACHE_MODERATORS'				=> 'Uppdatera moderatorer',
-	'RECACHE_MODERATORS_COMPLETE'		=> 'Moderatorerna har blivit uppdaterade.',
-	'RECACHE_MODERATORS_CONFIRM'		=> 'Är du säker på att du vill uppdatera alla moderatorer i cache-tabellen?',
-));
+	'RESYNC_USER_GROUPS'			=> 'Synkronisera användargrupper',
+	'RESYNC_USER_GROUPS_EXPLAIN'	=> 'Detta verktyget kontrollerar utifall alla användare är medlemmar av de korrekta standardgrupperna <em>(Registrerade användare, Registrerade COPPA användare och Nya medlemmar)</em>',
+	'RESYNC_USER_GROUPS_NO_RUN'		=> 'Alla grupper verkar vara uppdaterade!',
+	'RESYNC_USER_GROUPS_SETTINGS'	=> 'Synkroniseringsinställningar',
+	'RUN_BOTH_FINISHED'				=> 'Alla användargrupper har blivit synkroniserade!',
+	'RUN_RNR'						=> 'Synkronisera nya medlemmar',
+	'RUN_RNR_EXPLAIN'				=> 'Detta kommer att uppdatera gruppen "Nya medlemmar" så att den innehåller alla användare som uppfyller dess kriterier specifierade i Administrationspanelen.',
+	'RUN_RNR_FINISHED'				=> 'Gruppen Nya medlemmar är synkroniserad!',
+	'RUN_RNR_NOT_FINISHED'			=> 'Gruppen Nya medlemmar håller på att synkroniseras. Vänligen stör ej denna process',
+	'RUN_RR'						=> 'Synkronisera registrerade användare',
+	'RUN_RR_EXPLAIN'				=> 'Detta verktyget har beslutat att alla användare på forumet inte är medverkande i gruppen "Registrerade <em>(COPPA)</em> användare. Vill du synkronisera dessa grupper?<br /><strong>Notera:</strong> Om ditt forum har COPPA aktiverat och en användare inte har fyllt i födelsedatum så kommer denna användaren bli placerad i gruppen "Registrerade COPPA användare!',
+	'RUN_RR_FINISHED'				=> 'Användarna har blivit synkroniserade!',
 
-?>
+	'SELECT_RUN_GROUP'	=> 'Välj minst en grupp som skall bli synrkoniserad.',
+));
