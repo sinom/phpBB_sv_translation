@@ -109,7 +109,7 @@ $lang = array_merge($lang, array(
 	'SUPPORT_TOOL_KIT_PASSWORD'			=> 'Lösenord',
 	'SUPPORT_TOOL_KIT_PASSWORD_EXPLAIN'	=> 'Eftersom du inte är inloggad på forumet, måste du verifiera att du är grundare genom att ange Support Toolkit-lösenordet.<br /><br /><strong>Kakor MÅSTE vara tillåtna av din browser, annars kommer du inte kunna stanna inloggad.</strong>',
 
-	'TOOL_INCLUTION_NOT_FOUND'			=> 'Detta verktyget för söker kalla på filen: (%1$s) som inte finns.',
+	'TOOL_INCLUTION_NOT_FOUND'			=> 'Detta verktyget försöker kalla på filen: (%1$s) som inte finns.',
 	'TOOL_NAME'							=> 'Verktygets namn',
 	'TOOL_NOT_AVAILABLE'				=> 'Det ansökta verktyget är inte tillgängligt.',
 
