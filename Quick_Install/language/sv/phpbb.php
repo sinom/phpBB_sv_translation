@@ -65,7 +65,7 @@ $lang = array_merge($lang, array(
 		'July'		=> 'Juli',
 		'August'	=> 'Augusti',
 		'September' => 'September',
-		'October'	=> 'October',
+		'October'	=> 'Oktober',
 		'November'	=> 'November',
 		'December'	=> 'December',
 
@@ -78,7 +78,7 @@ $lang = array_merge($lang, array(
 		'Jul'		=> 'Jul',
 		'Aug'		=> 'Aug',
 		'Sep'		=> 'Sep',
-		'Oct'		=> 'Oct',
+		'Oct'		=> 'Okt',
 		'Nov'		=> 'Nov',
 		'Dec'		=> 'Dec',
 	),
