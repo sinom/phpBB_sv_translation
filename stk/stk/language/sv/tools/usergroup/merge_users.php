@@ -56,7 +56,7 @@ if (empty($lang) || !is_array($lang))
 
 $lang = array_merge($lang, array(
 	'MERGE_USERS'						=> 'Slå samman användare',
-	'MERGE_USERS_EXPLAIN'				=> 'Detta verktyget flyttar en användares kontotillgångar till ett annat konto, ursprungsanvändarens inställningar och gruppmedlemskap blir kopierade. Tillgångar är användarrättigheter, bifogade filer, bannlysningar, bokmärken, utkast, forum/tråd bevakningar, inloggningar, omröstningingar, inlägg, privata meddelanden, rapporter, trådar, varningar samt vänner och fiender. ',
+	'MERGE_USERS_EXPLAIN'				=> 'Detta verktyget flyttar en användares kontotillgångar till ett annat konto, ursprungsanvändarens inställningar och gruppmedlemskap blir kopierade. Tillgångar är användarrättigheter, bifogade filer, bannlysningar, bokmärken, utkast, forum/tråd bevakningar, inloggningar, omröstningingar, inlägg, privata meddelanden, rapporter, trådar, varningar samt vänner och fiender.',
 
 	'MERGE_USERS_BOTH_FOUNDERS'	=> 'Du kan inte slå samman en grundare med en icke-grundare.',
 	'MERGE_USERS_BOTH_IGNORE'	=> 'Du kan inte slå samman en bot med en vanlig användare.',
@@ -64,7 +64,7 @@ $lang = array_merge($lang, array(
 	'MERGE_USERS_MERGED'		=> 'Användare är nu sammanslagna.',
 
 	'MERGE_USERS_REMOVE_SOURCE'			=> 'Ta bort ursprungsanvändaren',
-	'MERGE_USERS_REMOVE_SOURCE_EXPLAIN'	=> 'Väljs denna, så tas ursprungsanvändaren bort.',
+	'MERGE_USERS_REMOVE_SOURCE_EXPLAIN'	=> 'Väljer du denna, så tas ursprungsanvändaren bort.',
 
 	'MERGE_USERS_SAME_USERS'	=> 'Ursprungsanvändaren och målanvändaren får inte vara samma.',
 

@@ -56,7 +56,7 @@ if (empty($lang) || !is_array($lang))
 
 $lang = array_merge($lang, array(
 	'NO_RESULTS'					=> 'Inga resultat',
-	'NO_SQL_QUERY'					=> 'Du måste specifiera en fråga som skall köras.',
+	'NO_SQL_QUERY'					=> 'Du måste specificera en fråga som skall köras.',
 
 	'QUERY_RESULT'					=> 'Frågans resultat',
 

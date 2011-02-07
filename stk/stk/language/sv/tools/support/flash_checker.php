@@ -56,7 +56,7 @@ if (empty($lang) || !is_array($lang))
 
 $lang = array_merge($lang, array(
 	'FLASH_CHECKER'				=> 'Flash-kontroll',
-	'FLASH_CHECKER_CONFIRM'		=> 'Det hittades en möjlig XSS-sårbarhet i den inbyggda flash BBkoden i 3.0.7-plp1. Detta årgärdades i phpBB 3.0.8. Detta verktyget kontrollerar alla inlägg, PMs och signaturer för denna sköra BBkod. Om denna BBkoden hittas så kommer den att omsynkronisera dessa inlägg för att säkerställa att ditt forum är säkert.',
-	'FLASH_CHECKER_FOUND'		=> 'Flash-kontrollen hittade några pontentiell farliga flash BBkoder på ditt forum. Klicka <a href="%s">här</a> för att omsynkronisera de inlägg och privata meddelanden som innehåller denna flash BBkod.',
+	'FLASH_CHECKER_CONFIRM'		=> 'Det hittades en möjlig XSS-sårbarhet i den inbyggda flash BBkoden i 3.0.7-pl1. Detta åtgärdades i phpBB 3.0.8. Detta verktyget kontrollerar alla inlägg, PMs och signaturer efter denna sköra BBkod. Om denna BBkoden hittas så kommer den att omsynkronisera dessa inlägg för att säkerställa att ditt forum är säkert.',
+	'FLASH_CHECKER_FOUND'		=> 'Flash-kontrollen hittade några pontentiellt farliga flash BBkoder på ditt forum. Klicka <a href="%s">här</a> för att omsynkronisera de inlägg och privata meddelanden som innehåller denna flash BBkod.',
 	'FLASH_CHECKER_NO_FOUND'	=> 'Inga potentiellt farliga flash BBkoder hittades.',
 ));

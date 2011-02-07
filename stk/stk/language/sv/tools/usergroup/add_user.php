@@ -66,7 +66,7 @@ $lang = array_merge($lang, array(
 
 	'USER_ADDED'			=> 'Användaren är skapad!',
 	'USER_GROUPS'			=> 'Användargrupper',
-	'USER_GROUPS_EXPLAIN'	=> 'Gör denna användaren till medlem för valda grupper.',
+	'USER_GROUPS_EXPLAIN'	=> 'Gör denna användaren till medlem i valda grupper.',
 ));
 
 ?>

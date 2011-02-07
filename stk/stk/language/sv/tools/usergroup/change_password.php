@@ -62,7 +62,7 @@ $lang = array_merge($lang, array(
 	'PASSWORD_CONFIRM'			=> 'Upprepa lösenordet',
 
 	'USERNAMEID'				=> 'Användarnamn eller Användar-ID',
-	'USERNAMEID_EXPLAIN'		=> 'Skriv in användarnamnet eller de användar-ID på den användaren vars lösenord du vill ändra.',
+	'USERNAMEID_EXPLAIN'		=> 'Skriv in användarnamnet eller  användar-IDet på den användaren vars lösenord du vill ändra.',
 ));
 
 ?>

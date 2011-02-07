@@ -55,7 +55,7 @@ if (empty($lang) || !is_array($lang))
 //
 
 $lang = array_merge($lang, array(
-	'BOARD_DISABLE_REASON'			=> 'Forumet är för nuvarande in-aktiverat på grund utav databas underhåll. Vänlig återkom senare!',
+	'BOARD_DISABLE_REASON'			=> 'Forumet är för nuvarande in-aktiverat på grund utav databas underhåll. Vänligen återkom senare!',
 	'BOARD_DISABLE_SUCCESS'			=> 'Forumet har blivit in-aktiverat!',
 
 	'COLUMNS'						=> 'Kolumner',
@@ -65,14 +65,14 @@ $lang = array_merge($lang, array(
 
 	'DATABASE_CLEANER'				=> 'Databas-rensaren',
 	'DATABASE_CLEANER_EXTRA'		=> 'Något utöver detta är modifikationer. <strong>Om kryss-rutan är ifylld så kommer dessa att tas bort</strong>.',
-	'DATABASE_CLEANER_MISSING'		=> 'Fält med en röd bakgrund, så som denna, saknar objekt som borde bli tilläggas. <strong>Om kryss-rutan är ifylld så kommer detta att läggas till</strong>.',
-	'DATABASE_CLEANER_SUCCESS'		=> 'Databas-rensaren är klar med samtliga uppgifter!<br /><br />Vänlig skapa en backup utav din databas igen.',
-	'DATABASE_CLEANER_WARNING'		=> 'Detta verktyg kommer helt utan GARANTI och användare utav detta verktyg borde skapa en backup utav hela deras databas, ut ifall någonting går snett.<br /><br />Innan du fortsätter, se till att du har en backup på din databas!',
-	'DATABASE_CLEANER_WELCOME'		=> 'Välkommen till Databas-rensaren-verktyget!<br /><br />Detta verktyget var designat för att ta bort extra kolumner, rader och tabeller från databasen som inte är standard i en phpBB-installation, samt att lägga till databas-objekt som saknas.<br /><br />När du är redo att fortsätta, klicka på Fortsätt-knappen för att börja använda Databas-rensaren-verktyget(notera att ditt forum kommer att in-aktiverat under tiden detta verktyget körs).',
+	'DATABASE_CLEANER_MISSING'		=> 'Fält med en röd bakgrund, så som denna, saknar objekt som borde bli läggas till. <strong>Om kryss-rutan är ifylld så kommer detta att läggas till</strong>.',
+	'DATABASE_CLEANER_SUCCESS'		=> 'Databas-rensaren är klar med samtliga uppgifter!<br /><br />Vänligen skapa en backup utav din databas igen.',
+	'DATABASE_CLEANER_WARNING'		=> 'Detta verktyg kommer helt utan GARANTI och användare utav detta verktyg borde skapa en backup utav hela deras databas, utifall någonting går snett.<br /><br />Innan du fortsätter, se till att du har en backup på din databas!',
+	'DATABASE_CLEANER_WELCOME'		=> 'Välkommen till Databas-rensar-verktyget!<br /><br />Detta verktyget var designat för att ta bort extra kolumner, rader och tabeller från databasen som inte är standard i en phpBB-installation, samt att lägga till databas-objekt som saknas.<br /><br />När du är redo att fortsätta, klicka på Fortsätt-knappen för att börja använda Databas-rensar-verktyget(notera att ditt forum kommer att in-aktiveras under tiden detta verktyget körs).',
 	'DATABASE_COLUMNS_SUCCESS'		=> 'Databas-kolumnerna har blivit tillagda!',
 	'DATABASE_TABLES'				=> 'Databastabeller',
 	'DATABASE_TABLES_SUCCESS'		=> 'Databastabellerna har blivit uppdaterade!',
-	'DATAFILE_NOT_FOUND'			=> 'Support Toolkit kunde inte hitta den data-filen som krävs för för din phpBB-version!',
+	'DATAFILE_NOT_FOUND'			=> 'Support Toolkit kunde inte hitta den data-fil som krävs för din phpBB-version!',
 
 	'ERROR'							=> 'Felmeddelande',
 	'EXTRA'							=> 'Extra',
@@ -88,17 +88,17 @@ $lang = array_merge($lang, array(
 
 	'PERMISSION_SETTINGS'			=> 'Behörighetsinställningar',
 	'PERMISSION_UPDATE_SUCCESS'		=> 'Behörighetsinställningarna har blivit uppdaterade!',
-	'PHPBB_VERSION_NOT_SUPPORTED'	=> 'Din version utav phpBB3 stöds inte (eller så saknas några filer från Support-verktyget).<br />phpBB 3.0.0+ borde stödjas, men det kan ta en stund innan detta verktyget är uppdaterat för den senaste versionen utav phpBB.',
+	'PHPBB_VERSION_NOT_SUPPORTED'	=> 'Din version utav phpBB3 stöds inte (eller så saknas några filer från Support-verktyget).<br />phpBB 3.0.0+ borde stödjas, men det kan ta en stund innan detta verktyget är uppdaterat för den senaste versionen av phpBB.',
 
 	'QUIT'							=> 'Avsluta',
 
 	'RESET_BOTS'					=> 'Återställ bottar',
-	'RESET_BOTS_EXPLAIN'			=> 'Vill du återställa bot-listan till standard-listan? Samtliga bottar kommer att tas bort, och ersättas med standard-listan utav bottar.',
-	'RESET_BOTS_SKIP'				=> 'Återställningen av bottarna har är överhoppad',
+	'RESET_BOTS_EXPLAIN'			=> 'Vill du återställa bot-listan till standard? Samtliga bottar kommer att tas bort, och ersättas med standardlistan utav bottar.',
+	'RESET_BOTS_SKIP'				=> 'Hoppar över återställningen av bottarna',
 	'RESET_BOT_SUCCESS'				=> 'Bottarna har blivit återställda!',
 	'RESET_MODULES'					=> 'Återställ moduler',
 	'RESET_MODULES_EXPLAIN'			=> 'Vill du återställa modulerna till phpBB3s standardmoduler? Samtliga moduler kommer att tas bort och ersättas med phpBB3s standardmoduler.',
-	'RESET_MODULES_SKIP'			=> 'Återställningen utav moduler är överhoppad',
+	'RESET_MODULES_SKIP'			=> 'Hoppar över återställningen av moduler',
 	'RESET_MODULE_SUCCESS'			=> 'Modulerna har blivit återställda!',
 	'ROWS'							=> 'Rader',
 

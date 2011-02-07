@@ -56,9 +56,9 @@ if (empty($lang) || !is_array($lang))
 
 $lang = array_merge($lang, array(
 	'AUTO_COOKIES'				=> 'Auto-kakor (cookies)',
-	'AUTO_COOKIES_EXPLAIN'		=> 'Detta vertyget ger dig möjligheten att ändra forumets kak-inställningar. Dom förinställda inställningar borde vara korrekta i de flesta fall. Om du är osäker på inställningarna, vänligen sök hjälp i Supportforumen. Felaktiga inställningar kan hindra dig från att kunna logga in på ditt forum.',
+	'AUTO_COOKIES_EXPLAIN'		=> 'Detta verktyget ger dig möjligheten att ändra forumets kak-inställningar. Dom förinställda inställningarna borde vara korrekta i de flesta fall. Om du är osäker på inställningarna, vänligen sök hjälp i Supportforumen. Felaktiga inställningar kan hindra dig från att kunna logga in på ditt forum.',
 
-	'COOKIE_SETTINGS_UPDATED'	=> 'Kak-inställningarna updaterades.',
+	'COOKIE_SETTINGS_UPDATED'	=> 'Kak-inställningarna uppdaterades.',
 ));
 
 ?>

@@ -56,7 +56,7 @@ if (empty($lang) || !is_array($lang))
 
 $lang = array_merge($lang, array(
 	'FIX_LEFT_RIGHT_IDS'			=> 'Reparera Vänster/Höger IDs',
-	'FIX_LEFT_RIGHT_IDS_CONFIRM'	=> 'Är du säker på att du vill reparera vänster och höger IDs?<br /><br /><strong>Gör en backup på din databas för du använder detta verktyget!</strong>',
+	'FIX_LEFT_RIGHT_IDS_CONFIRM'	=> 'Är du säker på att du vill reparera vänster och höger IDs?<br /><br /><strong>Gör en backup av din databas före du använder detta verktyget!</strong>',
 
 	'LEFT_RIGHT_IDS_FIX_SUCCESS'	=> 'Vänster och höger IDs har blivit reparerade.',
 	'LEFT_RIGHT_IDS_NO_CHANGE'		=> 'Verktyget har gått igenom samtliga vänster och höger IDs och konstaterat att all rader var korrekta, så inga ändringar utfördes.',

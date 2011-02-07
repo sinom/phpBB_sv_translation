@@ -61,10 +61,10 @@ $lang = array_merge($lang, array(
 	'RESYNC_USER_GROUPS_SETTINGS'	=> 'Synkroniseringsinställningar',
 	'RUN_BOTH_FINISHED'				=> 'Alla användargrupper har blivit synkroniserade!',
 	'RUN_RNR'						=> 'Synkronisera nya medlemmar',
-	'RUN_RNR_EXPLAIN'				=> 'Detta kommer att uppdatera gruppen "Nya medlemmar" så att den innehåller alla användare som uppfyller dess kriterier specifierade i Administrationspanelen.',
+	'RUN_RNR_EXPLAIN'				=> 'Detta kommer att uppdatera gruppen "Nya medlemmar" så att den innehåller alla användare som uppfyller dess kriterier specificerade i Administrationspanelen.',
 	'RUN_RNR_FINISHED'				=> 'Gruppen Nya medlemmar är synkroniserad!',
 	'RUN_RNR_NOT_FINISHED'			=> 'Gruppen Nya medlemmar håller på att synkroniseras. Vänligen stör ej denna process',
-	'RUN_RR'						=> 'Synkronisera registrerade användare',
+	'RUN_RR'						=> 'Synkronisera Registrerade användare',
 	'RUN_RR_EXPLAIN'				=> 'Detta verktyget har beslutat att alla användare på forumet inte är medverkande i gruppen "Registrerade <em>(COPPA)</em> användare. Vill du synkronisera dessa grupper?<br /><strong>Notera:</strong> Om ditt forum har COPPA aktiverat och en användare inte har fyllt i födelsedatum så kommer denna användaren bli placerad i gruppen "Registrerade COPPA användare!',
 	'RUN_RR_FINISHED'				=> 'Användarna har blivit synkroniserade!',
 

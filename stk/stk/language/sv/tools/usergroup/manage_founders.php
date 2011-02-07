@@ -72,7 +72,7 @@ $lang = array_merge($lang, array(
 	'PROMOTE_FOUNDER'			=> 'Befodra till grundare',
 
 	'USER_TO_FOUNDER'			=> 'Befodra användare till grundare',
-	'USER_TO_FOUNDER_EXPLAIN'	=> 'Skriv in användarnamnet eller de användare-ID för den användare du vill befodra till grundare.',
+	'USER_TO_FOUNDER_EXPLAIN'	=> 'Skriv in användarnamnet eller användare-IDet för den användare du vill befodra till grundare.',
 ));
 
 ?>

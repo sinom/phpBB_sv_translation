@@ -59,20 +59,20 @@ if (empty($lang) || !is_array($lang))
 
 $lang = array_merge($lang, array(
 	'REPARSE_ALL'				=> 'Omtolka alla BBKoder',
-	'REPARSE_ALL_EXPLAIN'		=> 'När denna är ikryssad kommer BBkod-omtolkningen tolka om forumets totala innehåll; som standards så kommer verktyget endast att tolk om inlägg/privata meddelanden/signaturer som tidigare blivit tolkade av phpBB.',
-	'REPARSE_BBCODE'			=> 'Genomför omtolkning av BBkoden',
+	'REPARSE_ALL_EXPLAIN'		=> 'När denna är ikryssad kommer BBkod-omtolkningen tolka om forumets totala innehåll; som standard så kommer verktyget endast att tolka om inlägg/privata meddelanden/signaturer som tidigare blivit tolkade av phpBB.',
+	'REPARSE_BBCODE'			=> 'Genomför omtolkning av BBkoder',
 	'REPARSE_BBCODE_COMPLETE'	=> 'BBkoder är omtolkade.',
-	'REPARSE_BBCODE_CONFIRM'	=> 'Är du säker på att du vill omtolka alla BBkoder? Vänligen notera att detta verktyget kan potentiellt förstöra din databas. Använd därför inte detta verktyg <strong>före du har gjorten backup på din databas</strong>. Notera också att detta verktyg kan ta en stund att köras.',
-	'REPARSE_BBCODE_PROGRESS'	=> 'Steg %1$d färdigt. Börjar nu med steg %2$d...',
+	'REPARSE_BBCODE_CONFIRM'	=> 'Är du säker på att du vill omtolka alla BBkoder? Vänligen notera att detta verktyget kan potentiellt förstöra din databas. Använd därför inte detta verktyg <strong>före du har gjort en backup på din databas</strong>. Notera också att detta verktyg kan ta en stund att köras.',
+	'REPARSE_BBCODE_PROGRESS'	=> 'Steg %1$d är färdigt. Börjar nu med steg %2$d...',
 	'REPARSE_BBCODE_SWITCH_MODE'	=> array(
 		1	=> 'Färdig med omtolkningen av inlägg, fortsätter med privata meddanden.',
 		2	=> 'Färdig med omtolkningen av privata meddelanden, fortsätter med signaturer.',
 	),
-	'REPARSE_IDS_INVALID'			=> 'ID-numrerna du anvgav var inte korrekta; vänligen notera att inläggs IDs ska separeras med komma (e.x. 1,2,3,5,8,13).',
+	'REPARSE_IDS_INVALID'			=> 'ID-numren du angav var inte korrekta; vänligen notera att inlägg IDs ska separeras med komma (e.x. 1,2,3,5,8,13).',
 	'REPARSE_POST_IDS'				=> 'Omtolkning av specifika inlägg',
-	'REPARSE_POST_IDS_EXPLAIN'		=> 'För att tolka om specifika inlägg enbart, specifera inläggs-ID numrerna separerade med komma.',
+	'REPARSE_POST_IDS_EXPLAIN'		=> 'För att enbart tolka om specifika inlägg, specificera inläggs ID-numren separerade med komma.',
 	'REPARSE_PM_IDS'				=> 'Omtolkning av specifika PMs',
-	'REPARSE_PM_IDS_EXPLAIN'		=> 'För att endast tolka om PMs, separera PM ID-numrerna med komma (e.g. 1,2,3,5,8,13).',
+	'REPARSE_PM_IDS_EXPLAIN'		=> 'För att endast tolka om PMs, separera PM ID-numren med komma (e.g. 1,2,3,5,8,13).',
 ));
 
 ?>
