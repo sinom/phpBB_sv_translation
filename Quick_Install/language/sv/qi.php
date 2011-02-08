@@ -98,7 +98,6 @@ $lang = array_merge($lang, array(
 	'DBPORT' => 'Databasport',
 	'DBPORT_EXPLAIN' => 'Kan mestadels lämnas tomt.',
 	'DBUSER' => 'Databasanvändare',
-	'DBUSER_EXPLAIN' => 'Your database user. This needs to be a user with permissions to create new databases.',
 	'DBUSER_EXPLAIN' => 'Din databasanvändare. Detta behöver vara en användare med tillstånd att skapa nya databaser.',
 	'DEFAULT' => 'standard',
 	'DEFAULT_ENV' => 'Standardmiljö (senaste phpBB)',
@@ -253,7 +252,7 @@ $lang = array_merge($lang, array(
 		'Tack till phpBB communityn som inkluderas utav phpBB.com, startrekguide.com och phpBBModders.net!',
 	)) . '</li></ul>',
 	'WHO_WHEN' => 'Vem? När?',
-	'WHO_WHEN_EXPLAIN' => 'phpBB3 SnabbInstallation var från början skapad utav Igor “eviL&lt;3” Wiedler sommaren 2007. Det var delvis omskrivet av honom under Mars 2008.<br />Sedan Mars 2010 är detta projektet underhåll utav Jari “Tumba25” Kanerva.',
+	'WHO_WHEN_EXPLAIN' => 'phpBB3 SnabbInstallation var från början skapad utav Igor “eviL&lt;3” Wiedler sommaren 2007. Det var delvis omskrivet av honom under Mars 2008.<br />Sedan Mars 2010 är detta projektet underhåll utav Jari “tumba25” Kanerva.',
 	'WHY' => 'Varför?',
 	'WHY_EXPLAIN' => 'Precis som med phpBB2, om du gör mycket modifieringar (skapar modifieringar), så kan du inte placera alla moddar i en och samma phpBBinstallation. Så det är bäst att ha separerade installationer. Nu är problemet att det är ett hästjobb att kopiera alla filer och genomlida installationsprocessen hela tiden. För att snabba upp detta, uppfanns Snabbinstallationen.',
 ));
