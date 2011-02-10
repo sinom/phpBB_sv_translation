@@ -62,5 +62,3 @@ $lang = array_merge($lang, array(
 	'RECACHE_MODERATORS_COMPLETE'		=> 'Moderatorerna har blivit uppdaterade.',
 	'RECACHE_MODERATORS_CONFIRM'		=> 'Är du säker på att du vill uppdatera alla moderatorer i cache-tabellen?',
 ));
-
-?>

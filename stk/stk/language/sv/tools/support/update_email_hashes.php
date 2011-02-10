@@ -55,9 +55,8 @@ if (empty($lang) || !is_array($lang))
 //
 
 $lang = array_merge($lang, array(
-	'UPDATE_EMAIL_HASHES'				=> 'Uppdatera e-post-strängar.',
-	'UPDATE_EMAIL_HASHES_CONFIRM'		=> 'I phpBB-installationer före phpBB 3.0.7, så skulle ett byte mellan 32-bitars OS och 64-bitars OS bryta e-post-strängar.<em>(<a href="http://tracker.phpbb.com/browse/PHPBB3-9072">Se relaterad bug-rapport</a>)</em><br />Detta verktyg tillåter dig att uppdatera strängarna i databasen så att dom fungerar ordentligt.',
+	'UPDATE_EMAIL_HASHES'				=> 'Uppdatera e-post-strängar',
+	'UPDATE_EMAIL_HASHES_CONFIRM'		=> 'I phpBB-installationer före phpBB 3.0.7, så skulle ett byte mellan 32-bitars OS och 64-bitars OS bryta e-post-strängar.<em> (<a href="http://tracker.phpbb.com/browse/PHPBB3-9072">Se relaterad bug-rapport</a>)</em><br />Detta verktyg tillåter dig att uppdatera strängarna i databasen så att dom fungerar ordentligt.',
 	'UPDATE_EMAIL_HASHES_COMPLETE'		=> 'Alla e-post-strängar har blivit uppdaterade!',
 	'UPDATE_EMAIL_HASHES_NOT_COMPLETE'	=> 'Uppdatering av e-post-strängar pågår.',
 ));
-?>

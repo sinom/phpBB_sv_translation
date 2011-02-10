@@ -115,5 +115,3 @@ $lang = array_merge($lang, array(
 
 	'USING_STK_LOGIN'					=> 'Du är inloggad med den interna STK-verifieringsmetoden. Det är rekommenderat att <strong>endast</strong> använda denna metoden när du inte kan logga in på forumet.<br />För att inaktivera denna verifieringsmetod, klicka <a href="%1$s">här</a>.',
 ));
-
-?>

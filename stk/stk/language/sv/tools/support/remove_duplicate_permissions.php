@@ -62,8 +62,6 @@ $lang = array_merge($lang, array(
 
 	'NO_DUPLICATES_FOUND'					=> 'Verktyget har sökt färdigt efter behörigheterdubletter men fann inga.',
 
-	'REMOVE_DUPLICATE_PERMISSIONS'			=> 'Ta bort behörighetsdubletter.',
+	'REMOVE_DUPLICATE_PERMISSIONS'			=> 'Ta bort behörighetsdubletter',
 	'REMOVE_DUPLICATE_PERMISSIONS_CONFIRM'	=> 'Är du säker på att du vill ta bort alla behörighetsdubletter?',
 ));
-
-?>

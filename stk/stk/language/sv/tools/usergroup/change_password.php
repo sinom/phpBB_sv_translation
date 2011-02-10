@@ -64,5 +64,3 @@ $lang = array_merge($lang, array(
 	'USERNAMEID'				=> 'Användarnamn eller Användar-ID',
 	'USERNAMEID_EXPLAIN'		=> 'Skriv in användarnamnet eller  användar-IDet på den användaren vars lösenord du vill ändra.',
 ));
-
-?>

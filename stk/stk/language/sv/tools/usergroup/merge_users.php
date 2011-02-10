@@ -73,5 +73,3 @@ $lang = array_merge($lang, array(
 
 	'MERGE_USERS_USER_TARGET'	=> 'Målanvändare',
 ));
-
-?>

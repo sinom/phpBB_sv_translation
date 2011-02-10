@@ -67,5 +67,3 @@ $lang = array_merge($lang, array(
 	'PROFILE_LIST'			=> 'Profillista',
 	'PROFILE_LIST_EXPLAIN'	=> 'Detta verktyget visar profilinformation för flera användare. Det kan också hjälpa till att identifiera spamkonton.',
 ));
-
-?>

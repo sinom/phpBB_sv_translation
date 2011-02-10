@@ -60,5 +60,3 @@ $lang = array_merge($lang, array(
 
 	'COOKIE_SETTINGS_UPDATED'	=> 'Kak-inställningarna uppdaterades.',
 ));
-
-?>

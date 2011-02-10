@@ -61,5 +61,3 @@ $lang = array_merge($lang, array(
 	'LEFT_RIGHT_IDS_FIX_SUCCESS'	=> 'Vänster och höger IDs har blivit reparerade.',
 	'LEFT_RIGHT_IDS_NO_CHANGE'		=> 'Verktyget har gått igenom samtliga vänster och höger IDs och konstaterat att all rader var korrekta, så inga ändringar utfördes.',
 ));
-
-?>

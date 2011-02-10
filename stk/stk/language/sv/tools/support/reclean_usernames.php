@@ -63,5 +63,3 @@ $lang = array_merge($lang, array(
 	'RECLEAN_USERNAMES_CONFIRM'			=> 'Är du säker på att du vill rensa alla användarnamn?',
 	'RECLEAN_USERNAMES_NOT_COMPLETE'	=> 'Rensningen av användarnamn är ännu inte klar, vänligen avbryt ej processen.',
 ));
-
-?>

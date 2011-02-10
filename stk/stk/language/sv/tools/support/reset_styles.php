@@ -62,5 +62,3 @@ $lang = array_merge($lang, array(
 	'STYLE'					=> 'Stil',
 	'STYLE_EXPLAIN'			=> 'Välj den stil du vill ange som standard.',
 ));
-
-?>

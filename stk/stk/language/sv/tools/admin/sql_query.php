@@ -55,6 +55,8 @@ if (empty($lang) || !is_array($lang))
 //
 
 $lang = array_merge($lang, array(
+	'ERROR_QUERY'					=> 'Frågan innehåller felen',
+
 	'NO_RESULTS'					=> 'Inga resultat',
 	'NO_SQL_QUERY'					=> 'Du måste specificera en fråga som skall köras.',
 
@@ -67,5 +69,3 @@ $lang = array_merge($lang, array(
 	'SQL_QUERY_LEGEND'				=> 'SQL-fråga',
 	'SQL_QUERY_SUCCESS'				=> 'SQL-frågan är utförd.',
 ));
-
-?>

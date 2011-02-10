@@ -74,5 +74,3 @@ $lang = array_merge($lang, array(
 	'REPARSE_PM_IDS'				=> 'Omtolkning av specifika PMs',
 	'REPARSE_PM_IDS_EXPLAIN'		=> 'För att endast tolka om PMs, separera PM ID-numren med komma (e.g. 1,2,3,5,8,13).',
 ));
-
-?>

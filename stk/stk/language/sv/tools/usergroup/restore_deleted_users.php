@@ -68,5 +68,3 @@ $lang = array_merge($lang, array(
 	'USER_RESTORED_SUCCESSFULLY'	=> 'Den valda användaren har blivit återställd.',
 	'USERS_RESTORED_SUCCESSFULLY'	=> 'De valda användarna har blivit återställda.',
 ));
-
-?>

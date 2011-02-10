@@ -67,5 +67,3 @@ $lang = array_merge($lang, array(
 	'TUTORIAL'			=> 'Det här är en handledning',
 	'TUTORIAL_EXPLAIN'	=> 'Det här är en beskrivning till handledningen',
 ));
-
-?>

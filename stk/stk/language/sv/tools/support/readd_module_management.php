@@ -59,5 +59,3 @@ $lang = array_merge($lang, array(
 	'READD_MODULE_MANAGEMENT_CONFIRM'	=> 'Är du säker på att du vill återskapa modulerna till moduladministrationen i ACP?',
 	'READD_MODULE_MANAGEMENT_SUCCESS'	=> 'Modulerna är återskapade!',
 ));
-
-?>
