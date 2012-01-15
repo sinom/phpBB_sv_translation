@@ -29,7 +29,7 @@ if (empty($lang) || !is_array($lang))
 }
 
 $lang = array_merge($lang, array(
-	'TRANSLATION_INFO'	=> '',
+	'TRANSLATION_INFO'	=> 'New',
 	'DIRECTION'			=> 'ltr',
 	'DATE_FORMAT'		=> '|d M Y|',	// 01 Jan 2007
 	'USER_LANG'			=> 'sv',
