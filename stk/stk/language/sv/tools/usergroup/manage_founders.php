@@ -55,6 +55,8 @@ if (empty($lang) || !is_array($lang))
 //
 
 $lang = array_merge($lang, array(
+	'BOTH_FIELDS_FILLED'		=> 'Både Användarnamn och Användar ID får inte vara ifyllda.',
+	
 	'DEMOTE_FAILED'				=> 'Kunde inte ta bort grundarstatus på alla användare!',
 	'DEMOTE_FOUNDERS'			=> 'Nedgradera grundare',
 	'DEMOTE_SUCCESSFULL'		=> 'Grundarstatus på användaren %d är borttaget!',
@@ -71,6 +73,8 @@ $lang = array_merge($lang, array(
 
 	'PROMOTE_FOUNDER'			=> 'Befodra till grundare',
 
-	'USER_TO_FOUNDER'			=> 'Befodra användare till grundare',
-	'USER_TO_FOUNDER_EXPLAIN'	=> 'Skriv in användarnamnet eller användare-IDet för den användare du vill befodra till grundare.',
+	'USER_NAME_TO_FOUNDER'			=> 'Användarnamn som skall bli Grundare',
+	'USER_NAME_TO_FOUNDER_EXPLAIN'	=> 'Ange det Användarnamn på den användaren du vill göra till forumets Grundare.',
+	'USER_ID_TO_FOUNDER'			=> 'Användar ID som skall bli Grundare',
+	'USER_ID_TO_FOUNDER_EXPLAIN'	=> 'Ange det Användar ID på den användaren du vill göra till forumets Grundare.',
 ));

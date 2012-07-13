@@ -55,15 +55,18 @@ if (empty($lang) || !is_array($lang))
 //
 
 $lang = array_merge($lang, array(
-	'ALL'					=> 'Alla',
+	'ALL'											=> 'Alla',
+	'CLICK_TO_DELETE'					=> 'Ta bort alla valda användare genom att klicka på denna knapp. <em>(Försvinner permanent!)</em>',
+	'FILTER'										=> 'Filter',
 
-	'FILTER'				=> 'Filter',
+	'LIMIT'										=> 'Gräns',
 
-	'LIMIT'					=> 'Gräns',
+	'ONLY_NON_EMPTY'					=> 'Endast meddelanden', //Only Non-Empty
+	'ORDER_BY'								=> 'Sortera efter',
 
-	'ONLY_NON_EMPTY'		=> 'Endast meddelanden', //Only Non-Empty
-	'ORDER_BY'				=> 'Sortera efter',
-
-	'PROFILE_LIST'			=> 'Profillista',
-	'PROFILE_LIST_EXPLAIN'	=> 'Detta verktyget visar profilinformation för flera användare. Det kan också hjälpa till att identifiera spamkonton.',
+	'PROFILE_LIST'							=> 'Profillista',
+	'PROFILE_LIST_EXPLAIN'			=> 'Detta verktyget visar profilinformation för flera användare. Det kan också hjälpa till att identifiera spamkonton.',
+	'USERS_DELETE'						=> 'Ta bort valda användare',
+	'USERS_DELETE_CONFIRM'			=> 'Är du säker på att du vill ta bort valda användare? Genom att ta bort användare med detta verktyg <strong>kommer</strong> att ta bort deras inlägg också!',
+	'USERS_DELETE_SUCCESSFULL'	=> 'Alla valda användare är nu borttagna!',
 ));
