@@ -7,7 +7,7 @@
 * @version		$Id$
 * @copyright	(c) 2007, 2008 eviL3
 * @copyright	(c) 2010 Jari Kanerva (tumba25)
-* @translation	2010 - 2011 Sinom & Peetra @ http://phpbb-se.com
+* @translation	2010 - 2011 Sinom & Peetra @ http://phpbb-se.com/
 * @license		http://opensource.org/licenses/gpl-license.php GNU Public License
 *
 */
