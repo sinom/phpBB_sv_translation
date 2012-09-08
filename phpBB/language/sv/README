@@ -1,0 +1,11 @@
+Buggrapportera på 
+http://www.phpbb-se.com/forum/viewforum.php?f=22&
+---
+Installation
+Packa upp det nedladdade paketet. Använd ett FTP- eller SSH-protokoll för att ladda upp katalogerna:
+/language
+/styles
+till din server, in i din phpBB forumrot. När det är uppladdat, gå till Administrationspanelen och klicka på Språkpaket (Language Package) under System-fliken. Klicka på Installera i samma rad som du ser Swedish.
+---
+Uppdateringsguide
+Ladda ner den senaste versionen av språkpaketet, packa upp paketet och ladda sedan upp samtliga filer med ditt FTP-program till din forumroot. Skriv över de äldre befintliga filerna.
