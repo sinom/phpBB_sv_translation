@@ -9,7 +9,7 @@ Användarnamn: {USERNAME}
 Forumadress: {U_BOARD}
 ----------------------------
 
-Ditt lösenord har krypteras i vår databas och kan inte hämtas därifrån av oss. Om du glömmer ditt lösenord så kan du nollställa det och begära ett nytt till e-postadressen, som hör ihop med ditt konto.
+Ditt lösenord har krypterats i vår databas och kan inte hämtas därifrån av oss. Om du glömmer ditt lösenord så kan du nollställa det och begära ett nytt till e-postadressen, som hör ihop med ditt konto.
 
 Tack för att du registrerade dig.
 

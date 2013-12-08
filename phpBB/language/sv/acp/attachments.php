@@ -1,7 +1,7 @@
 <?php
 /** 
 *
-* acp_attachments [Swedish] (phpBB 3.0.10)
+* acp_attachments [Swedish] (phpBB 3.0.11)
 *
 * @package language
 * @version $Id: attachments.php 14 2010-11-18 21:10:09Z Peetra.mammapappa $
@@ -70,9 +70,9 @@ $lang = array_merge($lang, array(
 	'ATTACH_EXT_GROUPS_URL'				=> 'Filtypsgrupper',
 	'ATTACH_ID'							=> 'ID',
 	'ATTACH_MAX_FILESIZE'				=> 'Maximal filstorlek',
-	'ATTACH_MAX_FILESIZE_EXPLAIN'		=> 'Maximal storlek på för varje fil. Om detta värdet är 0 så blir filstorleken begränsad utav PHP-konfigurationen.',
+	'ATTACH_MAX_FILESIZE_EXPLAIN'		=> 'Maximal storlek på en fil som laddas upp i ett personligt meddelande. Om detta värde är 0, begränsas storleken på filen som ska laddas upp endast av din PHP-konfiguration.',
 	'ATTACH_MAX_PM_FILESIZE'			=> 'Maximal filstorlek för personliga meddelanden',
-	'ATTACH_MAX_PM_FILESIZE_EXPLAIN'	=> 'Maximal storlek för en fil i personliga meddelanden, 0 för obegränsat.',
+	'ATTACH_MAX_PM_FILESIZE_EXPLAIN'	=> 'Maximal storlek för en fil i personliga meddelanden. Om detta värde är 0, begränsas storleken på filen som ska laddas upp endast av din PHP-konfiguration.',
 	'ATTACH_ORPHAN_URL'					=> 'Föräldralösa bilagor',
 	'ATTACH_POST_ID'					=> 'Inläggs-ID',
 	'ATTACH_QUOTA'						=> 'Total bilagekvot',

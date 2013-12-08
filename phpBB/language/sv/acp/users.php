@@ -1,7 +1,7 @@
 <?php
 /** 
 *
-* acp_users [Swedish] (phpBB 3.0.10)
+* acp_users [Swedish] (phpBB 3.0.11)
 *
 * @package language
 * @version $Id: users.php 20 2010-11-27 17:06:46Z Peetra.mammapappa $
@@ -76,7 +76,7 @@ $lang = array_merge($lang, array(
 
 	'DELETE_POSTS'			=> 'Ta bort inlägg',
 	'DELETE_USER'			=> 'Ta bort användare',
-	'DELETE_USER_EXPLAIN'	=> 'Observera att om du tar bort en användare så är det slutgiltigt, de kan inte återställas. Ej lästa privata meddelanden skickade utav denna användaren kommer att bli borttagna och kommer inte att kunna läsas utav mottagaren.',
+	'DELETE_USER_EXPLAIN'	=> 'Observera att borttagande av användare är slutgiltigt, borttagna användare kan inte återställas. Olästa privata meddelanden skickade utav denna användaren kommer att bli borttagna och inte kunna läsas utav mottagaren',
 
 	'FORCE_REACTIVATION_SUCCESS'	=> 'Påtvingade återaktivering.',
 	'FOUNDER'						=> 'Grundare',
@@ -141,7 +141,7 @@ $lang = array_merge($lang, array(
 	'USER_GROUP_SPECIAL'			=> 'Fördefinierade grupper som användaren är medlem i',
 	'USER_LIFTED_NR'				=> 'Tog bort användarens status som ny medlem.',
 	'USER_NO_ATTACHMENTS'			=> 'Det finns inga bifogade filer att visa.',
-	'USER_NO_POSTS_TO_DELETE'		=> 'Användaren har inga inlägg att ta bort.',
+	'USER_NO_POSTS_TO_DELETE'			=> 'Användaren har inga inlägg att ta bort.',
 	'USER_OUTBOX_EMPTIED'			=> 'Användarens utkorg har tömts.',
 	'USER_OUTBOX_EMPTY'				=> 'Användarens utkorg var redan tom.',
 	'USER_OVERVIEW_UPDATED'			=> 'Användardetaljer uppdaterade.',

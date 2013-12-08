@@ -1,7 +1,7 @@
 <?php
 /** 
 *
-* viewtopic [Swedish] (phpBB 3.0.10)
+* viewtopic [Swedish] (phpBB 3.0.11)
 *
 * @package language
 * @version $Id: viewtopic.php 29 2012-01-09 16:08:11Z Peetra.mammapappa $

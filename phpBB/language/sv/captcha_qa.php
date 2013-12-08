@@ -1,7 +1,7 @@
 <?php
 /**
 *
-* captcha_qa[Swedish] (phpBB 3.0.10)
+* captcha_qa[Swedish] (phpBB 3.0.11)
 *
 * @package language
 * @version $Id: captcha_qa.php 20 2010-11-27 17:06:46Z Peetra.mammapappa $

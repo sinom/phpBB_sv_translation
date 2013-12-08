@@ -1,7 +1,7 @@
 <?php
 /** 
 *
-* posting [Swedish] (phpBB 3.0.10)
+* posting [Swedish] (phpBB 3.0.11)
 *
 * @package language
 * @version $Id: posting.php 2 2010-06-24 01:12:10Z tumba25 $
@@ -55,7 +55,7 @@ $lang = array_merge($lang, array(
 	'ADD_POLL'					=> 'Skapa omröstning',
 	'ADD_POLL_EXPLAIN'			=> 'Lämna dessa fält tomma om du inte vill ha en omröstning i din tråd.',
 	'ALREADY_DELETED'			=> 'Detta meddelande har redan tagits bort.',
-	'ATTACH_DISK_FULL'			=> 'Det finns inte med ledigt diskutrymme för att bifoga denna filen.',
+	'ATTACH_DISK_FULL'			=> 'Det finns inte tillräkligt ledigt diskutrymme for att posta denna bilaga.',
 	'ATTACH_QUOTA_REACHED'		=> 'Detta forums bilagekvot har uppnåtts, du kan inte ladda upp några filer.',
 	'ATTACH_SIG'				=> 'Infoga min signatur (signaturen kan ändras via kontrollpanelen)',
 
@@ -67,9 +67,9 @@ $lang = array_merge($lang, array(
 	'BBCODE_IS_OFF'				=> '%sBBCode%s är <em>AV</em>',
 	'BBCODE_IS_ON'				=> '%sBBCode%s är <em>PÅ</em>',
 	'BBCODE_I_HELP'				=> 'Kursiv text: [i]text[/i]',
-	'BBCODE_L_HELP'				=> 'Lista: [list]text[/list]',
- 	'BBCODE_LISTITEM_HELP'		=> 'Post i lista: [*]text[/*]',
-	'BBCODE_O_HELP'				=> 'Ordnad lista: [list=]text[/list]',
+	'BBCODE_L_HELP'				=> 'Lista: [list][*]text[/list]',
+ 	'BBCODE_LISTITEM_HELP'		=> 'Post i lista: [*]text',
+	'BBCODE_O_HELP'				=> 'Ordnad lista: [list=1]Del ett[/list] eller [list=a][*]Del a[/list]',
 	'BBCODE_P_HELP'				=> 'Infoga bild: [img]http://bild_url[/img]',
 	'BBCODE_Q_HELP'				=> 'Citera text: [quote]text[/quote]',
 	'BBCODE_S_HELP'				=> 'Textfärg: [color=red]text[/color]  Tips: du kan också använda color=#FF0000',

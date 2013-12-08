@@ -1,7 +1,7 @@
 <?php
 /**
 *
-* acp_board [Swedish] (phpBB 3.0.10)
+* acp_board [Swedish] (phpBB 3.0.11)
 *
 * @package language
 * @version $Id: board.php 36 2012-06-27 08:50:58Z Peetra.mammapappa $
@@ -125,10 +125,10 @@ $lang = array_merge($lang, array(
 	'AVATAR_GALLERY_PATH_EXPLAIN'	=> 'Sökväg under din phpBB-rotkatalog, t.ex. <samp>images/avatars/gallery</samp>.',
 	'AVATAR_STORAGE_PATH'			=> 'Sökväg till visningsbilder',
 	'AVATAR_STORAGE_PATH_EXPLAIN'	=> 'Sökväg under din phpBB-rotkatalog, t.ex. <samp>images/avatars/upload</samp>.',
-	'MAX_AVATAR_SIZE'				=> 'Maximala visningsbildsdimensioner',
+	'MAX_AVATAR_SIZE'				=> 'Maximala visningsbildsdimensioner. Om detta värde är 0, begränsas storleken på filen som ska laddas upp endast av din PHP-konfiguration',
 	'MAX_AVATAR_SIZE_EXPLAIN'		=> 'Bredd x höjd i pixlar.',
 	'MAX_FILESIZE'					=> 'Maximal filstorlek för visningsbilder',
-	'MAX_FILESIZE_EXPLAIN'			=> 'För uppladdade visningsbilder. Om detta värdet är 0 så blir filstorleken begränsad utav PHP-konfigurationen.',
+	'MAX_FILESIZE_EXPLAIN'			=> 'För uppladdade visningsbilder.',
 	'MIN_AVATAR_SIZE'				=> 'Minsta visningsbildsdimensioner',
 	'MIN_AVATAR_SIZE_EXPLAIN'		=> 'Bredd x höjd i pixlar.',
 ));

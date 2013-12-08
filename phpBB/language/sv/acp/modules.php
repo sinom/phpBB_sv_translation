@@ -1,7 +1,7 @@
 <?php
 /** 
 *
-* acp_modules [Swedish] (phpBB 3.0.10)
+* acp_modules [Swedish] (phpBB 3.0.11)
 *
 * @package language
 * @version $Id: modules.php 2 2010-06-24 01:12:10Z tumba25 $

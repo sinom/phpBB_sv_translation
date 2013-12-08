@@ -1,7 +1,7 @@
 <?php
 /** 
 *
-* acp_permissions [Swedish] (phpBB 3.0.10)
+* acp_permissions [Swedish] (phpBB 3.0.11)
 *
 * @package language
 * @version $Id: permissions.php 2 2010-06-24 01:12:10Z tumba25 $
@@ -186,7 +186,7 @@ $lang = array_merge($lang, array(
 	'ROLE_FORUM_POLLS'			=> 'Standardåtkomst + omröstningar',
 	'ROLE_FORUM_READONLY'		=> 'Endast läsåtkomst',
 	'ROLE_FORUM_STANDARD'		=> 'Standardåtkomst',
-	'ROLE_FORUM_NEW_MEMBER'		=> 'Nyregistreradåtkomst',
+	'ROLE_FORUM_NEW_MEMBER'		=> 'Nyregistrerad',
 	'ROLE_MOD_FULL'				=> 'Fullständig moderator',
 	'ROLE_MOD_QUEUE'			=> 'Kömoderator',
 	'ROLE_MOD_SIMPLE'			=> 'Enkel moderator',
@@ -196,7 +196,7 @@ $lang = array_merge($lang, array(
 	'ROLE_USER_NOAVATAR'		=> 'Ingen visningsbild',
 	'ROLE_USER_NOPM'			=> 'Inga personliga meddelanden',
 	'ROLE_USER_STANDARD'		=> 'Standardfunktioner',
-	'ROLE_USER_NEW_MEMBER'		=> 'Nyregistreradfunktioner',
+	'ROLE_USER_NEW_MEMBER'		=> 'Nyregistrerad',
 
 	'ROLE_DESCRIPTION_ADMIN_FORUM'			=> 'Har tillgång till kategorihantering och kategoribehörighetsinställningar.',
 	'ROLE_DESCRIPTION_ADMIN_FULL'			=> 'Har tillgång till alla administrativa funktioner på detta forum.<br />Rekommenderas inte.',
@@ -286,7 +286,7 @@ $lang = array_merge($lang, array(
 	'TRACE_WHO'								=> 'Vem',
 	'TRACE_TOTAL'							=> 'Totalt',
 
-	'USERS_NOT_ASSIGNED'			=> 'Inga användare är tilldelad denna roll',
+	'USERS_NOT_ASSIGNED'			=> 'Ingen användare är tilldelad denna roll',
 	'USER_IS_MEMBER_OF_DEFAULT'		=> 'är medlem i följande för-definierade grupper',
 	'USER_IS_MEMBER_OF_CUSTOM'		=> 'är medlem i följande användardefinierade grupper',
 

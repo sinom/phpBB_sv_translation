@@ -1,7 +1,7 @@
 <?php
 /**
 *
-* acp_groups [Swedish] (phpBB 3.0.10)
+* acp_groups [Swedish] (phpBB 3.0.11)
 *
 * @package language
 * @version $Id: groups.php 36 2012-06-27 08:50:58Z Peetra.mammapappa $

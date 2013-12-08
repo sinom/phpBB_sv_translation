@@ -1,7 +1,7 @@
 <?php
 /**
 *
-* common [Swedish] (phpBB 3.0.10)
+* common [Swedish] (phpBB 3.0.11)
 *
 * @package language
 * @version $Id: common.php 36 2012-06-27 08:50:58Z Peetra.mammapappa $
@@ -56,7 +56,7 @@ if (empty($lang) || !is_array($lang))
 // ’ » “ ” …
 //
 $lang = array_merge($lang, array(
-	'TRANSLATION_INFO'   => 'Swedish translation by <a href="http://www.phpbb-se.com/forum/viewtopic.php?t=6096">Peetra &amp; phpBB Sweden</a> &copy; 2006-2012',
+	'TRANSLATION_INFO'   => 'Swedish translation by <a href="http://www.phpbb.se/viewtopic.php?f=22&t=6096">phpBB Sweden</a> &copy; 2006-2013',
 	'DIRECTION'			=> 'ltr',
 	'DATE_FORMAT'		=> '|d M Y|',// 01 Jan 2012 (with Relative days enabled)
 	'USER_LANG'			=> 'sv',
@@ -176,6 +176,7 @@ $lang = array_merge($lang, array(
 	'EDIT_POST'							=> 'Redigera inlägg',
 	'EMAIL'								=> 'E-post',
 	'EMAIL_ADDRESS'						=> 'E-postadress',
+	'EMAIL_INVALID_EMAIL'				=> 'E-postadressen du angav är ogiltlig.',
 	'EMAIL_SMTP_ERROR_RESPONSE'			=> 'Fel uppstod vid skickning av e-post vid <strong>rad %1$s</strong>. Svar: %2$s.',
 	'EMPTY_SUBJECT'						=> 'Du måste ange ett ämne för att skapa en ny tråd.',
 	'EMPTY_MESSAGE_SUBJECT'				=> 'Du måste ange ett ämne för ditt meddelande.',
@@ -405,6 +406,7 @@ $lang = array_merge($lang, array(
 	'NO_POSTS_TIME_FRAME'		=> 'Inga inlägg finns i denna tråd inom den valda tidsramen.',
 	'NO_FEED_ENABLED'			=> 'Det går inte att prenumerera på flöden från detta forum.',
 	'NO_FEED'					=> 'Det begärda flödet är inte tillgängligt.',
+	'NO_STYLE_DATA'				=> 'Kunde inte hitta stildata',
 	'NO_SUBJECT'				=> 'Inget ämne angavs',								// Used for posts having no subject defined but displayed within management pages.
 	'NO_SUCH_SEARCH_MODULE'		=> 'Det valda söksystemet finns inte.',
 	'NO_SUPPORTED_AUTH_METHODS'	=> 'Inga verifieringsmetoder stöds.',
@@ -463,7 +465,7 @@ $lang = array_merge($lang, array(
 	'POST_TIME'				=> 'Inläggstid',
 	'POST_TOPIC'			=> 'Skapa en ny tråd',
 	'POST_UNAPPROVED'		=> 'Detta inlägg väntar på godkännande.',
-	'POWERED_BY'			=> 'Drivs av %s',
+	'POWERED_BY'			=> 'Powered by %s',
 	'PREVIEW'				=> 'Förhandsgranska',
 	'PREVIOUS'				=> 'Föregående',		// Used in pagination
 	'PREVIOUS_STEP'			=> 'Föregående',
@@ -472,8 +474,8 @@ $lang = array_merge($lang, array(
 	'PRIVATE_MESSAGES'		=> 'Personliga meddelanden',
 	'PRIVATE_MESSAGING'		=> 'Personliga meddelanden',
 	'PROFILE'				=> 'Kontrollpanel',
+	'RANK'				=> 'Titel',
 
-	'RANK'						=> 'Titel',
 	'READING_FORUM'				=> 'Visar trådar i %s',
 	'READING_GLOBAL_ANNOUNCE'	=> 'Läser globalt anslag',
 	'READING_LINK'				=> 'Följer kategorilänk %s',
@@ -580,10 +582,12 @@ $lang = array_merge($lang, array(
 	'SUBFORUMS'					=> 'Underkategorier',
 	'SUBJECT'					=> 'Ämne',
 	'SUBMIT'					=> 'Skicka',
+	'TB'						=> 'TB',
 
 	'TERMS_USE'			=> 'Användarvillkor',
 	'TEST_CONNECTION'	=> 'Testa anslutning',
 	'THE_TEAM'			=> 'Teamet',
+	'TIB'				=> 'TiB',
 	'TIME'				=> 'Tid',
 	'TOO_LARGE'			=> 'Värdet du angav är för stort.',
 	'TOO_LARGE_MAX_RECIPIENTS'		=> 'Värdet för <strong>maximalt antal tillåtna mottagare per privat meddelande</strong> överskrider det tillåtna.',
@@ -721,6 +725,7 @@ $lang = array_merge($lang, array(
 	'WHOIS'				=> 'Whois',
 	'WHO_IS_ONLINE'		=> 'Vilka är online',
 	'WRONG_PASSWORD'	=> 'Du angav ett felaktigt lösenord.',
+	'WRONG_DATA_COLOUR'			=> 'Färgen du angav är ogiltlig.',
 	'WRONG_DATA_ICQ'			=> 'Numret du angav är inte ett giltigt ICQ-nummer.',
 	'WRONG_DATA_JABBER'			=> 'Namnet du angav är inte ett giltigt Jabber-kontonamn.',
 	'WRONG_DATA_LANG'			=> 'Språket som du valde var felaktigt.',

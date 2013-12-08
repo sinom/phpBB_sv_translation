@@ -1,7 +1,7 @@
 <?php
 /** 
 *
-* acp_database [Swedish] (phpBB 3.0.10)
+* acp_database [Swedish] (phpBB 3.0.11)
 *
 * @package language
 * @version $Id: database.php 2 2010-06-24 01:12:10Z tumba25 $

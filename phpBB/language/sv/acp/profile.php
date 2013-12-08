@@ -1,7 +1,7 @@
 <?php
 /** 
 *
-* acp_profile [Swedish] (phpBB 3.0.10)
+* acp_profile [Swedish] (phpBB 3.0.11)
 *
 * @package language
 * @version $Id: profile.php 2 2010-06-24 01:12:10Z tumba25 $
@@ -147,9 +147,9 @@ $lang = array_merge($lang, array(
 	'ROWS'						=> 'Rader',
 
 	'SAVE'							=> 'Spara',
+ 	'SHOW_NOVALUE_FIELD'			=> 'Visa fältet om inget värde är valt.',
+ 	'SHOW_NOVALUE_FIELD_EXPLAIN'	=> 'Bestämmer om profilfältet skall visas ifall inget värde är valt för tillvalsfälten eller om inget värde än har valts för de obligatoriska fälten.',
 	'SECOND_OPTION'					=> 'Andra alternativet',
-	'SHOW_NOVALUE_FIELD'			=> 'Visa fältet om inget värde är valt.',
-	'SHOW_NOVALUE_FIELD_EXPLAIN'	=> 'Bestämmer utifall profilfältet skall visas om inget värde är valt för tillvals fälten eller om inget värde har valt för de fält som är krävda.',
 	'STEP_1_EXPLAIN_CREATE'			=> 'Här kan du ange de första grundläggande parametrarna för ditt nya profilfält. Denna information krävs för att kunna gå vidare till nästa steg där du kan ställa in återstående alternativ och ändra ditt profilfält ännu mer.',
 	'STEP_1_EXPLAIN_EDIT'			=> 'Här kan du ange de grundläggande parametrarna för ditt profilfält. De relevanta alternativen beräknas om i nästa steg.',
 	'STEP_1_TITLE_CREATE'			=> 'Lägg till profilfält',

@@ -1,7 +1,7 @@
 <?php
 /** 
 *
-* search [Swedish] (phpBB 3.0.10)
+* search [Swedish] (phpBB 3.0.11)
 *
 * @package language
 * @version $Id: search.php 36 2012-06-27 08:50:58Z Peetra.mammapappa $
@@ -92,6 +92,7 @@ $lang = array_merge($lang, array(
 
 	'SEARCHED_FOR'				=> 'Sökterm använd',
 	'SEARCHED_TOPIC'			=> 'Sökte inom tråd',
+	'SEARCHED_QUERY'			=> 'Sökte efter inmatningen',
 	'SEARCH_ALL_TERMS'			=> 'Sök efter resultat som matchar alla termer eller använd frågan som den är angiven',
 	'SEARCH_ANY_TERMS'			=> 'Sök efter resultat som matchar någon av termerna',
 	'SEARCH_AUTHOR'				=> 'Sök efter författare',

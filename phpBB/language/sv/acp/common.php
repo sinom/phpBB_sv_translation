@@ -1,7 +1,7 @@
 <?php
 /**
 *
-* acp common [Swedish] (phpBB 3.0.10)
+* acp common [Swedish] (phpBB 3.0.11)
 *
 * @package language
 * @version $Id: common.php 36 2012-06-27 08:50:58Z Peetra.mammapappa $
@@ -418,7 +418,7 @@ $lang = array_merge($lang, array(
 	'INACTIVE_REASON_UNKNOWN'		=> 'Okänt',
 	'INACTIVE_USERS'				=> 'Inaktiverade användare',
 	'INACTIVE_USERS_EXPLAIN'		=> 'Detta är en lista över användare som har registrerat sig men vars konton är inaktiverade. Du kan om du vill aktivera, ta bort eller påminna (genom e-post) dessa användare.',
-	'INACTIVE_USERS_EXPLAIN_INDEX'	=> 'Detta är en lista över de 10 senast registrerade användarna med inaktiverade konton. Konton är inaktiva antingen för att kontoaktivering var aktiverad under registreringsinställningarna och dessa användarnas konton har ej ännu blivit aktiverad eller för att dessa konton har blivit inaktiverad. En fullständig lista finns tillgänglig via menyn eller via länken nedan där du om du vill kan aktivera, ta bort eller påminna (via e-post) dessa användare.',
+	'INACTIVE_USERS_EXPLAIN_INDEX'	=> 'Detta är en lista över de 10 senast registrerade användarna med inaktiverade konton. Konton är inaktiva endera pga att kontoaktivering är aktiverat i inställningarna för användarregistrering och dessa konton ej ännu har aktiverats eller för att dessa konton har inaktiverats. En fullständig lista finns tillgänglig via menyn eller via länken nedan där du om du vill kan aktivera, ta bort eller påminna (genom att sända e-post) dessa användare.',
 
 	'NO_INACTIVE_USERS'	=> 'Inga inaktiverade användare',
 

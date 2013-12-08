@@ -1,7 +1,7 @@
 <?php
 /**
 *
-* mcp [Swedish] (phpBB 3.0.10)
+* mcp [Swedish] (phpBB 3.0.11)
 *
 * @package language
 * @version $Id: mcp.php 36 2012-06-27 08:50:58Z Peetra.mammapappa $

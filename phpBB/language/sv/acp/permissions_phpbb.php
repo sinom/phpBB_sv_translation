@@ -1,6 +1,6 @@
 <?php
 /** 
-* acp_permissions (phpBB Permission Set) [Swedish] (phpBB 3.0.10)
+* acp_permissions (phpBB Permission Set) [Swedish] (phpBB 3.0.11)
 *
 * @package language
 * @version $Id: permissions_phpbb.php 2 2010-06-24 01:12:10Z tumba25 $

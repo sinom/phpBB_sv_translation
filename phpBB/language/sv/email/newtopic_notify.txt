@@ -2,7 +2,7 @@ Subject: Meddelande om ny tråd — "{FORUM_NAME}"
 
 Hej {USERNAME},
 
-Du får detta meddelande för att du bevakar kategorin "{FORUM_NAME}" på "{SITENAME}". Det har skapats en ny tråd, "{TOPIC_TITLE}", i denna kategori sedan ditt senaste besök.
+Du får detta meddelande för att du bevakar kategorin "{FORUM_NAME}" på "{SITENAME}". Det har skapats en ny tråd<!-- IF AUTHOR_NAME !== '' --> av {AUTHOR_NAME}<!-- ENDIF --> sedan ditt senaste besök som heter "{TOPIC_TITLE}".
 Du kan använda följande länk för att besöka denna kategori, inga fler meddelanden kommer att skickas till dig förrän du besökt kategorin.
 
 {U_FORUM}

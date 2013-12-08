@@ -1,7 +1,7 @@
 <?php
 /** 
 *
-* help_faq [Swedish] (phpBB 3.0.10)
+* help_faq [Swedish] (phpBB 3.0.11)
 *
 * @package language
 * @version $Id: help_faq.php 2 2010-06-24 01:12:10Z tumba25 $
@@ -354,11 +354,11 @@ $help = array(
 	),
 	array(
 		0 => 'Vem har gjort detta forum?',
-		1 => 'Denna programvara (i sin oförändrade form) är producerad av, släppt av <a href="http://www.phpbb.com/">phpBB Group</a>, som innehar copyrighten. Den finns tillgänglig under GNU General Public Licence och får distribueras fritt. Se länken för mer information.'
+		1 => 'Denna programvara (i sin oförändrade form) är producerad av, släppt av <a href="https://www.phpbb.com/">phpBB Group</a>, som innehar copyrighten. Den finns tillgänglig under GNU General Public Licence och får distribueras fritt. Se länken för mer information.'
 	),
 	array(
 		0 => 'Varför finns inte funktionen X?',
-		1 => 'Denna programvara har gjorts och licensierats av phpBB Group. Om du anser att en funktion bör läggas till, eller om en bugg bör rapporteras så kan du vänligen besöka <a href="http://area51.phpbb.com/">Area51</a> där du kommer att finnas resurser för att göra detta.'
+		1 => 'Denna programvara har gjorts och licensierats av phpBB Group. Om du anser att en funktion bör läggas till eller vill rapportera en bugg, var vänlig och besök <a href="https://www.phpbb.com/ideas/">phpBB Idécenter</a>, där du kommer att hitta verktyg för att göra så.'
 	),
 	array(
 		0 => 'Vem ska jag kontakta med juridiska ärenden angående detta forum?',

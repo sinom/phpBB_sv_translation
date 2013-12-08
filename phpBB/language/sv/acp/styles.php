@@ -1,7 +1,7 @@
 <?php
 /** 
 *
-* acp_styles [Swedish] (phpBB 3.0.10)
+* acp_styles [Swedish] (phpBB 3.0.11)
 *
 * @package language
 * @version $Id: styles.php 36 2012-06-27 08:50:58Z Peetra.mammapappa $
@@ -282,8 +282,8 @@ $lang = array_merge($lang, array(
 	'IMG_USER_ICON8'		=> 'Användardefinierad bild 8',
 	'IMG_USER_ICON9'		=> 'Användardefinierad bild 9',
 	'IMG_USER_ICON10'		=> 'Användardefinierad bild 10',
+	'INACTIVE_STYLES'		=> 'Inaktiva stilar',
 
-	'INACTIVE_STYLES'			=> 'Inaktiva stilar',
 	'INCLUDE_DIMENSIONS'		=> 'Inkludera dimensioner',
 	'INCLUDE_IMAGESET'			=> 'Inkludera bildpaket',
 	'INCLUDE_TEMPLATE'			=> 'Inkludera mall',

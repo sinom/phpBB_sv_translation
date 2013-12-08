@@ -1,7 +1,7 @@
 <?php
 /** 
 *
-* ucp [Swedish] (phpBB 3.0.10)
+* ucp [Swedish] (phpBB 3.0.11)
 *
 * @package language
 * @version $Id: ucp.php 36 2012-06-27 08:50:58Z Peetra.mammapappa $
@@ -52,7 +52,7 @@ if (empty($lang) || !is_array($lang))
 $lang = array_merge($lang, array(
 	'TERMS_OF_USE_CONTENT'	=> 'Genom att besöka “%1$s” (hädanefter “vi”, “oss”, “vår”, “%1$s”, “%2$s”), så godkänner du att du binder dig juridiskt till följande avtal. Om du inte godkänner följande avtal, besök inte eller använd inte “%1$s”. Vi kan ändra detta avtal när som helst och vi kommer att göra allt för att informera dig om ändringar, men det vore klokt av dig att granska denna sida regelbundet på egen hand eftersom fortsatt användning av “%1$s” även efter ändringar innebär att du godkänner att du är juridiskt bunden till detta avtal.<br />
 	<br />
-	Vårt forum drivs av phpBB (hädanefter “de”, “dem”, “deras”, “phpBB mjukvara”, “www.phpbb.com”, “phpBB Group”, “phpBB Teams”) som är en forumprogramvara tillgänglig under “<a href="http://opensource.org/licenses/gpl-license.php">General Public License</a>” (hädanefter “GPL”) och kan laddas ner från <a href="http://www.phpbb.com/">www.phpbb.com</a>. phpBB mjukvaran främjar endast Internetbaserade diskussioner, phpBB Group är inte ansvariga för vad vi tillåter och/eller förbjuder för innehåll och/eller uppförande. För mer information om phpBB, besök <a href="http://www.phpbb.com/">http://www.phpbb.com/</a>.<br />
+	Vårt forum drivs av phpBB (hädanefter “de”, “dem”, “deras”, “phpBB mjukvara”, “www.phpbb.com”, “phpBB Group”, “phpBB Teams”) som är en forumprogramvara tillgänglig under “<a href="http://opensource.org/licenses/gpl-license.php">General Public License</a>” (hädanefter “GPL”) och kan laddas ner från <a href="https://www.phpbb.com/">www.phpbb.com</a>. phpBB mjukvaran främjar endast Internetbaserade diskussioner, phpBB Group är inte ansvariga för vad vi tillåter och/eller förbjuder för innehåll och/eller uppförande. För mer information om phpBB, besök <a href="https://www.phpbb.com/">https://www.phpbb.com/</a>.<br />
 	<br />
 	Du går med på att inte posta något grovt, obscent, vulgärt, förtalande, hatiskt, hotande, sexuellt orienterat eller något annat material som kan bryta mot lagarna i ditt land, lagar i landet där “%1$s” finns, eller internationell lag. Om du bryter mot detta så kan det leda till omedelbar och permanent bannlysning samt att vi kontaktar din Internetleverantör. IP-adressen för alla inlägg sparas. Du går med på att “%1$s” har rätten att ta bort, redigera, flytta eller stänga vilka trådar som helst, när som helst. Som användare godkänner du att all information du skriver in sparas i en databas. Denna information kommer inte att delges till någon tredje part utan ditt samtycke, men varken “%1$s” eller phpBB kan hållas ansvariga för eventuella intrångsförsök som kan leda till att information komprometteras.
 	',
@@ -149,8 +149,8 @@ $lang = array_merge($lang, array(
 	'CREATE_FOLDER'				=> 'Lägg till  mapp…',
 	'CURRENT_IMAGE'				=> 'Nuvarande bild',
 	'CURRENT_PASSWORD'			=> 'Nuvarande lösenord',
-	'CURRENT_PASSWORD_EXPLAIN'	=> 'Du måste bekräfta med ditt nuvarande lösenord om du vill byta lösenord, e-postadress eller användarnamn.',
-	'CURRENT_CHANGE_PASSWORD_EXPLAIN' => 'För att ändra ditt lösenord, din e-post adress eller ditt användarnamn behöver du ange ditt nuvarande lösenord.',
+	'CURRENT_PASSWORD_EXPLAIN'	=> 'Du måste bekräfta med ditt nuvarande lösenord för att byta lösenord, e-postadress eller användarnamn.',
+	'CURRENT_CHANGE_PASSWORD_EXPLAIN' => 'Skriv in ditt nuvarande lösenord om du vill byta lösenord, e-postadress eller användarnamn.',
 	'CUR_PASSWORD_EMPTY'		=> 'Du angav inte ditt nuvarande lösenord.',
 	'CUR_PASSWORD_ERROR'		=> 'Lösenordet du angav är felaktigt.',
 	'CUSTOM_DATEFORMAT'			=> 'Eget…',
@@ -188,7 +188,7 @@ $lang = array_merge($lang, array(
 
 	'EDIT_DRAFT_EXPLAIN'		=> 'Här kan du redigera dina utkast. Utkasten innehåller ingen bilage- eller omröstningsinformation.',
 	'EMAIL_BANNED_EMAIL'		=> 'E-postadressen du angav får inte användas.',
-	'EMAIL_INVALID_EMAIL'		=> 'E-postadressen du angav är ogiltig.',
+
 	'EMAIL_REMIND'				=> 'Detta måste vara e-postadressen som är associerad med ditt konto. Om du inte har ändrat den via kontrollpanelen så är detta e-postadressen som du registrerade ditt konto med.',
 	'EMAIL_TAKEN_EMAIL'			=> 'Den angivna e-postadressen används redan av en annan användare.',
 	'EMPTY_DRAFT'				=> 'Du måste skriva ett meddelande för att spara dina ändringar.',
@@ -268,8 +268,9 @@ $lang = array_merge($lang, array(
 	'MESSAGE_BY_AUTHOR'				=> 'från',
 	'MESSAGE_COLOURS'				=> 'Meddelandefärger',
 	'MESSAGE_DELETED'				=> 'Meddelandet togs bort.',
+	'MESSAGE_EDITED'				=> 'Meddelandet redigerades.',
 	'MESSAGE_HISTORY'				=> 'Meddelandehistorik',
-	'MESSAGE_REMOVED_FROM_OUTBOX'	=> 'Detta meddelande togs bort av dess författare innan det levererats.',
+	'MESSAGE_REMOVED_FROM_OUTBOX'	=> 'Detta meddelande togs bort av dess författare.',
 	'MESSAGE_SENT_ON'				=> '',
 	'MESSAGE_STORED'				=> 'Meddelandet skickades.',
 	'MESSAGE_TO'					=> 'Till',
@@ -397,7 +398,7 @@ $lang = array_merge($lang, array(
 	'RULE_ADDED'						=> 'Lade till regel.',
 	'RULE_ALREADY_DEFINED'				=> 'Denna regel fanns redan.',
 	'RULE_DELETED'						=> 'Tog bort regel.',
-	'RULE_LIMIT_REACHED'				=> 'Du kan inte lägga till fler PM-regler. Du har nått det maximala antalet regler.',
+ 	'RULE_LIMIT_REACHED'				=> 'Du kan inte lägga till fler PM-regler. Du har nått det maximala antalet regler.',
 	'RULE_NOT_DEFINED'					=> 'Regeln är felaktig.',
 	'RULE_REMOVED_MESSAGE'				=> 'Ett personligt meddelande togs bort enligt angiven regel.',
 	'RULE_REMOVED_MESSAGES'				=> '%d personliga meddelanden togs bort enligt angiven regel.',

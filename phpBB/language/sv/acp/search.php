@@ -1,7 +1,7 @@
 <?php
 /** 
 *
-* acp_search [Swedish] (phpBB 3.0.10)
+* acp_search [Swedish] (phpBB 3.0.11)
 *
 * @package language
 * @version $Id: search.php 17 2010-11-25 05:38:16Z Peetra.mammapappa $
@@ -70,7 +70,7 @@ $lang = array_merge($lang, array(
 	'DELETING_INDEX_IN_PROGRESS_EXPLAIN'	=> 'Söksystemet rensar för närvarande indexet. Detta kan ta några minuter.',
 
 	'FULLTEXT_MYSQL_INCOMPATIBLE_VERSION'	=> 'MySQL fulltextsystemet kan endast användas med MySQL4 och senare.',
-	'FULLTEXT_MYSQL_NOT_MYISAM'				=> 'MySQL fulltextindex kan endast användas med MyISAM tabeller.',
+	'FULLTEXT_MYSQL_NOT_SUPPORTED'			=> 'MySQL fulltextindex kan endast användas med MyISAM eller InnoDB tabeller. MySQL 5.6.4 eller senare krävs för fulltext indexering på InnoDB tabeller.',
 	'FULLTEXT_MYSQL_TOTAL_POSTS'			=> 'Totalt antal indexerade inlägg',
 	'FULLTEXT_MYSQL_MBSTRING'				=> 'Stöd för icke-latinska UTF-8 tecken genom mbstring:',
 	'FULLTEXT_MYSQL_PCRE'					=> 'Stöd för icke-latinska UTF-8 tecken genom PCRE:',
