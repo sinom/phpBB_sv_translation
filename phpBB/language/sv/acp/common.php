@@ -529,7 +529,7 @@ $lang = array_merge($lang, array(
 
 	'LOG_APPROVE_TOPIC'			=> '<strong>Godkände tråd</strong><br />» %s',
 	'LOG_BUMP_TOPIC'			=> '<strong>Användare knuffade upp tråd</strong><br />» %s',
-	'LOG_DELETE_POST'			=> '<strong>Tog bort inlägg</strong><br />» %s',
+	'LOG_DELETE_POST'			=> '<strong>Tog bort inlägget “%1$s” skrivet utav </strong><br />» %2$s',
 	'LOG_DELETE_SHADOW_TOPIC'	=> '<strong>Tog bort skuggtråd</strong><br />» %s',
 	'LOG_DELETE_TOPIC'			=> '<strong>Tog bort tråd “%1$s” skriven av</strong><br />» %2$s',
 	'LOG_FORK'					=> '<strong>Kopierade tråd</strong><br />» från %s',

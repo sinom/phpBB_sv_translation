@@ -185,7 +185,9 @@ $lang = array_merge($lang, array(
 	'FILES_REQUIRED_EXPLAIN'	=> '<strong>Obligatoriskt</strong> - För att phpBB ska fungera korrekt så måste phpBB kunna komma åt eller skriva till vissa filer och kataloger. Om du ser “Hittas inte” nedan så måste du skapa den relevanta filen eller katalogen. Om du ser “Ej skrivbar” nedan så måste du ändra behörigheterna på filen eller katalogen så att phpBB kan skriva till den.',
 	'FILLING_TABLE'				=> 'Fyller tabell <strong>%s</strong>',
 	'FILLING_TABLES'			=> 'Fyller tabeller',
+	
 	'FIREBIRD_DBMS_UPDATE_REQUIRED'		=> 'phpBB stöder inte längre tidigare versioner av Firebird/Interbase än 2.1. Var god uppdatera din Firebird till version 2.1.0. före du fortsätter din uppdatering av phpBB3',
+	
 	'FINAL_STEP'				=> 'Utför sista steget',
 	'FORUM_ADDRESS'				=> 'Forumadress',
 	'FORUM_ADDRESS_EXPLAIN'		=> 'Detta är URL:en till ditt föregående forum, till exempel <samp>http://www.example.com/phpBB2/</samp>. Om en adress skrivs in här och detta inte lämnas tomt så kommer varje förekomst av denna adress ersättas med din nya forumadress inom inlägg, personliga meddelanden och signaturer.',
@@ -210,6 +212,7 @@ $lang = array_merge($lang, array(
 		<h2>Börja använda ditt phpBB3!</h2>
 		<p>Klicka på knappen nedan. Du kommer då att tas till ett formulär i administrationspanelen för ditt nya forum, formuläret tillåter dig att skicka statistik till phpBB. Vi uppskattar den hjälp du ger genom att fylla i dessa uppgifter. Ta dig sedan tid att utforska alla tillgängliga alternativ och inställningar. Kom ihåg att hjälp finns att få online i <a href="https://www.phpbb.com/support/documentation/3.0/">dokumentationen</a>, på det <a href="https://www.phpbb.com/community/viewforum.php?f=46">engelska supportforumet</a> och på det <a href="http://www.phpbb.se/">svenska supportforumet</a> Se även <a href="%3$s">README</a> för mer information.</p><p><strong>Ta nu bort, byt namn på eller flytta install-katalogen innan du använder ditt forum. Om denna katalog finns kvar kommer endast administrationspanelen att vara tillgänglig.</strong></p>',
 	'INSTALL_INTRO'				=> 'Välkommen till installationen',
+	
 	'INSTALL_INTRO_BODY'		=> 'Med detta alternativ så kan du installera phpBB3 på sin server.</p><p>För att fortsätta så måste du ha dina databasinställningar till hands. Om du inte känner till dina databasinställningar, kontakta ditt webbhotell och fråga efter dem. Du kan inte fortsätta utan de. Du behöver:</p>
 	<ul>
 		<li>Databastypen - databasen som du kommer att använda.</li>
@@ -563,7 +566,7 @@ $lang = array_merge($lang, array(
 	'UPDATING_DATA'					=> 'Uppdaterar data',
 	'UPDATING_TO_LATEST_STABLE'		=> 'Uppdaterar databasen till senaste versionen',
 	'UPDATED_VERSION'				=> 'Uppdaterad version',
-	'UPGRADE_INSTRUCTIONS'         => 'En version <strong>%1$s</strong med nya funktioner är tillgänglig. Läs <a href="%2$s" title="%2$s"><strong>Anslaget om utgåvan</strong></a> för att lära dig mera om de nya funktionerna och hur du ska uppdatera ditt forum.',
+	'UPGRADE_INSTRUCTIONS'         => 'En version <strong>%1$s</strong> med nya funktioner är tillgänglig. Läs <a href="%2$s" title="%2$s"><strong>Anslaget om utgåvan</strong></a> för att lära dig mera om de nya funktionerna och hur du ska uppdatera ditt forum.',
 	'UPLOAD_METHOD'					=> 'Uppladdningsmetod',
 	'UPDATE_DB_SUCCESS'				=> 'Databasen har uppdaterats.',
 	'USER_ACTIVE'					=> 'Aktiv användare',
@@ -588,16 +591,6 @@ $lang = array_merge($lang, array(
 	'CONFIG_SITENAME'				=> 'dindomän.com',
 
 	'DEFAULT_INSTALL_POST'			=> 'Detta är ett exempelinlägg i din installation av phpBB3. Allting verkar fungera. Du kan ta bort detta inlägg om du vill och fortsätta konfigurera ditt forum. Under installationen så skapades din första huvudkategori och kategori och tilldelades en lämplig uppsättning behörigheter för de fördefinierade användargrupperna administratörer, robotar, globala moderatorer, gäster, registrerade användare och registrerade COPPA-användare. Om du väljer att ta bort din första huvudkategori och din första kategori, glöm inte att tilldela behörigheter till alla dessa användargrupper för alla nya huvudkategorier och kategorier du skapar. [b]Det är rekommenderat att byta namn på din första huvudkategori och din första kategori och kopiera behörigheter[/b] från dessa när du skapar nya huvudkategorier och kategorier. Ha det kul!',
-
-	'EXT_GROUP_ARCHIVES'			=> 'Arkiv',
-	'EXT_GROUP_DOCUMENTS'			=> 'Dokument',
-	'EXT_GROUP_DOWNLOADABLE_FILES'	=> 'Nerladdningsbara filer',
-	'EXT_GROUP_FLASH_FILES'			=> 'Flash-filer',
-	'EXT_GROUP_IMAGES'				=> 'Bilder',
-	'EXT_GROUP_PLAIN_TEXT'			=> 'Oformaterad text',
-	'EXT_GROUP_QUICKTIME_MEDIA'		=> 'Quicktime Media',
-	'EXT_GROUP_REAL_MEDIA'			=> 'Real Media',
-	'EXT_GROUP_WINDOWS_MEDIA'		=> 'Windows Media',
 
 	'FORUMS_FIRST_CATEGORY'			=> 'Din första huvudkategori',
 	'FORUMS_TEST_FORUM_DESC'		=> 'Beskrivning av din första kategori.',

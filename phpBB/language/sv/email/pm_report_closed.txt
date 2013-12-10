@@ -1,4 +1,4 @@
-﻿Subject: Rapport stängd - "{PM_SUBJECT}"
+Subject: Rapport stängd - "{PM_SUBJECT}"
 
 Hej {USERNAME},
 

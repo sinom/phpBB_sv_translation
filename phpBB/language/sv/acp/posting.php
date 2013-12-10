@@ -92,9 +92,10 @@ $lang = array_merge($lang, array(
 
 	'tokens'	=>	array(
 		'TEXT'			=> 'All text, inklusive främmande tecken, siffror, osv.… Du bör inte använda denna token i HTML-taggar. Försök istället använda IDENTIFIER, INTTEXT eller SIMPLETEXT.',
+		'SIMPLETEXT'	=> 'Tecken från det latiska alfabetet (A-Z), nmummer, mellanslag, komman, punkter, mius, plus, bindestreck och understreck.',
 		'INTTEXT'		=> 'Unicode teckenuppsättningar, nummer, mellanslag, kommatecken, punkter, minus, plus, bindestreck, understreck och blanktecken.',
-		'SIMPLETEXT'		=> 'Tecken från det latiska alfabetet (A-Z), nmummer, mellanslag, komman, punkter, mius, plus, bindestreck och understreck.',
-	        'NUMBER'		=> 'Vilken som helst serie med siffror.',
+		'IDENTIFIER'	=> 'Tecken från det latinska alfabetet (A-Z), nummer, bindestreck och understreck',
+		'NUMBER'		=> 'Vilken som helst serie med siffror.',
 		'EMAIL'			=> 'En giltig e-postadress.',
 		'URL'			=> 'En giltig URL med något protokoll (http, ftp, osv… kan inte användas för javascript-exploatering). Om inget protokoll anges läggs “http://” till i början av strängen.',
 		'LOCAL_URL'		=> 'En lokal URL. URL:en måste vara relativ till trådsidan och kan inte innehålla ett servernamn eller protokoll, då länkar är hårdkodade med “%s”',
