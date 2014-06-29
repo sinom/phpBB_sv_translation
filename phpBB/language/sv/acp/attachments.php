@@ -68,6 +68,7 @@ $lang = array_merge($lang, array(
 	'ATTACH_MAX_PM_FILESIZE_EXPLAIN'	=> 'Maximal storlek för en fil i personliga meddelanden. Om detta värde är 0, begränsas storleken på filen som ska laddas upp endast av din PHP-konfiguration.',
 	'ATTACH_ORPHAN_URL'					=> 'Föräldralösa bilagor',
 	'ATTACH_POST_ID'					=> 'Inläggs-ID',
+	'ATTACH_POST_TYPE'					=> 'Inläggstyp',
 	'ATTACH_QUOTA'						=> 'Total bilagekvot',
 	'ATTACH_QUOTA_EXPLAIN'				=> 'Maximalt hårddiskutrymme tillgängligt för alla bilagor på hela forumet, 0 är obegränsat.',
 	'ATTACH_TO_POST'					=> 'Bifoga fil till inlägg',
