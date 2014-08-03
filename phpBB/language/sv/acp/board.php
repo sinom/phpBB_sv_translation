@@ -1,29 +1,20 @@
 <?php
 /**
 *
-* acp_board [Swedish] (phpBB 3.0.11)
+* This file is part of Swedish phpBB translation.
+* Copyright (c) 2010 - 2014 Swedish translation group.
 *
-* @package language
-* @version $Id: board.php 36 2012-06-27 08:50:58Z Peetra.mammapappa $
-* @copyright (c) 2006 phpBB Group, modified and translated by Swedish translation team
-* @source file is copyright (c) 2005 phpBB Group, modified and translated by Swedish translation team
-* @license http://www.gnu.org/licenses/old-licenses/gpl-2.0.html GNU Public License version 2
-* @author (c) 2006-2008 Jonathan Gulbrandsen, 2008-2012 Petra Brandt, 2008-2010 Peetra
-* Translators: Swedish translation team, working at http://www.phpbb-se.com Contact team leader at peetra.mammapappa@gmail.com
 *
-* This file is part of the Swedish language package for phpBB 3.0.x.
-* Copyright (c) 2006-2010 Swedish translation team
+* This program is distributed in the hope that it will be useful,
+* but WITHOUT ANY WARRANTY; without even the implied warranty of
+* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+* GNU General Public License for more details.
 *
-* The Swedish language package for phpBB 3.0.x is free software; you can redistribute it and/or
-* modify it under the terms of the GNU General Public License as published by the Free Software
-* Foundation, version 2 of the License.
 *
-* The Swedish Language package for phpBB 3.0.x is distributed in the hope that it will be useful,
-* but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR
-* A PARTICULAR PURPOSE. See the GNU General Public License for more details.
-*
-* You should have received a copy of the GNU General Public License along with this language
-* package. If not, see <http://www.gnu.org/licenses/old-licenses/gpl-2.0.html>.
+* @package      phpBB Sweden
+* @author       Simon Assgård <sassgard@gmail.com> (Sinom) http://www.phpbb.se/
+* @copyright    phpBB Sweden
+* @license      @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
 *
 */
 
@@ -55,6 +46,8 @@ if (empty($lang) || !is_array($lang))
 // Board Settings
 $lang = array_merge($lang, array(
 	'ACP_BOARD_SETTINGS_EXPLAIN'	=> 'Här kan du bestämma grundläggande inställningar för ditt forum, ge det ett passande namn och beskrivning, och bland många andra inställningar justera standardvärden för tidszon och språk.',
+	'BOARD_INDEX_TEXT'				=> 'Forumindextext',
+	'BOARD_INDEX_TEXT_EXPLAIN'		=> 'Detta är texten som kommer att visas på framsidan utav forumet. Om inget anges används "Forumindex".',
 	'CUSTOM_DATEFORMAT'				=> 'Eget…',
 	'DEFAULT_DATE_FORMAT'			=> 'Datumformat',
 	'DEFAULT_DATE_FORMAT_EXPLAIN'	=> 'Datumformatet är samma som PHPs <code>date</code>-funktion.',
@@ -62,11 +55,17 @@ $lang = array_merge($lang, array(
 	'DEFAULT_STYLE'					=> 'Standardstil',
 	'DISABLE_BOARD'					=> 'Inaktivera forumet',
 	'DISABLE_BOARD_EXPLAIN'			=> 'Detta kommer att göra forumet otillgängligt för användarna. Du kan också ange ett kort meddelande (255 tecken) som ska visas om du vill.',
+	'DISPLAY_LAST_SUBJECT'			=> 'Visa ämnet utav det senast skapta inlägget i forumlistan',
+	'DISPLAY_LAST_SUBJECT_EXPLAIN'	=> 'Ämnet utav det senast skapta inlägget kommer att visas i forumlistan med en hyperlänk till inlägget. Forum med lösenordsskyddade forum kommer inte att visas för obehöriga.',
 	'OVERRIDE_STYLE'				=> 'Åsidosätt användarstil',
 	'OVERRIDE_STYLE_EXPLAIN'		=> 'Ersätter användarens stil med standardstilen.',
 	'SITE_DESC'						=> 'Webbplatsbeskrivning',
-	'SITE_NAME'						=> 'Webbplatsnamn',
-	'SYSTEM_DST'					=> 'Aktivera sommartid/<abbr title="Daylight Saving Time">DST</abbr>',
+	'SITE_HOME_TEXT'				=> 'Titel på hemsida',
+	'SITE_HOME_TEXT_EXPLAIN'		=> 'Denna text kommer att visas som en länk till din hemsida. Om inget anges så kommer “Hem” att användas.',
+	'SITE_HOME_URL'					=> 'Titel på hemsida som URL',
+	'SITE_HOME_URL_EXPLAIN'			=> 'Om specifierad så kommer titeln på hemsidan att länka till denna länk istället för indexsidan utav forumet. En absolut länk krävs, t.ex. <samp>http://www.phpbb.se</samp>.',
+
+
 	'SYSTEM_TIMEZONE'            => 'Tidszon för gäster',
 	'SYSTEM_TIMEZONE_EXPLAIN'         => 'Den tidszon, som används för besökare som inte är inloggade (gäster och robotar). Inloggade användare anger sin tidszon i samband med registrering och kan ändra på den i sin kontrollpanel.',
 	'WARNINGS_EXPIRE'				=> 'Varningslängd',
@@ -113,6 +112,7 @@ $lang = array_merge($lang, array(
 	'ACP_AVATAR_SETTINGS_EXPLAIN'	=> 'Visningsbilder är i allmänhet små, unika bilder en användare kan förknippa sig med. Beroende på stilen så visas de under användarnamnet i trådar. Här kan du bestämma hur användare kan definiera sina visningsbilder. Observera att för att ladda upp visningsbilder så måste du ha skapat katalogen du anger nedan och försäkra dig om att den kan skrivas till av webbservern. Kom också ihåg att filstorleksgränser endast beläggs på uppladdade visningsbilder, inte på fjärrlänkade bilder.',
 	'ALLOW_AVATARS'					=> 'Aktivera visningsbilder',
 	'ALLOW_AVATARS_EXPLAIN'			=> 'Tillåt allmän användning av visningsbilder. <br />Om du inaktiverar visningsbilder överlag eller av specifik typ, så kommer inaktiverade visningsbilder inte längre att visas i forumet. Användarna har ännu möjlighet att ladda ner sina egna visningsbilder i kontrollpanelen.',
+	'ALLOW_GRAVATAR'				=> 'Tillåt gravatar-avatarer',
 
 
 	'ALLOW_LOCAL'					=> 'Aktivera gallerivisningsbilder',
@@ -229,7 +229,7 @@ $lang = array_merge($lang, array(
 	'ACP_REGISTER_SETTINGS_EXPLAIN'		=> 'Här kan du ställa in registrerings- och profilrelaterade inställningar.',
 
 	'ACC_ACTIVATION'			=> 'Kontoaktivering',
-	'ACC_ACTIVATION_EXPLAIN'	=> 'Detta avgör om användare har omedelbar åtkomst till forumet eller om verifiering krävs. Du kan också inaktivera nya registreringar helt. Forumets e-post måste vara aktiverat för att man ska kunna använda användar- eller administratörsaktivering.',
+	'ACC_ACTIVATION_EXPLAIN'		=> 'Detta avgör huruvida användare har direkt tillgång till forumet eller om en bekräftelse krävs. Du kan även stänga av registrationer helt. "Forum-epost" måste vara aktiverat för att kunna använda denna funktion, eller administratörsaktivering.',
 	'NEW_MEMBER_POST_LIMIT'			=> 'Inläggsgräns för ny medlem',
 	'NEW_MEMBER_POST_LIMIT_EXPLAIN'	=> 'Nya medlemmar läggs automatiskt i den fördefinierade gruppen <em>Nya medlemmar</em> tills de uppnår denna mängd inlägg. Du kan använda denna grupp för att förhindra användning av pm eller granska inlägg före de blir postade i forumet. <strong>Sätt till 0 för att inaktivera detta beteende.</strong>',
 	'NEW_MEMBER_GROUP_DEFAULT'		=> 'Ange gruppen Nya medlemmar som standard',
@@ -367,6 +367,8 @@ $lang = array_merge($lang, array(
 // Load Settings
 $lang = array_merge($lang, array(
 	'ACP_LOAD_SETTINGS_EXPLAIN'	=> 'Här kan du aktivera och inaktivera vissa forumfunktioner för att minska mängden databehandling som krävs. På de flesta servrar så är det inte nödvändigt att inaktivera någon av dessa funktioner. På vissa system eller i delade webbhotellsmiljöer kan det vara bra att inaktivera funktioner som du inte behöver. Du kan också ange gränser för systembelastning och aktiva sessioner som när de överträds så kommer forumet att gå offline.',
+	'ALLOW_CDN'						=> 'Tillåt användningen utav tredje-parts innehållsleveransnätverk.',
+	'ALLOW_CDN_EXPLAIN'				=> 'Om denna inställning är aktiverad, några filer kommer att hanterade utav tredje parts servrar iställer för din egna webbserver. Detta reducerar bandbredden som krävs utav din server, men kan vara en säkerhetsrisk för vissa administratörer.',
 
 	'CUSTOM_PROFILE_FIELDS'			=> 'Egna profilfält',
 	'LIMIT_LOAD'					=> 'Gräns för systembelastning',

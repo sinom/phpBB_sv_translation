@@ -14,8 +14,7 @@
 * @package      phpBB Sweden
 * @author       Simon Assgård <sassgard@gmail.com> (Sinom) http://www.phpbb.se/
 * @copyright    phpBB Sweden
-* @license      http://opensource.org/licenses/gpl-license.php GNU Public License
-* @version      $Id$
+* @license      @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
 *
 */
 
@@ -176,4 +175,3 @@ $lang = array_merge($lang, array(
 	'UPLOAD_ICON'					=> 'Uppladdningsikon',
 	'UPLOAD_NOT_DIR'				=> 'Uppladdningsplatsen du angav verkar inte vara en katalog.',
 ));
-?>
