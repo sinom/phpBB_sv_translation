@@ -1,30 +1,20 @@
 <?php
 /**
 *
-* acp common [Swedish] (phpBB 3.0.11)
+* This file is part of Swedish phpBB translation.
+* Copyright (c) 2010 - 2014 Swedish translation group.
 *
-* @package language
-* @version $Id: common.php 36 2012-06-27 08:50:58Z Peetra.mammapappa $
-* @copyright (c) 2006 phpBB Group, modified and translated by Swedish translation team
-* @source file is copyright (c) 2005 phpBB Group, modified and translated by Swedish translation team
-* @license http://www.gnu.org/licenses/old-licenses/gpl-2.0.html GNU Public License version 2
-* @author 2006-2008 Jonathan Gulbrandsen
-* @author 2008-2012 Peetra
-* Translators: Swedish translation team, working at http://www.phpbb-se.com Contact team leader at peetra.mammapappa@gmail.com
 *
-* This file is part of the Swedish language package for phpBB 3.0.x.
-* Copyright (c) 2006-2010 Swedish translation team
+* This program is distributed in the hope that it will be useful,
+* but WITHOUT ANY WARRANTY; without even the implied warranty of
+* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+* GNU General Public License for more details.
 *
-* The Swedish language package for phpBB 3.0.x is free software; you can redistribute it and/or
-* modify it under the terms of the GNU General Public License as published by the Free Software
-* Foundation, version 2 of the License.
 *
-* The Swedish Language package for phpBB 3.0.x is distributed in the hope that it will be useful,
-* but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR
-* A PARTICULAR PURPOSE. See the GNU General Public License for more details.
-*
-* You should have received a copy of the GNU General Public License along with this language
-* package. If not, see <http://www.gnu.org/licenses/old-licenses/gpl-2.0.html>.
+* @package      phpBB Sweden
+* @author       Simon Assgård <sassgard@gmail.com> (Sinom) http://www.phpbb.se/
+* @copyright    phpBB Sweden
+* @license      @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
 *
 */
 
@@ -77,6 +67,7 @@ $lang = array_merge($lang, array(
 	'ACP_BOTS'					=> 'Spindlar/Robotar',
 
 	'ACP_CAPTCHA'				=> 'CAPTCHA',
+	'ACP_CAT_CUSTOMISE'			=> 'Ändra',
 
 	'ACP_CAT_DATABASE'			=> 'Databas',
 	'ACP_CAT_DOT_MODS'			=> '.MODs',
@@ -99,7 +90,9 @@ $lang = array_merge($lang, array(
 	'ACP_DISALLOW_USERNAMES'	=> 'Förbjud användarnamn',
 
 	'ACP_EMAIL_SETTINGS'		=> 'E-postinställningar',
-	'ACP_EXTENSION_GROUPS'		=> 'Hantera filtypsgrupper',
+	'ACP_EXTENSION_GROUPS'		=> 'Hantera bilagornas filtypsgrupper',
+	'ACP_EXTENSION_MANAGEMENT'	=> 'Pluginhantering',
+	'ACP_EXTENSIONS'			=> 'Plugin',
 
 	'ACP_FORUM_BASED_PERMISSIONS'	=> 'Kategoribaserade behörigheter',
 	'ACP_FORUM_LOGS'				=> 'Kategoriloggar',
@@ -118,10 +111,11 @@ $lang = array_merge($lang, array(
 	'ACP_GROUPS_MANAGE'				=> 'Hantera grupper',
 	'ACP_GROUPS_MANAGEMENT'			=> 'Grupphantering',
 	'ACP_GROUPS_PERMISSIONS'		=> 'Gruppbehörigheter',
+	'ACP_GROUPS_POSITION'			=> 'Hantera gruppositioner',
 
 	'ACP_ICONS'					=> 'Trådikoner',
 	'ACP_ICONS_SMILIES'			=> 'Trådikoner/smilies',
-	'ACP_IMAGESETS'				=> 'Bildpaket',
+
 	'ACP_INACTIVE_USERS'		=> 'Inaktiva användare',
 	'ACP_INDEX'					=> 'Administrationsindex',
 
@@ -133,6 +127,10 @@ $lang = array_merge($lang, array(
 	'ACP_LOGGING'				=> 'Loggning',
 
 	'ACP_MAIN'					=> 'Administrationsindex',
+	
+	'ACP_MANAGE_ATTACHMENTS'			=> 'Hantera bilagor',
+	'ACP_MANAGE_ATTACHMENTS_EXPLAIN'	=> 'Han kan du se och ta bort bilagor som finns i inlägg eller privata meddelanden.',
+	
 	'ACP_MANAGE_EXTENSIONS'		=> 'Hantera filtyper',
 	'ACP_MANAGE_FORUMS'			=> 'Hantera kategorier',
 	'ACP_MANAGE_RANKS'			=> 'Hantera titlar',
@@ -179,9 +177,11 @@ $lang = array_merge($lang, array(
 	'ACP_SERVER_SETTINGS'		=> 'Serverinställningar',
 	'ACP_SIGNATURE_SETTINGS'	=> 'Signaturinställningar',
 	'ACP_SMILIES'				=> 'Smilies',
-	'ACP_STYLE_COMPONENTS'		=> 'Stilkomponenter',
+
 	'ACP_STYLE_MANAGEMENT'		=> 'Stilhantering',
 	'ACP_STYLES'				=> 'Stilar',
+	'ACP_STYLES_CACHE'			=> 'Töm cachen',
+	'ACP_STYLES_INSTALL'		=> 'Installera stilar',
 	'ACP_SUBMIT_CHANGES'		=> 'Sänd ändringar',
 
 	'ACP_TEMPLATES'				=> 'Mallar',
@@ -240,11 +240,15 @@ $lang = array_merge($lang, array(
 	'DOWNLOAD_AS'				=> 'Ladda ner som',
 	'DOWNLOAD_STORE'			=> 'Ladda ner eller lagra fil',
 	'DOWNLOAD_STORE_EXPLAIN'	=> 'Du kan ladda ner filen direkt eller spara den i din <samp>store/</samp>-mapp.',
-
+	'DOWNLOADS'          		=> 'Nedladdningar',
+	
 	'EDIT'					=> 'Redigera',
 	'ENABLE'				=> 'Aktivera',
 	'EXPORT_DOWNLOAD'		=> 'Ladda ner',
 	'EXPORT_STORE'			=> 'Lagra',
+	'FILES_GONE'			=> 'Några utav bilagorna du valde finns inte. Dom kan redan vara borttagna. De bilagor som fanns har blivit borttagna.',
+	'FILES_STATS_WRONG'		=> 'Dina filers statistik är troligtvis fel och behöver synkroniseras om. Verkliga värden: antal bilagor = %1$d, total storlek på bilagor = %2$s.',
+
 
 	'GENERAL_OPTIONS'		=> 'Allmänna alternativ',
 	'GENERAL_SETTINGS'		=> 'Allmänna inställningar',
@@ -253,6 +257,9 @@ $lang = array_merge($lang, array(
 	'INSTALL'				=> 'Installera',
 	'IP'					=> 'Användar-IP',
 	'IP_HOSTNAME'			=> 'IP-adresser eller värdnamn',
+	'LOAD_NOTIFICATIONS'			=> 'Visa Notifikationer',
+	'LOAD_NOTIFICATIONS_EXPLAIN'	=> 'Visa notifikationslistan på varje sida (vanligtvis i sidhuvudet).',
+
 
 	'LOGGED_IN_AS'			=> 'Du är inloggad som:',
 	'LOGIN_ADMIN'			=> 'För att administrera forumet så måste du vara en behörig användare.',

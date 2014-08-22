@@ -376,10 +376,13 @@ $lang = array_merge($lang, array(
 	'LIMIT_SESSIONS'				=> 'Gräns för antal sessioner',
 	'LIMIT_SESSIONS_EXPLAIN'		=> 'Om antalet sessioner överskrider detta värde under en minut så kommer forumet att gå offline. Sätt till 0 för obegränsat antal sessioner.',
 	'LOAD_CPF_MEMBERLIST'			=> 'Tillåt att stilar visar egna profilfält i medlemslistan',
+	'LOAD_CPF_PM'					=> 'Visa egna profilfält i privata meddelanen',
 	'LOAD_CPF_VIEWPROFILE'			=> 'Visa egna profilfält i användarprofiler',
 	'LOAD_CPF_VIEWTOPIC'			=> 'Visa egna profilfält i trådar',
 	'LOAD_USER_ACTIVITY'			=> 'Visa användares aktivitet',
 	'LOAD_USER_ACTIVITY_EXPLAIN'	=> 'Visar aktiv tråd/kategori i användarprofiler och i kontrollpanelen. Det är rekommenderat att detta inaktiveras på forum med mer än en miljon inlägg.',
+	'READ_NOTIFICATION_EXPIRE_DAYS'	=> 'Läs Notifikations slutdatum',
+	'READ_NOTIFICATION_EXPIRE_DAYS_EXPLAIN' => 'Antal dagar som måste gå innan en läst notifikation kommer att tas bort. Sätt detta värdet till 0 för att göra notifikationer permanenta.',
  	'RECOMPILE_STYLES'			=> 'Omkompilera gamla stilkomponenter',
  	'RECOMPILE_STYLES_EXPLAIN'	=> 'Kolla efter uppdaterade stilkomponenter på filsystemet och omkompilera.',
 	'YES_ANON_READ_MARKING'			=> 'Aktivera trådmärkning för gäster',
@@ -406,6 +409,12 @@ $lang = array_merge($lang, array(
 	'ACP_AUTH_SETTINGS_EXPLAIN'	=> 'phpBB stödjer autentiseringsinsticksprogram, eller moduler. Detta låter dig bestämma hur användarna autentiseras när de loggar in på forumet. Som standard finns tre insticksprogram tillgängliga; DB, LDAP och Apache. Inte alla metoder kräver ytterligare information så fyll endast i fält som är relevanta för den valda metoden.',
 
 	'AUTH_METHOD'				=> 'Välj en autentiseringsmetod',
+
+	'AUTH_PROVIDER_OAUTH_ERROR_ELEMENT_MISSING'	=> 'Både nyckeln samt hemligheten av både OAuth-tjänsten måste fyllas i. Endast en utav de två var ifyllda.',
+	'AUTH_PROVIDER_OAUTH_EXPLAIN'				=> 'Varje OAuth-tjänst kräver en unik hemlighet och nyckel för att kunna autentisera med den externa servern. <br />Dessa skall tillgodoses utav OAuth-tjänsten när du registrera.',
+	'AUTH_PROVIDER_OAUTH_KEY'					=> 'Nyckel',
+	'AUTH_PROVIDER_OAUTH_TITLE'					=> 'OAuth',
+	'AUTH_PROVIDER_OAUTH_SECRET'				=> 'Hemlighet',
 
 	'APACHE_SETUP_BEFORE_USE'	=> 'Du måste ställa in apache autentisering innan du kan ändra phpBB till denna autentiseringsmetod. Kom ihåg att användarnamnet som du använder för apacheautentiseringen måste vara samma som ditt phpBB-användarnamn. Apacheautentisering kan endast användas med mod_php (inte med CGI versionen) och med safe_mode inaktiverat.',
 
@@ -440,6 +449,10 @@ $lang = array_merge($lang, array(
 	'FORCE_SERVER_VARS_EXPLAIN'	=> 'Om satt till ja så kommer serverinställningarna som anges här att användas istället för de automatiskt fastställda värdena.',
 	'ICONS_PATH'				=> 'Sökväg till postikoner',
 	'ICONS_PATH_EXPLAIN'		=> 'Sökväg under din phpBB-rotkatalog, t.ex. <samp>images/icons</samp>.',
+	'MOD_REWRITE_ENABLE'		=> 'Aktivera permalänkar',
+	'MOD_REWRITE_ENABLE_EXPLAIN' => 'Om aktiverad, länkar kommer som innehåller t.ex ’app.php’ kommer att skrivas om så att filnamnet inte syns. (T.ex. app.php/foo kommer att bli enbart /foo). <strong>Apaches mod_rewrite modul krävs utav servern för att detta skall fungera.</strong>',
+	'MOD_REWRITE_DISABLED'		=> '<strong>mod_rewrite</strong> modulen på din Apache server är inaktiverad. Aktivera denna module eller kontakta ditt webbhotell för att aktivera denna funktion.',
+	'MOD_REWRITE_INFORMATION_UNAVAILABLE' => 'Vi kunde inte klargöra utifall denna servern stödjer permalänkar eller inte.',
 	'PATH_SETTINGS'				=> 'Sökvägsinställningar',
 	'RANKS_PATH'				=> 'Sökväg till titelbilder',
 	'RANKS_PATH_EXPLAIN'		=> 'Sökväg under din phpBB-rotkatalog, t.ex. <samp>images/ranks</samp>.',
@@ -456,6 +469,9 @@ $lang = array_merge($lang, array(
 	'SMILIES_PATH_EXPLAIN'		=> 'Sökväg under din phpBB-rotkatalog, t.ex. <samp>images/smilies</samp>.',
 	'UPLOAD_ICONS_PATH'			=> 'Sökväg till filtypsgruppikoner',
 	'UPLOAD_ICONS_PATH_EXPLAIN'	=> 'Sökväg under din phpBB-rotkatalog, t.ex. <samp>images/upload_icons</samp>.',
+	'USE_SYSTEM_CRON'			=> 'Kör prediodiska uppgifter från systemets cron',
+	'USE_SYSTEM_CRON_EXPLAIN'	=> 'När detta är av, phpBB kommer att arrangera för periodiska uppgifter att köras automatiskt. När detta är på, phpBB kommer inte att schemalägga några periodiska uppgifter.',
+
 ));
 
 // Security Settings
@@ -465,6 +481,8 @@ $lang = array_merge($lang, array(
 	'ALL'							=> 'Alla',
 	'ALLOW_AUTOLOGIN'				=> 'Tillåt bestående inloggningar',
 	'ALLOW_AUTOLOGIN_EXPLAIN'		=> 'Avgör om användare kan loggas in automatiskt när de besöker forumet eller inte.',
+	'ALLOW_PASSWORD_RESET'			=> 'Tillåt lösenordsåterställning ("Glömt lösenord")',
+	'ALLOW_PASSWORD_RESET_EXPLAIN'	=> 'Bestämmer ifall användare skall få använda "Glömt lösenord"-länken eller inte. Om en utomstående funktion tillåter inloggning bör detta vara av.',
 	'AUTOLOGIN_LENGTH'				=> 'Förfallotid för bestående inloggningsnycklar (i dagar)',
 	'AUTOLOGIN_LENGTH_EXPLAIN'		=> 'Antal dagar som ska gå innan bestående inloggningsnycklar tas bort. Sätt till 0 för att inaktivera.',
 	'BROWSER_VALID'					=> 'Kontrollera webbläsare',
@@ -573,4 +591,3 @@ $lang = array_merge($lang, array(
 
 	));
 
-?>
