@@ -1,31 +1,23 @@
 <?php
 /**
 *
-* capcha_recaptcha[Swedish] (phpBB 3.0.11)
+* This file is part of Swedish phpBB translation.
+* Copyright (c) 2010 - 2014 Swedish translation group.
 *
-* @package language
-* @version $Id: captcha_recaptcha.php 36 2012-06-27 08:50:58Z Peetra.mammapappa $
-* @copyright (c) 2006 phpBB Group, modified and translated by Swedish translation team
-* @source file is copyright (c) 2005 phpBB Group, modified and translated by Swedish translation team
-* @license http://www.gnu.org/licenses/old-licenses/gpl-2.0.html GNU Public License version 2
-* @author (c) 2008-2012 Peetra
-* Translators: Swedish translation team, working at http://www.phpbb-se.com contact translation team leader at peetra.mammapappa@gmail.com
 *
-* This file is part of the Swedish language package for phpBB 3.0.x.
-* Copyright (c) 2006-2012 Swedish translation team
+* This program is distributed in the hope that it will be useful,
+* but WITHOUT ANY WARRANTY; without even the implied warranty of
+* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+* GNU General Public License for more details.
 *
-* The Swedish language package for phpBB 3.0.x is free software; you can redistribute it and/or
-* modify it under the terms of the GNU General Public License as published by the Free Software
-* Foundation, version 2 of the License.
 *
-* The Swedish Language package for phpBB 3.0.x is distributed in the hope that it will be useful,
-* but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR
-* A PARTICULAR PURPOSE. See the GNU General Public License for more details.
-*
-* You should have received a copy of the GNU General Public License along with this language
-* package. If not, see <http://www.gnu.org/licenses/old-licenses/gpl-2.0.html>.
+* @package      phpBB Sweden
+* @author       Simon Assgård <sassgard@gmail.com> (Sinom) http://www.phpbb.se/
+* @copyright    phpBB Sweden
+* @license      @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
 *
 */
+
 /**
 * DO NOT CHANGE
 */
@@ -63,6 +55,6 @@ $lang = array_merge($lang, array(
 	'RECAPTCHA_PRIVATE_EXPLAIN'		=> 'Din privata reCaptcha nyckel. Nycklar kan erhållas på <a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a>',
 
 	'RECAPTCHA_EXPLAIN'				=> 'För att förhindra automatiska registreringar så kräver forumet att du skriver in en verifieringskod. Koden visas i bilden nedan.',
+	'RECAPTCHA_SOCKET_ERROR'		=> 'Det var ett problem med att kontakta RECAPTCHA-tjänsten: kunde inte öppna anslutning. Försök igen senare.',
 ));
 
-?>

@@ -1,29 +1,20 @@
 <?php
-/** 
+/**
 *
-* acp_search [Swedish] (phpBB 3.0.11)
+* This file is part of Swedish phpBB translation.
+* Copyright (c) 2010 - 2014 Swedish translation group.
 *
-* @package language
-* @version $Id: search.php 17 2010-11-25 05:38:16Z Peetra.mammapappa $
-* @copyright (c) 2006 phpBB Group, modified and translated by Swedish translation team
-* @source file is copyright (c) 2005 phpBB Group, modified and translated by Swedish translation team
-* @license http://www.gnu.org/licenses/old-licenses/gpl-2.0.html GNU Public License version 2
-* @author (c) 2006-2008 Jonathan Gulbrandsen, 2008-2012 Petra Brandt 
-* Translators: Swedish translation team, working at http://www.phpbb-se.com Contact team leader at peetra.mammapappa@gmail.com 
 *
-* This file is part of the Swedish language package for phpBB 3.0.x.
-* Copyright (c) 2006-2010 Swedish translation team
+* This program is distributed in the hope that it will be useful,
+* but WITHOUT ANY WARRANTY; without even the implied warranty of
+* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+* GNU General Public License for more details.
 *
-* The Swedish language package for phpBB 3.0.x is free software; you can redistribute it and/or
-* modify it under the terms of the GNU General Public License as published by the Free Software
-* Foundation, version 2 of the License.
 *
-* The Swedish Language package for phpBB 3.0.x is distributed in the hope that it will be useful,
-* but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR
-* A PARTICULAR PURPOSE. See the GNU General Public License for more details.
-*
-* You should have received a copy of the GNU General Public License along with this language
-* package. If not, see <http://www.gnu.org/licenses/old-licenses/gpl-2.0.html>.
+* @package      phpBB Sweden
+* @author       Simon Assgård <sassgard@gmail.com> (Sinom) http://www.phpbb.se/
+* @copyright    phpBB Sweden
+* @license      @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
 *
 */
 
@@ -72,12 +63,36 @@ $lang = array_merge($lang, array(
 	'FULLTEXT_MYSQL_INCOMPATIBLE_VERSION'	=> 'MySQL fulltextsystemet kan endast användas med MySQL4 och senare.',
 	'FULLTEXT_MYSQL_NOT_SUPPORTED'			=> 'MySQL fulltextindex kan endast användas med MyISAM eller InnoDB tabeller. MySQL 5.6.4 eller senare krävs för fulltext indexering på InnoDB tabeller.',
 	'FULLTEXT_MYSQL_TOTAL_POSTS'			=> 'Totalt antal indexerade inlägg',
-	'FULLTEXT_MYSQL_MBSTRING'				=> 'Stöd för icke-latinska UTF-8 tecken genom mbstring:',
-	'FULLTEXT_MYSQL_PCRE'					=> 'Stöd för icke-latinska UTF-8 tecken genom PCRE:',
-	'FULLTEXT_MYSQL_MBSTRING_EXPLAIN'		=> 'Om PCRE inte har unicode teckenegenskaper så kommer söksystemet att försöka använda mbstrings regular expression motor.',
-	'FULLTEXT_MYSQL_PCRE_EXPLAIN'			=> 'Detta söksystem kräver PCRE unicode teckenegenskaper, som endast finns tillgängligt i PHP 4.4, 5.1 och senare, om du vill söka efter icke-latinska tecken.',
 	'FULLTEXT_MYSQL_MIN_SEARCH_CHARS_EXPLAIN'   => 'Ord med minst så här många tecken kommer att indexeras som sökbara. Du eller din värd kan ändra detta enbart genom att ändra på MySQL-konfigurationen.',
 	'FULLTEXT_MYSQL_MAX_SEARCH_CHARS_EXPLAIN'   => 'Maximalt antal tecken i ord som indexeras som sökbara. Du eller din värd kan ändra detta enbart genom att ändra på MySQL-konfigurationen.',
+
+	'FULLTEXT_POSTGRES_INCOMPATIBLE_DATABASE'	=> 'The PostgreSQL fulltext backend can only be used with PostgreSQL.',
+	'FULLTEXT_POSTGRES_TS_NOT_USABLE'	=> 'The PostgreSQL fulltext backend can only be used with PostgreSQL 8.3 and above.',
+	'FULLTEXT_POSTGRES_TOTAL_POSTS'			=> 'Total number of indexed posts',
+	'FULLTEXT_POSTGRES_VERSION_CHECK'		=> 'PostgreSQL version',
+	'FULLTEXT_POSTGRES_TS_NAME'				=> 'Text search Configuration Profile:',
+	'FULLTEXT_POSTGRES_MIN_WORD_LEN'			=> 'Minimum word length for keywords',
+	'FULLTEXT_POSTGRES_MAX_WORD_LEN'			=> 'Maximum word length for keywords',
+	'FULLTEXT_POSTGRES_VERSION_CHECK_EXPLAIN'		=> 'This search backend requires PostgreSQL version 8.3 and above.',
+	'FULLTEXT_POSTGRES_TS_NAME_EXPLAIN'				=> 'The Text search configuration profile used to determine the parser and dictionary.',
+	'FULLTEXT_POSTGRES_MIN_WORD_LEN_EXPLAIN'			=> 'Words with at least this many characters will be included in the query to the database.',
+	'FULLTEXT_POSTGRES_MAX_WORD_LEN_EXPLAIN'			=> 'Words with no more than this many characters will be included in the query to the database.',
+
+	'FULLTEXT_SPHINX_CONFIGURE'				=> 'Configure the following settings to generate sphinx config file',
+	'FULLTEXT_SPHINX_DATA_PATH'				=> 'Path to data directory',
+	'FULLTEXT_SPHINX_DATA_PATH_EXPLAIN'		=> 'It will be used to store the indexes and log files. You should create this directory outside the web accessible directories. (should have a trailing slash)',
+	'FULLTEXT_SPHINX_DELTA_POSTS'			=> 'Number of posts in frequently updated delta index',
+	'FULLTEXT_SPHINX_HOST'					=> 'Sphinx search daemon host',
+	'FULLTEXT_SPHINX_HOST_EXPLAIN'			=> 'Host on which the sphinx search daemon (searchd) listens. Leave empty to use the default localhost',
+	'FULLTEXT_SPHINX_INDEXER_MEM_LIMIT'		=> 'Indexer memory limit',
+	'FULLTEXT_SPHINX_INDEXER_MEM_LIMIT_EXPLAIN'	=> 'This number should at all times be lower than the RAM available on your machine. If you experience periodic performance problems this might be due to the indexer consuming too many resources. It might help to lower the amount of memory available to the indexer.',
+	'FULLTEXT_SPHINX_MAIN_POSTS'			=> 'Number of posts in main index',
+	'FULLTEXT_SPHINX_PORT'					=> 'Sphinx search daemon port',
+	'FULLTEXT_SPHINX_PORT_EXPLAIN'			=> 'Port on which the sphinx search daemon (searchd) listens. Leave empty to use the default Sphinx API port 9312',
+	'FULLTEXT_SPHINX_WRONG_DATABASE'		=> 'The sphinx search for phpBB supports MySQL and PostgreSQL only.',
+	'FULLTEXT_SPHINX_CONFIG_FILE'			=> 'Sphinx config file',
+	'FULLTEXT_SPHINX_CONFIG_FILE_EXPLAIN'	=> 'The generated content of the sphinx config file. This data needs to be pasted into the sphinx.conf which is used by sphinx search daemon.',
+	'FULLTEXT_SPHINX_NO_CONFIG_DATA'		=> 'The sphinx data and config directory paths are not defined. Please define them to generate the config file.',
 
 	'GENERAL_SEARCH_SETTINGS'				=> 'Allmänna sökinställningar',
 	'GO_TO_SEARCH_INDEX'					=> 'Gå till sökindexsidan',
@@ -102,8 +117,15 @@ $lang = array_merge($lang, array(
 
 	'SEARCH_GUEST_INTERVAL'					=> 'Tid mellan gästsökningar',
 	'SEARCH_GUEST_INTERVAL_EXPLAIN'			=> 'Antal sekunder gäster måste vänta mellan sökningar. Om en gäst söker så måste alla andra vänta tills tidsintervallen passerats.',
-	'SEARCH_INDEX_CREATE_REDIRECT'			=> 'Alla inlägg fram till inlägg ID %1$d indexerades, av vilka %2$d inlägg var inom detta steg.<br />Den nuvarande hastigheten på indexeringen är ungefär %3$.1f inlägg per sekund.<br />Indexering pågår…',
-	'SEARCH_INDEX_DELETE_REDIRECT'			=> 'Alla inlägg fram till inlägg ID %1$d togs bort från sökindexet.<br />Borttagning pågår…',
+	'SEARCH_INDEX_CREATE_REDIRECT'			=> array(
+		2	=> 'Alla inlägg fram till inlägg ID %1$d indexerades, av vilka %2$d inlägg var inom detta steg.<br />',
+	),
+	'SEARCH_INDEX_CREATE_REDIRECT_RATE'		=> array(
+		2	=> 'Den nuvarande hastigheten på indexeringen är ungefär %3$.1f inlägg per sekund.<br />Indexering pågår…',
+	),
+	'SEARCH_INDEX_DELETE_REDIRECT'			=> array(
+		2	=> 'Alla inlägg fram till inlägg ID %1$d togs bort från sökindexet.<br />Borttagning pågår…',
+	),
 	'SEARCH_INDEX_CREATED'					=> 'Indexerade alla inlägg i forumets databas.',
 	'SEARCH_INDEX_REMOVED'					=> 'Tog bort sökindexet för detta system.',
 	'SEARCH_INTERVAL'						=> 'Tid mellan användarsökningar',
@@ -123,4 +145,3 @@ $lang = array_merge($lang, array(
 	'YES_SEARCH_UPDATE_EXPLAIN'				=> 'Uppdaterar fulltextindex när postning sker, åsidosätts om sökning är inaktiverat.',
 ));
 
-?>

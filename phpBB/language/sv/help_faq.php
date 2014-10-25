@@ -1,30 +1,20 @@
 <?php
-/** 
+/**
 *
-* help_faq [Swedish] (phpBB 3.0.11)
+* This file is part of Swedish phpBB translation.
+* Copyright (c) 2010 - 2014 Swedish translation group.
 *
-* @package language
-* @version $Id: help_faq.php 2 2010-06-24 01:12:10Z tumba25 $
-* @copyright (c) 2006 phpBB Group, modified and translated by Swedish translation team
-* @source file is copyright (c) 2005 phpBB Group, modified and translated by Swedish translation team
-* @license http://www.gnu.org/licenses/old-licenses/gpl-2.0.html GNU Public License version 2
-* @author (c) 2006-2008 Jonathan Gulbrandsen, 2008-2012 Petra Brandt
-* @author (c) 2008-2010 Peetra
-* Translators: Swedish translation team, working at http://www.phpbb-se.com Contact team leader at peetra.mammapappa@gmail.com
 *
-* This file is part of the Swedish language package for phpBB 3.0.x.
-* Copyright (c) 2006-2010 Swedish translation team
+* This program is distributed in the hope that it will be useful,
+* but WITHOUT ANY WARRANTY; without even the implied warranty of
+* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+* GNU General Public License for more details.
 *
-* The Swedish language package for phpBB 3.0.x is free software; you can redistribute it and/or
-* modify it under the terms of the GNU General Public License as published by the Free Software
-* Foundation, version 2 of the License.
 *
-* The Swedish Language package for phpBB 3.0.x is distributed in the hope that it will be useful,
-* but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR
-* A PARTICULAR PURPOSE. See the GNU General Public License for more details.
-*
-* You should have received a copy of the GNU General Public License along with this language
-* package. If not, see <http://www.gnu.org/licenses/old-licenses/gpl-2.0.html>.
+* @package      phpBB Sweden
+* @author       Simon Assgård <sassgard@gmail.com> (Sinom) http://www.phpbb.se/
+* @copyright    phpBB Sweden
+* @license      @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
 *
 */
 
@@ -365,5 +355,3 @@ $help = array(
 		1 => 'Vem som helst av administratörerna som listas på “Teamet”-sidan bör vara lämpliga att kontakta med dina klagomål. Om du inte får något svar på detta sätt så kan du kontakta ägaren av domänen (gör en <a href="http://www.google.com/search?q=whois">whois lookup</a>) eller, om detta forum ligger på en gratistjänst (såsom Yahoo!, free.fr, f2s.com, osv.), abuse-avdelningen för den tjänsten. Observera att phpBB Group <strong>inte har någon som helst kontroll</strong> och kan inte på något sätt hållas ansvariga för hur, var eller av vem detta forum används. Kontakta inte phpBB Group med anledning av något juridiskt ärende (“cease and desist”, ansvar, förtal, osv.) som <strong>inte direkt berör</strong> webbplatsen phpBB.com. Om du ändå kontaktar phpBB Group om <strong>någon form av tredjepartsanvändning av denna mjukvara</strong> så förvänta dig ett fåordigt svar eller inget svar alls.'
 	)
 );
-
-?>

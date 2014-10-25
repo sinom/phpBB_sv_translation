@@ -1,31 +1,23 @@
 <?php
 /**
 *
-* mcp [Swedish] (phpBB 3.0.11)
+* This file is part of Swedish phpBB translation.
+* Copyright (c) 2010 - 2014 Swedish translation group.
 *
-* @package language
-* @version $Id: mcp.php 36 2012-06-27 08:50:58Z Peetra.mammapappa $
-* @copyright (c) 2006 phpBB Group, modified and translated by Swedish translation team
-* @source file is copyright (c) 2005 phpBB Group, modified and translated by Swedish translation team
-* @license http://www.gnu.org/licenses/old-licenses/gpl-2.0.html GNU Public License version 2
-* @author (c) 2006-2008 Jonathan Gulbrandsen, 2008-2012 Petra Brandt
-* Translators: Swedish translation team, working at http://www.phpbb-se.com contact translation team leader at peetra.mammapappa@gmail.com
 *
-* This file is part of the Swedish language package for phpBB 3.0.x.
-* Copyright (c) 2006-2012 Swedish translation team
+* This program is distributed in the hope that it will be useful,
+* but WITHOUT ANY WARRANTY; without even the implied warranty of
+* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+* GNU General Public License for more details.
 *
-* The Swedish language package for phpBB 3.0.x is free software; you can redistribute it and/or
-* modify it under the terms of the GNU General Public License as published by the Free Software
-* Foundation, version 2 of the License.
 *
-* The Swedish Language package for phpBB 3.0.x is distributed in the hope that it will be useful,
-* but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR
-* A PARTICULAR PURPOSE. See the GNU General Public License for more details.
-*
-* You should have received a copy of the GNU General Public License along with this language
-* package. If not, see <http://www.gnu.org/licenses/old-licenses/gpl-2.0.html>.
+* @package      phpBB Sweden
+* @author       Simon Assgård <sassgard@gmail.com> (Sinom) http://www.phpbb.se/
+* @copyright    phpBB Sweden
+* @license      @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
 *
 */
+
 /**
 * DO NOT CHANGE
 */
@@ -66,6 +58,10 @@ $lang = array_merge($lang, array(
 	'APPROVE_POST_CONFIRM'	=> 'Är du säker på att du vill godkänna detta inlägg?',
 	'APPROVE_POSTS'			=> 'Godkänn inlägg',
 	'APPROVE_POSTS_CONFIRM'	=> 'Är du säker på att du vill godkänna de valda inläggen?',
+	'APPROVE_TOPIC'			=> 'Godkänn tråd',
+	'APPROVE_TOPIC_CONFIRM'	=> 'Är du säker på att du vill godkänna denna tråden?',
+	'APPROVE_TOPICS'		=> 'Godkänn trådar',
+	'APPROVE_TOPICS_CONFIRM'=> 'Är du säker på att du vill godkänna valda trådar?',
 
 	'CANNOT_MOVE_SAME_FORUM'=> 'Du kan inte flytta en tråd till den kategori som den redan är i.',
 	'CANNOT_WARN_ANONYMOUS'	=> 'Du kan inte varna oregistrerade gäster.',
@@ -79,16 +75,10 @@ $lang = array_merge($lang, array(
 	'CLOSE_REPORT'			=> 'Stäng rapport',
 	'CLOSE_REPORT_CONFIRM'	=> 'Är du säker på att du vill stänga den valda rapporten?',
 
-	'DELETE_PM_REPORT'			=> 'Ta bort PM-rapport',
-	'DELETE_PM_REPORT_CONFIRM'	=> 'Är du säker på att du vill ta bort den valda PM-rapporten?',
-	'DELETE_PM_REPORTS'			=> 'Delete PM reports',
-	'DELETE_PM_REPORTS_CONFIRM'	=> 'Är du säker på att du vill ta bort de valda PM-rapporterna?',
-
 	'CLOSE_REPORTS'			=> 'Stäng rapporter',
 	'CLOSE_REPORTS_CONFIRM'	=> 'Är du säker på att du vill stänga de valda rapporterna?',
 
 	'DELETE_POSTS'				=> 'Ta bort inlägg',
-	'DELETE_POSTS_CONFIRM'		=> 'Är du säker på att du vill ta bort dessa inlägg?',
 	'DELETE_POST_CONFIRM'		=> 'Är du säker på att du vill ta bort detta inlägg?',
 	'DELETE_REPORT'				=> 'Ta bort rapport',
 	'DELETE_REPORT_CONFIRM'		=> 'Är du säker på att du vill ta bort den valda rapporten?',
@@ -96,8 +86,6 @@ $lang = array_merge($lang, array(
 	'DELETE_REPORTS_CONFIRM'	=> 'Är du säker på att du vill ta bort de valda rapporterna?',
  	'DELETE_SHADOW_TOPIC'		=> 'Ta bort skuggtråd',
 	'DELETE_TOPICS'				=> 'Ta bort valda trådar',
-	'DELETE_TOPICS_CONFIRM'		=> 'Är du säker på att du vill ta bort dessa trådar?',
-	'DELETE_TOPIC_CONFIRM'		=> 'Är du säker på att du vill ta bort denna tråd?',
 	'DISAPPROVE'				=> 'Avslå',
 	'DISAPPROVE_REASON'			=> 'Skäl för avslag',
 	'DISAPPROVE_POST'			=> 'Avslå inlägg',
@@ -135,8 +123,10 @@ $lang = array_merge($lang, array(
 	'LATEST_WARNING_TIME'		=> 'Senast utfärdade varningen',
 	'LATEST_WARNINGS'			=> 'De senaste fem varningarna',
 	'LEAVE_SHADOW'				=> 'Lämna kvar skuggtråd i den gamla kategorin.',
-	'LIST_REPORT'				=> '1 rapport',
-	'LIST_REPORTS'				=> '%d rapporter',
+	'LIST_REPORTS'				=> array(
+		1	=> '%d rapport',
+		2	=> '%d rapporter',
+	),
 	'LOCK'						=> 'Lås',
 	'LOCK_POST_POST'			=> 'Lås inlägg',
 	'LOCK_POST_POST_CONFIRM'	=> 'Är du säker på att du vill förhindra redigering av detta inlägg?',

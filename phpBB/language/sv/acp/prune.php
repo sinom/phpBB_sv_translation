@@ -1,29 +1,20 @@
 <?php
-/** 
+/**
 *
-* acp_prune [Swedish] (phpBB 3.0.11)
+* This file is part of Swedish phpBB translation.
+* Copyright (c) 2010 - 2014 Swedish translation group.
 *
-* @package language
-* @version $Id: prune.php 2 2010-06-24 01:12:10Z tumba25 $
-* @copyright (c) 2006 phpBB Group, modified and translated by Swedish translation team
-* @source file is copyright (c) 2005 phpBB Group, modified and translated by Swedish translation team
-* @license http://www.gnu.org/licenses/old-licenses/gpl-2.0.html GNU Public License version 2
-* @author (c) 2006-2008 Jonathan Gulbrandsen, 2008-2012 Petra Brandt 
-* Translators: Swedish translation team, working at http://www.phpbb-se.com Contact team leader at peetra.mammapappa@gmail.com 
 *
-* This file is part of the Swedish language package for phpBB 3.0.x.
-* Copyright (c) 2006-2010 Swedish translation team
+* This program is distributed in the hope that it will be useful,
+* but WITHOUT ANY WARRANTY; without even the implied warranty of
+* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+* GNU General Public License for more details.
 *
-* The Swedish language package for phpBB 3.0.x is free software; you can redistribute it and/or
-* modify it under the terms of the GNU General Public License as published by the Free Software
-* Foundation, version 2 of the License.
 *
-* The Swedish Language package for phpBB 3.0.x is distributed in the hope that it will be useful,
-* but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR
-* A PARTICULAR PURPOSE. See the GNU General Public License for more details.
-*
-* You should have received a copy of the GNU General Public License along with this language
-* package. If not, see <http://www.gnu.org/licenses/old-licenses/gpl-2.0.html>.
+* @package      phpBB Sweden
+* @author       Simon Assgård <sassgard@gmail.com> (Sinom) http://www.phpbb.se/
+* @copyright    phpBB Sweden
+* @license      @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
 *
 */
 
@@ -56,16 +47,19 @@ if (empty($lang) || !is_array($lang))
 $lang = array_merge($lang, array(
 	'ACP_PRUNE_USERS_EXPLAIN'	=> 'Här kan du ta bort eller inaktivera användare i ditt forum. Konton kan filtreras på flera sätt: Enligt inläggsantal, senaste besöket, osv. Alla dessa kriterier kan kombineras, du kan tex rensa bort användare som inte vart aktiva sen 2002-01-01 och med färre inlägg än 10. Alternativt kan du skriva in en lista över användare direkt i rutan, eventuella kriterier som skrivits in kommer att ignoreras. Var försiktig! När en användare väl är borttagen finns det ingen väg tillbaka.',
 
+	'CRITERIA'					=> 'Kriteria',
 	'DEACTIVATE_DELETE'			=> 'Inaktivera eller ta bort',
 	'DEACTIVATE_DELETE_EXPLAIN'	=> 'Välj om användarna ska inaktiveras eller tas bort helt, observera att det inte går att ångra!',
 	'DELETE_USERS'				=> 'Ta bort',
 	'DELETE_USER_POSTS'			=> 'Ta bort utrensade användares inlägg',
 	'DELETE_USER_POSTS_EXPLAIN' => 'Tar bort inlägg som gjorts av borttagna användare, har ingen effekt om användarna inaktiveras.',
 
-	'JOINED_EXPLAIN'			=> 'Ange ett datum i formatet <kbd>ÅÅÅÅ-MM-DD</kbd>.',
+	'JOINED_EXPLAIN'			=> 'Ange ett datum i formatet <kbd>ÅÅÅÅ-MM-DD</kbd> Du kan använda båda fälten för att ange en intervall, eller lämna tom för att ha ett öppet fält.',
 
 	'LAST_ACTIVE_EXPLAIN'		=> 'Ange ett datum i formatet <kbd>ÅÅÅÅ-MM-DD</kbd>. Mata in <kbd>0000-00-00</kbd> för att ta bort användare, som aldrig loggat in, <em>Före</em> and <em>Efter</em> kriterier ignoreras.',
 
+	'POSTS_ON_QUEUE'			=> 'Inlägg i väntan på godkännande',
+	'PRUNE_USERS_GROUP_EXPLAIN'	=> 'Begrända till användare i en specifik grupp.',
  	'PRUNE_USERS_LIST'				=> 'Användare som kommer att rensas',
  	'PRUNE_USERS_LIST_DELETE'		=> 'Med de valda kriterierna för utrensning av användare kommer följande användare att tas bort.',
  	'PRUNE_USERS_LIST_DEACTIVATE'	=> 'Med de valda kriterierna för utrensning av användare kommer följande användarkonton inaktiveras.',
@@ -104,5 +98,3 @@ $lang = array_merge($lang, array(
 
 	'TOPICS_PRUNED'		=> 'Trådar rensade',
 ));
-
-?>

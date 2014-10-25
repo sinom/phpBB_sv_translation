@@ -1,29 +1,20 @@
 <?php
-/** 
+/**
 *
-* acp_posting [Swedish] (phpBB 3.0.11)
+* This file is part of Swedish phpBB translation.
+* Copyright (c) 2010 - 2014 Swedish translation group.
 *
-* @package language
-* @version $Id: posting.php 36 2012-06-27 08:50:58Z Peetra.mammapappa $
-* @copyright (c) 2006 phpBB Group, modified and translated by Swedish translation team
-* @source file is copyright (c) 2005 phpBB Group, modified and translated by Swedish translation team
-* @license http://www.gnu.org/licenses/old-licenses/gpl-2.0.html GNU Public License version 2
-* @author (c) 2006-2008 Jonathan Gulbrandsen, 2008-2012 Petra Brandt
-* Translators: Swedish translation team, working at http://www.phpbb-se.com Contact team leader at peetra.mammapappa@gmail.com 
 *
-* This file is part of the Swedish language package for phpBB 3.0.x.
-* Copyright (c) 2006-2010 Swedish translation team
+* This program is distributed in the hope that it will be useful,
+* but WITHOUT ANY WARRANTY; without even the implied warranty of
+* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+* GNU General Public License for more details.
 *
-* The Swedish language package for phpBB 3.0.x is free software; you can redistribute it and/or
-* modify it under the terms of the GNU General Public License as published by the Free Software
-* Foundation, version 2 of the License.
 *
-* The Swedish Language package for phpBB 3.0.x is distributed in the hope that it will be useful,
-* but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR
-* A PARTICULAR PURPOSE. See the GNU General Public License for more details.
-*
-* You should have received a copy of the GNU General Public License along with this language
-* package. If not, see <http://www.gnu.org/licenses/old-licenses/gpl-2.0.html>.
+* @package      phpBB Sweden
+* @author       Simon Assgård <sassgard@gmail.com> (Sinom) http://www.phpbb.se/
+* @copyright    phpBB Sweden
+* @license      @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
 *
 */
 
@@ -62,6 +53,7 @@ $lang = array_merge($lang, array(
 
 	'BBCODE_ADDED'				=> 'BBCode lades till.',
 	'BBCODE_EDITED'				=> 'BBCode ändrades.',
+	'BBCODE_DELETED'			=> 'Denna BBkod har blivit borttagen.',
 	'BBCODE_NOT_EXIST'			=> 'BBCoden som du valde finns inte.',
 	'BBCODE_HELPLINE'			=> 'Hjälptext',
 	'BBCODE_HELPLINE_EXPLAIN'	=> 'Detta fält innehåller texten som visas när man för musen över denna BBCode.',
@@ -135,16 +127,20 @@ $lang = array_merge($lang, array(
 
 	'FIRST'			=> 'Första',
 
-	'ICONS_ADD'				=> 'Lägg till en ny ikon',
-	'ICONS_NONE_ADDED'		=> 'Inga ikoner lades till.',
-	'ICONS_ONE_ADDED'		=> 'Ikonen lades till.',
-	'ICONS_ADDED'			=> 'Ikonerna lades till.',
+	'ICONS_ADD'				=> 'Lägg till en ny ikon',	
+	'ICONS_ADDED'			=> array(
+		0	=> 'Inga ikoner lades till.',
+		1	=> 'Ikonen lades till.',
+		2	=> 'Ikonerna lades till.',
+	),
 	'ICONS_CONFIG'			=> 'Ikonkonfiguration',
 	'ICONS_DELETED'			=> 'Ikonen togs bort.',
 	'ICONS_EDIT'			=> 'Redigera ikon',
-	'ICONS_ONE_EDITED'		=> 'Ikonen uppdaterades.',
-	'ICONS_NONE_EDITED'		=> 'Inga ikoner uppdaterades.',
-	'ICONS_EDITED'			=> 'Ikonerna uppdaterades.',
+	'ICONS_EDITED'			=> array(
+		0	=> 'Inga ikoner uppdaterades.',
+		1	=> 'Ikonen uppdaterades.',
+		2	=> 'Ikonerna uppdaterades.',
+	),	
 	'ICONS_HEIGHT'			=> 'Ikonhöjd',
 	'ICONS_IMAGE'			=> 'Ikonbild',
 	'ICONS_IMPORTED'		=> 'Ikonpaketet installerades.',
@@ -175,20 +171,24 @@ $lang = array_merge($lang, array(
 	'REPLACE_MATCHES'	=> 'Ersätt matchningar',
 
 	'SELECT_PACKAGE'			=> 'Välj en paketfil',
-	'SMILIES_ADD'				=> 'Lägg till en ny smilie',
-	'SMILIES_NONE_ADDED'		=> 'Inga smilies lades till.',
-	'SMILIES_ONE_ADDED'			=> 'Smilie lades till.',
-	'SMILIES_ADDED'				=> 'Smilies lades till.',
+	'SMILIES_ADD'				=> 'Lägg till en ny smilie',	
+	'SMILIES_ADDED'				=> array(
+		0	=> 'Inga smilies lades till.',
+		1	=> 'Smilie lades till.',
+		2	=> 'Smilies lades till.',
+	),	
 	'SMILIES_CODE'				=> 'Kod för smilie',
 	'SMILIES_CONFIG'			=> 'Smiliekonfiguration',
 	'SMILIES_DELETED'			=> 'Smilie togs bort.',
 	'SMILIES_EDIT'				=> 'Redigera smilie',
 	'SMILIE_NO_CODE'			=> 'Smilien “%s” ignorerades, eftersom ingen kod angavs.',
 	'SMILIE_NO_EMOTION'			=> 'Smilien “%s” ignorerades, eftersom inget humör angavs.',
-	'SMILIE_NO_FILE'			=> 'Smilien “%s” ignorerades, eftersom filen inte finns.',
-	'SMILIES_NONE_EDITED'		=> 'Inga smilies uppdaterades.',
-	'SMILIES_ONE_EDITED'		=> 'Smilie uppdaterades.',
-	'SMILIES_EDITED'			=> 'Smilies uppdaterades.',
+	'SMILIE_NO_FILE'			=> 'Smilien “%s” ignorerades, eftersom filen inte finns.',	
+	'SMILIES_EDITED'			=> array(
+		0	=> 'Inga smilies uppdaterades.',
+		1	=> 'Smilie uppdaterades.',
+		2	=> 'Smilies uppdaterades.',
+	),	
 	'SMILIES_EMOTION'			=> 'Humör',
 	'SMILIES_HEIGHT'			=> 'Smiliehöjd',
 	'SMILIES_IMAGE'				=> 'Smiliebild',
@@ -199,7 +199,10 @@ $lang = array_merge($lang, array(
 	'SMILIES_ORDER'				=> 'Smiliesordning',
 	'SMILIES_URL'				=> 'Smiliesbildfil',
 	'SMILIES_WIDTH'				=> 'Smiliesbredd',
-	'TOO_MANY_SMILIES'			=> 'Begränsning på %d smilies nådd.',
+	'TOO_MANY_SMILIES'			=> array(
+		1	=> 'Begränsning på %d smilies nådd.',
+		2	=> 'Begränsning på %d smilies nådd.',
+	),
 
 	'WRONG_PAK_TYPE'	=> 'Det angivna paketet innehåller inte lämplig data.',
 ));
@@ -291,5 +294,3 @@ $lang = array_merge($lang, array(
 
 	'USED_IN_REPORTS'		=> 'Används i rapporter',
 ));
-
-?>

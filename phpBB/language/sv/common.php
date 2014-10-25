@@ -1,34 +1,23 @@
 <?php
 /**
 *
-* common [Swedish] (phpBB 3.0.11)
+* This file is part of Swedish phpBB translation.
+* Copyright (c) 2010 - 2014 Swedish translation group.
 *
-* @package language
-* @version $Id: common.php 36 2012-06-27 08:50:58Z Peetra.mammapappa $
-* @copyright (c) 2006 phpBB Group, modified and translated by Swedish translation team
-* @source file is copyright (c) 2005 phpBB Group, modified and translated by Swedish translation team
-* @license http://www.gnu.org/licenses/old-licenses/gpl-2.0.html GNU Public License version 2
-* @author (c) 2006-2008 Jonathan Gulbrandsen, 2008-2012 Petra Brandt
-* @author (c) 2008-2010 Peetra
-* Translators: Swedish translation team, working at http://www.phpbb-se.com contact translation team leader at peetra.mammapappa@gmail.com Sinom helps a lot!
 *
-* This file is part of the Swedish language package for phpBB 3.0.x.
-* Copyright (c) 2006-2010 Swedish translation team
+* This program is distributed in the hope that it will be useful,
+* but WITHOUT ANY WARRANTY; without even the implied warranty of
+* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+* GNU General Public License for more details.
 *
-* tumba25 was here
 *
-* The Swedish language package for phpBB 3.0.x is free software; you can redistribute it and/or
-* modify it under the terms of the GNU General Public License as published by the Free Software
-* Foundation, version 2 of the License.
-*
-* The Swedish Language package for phpBB 3.0.x is distributed in the hope that it will be useful,
-* but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR
-* A PARTICULAR PURPOSE. See the GNU General Public License for more details.
-*
-* You should have received a copy of the GNU General Public License along with this language
-* package. If not, see <http://www.gnu.org/licenses/old-licenses/gpl-2.0.html>.
+* @package      phpBB Sweden
+* @author       Simon Assgård <sassgard@gmail.com> (Sinom) http://www.phpbb.se/
+* @copyright    phpBB Sweden
+* @license      @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
 *
 */
+
 /**
 * DO NOT CHANGE
 */
@@ -59,7 +48,12 @@ $lang = array_merge($lang, array(
 	'TRANSLATION_INFO'   => 'Swedish translation by <a href="http://www.phpbb.se/viewtopic.php?f=22&t=6096">phpBB Sweden</a> &copy; 2006-2013',
 	'DIRECTION'			=> 'ltr',
 	'DATE_FORMAT'		=> '|d M Y|',// 01 Jan 2012 (with Relative days enabled)
+	'DATETIME_FORMAT'	=> '|d M Y, H:i|',	// 01 Jan 2007, 13:37 (with Relative days enabled)
 	'USER_LANG'			=> 'sv',
+	// You can define different rules for the determination of plural forms here.
+	// See http://wiki.phpbb.com/Plural_Rules for more information
+	// or ask the translation manager for help.
+	'PLURAL_RULE'		=> 1,
 	'1_DAY'			=> '1 dag',
 	'1_MONTH'		=> '1 månad',
 	'1_YEAR'		=> '1 år',
@@ -78,6 +72,11 @@ $lang = array_merge($lang, array(
 	'ADMINISTRATORS'				=> 'Administratörer',
 	'AGE'							=> 'Ålder',
 	'AIM'							=> 'AIM',
+	'AJAX_ERROR_TITLE'				=> 'AJAX error',
+	'AJAX_ERROR_TEXT'				=> 'Någonting gick snett.',
+	'AJAX_ERROR_TEXT_ABORT'			=> 'Användaren avbröt.',
+	'AJAX_ERROR_TEXT_TIMEOUT'		=> 'Din förfrågan tog för lång tid. Försök igen.',
+	'AJAX_ERROR_TEXT_PARSERERROR'	=> 'Någonting gick snett med förfrågan till servern.',
 	'ALLOWED'						=> 'Tillåtet',
 	'ALL_FILES'						=> 'Alla filer',
 	'ALL_FORUMS'					=> 'Alla kategorier',
@@ -93,6 +92,14 @@ $lang = array_merge($lang, array(
  	'ATTACHED_IMAGE_NOT_IMAGE'		=> 'Bildfilen du försökte bifoga är ogiltig.',
 	'AUTHOR'						=> 'Författare',
 	'AUTH_NO_PROFILE_CREATED'		=> 'Det gick inte att skapa en användarprofil.',
+	'AUTH_PROVIDER_OAUTH_ERROR_INVALID_ENTRY'				=> 'Ogiltlig databasquery.',
+	'AUTH_PROVIDER_OAUTH_ERROR_INVALID_SERVICE_TYPE'		=> 'Ogiltlig tjänst utav OAuth.',
+	'AUTH_PROVIDER_OAUTH_ERROR_SERVICE_NOT_CREATED'			=> 'OAuthtjänst är inte skapad',
+	'AUTH_PROVIDER_OAUTH_SERVICE_BITLY'						=> 'Bitly',
+	'AUTH_PROVIDER_OAUTH_SERVICE_FACEBOOK'					=> 'Facebook',
+	'AUTH_PROVIDER_OAUTH_SERVICE_GOOGLE'					=> 'Google',
+	'AUTH_PROVIDER_OAUTH_TOKEN_ERROR_NOT_STORED'			=> 'OAuthtoken är inte sparad.',
+	'AUTH_PROVIDER_OAUTH_TOKEN_ERROR_INCORRECTLY_STORED'	=> 'OAuthtoken är felaktigt sparad.',
 	'AVATAR_DISALLOWED_CONTENT'		=> 'Uppladdningen nekades eftersom den uppladdade filen identifieras som en möjlig smittspridare.',
 	'AVATAR_DISALLOWED_EXTENSION'	=> 'Denna fil kan inte visas eftersom filtypen %s inte är tillåten.',
 	'AVATAR_EMPTY_REMOTE_DATA'		=> 'Den valda visningsbilden kunde inte laddas upp eftersom datan verkar vara felaktig eller korrupt.',
@@ -106,7 +113,7 @@ $lang = array_merge($lang, array(
 	'AVATAR_URL_INVALID'			=> 'URL:en du angav är felaktig.',
 	'AVATAR_URL_NOT_FOUND'			=> 'Filen kunde inte hittas.',
 	'AVATAR_WRONG_FILESIZE'			=> 'Visningsbildens filstorlek måste vara mellan 0 och %1d %2s.',
-	'AVATAR_WRONG_SIZE'				=> 'Den valda visningsbilden är %5$d pixlar bred och %6$d pixlar hög. Visningsbilder måste vara minst %1$d pixlar breda och %2$d pixlar höga, men får inte vara bredare än %3$d pixlar eller högre än %4$d pixlar.',
+	'AVATAR_WRONG_SIZE'				=> 'Den valda visningsbilden är %5$d pixlar bred och %6$d pixlar hög. Visningsbilder måste vara minst %1$d pixlar breda och %2$d pixlar höga.',
 
 	'BACK_TO_TOP'			=> 'Upp',
 	'BACK_TO_PREV'			=> 'Tillbaka till föregående sida',
@@ -123,20 +130,38 @@ $lang = array_merge($lang, array(
 	'BOARD_DISABLED'		=> 'Forumet är för närvarande inaktiverat.',
 	'BOARD_UNAVAILABLE'		=> 'Forumet är för närvarande inte tillgängligt, försök igen om några minuter.',
 	'BROWSING_FORUM'		=> 'Användare som besöker denna kategori: %1$s',
-	'BROWSING_FORUM_GUEST'	=> 'Användare som besöker denna kategori: %1$s och %2$d gäst',
-	'BROWSING_FORUM_GUESTS'	=> 'Användare som besöker denna kategori: %1$s och %2$d gäster',
+	'BROWSING_FORUM_GUESTS'	=> array(
+		1	=> 'Användare som besöker denna kategori: %1$s och %2$d gäst',
+		2	=> 'Användare som besöker denna kategori: %1$s och %2$d gäster',
+	),
+	'BUTTON_EDIT'			=> 'Ändra',
+	'BUTTON_FORUM_LOCKED'	=> 'Låst',
+	'BUTTON_NEW_TOPIC'		=> 'Ny tråd',
+	'BUTTON_PM'				=> 'PM',
+	'BUTTON_PM_FORWARD'		=> 'Framåt',
+	'BUTTON_PM_NEW'			=> 'Nytt PM',
+	'BUTTON_PM_REPLY'		=> 'Skicka svar',
+	'BUTTON_PM_REPLY_ALL'	=> 'Svara alla',
+	'BUTTON_POST_REPLY'		=> 'Skriv svar',
+	'BUTTON_QUOTE'			=> 'Citera',
+	'BUTTON_TOPIC_LOCKED'	=> 'Låst',
 	'BYTES'					=> 'Bytes',
 
 	'CANCEL'				=> 'Avbryt',
 	'CHANGE'				=> 'Ändra',
 	'CHANGE_FONT_SIZE'		=> 'Ändra textstorlek',
 	'CHANGING_PREFERENCES'	=> 'Ändrar foruminställningar',
-	'CHANGING_PROFILE'		=> 'Ändrar profilinställningar',
+	'CHANGING_PROFILE'		=> 'Ändrar profilinställningar',	
+	'CHARACTERS'			=> array(
+		1	=> '%d tecken',
+		2	=> '%d tecken',
+	),
 	'CLICK_VIEW_PRIVMSG'	=> '%sGå till din inkorg%s',
 	'COLLAPSE_VIEW'			=> 'Minimera',
 	'CLOSE_WINDOW'			=> 'Stäng fönster',
 	'COLOUR_SWATCH'			=> 'Färgväljare',
-	'COMMA_SEPARATOR'		=> ', ',	// Used in pagination of ACP & prosilver, use localised comma if appropriate, eg: Ideographic or Arabic
+	'COLON'					=> ':',
+	'COMMA_SEPARATOR'		=> ', ',	// Comma used to join lists into a single string, use localised comma if appropriate, eg: Ideographic or Arabic	
 	'CONFIRM'				=> 'Bekräfta',
 	'CONFIRM_CODE'			=> 'Verifieringskod',
 	'CONFIRM_CODE_EXPLAIN'	=> 'Ange koden exakt som den visas. Bokstäverna är inte skiftlägeskänsliga.',

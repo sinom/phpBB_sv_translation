@@ -1,29 +1,20 @@
 <?php
 /**
 *
-* acp_groups [Swedish] (phpBB 3.0.11)
+* This file is part of Swedish phpBB translation.
+* Copyright (c) 2010 - 2014 Swedish translation group.
 *
-* @package language
-* @version $Id: groups.php 36 2012-06-27 08:50:58Z Peetra.mammapappa $
-* @copyright (c) 2006 phpBB Group, modified and translated by Swedish translation team
-* @source file is copyright (c) 2005 phpBB Group, modified and translated by Swedish translation team
-* @license http://www.gnu.org/licenses/old-licenses/gpl-2.0.html GNU Public License version 2
-* @author (c) 2006-2008 Jonathan Gulbrandsen, 2008-2012 Petra Brandt
-* Translators: Swedish translation team, working at http://www.phpbb-se.com Contact team leader at peetra.mammapappa@gmail.com
 *
-* This file is part of the Swedish language package for phpBB 3.0.x.
-* Copyright (c) 2006-2010 Swedish translation team
+* This program is distributed in the hope that it will be useful,
+* but WITHOUT ANY WARRANTY; without even the implied warranty of
+* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+* GNU General Public License for more details.
 *
-* The Swedish language package for phpBB 3.0.x is free software; you can redistribute it and/or
-* modify it under the terms of the GNU General Public License as published by the Free Software
-* Foundation, version 2 of the License.
 *
-* The Swedish Language package for phpBB 3.0.x is distributed in the hope that it will be useful,
-* but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR
-* A PARTICULAR PURPOSE. See the GNU General Public License for more details.
-*
-* You should have received a copy of the GNU General Public License along with this language
-* package. If not, see <http://www.gnu.org/licenses/old-licenses/gpl-2.0.html>.
+* @package      phpBB Sweden
+* @author       Simon Assgård <sassgard@gmail.com> (Sinom) http://www.phpbb.se/
+* @copyright    phpBB Sweden
+* @license      @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
 *
 */
 
@@ -54,6 +45,7 @@ if (empty($lang) || !is_array($lang))
 
 $lang = array_merge($lang, array(
 	'ACP_GROUPS_MANAGE_EXPLAIN'		=> 'Från denna panel kan du administrera alla dina användargrupper. Du kan ta bort, skapa och redigera existerande grupper. Vidare kan du välja gruppledare, ändra gruppstatus (öppnen/gömd/stängd) samt ställa in gruppnamn och beskrivning.',
+	'ADD_GROUP_CATEGORY'			=> 'Lägg till kategori',
 	'ADD_USERS'						=> 'Lägg till användare',
 	'ADD_USERS_EXPLAIN'				=> 'Här kan du lägga till nya medlemmar till gruppen. Du kan göra gruppen till standardgrupp för de valda användarna. Du kan också göra dem till gruppledare. Ange varje användarnamn på en ny rad.',
 
@@ -67,11 +59,14 @@ $lang = array_merge($lang, array(
 	'GROUP_APPROVED'				=> 'Godkända medlemmar',
 	'GROUP_AVATAR'					=> 'Gruppvisningsbild',
 	'GROUP_AVATAR_EXPLAIN'			=> 'Denna bild kommer att visas i gruppens kontrollpanelen.',
+	'GROUP_CATEGORY_NAME'			=> 'Kategorinamn',
 	'GROUP_CLOSED'					=> 'Stängd',
 	'GROUP_COLOR'					=> 'Gruppfärg',
-	'GROUP_COLOR_EXPLAIN'			=> 'Definierar den färg som medlemmars användarnamn ska visas i, lämna blankt för att använda användarens normalfärg.',
-	'GROUP_CONFIRM_ADD_USER'		=> 'Är du säker på att du vill lägga till användaren %1$s till gruppen?',
-	'GROUP_CONFIRM_ADD_USERS'		=> 'Är du säker på att du vill lägga till användarna %1$s till gruppen?',
+	'GROUP_COLOR_EXPLAIN'			=> 'Definerar färgen vars medlemmars namn visas i, lämna orörd för standard.',
+	'GROUP_CONFIRM_ADD_USERS'		=> array(
+		1	=> 'Är du säker på att du vill lägga till användare %2$s till gruppen?',
+		2	=> 'Är du säker på att du vill lägga till användarna %2$s till gruppen?',
+	),
 	'GROUP_CREATED'					=> 'Gruppen skapades.',
 	'GROUP_DEFAULT'					=> 'Gör till standardgrupp för medlem',
 	'GROUP_DEFS_UPDATED'			=> 'Standardgrupp inställd för alla valda medlemmar.',
@@ -113,25 +108,45 @@ $lang = array_merge($lang, array(
 	'GROUP_SETTINGS_SAVE'			=> 'Gruppomfattande inställningar',
 	'GROUP_SKIP_AUTH'				=> 'Undanta gruppledarna från behörigheterna',
 	'GROUP_SKIP_AUTH_EXPLAIN'		=> 'Om man har denna inställning påslagen, så har gruppledarna inte längre automatiskt samma behörigheter som gruppen.',
+	'GROUP_SPECIAL'					=> 'Förbestämd',
+	'GROUP_TEAMPAGE'				=> 'Visa grupp på teamsidan',
 	'GROUP_TYPE'					=> 'Grupptyp',
 	'GROUP_TYPE_EXPLAIN'			=> 'Detta avgör vilka användare som kan gå med i eller visa denna grupp.',
 	'GROUP_UPDATED'					=> 'Gruppinställningarna uppdaterades.',
 	'GROUP_USERS_ADDED'				=> 'Nya användare lades till i gruppen.',
 	'GROUP_USERS_EXIST'				=> 'De valda användarna är redan medlemmar.',
 	'GROUP_USERS_REMOVE'			=> 'Användarna togs bort från gruppen och nya standarder ställdes in.',
+	'LEGEND_EXPLAIN'				=> 'Följande grupper visas i grupplegenden:',
+	'LEGEND_SETTINGS'				=> 'Legendstatistik',
+	'LEGEND_SORT_GROUPNAME'			=> 'Sortera legend efter gruppnamn',
+	'LEGEND_SORT_GROUPNAME_EXPLAIN'	=> 'Orningen nedan ingroreras när denna är ikryssad.',
+
+	'MANAGE_LEGEND'			=> 'Hantera grupplegend',
+	'MANAGE_TEAMPAGE'		=> 'Hantera teamsidan',
 
 	'MAKE_DEFAULT_FOR_ALL'	=> 'Gör till standardgrupp för alla medlemmar',
 	'MEMBERS'				=> 'Medlemmar',
 
 	'NO_GROUP'					=> 'Ingen grupp angiven.',
+	'NO_GROUPS_ADDED'			=> 'Inga grupper har lagts till ännu.',
 	'NO_GROUPS_CREATED'			=> 'Inga grupper har skapats.',
 	'NO_PERMISSIONS'			=> 'Kopiera inte behörigheter',
 	'NO_USERS'					=> 'Du angav inga användare.',
 	'NO_USERS_ADDED'			=> 'Inga användare lades till gruppen.',
 	'NO_VALID_USERS'			=> 'Du har inte angett några användare som det går att utföra den handlingen på.',
+	'SELECT_GROUP'				=> 'Välj en grupp',
 
 	'SPECIAL_GROUPS'			=> 'Fördefinierade grupper',
 	'SPECIAL_GROUPS_EXPLAIN'	=> 'Fördefinierade grupper är speciella grupper, de kan inte tas bort eller ändras direkt. Du kan dock fortfarande lägga till användare och ändra grundläggande inställningar.',
+	'TEAMPAGE'					=> 'Teamsidan',
+	'TEAMPAGE_DISP_ALL'			=> 'Alla medlemskap',
+	'TEAMPAGE_DISP_DEFAULT'		=> 'Användarens standardgrupp',
+	'TEAMPAGE_DISP_FIRST'		=> 'Enbart första medlemskapet',
+	'TEAMPAGE_EXPLAIN'			=> 'Följande grupper visas på teamsidan:',
+	'TEAMPAGE_FORUMS'			=> 'Visa modererade forum',
+	'TEAMPAGE_FORUMS_EXPLAIN'	=> 'Om vald till ja, så kommer moderatorerna ha en lista med alla forum där moderatorernas behörigheter visas i deras rad. Detta kan vara väldigt jobbigt för databaser.',
+	'TEAMPAGE_MEMBERSHIPS'		=> 'Visa gruppmedlemskap',
+	'TEAMPAGE_SETTINGS'			=> 'Teamsideinställningar',
 
 	'TOTAL_MEMBERS'				=> 'Medlemmar',
 
@@ -143,5 +158,3 @@ $lang = array_merge($lang, array(
 	'USER_GROUP_DEFAULT_EXPLAIN'	=> 'Om du sätter ja här kommer denna grupp att sättas som standardgrupp för de användare du lägger till.',
 	'USER_GROUP_LEADER'				=> 'Sätt som gruppledare',
 ));
-
-?>

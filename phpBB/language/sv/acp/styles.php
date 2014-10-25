@@ -1,29 +1,20 @@
 <?php
-/** 
+/**
 *
-* acp_styles [Swedish] (phpBB 3.0.11)
+* This file is part of Swedish phpBB translation.
+* Copyright (c) 2010 - 2014 Swedish translation group.
 *
-* @package language
-* @version $Id: styles.php 36 2012-06-27 08:50:58Z Peetra.mammapappa $
-* @copyright (c) 2006 phpBB Group, modified and translated by Swedish translation team
-* @source file is copyright (c) 2005 phpBB Group, modified and translated by Swedish translation team
-* @license http://www.gnu.org/licenses/old-licenses/gpl-2.0.html GNU Public License version 2
-* @author (c) 2006-2008 Jonathan Gulbrandsen, 2008-2012 Petra Brandt
-* Translators: Swedish translation team, working at http://www.phpbb-se.com Contact team leader at peetra.mammapappa@gmail.com 
 *
-* This file is part of the Swedish language package for phpBB 3.0.x.
-* Copyright (c) 2006-2010 Swedish translation team
+* This program is distributed in the hope that it will be useful,
+* but WITHOUT ANY WARRANTY; without even the implied warranty of
+* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+* GNU General Public License for more details.
 *
-* The Swedish language package for phpBB 3.0.x is free software; you can redistribute it and/or
-* modify it under the terms of the GNU General Public License as published by the Free Software
-* Foundation, version 2 of the License.
 *
-* The Swedish Language package for phpBB 3.0.x is distributed in the hope that it will be useful,
-* but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR
-* A PARTICULAR PURPOSE. See the GNU General Public License for more details.
-*
-* You should have received a copy of the GNU General Public License along with this language
-* package. If not, see <http://www.gnu.org/licenses/old-licenses/gpl-2.0.html>.
+* @package      phpBB Sweden
+* @author       Simon Assgård <sassgard@gmail.com> (Sinom) http://www.phpbb.se/
+* @copyright    phpBB Sweden
+* @license      @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
 *
 */
 
@@ -53,18 +44,9 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, array(
-	'ACP_IMAGESETS_EXPLAIN'	=> 'Bildpaket innehåller alla knappar, kategori, mappar, osv. och andra ej stil specifika bilder som används på forumet. Här kan du redigera, exportera eller ta bort existerande bildpaket och importera eller aktivera nya paket.',
-	'ACP_STYLES_EXPLAIN'	=> 'Här kan du hantera alla tillgängliga stilar för ditt forum. En stil består av en mall, ett tema och ett bildpaket. Du kan ändra existerande stilar, ta bort, inaktivera, aktivera, skapa eller importera nya. Du kan också se hur en stil kommer att se ut genom att använda förhandsgranskningen. Den nuvarande standardstilen markeras med en stjärna (*). Här visas också det totala antal av användarna som använder varje stil, observera att åsidosättning av användarstilar inte reflekteras här.',
-	'ACP_TEMPLATES_EXPLAIN'	=> 'En malluppsättning innehåller all HTML som används för att generera utseendet på ditt forum. Här kan du redigera existerande malluppsättningar, ta bort, exportera, importera och förhandsgranska uppsättningar. Du kan också ändra mallkoden som används för att generera BBCode.',
-	'ACP_THEMES_EXPLAIN'	=> 'Härifrån kan du skapa, installera, redigera, ta bort och exportera teman. Ett tema är kombinationen av färger och bilder som läggs på dina mallar för att definiera det grundläggande utseendet på ditt forum. Antalet alternativ här beror på din serverkonfiguration och phpBB installation, se manualen för mer information. Observera att när du skapar nya teman så är det frivilligt att använda ett redan existerande tema som bas.',
-	'ADD_IMAGESET'			=> 'Skapa bildpaket',
-	'ADD_IMAGESET_EXPLAIN'	=> 'Här kan du skapa ett nytt bildpaket. Beroende på din serverkonfiguration och filbehörigheter så kan du ha ytterligare alternativ här. Till exempel kan det vara möjligt att basera detta bildpaket på ett redan existerande. Det kan också gå att ladda upp eller importera (från store-katalogen) ett bildpaketsarkiv. Om du laddar upp eller importerar ett arkiv så kan bildpaketsnamnet frivilligt tas från arkivnamnet (för att göra detta lämna bildpaketsnamn tomt).',
-	'ADD_STYLE'				=> 'Skapa stil',
-	'ADD_STYLE_EXPLAIN'		=> 'Här kan du skapa en ny stil. Beroende på din serverkonfiguration och filbehörigheter så kan du ha ytterligare alternativ här. Till exempel kan det gå att basera denna stil på en redan existerande. Det kan också gå att ladda upp eller importera (från store-katalogen) ett stilarkiv. Om du laddar upp eller importerar ett arkiv så kommer stilnamnet att avgöras automatiskt.',
+	'ACP_STYLES_EXPLAIN'	=> 'Här kan du skapa en ny stil. Beroende på din serverkonfiguration och filbehörigheter så kan du ha ytterligare alternativ här. Till exempel kan det gå att basera denna stil på en redan existerande. Det kan också gå att ladda upp eller importera (från store-katalogen) ett stilarkiv. Om du laddar upp eller importerar ett arkiv så kommer stilnamnet att avgöras automatiskt.',
 	'ADD_TEMPLATE'			=> 'Skapa mall',
-	'ADD_TEMPLATE_EXPLAIN'	=> 'Här kan du lägga till en ny mall. Beroende på din serverkonfiguration och filbehörigheter så kan du ha ytterligare alternativ här. Till exempel kan det gå att basera denna malluppsättning på en redan existerande. Det kan också gå att ladda upp eller importera (från store-katalogen) att mallarkiv. Om du laddar upp eller importerar ett arkiv så kan mallnamnet frivilligt tas från arkivnamnet (för att göra detta lämna mallnamnet tomt).',
-	'ADD_THEME'				=> 'Skapa tema',
-	'ADD_THEME_EXPLAIN'		=> 'Här kan du lägga till ett nytt tema. Beroende på din serverkonfiguration och filbehörigheter så kan du ha ytterligare alternativ här. Till exempel kan det gå att basera detta tema på ett redan existerande. Det kan också gå att ladda upp eller importera (från store-katalogen) att temaarkiv. Om du laddar upp eller importerar ett arkiv så kan temanamnet frivilligt tas från arkivnamnet (för att göra detta lämna temanamnet tomt).',
+	'ADD_TEMPLATE_EXPLAIN'	=> 'Här kan du lägga till ett nytt tema. Beroende på din serverkonfiguration och filbehörigheter så kan du ha ytterligare alternativ här. Till exempel kan det gå att basera detta tema på ett redan existerande. Det kan också gå att ladda upp eller importera (från store-katalogen) att temaarkiv. Om du laddar upp eller importerar ett arkiv så kan temanamnet frivilligt tas från arkivnamnet (för att göra detta lämna temanamnet tomt).',
 	'ARCHIVE_FORMAT'		=> 'Arkivfilstyp',
 	'AUTOMATIC_EXPLAIN'		=> 'Lämna tomt för att försöka detektera automatiskt.',
 
@@ -78,12 +60,12 @@ $lang = array_merge($lang, array(
 	'CACHE_CACHED'					=> 'Cachad',
 	'CACHE_FILENAME'				=> 'Mallfil',
 	'CACHE_FILESIZE'				=> 'Filstorlek',
-	'CACHE_MODIFIED'				=> 'Ändrad',
-	'CONFIRM_IMAGESET_REFRESH'		=> 'Är du säker på att du vill uppdatera all bildpaketsdata? Inställningarna från bildpaketets konfigurationsfil kommer att skriva över alla ändringar som gjorts i bildpaketet via bildpaketsredigeraren.',
+	'CACHE_MODIFIED'				=> 'Ändrad',	
+	'CANNOT_BE_INSTALLED'			=> 'Kan inte bli installerad',
 	'CONFIRM_TEMPLATE_CLEAR_CACHE'	=> 'Är du säker på att du vill rensa bort alla cachade versioner av dina mallfiler?',
-	'CONFIRM_TEMPLATE_REFRESH'		=> 'Är du säker på att du vill uppdatera all malldata i databasen med innehållet i mallfilerna på filsystemet? Detta kommer att skriva över alla ändringar som gjorts med mallredigeraren medan mallen var lagrad i databasen.',
-	'CONFIRM_THEME_REFRESH'			=> 'Är du säker på att du vill uppdatera all temadata i databasen med innehållet i temat på filsystemet? Detta kommer att skriva över alla ändringar som har gjorts i temaredigeraren medan temat var lagrat i databasen.',
-	'COPYRIGHT'						=> 'Copyright',
+	'CONFIRM_DELETE_STYLES'			=> 'Är du säker på att du vill ta bort valda stilar?',
+	'CONFIRM_UNINSTALL_STYLES'		=> 'Är du säker på att du vill avinstallera valda stilar?',
+	'COPYRIGHT'						=> 'Copyright',	
 	'CREATE_IMAGESET'				=> 'Skapa nytt bildpaket',
 	'CREATE_STYLE'					=> 'Skapa ny stil',
 	'CREATE_TEMPLATE'				=> 'Skapa ny malluppsättning',
@@ -92,34 +74,26 @@ $lang = array_merge($lang, array(
 
 	'DEACTIVATE_DEFAULT'		=> 'Du kan inte inaktivera standardstilen.',
 	'DELETE_FROM_FS'			=> 'Ta bort från filsystemet',
-	'DELETE_IMAGESET'			=> 'Ta bort bildpaket',
-	'DELETE_IMAGESET_EXPLAIN'	=> 'Här kan du ta bort det valda bildpaketet från databasen. Kom ihåg att det inte går att ångra. När bildpaketet har raderats är det borta för alltid. Det är rekommenderat att du först exporterar ditt bildpaket för möjlig framtida användning.',
 	'DELETE_STYLE'				=> 'Ta bort stil',
 	'DELETE_STYLE_EXPLAIN'		=> 'Här kan du ta bort den valda stilen. Var försiktig när du tar bort stilar, det går inte att ångra.',
+	'DELETE_STYLE_FILES_FAILED'	=> 'Det gick inte att ta bort stilen "%s".',
+	'DELETE_STYLE_FILES_SUCCESS'	=> 'Filer till stilen "%s" har tagits bort.',
 	'DELETE_TEMPLATE'			=> 'Ta bort mall',
 	'DELETE_TEMPLATE_EXPLAIN'	=> 'Här kan du ta bort den valda malluppsättningen från databasen. Kom ihåg att det inte går att ångra. När mallarna raderats är de borta för alltid. Det är rekommenderat att du först exporterar din malluppsättning för möjlig framtida användning.',
-	'DELETE_THEME'				=> 'Ta bort tema',
-	'DELETE_THEME_EXPLAIN'		=> 'Här kan du ta bort det valda temat från databasen. Kom ihåg att det inte går att ångra. När temat raderats är det borta för alltid. Det är rekommenderat att du först exporterar ditt tema för möjlig framtida användning.',
 	'DETAILS'					=> 'Detaljer',
 	'DIMENSIONS_EXPLAIN'		=> 'Om du väljer ja här så kommer höjd/bredd-parametrar att inkluderas.',
 
-	'EDIT_DETAILS_IMAGESET'				=> 'Redigera bildpaketsdetaljer',
-	'EDIT_DETAILS_IMAGESET_EXPLAIN'		=> 'Här kan du ändra vissa bildpaketsdetaljer så som dess namn.',
-	'EDIT_DETAILS_STYLE'				=> 'Redigera stil',
+
+	'EDIT_DETAILS_STYLE'				=> 'Ändra stil',
 	'EDIT_DETAILS_STYLE_EXPLAIN'		=> 'Genom att använda formuläret nedan så kan du ändra denna existerande stil. Du kan ändra kombineringen av mall, tema och bildpaket som definierar stilen själv. Du kan också göra stilen till standardstil.',
 	'EDIT_DETAILS_TEMPLATE'				=> 'Redigera malldetaljer',
 	'EDIT_DETAILS_TEMPLATE_EXPLAIN'		=> 'Här kan du ändra vissa malldetaljer så som dess namn. Du kan också byta lagring av stilmallen från filsystemet till databasen och tvärtom. Detta alternativ är beroende av din PHP-konfiguration och om din malluppsättning kan skrivas till av webbservern.',
 	'EDIT_DETAILS_THEME'				=> 'Redigera temadetaljer',
 	'EDIT_DETAILS_THEME_EXPLAIN'		=> 'Här kan du redigera vissa temadetaljer så som dess namn. Du kan också byta lagring av stilmallen från filsystemet till databasen och tvärtom. Detta alternativ är beroende av din PHP-konfiguration och om din stilmall kan skrivas till av webbservern.',
-	'EDIT_IMAGESET'						=> 'Redigera bildpaket',
-	'EDIT_IMAGESET_EXPLAIN'				=> 'Här kan du ändra de individuella bilder som definierar bildpaketet. Du kan också ange dimensioner för bilden. Dimensioner är frivilliga, om du anger de så kan det få bukt med vissa tolkningsproblem i vissa webbläsare. Om du inte anger de sänker du storleken på databasposten något.',
 	'EDIT_TEMPLATE'						=> 'Redigera mall',
 	'EDIT_TEMPLATE_EXPLAIN'				=> 'Här kan du ändra din malluppsättning direkt. Kom ihåg att dessa förändringar är permanenta och inte kan ångras när de väl skickats in. Om PHP kan skriva till mallfilerna i din styles-katalog så kommer alla ändringar som görs här skrivas direkt till dessa filer. Om PHP inte kan skriva till dessa filer så kommer de att kopieras till databasen och alla ändringar kommer endast reflekteras där. Var försiktig när du redigerar din malluppsättning, kom ihåg att stänga alla variabeltermer {XXXX} och konditionspåståenden.',
-	'EDIT_TEMPLATE_STORED_DB'			=> 'Mallfilen kunde inte skrivas till så malluppsättningen är nu lagrad i databasen med den förändrade filen.',
 	'EDIT_THEME'						=> 'Redigera tema',
-	'EDIT_THEME_EXPLAIN'				=> 'Här kan du ändra det valda temat, ändra färger, bilder, osv.',
-	'EDIT_THEME_STORED_DB'				=> 'Stilmallsfilen kunde inte skrivas till så skrivmallen är nu lagrad i databasen med dina förändringar.',
-	'EDIT_THEME_STORE_PARSED'			=> 'Temat kräver att stilmallen tolkas. Detta är endast möjligt om temat lagras i databasen.', 
+	'EDIT_THEME_EXPLAIN'				=> 'Här kan du ändra det valda temat, ändra färger, bilder, osv.',	
 	'EDITOR_DISABLED'					=> 'Stilredigeraren är inaktiverad.',
 	'EXPORT'							=> 'Exportera',
 
@@ -285,113 +259,99 @@ $lang = array_merge($lang, array(
 	'INACTIVE_STYLES'		=> 'Inaktiva stilar',
 
 	'INCLUDE_DIMENSIONS'		=> 'Inkludera dimensioner',
-	'INCLUDE_IMAGESET'			=> 'Inkludera bildpaket',
 	'INCLUDE_TEMPLATE'			=> 'Inkludera mall',
 	'INCLUDE_THEME'				=> 'Inkludera tema',
-	'INHERITING_FROM'            => 'Ärver malluppsättnig av',
-	'INSTALL_IMAGESET'			=> 'Installera bildpaket',
-	'INSTALL_IMAGESET_EXPLAIN'	=> 'Här kan du installera ditt valda bildpaket. Du kan ändra vissa detaljer om du vill eller använda standardvärdena.',
+	'INHERITING_FROM'			=> 'Ärver malluppsättnig av',
 	'INSTALL_STYLE'				=> 'Installera stil',
-	'INSTALL_STYLE_EXPLAIN'		=> 'Här kan du installera en ny stil och om lämpligt de motsvarande stilelementen. Om du redan har de relevanta stilelementen installerade så kommer de inte skrivas över. Vissa stilar kräver att vissa stilelement redan ska finnas installerade. Om du försöker installera en sådan stil och inte har de krävda elementen så kommer du att informeras om det.',
-	'INSTALL_TEMPLATE'			=> 'Installera mall',
-	'INSTALL_TEMPLATE_EXPLAIN'	=> 'Här kan du installera en ny malluppsättning. Beroende på din serverkonfiguration kan du ha ett antal alternativ här nedan.',
-	'INSTALL_THEME'				=> 'Installera tema',
-	'INSTALL_THEME_EXPLAIN'		=> 'Här kan du installera ditt valda tema. Du kan redigera vissa detaljer om du vill eller använda standardvärdena.',
-	'INSTALLED_IMAGESET'		=> 'Installerade bildpaket',
+	'INSTALL_STYLES'			=> 'Installera stilar',
+	'INSTALL_STYLES_EXPLAIN'	=> 'Här kan du installera en ny stil och om lämpligt de motsvarande stilelementen. Om du redan har de relevanta stilelementen installerade så kommer de inte skrivas över. Vissa stilar kräver att vissa stilelement redan ska finnas installerade. Om du försöker installera en sådan stil och inte har de krävda elementen så kommer du att informeras om det.',
 	'INSTALLED_STYLE'			=> 'Installerade stilar',
-	'INSTALLED_TEMPLATE'		=> 'Installerade mallar',
-	'INSTALLED_THEME'			=> 'Installerade teman',
+	'INVALID_STYLE_ID'			=> 'Invalid stil-ID.',
 
-	'KEEP_IMAGESET'				=> 'Behåll bildpaket för “%s”',
-	'KEEP_TEMPLATE'				=> 'Behåll mallen för “%s”',
-	'KEEP_THEME'				=> 'Behåll temat för “%s”',
-	
 	'LINE_SPACING'				=> 'Linjeavstånd',
 	'LOCALISED_IMAGES'			=> 'Översatt',
-	'LOCATION_DISABLED_EXPLAIN'    => 'Den här inställningen är ärvd och kan inte ändras.',
 
 	'NO_CLASS'					=> 'Kunde inte hitta klass i stilmall.',
-	'NO_IMAGESET'				=> 'Kunde inte hitta bildpaket på filsystemet.',
 	'NO_IMAGE'					=> 'Ingen bild',
 	'NO_IMAGE_ERROR'			=> 'Kunde inte hitta bild på filsystemet.',
+	'NO_MATCHING_STYLES_FOUND'	=> 'Inga stilar stämmer in.',
 	'NO_STYLE'					=> 'Kunde inte hitta stil på filsystemet.',
 	'NO_TEMPLATE'				=> 'Kunde inte hitta mall på filsystemet.',
 	'NO_THEME'					=> 'Kunde inte hitta tema på filsystemet.',
-	'NO_UNINSTALLED_IMAGESET'	=> 'Inga oinstallerade bildpaket hittades.',
 	'NO_UNINSTALLED_STYLE'		=> 'Inga oinstallerade stilar hittades.',
-	'NO_UNINSTALLED_TEMPLATE'	=> 'Inga oinstallerade mallar hittades.',
-	'NO_UNINSTALLED_THEME'		=> 'Inga oinstallerade teman hittades.',
 	'NO_UNIT'					=> 'Ingen',
 
-	'ONLY_IMAGESET'			=> 'Detta är det enda kvarstående bildpaketet, du kan inte ta bort det.',
 	'ONLY_STYLE'			=> 'Detta är den enda kvarstående stilen, du kan inte ta bort den.',
-	'ONLY_TEMPLATE'			=> 'Detta är den enda kvarstående malluppsättnigen, du kan inte ta bort den.',
-	'ONLY_THEME'			=> 'Detta är det enda kvarstående temat, du kan inte ta bort det.',
-	'OPTIONAL_BASIS'		=> 'Frivillig basis',
 
+	'PARENT_STYLE_NOT_FOUND'	=> 'Föräldrarstil kunde inte hittas. Denna stil kanske inte fungerar korrekt, vänligen avinstallera.',
+	'PURGED_CACHE'				=> 'Cachen tömdes.',
 	'REFRESH'					=> 'Uppdatera',
 	'REPEAT_NO'					=> 'Ingen',
 	'REPEAT_X'					=> 'Endast horisontellt',
 	'REPEAT_Y'					=> 'Endast vertikalt',
 	'REPEAT_ALL'				=> 'Båda riktningarna',
-	'REPLACE_IMAGESET'			=> 'Ersätt bildpaket med',
-	'REPLACE_IMAGESET_EXPLAIN'	=> 'Detta bildpaketet kommer att ersätta det som du tar bort i alla stilar som använder det.',
 	'REPLACE_STYLE'				=> 'Ersätt stil med',
 	'REPLACE_STYLE_EXPLAIN'		=> 'Denna stil kommer att ersätta den som du tar bort för alla medlemmar som använder den.',
 	'REPLACE_TEMPLATE'			=> 'Ersätt mall med',
 	'REPLACE_TEMPLATE_EXPLAIN'	=> 'Denna mall kommer att ersätta den som du tar bort i alla stilar som använder den.',
 	'REPLACE_THEME'				=> 'Ersätt tema med',
 	'REPLACE_THEME_EXPLAIN'		=> 'Detta tema kommer att ersätta det som du tar bort i alla stilar som använder det.',
-	'REPLACE_WITH_OPTION'		=> 'Ersätt med “%s”',
-	'REQUIRES_IMAGESET'			=> 'Denna stil kräver att bildpaketet %s är installerat.',
-	'REQUIRES_TEMPLATE'			=> 'Denna stil kräver att malluppsättningen %s är installerad.',
-	'REQUIRES_THEME'			=> 'Denna stil kräver att temat %s är installerat.',
+	'REPLACE_WITH_OPTION'		=> 'Ersätt med “%s”',	
+	'REQUIRES_STYLE'			=> 'Denna stilen kräver att stilen "%s" är installerad.',
 
 	'SELECT_IMAGE'				=> 'Välj bild',
 	'SELECT_TEMPLATE'			=> 'Välj mallfil',
 	'SELECT_THEME'				=> 'Välj temafil',
 	'SELECTED_IMAGE'			=> 'Vald bild',
-	'SELECTED_IMAGESET'			=> 'Valt bildpaket',
 	'SELECTED_TEMPLATE'			=> 'Vald mall',
 	'SELECTED_TEMPLATE_FILE'	=> 'Vald mallfil',
 	'SELECTED_THEME'			=> 'Valt tema',
 	'SELECTED_THEME_FILE'		=> 'Vald temafil',
-	'STORE_DATABASE'			=> 'Databas',
 	'STORE_FILESYSTEM'			=> 'Filsystem',
 	'STYLE_ACTIVATE'			=> 'Aktivera',
+	'STYLE_ACTIVATED'			=> 'Stilen aktiverades',
 	'STYLE_ACTIVE'				=> 'Aktiv',
 	'STYLE_ADDED'				=> 'Stilen lades till.',
 	'STYLE_DEACTIVATE'			=> 'Inaktivera',
+	'STYLE_DEACTIVATED'			=> 'Stilen inaktiverades',
 	'STYLE_DEFAULT'				=> 'Gör till standardstil',
+	'STYLE_DEFAULT_CHANGE'		=> 'Ändra standardstil',
+	'STYLE_DEFAULT_CHANGE_INACTIVE'	=> 'Du måste aktivera stilen innan du gör den till standardstil.',
 	'STYLE_DELETED'				=> 'Stilen togs bort.',
 	'STYLE_DETAILS_UPDATED'		=> 'Stilen redigerades.',
 	'STYLE_ERR_ARCHIVE'			=> 'Välj en arkiveringsmetod.',
 	'STYLE_ERR_COPY_LONG'		=> 'Copyrighttexten kan inte vara längre än 60 tecken.',
+	'STYLE_ERR_INVALID_PARENT'	=> 'Invalid föräldrarstil.',	
 	'STYLE_ERR_MORE_ELEMENTS'	=> 'Du måste välja minst ett stilelement.',
 	'STYLE_ERR_NAME_CHARS'		=> 'Stilnamnet kan endast innehålla alfanumeriska tecken, -, +, _ och mellanslag.',
 	'STYLE_ERR_NAME_EXIST'		=> 'En stil med det namnet finns redan.',
 	'STYLE_ERR_NAME_LONG'		=> 'Stilnamnet kan inte vara längre än 30 tecken.',
-	'STYLE_ERR_NO_IDS'			=> 'Du måste välja en mall, ett tema och ett bildpaket för denna stil.',
 	'STYLE_ERR_NOT_STYLE'		=> 'Den importerade eller uppladdade filen innehöll inget giltigt stilarkiv.',
 	'STYLE_ERR_STYLE_NAME'		=> 'Du måste ange ett namn för denna stil.',
 	'STYLE_EXPORT'				=> 'Exportera stil',
 	'STYLE_EXPORT_EXPLAIN'		=> 'Här kan du exportera en stil i form av ett arkiv. En stil måste inte innehålla alla element men måste innehålla minst ett. Till exempel om du har skapat ett nytt tema och bildpaket för en vanligen använd mall kan du exportera temat och bildpaketet och utelämna mallen. Du kan välja att ladda ner filen direkt eller placera den i din store-mapp för senare nerladdning eller via FTP.',
 	'STYLE_EXPORTED'			=> 'Stil exporterad och lagrad i %s.',
-	'STYLE_IMAGESET'			=> 'Bildpaket',
+	'STYLE_INSTALLED'			=> 'Style "%s" has been installed.',
+	'STYLE_INSTALLED_EDIT_DETAILS'	=> '<a href="%s">Click here</a> to edit style details or to change default style.',
+	'STYLE_INSTALLED_RETURN_STYLES'	=> '<a href="%s">Click here</a> to return to installed styles list.',
+	'STYLE_INSTALLED_RETURN_UNINSTALLED'	=> '<a href="%s">Click here</a> to install more styles.',	
 	'STYLE_NAME'				=> 'Stilnamn',
+	'STYLE_NOT_INSTALLED'		=> 'Style "%s" was not installed.',
+	'STYLE_PATH'				=> 'Style path:',
+	'STYLE_PARENT'				=> 'Parent style:',
 	'STYLE_TEMPLATE'			=> 'Mall',
 	'STYLE_THEME'				=> 'Tema',
+	'STYLE_UNINSTALL'			=> 'Uninstall',
+	'STYLE_UNINSTALL_DEPENDENT'	=> 'Style "%s" cannot be uninstalled because it has one or more child styles.',
+	'STYLE_UNINSTALLED'			=> 'Style "%s" uninstalled successfully.',
 	'STYLE_USED_BY'				=> 'Används av (inklusive robotar)',
 
 	'TEMPLATE_ADDED'			=> 'Malluppsättning lades till och sparades på filsystemet.',
-	'TEMPLATE_ADDED_DB'			=> 'Malluppsättning lades till och sparades i databasen.',
 	'TEMPLATE_CACHE'			=> 'Mallcache',
 	'TEMPLATE_CACHE_EXPLAIN'	=> 'Som standard cachar phpBB den kompilerade versionen av dess mallar. Detta minskar belastningen på servern varje gång en sida visas och kan därför reducera sidgenereringstiden. Här kan du visa cachestatus för varje fil och ta bort individuella filer eller rensa hela cachen.',
 	'TEMPLATE_CACHE_CLEARED'	=> 'Mallcache tömdes.',
 	'TEMPLATE_CACHE_EMPTY'		=> 'Det finns inga cachade mallar.',
-	'TEMPLATE_DELETED'			=> 'Malluppsättning togs bort.',
-  'TEMPLATE_DELETE_DEPENDENT'    => 'Malluppsättningen kan inte raderas eftersom det finns en eller flera malluppsättningar, som använder delar av den:',
-	'TEMPLATE_DELETED_FS'		=> 'Malluppsättning togs bort från databasen men några filer kan finnas kvar på filsystemet.',
+	'TEMPLATE_DELETED_FS'		=> 'Malluppsättning togs bort från databasen men några filer kan finnas kvar på filsystemet.',	
 	'TEMPLATE_DETAILS_UPDATED'	=> 'Malldetaljer uppdaterades.',
 	'TEMPLATE_EDITOR'			=> 'Rå HTML mallredigerare',
 	'TEMPLATE_EDITOR_HEIGHT'	=> 'Höjd på mallredigerare',
@@ -399,25 +359,14 @@ $lang = array_merge($lang, array(
 	'TEMPLATE_ERR_CACHE_READ'	=> 'Cache-katalogen som används för att spara cachade versioner av mallfiler kunde inte öppnas.',
 	'TEMPLATE_ERR_COPY_LONG'	=> 'Copyrighttesten kan inte vara längre än 60 tecken.',
 	'TEMPLATE_ERR_NAME_CHARS'	=> 'Mallnamnet kan endast innehålla alfanumeriska tecken, -, +, _ och mellanslag.',
-	'TEMPLATE_ERR_NAME_EXIST'	=> 'En malluppsättning med det namnet finns redan.',
 	'TEMPLATE_ERR_NAME_LONG'	=> 'Mallnamnet kan inte vara längre än 30 tecken.',
-	'TEMPLATE_ERR_NOT_TEMPLATE'	=> 'Arkivet du angav innehåller inte en giltig malluppsättning.',
-  'TEMPLATE_ERR_REQUIRED_OR_INCOMPLETE' => 'Den nya malluppsättningen kräver att stilen %s är installerad. Den får inte ärva delar av sig själv.', 
 	'TEMPLATE_ERR_STYLE_NAME'	=> 'Du måste ange ett namn för denna mall.',
-	'TEMPLATE_EXPORT'			=> 'Exportera mallar',
 	'TEMPLATE_EXPORT_EXPLAIN'	=> 'Här kan du exportera en malluppsättning i form av ett arkiv. Detta arkiv kommer att innehålla alla filer som behövs för att installera mallarna på ett annat forum. Du kan välja om du vill ladda ner filen direkt eller spara den i din store-mapp för senare nerladdning eller via FTP.',
 	'TEMPLATE_EXPORTED'			=> 'Mallar exporterades och sparades i %s.',
 	'TEMPLATE_FILE'				=> 'Mallfil',
 	'TEMPLATE_FILE_UPDATED'		=> 'Mallfil uppdaterades.',
-  'TEMPLATE_INHERITS'            => 'Denna stil ärver %s och kan inte ha andra lagringsinställningar än stilen den ärver.', 
-	'TEMPLATE_LOCATION'			=> 'Lagra mallar i',
-	'TEMPLATE_LOCATION_EXPLAIN'	=> 'Bilder lagras alltid i filsystemet.',
 	'TEMPLATE_NAME'				=> 'Mallnamn',
 	'TEMPLATE_FILE_NOT_WRITABLE'=> 'Kan inte skriva till mallfill %s. Var god kontrollera rättigheterna för katalogen och filerna.',
-	'TEMPLATE_REFRESHED'		=> 'Mall uppdaterades.',
-
-	'THEME_ADDED'				=> 'Nytt tema lades till på filsystemet.',
-	'THEME_ADDED_DB'			=> 'Nytt tema lades till i databasen.',
 	'THEME_CLASS_ADDED'			=> 'Egen klass lades till.',
 	'THEME_DELETED'				=> 'Temat togs bort.',
 	'THEME_DELETED_FS'			=> 'Temat togs bort från databasen men filerna finns kvar på filsystemet.',
@@ -431,25 +380,19 @@ $lang = array_merge($lang, array(
 	'THEME_ERR_NAME_EXIST'		=> 'Ett tema med det namnet finns redan.',
 	'THEME_ERR_NAME_LONG'		=> 'Temanamnet kan inte vara längre än 30 tecken.',
 	'THEME_ERR_NOT_THEME'		=> 'Arkivet du angav innehåller inte ett giltigt tema.',
-	'THEME_ERR_REFRESH_FS'		=> 'Detta tema är lagrat i filsystemet så det behöver inte uppdateras.',
+
 	'THEME_ERR_STYLE_NAME'		=> 'Du måste ange ett namn för detta tema.',
 	'THEME_FILE'				=> 'Temafil',
+	'THEME_FILE_NOT_WRITABLE'	=> 'Kunde inte skriva till themafilen %s. Vänligen kontrollera skrivrättigheterna för mapparna och filerna.',
 	'THEME_EXPORT'				=> 'Exportera tema',
 	'THEME_EXPORT_EXPLAIN'		=> 'Här kan du exportera ett tema i form av ett arkiv. Detta arkiv kommer innehålla all data som behövs för att installera detta tema på ett annat forum. Du kan välja om du vill ladda ner filen direkt eller placera den i din store-mapp för senare nerladdning eller via FTP.',
 	'THEME_EXPORTED'			=> 'Tema exporterat och lagrat i %s.',
-	'THEME_LOCATION'			=> 'Lagra stilmall i',
-	'THEME_LOCATION_EXPLAIN'	=> 'Bilder sparas alltid på filsystemet.',
 	'THEME_NAME'				=> 'Temanamn',
-	'THEME_REFRESHED'			=> 'Temat uppdaterades.',
 	'THEME_UPDATED'				=> 'Temat uppdaterades.',
 
 	'UNDERLINE'				=> 'Understruket',
-	'UNINSTALLED_IMAGESET'	=> 'Ej installerade bildpaket',
-	'UNINSTALLED_STYLE'		=> 'Ej installerade stilar',
-	'UNINSTALLED_TEMPLATE'	=> 'Ej installerade mallar',
-	'UNINSTALLED_THEME'		=> 'Ej installerade teman',
+	'UNINSTALL_DEFAULT'		=> 'Du kan inte avinstallera standardstilen.',
 	'UNSET'					=> 'Odefinierad',
 
 ));
 
-?>

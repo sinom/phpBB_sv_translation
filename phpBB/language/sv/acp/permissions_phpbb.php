@@ -1,28 +1,20 @@
 <?php
-/** 
-* acp_permissions (phpBB Permission Set) [Swedish] (phpBB 3.0.11)
+/**
 *
-* @package language
-* @version $Id: permissions_phpbb.php 2 2010-06-24 01:12:10Z tumba25 $
-* @copyright (c) 2006 phpBB Group, modified and translated by Swedish translation team
-* @source file is copyright (c) 2005 phpBB Group, modified and translated by Swedish translation team
-* @license http://www.gnu.org/licenses/old-licenses/gpl-2.0.html GNU Public License version 2
-* @author (c) 2006-2008 Jonathan Gulbrandsen, 2008-2012 Petra Brandt 
-* Translators: Swedish translation team, working at http://www.phpbb-se.com Contact team leader at peetra.mammapappa@gmail.com 
+* This file is part of Swedish phpBB translation.
+* Copyright (c) 2010 - 2014 Swedish translation group.
 *
-* This file is part of the Swedish language package for phpBB 3.0.x.
-* Copyright (c) 2006-2010 Swedish translation team
 *
-* The Swedish language package for phpBB 3.0.x is free software; you can redistribute it and/or
-* modify it under the terms of the GNU General Public License as published by the Free Software
-* Foundation, version 2 of the License.
+* This program is distributed in the hope that it will be useful,
+* but WITHOUT ANY WARRANTY; without even the implied warranty of
+* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+* GNU General Public License for more details.
 *
-* The Swedish Language package for phpBB 3.0.x is distributed in the hope that it will be useful,
-* but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR
-* A PARTICULAR PURPOSE. See the GNU General Public License for more details.
 *
-* You should have received a copy of the GNU General Public License along with this language
-* package. If not, see <http://www.gnu.org/licenses/old-licenses/gpl-2.0.html>.
+* @package      phpBB Sweden
+* @author       Simon Assgård <sassgard@gmail.com> (Sinom) http://www.phpbb.se/
+* @copyright    phpBB Sweden
+* @license      @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
 *
 */
 
@@ -52,208 +44,167 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 /**
-*	MODDERS PLEASE NOTE
-*	
-*	You are able to put your permission sets into a separate file too by
-*	prefixing the new file with permissions_ and putting it into the acp 
-*	language folder.
+*	EXTENSION-DEVELOPERS PLEASE NOTE
 *
-*	An example of how the file could look like:
-*
-*	<code>
-*
-*	if (empty($lang) || !is_array($lang))
-*	{
-*		$lang = array();
-*	}
-*
-*	// Adding new category
-*	$lang['permission_cat']['bugs'] = 'Bugs';
-*
-*	// Adding new permission set
-*	$lang['permission_type']['bug_'] = 'Bug Permissions';
-*
-*	// Adding the permissions
-*	$lang = array_merge($lang, array(
-*		'acl_bug_view'		=> array('lang' => 'Can view bug reports', 'cat' => 'bugs'),
-*		'acl_bug_post'		=> array('lang' => 'Can post bugs', 'cat' => 'post'), // Using a phpBB category here
-*	));
-*
-*	</code>
+*	You are able to put your permission sets into your extension.
+*	The permissions logic should be added via the 'core.permissions' event.
+*	You can easily add new permission categories, types and permissions, by
+*	simply merging them into the respective arrays.
+*	The respective language strings should be added into a language file, that
+*	start with 'permissions_', so they are automatically loaded within the ACP.
 */
 
-// Define categories and permission types
 $lang = array_merge($lang, array(
-	'permission_cat'	=> array(
-		'actions'		=> 'Handlingar',
-		'content'		=> 'Innehåll',
-		'forums'		=> 'Kategorier',
-		'misc'			=> 'Blandat',
-		'permissions'	=> 'Behörigheter',
-		'pm'			=> 'Personliga meddelanden',
-		'polls'			=> 'Omröstningar',
-		'post'			=> 'Inlägg',
-		'post_actions'	=> 'Inläggshandlingar',
-		'posting'		=> 'Inlägg',
-		'profile'		=> 'Profil',
-		'settings'		=> 'Inställningar',
-		'topic_actions'	=> 'Trådhandlingar',
-		'user_group'	=> 'Användare &amp; grupper',
-	),
-
-	// With defining 'global' here we are able to specify what is printed out if the permission is within the global scope.
-	'permission_type'	=> array(
-		'u_'			=> 'Användarbehörigheter',
-		'a_'			=> 'Administratörsbehörigheter',
-		'm_'			=> 'Moderatorbehörigheter',
-		'f_'			=> 'Kategoribehörigheter',
-		'global'		=> array(
-			'm_'			=> 'Globala moderatorbehörigheter',
-		),
-	),
+	'ACL_CAT_ACTIONS'		=> 'Handlingar',
+	'ACL_CAT_CONTENT'		=> 'Innehåll',
+	'ACL_CAT_FORUMS'		=> 'Kategorier',
+	'ACL_CAT_MISC'			=> 'Blandat',
+	'ACL_CAT_PERMISSIONS'	=> 'Behörigheter',
+	'ACL_CAT_PM'			=> 'Personliga meddelanden',
+	'ACL_CAT_POLLS'			=> 'Omröstningar',
+	'ACL_CAT_POST'			=> 'Inlägg',
+	'ACL_CAT_POST_ACTIONS'	=> 'Inläggshandlingar',
+	'ACL_CAT_POSTING'		=> 'Inlägg',
+	'ACL_CAT_PROFILE'		=> 'Profil',
+	'ACL_CAT_SETTINGS'		=> 'Inställningar',
+	'ACL_CAT_TOPIC_ACTIONS'	=> 'Trådhandlingar',
+	'ACL_CAT_USER_GROUP'	=> 'Användare &amp; grupper',
 ));
 
 // User Permissions
 $lang = array_merge($lang, array(
-	'acl_u_viewprofile'	=> array('lang' => 'Kan visa profiler, medlemslista och onlinelista', 'cat' => 'profile'),
-	'acl_u_chgname'		=> array('lang' => 'Kan ändra användarnamn', 'cat' => 'profile'),
-	'acl_u_chgpasswd'	=> array('lang' => 'Kan ändra lösenord', 'cat' => 'profile'),
-	'acl_u_chgemail'	=> array('lang' => 'Kan ändra e-postadress', 'cat' => 'profile'),
-	'acl_u_chgavatar'	=> array('lang' => 'Kan ändra visningsbild', 'cat' => 'profile'),
-	'acl_u_chggrp'		=> array('lang' => 'Kan ändra standardgrupp', 'cat' => 'profile'),
+	'ACL_U_VIEWPROFILE'	=> 'Kan visa profiler, medlemslista och onlinelista',
+	'ACL_U_CHGNAME'		=> 'Kan ändra användarnamn',
+	'ACL_U_CHGPASSWD'	=> 'Kan ändra lösenord',
+	'ACL_U_CHGEMAIL'	=> 'Kan ändra e-postadress',
+	'ACL_U_CHGAVATAR'	=> 'Kan ändra visningsbild',
+	'ACL_U_CHGGRP'		=> 'Kan ändra standardgrupp',
+	'ACL_U_CHGPROFILEINFO'	=> 'Kan ändra profilfälts information',
 
-	'acl_u_attach'		=> array('lang' => 'Kan bifoga filer', 'cat' => 'post'),
-	'acl_u_download'	=> array('lang' => 'Kan ladda ner filer', 'cat' => 'post'),
-	'acl_u_savedrafts'	=> array('lang' => 'Kan spara utkast', 'cat' => 'post'),
-	'acl_u_chgcensors'	=> array('lang' => 'Kan inaktivera ordcensur', 'cat' => 'post'),
-	'acl_u_sig'			=> array('lang' => 'Kan använda signatur', 'cat' => 'post'),
+	'ACL_U_ATTACH'		=> 'Kan bifoga filer',
+	'ACL_U_DOWNLOAD'	=> 'Kan ladda ner filer',
+	'ACL_U_SAVEDRAFTS'	=> 'Kan spara utkast',
+	'ACL_U_CHGCENSORS'	=> 'Kan inaktivera ordcensur',
+	'ACL_U_SIG'			=> 'Kan använda signatur',
 
-	'acl_u_sendpm'		=> array('lang' => 'Kan skicka personliga meddelanden', 'cat' => 'pm'),
-	'acl_u_masspm'		=> array('lang' => 'Kan skicka PM till flera användare samtidigt', 'cat' => 'pm'),
-	'acl_u_masspm_group'=> array('lang' => 'Kan skicka PM till grupper', 'cat' => 'pm'),
-	'acl_u_readpm'		=> array('lang' => 'Kan läsa personliga meddelanden', 'cat' => 'pm'),
-	'acl_u_pm_edit'		=> array('lang' => 'Kan redigera egna personliga meddelanden', 'cat' => 'pm'),
-	'acl_u_pm_delete'	=> array('lang' => 'Kan ta bort personliga meddelanden från egen mapp', 'cat' => 'pm'),
-	'acl_u_pm_forward'	=> array('lang' => 'Kan vidarebefordra personliga meddelanden', 'cat' => 'pm'),
-	'acl_u_pm_emailpm'	=> array('lang' => 'Kan e-posta personliga meddelanden', 'cat' => 'pm'),
-	'acl_u_pm_printpm'	=> array('lang' => 'Kan skriva ut personliga meddelanden', 'cat' => 'pm'),
-	'acl_u_pm_attach'	=> array('lang' => 'Kan bifoga filer i personliga meddelanden', 'cat' => 'pm'),
-	'acl_u_pm_download'	=> array('lang' => 'Kan ladda ner filer i personliga meddelanden', 'cat' => 'pm'),
-	'acl_u_pm_bbcode'	=> array('lang' => 'Kan använda BBCode i personliga meddelanden', 'cat' => 'pm'),
-	'acl_u_pm_smilies'	=> array('lang' => 'Kan använda smilies i personliga meddelanden', 'cat' => 'pm'),
-	'acl_u_pm_img'		=> array('lang' => 'Kan använda BBCode [img] i personliga meddelanden', 'cat' => 'pm'),
-	'acl_u_pm_flash'	=> array('lang' => 'Kan använda BBCode [flash] personliga meddelanden', 'cat' => 'pm'),
+	'ACL_U_SENDPM'		=> 'Kan skicka personliga meddelanden',
+	'ACL_U_MASSPM'		=> 'Kan skicka PM till flera användare samtidigt',
+	'ACL_U_MASSPM_GROUP'=> 'Kan skicka PM till grupper',
+	'ACL_U_READPM'		=> 'Kan läsa personliga meddelanden',
+	'ACL_U_PM_EDIT'		=> 'Kan redigera egna personliga meddelanden',
+	'ACL_U_PM_DELETE'	=> 'Kan ta bort personliga meddelanden från egen mapp',
+	'ACL_U_PM_FORWARD'	=> 'Kan vidarebefordra personliga meddelanden',
+	'ACL_U_PM_EMAILPM'	=> 'Kan e-posta personliga meddelanden',
+	'ACL_U_PM_PRINTPM'	=> 'Kan skriva ut personliga meddelanden',
+	'ACL_U_PM_ATTACH'	=> 'Kan bifoga filer i personliga meddelanden',
+	'ACL_U_PM_DOWNLOAD'	=> 'Kan ladda ner filer i personliga meddelanden',
+	'ACL_U_PM_BBCODE'	=> 'Kan använda BBCode i personliga meddelanden',
+	'ACL_U_PM_SMILIES'	=> 'Kan använda smilies i personliga meddelanden',
+	'ACL_U_PM_IMG'		=> 'Kan använda BBCode [img] i personliga meddelanden',
+	'ACL_U_PM_FLASH'	=> 'Kan använda BBCode [flash] personliga meddelanden',
 
-	'acl_u_sendemail'	=> array('lang' => 'Kan skicka e-post', 'cat' => 'misc'),
-	'acl_u_sendim'		=> array('lang' => 'Kan skicka snabbmeddelanden', 'cat' => 'misc'),
-	'acl_u_ignoreflood'	=> array('lang' => 'Kan ignorera gräns för tid mellan inlägg', 'cat' => 'misc'),
-	'acl_u_hideonline'	=> array('lang' => 'Kan dölja onlinestatus', 'cat' => 'misc'),
-	'acl_u_viewonline'	=> array('lang' => 'Kan visa dolda användare', 'cat' => 'misc'),
-	'acl_u_search'		=> array('lang' => 'Kan söka på forumet', 'cat' => 'misc'),
+	'ACL_U_SENDEMAIL'	=> 'Kan skicka e-post',
+	'ACL_U_SENDIM'		=> 'Kan skicka snabbmeddelanden',
+	'ACL_U_IGNOREFLOOD'	=> 'Kan ignorera gräns för tid mellan inlägg',
+	'ACL_U_HIDEONLINE'	=> 'Kan dölja onlinestatus',
+	'ACL_U_VIEWONLINE'	=> 'Kan visa dolda användare',
+	'ACL_U_SEARCH'		=> 'Kan söka på forumet',
 ));
 
 // Forum Permissions
 $lang = array_merge($lang, array(
-	'acl_f_list'		=> array('lang' => 'Kan visa kategori', 'cat' => 'post'),
-	'acl_f_read'		=> array('lang' => 'Kan läsa i kategori', 'cat' => 'post'),
-	'acl_f_post'		=> array('lang' => 'Kan skapa nya trådar', 'cat' => 'post'),
-	'acl_f_reply'		=> array('lang' => 'Kan svara på trådar', 'cat' => 'post'),
-	'acl_f_icons'		=> array('lang' => 'Kan använda tråd/inläggsikoner', 'cat' => 'post'),
-	'acl_f_announce'	=> array('lang' => 'Kan posta anslag', 'cat' => 'post'),
-	'acl_f_sticky'		=> array('lang' => 'Kan posta notiser', 'cat' => 'post'),
-
-	'acl_f_poll'		=> array('lang' => 'Kan skapa omröstningar', 'cat' => 'polls'),
-	'acl_f_vote'		=> array('lang' => 'Kan rösta i omröstningar', 'cat' => 'polls'),
-	'acl_f_votechg'		=> array('lang' => 'Kan ändra sin röst', 'cat' => 'polls'),
-
-	'acl_f_attach'		=> array('lang' => 'Kan bifoga filer', 'cat' => 'content'),
-	'acl_f_download'	=> array('lang' => 'Kan ladda ner filer', 'cat' => 'content'),
-	'acl_f_sigs'		=> array('lang' => 'Kan använda signaturer', 'cat' => 'content'),
-	'acl_f_bbcode'		=> array('lang' => 'Kan använda BBCode', 'cat' => 'content'),
-	'acl_f_smilies'		=> array('lang' => 'Kan använda smilies', 'cat' => 'content'),
-	'acl_f_img'			=> array('lang' => 'Kan använda BBCode [img]', 'cat' => 'content'),
-	'acl_f_flash'		=> array('lang' => 'Kan använda BBCode [flash]', 'cat' => 'content'),
-
-	'acl_f_edit'		=> array('lang' => 'Kan redigera egna inlägg', 'cat' => 'actions'),
-	'acl_f_delete'		=> array('lang' => 'Kan ta bort egna inlägg', 'cat' => 'actions'),
-	'acl_f_user_lock'	=> array('lang' => 'Kan låsa egna trådar', 'cat' => 'actions'),
-	'acl_f_bump'		=> array('lang' => 'Kan knuffa upp trådar', 'cat' => 'actions'),
-	'acl_f_report'		=> array('lang' => 'Kan rapportera inlägg', 'cat' => 'actions'),
-	'acl_f_subscribe'	=> array('lang' => 'Kan bevaka kategori', 'cat' => 'actions'),
-	'acl_f_print'		=> array('lang' => 'Kan skriva ut trådar', 'cat' => 'actions'),
-	'acl_f_email'		=> array('lang' => 'Kan e-posta trådar', 'cat' => 'actions'),
-
-	'acl_f_search'		=> array('lang' => 'Kan söka i kategorin', 'cat' => 'misc'),
-	'acl_f_ignoreflood' => array('lang' => 'Kan ignorera gränsen för tid mellan inlägg', 'cat' => 'misc'),
-	'acl_f_postcount'	=> array('lang' => 'Ökar inläggsräknaren<br /><em>Observera att detta endast påverkar nya inlägg.</em>', 'cat' => 'misc'),
-	'acl_f_noapprove'	=> array('lang' => 'Kan posta utan godkännande', 'cat' => 'misc'),
+	'ACL_F_LIST'		=> 'Kan visa kategori',
+	'ACL_F_READ'		=> 'Kan läsa kategori',
+	'ACL_F_SEARCH'		=> 'Kan söka i kategori',
+	'ACL_F_SUBSCRIBE'	=> 'Kan prenumenera på kategori',
+	'ACL_F_PRINT'		=> 'Kan skriva ut kategori',
+	'ACL_F_EMAIL'		=> 'Kan skicka trådar via e-post',
+	'ACL_F_BUMP'		=> 'Kan bumpa trådar',
+	'ACL_F_USER_LOCK'	=> 'Kan låsa egna trådar',
+	'ACL_F_DOWNLOAD'	=> 'Kan ladda ner filer',
+	'ACL_F_REPORT'		=> 'Kan rapportera inlägg',
+	'ACL_F_POST'		=> 'Kan skapa nya trådar',
+	'ACL_F_STICKY'		=> 'Kan posta notiser',
+	'ACL_F_ANNOUNCE'	=> 'Kan posta anslag',
+	'ACL_F_REPLY'		=> 'Kan svara på trådar',
+	'ACL_F_EDIT'		=> 'Kan redigera egna inlägg',
+	'ACL_F_DELETE'		=> 'Kan ta bort egna inlägg',
+	'ACL_F_SOFTDELETE'	=> 'Kan ta bort egna inlägg, så att moderatorer kan ta tillbaka dom',
+	'ACL_F_IGNOREFLOOD' => 'Kan ignorera gränsen för tid mellan inlägg',
+	'ACL_F_POSTCOUNT'	=> 'Ökar inläggsräknaren<br /><em>Observera att detta endast påverkar nya inlägg.</em>',
+	'ACL_F_NOAPPROVE'	=> 'Kan posta utan godkännande',
+	'ACL_F_ATTACH'		=> 'Kan bifoga filer',
+	'ACL_F_ICONS'		=> 'Kan använda tråd/inläggsikoner',
+	'ACL_F_BBCODE'		=> 'Can use BBCode',
+	'ACL_F_FLASH'		=> 'Kan använda BBCode [flash]',
+	'ACL_F_IMG'			=> 'Kan använda BBCode [img]',
+	'ACL_F_SIGS'		=> 'Kan använda signaturer',
+	'ACL_F_SMILIES'		=> 'Kan använda smilies',
+	'ACL_F_POLL'		=> 'Kan skapa omröstningar',
+	'ACL_F_VOTE'		=> 'Kan rösta i omröstningar',
+	'ACL_F_VOTECHG'		=> 'Kan ändra sin röst',
 ));
 
 // Moderator Permissions
 $lang = array_merge($lang, array(
-	'acl_m_edit'		=> array('lang' => 'Kan redigera inlägg', 'cat' => 'post_actions'),
-	'acl_m_delete'		=> array('lang' => 'Kan ta bort inlägg', 'cat' => 'post_actions'),
-	'acl_m_approve'		=> array('lang' => 'Kan godkänna inlägg', 'cat' => 'post_actions'),
-	'acl_m_report'		=> array('lang' => 'Kan stänga och ta bort rapporter', 'cat' => 'post_actions'),
-	'acl_m_chgposter'	=> array('lang' => 'Kan byta inläggsförfattare', 'cat' => 'post_actions'),
-
-	'acl_m_move'	=> array('lang' => 'Kan flytta trådar', 'cat' => 'topic_actions'),
-	'acl_m_lock'	=> array('lang' => 'Kan låsa trådar', 'cat' => 'topic_actions'),
-	'acl_m_split'	=> array('lang' => 'Kan dela trådar', 'cat' => 'topic_actions'),
-	'acl_m_merge'	=> array('lang' => 'Kan sammanfoga trådar', 'cat' => 'topic_actions'),
-
-	'acl_m_info'	=> array('lang' => 'Kan visa inläggsuppgifter', 'cat' => 'misc'),
-	'acl_m_warn'	=> array('lang' => 'Kan utfärda varningar<br /><em>Denna inställning tilldelas endast globalt. Den är inte kategoribaserad.</em>', 'cat' => 'misc'), // This moderator setting is only global (and not local)
-	'acl_m_ban'		=> array('lang' => 'Kan hantera bannlysningar<br /><em>Denna inställning tilldelas endast globalt. Den är inte kategoribaserad.</em>', 'cat' => 'misc'), // This moderator setting is only global (and not local)
+	'ACL_M_EDIT'		=> 'Kan redigera inlägg',
+	'ACL_M_DELETE'		=> 'Kan ta bort inlägg',
+	'ACL_M_SOFTDELETE'	=> 'Kan ta bort inlägg, så att moderatorer kan ta tillbaka dom',
+	'ACL_M_APPROVE'		=> 'Kan godkänna inlägg',
+	'ACL_M_REPORT'		=> 'Kan stänga och ta bort rapporter',
+	'ACL_M_CHGPOSTER'	=> 'Kan byta inläggsförfattare',
+	'ACL_M_MOVE'	=> 'Kan flytta trådar',
+	'ACL_M_LOCK'	=> 'Kan låsa trådar',
+	'ACL_M_SPLIT'	=> 'Kan dela trådar',
+	'ACL_M_MERGE'	=> 'Kan sammanfoga trådar',
+	'ACL_M_INFO'	=> 'Kan visa inläggsuppgifter',
+	'ACL_M_WARN'	=> 'Kan utfärda varningar<br /><em>Denna inställning tilldelas endast globalt. Den är inte kategoribaserad.</em>', // This moderator setting is only global (and not local)
+	'ACL_M_BAN'		=> 'Kan hantera bannlysningar<br /><em>Denna inställning tilldelas endast globalt. Den är inte kategoribaserad.</em>', // This moderator setting is only global (and not local)
 ));
 
 // Admin Permissions
 $lang = array_merge($lang, array(
-	'acl_a_board'		=> array('lang' => 'Kan ändra foruminställningar/kontrollera om det finns uppdateringar', 'cat' => 'settings'),
-	'acl_a_server'		=> array('lang' => 'Kan ändra server/kommunikationsinställningar', 'cat' => 'settings'),
-	'acl_a_jabber'		=> array('lang' => 'Kan ändra Jabber-inställningar', 'cat' => 'settings'),
-	'acl_a_phpinfo'		=> array('lang' => 'Kan visa php-inställningar', 'cat' => 'settings'),
+	'ACL_A_BOARD'		=> 'Kan ändra foruminställningar/kontrollera om det finns uppdateringar',
+	'ACL_A_SERVER'		=> 'Kan ändra server/kommunikationsinställningar',
+	'ACL_A_JABBER'		=> 'Kan ändra Jabber-inställningar',
+	'ACL_A_PHPINFO'		=> 'Kan visa php-inställningar',
+	'ACL_A_FORUM'		=> 'Kan hantera kategorier',
+	'ACL_A_FORUMADD'	=> 'Kan lägga till nya kategorier',
+	'ACL_A_FORUMDEL'	=> 'Kan ta bort kategorier',
+	'ACL_A_PRUNE'		=> 'Kan rensa kategorier',
+	'ACL_A_ICONS'		=> 'Kan ändra tråd/inläggsikoner och smilies',
+	'ACL_A_WORDS'		=> 'Kan ändra ordcensuren',
+	'ACL_A_BBCODE'		=> 'Kan definiera BBCode-taggar',
+	'ACL_A_ATTACH'		=> 'Kan ändra bilagesrelaterade inställningar',
+	'ACL_A_USER'		=> 'Kan hantera användare<br /><em>Detta inkluderar också visning av användarens webbläsaragent i onlinelistan.</em>',
+	'ACL_A_USERDEL'		=> 'Kan ta bort/rensa användare',
+	'ACL_A_GROUP'		=> 'Kan hantera grupper',
+	'ACL_A_GROUPADD'	=> 'Kan lägga till nya grupper',
+	'ACL_A_GROUPDEL'	=> 'Kan ta bort grupper',
+	'ACL_A_RANKS'		=> 'Kan hantera titlar',
+	'ACL_A_PROFILE'		=> 'Kan hantera egna profilfält',
+	'ACL_A_NAMES'		=> 'Kan hantera otillåtna namn',
+	'ACL_A_BAN'			=> 'Kan hantera bannlysningar',
 
-	'acl_a_forum'		=> array('lang' => 'Kan hantera kategorier', 'cat' => 'forums'),
-	'acl_a_forumadd'	=> array('lang' => 'Kan lägga till nya kategorier', 'cat' => 'forums'),
-	'acl_a_forumdel'	=> array('lang' => 'Kan ta bort kategorier', 'cat' => 'forums'),
-	'acl_a_prune'		=> array('lang' => 'Kan rensa kategorier', 'cat' => 'forums'),
+	'ACL_A_VIEWAUTH'	=> 'Kan granska behörigheter',
+	'ACL_A_AUTHGROUPS'	=> 'Kan ändra behörigheter för individuella grupper',
+	'ACL_A_AUTHUSERS'	=> 'Kan ändra behörigheter för individuella användare',
+	'ACL_A_FAUTH'		=> 'Kan ändra kategoribehörighetsklassen',
+	'ACL_A_MAUTH'		=> 'Kan ändra moderationsbehörighetsklassen',
+	'ACL_A_AAUTH'		=> 'Kan ändra administratörsbehörighetsklassen',
+	'ACL_A_UAUTH'		=> 'Kan ändra användarbehörighetsklassen',
+	'ACL_A_ROLES'		=> 'Kan hantera roller',
+	'ACL_A_SWITCHPERM'	=> 'Kan använda andras behörigheter',
 
-	'acl_a_icons'		=> array('lang' => 'Kan ändra tråd/inläggsikoner och smilies', 'cat' => 'posting'),
-	'acl_a_words'		=> array('lang' => 'Kan ändra ordcensuren', 'cat' => 'posting'),
-	'acl_a_bbcode'		=> array('lang' => 'Kan definiera BBCode-taggar', 'cat' => 'posting'),
-	'acl_a_attach'		=> array('lang' => 'Kan ändra bilagesrelaterade inställningar', 'cat' => 'posting'),
-
-	'acl_a_user'		=> array('lang' => 'Kan hantera användare<br /><em>Detta inkluderar också visning av användarens webbläsaragent i onlinelistan.</em>', 'cat' => 'user_group'),
-	'acl_a_userdel'		=> array('lang' => 'Kan ta bort/rensa användare', 'cat' => 'user_group'),
-	'acl_a_group'		=> array('lang' => 'Kan hantera grupper', 'cat' => 'user_group'),
-	'acl_a_groupadd'	=> array('lang' => 'Kan lägga till nya grupper', 'cat' => 'user_group'),
-	'acl_a_groupdel'	=> array('lang' => 'Kan ta bort grupper', 'cat' => 'user_group'),
-	'acl_a_ranks'		=> array('lang' => 'Kan hantera titlar', 'cat' => 'user_group'),
-	'acl_a_profile'		=> array('lang' => 'Kan hantera egna profilfält', 'cat' => 'user_group'),
-	'acl_a_names'		=> array('lang' => 'Kan hantera otillåtna namn', 'cat' => 'user_group'),
-	'acl_a_ban'			=> array('lang' => 'Kan hantera bannlysningar', 'cat' => 'user_group'),
-
-	'acl_a_viewauth'	=> array('lang' => 'Kan granska behörigheter', 'cat' => 'permissions'),
-	'acl_a_authgroups'	=> array('lang' => 'Kan ändra behörigheter för individuella grupper', 'cat' => 'permissions'),
-	'acl_a_authusers'	=> array('lang' => 'Kan ändra behörigheter för individuella användare', 'cat' => 'permissions'),
-	'acl_a_fauth'		=> array('lang' => 'Kan ändra kategoribehörighetsklassen', 'cat' => 'permissions'),
-	'acl_a_mauth'		=> array('lang' => 'Kan ändra moderationsbehörighetsklassen', 'cat' => 'permissions'),
-	'acl_a_aauth'		=> array('lang' => 'Kan ändra administratörsbehörighetsklassen', 'cat' => 'permissions'),
-	'acl_a_uauth'		=> array('lang' => 'Kan ändra användarbehörighetsklassen', 'cat' => 'permissions'),
-	'acl_a_roles'		=> array('lang' => 'Kan hantera roller', 'cat' => 'permissions'),
-	'acl_a_switchperm'	=> array('lang' => 'Kan använda andras behörigheter', 'cat' => 'permissions'),
-
-	'acl_a_styles'		=> array('lang' => 'Kan hantera stilar', 'cat' => 'misc'),
-	'acl_a_viewlogs'	=> array('lang' => 'Kan visa loggar', 'cat' => 'misc'),
-	'acl_a_clearlogs'	=> array('lang' => 'Kan rensa loggar', 'cat' => 'misc'),
-	'acl_a_modules'		=> array('lang' => 'Kan hantera moduler', 'cat' => 'misc'),
-	'acl_a_language'	=> array('lang' => 'Kan hantera språkpaket', 'cat' => 'misc'),
-	'acl_a_email'		=> array('lang' => 'Kan skicka massutskick', 'cat' => 'misc'),
-	'acl_a_bots'		=> array('lang' => 'Kan hantera robotar', 'cat' => 'misc'),
-	'acl_a_reasons'		=> array('lang' => 'Kan hantera rapport/avslagsanledningar', 'cat' => 'misc'),
-	'acl_a_backup'		=> array('lang' => 'Kan säkerhetskopiera/återställa databasen', 'cat' => 'misc'),
-	'acl_a_search'		=> array('lang' => 'Kan hantera söksystemen och inställningar', 'cat' => 'misc'),
+	'ACL_A_STYLES'		=> 'Kan hantera stilar',
+	'ACL_A_EXTENSIONS'	=> 'Kan hantera plugins',
+	'ACL_A_VIEWLOGS'	=> 'Kan visa loggar',
+	'ACL_A_CLEARLOGS'	=> 'Kan rensa loggar',
+	'ACL_A_MODULES'		=> 'Kan hantera moduler',
+	'ACL_A_LANGUAGE'	=> 'Kan hantera språkpaket',
+	'ACL_A_EMAIL'		=> 'Kan skicka massutskick',
+	'ACL_A_BOTS'		=> 'Kan hantera robotar',
+	'ACL_A_REASONS'		=> 'Kan hantera rapport/avslagsanledningar',
+	'ACL_A_BACKUP'		=> 'Kan säkerhetskopiera/återställa databasen',
+	'ACL_A_SEARCH'		=> 'Kan hantera söksystemen och inställningar',
 ));
-
-?>

@@ -278,6 +278,7 @@ $lang = array_merge($lang, array(
 	'NOTIFY'				=> 'Meddelande',
 	'NO_ADMIN'				=> 'Du har inte behörighet att administrera detta forum.',
 	'NO_EMAILS_DEFINED'		=> 'Inga giltiga e-postadresser hittades.',
+	'NO_FILES_TO_DELETE'	=> 'Bilagor du valt finns inte.',
 	'NO_PASSWORD_SUPPLIED'	=> 'Du måste ange ditt lösenord för att komma åt administrationspanelen.',
 
 	'OFF'					=> 'Av',
@@ -292,6 +293,8 @@ $lang = array_merge($lang, array(
 
 	'REMIND'							=> 'Påminn',
 	'RESYNC'							=> 'Synkronisera',
+	'RESYNC_FILES_STATS'				=> 'Omsynkronisera filstatistiken',
+	'RESYNC_FILES_STATS_EXPLAIN'		=> 'Beräkna den totala filmängden av bilagor i inlägg samt privata meddelanden.',
 	'RETURN_TO'							=> 'Återgå till…',
 
 	'SELECT_ANONYMOUS'		=> 'Välj den anonyma användaren (gäst)',
@@ -302,6 +305,7 @@ $lang = array_merge($lang, array(
 	'SETTING_TOO_LONG'		=> 'Det angivna värdet för inställningen “%1$s” är för långt. Den längsta tillåtna längden är %2$d.',
 	'SETTING_TOO_SHORT'		=> 'Det angivna värdet för inställningen “%1$s” är för kort. Den kortast tillåtna längden är %2$d.',
 	'SHOW_ALL_OPERATIONS'	=> 'Visa alla händelser',
+	'TOTAL_SIZE'      		=> 'Total storlek',
 
 	'UCP'					=> 'Kontrollpanel',
 	'USERNAMES_EXPLAIN'		=> 'Placera varje användarnamn på en ny rad.',
@@ -376,27 +380,37 @@ $lang = array_merge($lang, array(
 	'PURGE_CACHE'			=> 'Rensa cachen',
 	'PURGE_CACHE_CONFIRM'	=> 'Är du säker på att du vill rensa cachen?',
 	'PURGE_CACHE_EXPLAIN'	=> 'Rensar allt cacherelaterat, detta inkluderar alla cachade mallfiler och frågor.',
+	'PURGE_CACHE_SUCCESS'	=> 'Cachen är nu tömd.',
 	'PURGE_SESSIONS'			=> 'Rensa sessioner',
 	'PURGE_SESSIONS_CONFIRM'	=> 'Är du säker på att du vill rensa alla sessioner?',
 	'PURGE_SESSIONS_EXPLAIN'	=> 'Rensar alla sessioner. Detta loggar ut alla användare genom att tömma sessionstabellen.',
+	'PURGE_SESSIONS_SUCCESS'	=> 'Sessionerna är nu tömda.',
 
 	'RESET_DATE'					=> 'Ändra forumets startdatum till dagens datum.',
 	'RESET_DATE_CONFIRM'			=> 'Är du säker på att du vill återställa forumets startdatum till idag?',
+	'RESET_DATE_SUCCESS'			=> 'Forumets startdatum återställt'
 	'RESET_ONLINE'					=> 'Återställ flest användare online samtidigt',
 	'RESET_ONLINE_CONFIRM'			=> 'Är du säker på att du vill återställa räknaren för flest användare online samtidigt?',
+	'RESET_ONLINE_SUCCESS'				=> 'Flest online återställt',
+	'RESYNC_FILES_STATS_CONFIRM'	=> 'Är du säker på att du vill omsynkronisera filstatistiken?',
 	'RESYNC_POSTCOUNTS'				=> 'Synkronisera inläggsräknare',
 	'RESYNC_POSTCOUNTS_EXPLAIN'		=> 'Endast existerande inlägg kommer att tas med i beräkningen. Rensade inlägg kommer inte räknas.',
 	'RESYNC_POSTCOUNTS_CONFIRM'		=> 'Är du säker på att du vill synkronisera inläggsräknare?',
+	'RESYNC_POSTCOUNTS_SUCCESS'		=> 'Omsynkronisera inläggsräknaren',
 	'RESYNC_POST_MARKING'			=> 'Synkronisera prickade trådar',
 	'RESYNC_POST_MARKING_CONFIRM'	=> 'Är du säker på att du vill synkronisera prickade trådar?',
 	'RESYNC_POST_MARKING_EXPLAIN'	=> 'Avmarkerar först alla trådar och markerar sedan om alla trådar som varit aktiva under de senaste sex månaderna.',
+	'RESYNC_POST_MARKING_SUCCESS'	=> 'Omsynkronisera alla markerade trådar',
 	'RESYNC_STATS'					=> 'Synkronisera statistiken',
 	'RESYNC_STATS_CONFIRM'			=> 'Är du säker på att du vill synkronisera statistiken?',
 	'RESYNC_STATS_EXPLAIN'			=> 'Räknar om det totala antalet inlägg, trådar, användare och filer.',
+	'RESYNC_STATS_SUCCESS'			=> 'Omsynkroniserad statistik',
 	'RUN'							=> 'Kör nu',
 
 	'STATISTIC'					=> 'Statistik',
 	'STATISTIC_RESYNC_OPTIONS'	=> 'Synkronisera eller återställ statistik',
+	'TIMEZONE_INVALID'	=> 'Felaktig tidzon.',
+	'TIMEZONE_SELECTED'	=> '(vald)'
 
 	'TOPICS_PER_DAY'	=> 'Trådar per dag',
 
@@ -549,12 +563,17 @@ $lang = array_merge($lang, array(
 	'LOG_POST_APPROVED'			=> '<strong>Godkände inlägg</strong><br />» %s',
 	'LOG_POST_DISAPPROVED'		=> '<strong>Avslog inlägg “%1$s” med följande anledning</strong><br />» %2$s',
 	'LOG_POST_EDITED'			=> '<strong>Redigerade inlägg “%1$s” skrivet av</strong><br />» %2$s',
+	'LOG_POST_RESTORED'			=> '<strong>Återställda inlägg</strong><br />» %s',
 	'LOG_REPORT_CLOSED'			=> '<strong>Stängde rapport</strong><br />» %s',
 	'LOG_REPORT_DELETED'		=> '<strong>Tog bort rapport</strong><br />» %s',
+	'LOG_RESTORE_TOPIC'			=> '<strong>Återställda inlägg “%1$s” skrivna utav</strong><br />» %2$s',
+	'LOG_SOFTDELETE_POST'		=> '<strong>Borttagna inlägg “%1$s” skrivna utav</strong><br />» %2$s',
+	'LOG_SOFTDELETE_TOPIC'		=> '<strong>Borttagna trådar “%1$s” skrivna utav</strong><br />» %2$s',
 	'LOG_SPLIT_DESTINATION'		=> '<strong>Flyttade delade inlägg</strong><br />» till %s',
 	'LOG_SPLIT_SOURCE'			=> '<strong>Delade inlägg</strong><br />» från %s',
 
 	'LOG_TOPIC_APPROVED'		=> '<strong>Godkände tråd</strong><br />» %s',
+	'LOG_TOPIC_RESTORED'		=> '<strong>Återställda trådar</strong><br />» %s',
 	'LOG_TOPIC_DISAPPROVED'		=> '<strong>Avslog tråd “%1$s” med följande anledning</strong><br />%2$s',
 	'LOG_TOPIC_RESYNC'			=> '<strong>Synkroniserade trådräknare</strong><br />» %s',
 	'LOG_TOPIC_TYPE_CHANGED'	=> '<strong>Ändrade trådtyp</strong><br />» %s',
@@ -659,6 +678,7 @@ $lang = array_merge($lang, array(
 	'LOG_U_ROLE_ADD'		=> '<strong>Användarroll tillagd</strong><br />» %s',
 	'LOG_U_ROLE_EDIT'		=> '<strong>Användarroll ändrad</strong><br />» %s',
 	'LOG_U_ROLE_REMOVED'	=> '<strong>Användarroll borttagen</strong><br />» %s',
+	'LOG_PLUPLOAD_TIDY_FAILED'		=> '<strong>Kunde inte öppna %1$s för förfining, kontrollera rättigheter.</strong><br />Undantag: %2$s<br />Spår: %3$s',
 
 	'LOG_PROFILE_FIELD_ACTIVATE'	=> '<strong>Profilfält aktiverat</strong><br />» %s',
 	'LOG_PROFILE_FIELD_CREATE'		=> '<strong>Profilfält tillagt</strong><br />» %s',
@@ -686,33 +706,41 @@ $lang = array_merge($lang, array(
 
 	'LOG_RESET_DATE'			=> '<strong>Forumets startdatum återställt</strong>',
 	'LOG_RESET_ONLINE'			=> '<strong>Räknaren för flest användare online samtidigt återställd</strong>',
+	'LOG_RESYNC_FILES_STATS'	=> '<strong>Statistiken för filerna är omsynkroniserad</strong>',
 	'LOG_RESYNC_POSTCOUNTS'		=> '<strong>Användares inläggsräknare synkroniserade</strong>',
 	'LOG_RESYNC_POST_MARKING'	=> '<strong>Prickade trådar synkroniserades</strong>',
 	'LOG_RESYNC_STATS'			=> '<strong>Inläggs-, tråd- och användarstatistik synkroniserades</strong>',
 
 	'LOG_SEARCH_INDEX_CREATED'	=> '<strong>Skapade sökindex för</strong><br />» %s',
 	'LOG_SEARCH_INDEX_REMOVED'	=> '<strong>Tog bort sökindex för</strong><br />» %s',
+	'LOG_SPHINX_ERROR'			=> '<strong>Sphinx Error</strong><br />» %s',
 	'LOG_STYLE_ADD'				=> '<strong>Lade till ny stil</strong><br />» %s',
 	'LOG_STYLE_DELETE'			=> '<strong>Tog bort stil</strong><br />» %s',
 	'LOG_STYLE_EDIT_DETAILS'	=> '<strong>Ändrade stil</strong><br />» %s',
 	'LOG_STYLE_EXPORT'			=> '<strong>Exporterade stil</strong><br />» %s',
+	// @deprecated 3.1
 
 	'LOG_TEMPLATE_ADD_DB'			=> '<strong>Lade till ny malluppsättning till databasen</strong><br />» %s',
+	// @deprecated 3.1
 	'LOG_TEMPLATE_ADD_FS'			=> '<strong>Lade till ny malluppsättning till filsystemet</strong><br />» %s',
 	'LOG_TEMPLATE_CACHE_CLEARED'	=> '<strong>Tog bort cachade versioner av mallfiler i malluppsättningen <em>%1$s</em></strong><br />» %2$s',
 	'LOG_TEMPLATE_DELETE'			=> '<strong>Tog bort malluppsättning</strong><br />» %s',
 	'LOG_TEMPLATE_EDIT'				=> '<strong>Ändrade malluppsättning <em>%1$s</em></strong><br />» %2$s',
 	'LOG_TEMPLATE_EDIT_DETAILS'		=> '<strong>Ändrade malluppsättningsdetaljer</strong><br />» %s',
 	'LOG_TEMPLATE_EXPORT'			=> '<strong>Exporterade malluppsättning</strong><br />» %s',
+	// @deprecated 3.1
 	'LOG_TEMPLATE_REFRESHED'		=> '<strong>Uppdaterade malluppsättning</strong><br />» %s',
+	// @deprecated 3.1
 
 	'LOG_THEME_ADD_DB'			=> '<strong>Lade till nytt tema till databasen</strong><br />» %s',
+	// @deprecated 3.1
 	'LOG_THEME_ADD_FS'			=> '<strong>Lade till nytt tema till filsystemet</strong><br />» %s',
 	'LOG_THEME_DELETE'			=> '<strong>Tema togs bort</strong><br />» %s',
 	'LOG_THEME_EDIT_DETAILS'	=> '<strong>Ändrade temadetaljer</strong><br />» %s',
  	'LOG_THEME_EDIT'			=> '<strong>Ändrade tema <em>%1$s</em></strong>',
  	'LOG_THEME_EDIT_FILE'		=> '<strong>Ändrade tema <em>%1$s</em></strong><br />» Redigerade fil <em>%2$s</em>',
 	'LOG_THEME_EXPORT'			=> '<strong>Exporterade tema</strong><br />» %s',
+	// @deprecated 3.1
 	'LOG_THEME_REFRESHED'		=> '<strong>Uppdaterade tema</strong><br />» %s',
 
 	'LOG_UPDATE_DATABASE'	=> '<strong>Uppdaterade databasen från version %1$s till version %2$s</strong>',
@@ -763,5 +791,3 @@ $lang = array_merge($lang, array(
 	'LOG_WORD_DELETE'		=> '<strong>Tog bort ordcensurering</strong><br />» %s',
 	'LOG_WORD_EDIT'			=> '<strong>Ändrade ordcensurering</strong><br />» %s',
 ));
-
-?>

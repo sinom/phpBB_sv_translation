@@ -1,30 +1,20 @@
 <?php
-/** 
+/**
 *
-* install [Swedish] (phpBB 3.0.11)
+* This file is part of Swedish phpBB translation.
+* Copyright (c) 2010 - 2014 Swedish translation group.
 *
-* @package language
-* @version $Id: install.php 36 2012-06-27 08:50:58Z Peetra.mammapappa $
-* @copyright (c) 2006 phpBB Group, modified and translated by Swedish translation team
-* @source file is copyright (c) 2005 phpBB Group, modified and translated by Swedish translation team
-* @license http://www.gnu.org/licenses/old-licenses/gpl-2.0.html GNU Public License version 2
-* @author (c) 2006-2008 Jonathan Gulbrandsen, 2008-2012 Petra Brandt
-* @author (c) 2008-2012 Peetra
-* Translators: Swedish translation team, working at http://www.phpbb-se.com  contact translation team leader at peetra.mammapappa@gmail.com
 *
-* This file is part of the Swedish language package for phpBB 3.0.x.
-* Copyright (c) 2006-2012 Swedish translation team
+* This program is distributed in the hope that it will be useful,
+* but WITHOUT ANY WARRANTY; without even the implied warranty of
+* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+* GNU General Public License for more details.
 *
-* The Swedish language package for phpBB 3.0.x is free software; you can redistribute it and/or
-* modify it under the terms of the GNU General Public License as published by the Free Software
-* Foundation, version 2 of the License.
 *
-* The Swedish Language package for phpBB 3.0.x is distributed in the hope that it will be useful,
-* but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR
-* A PARTICULAR PURPOSE. See the GNU General Public License for more details.
-*
-* You should have received a copy of the GNU General Public License along with this language
-* package. If not, see <http://www.gnu.org/licenses/old-licenses/gpl-2.0.html>.
+* @package      phpBB Sweden
+* @author       Simon Assgård <sassgard@gmail.com> (Sinom) http://www.phpbb.se/
+* @copyright    phpBB Sweden
+* @license      @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
 *
 */
 
@@ -91,7 +81,6 @@ $lang = array_merge($lang, array(
 	'CONFIG_FILE_WRITTEN'		=> 'Konfigurationsfilen har skapats. Du kan nu fortsätta till nästa steg av installationen.',
 	'CONFIG_PHPBB_EMPTY'		=> 'phpBB3-konfigurationsvariabeln för “%s” är tom.',
 	'CONFIG_RETRY'				=> 'Försök igen',
-	'CONTACT_EMAIL_CONFIRM'		=> 'Bekräfta kontaktadress för e-post',
 	'CONTINUE_CONVERT'			=> 'Fortsätt konverteringen',
 	'CONTINUE_CONVERT_BODY'		=> 'Ett tidigare konverteringsförsök har upptäckts. Du kan nu välja mellan att starta en ny konvertering eller fortsätta med den påbörjade.',
 	'CONTINUE_LAST'				=> 'Fortsätt med de sista uppgifterna',
@@ -226,7 +215,7 @@ $lang = array_merge($lang, array(
 	<p>phpBB3 stödjer följande databaser:</p>
 	<ul>
 		<li>MySQL 3.23 eller nyare (MySQLi stöds)</li>
-		<li>PostgreSQL 7.3+</li>
+		<li>PostgreSQL 8.3+</li>
 		<li>SQLite 2.8.2+</li>
 		<li>Firebird 2.1+</li>
 		<li>MS SQL Server 2000 eller nyare (direkt eller via ODBC)</li>
@@ -307,6 +296,8 @@ $lang = array_merge($lang, array(
 	'PCRE_UTF_SUPPORT_EXPLAIN'		=> 'phpBB kommer <strong>inte</strong> att fungera om din PHP-installation inte kompilerats med UTF-8 stöd i PCRE-extension.',
 	'PHP_GETIMAGESIZE_SUPPORT'			=> 'PHP-funktionen getimagesize() finns tillgänglig',
 	'PHP_GETIMAGESIZE_SUPPORT_EXPLAIN'	=> '<strong>Obligatoriskt</strong> - För att phpBB ska fungera som det ska så måste getimagesize-funktionen finnas.',
+	'PHP_JSON_SUPPORT'        		=> 'PHP JSON support',
+	'PHP_JSON_SUPPORT_EXPLAIN'    	=> '<strong>Obligatorisk</strong> - För att phpBB skall fungera korrekt, så måste PHP JSON vara tillgänglig.',
 	'PHP_OPTIONAL_MODULE'			=> 'Frivilliga moduler',
 	'PHP_OPTIONAL_MODULE_EXPLAIN'	=> '<strong>Frivilligt</strong> - Dessa moduler eller applikationer är frivilliga. Dock kommer de om de finns tillgängliga att aktivera extra funktioner.',
 	'PHP_SUPPORTED_DB'				=> 'Databaser som stöds',
@@ -315,10 +306,10 @@ $lang = array_merge($lang, array(
 	'PHP_REGISTER_GLOBALS_EXPLAIN'	=> 'phpBB kommer att fungera om denna inställning är aktiverad, men om det är möjligt så är det rekommenderat att register_globals inaktiveras i din PHP-installation av säkerhetsskäl.',
 	'PHP_SAFE_MODE'					=> 'Safe mode',
 	'PHP_SETTINGS'					=> 'PHP-version och inställningar',
-	'PHP_SETTINGS_EXPLAIN'			=> '<strong>Obligatoriskt</strong> - Du måste köra minst version 4.3.3 av PHP för att installera phpBB. Om <var>safe mode</var> visas nedan så körs din PHP-installation med denna inställning. Detta kommer att resultera i begränsningar på fjärradministration och liknande funktioner.',
+	'PHP_SETTINGS_EXPLAIN'			=> '<strong>Obligatoriskt</strong> - Du måste köra minst version 5.3.3 av PHP för att installera phpBB. Om <var>safe mode</var> visas nedan så körs din PHP-installation med denna inställning. Detta kommer att resultera i begränsningar på fjärradministration och liknande funktioner.',
 	'PHP_URL_FOPEN_SUPPORT'			=> 'PHP-inställningen <var>allow_url_fopen</var> är aktiverad',
 	'PHP_URL_FOPEN_SUPPORT_EXPLAIN'	=> '<strong>Frivilligt</strong> - Denna inställning är frivillig, men vissa phpBB-funktioner, såsom fjärrvisningsbilder, kommer inte att fungera korrekt utan den.',
-	'PHP_VERSION_REQD'				=> 'PHP-version >= 4.3.3',
+	'PHP_VERSION_REQD'				=> 'PHP-version >= 5.3.3',
 	'POST_ID'						=> 'Inläggs-ID',
 	'PREFIX_FOUND'					=> 'En analys av dina tabeller visar att du har en giltig installation som använder <strong>%s</strong> som tabellprefix.',
 	'PREPROCESS_STEP'				=> 'Kör för-processfunktioner/frågor',
@@ -338,6 +329,7 @@ $lang = array_merge($lang, array(
 	'SERVER_CONFIG'				=> 'Serverkonfiguration',
 	'SEARCH_INDEX_UNCONVERTED'	=> 'Sökindexet konverterades inte',
 	'SEARCH_INDEX_UNCONVERTED_EXPLAIN'	=> 'Ditt gamla sökindex konverterades inte. Sökningar kommer alltid att resultera i ett tomt resultat. För att skapa ett nytt sökindex, gå till administrationspanelen, klicka på Underhåll och välj sedan Sökindex från undermenyn.',
+	'SELECT_FORUM_GA'			=> 'I phpBB 3.1 är dom globala nyheterna länkade till forumen. Välj ett forum för din globala nyhet (kan ändras senare):',
 	'SOFTWARE'					=> 'Forummjukvara',
 	'SPECIFY_OPTIONS'			=> 'Ange konverteringsalternativ',
 	'STAGE_ADMINISTRATOR'		=> 'Administratörskonfiguration',
@@ -345,7 +337,7 @@ $lang = array_merge($lang, array(
 	'STAGE_ADVANCED_EXPLAIN'	=> 'Inställningarna på denna sida behövs endast om du vet att du behöver ställa in någonting annorlunda än i normala inställningar. Om du är osäker, fortsätt till nästa sida. Dessa inställningar kan ändras senare i administrationspanelen.',
 	'STAGE_CONFIG_FILE'			=> 'Konfigurationsfil',
 	'STAGE_CREATE_TABLE'		=> 'Skapar databastabeller',
-	'STAGE_CREATE_TABLE_EXPLAIN'	=> 'Databastabellerna som används av phpBB3 har skapats och fyllts med lite inledande data. Fortsätt till nästa sida för att slutföra installationen av phpBB.',
+	'STAGE_CREATE_TABLE_EXPLAIN'	=> 'Databastabellerna som används av phpBB 3.1 har skapats och fyllts med lite inledande data. Fortsätt till nästa sida för att slutföra installationen av phpBB.',
 	'STAGE_DATABASE'			=> 'Databasinställningar',
 	'STAGE_FINAL'				=> 'Slutskede',
 	'STAGE_INTRO'				=> 'Introduktion',
@@ -386,7 +378,7 @@ $lang = array_merge($lang, array(
 
 // Updater
 $lang = array_merge($lang, array(
-	'ALL_FILES_UP_TO_DATE'		=> 'Alla filer är av den senaste phpBB versionen. Du bör nu <a href="../ucp.php?mode=login">logga in på ditt forum</a> och kontrollera att allt fungerar som det ska. Glöm inte att ta bort, byta namn på eller flytta katalogen install! Var god och sänd oss uppdaterad information om din server och forumkonfigurationer via modulen <a href="../ucp.php?mode=login&amp;redirect=adm/index.php%3Fi=send_statistics%26mode=send_statistics">Sänd statistik</a> i administrationspanelen.',
+	'ALL_FILES_UP_TO_DATE'		=> 'Alla filer är av den senaste phpBB versionen. ',
 	'ARCHIVE_FILE'				=> 'Källfil inom arkiv',
 
 	'BACK'				=> 'Tillbaka',
@@ -409,7 +401,10 @@ $lang = array_merge($lang, array(
 	'CURRENT_VERSION'				=> 'Aktuell version',
 
 	'DATABASE_TYPE'						=> 'Databastyp',
+	'DATABASE_UPDATE_COMPLETE'			=> 'Databasuppdateraren är färdig!',
+	'DATABASE_UPDATE_CONTINUE'			=> 'Fortsätt databasuppdatering',
 	'DATABASE_UPDATE_INFO_OLD'			=> 'Databasuppdateringsfilen i install-katalogen är gammal. Försäkra dig om att du laddat upp rätt version av filen.',
+	'DATABASE_UPDATE_NOT_COMPLETED'		=> 'Databasuppdateringen är ännu inte färdig.',
 	'DELETE_USER_REMOVE'				=> 'Ta bort användare och ta bort inlägg',
 	'DELETE_USER_RETAIN'				=> 'Ta bort användare men behåll inlägg',
 	'DESTINATION'						=> 'Destionationsfil',
@@ -430,10 +425,9 @@ $lang = array_merge($lang, array(
 	'DOWNLOAD_CONFLICTS_EXPLAIN'		=> 'Sök efter &lt;&lt;&lt; för att hitta konflikter',
 	'DOWNLOAD_UPDATE_METHOD'			=> 'Ladda ner modifierat filarkiv',
 	'DOWNLOAD_UPDATE_METHOD_EXPLAIN'	=> 'När du laddat ner klart så packar du upp arkivet. Du kommer i den att hitta de ändrade filerna som du måste ladda upp till din phpBB-rotkatalog. Ladda upp filerna till deras respektive plats. När du laddat upp alla filerna, kontrollera filerna igen med knappen nedan.',
-
-	'ERROR'			=> 'Fel',
-	'EDIT_USERNAME'	=> 'Redigera användarnamn',
-
+	'EDIT_USERNAME'						=> 'Redigera användarnamn',
+	'ERROR'								=> 'Error',
+	'EVERYTHING_UP_TO_DATE'				=> 'Du har nu konverterat ditt forum till phpBB 3.0. Du kan nu  <a href="../">logga in på ditt forum</a>. Försäkra dig om att inställningarna överförts korrekt innan du aktiverar ditt forum genom att ta bort install-katalogen. Kom ihåg att hjälp för hur man använder phpBB finns att få i <a href="https://www.phpbb.com/support/documentation/3.0/">dokumentationen</a>, på det <a href="https://www.phpbb.com/community/viewforum.php?f=46">engelska supportforumet</a> och på det <a href="http://www.phpbb.se/">svenska supportforumet</a>.',
 	'FILE_ALREADY_UP_TO_DATE'		=> 'Filerna är redan uppdaterade.',
 	'FILE_DIFF_NOT_ALLOWED'			=> 'Filerna får inte diffas.',
 	'FILE_USED'						=> 'Information används från',			// Single file
@@ -569,6 +563,7 @@ $lang = array_merge($lang, array(
 	'UPGRADE_INSTRUCTIONS'         => 'En version <strong>%1$s</strong> med nya funktioner är tillgänglig. Läs <a href="%2$s" title="%2$s"><strong>Anslaget om utgåvan</strong></a> för att lära dig mera om de nya funktionerna och hur du ska uppdatera ditt forum.',
 	'UPLOAD_METHOD'					=> 'Uppladdningsmetod',
 	'UPDATE_DB_SUCCESS'				=> 'Databasen har uppdaterats.',
+	'UPDATE_FILE_SUCCESS'			=> 'Filuppdateringen lyckades.',
 	'USER_ACTIVE'					=> 'Aktiv användare',
 	'USER_INACTIVE'					=> 'Inaktiverad användare',
 	'VERSION_CHECK'				=> 'Versionskontroll',
@@ -629,4 +624,3 @@ $lang = array_merge($lang, array(
 
 	'TOPICS_TOPIC_TITLE'	=> 'Välkommen till phpBB3',
 ));
-?>
