@@ -148,6 +148,7 @@ $lang = array_merge($lang, array(
 	),
 	'USER_ONLINE'			=> 'Online',
 	'USER_PRESENCE'			=> 'Allmänt',
+	'USERS_PER_PAGE'		=> 'Användare per sida',
 
 	'VIEWING_PROFILE'		=> 'Visar profil - %s',
 	'VIEW_FACEBOOK_PROFILE'	=> 'Visa Facebook profil',

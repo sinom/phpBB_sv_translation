@@ -72,6 +72,7 @@ $lang = array_merge($lang, array(
 	'LINKAGE_FORBIDDEN'		=> 'Du har inte tillåtelse att öppna, ladda ner eller länka från/till denna sida.',
 	'LOGIN_NOTIFY_TOPIC'	=> 'Du har underrättats om denna tråd, logga in för att visa den.',
 	'LOGIN_VIEWTOPIC'		=> 'Forumet kräver att du registrerar dig och loggar in för att visa denna tråd.',
+
 	'MAKE_ANNOUNCE'				=> 'Gör till “anslag”',
 	'MAKE_GLOBAL'				=> 'Gör till “globalt anslag”',
 	'MAKE_NORMAL'				=> 'Gör till “normal tråd”',
@@ -82,31 +83,36 @@ $lang = array_merge($lang, array(
 	),
 	'MISSING_INLINE_ATTACHMENT'	=> 'Bilagan <strong>%s</strong> finns inte längre',
 	'MOVE_TOPIC'				=> 'Flytta tråd',
+
 	'NO_ATTACHMENT_SELECTED'=> 'Du valde inga bilagor att ladda ner eller öppna.',
 	'NO_NEWER_TOPICS'		=> 'Det finns inga nyare trådar i denna kategori.',
 	'NO_OLDER_TOPICS'		=> 'Det finns inga äldre trådar i denna kategori.',
 	'NO_UNREAD_POSTS'		=> 'Det finns inga nya olästa inlägg i denna tråd.',
 	'NO_VOTE_OPTION'		=> 'Du måste välja ett alternativ för att rösta.',
 	'NO_VOTES'				=> 'Inga röster',
+
 	'POLL_ENDED_AT'			=> 'Omröstningen slutade %s',
 	'POLL_RUN_TILL'			=> 'Omröstningen varar till %s',
 	'POLL_VOTED_OPTION'		=> 'Du röstade för detta alternativ',
 	'POST_DELETED_RESTORE'	=> 'Detta inlägg har blivit borttaget. Det kan inte återställas.',
 	'PRINT_TOPIC'			=> 'Utskriftsvänlig version',
+
 	'QUICK_MOD'				=> 'Snabb-moderationsverktyg',
 	'QUICKREPLY'			=> 'Snabbsvar',
 	'QUOTE'					=> 'Citat',
 	
 	'REPLY_TO_TOPIC'		=> 'Svara på tråd',
-	
 	'RESTORE'				=> 'Återställ',
 	'RESTORE_TOPIC'			=> 'Återställ tråd',
-	
 	'RETURN_POST'			=> '%sGå till inlägget%s',
 
 	'SUBMIT_VOTE'			=> 'Rösta',
+
+	'TOPIC_TOOLS'			=> 'Trådverktyg',
 	'TOTAL_VOTES'			=> 'Antal röster',
+
 	'UNLOCK_TOPIC'			=> 'Lås upp tråden',
+	
 	'VIEW_INFO'				=> 'Inläggsuppgifter',
 	'VIEW_NEXT_TOPIC'		=> 'Nästa tråd',
 	'VIEW_PREVIOUS_TOPIC'	=> 'Föregående tråd',
@@ -118,4 +124,5 @@ $lang = array_merge($lang, array(
 	'VIEW_UNREAD_POST'		=> 'Första olästa inlägg',
 	'VOTE_SUBMITTED'		=> 'Din röst räknades.',
 	'VOTE_CONVERTED'		=> 'Ändrng av röst stöds inte för konverterade omröstningar.',
+
 ));

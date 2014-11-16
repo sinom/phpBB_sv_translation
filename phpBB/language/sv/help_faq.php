@@ -43,6 +43,10 @@ $help = array(
 		1 => 'Inloggnings- och registreringsfrågor'
 	),
 	array(
+		0 => 'Varför kan jag inte logga in?',
+		1 => 'Det finns flera möjliga förklaringar till detta. Först och främst, försäkra dig om att ditt användarnamn och lösenord stämmer. Om du är säker på att de stämmer, kontakta administratören för att försäkra dig om att du inte har bannlysts från forumet. Det är också möjligt att administratören har gjort en felinställning och behöver åtgärda detta.'
+	),
+	array(
 		0 => 'Varför måste jag ens registrera mig?',
 		1 => 'Det är det inte säkert att du måste, det är upp till administratören att bestämma om du måste registrera dig eller inte för att kunna skriva och/eller läsa inlägg. Men registrering ger dig tillgång till utökade funktioner som inte finns för gäster som till exempel visningsbilder, personliga meddelanden, skicka e-post till andra användare, medlemskap i användargrupper, med mera. Det tar endast några minuter att registrera sig, så det rekommenderas.'
 	),
@@ -340,14 +344,14 @@ $help = array(
 	),
 	array(
 		0 => 'Vem har gjort detta forum?',
-		1 => 'Denna programvara (i sin oförändrade form) är producerad av, släppt av <a href="https://www.phpbb.com/">phpBB Limited</a>, som innehar copyrighten. Den finns tillgänglig under GNU General Public Licence och får distribueras fritt. Se länken för mer information.'
+		1 => 'Denna programvara (i sin oförändrade form) är producerad av, släppt av phpBB Limited, som innehar rättigheten. Den finns tillgänglig under GNU General Public Licence och får distribueras fritt. Se länken för mer information.'
 	),
 	array(
 		0 => 'Varför finns inte funktionen X?',
-		1 => 'Denna programvara har gjorts och licensierats av phpBB Limited. Om du anser att en funktion bör läggas till eller vill rapportera en bugg, var vänlig och besök <a href="https://www.phpbb.com/ideas/">phpBB Idécenter</a>, där du kommer att hitta verktyg för att göra så.'
+		1 => 'Denna programvara har gjorts och licensierats av phpBB Limited. Om du anser att en funktion bör läggas till eller vill rapportera en bugg, var vänlig och besök phpBB Idécenter, där du kommer att hitta verktyg för att göra så.'
 	),
 	array(
 		0 => 'Vem ska jag kontakta med juridiska ärenden angående detta forum?',
-		1 => 'Vem som helst av administratörerna som listas på “Teamet”-sidan bör vara lämpliga att kontakta med dina klagomål. Om du inte får något svar på detta sätt så kan du kontakta ägaren av domänen (gör en <a href="http://www.google.com/search?q=whois">whois lookup</a>) eller, om detta forum ligger på en gratistjänst (såsom Yahoo!, free.fr, f2s.com, osv.), abuse-avdelningen för den tjänsten. Observera att phpBB Limited <strong>inte har någon som helst kontroll</strong> och kan inte på något sätt hållas ansvariga för hur, var eller av vem detta forum används. Kontakta inte phpBB Limited med anledning av något juridiskt ärende (“cease and desist”, ansvar, förtal, osv.) som <strong>inte direkt berör</strong> webbplatsen phpBB.com. Om du ändå kontaktar phpBB Limited om <strong>någon form av tredjepartsanvändning av denna mjukvara</strong> så förvänta dig ett fåordigt svar eller inget svar alls.'
+		1 => 'Vem som helst av administratörerna som listas på “Teamet”-sidan bör vara lämpliga att kontakta med dina klagomål. Om du inte får något svar på detta sätt så kan du kontakta ägaren av domänen eller, om detta forum ligger på en gratistjänst (såsom Yahoo!, free.fr, f2s.com, osv.), abuse-avdelningen för den tjänsten. Observera att phpBB Limited <strong>inte har någon som helst kontroll</strong> och kan inte på något sätt hållas ansvariga för hur, var eller av vem detta forum används. Kontakta inte phpBB Limited med anledning av något juridiskt ärende (“cease and desist”, ansvar, förtal, osv.) som <strong>inte direkt berör</strong> webbplatsen phpBB.com. Om du ändå kontaktar phpBB Limited om <strong>någon form av tredjepartsanvändning av denna mjukvara</strong> så förvänta dig ett fåordigt svar eller inget svar alls.'
 	),
 );

@@ -60,6 +60,7 @@ $lang = array_merge($lang, array(
 
 	'POSTS_ON_QUEUE'			=> 'Inlägg i väntan på godkännande',
 	'PRUNE_USERS_GROUP_EXPLAIN'	=> 'Begrända till användare i en specifik grupp.',
+	'PRUNE_USERS_GROUP_NONE'	=> 'Alla grupper',
  	'PRUNE_USERS_LIST'				=> 'Användare som kommer att rensas',
  	'PRUNE_USERS_LIST_DELETE'		=> 'Med de valda kriterierna för utrensning av användare kommer följande användare att tas bort.',
  	'PRUNE_USERS_LIST_DEACTIVATE'	=> 'Med de valda kriterierna för utrensning av användare kommer följande användarkonton inaktiveras.',

@@ -49,9 +49,14 @@ $lang = array_merge($lang, array(
 
 	'DISPLAY_RESULTS'		=> 'Visa resultat som',
 
-	'FOUND_SEARCH_MATCH'		=> '%d träff',
-	'FOUND_SEARCH_MATCHES'		=> '%d träffar',
-	'FOUND_MORE_SEARCH_MATCHES'	=> 'Fler än %d träffar',
+	'FOUND_SEARCH_MATCHES'		=> array(
+		1	=> 'Sökningen fann %d träff',
+		2	=> 'Sökningen fann %d träffar',
+	),
+	'FOUND_MORE_SEARCH_MATCHES'		=> array(
+		1	=> 'Sökningen fann fler än %d träff',
+		2	=> 'Sökningen fann fler än %d träffar',
+	),
 
 	'GLOBAL'				=> 'Globalt anslag',
 
@@ -63,10 +68,13 @@ $lang = array_merge($lang, array(
 	'LOGIN_EXPLAIN_EGOSEARCH'	=> 'Forumet kräver att du är registrerad och inloggad in för att visa dina egna inlägg.',
 	'LOGIN_EXPLAIN_UNREADSEARCH'=> 'Forumet kräver att du är registrerad och inloggad för att visa dina olästa inlägg.',
 	'LOGIN_EXPLAIN_NEWPOSTS'	=> 'Forumet kräver att du är registrerad och inloggad for att visa nya inlägg sedan ditt senaste besök.',
-	
-	'MAX_NUM_SEARCH_KEYWORDS_REFINE'	=> 'Du har angett för många olika nyckelord. Var god försök på nytt med maximalt %1$d ord.',
 
-	'NO_KEYWORDS'			=> 'Du måste ange minst ett ord att söka efter. Varje ord måste bestå av minst %d tecken och inte mer än %d tecken, exklusive jokertecken.',
+	'MAX_NUM_SEARCH_KEYWORDS_REFINE'	=> array(
+		1	=> 'Du har angett för många olika nyckelord. Var god försök på nytt med maximalt %1$d ord.',
+		2	=> 'Du har angett för många olika nyckelord. Var god försök på nytt med maximalt %1$d ord.',
+	),
+
+	'NO_KEYWORDS'			=> 'Du måste ange minst ett ord att söka efter. Varje ord måste bestå av minst %s tecken och inte mer än %s tecken, exklusive jokertecken.',
 	'NO_RECENT_SEARCHES'	=> 'Inga sökningar har gjorts nyligen.',
 	'NO_SEARCH'				=> 'Du har inte tillåtelse att använda söksystemet.',
 	'NO_SEARCH_RESULTS'		=> 'Inga träffar hittades.',

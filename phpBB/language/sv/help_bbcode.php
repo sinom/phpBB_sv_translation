@@ -29,7 +29,7 @@ if (!defined('IN_PHPBB'))
 // DEVELOPERS PLEASE NOTE
 //
 // All language files should use UTF-8 as their encoding and the files must not contain a BOM.
-                                                                                                                                                      //
+//
 // Placeholders can now contain order information, e.g. instead of
 // 'Page %s of %s' you can (and should) write 'Page %1$s of %2$s', this allows
 // translators to re-order the output of data while ensuring it remains correct
@@ -106,7 +106,7 @@ $help = array(
 	),
 	array(
 		0 => 'Lägg till en bild i ett inlägg',
-		1 => 'phpBB BBCode innehåller en tagg för att infoga bilder i dina inlägg. Två väldigt viktiga saker att komma ihåg när denna tagg används är: många användare uppskattar inte många bilder i inlägg och för det andra så måste bilden redan finnas på Internet (den kan alltså inte finnas enbart på din dator, såvida din dator inte är en webbserver!). För att visa en bild innesluter du URL:en till bilden med <strong>[img][/img]</strong>-taggar. Till exempel:<br /><br /><strong>[img]</strong>http://www.google.com/intl/en_ALL/images/logo.gif<strong>[/img]</strong><br /><br />Som noterat i URL-delen ovan k an du innesluta en bild i en <strong>[url][/url]</strong>-tagg om du så önskar, t.ex.<br /><br /><strong>[url=http://www.google.com/][img]</strong>http://www.google.com/intl/en_ALL/images/logo.gif<strong>[/img][/url]</strong><br /><br />som skulle resultera i:<br /><br /><a href="http://www.google.com/"><img src="http://www.google.com/intl/en_ALL/images/logo.gif" alt="" /></a>'
+		1 => 'phpBB BBCode innehåller en tagg för att infoga bilder i dina inlägg. Två väldigt viktiga saker att komma ihåg när denna tagg används är: många användare uppskattar inte många bilder i inlägg och för det andra så måste bilden redan finnas på Internet (den kan alltså inte finnas enbart på din dator, såvida din dator inte är en webbserver!). För att visa en bild innesluter du URL:en till bilden med <strong>[img][/img]</strong>-taggar. Till exempel:<br /><br /><strong>[img]</strong>http://www.google.com/intl/en_ALL/images/logo.gif<strong>[/img]</strong><br /><br />Som noterat i URL-delen ovan k an du innesluta en bild i en <strong>[url][/url]</strong>-tagg om du så önskar, t.ex.<br /><br /><strong>[url=http://www.google.com/][img]</strong>http://www.google.com/intl/en_ALL/images/logo.gif<strong>[/img][/url]</strong><br /><br />som skulle resultera i:<br /><br />'
 	),
 	array(
 		0 => 'Lägga till bilagor i inlägg',

@@ -50,8 +50,6 @@ $lang = array_merge($lang, array(
 
 	'CONFIRM_UNINSTALL_STYLES'		=> 'Är du säker på att du vill avinstallera valda stilar?',
 	'COPYRIGHT'						=> 'Copyright',	
-	
-	'CREATE_IMAGESET'				=> 'Skapa nytt bildpaket',
 
 	'DEACTIVATE_DEFAULT'		=> 'Du kan inte inaktivera standardstilen.',
 	'DELETE_FROM_FS'			=> 'Ta bort från filsystemet',

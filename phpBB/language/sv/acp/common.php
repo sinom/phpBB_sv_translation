@@ -67,10 +67,10 @@ $lang = array_merge($lang, array(
 	'ACP_BOTS'					=> 'Spindlar/Robotar',
 
 	'ACP_CAPTCHA'				=> 'CAPTCHA',
-	'ACP_CAT_CUSTOMISE'			=> 'Ändra',
+	'ACP_CAT_CUSTOMISE'			=> 'Skräddarsy',
 
 	'ACP_CAT_DATABASE'			=> 'Databas',
-	'ACP_CAT_DOT_MODS'			=> 'Plugin',
+	'ACP_CAT_DOT_MODS'			=> 'Tillägg',
 	'ACP_CAT_FORUMS'			=> 'Kategorier',
 	'ACP_CAT_GENERAL'			=> 'Allmänt',
 	'ACP_CAT_MAINTENANCE'		=> 'Underhåll',
@@ -93,8 +93,8 @@ $lang = array_merge($lang, array(
 
 	'ACP_EMAIL_SETTINGS'		=> 'E-postinställningar',
 	'ACP_EXTENSION_GROUPS'		=> 'Hantera bilagornas filtypsgrupper',
-	'ACP_EXTENSION_MANAGEMENT'	=> 'Pluginhantering',
-	'ACP_EXTENSIONS'			=> 'Hantera plugin',
+	'ACP_EXTENSION_MANAGEMENT'	=> 'Tilläggshantering',
+	'ACP_EXTENSIONS'			=> 'Hantera tillägg',
 
 	'ACP_FORUM_BASED_PERMISSIONS'	=> 'Kategoribaserade behörigheter',
 	'ACP_FORUM_LOGS'				=> 'Kategoriloggar',
@@ -369,6 +369,7 @@ $lang = array_merge($lang, array(
 
 	'GZIP_COMPRESSION'	=> 'GZip-komprimering',
 
+	'NO_SEARCH_INDEX'	=> 'Den valda sökmetoden har inget sökindex.<br />Vänligen skapa index för “%1$s” i %2$ssearch index%3$s-sektionen.',
 	'NOT_AVAILABLE'		=> 'Ej tillgängligt',
 	'NUMBER_FILES'		=> 'Antal bilagor',
 	'NUMBER_POSTS'		=> 'Antal inlägg',
@@ -391,7 +392,7 @@ $lang = array_merge($lang, array(
 
 	'RESET_DATE'					=> 'Ändra forumets startdatum till dagens datum.',
 	'RESET_DATE_CONFIRM'			=> 'Är du säker på att du vill återställa forumets startdatum till idag?',
-	'RESET_DATE_SUCCESS'			=> 'Forumets startdatum återställt'
+	'RESET_DATE_SUCCESS'			=> 'Forumets startdatum återställt',
 	'RESET_ONLINE'					=> 'Återställ flest användare online samtidigt',
 	'RESET_ONLINE_CONFIRM'			=> 'Är du säker på att du vill återställa räknaren för flest användare online samtidigt?',
 	'RESET_ONLINE_SUCCESS'				=> 'Flest online återställt',
@@ -412,7 +413,7 @@ $lang = array_merge($lang, array(
 	'STATISTIC'					=> 'Statistik',
 	'STATISTIC_RESYNC_OPTIONS'	=> 'Synkronisera eller återställ statistik',
 	'TIMEZONE_INVALID'	=> 'Felaktig tidzon.',
-	'TIMEZONE_SELECTED'	=> '(vald)'
+	'TIMEZONE_SELECTED'	=> '(vald)',
 
 	'TOPICS_PER_DAY'	=> 'Trådar per dag',
 
@@ -426,7 +427,7 @@ $lang = array_merge($lang, array(
 	'VIEW_INACTIVE_USERS'	=> 'Visa inaktiverade användare',
 
 	'WELCOME_PHPBB'			=> 'Välkommen till phpBB',
-	'WRITABLE_CONFIG'		=> 'Din konfigurationsfil (config.php) är för tillfället skrivbar för alla. Vi uppmanar dig starkt att ändra rättigheterna till 640 eller åtminstone 644 (Se exempel på: <a href="http://sv.wikipedia.org/wiki/Chmod" rel="external">chmod</a>).',
+	'WRITABLE_CONFIG'		=> 'Din konfigurationsfil (config.php) är för tillfället skrivbar för alla. Vi uppmanar dig starkt att ändra rättigheterna till 640 eller åtminstone 644.',
 
 ));
 
@@ -554,7 +555,7 @@ $lang = array_merge($lang, array(
 	'LOG_BUMP_TOPIC'			=> '<strong>Användare knuffade upp tråd</strong><br />» %s',
 	'LOG_DELETE_POST'			=> '<strong>Tog bort inlägget “%1$s” skrivet utav â€œ%2$sâ€ med följande orsak</strong><br />» %3$s',
 	'LOG_DELETE_SHADOW_TOPIC'	=> '<strong>Tog bort skuggtråd</strong><br />» %s',
-	'LOG_DELETE_TOPIC'			=> '<strong>Tog bort tråd “%1$s” skriven av</strong><br />» %2$s',
+	'LOG_DELETE_TOPIC'			=> '<strong>Tog bort tråd “%1$s” skriven av “%2$s” på grund utav följande orsak</strong><br />» %3$s',
 	'LOG_FORK'					=> '<strong>Kopierade tråd</strong><br />» från %s',
 	'LOG_LOCK'					=> '<strong>Låste tråd</strong><br />» %s',
 	'LOG_LOCK_POST'				=> '<strong>Låste inlägg</strong><br />» %s',
@@ -569,8 +570,8 @@ $lang = array_merge($lang, array(
 	'LOG_REPORT_CLOSED'			=> '<strong>Stängde rapport</strong><br />» %s',
 	'LOG_REPORT_DELETED'		=> '<strong>Tog bort rapport</strong><br />» %s',
 	'LOG_RESTORE_TOPIC'			=> '<strong>Återställda inlägg “%1$s” skrivna utav</strong><br />» %2$s',
-	'LOG_SOFTDELETE_POST'		=> '<strong>Borttagna inlägg “%1$s” skrivna utav â€œ%1$sâ€ med följande orsak</strong><br />» %3$s',
-	'LOG_SOFTDELETE_TOPIC'		=> '<strong>Borttagna trådar “%1$s” skrivna utav â€œ%1$sâ€ med följande orsak</strong><br />» %3$s',
+	'LOG_SOFTDELETE_POST'		=> '<strong>Mjkukborttagna inlägget “%1$s” skrivet utav “%2$s” på grund utav följande orsak</strong><br />» %3$s',
+	'LOG_SOFTDELETE_TOPIC'		=> '<strong>Mjukborttagen tråd “%1$s” skriven utav “%2$s” på grund utav följande orsak</strong><br />» %3$s',
 	'LOG_SPLIT_DESTINATION'		=> '<strong>Flyttade delade inlägg</strong><br />» till %s',
 	'LOG_SPLIT_SOURCE'			=> '<strong>Delade inlägg</strong><br />» från %s',
 
@@ -626,16 +627,6 @@ $lang = array_merge($lang, array(
 	'LOG_USERS_PENDING'		=> '<strong>Användare ansökte om medlemskap i användargrupp “%1$s” och väntar på att bli godkänd</strong><br />» %2$s',
 
 	'LOG_IMAGE_GENERATION_ERROR'	=> '<strong>Ett fel uppstod då en bild skulle skapas</strong><br />» Fel i %1$s på rad %2$s: %3$s',
-
-	'LOG_IMAGESET_ADD_DB'			=> '<strong>Lade till nytt bildpaket till databasen</strong><br />» %s',
-	'LOG_IMAGESET_ADD_FS'			=> '<strong>Lade till nytt bildpaket till filsystemet</strong><br />» %s',
-	'LOG_IMAGESET_DELETE'			=> '<strong>Tog bort bildpaket</strong><br />» %s',
-	'LOG_IMAGESET_EDIT_DETAILS'		=> '<strong>Ändrade bildpaketsdetaljer</strong><br />» %s',
-	'LOG_IMAGESET_EDIT'				=> '<strong>Ändrade bildpaket</strong><br />» %s',
-	'LOG_IMAGESET_EXPORT'			=> '<strong>Exporterade bildpaket</strong><br />» %s',
-	'LOG_IMAGESET_LANG_MISSING'		=> '<strong>Bildpaket saknar “%2$s” översättning</strong><br />» %1$s',
-	'LOG_IMAGESET_LANG_REFRESHED'	=> '<strong>Uppdaterade översättningen “%2$s” av bildpaketet</strong><br />» %1$s',
-	'LOG_IMAGESET_REFRESHED'		=> '<strong>Uppdaterade bildpaket</strong><br />» %s',
 
 	'LOG_INACTIVE_ACTIVATE'	=> '<strong>Aktiverade inaktiverade användare</strong><br />» %s',
 	'LOG_INACTIVE_DELETE'	=> '<strong>Tog bort inaktiverade användare</strong><br />» %s',
@@ -786,10 +777,11 @@ $lang = array_merge($lang, array(
 	'LOG_USER_GROUP_JOIN'			=> '<strong>Användare gick med i grupp</strong><br />» %s',
 	'LOG_USER_GROUP_JOIN_PENDING'	=> '<strong>Användare gick med i gruppen och måste godkännas</strong><br />» %s',
 	'LOG_USER_GROUP_RESIGN'			=> '<strong>Användare lämnade gruppen</strong><br />» %s',
+	
 	'LOG_WARNING_DELETED'		=> '<strong>Tog bort användarvarning</strong><br />» %s',
 	'LOG_WARNINGS_DELETED'		=> array(
-		1 => '<strong>Tog bort alla användarvarningar</strong><br />» %1$s',
-		2 => '<strong>Tog bort %2$s varning(ar)</strong><br />» %1$s', // Example: '<strong>Deleted 2 user warnings</strong><br />» username'
+		1 => '<strong>Tog användarvarning</strong><br />» %1$s',
+		2 => '<strong>Tog bort %2$s användarvarningar</strong><br />» %1$s', // Example: '<strong>Deleted 2 user warnings</strong><br />» username'
 	),
 	'LOG_WARNINGS_DELETED_ALL'	=> '<strong>Tog bort alla användarvarningar</strong><br />» %1$s',
 
@@ -797,7 +789,7 @@ $lang = array_merge($lang, array(
 	'LOG_WORD_DELETE'		=> '<strong>Tog bort ordcensurering</strong><br />» %s',
 	'LOG_WORD_EDIT'			=> '<strong>Ändrade ordcensurering</strong><br />» %s',
 
-	'LOG_EXT_ENABLE'	=> '<strong>Plugin är aktiverade</strong><br />» %s',
-	'LOG_EXT_DISABLE'	=> '<strong>Plugin är inaktiverade</strong><br />» %s',
-	'LOG_EXT_PURGE'		=> '<strong>Pluginets data är raderat</strong><br />» %s',
+	'LOG_EXT_ENABLE'	=> '<strong>Tillägg är aktiverade</strong><br />» %s',
+	'LOG_EXT_DISABLE'	=> '<strong>Tillägg är inaktiverade</strong><br />» %s',
+	'LOG_EXT_PURGE'		=> '<strong>Tilläggets data är raderat</strong><br />» %s',
 ));

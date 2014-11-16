@@ -60,7 +60,7 @@ $lang = array_merge($lang, array(
 	'DELETING_INDEX_IN_PROGRESS'			=> 'Indexborttagning pågår',
 	'DELETING_INDEX_IN_PROGRESS_EXPLAIN'	=> 'Söksystemet rensar för närvarande indexet. Detta kan ta några minuter.',
 
-	'FULLTEXT_MYSQL_INCOMPATIBLE_VERSION'	=> 'MySQL fulltextsystemet kan endast användas med MySQL4 och senare.',
+	'FULLTEXT_MYSQL_INCOMPATIBLE_DATABASE'	=> 'MySQL fulltextsystemet kan endast användas med MySQL4 och senare.',
 	'FULLTEXT_MYSQL_NOT_SUPPORTED'			=> 'MySQL fulltextindex kan endast användas med MyISAM eller InnoDB tabeller. MySQL 5.6.4 eller senare krävs för fulltext indexering på InnoDB tabeller.',
 	'FULLTEXT_MYSQL_TOTAL_POSTS'			=> 'Totalt antal indexerade inlägg',
 	'FULLTEXT_MYSQL_MIN_SEARCH_CHARS_EXPLAIN'   => 'Ord med minst så här många tecken kommer att indexeras som sökbara. Du eller din värd kan ändra detta enbart genom att ändra på MySQL-konfigurationen.',
@@ -77,10 +77,10 @@ $lang = array_merge($lang, array(
 	'FULLTEXT_POSTGRES_MIN_WORD_LEN_EXPLAIN'         => 'Ord med minst detta antal tecken kommer att användas vid sökning i databasen.',
 	'FULLTEXT_POSTGRES_MAX_WORD_LEN_EXPLAIN'         => 'Ord med högst detta antal tecken kommer att användas vid sökning i databasen.',
 
-	'FULLTEXT_SPHINX_CONFIGURE'            => 'Konfigurera följande inställningar för att generera en sphinx (<a href="http://en.wikipedia.org/wiki/Sphinx_%28search_engine%29">sökmotor</a>) konfigureringsfil',
+	'FULLTEXT_SPHINX_CONFIGURE'            => 'Konfigurera följande inställningar för att generera en sphinx-konfigureringsfil',
 	'FULLTEXT_SPHINX_DATA_PATH'            => 'Sökväg till datakatalogen',
 	'FULLTEXT_SPHINX_DATA_PATH_EXPLAIN'      => 'Denna sökväg kommer att användas som mål för att spara index och loggfiler. Du bör skapa denna katalog utanför kataloger som kan kommas åt via webben (bör avslutas med en slash).',
-	'FULLTEXT_SPHINX_DELTA_POSTS'         => 'Antal inlägg i ofta uppdaterade <a href="http://sphinxsearch.com/docs/current.html#delta-updates">delta index</a>',
+	'FULLTEXT_SPHINX_DELTA_POSTS'         => 'Antal inlägg i ofta uppdaterade delta index</a>',
 	'FULLTEXT_SPHINX_HOST'               => 'Sphinx sökmotor daemon host',
 	'FULLTEXT_SPHINX_HOST_EXPLAIN'         => 'Host som sphinx sökmotor daemon (searchd) lyssnar av. Lämna tomt för att använda standard localhost',
 	'FULLTEXT_SPHINX_INDEXER_MEM_LIMIT'      => 'Indexeringens minnesbegränsning',
@@ -117,13 +117,13 @@ $lang = array_merge($lang, array(
 	'SEARCH_GUEST_INTERVAL'					=> 'Tid mellan gästsökningar',
 	'SEARCH_GUEST_INTERVAL_EXPLAIN'			=> 'Antal sekunder gäster måste vänta mellan sökningar. Om en gäst söker så måste alla andra vänta tills tidsintervallen passerats.',
 	'SEARCH_INDEX_CREATE_REDIRECT'			=> array(
-		2	=> 'Alla inlägg fram till inlägg ID %1$d indexerades, av vilka %2$d inlägg var inom detta steg.<br />',
+		2	=> 'Alla inlägg fram till inlägg ID %2$d indexerades, av vilka %1$d inlägg var inom detta steg.<br />',
 	),
 	'SEARCH_INDEX_CREATE_REDIRECT_RATE'		=> array(
-		2	=> 'Den nuvarande hastigheten på indexeringen är ungefär %3$.1f inlägg per sekund.<br />Indexering pågår…',
+		2	=> 'Den nuvarande hastigheten på indexeringen är ungefär %1$.1f inlägg per sekund.<br />Indexering pågår…',
 	),
 	'SEARCH_INDEX_DELETE_REDIRECT'			=> array(
-		2	=> 'Alla inlägg fram till inlägg ID %1$d togs bort från sökindexet.<br />Borttagning pågår…',
+		2	=> 'Alla inlägg fram till inlägg ID %2$d togs bort från sökindexet.<br />Borttagning pågår…',
 	),
 	'SEARCH_INDEX_CREATED'					=> 'Indexerade alla inlägg i forumets databas.',
 	'SEARCH_INDEX_REMOVED'					=> 'Tog bort sökindexet för detta system.',
@@ -143,4 +143,3 @@ $lang = array_merge($lang, array(
 	'YES_SEARCH_UPDATE'						=> 'Aktivera fulltextuppdatering',
 	'YES_SEARCH_UPDATE_EXPLAIN'				=> 'Uppdaterar fulltextindex när postning sker, åsidosätts om sökning är inaktiverat.',
 ));
-

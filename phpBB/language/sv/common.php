@@ -46,7 +46,7 @@ if (empty($lang) || !is_array($lang))
 // ’ » “ ” …
 //
 $lang = array_merge($lang, array(
-	'TRANSLATION_INFO'   => 'Swedish translation by <a href="http://www.phpbb.se/viewtopic.php?f=22&t=6096">phpBB Sweden</a> &copy; 2006-2013',
+	'TRANSLATION_INFO'   => 'Swedish translation by phpBB Sweden &copy; 2006-2015',
 	'DIRECTION'			=> 'ltr',
 	'DATE_FORMAT'		=> '|d M Y|',// 01 Jan 2012 (with Relative days enabled)
 	'DATETIME_FORMAT'	=> '|d M Y, H:i|',	// 01 Jan 2007, 13:37 (with Relative days enabled)
@@ -118,7 +118,7 @@ $lang = array_merge($lang, array(
 	'AVATAR_URL_INVALID'			=> 'URL:en du angav är felaktig.',
 	'AVATAR_URL_NOT_FOUND'			=> 'Filen kunde inte hittas.',
 	'AVATAR_WRONG_FILESIZE'			=> 'Visningsbildens filstorlek måste vara mellan 0 och %1$d %2$s.',
-	'AVATAR_WRONG_SIZE'				=> 'Den valda visningsbilden är %5$d pixlar bred och %6$d pixlar hög. Visningsbilder måste vara minst %1$d pixlar breda och %2$d pixlar höga.',
+	'AVATAR_WRONG_SIZE'				=> 'Den valda visningsbilden är %5$s pixlar bred och %6$s pixlar hög. Visningsbilder måste vara minst %1$s pixlar breda och %2$s pixlar höga, men inte större än %3$s bred och %4$s hög.',
 
 	'BACK_TO_TOP'			=> 'Upp',
 	'BACK_TO_PREV'			=> 'Tillbaka till föregående sida',
@@ -151,6 +151,7 @@ $lang = array_merge($lang, array(
 	'BUTTON_QUOTE'			=> 'Citera',
 	'BUTTON_TOPIC_LOCKED'	=> 'Låst',
 	'BYTES'					=> 'Bytes',
+	'BYTES_SHORT'			=> 'B',
 
 	'CANCEL'				=> 'Avbryt',
 	'CHANGE'				=> 'Ändra',
@@ -161,7 +162,6 @@ $lang = array_merge($lang, array(
 		1	=> '%d tecken',
 		2	=> '%d tecken',
 	),
-	'CLICK_VIEW_PRIVMSG'	=> '%sGå till din inkorg%s',
 	'COLLAPSE_VIEW'			=> 'Minimera',
 	'CLOSE_WINDOW'			=> 'Stäng fönster',
 	'COLOUR_SWATCH'			=> 'Färgväljare',
@@ -229,8 +229,6 @@ $lang = array_merge($lang, array(
 	'ERROR'								=> 'Error',
 	'EXPAND_VIEW'						=> 'Expandera',
 	'EXTENSION'							=> 'Filtyp',
-	'EXTENSION_CONTROLLER_MISSING'		=> 'Filtypen <strong>%s</strong> saknar en kontrollerklass och kan inte nås via front-end.',
-	'EXTENSION_CLASS_WRONG_TYPE'		=> 'Filtypen kontrollerklass <strong>%s</strong> är inte en instans utav phpbb_extension_controller_interface.',
 	'EXTENSION_DISABLED'				=> 'Filtypen <strong>%s</strong> är inte aktiverat.',
 	'EXTENSION_DISABLED_AFTER_POSTING'	=> 'Filtypen <strong>%s</strong> har inaktiverats och kan inte längre visas.',
 	'EXTENSION_DOES_NOT_EXIST'			=> 'Filtypen <strong>%s</strong> finns inte.',
@@ -388,13 +386,15 @@ $lang = array_merge($lang, array(
 	'LOGIN_VIEWFORUM'					=> 'Forumet kräver att du registrerar dig och loggar in för att läsa i denna kategori.',
 	'LOGIN_EXPLAIN_EDIT'				=> 'För att redigera inlägg i denna kategori så måste du vara registrerad och inloggad.',
 	'LOGIN_EXPLAIN_VIEWONLINE'			=> 'För att visa onlinelistan så måste du vara registrerad och inloggad.',
+	'LOGIN_REQUIRED'					=> 'Du måste vara inloggad för att utföra detta.',
 	'LOGOUT'							=> 'Logga ut',
 	'LOGOUT_USER'						=> 'Logga ut [ %s ]',
 	'LOG_ME_IN'							=> 'Kom ihåg mig',
 
-	'MAIN'					=> 'Huvud'
+	'MAIN'					=> 'Huvud',
 	'MARK'					=> 'Markera',
 	'MARK_ALL'				=> 'Markera alla',
+	'MARK_ALL_READ'			=> 'Markera alla som lästa',
 	'MARK_FORUMS_READ'		=> 'Markera alla kategorier som lästa',
 	'MARK_READ'				=> 'Markera som läst',
 	'MARK_SUBFORUMS_READ'	=> 'Markera alla underkategorier som lästa',
@@ -431,8 +431,6 @@ $lang = array_merge($lang, array(
 	'NEW_MESSAGE'				=> 'Nytt meddelande',
 	'NEW_MESSAGES'				=> 'Nya meddelanden',
 	
-	'NEW_PM'					=> '<strong>%d</strong> nytt meddelande',
-	'NEW_PMS'					=> '<strong>%d</strong> nya meddelanden',
 	'NEW_POST'					=> 'Nytt inlägg',	// Not used anymore längre
 	'NEW_POSTS'					=> 'Nya inlägg',	// Not used anymore längre
 	'NEXT'						=> 'Nästa',		// Used in pagination
@@ -445,7 +443,7 @@ $lang = array_merge($lang, array(
 	'NOT_WATCHING_FORUM'		=> 'Du bevakar nu inte längre denna kategori.',
 	'NOT_WATCHING_TOPIC'		=> 'Du bevakar nu inte längre denna tråd.',
 
-	'NOTIFICATIONS'				=> 'Notifications',
+	'NOTIFICATIONS'				=> 'Notifikationer',
 	// This applies for NOTIFICATION_BOOKMARK, NOTIFICATION_POST.
 	// %1$s will return a list of users that's concatenated using "," and "and" - see STRING_LIST
 	// Once the user count reaches 5 users or more, the list is trimmed using NOTIFICATION_MANY_OTHERS
@@ -458,17 +456,16 @@ $lang = array_merge($lang, array(
 	'NOTIFICATION_BOOKMARK'				=> array(
 		1	=> '<strong>Svar</strong> från %1$s in bookmarked topic:',
 	),
-	'NOTIFICATION_BOOKMARK'				=> '%1$s replied to the topic "%2$s" you have bookmarked.',
 	'NOTIFICATION_FORUM'				=> '<em>Forum:</em> %1$s',
 	'NOTIFICATION_GROUP_REQUEST'		=> '<strong>Group request</strong> from %1$s to join the group %2$s.',
 	'NOTIFICATION_GROUP_REQUEST_APPROVED'	=> '<strong>Group request approved</strong> to join the group %1$s.',
 	'NOTIFICATION_PM'					=> '<strong>Private Message</strong> from %1$s:',
  	'NOTIFICATION_POST'					=> array(
 		1	=> '<strong>Reply</strong> from %1$s in topic:',
+	),
 	'NOTIFICATION_POST_APPROVED'		=> '<strong>Post approved</strong>:',
 	'NOTIFICATION_POST_DISAPPROVED'		=> '<strong>Post disapproved</strong>:',
 	'NOTIFICATION_POST_IN_QUEUE'		=> '<strong>Post approval</strong> request by %1$s:',
-
 	'NOTIFICATION_QUOTE'				=> array(
 		1	=> '<strong>Quoted</strong> by %1$s in:',
 	),
@@ -488,7 +485,6 @@ $lang = array_merge($lang, array(
 	'NOTIFICATION_X_OTHERS'				=> array(
 		2	=> '%d andra',
 	),
-	
 	'NOTIFY_ADMIN'				=> 'Underrätta forumadministratören eller webbansvarig.',
 	'NOTIFY_ADMIN_EMAIL'		=> 'Underrätta forumadministratören eller webbansvarig: <a href="mailto:%1$s">%1$s</a>',
 	'NO_ACCESS_ATTACHMENT'		=> 'Du har inte tillgång till denna fil.',
@@ -542,7 +538,7 @@ $lang = array_merge($lang, array(
 		0			=> 'Inga inlägg i kö',		// 0
 		1			=> '1 inlägg i kö',		// 1+
 		2			=> '%d inlägg i kö',		// 2+
-		),
+	),
 
 	'OCCUPATION'				=> 'Sysselsättning',
 	'OFFLINE'					=> 'Offline',
@@ -698,6 +694,7 @@ $lang = array_merge($lang, array(
 	'SEARCH_UNREAD'				=> 'Olästa inlägg',
 	'SEARCH_USER_POSTS'			=> 'Visa användarens inlägg',
 	'SECONDS'					=> 'sekunder',
+	'SEE_ALL'					=> 'Visa alla',
 	'SELECT'					=> 'Välj',
 	'SELECT_ALL_CODE'			=> 'Markera allt',
 	'SELECT_DESTINATION_FORUM'	=> 'Välj en destinationskategori',
@@ -754,7 +751,6 @@ $lang = array_merge($lang, array(
 	'TOO_LONG_USER_PASSWORD'		=> 'Lösenordet du angav är för långt.',
 	'TOO_LONG_USERNAME'				=> 'Användarnamnet du angav är för långt.',
 	'TOO_LONG_EMAIL'				=> 'E-postadressen du angav är för lång.',
-	'TOO_LONG_EMAIL_CONFIRM'		=> 'E-postadressbekräftelsen du angav är för lång.',
 	'TOO_MANY_VOTE_OPTIONS'			=> 'Du försökte att rösta på för många alternativ.',
 	'TOO_SHORT'						=> 'Värdet du angav är för kort.',
 	'TOO_SHORT_CONFIRM_CODE'		=> 'Verifieringskoden du angav är för kort.',
@@ -809,8 +805,6 @@ $lang = array_merge($lang, array(
 	'UNKNOWN_BROWSER'		=> 'Okänd webbläsare',
 	'UNMARK_ALL'			=> 'Avmarkera alla',
 	'UNREAD_MESSAGES'		=> 'Olästa meddelanden',
-	'UNREAD_PM'				=> '<strong>%d</strong> oläst meddelande',
-	'UNREAD_PMS'			=> '<strong>%d</strong> olästa meddelanden',
 	'UNREAD_POST'			=> 'Oläst inlägg',
 	'UNREAD_POSTS'			=> 'Olästa inlägg',
 	'UNWATCH_FORUM_CONFIRM'		=> 'Är du säker på att du vill ta bort bevakningen av denna kategori?',
@@ -899,10 +893,6 @@ $lang = array_merge($lang, array(
 	'YEAR_MONTH_DAY'	=> '(ÅÅÅÅ-MM-DD)',
 	'YES'				=> 'Ja',
 	'YOU_LAST_VISIT'	=> 'Senaste besöket: %s',
-	'YOU_NEW_PM'		=> 'Ett nytt personligt meddelande väntar i inkorgen.',
-	'YOU_NEW_PMS'		=> 'Nya personliga meddelanden väntar i inkorgen.',
-	'YOU_NO_NEW_PM'		=> 'Inga nya personliga meddelanden väntar i inkorgen.',
-
 	'datetime'			=> array(
 		'TODAY'		=> 'Idag',
 		'TOMORROW'	=> 'Imorgon',

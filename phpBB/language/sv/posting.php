@@ -85,28 +85,42 @@ $lang = array_merge($lang, array(
 		1	=> 'Din signatur innehåller %1$d tecken.',
 		2	=> 'Din signatur innehåller %1$d tecken.',
 	),
-
 	'CLOSE_TAGS'				=> 'Stäng taggar',
 	'CURRENT_TOPIC'				=> 'Aktuell tråd',
+	
 	'DELETE_FILE'				=> 'Ta bort fil',
 	'DELETE_MESSAGE'			=> 'Ta bort meddelande',
 	'DELETE_MESSAGE_CONFIRM'	=> 'Är du säker på att du vill ta bort detta meddelande?',
 	'DELETE_OWN_POSTS'			=> 'Du kan bara ta bort dina egna inlägg.',
-	'DELETE_POST_CONFIRM'		=> 'Är du säker på att du vill ta bort detta inlägg?',
+	'DELETE_PERMANENTLY'		=> 'Ta bort permanent',
+	'DELETE_POST_CONFIRM'		=> 'Är du säker på att du vill ta bort detta inlägget?',
+	'DELETE_POST_PERMANENTLY_CONFIRM'	=> 'Är du säker på att du vill ta bort detta inlägget <strong>permanent</strong>?',
+	'DELETE_POST_PERMANENTLY'	=> 'Tar bort detta inlägget permanent så att det inte går att återställa',
+	'DELETE_POSTS_CONFIRM'		=> 'Är du säker på att du vill ta bort dessa inlägg?',
+	'DELETE_POSTS_PERMANENTLY_CONFIRM'	=> 'Är du säker på att du vill ta bort dessa inlägg <strong>permanent</strong>?',
+	'DELETE_REASON'				=> 'Anledning till borttagning',
+	'DELETE_REASON_EXPLAIN'		=> 'Den angivna anledningen till borttagningen kommer att vara synlig för moderatorer.',
 	'DELETE_POST_WARN'			=> 'När inlägget väl tagits bort kan det inte återställas',
+	'DELETE_TOPIC_CONFIRM'		=> 'Är du säker på att du vill ta bort denna tråden?',
+	'DELETE_TOPIC_PERMANENTLY'	=> 'Är du säker på att du vill ta bort denna tråden permanent?',
+	'DELETE_TOPIC_PERMANENTLY_CONFIRM'	=> 'Är du säker på att du vill ta bort denna tråd <strong>permanent</strong>',
+	'DELETE_TOPICS_CONFIRM'		=> 'Är du säker på att du vill ta bort dessa trådar?',
+	'DELETE_TOPICS_PERMANENTLY_CONFIRM'	=> 'Är du säker på att du vill ta bort dessa trådar <strong>permanent</strong>',
 	'DISABLE_BBCODE'			=> 'Inaktivera BBCode',
 	'DISABLE_MAGIC_URL'			=> 'Inaktivera automatisk länkning av URL:er',
 	'DISABLE_SMILIES'			=> 'Inaktivera smilies',
 	'DISALLOWED_CONTENT'		=> 'Uppladdningen nekades eftersom den uppladdade filen identifieras som en möjlig smittspridare.',
 	'DISALLOWED_EXTENSION'		=> 'Filtypen %s är inte tillåten.',
 	'DRAFT_LOADED'				=> 'Utkastet laddades in, du kan nu slutföra ditt inlägg.<br />Utkastet kommer att tas bort när du sparat detta inlägg.',
-  'DRAFT_LOADED_PM'			=> 'Utkastet laddades in, du kan nu slutföra ditt personliga meddelande.<br />Utkastet kommer att tas bort när du skickat detta personliga meddelande.',
+	'DRAFT_LOADED_PM'			=> 'Utkastet laddades in, du kan nu slutföra ditt personliga meddelande.<br />Utkastet kommer att tas bort när du skickat detta personliga meddelande.',
 	'DRAFT_SAVED'				=> 'Utkastet sparades.',
 	'DRAFT_TITLE'				=> 'Utkasttitel',
+
 	'EDIT_REASON'				=> 'Skäl för ändring av detta inlägg',
 	'EMPTY_FILEUPLOAD'			=> 'Den uppladdade filen är tom.',
 	'EMPTY_MESSAGE'				=> 'Du måste skriva ett meddelande att posta.',
 	'EMPTY_REMOTE_DATA'			=> 'Filen kunde inte laddas upp, försök ladda upp den manuellt.',
+
 	'FLASH_IS_OFF'				=> '[flash] är <em>AV</em>',
 	'FLASH_IS_ON'				=> '[flash] är <em>PÅ</em>',
 	'FLOOD_ERROR'				=> 'Du kan inte göra ett nytt inlägg så snart inpå ditt förra.',
@@ -118,10 +132,13 @@ $lang = array_merge($lang, array(
 	'FONT_SIZE'					=> 'Textstorlek',
 	'FONT_SMALL'				=> 'Liten',
 	'FONT_TINY'					=> 'Minimal',
+	
 	'GENERAL_UPLOAD_ERROR'		=> 'Kunde inte ladda upp bilaga till %s.',
+	
 	'IMAGES_ARE_OFF'			=> '[img] är <em>AV</em>',
 	'IMAGES_ARE_ON'				=> '[img] är <em>PÅ</em>',
 	'INVALID_FILENAME'			=> '%s är ett felaktigt filnamn.',
+	
 	'LOAD'						=> 'Ladda',
 	'LOAD_DRAFT'				=> 'Ladda utkast',
 	'LOAD_DRAFT_EXPLAIN'		=> 'Här kan du välja det utkast som du vill fortsätta skriva på. Allt innehåll i ditt nuvarande inlägg kommer att tas bort. Se, redigera och ta bort utkast i kontrollpanelen.',
@@ -130,14 +147,33 @@ $lang = array_merge($lang, array(
 	'LOGIN_EXPLAIN_POST'		=> 'Du måste logga in för att posta i denna kategori.',
 	'LOGIN_EXPLAIN_QUOTE'		=> 'Du måste logga in för att citera inlägg i denna kategori.',
 	'LOGIN_EXPLAIN_REPLY'		=> 'Du måste logga in för att svara på trådar i denna kategori.',
+	
 	'MAX_FONT_SIZE_EXCEEDED'	=> 'Du får endast använda textstorlekar upp till storlek %1$d.',
-	'MAX_FLASH_HEIGHT_EXCEEDED'	=> 'Dina Flashfiler får inte vara högre än %1$d pixlar.',
-	'MAX_FLASH_WIDTH_EXCEEDED'	=> 'Dina Flashfiler får inte vara bredare än %1$d pixlar.',
-	'MAX_IMG_HEIGHT_EXCEEDED'	=> 'Dina bilder får inte vara högre än %1$d pixlar.',
-	'MAX_IMG_WIDTH_EXCEEDED'	=> 'Dina bilder får inte vara bredare än %1$d pixlar.',
-	'MESSAGE_BODY_EXPLAIN'		=> 'Skriv ditt meddelande här, det får inte bestå av fler än <strong>%d</strong> tecken.',
+	'MAX_FLASH_HEIGHT_EXCEEDED'	=> array(
+		1	=> 'Dina flashfiler får inte vara högre än %d pixel hög',
+		2	=> 'Dina flashfiler får inte vara högre än %d pixlar höga',
+	),
+	'MAX_FLASH_WIDTH_EXCEEDED'	=> array(
+		1	=> 'Dina Flashfiler får inte vara bredare än %1$d pixel breda.',
+		2	=> 'Dina Flashfiler får inte vara bredare än %1$d pixlar breda.',
+	),
+	'MAX_IMG_HEIGHT_EXCEEDED'	=> array(
+		1	=> 'Dina bilder får inte vara högre än %1$d pixel.',
+		2	=> 'Dina bilder får inte vara högre än %1$d pixlar.',
+	),
+	'MAX_IMG_WIDTH_EXCEEDED'	=> array(
+		1	=> 'Dina bilder får inte vara bredare än %1$d pixel.',
+		2	=> 'Dina bilder får inte vara bredare än %1$d pixlar.',
+	),
+
+	'MESSAGE_BODY_EXPLAIN'		=> array(
+		0	=> '', // zero means no limit, so we don't view a message here.
+		1	=> 'Skriv ditt meddelande här, det får inte bestå av fler än <strong>%d</strong> tecken.',
+		2	=> 'Skriv ditt meddelande här, det får inte bestå av fler än <strong>%d</strong> tecken.',
+	),
 	'MESSAGE_DELETED'			=> 'Meddelandet togs bort.',
 	'MORE_SMILIES'				=> 'Visa fler smilies',
+	
 	'NOTIFY_REPLY'				=> 'Meddela mig när tråden besvaras',
 	'NOT_UPLOADED'				=> 'Filen kunde inte laddas upp.',
 	'NO_DELETE_POLL_OPTIONS'	=> 'Du kan inte ta bort existerande omröstningsalternativ.',
@@ -145,6 +181,7 @@ $lang = array_merge($lang, array(
 	'NO_POLL_TITLE'				=> 'Du måste ange en omröstningsfråga.',
 	'NO_POST'					=> 'Det valda inlägget finns inte.',
 	'NO_POST_MODE'				=> 'Inget postningsalternativ specificerades.',
+	
 	'PARTIAL_UPLOAD'			=> 'Filen laddades endast upp delvis.',
 	'PHP_SIZE_NA'				=> 'Bilagans är för stor.<br />Kunde inte hitta maximalstorleken definierad av PHP i php.ini.',
 	'PHP_SIZE_OVERRUN'			=> 'Bilagan är för stor, maximalstorleken är %1$d %2$s.<br />Detta har definierats i php.ini och kan inte överskridas.',
@@ -155,8 +192,14 @@ $lang = array_merge($lang, array(
 	'POLL_MAX_OPTIONS'			=> 'Alternativ per användare',
 	'POLL_MAX_OPTIONS_EXPLAIN'	=> 'Detta är det antal alternativ varje användare kan välja när de röstar.',
 	'POLL_OPTIONS'				=> 'Omröstningsalternativ',
-	'POLL_OPTIONS_EXPLAIN'		=> 'Placera varje alternativ på en ny rad. Du kan ange upp till <strong>%d</strong> alternativ.',
-	'POLL_OPTIONS_EDIT_EXPLAIN'	=> 'Placera varje alternativ på en ny rad. Du kan ange upp till <strong>%d</strong> alternativ. Om du tar bort eller lägger till alternativ så kommer alla nuvarande röster återställas.',
+	'POLL_OPTIONS_EXPLAIN'		=> array(
+		1	=> 'Placera varje alternativ på en ny rad. Du kan ange upp till <strong>%d</strong> alternativ.',
+		2	=> 'Placera varje alternativ på en ny rad. Du kan ange upp till <strong>%d</strong> alternativ.',
+	),
+	'POLL_OPTIONS_EDIT_EXPLAIN'		=> array(
+		1	=> 'Placera varje alternativ på en ny rad. Du kan ange upp till <strong>%d</strong> alternativ. Om du tar bort eller lägger till alternativ så kommer alla nuvarande röster återställas.',
+		2	=> 'Placera varje alternativ på en ny rad. Du kan ange upp till <strong>%d</strong> alternativ. Om du tar bort eller lägger till alternativ så kommer alla nuvarande röster återställas.',
+	),
 	'POLL_QUESTION'				=> 'Omröstningsfråga',
  	'POLL_TITLE_TOO_LONG'		=> 'Omröstningsfrågan får inte innehålla fler än 100 tecken',
  	'POLL_TITLE_COMP_TOO_LONG'	=> 'Den omtolkade storleken på din omröstningsfråga är för stor, försök ta bort BBCode eller smilies.',
@@ -180,6 +223,7 @@ $lang = array_merge($lang, array(
 	'POST_STORED_MOD'			=> 'Meddelandet sparades, men måste godkännas av en moderator innan det visas offentligt.',
 	'POST_TOPIC_AS'				=> 'Skapa tråd som',
 	'PROGRESS_BAR'				=> 'Uppladdningsprocess',
+
 	'QUOTE_DEPTH_EXCEEDED'		=> array(
 		1	=> 'Du kan endast ha %1$d citat inom varandra.',
 		2	=> 'Du kan endast ha upp till %1$d citat inom varandra.',
@@ -209,13 +253,17 @@ $lang = array_merge($lang, array(
 	'TOO_MANY_CHARS'			=> 'Ditt meddelande innehåller för många tecken.',
 	'TOO_MANY_CHARS_LIMIT'		=> array(
 		2	=> 'Det maximala antalet tecken tillåtet är %1$d.',
+	),
 	'TOO_MANY_POLL_OPTIONS'		=> 'Du angav för många omröstningsalternativ.',
 	'TOO_MANY_SMILIES'			=> 'Ditt meddelande innehåller för många smilies. Det maximala antalet tillåtna smilies är %d.',
 	'TOO_MANY_URLS'				=> 'Ditt meddelande innehåller för många länkar. Det maximala antalet tillåtna länkar är %d.',
 	'TOO_MANY_USER_OPTIONS'		=> 'Du kan inte tillåta fler val per användare än vad det finns omröstningalternativ.',
 	'TOPIC_BUMPED'				=> 'Tråden knuffades upp.',
+	
 	'UNAUTHORISED_BBCODE'		=> 'Du kan inte använda vissa BBCodes: %s.',
 	'UNGLOBALISE_EXPLAIN'		=> 'För att ändra tillbaka denna tråd från global till normal så måste du välja i vilken kategori som den ska visas.',
+	'UNSUPPORTED_CHARACTERS_MESSAGE'	=> 'Ditt meddelande innehåller följande otillåtna tecken:<br />%s',
+	'UNSUPPORTED_CHARACTERS_SUBJECT'	=> 'Ditt ämne innehåller följande otillåtna tecken:<br />%s',
 	'UPDATE_COMMENT'			=> 'Uppdatera kommentar',
 	'URL_INVALID'				=> 'URL:en du angav är felaktig.',
 	'URL_NOT_FOUND'				=> 'Filen hittades inte.',
@@ -226,8 +274,10 @@ $lang = array_merge($lang, array(
 	'USER_CANNOT_EDIT'			=> 'Du kan inte redigera inlägg i denna kategori.',
 	'USER_CANNOT_REPLY'			=> 'Du kan inte svara på trådar i denna kategori.',
 	'USER_CANNOT_FORUM_POST'	=> 'Du kan inte posta i denna kategori eftersom kategoritypen inte stödjer det.',
-  'VIEW_MESSAGE'				=> '%sVisa ditt meddelande%s',
+
+	'VIEW_MESSAGE'				=> '%sVisa ditt meddelande%s',
 	'VIEW_PRIVATE_MESSAGE'		=> '%sVisa ditt skickade personliga meddelande%s',
+
 	'WRONG_FILESIZE'			=> 'Filen är för stor, den maximala filstorleken är %1$d %2$s.',
-	'WRONG_SIZE'				=> 'Bilden måste vara minst %1$d pixlar bred, %2$d pixlar hög och får inte vara större än %3$d pixlar bred och %4$d pixlar hög. Den valda bilden är %5$d pixlar bred och %6$d pixlar hög.',
+	'WRONG_SIZE'				=> 'Bilden måste vara minst %1$s pixlar bred, %2$s pixlar hög och får inte vara större än %3$s pixlar bred och %4$s pixlar hög. Den valda bilden är %5$s pixlar bred och %6$s pixlar hög.',
 ));

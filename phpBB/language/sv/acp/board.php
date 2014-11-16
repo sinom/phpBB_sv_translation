@@ -68,9 +68,8 @@ $lang = array_merge($lang, array(
 	'SITE_HOME_TEXT_EXPLAIN'		=> 'Denna text kommer att visas som en länk till din hemsida. Om inget anges så kommer “Hem” att användas.',
 	'SITE_HOME_URL'					=> 'Titel på hemsida som URL',
 	'SITE_HOME_URL_EXPLAIN'			=> 'Om specifierad så kommer titeln på hemsidan att länka till denna länk istället för indexsidan utav forumet. En absolut länk krävs, t.ex. <samp>http://www.phpbb.se</samp>.',
-
-
-	'SYSTEM_TIMEZONE'            => 'Tidszon för gäster',
+	'SITE_NAME'						=> 'Webbsidenamn',
+	'SYSTEM_TIMEZONE'        	    => 'Tidszon för gäster',
 	'SYSTEM_TIMEZONE_EXPLAIN'         => 'Den tidszon, som används för besökare som inte är inloggade (gäster och robotar). Inloggade användare anger sin tidszon i samband med registrering och kan ändra på den i sin kontrollpanel.',
 	'WARNINGS_EXPIRE'				=> 'Varningslängd',
 	'WARNINGS_EXPIRE_EXPLAIN'		=> 'Antal dagar som ska förflyta innan varningen automatiskt förfaller från användarens register. Sätt till 0 för permanent varning.',
@@ -312,8 +311,8 @@ $lang = array_merge($lang, array(
 ));
 // Visual Confirmation Settings
 $lang = array_merge($lang, array(
-	'ACP_VC_SETTINGS_EXPLAIN'        	    => 'Här kan du göra inställningar för tillägg som är designade att blockera spambots-registreringar på forumet. Tilläggen ger den blivande medlemmen en uppgift, som datorer i bästa fall inte kan lösa, t.ex <abbr title="Completely Automated Public Turing-test to tell Computers and Humans Apart">CAPTCHA</abbr>-uppgifter.',
-	'ACP_VC_EXT_GET_MORE'					=> 'For additional (and possibly better) anti-spam plugins, visit the <a href="https://www.phpbb.com/go/anti-spam-ext"><strong>phpBB.com Extensions Database</strong></a>. For more information on preventing spam on your board, visit the <a href="https://www.phpbb.com/go/anti-spam"><strong>phpBB.com Knowledge Base</strong></a>.',
+	'ACP_VC_SETTINGS_EXPLAIN'        	    => 'Här kan du göra inställningar för tillägg som är designade att blockera spambots-registreringar på forumet. Tilläggen ger den blivande medlemmen en uppgift, som datorer i bästa fall inte kan lösa, t.ex CAPTCHA-uppgifter.',
+	'ACP_VC_EXT_GET_MORE'					=> 'For additional (and possibly better) anti-spamtillägg, visit the <a href="https://www.phpbb.com/go/anti-spam-ext"><strong>phpBB.com Extensions Database</strong></a>. For more information on preventing spam on your board, visit the <a href="https://www.phpbb.com/go/anti-spam"><strong>phpBB.com Knowledge Base</strong></a>.',
 	'AVAILABLE_CAPTCHAS'					=> 'Tillgängliga tillägg',
 	'CAPTCHA_UNAVAILABLE'					=> 'CAPTCHAn kan inte väljas, då dess krav inte uppfylls.',
 	'CAPTCHA_GD'							=> 'GD bild',
@@ -542,9 +541,9 @@ $lang = array_merge($lang, array(
 	'PASS_TYPE_CASE'				=> 'Måste innehålla både små och stora bokstäver',
 	'PASS_TYPE_SYMBOL'				=> 'Måste innehålla symboler',
 	'REF_HOST'                  	=> 'Kontrollera endast värd',
-  'REF_PATH'                  	=> 'Kontrollera även sökväg',
-	'REFERER_VALID'              	=> 'Kontrollera hänvisare',
- 	'REFERER_VALID_EXPLAIN'         => 'Om detta är aktiverat så kommer hänvisaren för POST-förfrågningar att kontrolleras mot värd/skriptsökvägsinställningarna. Detta kan skapa problem för forum som använder flera domäner och/eller externa inloggningar.',
+	'REF_PATH'                  	=> 'Kontrollera även sökväg',
+	'REFERRER_VALID'              	=> 'Kontrollera hänvisare',
+ 	'REFERRER_VALID_EXPLAIN'		=> 'Om detta är aktiverat så kommer hänvisaren för POST-förfrågningar att kontrolleras mot värd/skriptsökvägsinställningarna. Detta kan skapa problem för forum som använder flera domäner och/eller externa inloggningar.',
 	'TPL_ALLOW_PHP'					=> 'Tillåt php i mallar',
 	'TPL_ALLOW_PHP_EXPLAIN'			=> 'Om detta alternativ är aktiverat så kommer <code>PHP</code> och <code>INCLUDEPHP</code> att tolkas i mallar.',
 ));
@@ -611,5 +610,4 @@ $lang = array_merge($lang, array(
 	'JAB_USERNAME'				=> 'Jabberanvändarnamn eller JID',
 	'JAB_USERNAME_EXPLAIN'		=> 'Ange ett registrerat användarnamn eller giltigt JID. Användarnamnet kommer inte att kontrolleras. Om du enbart anger ett användarnamn, så kommer ditt JID att vara användarnamnet och servern du angett ovan. Om du vill ha en specifik server, ange ett giltigt JID, tex. user@jabber.org.',
 
-	));
-
+));

@@ -15,5 +15,4 @@ Klicka på följande länk för att åkteraktivera ditt konto:
 
 {U_ACTIVATE}
 
-
 {EMAIL_SIG}

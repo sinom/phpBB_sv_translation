@@ -87,7 +87,7 @@ $lang = array_merge($lang, array(
 	'CONTINUE_OLD_CONVERSION'	=> 'Fortsätt tidigare påbörjad konvertering',
 	'CONVERT'					=> 'Konvertera',
 	'CONVERT_COMPLETE'			=> 'Konvertering slutförd',
-	'CONVERT_COMPLETE_EXPLAIN'	=> 'Du har nu konverterat ditt forum till phpBB 3.0. Du kan nu  <a href="../">logga in på ditt forum</a>. Försäkra dig om att inställningarna överförts korrekt innan du aktiverar ditt forum genom att ta bort install-katalogen. Kom ihåg att hjälp för hur man använder phpBB finns att få i <a href="https://www.phpbb.com/support/documentation/3.0/">dokumentationen</a>, på det <a href="https://www.phpbb.com/community/viewforum.php?f=46">engelska supportforumet</a> och på det <a href="http://www.phpbb.se/">svenska supportforumet</a>.',
+	'CONVERT_COMPLETE_EXPLAIN'	=> 'Du har nu konverterat ditt forum till phpBB 3.1! Du kan nu logga in på ditt forum. Försäkra dig om att inställningarna överförts korrekt innan du aktiverar ditt forum genom att ta bort install-katalogen. Kom ihåg att hjälp för hur man använder phpBB finns att få i <a href="https://www.phpbb.com/support/documentation/3.0/">dokumentationen</a>, på det <a href="https://www.phpbb.com/community/viewforum.php?f=46">engelska supportforumet</a> och på det svenska supportforumet.',
 	'CONVERT_INTRO'				=> 'Välkommen till phpBB Unified Convertor Framework',
 	'CONVERT_INTRO_BODY'		=> 'Härifrån kan du importera data från andra (installerade) forumsystem. Listan nedan visar alla konverteringsmoduler som finns för tillfället. Om det inte finns någon konverterare nedan för den forumprogramvara du vill konvertera från, besök vår webbplats där flera konverteringsmoduler kan finnas tillgängliga för nedladdning.',
 	'CONVERT_NEW_CONVERSION'	=> 'Ny konvertering',
@@ -139,7 +139,7 @@ $lang = array_merge($lang, array(
 	'DB_PASSWORD'				=> 'Databaslösenord',
 	'DB_PORT'					=> 'Databasserverport',
 	'DB_PORT_EXPLAIN'			=> 'Lämna detta tomt om du inte vet att servern opererar på en port som inte är standard.',
-	'DB_UPDATE_NOT_SUPPORTED'	=> 'Tyvärr så uppdaterar detta skript inte phpBB-versioner som är tidigare än “%1$s”. Du använder för tillfället version “%2$s”. Var god uppdatera till en tidigare version före du använder detta skript. Hjälp med detta fås på supportforumet på phpbb.com eller på <a href="http://www.phpbb-se.com/forum/index.php">svenska supportforumet</a>.',
+	'DB_UPDATE_NOT_SUPPORTED'	=> 'Tyvärr så uppdaterar detta skript inte phpBB-versioner som är tidigare än “%1$s”. Du använder för tillfället version “%2$s”. Var god uppdatera till en tidigare version före du använder detta skript. Hjälp med detta fås på supportforumet på phpbb.com eller på svenska supportforumet.',
 	'DB_USERNAME'				=> 'Databasanvändarnamn',
 	'DB_TEST'					=> 'Testa anslutning',
 	'DEFAULT_LANG'				=> 'Standardforumspråk',
@@ -194,11 +194,11 @@ $lang = array_merge($lang, array(
 	'INITIAL_CONFIG_EXPLAIN'	=> 'Nu när installationen har bekräftat att din server kan köra phpBB så måste du ange en del specifik information. Om du inte vet hur du ansluter till din databas kontakta först och främst ditt webbhoteell eller använd phpBBs supportforum. När du anger data kom ihåg att kontrollera den noggrant innan du fortsätter.',
 	'INSTALL_CONGRATS'			=> 'Grattis!',
 	'INSTALL_CONGRATS_EXPLAIN'	=> '
-		<p>Du har nu installerat phpBB %1$s. Var god, fortsätt genom att välja ett av följande alernativ:</p>
+		Du har nu installerat phpBB %1$s. Var god, fortsätt genom att välja ett av följande alernativ:</p>
 		<h2>Konvertera ett existerande forum till phpBB3.</h2>
 		<p>phpBB Unified Convertor Framework stödjer konvertering av phpBB 2.0.x och andra forumsystem till phpBB3. Om du har ett existerande forum som du vill konvertera, <a href="%2$s">gå vidare till konverteraren</a>.</p>
 		<h2>Börja använda ditt phpBB3!</h2>
-		<p>Klicka på knappen nedan. Du kommer då att tas till ett formulär i administrationspanelen för ditt nya forum, formuläret tillåter dig att skicka statistik till phpBB. Vi uppskattar den hjälp du ger genom att fylla i dessa uppgifter. Ta dig sedan tid att utforska alla tillgängliga alternativ och inställningar. Kom ihåg att hjälp finns att få online i <a href="https://www.phpbb.com/support/documentation/3.0/">dokumentationen</a>, på det <a href="https://www.phpbb.com/community/viewforum.php?f=46">engelska supportforumet</a> och på det <a href="http://www.phpbb.se/">svenska supportforumet</a> Se även <a href="%3$s">README</a> för mer information.</p><p><strong>Ta nu bort, byt namn på eller flytta install-katalogen innan du använder ditt forum. Om denna katalog finns kvar kommer endast administrationspanelen att vara tillgänglig.</strong></p>',
+		<p>Klicka på knappen nedan. Du kommer då att tas till ett formulär i administrationspanelen för ditt nya forum, formuläret tillåter dig att skicka statistik till phpBB. Vi uppskattar den hjälp du ger genom att fylla i dessa uppgifter. Ta dig sedan tid att utforska alla tillgängliga alternativ och inställningar. Kom ihåg att hjälp finns att få online i dokumentationen, på det <a href="https://www.phpbb.com/community/viewforum.php?f=46">engelska supportforumet</a> och på det svenska supportforumet Se även <a href="%3$s">README</a> för mer information.</p><p><strong>Ta nu bort, byt namn på eller flytta install-katalogen innan du använder ditt forum. Om denna katalog finns kvar kommer endast administrationspanelen att vara tillgänglig.</strong></p>',
 	'INSTALL_INTRO'				=> 'Välkommen till installationen',
 	
 	'INSTALL_INTRO_BODY'		=> 'Med detta alternativ så kan du installera phpBB3 på sin server.</p><p>För att fortsätta så måste du ha dina databasinställningar till hands. Om du inte känner till dina databasinställningar, kontakta ditt webbhotell och fråga efter dem. Du kan inte fortsätta utan de. Du behöver:</p>
@@ -239,7 +239,7 @@ $lang = array_merge($lang, array(
 	'INST_ERR_DB_NO_ERROR'		=> 'Inget felmeddelande gavs.',
 	'INST_ERR_DB_NO_MYSQLI'		=> 'Versionen av MySQL som är installerad på denna maskin är inte kompatibel med “MySQL with MySQLi Extension”-alternativet som du har valt. Försök med “MySQL”-alternativet istället.',
 	'INST_ERR_DB_NO_SQLITE'		=> 'Versionen av SQLite som du har installerad är för gammal, den måste uppgraderas till minst 2.8.2.',
-	'INST_ERR_DB_NO_SQLITE3'	=> 'Versionen av SQLite pluginet som du har installerad är för gammal, den måste uppgraderas till minst 3.6.15.',
+	'INST_ERR_DB_NO_SQLITE3'	=> 'Versionen av SQLite tillägget som du har installerad är för gammal, den måste uppgraderas till minst 3.6.15.',
 	'INST_ERR_DB_NO_ORACLE'		=> 'Versionen av Oracle som är installerad på denna maskin kräver att du ställer in <var>NLS_CHARACTERSET</var>-parametern till <var>UTF8</var>. Uppgradera din installation till 9.2eller ändra parametern.',
 
 	'INST_ERR_DB_NO_POSTGRES'	=> 'Databasen du har valt skapades inte med <var>UNICODE</var> eller <var>UTF8</var> kodning. Försök installera med en databas med <var>UNICODE</var> eller <var>UTF8</var> kodning.',
@@ -278,7 +278,7 @@ $lang = array_merge($lang, array(
 
 	'MAKE_FOLDER_WRITABLE'		=> 'Försäkra dig om att denna mapp finns och kan skrivas till av webbservern och försök sedan igen:<br />»<strong>%s</strong>.',
 	'MAKE_FOLDERS_WRITABLE'		=> 'Försäkra dig om att dessa mappar finns och kan skrivas till av webbservern och försök sedan igen:<br />»<strong>%s</strong>.',
-	'MYSQL_SCHEMA_UPDATE_REQUIRED'		=> 'Ditt MySQL databasschema för phpBB är föråldrat. phpBB hittade ett schema för MySQL 3.x/4.x, men servern körs på MySQL %2$s.<br /><strong>Före du fortsätter med uppdateringen, så bör du uppgradera ditt schema.</strong><br /><br />Läs <a href="https://www.phpbb.com/kb/article/doesnt-have-a-default-value-errors/">Knowledge Base article about upgrading the MySQL schema</a>. Om du fortfarande har problem efter det, var god använd <a href="https://www.phpbb.com/community/viewforum.php?f=46">supportkategorierna på det officialla supportforumet</a> eller för hjälp på svenska; Fråga på det <a href="http://www.phpbb.se/">svenska supportforumet</a>.',
+	'MYSQL_SCHEMA_UPDATE_REQUIRED'		=> 'Ditt MySQL databasschema för phpBB är föråldrat. phpBB hittade ett schema för MySQL 3.x/4.x, men servern körs på MySQL %2$s.<br /><strong>Före du fortsätter med uppdateringen, så bör du uppgradera ditt schema.</strong><br /><br />Läs <a href="https://www.phpbb.com/kb/article/doesnt-have-a-default-value-errors/">Knowledge Base article about upgrading the MySQL schema</a>. Om du fortfarande har problem efter det, var god använd supportkategorierna på det officialla supportforumet eller för hjälp på svenska; Fråga på det svenska supportforumet.',
 
 	'NAMING_CONFLICT'			=> 'Namnkonflikt: %s och %s är båda alias<br /><br />%s',
 	'NEXT_STEP'					=> 'Fortsätt till nästa steg',
@@ -349,7 +349,7 @@ $lang = array_merge($lang, array(
 	'SUB_LICENSE'				=> 'Licens',
 	'SUB_SUPPORT'				=> 'Support',
 	'SUCCESSFUL_CONNECT'	=> 'Lyckad anslutning',
-	'SUPPORT_BODY'				=> 'Fullständig support ges för den aktuella stabila versionen av phpBB3, utan kostnad. Detta inkluderar:</p><ul><li>installation</li><li>konfiguration</li><li>tekniska frågor</li><li>problem relaterade till potentiella buggar i mjukvaran</li><li>uppdatering från releasekandidater (RC) till den senaste stabila versionen</li><li>konvertering från phpBB 2.0.x till phpBB3</li><li>konvertering från andra diskussionsforummjukvaror till phpBB3 (besök <a href="https://www.phpbb.com/community/viewforum.php?f=65">konverteringsforumet</a>)</li></ul><p>Vi rekommenderar användare som fortfarande använder betaversioner av phpBB3 att ersätta sina installationer med en fräsch kopia av den senaste versionen.</p><h2>MODdar / Stilar</h2><p>För problem relaterade till MODdar, posta i lämpligt <a href="https://www.phpbb.com/community/viewforum.php?f=81">modifikationsforum</a>.<br />För problem relaterade till stilar, mallar och bildpaket, posta i lämpligt <a href="https://www.phpbb.com/community/viewforum.php?f=80">stilforum</a>.<br /><br />Om din fråga är relaterad till ett specifikt paket, posta direkt i tråden dedikerad till paketet.</p><h2>Att få support</h2><p><a href="https://www.phpbb.com/community/viewtopic.php?f=14&amp;t=571070">Välkomstpaketet för phpBB</a><br /><a href="https://www.phpbb.com/support/">Supportsektionen</a><br /><a href="https://www.phpbb.com/support/documentation/3.0/quickstart/">Snabbstartsguide</a><br /><br />För att försäkra dig själv om att du håller dig uppdaterad med de senaste nyheterna och versionerna, varför inte <a href="https://www.phpbb.com/support/">prenumerera på vårt nyhetsbrev</a>?<br /><br />',
+	'SUPPORT_BODY'				=> 'Fullständig support ges för den aktuella stabila versionen av phpBB3, utan kostnad. Detta inkluderar:</p><ul><li>installation</li><li>konfiguration</li><li>tekniska frågor</li><li>problem relaterade till potentiella buggar i mjukvaran</li><li>uppdatering från releasekandidater (RC) till den senaste stabila versionen</li><li>konvertering från phpBB 2.0.x till phpBB3</li><li>konvertering från andra diskussionsforummjukvaror till phpBB3 </li></ul><p>Vi rekommenderar användare som fortfarande använder betaversioner av phpBB3 att ersätta sina installationer med en fräsch kopia av den senaste versionen.</p><h2>MODdar / Stilar</h2><p>För problem relaterade till MODdar, posta i lämpligt modifikationsforum.<br />För problem relaterade till stilar, mallar och bildpaket, posta i lämpligt stilforum.<br /><br />Om din fråga är relaterad till ett specifikt paket, posta direkt i tråden dedikerad till paketet.</p><h2>Att få support</h2><p><a href="https://www.phpbb.com/community/viewtopic.php?f=14&amp;t=571070">Välkomstpaketet för phpBB</a><br /><a href="https://www.phpbb.com/support/">Supportsektionen</a><br />Snabbstartsguide<br /><br />För att försäkra dig själv om att du håller dig uppdaterad med de senaste nyheterna och versionerna, varför inte <a href="https://www.phpbb.com/support/">prenumerera på vårt nyhetsbrev</a>?<br /><br />',
 	'SYNC_FORUMS'					=> 'Startar synkroniseringen av kategorier',
 	'SYNC_POST_COUNT'			=> 'Synkroniserar inläggsräknaren',
 	'SYNC_POST_COUNT_ID'	=> 'Synkroniserar inläggsräknaren från <var>inlägg</var> %1$s till %2$s.',
@@ -424,9 +424,11 @@ $lang = array_merge($lang, array(
 	'DOWNLOAD_CONFLICTS_EXPLAIN'		=> 'Sök efter &lt;&lt;&lt; för att hitta konflikter',
 	'DOWNLOAD_UPDATE_METHOD'			=> 'Ladda ner modifierat filarkiv',
 	'DOWNLOAD_UPDATE_METHOD_EXPLAIN'	=> 'När du laddat ner klart så packar du upp arkivet. Du kommer i den att hitta de ändrade filerna som du måste ladda upp till din phpBB-rotkatalog. Ladda upp filerna till deras respektive plats. När du laddat upp alla filerna, kontrollera filerna igen med knappen nedan.',
+
 	'EDIT_USERNAME'						=> 'Redigera användarnamn',
 	'ERROR'								=> 'Error',
-	'EVERYTHING_UP_TO_DATE'				=> 'Du har nu konverterat ditt forum till phpBB 3.0. Du kan nu  <a href="../">logga in på ditt forum</a>. Försäkra dig om att inställningarna överförts korrekt innan du aktiverar ditt forum genom att ta bort install-katalogen. Kom ihåg att hjälp för hur man använder phpBB finns att få i <a href="https://www.phpbb.com/support/documentation/3.0/">dokumentationen</a>, på det <a href="https://www.phpbb.com/community/viewforum.php?f=46">engelska supportforumet</a> och på det <a href="http://www.phpbb.se/">svenska supportforumet</a>.',
+	'EVERYTHING_UP_TO_DATE'				=> 'Allting är senaste versionen utav phpBB. Du borde nu <a href="%1$s">logga in på ditt forum</a>. Försäkra dig om att allting fungerar som det skall. Glöm inte att ta bort, eller byta namn på install-katalogen!',
+	
 	'FILE_ALREADY_UP_TO_DATE'		=> 'Filerna är redan uppdaterade.',
 	'FILE_DIFF_NOT_ALLOWED'			=> 'Filerna får inte diffas.',
 	'FILE_USED'						=> 'Information används från',			// Single file

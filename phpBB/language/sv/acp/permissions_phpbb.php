@@ -197,7 +197,7 @@ $lang = array_merge($lang, array(
 	'ACL_A_SWITCHPERM'	=> 'Kan använda andras behörigheter',
 
 	'ACL_A_STYLES'		=> 'Kan hantera stilar',
-	'ACL_A_EXTENSIONS'	=> 'Kan hantera plugins',
+	'ACL_A_EXTENSIONS'	=> 'Kan hantera tillägg',
 	'ACL_A_VIEWLOGS'	=> 'Kan visa loggar',
 	'ACL_A_CLEARLOGS'	=> 'Kan rensa loggar',
 	'ACL_A_MODULES'		=> 'Kan hantera moduler',
