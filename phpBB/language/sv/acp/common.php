@@ -58,7 +58,7 @@ $lang = array_merge($lang, array(
 	'ACP_BAN'					=> 'Bannlys',
 	'ACP_BAN_EMAILS'			=> 'Bannlys e-postadress',
 	'ACP_BAN_IPS'				=> 'Bannlys IP-adresser',
-	'ACP_BAN_USERNAMES'			=> 'Bannlys användarnamn',
+	'ACP_BAN_USERNAMES'			=> 'Bannlys användare',
 	'ACP_BBCODES'				=> 'BBCodes',
 	'ACP_BOARD_CONFIGURATION'	=> 'Forumkonfiguration',
 	'ACP_BOARD_FEATURES'		=> 'Forumfunktioner',
@@ -70,7 +70,7 @@ $lang = array_merge($lang, array(
 	'ACP_CAT_CUSTOMISE'			=> 'Ändra',
 
 	'ACP_CAT_DATABASE'			=> 'Databas',
-	'ACP_CAT_DOT_MODS'			=> '.MODs',
+	'ACP_CAT_DOT_MODS'			=> 'Plugin',
 	'ACP_CAT_FORUMS'			=> 'Kategorier',
 	'ACP_CAT_GENERAL'			=> 'Allmänt',
 	'ACP_CAT_MAINTENANCE'		=> 'Underhåll',
@@ -82,6 +82,8 @@ $lang = array_merge($lang, array(
 	'ACP_CAT_USERS'				=> 'Användare',
 	'ACP_CLIENT_COMMUNICATION'	=> 'Klientkommunikation',
 	'ACP_COOKIE_SETTINGS'		=> 'Cookieinställningar',
+	'ACP_CONTACT'				=> 'Contact page',
+	'ACP_CONTACT_SETTINGS'		=> 'Contact page settings',
 	'ACP_CRITICAL_LOGS'			=> 'Fellogg',
 	'ACP_CUSTOM_PROFILE_FIELDS'	=> 'Egna profilfält',
 
@@ -92,7 +94,7 @@ $lang = array_merge($lang, array(
 	'ACP_EMAIL_SETTINGS'		=> 'E-postinställningar',
 	'ACP_EXTENSION_GROUPS'		=> 'Hantera bilagornas filtypsgrupper',
 	'ACP_EXTENSION_MANAGEMENT'	=> 'Pluginhantering',
-	'ACP_EXTENSIONS'			=> 'Plugin',
+	'ACP_EXTENSIONS'			=> 'Hantera plugin',
 
 	'ACP_FORUM_BASED_PERMISSIONS'	=> 'Kategoribaserade behörigheter',
 	'ACP_FORUM_LOGS'				=> 'Kategoriloggar',
@@ -230,6 +232,10 @@ $lang = array_merge($lang, array(
 
 	'COLOUR_SWATCH'			=> 'Karta över webbsäkra färger',
 	'CONFIG_UPDATED'		=> 'Konfigurationen uppdaterades.',
+	'CRON_LOCK_ERROR'		=> 'Could not obtain cron lock.',
+	'CRON_NO_SUCH_TASK'		=> 'Could not find cron task â€œ%sâ€.',
+	'CRON_NO_TASK'			=> 'No cron tasks need to be run right now.',
+	'CRON_NO_TASKS'			=> 'No cron tasks could be found.',
 
 	'DEACTIVATE'				=> 'Inaktivera',
 	'DIRECTORY_DOES_NOT_EXIST'	=> 'Den angivna sökvägen “%s” finns inte.',
@@ -246,9 +252,6 @@ $lang = array_merge($lang, array(
 	'ENABLE'				=> 'Aktivera',
 	'EXPORT_DOWNLOAD'		=> 'Ladda ner',
 	'EXPORT_STORE'			=> 'Lagra',
-	'FILES_GONE'			=> 'Några utav bilagorna du valde finns inte. Dom kan redan vara borttagna. De bilagor som fanns har blivit borttagna.',
-	'FILES_STATS_WRONG'		=> 'Dina filers statistik är troligtvis fel och behöver synkroniseras om. Verkliga värden: antal bilagor = %1$d, total storlek på bilagor = %2$s.',
-
 
 	'GENERAL_OPTIONS'		=> 'Allmänna alternativ',
 	'GENERAL_SETTINGS'		=> 'Allmänna inställningar',
@@ -293,10 +296,8 @@ $lang = array_merge($lang, array(
 
 	'REMIND'							=> 'Påminn',
 	'RESYNC'							=> 'Synkronisera',
-	'RESYNC_FILES_STATS'				=> 'Omsynkronisera filstatistiken',
-	'RESYNC_FILES_STATS_EXPLAIN'		=> 'Beräkna den totala filmängden av bilagor i inlägg samt privata meddelanden.',
-	'RETURN_TO'							=> 'Återgå till…',
 
+	'RUNNING_TASK'			=> 'Running task: %s.',
 	'SELECT_ANONYMOUS'		=> 'Välj den anonyma användaren (gäst)',
 	'SELECT_OPTION'			=> 'Välj alternativ',
 
@@ -305,6 +306,8 @@ $lang = array_merge($lang, array(
 	'SETTING_TOO_LONG'		=> 'Det angivna värdet för inställningen “%1$s” är för långt. Den längsta tillåtna längden är %2$d.',
 	'SETTING_TOO_SHORT'		=> 'Det angivna värdet för inställningen “%1$s” är för kort. Den kortast tillåtna längden är %2$d.',
 	'SHOW_ALL_OPERATIONS'	=> 'Visa alla händelser',
+	'TASKS_NOT_READY'			=> 'Not ready tasks:',
+	'TASKS_READY'			=> 'Ready tasks:',
 	'TOTAL_SIZE'      		=> 'Total storlek',
 
 	'UCP'					=> 'Kontrollpanel',
@@ -392,7 +395,6 @@ $lang = array_merge($lang, array(
 	'RESET_ONLINE'					=> 'Återställ flest användare online samtidigt',
 	'RESET_ONLINE_CONFIRM'			=> 'Är du säker på att du vill återställa räknaren för flest användare online samtidigt?',
 	'RESET_ONLINE_SUCCESS'				=> 'Flest online återställt',
-	'RESYNC_FILES_STATS_CONFIRM'	=> 'Är du säker på att du vill omsynkronisera filstatistiken?',
 	'RESYNC_POSTCOUNTS'				=> 'Synkronisera inläggsräknare',
 	'RESYNC_POSTCOUNTS_EXPLAIN'		=> 'Endast existerande inlägg kommer att tas med i beräkningen. Rensade inlägg kommer inte räknas.',
 	'RESYNC_POSTCOUNTS_CONFIRM'		=> 'Är du säker på att du vill synkronisera inläggsräknare?',
@@ -550,7 +552,7 @@ $lang = array_merge($lang, array(
 
 	'LOG_APPROVE_TOPIC'			=> '<strong>Godkände tråd</strong><br />» %s',
 	'LOG_BUMP_TOPIC'			=> '<strong>Användare knuffade upp tråd</strong><br />» %s',
-	'LOG_DELETE_POST'			=> '<strong>Tog bort inlägget “%1$s” skrivet utav </strong><br />» %2$s',
+	'LOG_DELETE_POST'			=> '<strong>Tog bort inlägget “%1$s” skrivet utav â€œ%2$sâ€ med följande orsak</strong><br />» %3$s',
 	'LOG_DELETE_SHADOW_TOPIC'	=> '<strong>Tog bort skuggtråd</strong><br />» %s',
 	'LOG_DELETE_TOPIC'			=> '<strong>Tog bort tråd “%1$s” skriven av</strong><br />» %2$s',
 	'LOG_FORK'					=> '<strong>Kopierade tråd</strong><br />» från %s',
@@ -561,20 +563,20 @@ $lang = array_merge($lang, array(
 	'LOG_PM_REPORT_CLOSED'		=> '<strong>Stängde rapport av pm</strong><br />» %s',
 	'LOG_PM_REPORT_DELETED'		=> '<strong>Raderade rapport av pm</strong><br />» %s',
 	'LOG_POST_APPROVED'			=> '<strong>Godkände inlägg</strong><br />» %s',
-	'LOG_POST_DISAPPROVED'		=> '<strong>Avslog inlägg “%1$s” med följande anledning</strong><br />» %2$s',
-	'LOG_POST_EDITED'			=> '<strong>Redigerade inlägg “%1$s” skrivet av</strong><br />» %2$s',
+	'LOG_POST_DISAPPROVED'		=> '<strong>Avslog inlägg “%1$s” skriven utav “%3$s” med följande anledning</strong><br />» %2$s',
+	'LOG_POST_EDITED'			=> '<strong>Redigerade inlägg “%1$s” skrivet av â€œ%2$sâ€ med följande orsak</strong><br />» %3$s',
 	'LOG_POST_RESTORED'			=> '<strong>Återställda inlägg</strong><br />» %s',
 	'LOG_REPORT_CLOSED'			=> '<strong>Stängde rapport</strong><br />» %s',
 	'LOG_REPORT_DELETED'		=> '<strong>Tog bort rapport</strong><br />» %s',
 	'LOG_RESTORE_TOPIC'			=> '<strong>Återställda inlägg “%1$s” skrivna utav</strong><br />» %2$s',
-	'LOG_SOFTDELETE_POST'		=> '<strong>Borttagna inlägg “%1$s” skrivna utav</strong><br />» %2$s',
-	'LOG_SOFTDELETE_TOPIC'		=> '<strong>Borttagna trådar “%1$s” skrivna utav</strong><br />» %2$s',
+	'LOG_SOFTDELETE_POST'		=> '<strong>Borttagna inlägg “%1$s” skrivna utav â€œ%1$sâ€ med följande orsak</strong><br />» %3$s',
+	'LOG_SOFTDELETE_TOPIC'		=> '<strong>Borttagna trådar “%1$s” skrivna utav â€œ%1$sâ€ med följande orsak</strong><br />» %3$s',
 	'LOG_SPLIT_DESTINATION'		=> '<strong>Flyttade delade inlägg</strong><br />» till %s',
 	'LOG_SPLIT_SOURCE'			=> '<strong>Delade inlägg</strong><br />» från %s',
 
 	'LOG_TOPIC_APPROVED'		=> '<strong>Godkände tråd</strong><br />» %s',
 	'LOG_TOPIC_RESTORED'		=> '<strong>Återställda trådar</strong><br />» %s',
-	'LOG_TOPIC_DISAPPROVED'		=> '<strong>Avslog tråd “%1$s” med följande anledning</strong><br />%2$s',
+	'LOG_TOPIC_DISAPPROVED'		=> '<strong>Avslog tråd “%1$s” skriven utav “%3$s” med följande anledning</strong><br />%2$s',
 	'LOG_TOPIC_RESYNC'			=> '<strong>Synkroniserade trådräknare</strong><br />» %s',
 	'LOG_TOPIC_TYPE_CHANGED'	=> '<strong>Ändrade trådtyp</strong><br />» %s',
 	'LOG_UNLOCK'				=> '<strong>Låste upp tråd</strong><br />» %s',
@@ -688,6 +690,7 @@ $lang = array_merge($lang, array(
 
 	'LOG_PRUNE'					=> '<strong>Rensade kategorier</strong><br />» %s',
 	'LOG_AUTO_PRUNE'			=> '<strong>Auto-rensade kategorier</strong><br />» %s',
+	'LOG_PRUNE_SHADOW'			=> '<strong>Auto-pruned shadow topics</strong><br />» %s',
 	'LOG_PRUNE_USER_DEAC'		=> '<strong>Användare inaktiverade</strong><br />» %s',
 	'LOG_PRUNE_USER_DEL_DEL'	=> '<strong>Användare rensade och inlägg borttagna</strong><br />» %s',
 	'LOG_PRUNE_USER_DEL_ANON'	=> '<strong>Användare rensade och inlägg behållna</strong><br />» %s',
@@ -784,10 +787,17 @@ $lang = array_merge($lang, array(
 	'LOG_USER_GROUP_JOIN_PENDING'	=> '<strong>Användare gick med i gruppen och måste godkännas</strong><br />» %s',
 	'LOG_USER_GROUP_RESIGN'			=> '<strong>Användare lämnade gruppen</strong><br />» %s',
 	'LOG_WARNING_DELETED'		=> '<strong>Tog bort användarvarning</strong><br />» %s',
-	'LOG_WARNINGS_DELETED'		=> '<strong>Tog bort %2$s varning(ar)</strong><br />» %1$s', // Example: '<strong>Deleted 2 user warnings</strong><br />» username'
-	'LOG_WARNINGS_DELETED_ALL'	=> '<strong>Tog bort alla användarvarningar</strong><br />» %s',
+	'LOG_WARNINGS_DELETED'		=> array(
+		1 => '<strong>Tog bort alla användarvarningar</strong><br />» %1$s',
+		2 => '<strong>Tog bort %2$s varning(ar)</strong><br />» %1$s', // Example: '<strong>Deleted 2 user warnings</strong><br />» username'
+	),
+	'LOG_WARNINGS_DELETED_ALL'	=> '<strong>Tog bort alla användarvarningar</strong><br />» %1$s',
 
 	'LOG_WORD_ADD'			=> '<strong>Lade till ordcensurering</strong><br />» %s',
 	'LOG_WORD_DELETE'		=> '<strong>Tog bort ordcensurering</strong><br />» %s',
 	'LOG_WORD_EDIT'			=> '<strong>Ändrade ordcensurering</strong><br />» %s',
+
+	'LOG_EXT_ENABLE'	=> '<strong>Plugin är aktiverade</strong><br />» %s',
+	'LOG_EXT_DISABLE'	=> '<strong>Plugin är inaktiverade</strong><br />» %s',
+	'LOG_EXT_PURGE'		=> '<strong>Pluginets data är raderat</strong><br />» %s',
 ));

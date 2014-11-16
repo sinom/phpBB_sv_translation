@@ -83,10 +83,10 @@ $lang = array_merge($lang, array(
 	'PERMANENT'		=> 'Permanent',
 	
 	'UNTIL'						=> 'Tills',
-	'USER_BAN'					=> 'Bannlys en eller flera användare',
+	'USER_BAN'					=> 'Bannlys en eller flera användare med användarnamnen',
 	'USER_BAN_EXCLUDE_EXPLAIN'	=> 'Aktivera detta för att undanta den angivna användaren från alla nuvarande bannlysningar.',
 	'USER_BAN_EXPLAIN'			=> 'Du kan bannlysa flera användare på samma gång genom att skriva in varje namn på en ny rad. Använd <span style="text-decoration: underline;">Hitta en medlem</span>-funktionen för att söka efter och lägga till en eller flera användare automatiskt.',
 	'USER_NO_BANNED'			=> 'Inga bannlysta användare',
-	'USER_UNBAN'				=> 'Häv bannlysta eller undantagna användare',
+	'USER_UNBAN'				=> 'Häv bannlysta eller undantagna användare med användarnamnen',
 	'USER_UNBAN_EXPLAIN'		=> 'Du kan häva flera bannlysta (eller undantagna) användare på samma gång genom att använda den rätta kombinationen av mus och tangentbord för din dator och webbläsare. Undantagna användare är betonade.',	
 ));

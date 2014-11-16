@@ -46,8 +46,11 @@ if (empty($lang) || !is_array($lang))
 // Custom profile fields
 $lang = array_merge($lang, array(
 	'ADDED_PROFILE_FIELD'	=> 'Lade till nytt eget profilfält.',
+	'ALPHA_DOTS'			=> 'Alphanumeric and dots (periods)',
 	'ALPHA_ONLY'			=> 'Endast alfanumeriska',
 	'ALPHA_SPACERS'			=> 'Alfanumeriska och mellanslag',
+	'ALPHA_UNDERSCORE'		=> 'Alfanumeriska och understreck',
+	'ALPHA_PUNCTUATION'		=> 'Alphanumeric with comma, dots, underscore and dashes beginning with a letter',
 	'ALWAYS_TODAY'			=> 'Alltid det aktuella datumet',
 
 	'BOOL_ENTRIES_EXPLAIN'	=> 'Ange dina alternativ nu.',
@@ -74,6 +77,8 @@ $lang = array_merge($lang, array(
 	'DISPLAY_AT_PROFILE_EXPLAIN'	=> 'Användaren kan ändra detta profilfält via kontrollpanelen.',
 	'DISPLAY_AT_REGISTER'			=> 'Visa under registreringen',
 	'DISPLAY_AT_REGISTER_EXPLAIN'	=> 'Om detta alternativ aktiveras kommer fältet att visas under registreringen.',
+	'DISPLAY_ON_MEMBERLIST'			=> 'Visa på medlemssidan',
+	'DISPLAY_ON_MEMBERLIST_EXPLAIN'	=> 'Om detta alternativ är aktiverat, så kommer fältet att visas i användarraden på medlemssidan.',
 	'DISPLAY_ON_PM'					=> 'Visa på privata meddelandenrutan',
 	'DISPLAY_ON_PM_EXPLAIN'			=> 'Om detta är valt så kommer fältet att visas på privata meddelandenrutan.',
 	'DISPLAY_ON_VT'					=> 'Visa i trådar',
@@ -89,20 +94,27 @@ $lang = array_merge($lang, array(
 	'EVERYTHING_OK'					=> 'Allting OK',
 
 	'FIELD_BOOL'				=> 'Boolesk (Ja/Nej)',
+	'FIELD_CONTACT_DESC'		=> 'Kontaktbeskrivning',
+	'FIELD_CONTACT_URL'			=> 'Kontaktlänk',
 	'FIELD_DATE'				=> 'Datum',
 	'FIELD_DESCRIPTION'			=> 'Fältbeskrivning',
 	'FIELD_DESCRIPTION_EXPLAIN'	=> 'Beskrivningen för detta fält som visas för användaren.',
 	'FIELD_DROPDOWN'			=> 'Listruta',
+	'FIELD_GOOGLEPLUS'			=> 'Google+',
 	'FIELD_IDENT'				=> 'Fältidentifikation',
 	'FIELD_IDENT_ALREADY_EXIST'	=> 'Den valda fältidentifikationen finns redan. Välj ett annat namn.',
 	'FIELD_IDENT_EXPLAIN'		=> 'Fältidentifikationen är ett namn för att identifiera profilfältet inom databasen och i mallarna.',
 	'FIELD_INT'					=> 'Nummer',
+	'FIELD_IS_CONTACT'			=> 'Visa fält som kontaktfält',
+	'FIELD_IS_CONTACT_EXPLAIN'	=> 'Kontaktfält visas inuti kontaktdelen av användarprofilen och visas anorlunda i miniprofilen jämte inlägg och privata meddelanden.',
+
 	'FIELD_LENGTH'				=> 'Längd på inmatningsruta',
 	'FIELD_NOT_FOUND'			=> 'Profilfältet hittades inte.',
 	'FIELD_STRING'				=> 'Enkelt textfält',
 	'FIELD_TEXT'				=> 'Textyta',
 	'FIELD_TYPE'				=> 'Fälttyp',
 	'FIELD_TYPE_EXPLAIN'		=> 'Du kan inte byta fälttyp senare.',
+	'FIELD_URL'					=> 'URL (Länk)',
 	'FIELD_VALIDATION'			=> 'Fältbekräftning',
 	'FIRST_OPTION'				=> 'Första alternativet',
 
@@ -114,6 +126,12 @@ $lang = array_merge($lang, array(
 	'ISO_LANGUAGE'				=> 'Språk [%s]',
 
 	'LANG_SPECIFIC_OPTIONS'		=> 'Språkspecifika inställningar [<strong>%s</strong>]',
+	
+	'LETTER_NUM_DOTS'			=> 'Any letters, numbers and dots (periods)',
+	'LETTER_NUM_ONLY'			=> 'Any letters and numbers',
+	'LETTER_NUM_PUNCTUATION'	=> 'Any letters, numbers, comma, dots, underscores and dashes beginning with any letter',
+	'LETTER_NUM_SPACERS'		=> 'Any letters, numbers and spacers',
+	'LETTER_NUM_UNDERSCORE'		=> 'Any letters, numbers and underscores',
 
 	'MAX_FIELD_CHARS'		=> 'Maximalt antal tecken',
 	'MAX_FIELD_NUMBER'		=> 'Högsta tillåtna nummer',

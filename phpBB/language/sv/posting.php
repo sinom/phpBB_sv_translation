@@ -1,31 +1,23 @@
 <?php
-/** 
+/**
 *
-* posting [Swedish] (phpBB 3.0.11)
+* This file is part of Swedish phpBB translation.
+* Copyright (c) 2010 - 2014 Swedish translation group.
 *
-* @package language
-* @version $Id: posting.php 2 2010-06-24 01:12:10Z tumba25 $
-* @copyright (c) 2006 phpBB Group, modified and translated by Swedish translation team
-* @source file is copyright (c) 2005 phpBB Group, modified and translated by Swedish translation team
-* @license http://www.gnu.org/licenses/old-licenses/gpl-2.0.html GNU Public License version 2
-* @author (c) 2006-2008 Jonathan Gulbrandsen, 2008-2012 Petra Brandt
-* Translators: Swedish translation team, working at http://www.phpbb-se.com Contact team leader at peetra.mammapappa@gmail.com 
 *
-* This file is part of the Swedish language package for phpBB 3.0.x.
-* Copyright (c) 2006-2010 Swedish translation team
+* This program is distributed in the hope that it will be useful,
+* but WITHOUT ANY WARRANTY; without even the implied warranty of
+* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+* GNU General Public License for more details.
 *
-* The Swedish language package for phpBB 3.0.x is free software; you can redistribute it and/or
-* modify it under the terms of the GNU General Public License as published by the Free Software
-* Foundation, version 2 of the License.
 *
-* The Swedish Language package for phpBB 3.0.x is distributed in the hope that it will be useful,
-* but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR
-* A PARTICULAR PURPOSE. See the GNU General Public License for more details.
-*
-* You should have received a copy of the GNU General Public License along with this language
-* package. If not, see <http://www.gnu.org/licenses/old-licenses/gpl-2.0.html>.
+* @package      phpBB Sweden
+* @author       Simon Assgård <sassgard@gmail.com> (Sinom) http://www.phpbb.se/
+* @copyright    phpBB Sweden
+* @license      @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
 *
 */
+
 /**
 * DO NOT CHANGE
 */
@@ -72,7 +64,7 @@ $lang = array_merge($lang, array(
 	'BBCODE_O_HELP'				=> 'Ordnad lista: [list=1]Del ett[/list] eller [list=a][*]Del a[/list]',
 	'BBCODE_P_HELP'				=> 'Infoga bild: [img]http://bild_url[/img]',
 	'BBCODE_Q_HELP'				=> 'Citera text: [quote]text[/quote]',
-	'BBCODE_S_HELP'				=> 'Textfärg: [color=red]text[/color]  Tips: du kan också använda color=#FF0000',
+	'BBCODE_S_HELP'				=> 'Textfärg: [color=red]text[/color]  eller color=#FF0000]text[/color]',
 	'BBCODE_U_HELP'				=> 'Understruken text: [u]text[/u]',
 	'BBCODE_W_HELP'				=> 'Infoga länk: [url]http://url[/url] eller [url=http://url]Länktext[/url]',
 	'BBCODE_Y_HELP'				=> 'Lista: Lägg till listelement',
@@ -84,6 +76,16 @@ $lang = array_merge($lang, array(
 	'CANNOT_POST_ANNOUNCE'		=> 'Du kan inte skapa anslagstrådar.',
 	'CANNOT_POST_STICKY'		=> 'Du kan inte skapa notistrådar.',
 	'CHANGE_TOPIC_TO'			=> 'Ändra trådtyp till',
+
+	'CHARS_POST_CONTAINS'		=> array(
+		1	=> 'Ditt meddelande innehåller %1$d tecken.',
+		2	=> 'Ditt meddelande innehåller %1$d tecken.',
+	),
+	'CHARS_SIG_CONTAINS'		=> array(
+		1	=> 'Din signatur innehåller %1$d tecken.',
+		2	=> 'Din signatur innehåller %1$d tecken.',
+	),
+
 	'CLOSE_TAGS'				=> 'Stäng taggar',
 	'CURRENT_TOPIC'				=> 'Aktuell tråd',
 	'DELETE_FILE'				=> 'Ta bort fil',
@@ -164,9 +166,9 @@ $lang = array_merge($lang, array(
 	'POST_APPROVAL_NOTIFY'		=> 'Du kommer att underrättas när ditt inlägg har godkänts.',
 	'POST_CONFIRMATION'			=> 'Verifiera inlägg',
 	'POST_CONFIRM_EXPLAIN'		=> 'För att förhindra automatiska inlägg så kräver forumet att du här anger en verifieringskod. Koden visas i bilden nedan. Om du ser dåligt eller av annan anledning inte kan läsa koden nedan, kontakta %sforumadministratörerna%s.',
-	'POST_DELETED'				=> 'Meddelandet togs bort.',
-	'POST_EDITED'				=> 'Meddelandet ändrades.',
-	'POST_EDITED_MOD'			=> 'Meddelandet ändrades, men måste godkännas av en moderator innan det visas offentligt.',
+	'POST_DELETED'				=> 'Inlägget togs bort.',
+	'POST_EDITED'				=> 'Inlägget ändrades.',
+	'POST_EDITED_MOD'			=> 'Inlägget ändrades, men måste godkännas av en moderator innan det visas offentligt.',
 	'POST_GLOBAL'				=> 'Global',
 	'POST_ICON'					=> 'Inläggsikon',
 	'POST_NORMAL'				=> 'Normal',
@@ -178,7 +180,13 @@ $lang = array_merge($lang, array(
 	'POST_STORED_MOD'			=> 'Meddelandet sparades, men måste godkännas av en moderator innan det visas offentligt.',
 	'POST_TOPIC_AS'				=> 'Skapa tråd som',
 	'PROGRESS_BAR'				=> 'Uppladdningsprocess',
-	'QUOTE_DEPTH_EXCEEDED'		=> 'Du kan endast ha upp till %1$d citat inom varandra.',
+	'QUOTE_DEPTH_EXCEEDED'		=> array(
+		1	=> 'Du kan endast ha %1$d citat inom varandra.',
+		2	=> 'Du kan endast ha upp till %1$d citat inom varandra.',
+	),
+	'QUOTE_NO_NESTING'			=> 'Du kan inte citera inuti ett annat citat.',
+	
+	'REMOTE_UPLOAD_TIMEOUT'		=> 'Denna filen kunde inte laddas upp för förfrågan tog för lång tid.',
 	'SAVE'						=> 'Spara',
 	'SAVE_DATE'					=> 'Sparat',
 	'SAVE_DRAFT'				=> 'Spara utkast',
@@ -190,18 +198,22 @@ $lang = array_merge($lang, array(
 	'STICK_TOPIC_FOR'			=> 'Håll som notis/anslag i',
 	'STICK_TOPIC_FOR_EXPLAIN'	=> 'Ange 0 eller lämna tomt för att skapa en permanent notis/anslag. Detta nummer är relativt till trådens datering.',
 	'STYLES_TIP'				=> 'Tips: Markera ett textstycke och klicka på den BBCode du vill använda.',
+
 	'TOO_FEW_CHARS'				=> 'Ditt meddelande innehåller för få tecken.',
-	'TOO_FEW_CHARS_LIMIT'		=> 'Ditt meddelande innehåller %1$d tecken. Det minsta antal tecken ett meddelande bör innehålla är %2$d.',
+	'TOO_FEW_CHARS_LIMIT'		=> array(
+		1	=> 'Ditt meddelande måste innehålla minst %1$d tecken.',
+		2	=> 'Ditt meddelande måste innehålla minst %1$d tecken.',
+	),
 	'TOO_FEW_POLL_OPTIONS'		=> 'Du måste ange minst två omröstningsalternativ.',
 	'TOO_MANY_ATTACHMENTS'		=> 'Kan inte lägga till en till bilaga, %d är det maximala antalet bilagor per meddelande.',
 	'TOO_MANY_CHARS'			=> 'Ditt meddelande innehåller för många tecken.',
-	'TOO_MANY_CHARS_POST'		=> 'Ditt meddelande innehåller %1$d tecken. Det maximala antalet tillåtna tecken är %2$d.',
-	'TOO_MANY_CHARS_SIG'		=> 'Din signatur innehåller %1$d tecken. Det maximala antalet tillåtna tecken är %2$d.',
+	'TOO_MANY_CHARS_LIMIT'		=> array(
+		2	=> 'Det maximala antalet tecken tillåtet är %1$d.',
 	'TOO_MANY_POLL_OPTIONS'		=> 'Du angav för många omröstningsalternativ.',
 	'TOO_MANY_SMILIES'			=> 'Ditt meddelande innehåller för många smilies. Det maximala antalet tillåtna smilies är %d.',
 	'TOO_MANY_URLS'				=> 'Ditt meddelande innehåller för många länkar. Det maximala antalet tillåtna länkar är %d.',
 	'TOO_MANY_USER_OPTIONS'		=> 'Du kan inte tillåta fler val per användare än vad det finns omröstningalternativ.',
-  'TOPIC_BUMPED'				=> 'Tråden knuffades upp.',
+	'TOPIC_BUMPED'				=> 'Tråden knuffades upp.',
 	'UNAUTHORISED_BBCODE'		=> 'Du kan inte använda vissa BBCodes: %s.',
 	'UNGLOBALISE_EXPLAIN'		=> 'För att ändra tillbaka denna tråd från global till normal så måste du välja i vilken kategori som den ska visas.',
 	'UPDATE_COMMENT'			=> 'Uppdatera kommentar',
@@ -216,7 +228,6 @@ $lang = array_merge($lang, array(
 	'USER_CANNOT_FORUM_POST'	=> 'Du kan inte posta i denna kategori eftersom kategoritypen inte stödjer det.',
   'VIEW_MESSAGE'				=> '%sVisa ditt meddelande%s',
 	'VIEW_PRIVATE_MESSAGE'		=> '%sVisa ditt skickade personliga meddelande%s',
-	'WRONG_FILESIZE'			=> 'Filen är för stor, den maximala filstorleken är %1d %2s.',
+	'WRONG_FILESIZE'			=> 'Filen är för stor, den maximala filstorleken är %1$d %2$s.',
 	'WRONG_SIZE'				=> 'Bilden måste vara minst %1$d pixlar bred, %2$d pixlar hög och får inte vara större än %3$d pixlar bred och %4$d pixlar hög. Den valda bilden är %5$d pixlar bred och %6$d pixlar hög.',
 ));
-?>

@@ -51,9 +51,12 @@ $lang = array_merge($lang, array(
 	'AUTO_PRUNE_FREQ_EXPLAIN'	=> 'Tid i dagar mellan rensningar.',
 	'AUTO_PRUNE_VIEWED'			=> 'Inläggsvisningsålder för auto-rensning',
 	'AUTO_PRUNE_VIEWED_EXPLAIN'	=> 'Antal dagar sen en tråd senast visades som tråden ska tas bort efter.',
+	'AUTO_PRUNE_SHADOW_FREQ'	=> 'Auto-prune shadow topics frequency',
+	'AUTO_PRUNE_SHADOW_DAYS'	=> 'Auto-prune shadow topics age',
+	'AUTO_PRUNE_SHADOW_DAYS_EXPLAIN'	=> 'Number of days after which shadow topic is removed.',
+	'AUTO_PRUNE_SHADOW_FREQ_EXPLAIN'	=> 'Time in days between pruning events.',
+
 	'CONTINUE'						=> 'Fortsätt',
-
-
 	'COPY_PERMISSIONS'				=> 'Kopiera behörigheter',
 	'COPY_PERMISSIONS_EXPLAIN'		=> 'För att göra det enklare att hantera behörigheterna, så kan du kopiera dem från en redan existerande kategori.',
 	'COPY_PERMISSIONS_ADD_EXPLAIN'	=> 'När denna kategori väl skapat så kommer den att ha samma behörigheter som den kategori som du väljer här har. Om ingen kategori väljs här så  kommer den nya kategorin inte att synas förrän behörigheter ställts in för den.',
@@ -115,6 +118,8 @@ $lang = array_merge($lang, array(
 	'FORUM_PASSWORD_OLD'				=> 'Kategorilösenordet använder en gammal hashningsmetod.hmm och bör ändras.',
 	'FORUM_PASSWORD_MISMATCH'			=> 'Lösenorden du angav stämde inte överens.',
 	'FORUM_PRUNE_SETTINGS'				=> 'Kategorirensningsinställningar',
+	'FORUM_PRUNE_SHADOW'				=> 'Enable auto-pruning of shadow topics',
+	'FORUM_PRUNE_SHADOW_EXPLAIN'			=> 'Prunes the forum of shadow topics, set the frequency/age parameters below.',
 	'FORUM_RESYNCED'					=> 'Kategorin “%s”  synkroniserades',
 	'FORUM_RULES_EXPLAIN'				=> 'Kategoriregler visas på alla sidor inom given kategori.',
 	'FORUM_RULES_LINK'					=> 'Länk till kategoriregler',

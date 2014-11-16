@@ -60,6 +60,7 @@ $lang = array_merge($lang, array(
 	'CANNOT_FORCE_REACT_FOUNDER'	=> 'Du kan inte påtvinga återaktivering på grundare.',
 	'CANNOT_FORCE_REACT_YOURSELF'	=> 'Du kan inte påtvinga återaktivering på ditt eget konto.',
 	'CANNOT_REMOVE_ANONYMOUS'		=> 'Du kan inte ta bort gästkontot.',
+	'CANNOT_REMOVE_FOUNDER'			=> 'Du har inte behörighet att ta bort grundarkonton.',
 	'CANNOT_REMOVE_YOURSELF'		=> 'Du kan inte ta bort ditt eget konto.',
 	'CANNOT_SET_FOUNDER_IGNORED'		=> 'Du kan inte göra ignorerade användare till grundare.',
 	'CANNOT_SET_FOUNDER_INACTIVE'	=> 'Du måste aktivera användarna innan du kan göra de till grundare, endast aktiverade användare kan befordras.',

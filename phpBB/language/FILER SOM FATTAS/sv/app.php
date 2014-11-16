@@ -23,12 +23,14 @@
 */
 if (!defined('IN_PHPBB'))
 {
-   exit;
+	exit;
 }
+
 if (empty($lang) || !is_array($lang))
 {
 	$lang = array();
 }
+
 // DEVELOPERS PLEASE NOTE
 //
 // All language files should use UTF-8 as their encoding and the files must not contain a BOM.
@@ -40,35 +42,14 @@ if (empty($lang) || !is_array($lang))
 // You do not need this where single placeholders are used, e.g. 'Message %d' is fine
 // equally where a string contains only two placeholders which are used to wrap text
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
+//
+// Some characters you may want to copy&paste:
+// ’ » “ ” …
+//
+
 $lang = array_merge($lang, array(
-	'ACTIVE_TOPICS'			=> 'Aktiva trådar',
-	'ANNOUNCEMENTS'			=> 'Anslag',
-
-	'FORUM_PERMISSIONS'		=> 'Kategoribehörigheter',
-
-	'ICON_ANNOUNCEMENT'		=> 'Anslag',
-	'ICON_STICKY'			=> 'Notis',
-
-	'LOGIN_NOTIFY_FORUM'	=> 'Du har underrättats om denna kategori, logga in för att visa den.',
-
-	'MARK_TOPICS_READ'		=> 'Markera alla trådar som lästa',
-
-	'NEW_POSTS_HOT'			=> 'Nya inlägg [ Populär ]', // Not used anymore
-	'NEW_POSTS_LOCKED'		=> 'Nya inlägg [ Låst ]', // Not used anymore
-	'NO_NEW_POSTS_HOT'		=> 'Inga nya inlägg [ Populär ]', // Not used anymore
-	'NO_NEW_POSTS_LOCKED'	=> 'Inga nya inlägg [ Låst ]', // Not used anymore
-	'NO_READ_ACCESS'		=> 'Du har inte behörighet att läsa trådar i denna kategori.',
-	'NO_UNREAD_POSTS_HOT'		=> 'Olästa inlägg [ Populär ]',
-	'NO_UNREAD_POSTS_LOCKED'		=> 'Olästa inlägg [ Låst ]',
-
-	'POST_FORUM_LOCKED'		=> 'Kategorin är låst',
-
-	'UNREAD_POSTS_HOT'		=> 'Olästa inlägg [ Populär ]',
-	'UNREAD_POSTS_LOCKED'	=> 'Olästa inlägg [ Låst ]',
-
-	'TOPICS_MARKED'			=> 'Trådarna i denna kategori märktes som lästa.',
-
-	'VIEW_FORUM'			=> 'Visa kategori',
-	'VIEW_FORUM_TOPIC'		=> '1 tråd',
-	'VIEW_FORUM_TOPICS'		=> '%d trådar',
+	'CONTROLLER_ARGUMENT_VALUE_MISSING'	=> 'Saknar värde för argumentet #%1$s: <strong>%3$s</strong> i klassen <strong>%2$s</strong>',
+	'CONTROLLER_NOT_SPECIFIED'			=> 'Ingen kontroller har blivit angiven.',
+	'CONTROLLER_METHOD_NOT_SPECIFIED'	=> 'Ingen metod var angiven för kontrollen.',
+	'CONTROLLER_SERVICE_UNDEFINED'		=> 'Tjänsten för kontrollen "<strong>%s</strong>" är inte definerad i ./config/services.yml.',
 ));

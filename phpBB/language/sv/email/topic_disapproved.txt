@@ -8,5 +8,4 @@ Följande skäl gavs:
 
 {REASON}
 
-
 {EMAIL_SIG}

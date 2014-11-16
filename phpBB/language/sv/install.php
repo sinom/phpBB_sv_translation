@@ -147,7 +147,6 @@ $lang = array_merge($lang, array(
 	'DEV_NO_TEST_FILE'			=> 'Inga värden angavs för test_file-variabeln i konverteraren. Om du är användaren av denna konverterare så ska du inte se detta fel, rapportera detta meddelande till författaren av konverteraren. Om du är författaren av konverteraren så måste du ange namnet för filen som finns i källforumet så att sökvägen kan bekräftas.',
 	'DIRECTORIES_AND_FILES'		=> 'Katalog- och filinställning',
 	'DISABLE_KEYS'				=> 'Inaktiverar nycklar',
-	'DLL_FIREBIRD'				=> 'Firebird',
 	'DLL_FTP'					=> 'Stöd för fjärr-FTP [ Installation ]',
 	'DLL_GD'					=> 'Stöd för GD-grafik [ Visuell bekräftelse ]',
 	'DLL_MBSTRING'				=> 'Teckenstöd för Multi-byte',
@@ -159,6 +158,8 @@ $lang = array_merge($lang, array(
 	'DLL_ORACLE'				=> 'Oracle',
 	'DLL_POSTGRES'				=> 'PostgreSQL',
 	'DLL_SQLITE'				=> 'SQLite',
+	'DLL_SQLITE'				=> 'SQLite 2',
+	'DLL_SQLITE3'				=> 'SQLite 3',
 	'DLL_XML'					=> 'XML-stöd [ Jabber ]',
 	'DLL_ZLIB'					=> 'zlib komprimeringsstöd [ gz, .tar.gz, .zip ]',
 	'DL_CONFIG'					=> 'Ladda ner config.php',
@@ -174,9 +175,7 @@ $lang = array_merge($lang, array(
 	'FILES_REQUIRED_EXPLAIN'	=> '<strong>Obligatoriskt</strong> - För att phpBB ska fungera korrekt så måste phpBB kunna komma åt eller skriva till vissa filer och kataloger. Om du ser “Hittas inte” nedan så måste du skapa den relevanta filen eller katalogen. Om du ser “Ej skrivbar” nedan så måste du ändra behörigheterna på filen eller katalogen så att phpBB kan skriva till den.',
 	'FILLING_TABLE'				=> 'Fyller tabell <strong>%s</strong>',
 	'FILLING_TABLES'			=> 'Fyller tabeller',
-	
-	'FIREBIRD_DBMS_UPDATE_REQUIRED'		=> 'phpBB stöder inte längre tidigare versioner av Firebird/Interbase än 2.1. Var god uppdatera din Firebird till version 2.1.0. före du fortsätter din uppdatering av phpBB3',
-	
+		
 	'FINAL_STEP'				=> 'Utför sista steget',
 	'FORUM_ADDRESS'				=> 'Forumadress',
 	'FORUM_ADDRESS_EXPLAIN'		=> 'Detta är URL:en till ditt föregående forum, till exempel <samp>http://www.example.com/phpBB2/</samp>. Om en adress skrivs in här och detta inte lämnas tomt så kommer varje förekomst av denna adress ersättas med din nya forumadress inom inlägg, personliga meddelanden och signaturer.',
@@ -217,7 +216,7 @@ $lang = array_merge($lang, array(
 		<li>MySQL 3.23 eller nyare (MySQLi stöds)</li>
 		<li>PostgreSQL 8.3+</li>
 		<li>SQLite 2.8.2+</li>
-		<li>Firebird 2.1+</li>
+		<li>SQLite 3.6.15+</li>
 		<li>MS SQL Server 2000 eller nyare (direkt eller via ODBC)</li>
 		<li>MS SQL Server 2005 eller nyare (native)</li>
 		<li>Oracle</li>
@@ -240,9 +239,9 @@ $lang = array_merge($lang, array(
 	'INST_ERR_DB_NO_ERROR'		=> 'Inget felmeddelande gavs.',
 	'INST_ERR_DB_NO_MYSQLI'		=> 'Versionen av MySQL som är installerad på denna maskin är inte kompatibel med “MySQL with MySQLi Extension”-alternativet som du har valt. Försök med “MySQL”-alternativet istället.',
 	'INST_ERR_DB_NO_SQLITE'		=> 'Versionen av SQLite som du har installerad är för gammal, den måste uppgraderas till minst 2.8.2.',
+	'INST_ERR_DB_NO_SQLITE3'	=> 'Versionen av SQLite pluginet som du har installerad är för gammal, den måste uppgraderas till minst 3.6.15.',
 	'INST_ERR_DB_NO_ORACLE'		=> 'Versionen av Oracle som är installerad på denna maskin kräver att du ställer in <var>NLS_CHARACTERSET</var>-parametern till <var>UTF8</var>. Uppgradera din installation till 9.2eller ändra parametern.',
-	'INST_ERR_DB_NO_FIREBIRD'	=> 'Versionen av Firebird som är installerad på denna maskin är äldre än 2.1, uppgradera till en nyare version.',
-	'INST_ERR_DB_NO_FIREBIRD_PS'=> 'Databasen du har valt för Firebird har en “page size” som är mindre än 8192, den måste vara minst 8192.',
+
 	'INST_ERR_DB_NO_POSTGRES'	=> 'Databasen du har valt skapades inte med <var>UNICODE</var> eller <var>UTF8</var> kodning. Försök installera med en databas med <var>UNICODE</var> eller <var>UTF8</var> kodning.',
 	'INST_ERR_DB_NO_NAME'		=> 'Inget databasnamn angavs.',
 	'INST_ERR_EMAIL_INVALID'	=> 'E-postadressen du angav är ogiltig.',
@@ -433,6 +432,8 @@ $lang = array_merge($lang, array(
 	'FILE_USED'						=> 'Information används från',			// Single file
 	'FILES_CONFLICT'				=> 'Filer som resulterar i konflikt',
 	'FILES_CONFLICT_EXPLAIN'		=> 'Följande filer har ändrats och representerar inte originalfilerna från den gamla versionen. phpBB har upptäckt att dessa kommer att skapa konflikter om de sammanfogas. Undersök dessa konflikter och försök att lösa det manuellt eller fortsätt med uppdateringsprocessen genom att använda föredragen sammanfogningsmetod. Om du löser konflikterna manuellt måste du kontrollera filerna igen efter att ha ändrat dem. Du kan också välja föredragen sammanfogningsmetod enskilt för varje fil. Den första kommer resultera i en fil där de rader som hamnat i konflikt från din gamla fil kommer att försvinna, den andra kommer resultera i att rader från den nyare filen försvinner.',
+	'FILES_DELETED'					=> 'Borttagna filer',
+	'FILES_DELETED_EXPLAIN'			=> 'Följande filer finns inte i nya versionen. Dessa filer måste tas bort ifrån din installation.',	
 	'FILES_MODIFIED'				=> 'Ändrade filer',
 	'FILES_MODIFIED_EXPLAIN'		=> 'Följande filer har ändrats och representerar inte originalfilerna från den gamla versionen. Den uppdaterade filen kommer att vara en sammanfogning av dina förändringar och den nya filen.',
 	'FILES_NEW'						=> 'Nya filer',
@@ -493,6 +494,7 @@ $lang = array_merge($lang, array(
 	'PREVIOUS_VERSION'					=> 'Föregående version',
 	'PROGRESS'							=> 'Process',
 
+	'RELEASE_ANNOUNCEMENT'		=> 'Utgivingskungörelsen',
 	'RESULT'					=> 'Resultat',
 	'RUN_DATABASE_SCRIPT'		=> 'Uppdatera min databas nu',
 
@@ -500,6 +502,7 @@ $lang = array_merge($lang, array(
 	'SELECT_DOWNLOAD_FORMAT'	=> 'Välj arkivformat',
 	'SELECT_FTP_SETTINGS'		=> 'Välj FTP-inställningar',
 	'SHOW_DIFF_CONFLICT'		=> 'Visa skillnader/konflikter',
+	'SHOW_DIFF_DELETED'			=> 'Visa filinnehåll',
 	'SHOW_DIFF_FINAL'			=> 'Visa resulterande fil',
 	'SHOW_DIFF_MODIFIED'		=> 'Visa sammanfogade skillnader',
 	'SHOW_DIFF_NEW'				=> 'Visa filinnehåll',
@@ -513,6 +516,7 @@ $lang = array_merge($lang, array(
 	'STAGE_UPDATE_FILES'		=> 'Uppdatera filer',
 	'STAGE_VERSION_CHECK'		=> 'Versionskontroll',
 	'STATUS_CONFLICT'			=> 'Ändrad fil resulterade konflikter',
+	'STATUS_DELETED'			=> 'Borttagen fil',
 	'STATUS_MODIFIED'			=> 'Ändrad fil',
 	'STATUS_NEW'				=> 'Ny fil',
 	'STATUS_NEW_CONFLICT'		=> 'Konflikt för ny fil',
@@ -531,8 +535,8 @@ $lang = array_merge($lang, array(
 	'UPDATE_INSTALLATION'			=> 'Uppdatera phpBB-installation',
 	'UPDATE_INSTALLATION_EXPLAIN'	=> 'Med detta alternativ kan du uppdatera din phpBB-installation till den senaste versionen.<br />Under processen kommer alla dina filer integritetskontrolleras. Du kan granska alla skillnader och filer innan uppdateringen sker.<br /><br />Filuppdateringen kan göras på två olika sätt.</p><h2>Manuell uppdatering</h2><p>Med denna uppdatering så laddar du endast ner ditt personliga set av ändrade filer så att du kan försäkra dig om att du inte förlorar några förändringar du gjort i filerna. När du laddat ner detta paket så måste du ladda upp dessa filer manuellt till sina rätta platser under din phpBB-rotkatalog. När du är klar så kan du göra filkontrollen igen för att se om du flyttat filerna till sin rätta platser.</p><h2>Automatisk uppdatering via FTP</h2><p>Denna metod liknar den första men kräver inte att du laddar ner de ändrade filerna och laddar upp dem på egen hand. Detta kommer att göras åt dig. För att använda detnna metod måste du känna till dina inloggningsdetaljer för FTP. När du är klar kommer du omdirigeras till filkontrollen igen för att kolla att allt uppdaterades korrekt.<br /><br />',
 	'UPDATE_INSTRUCTIONS'			=> '
-		<h1>Utgivingskungörelse</h1>
-		<p>Läs <a href="%1$s" title="%1$s"><strong>utgivingskungörelsen för den senaste versionen</strong></a> innan du fortsätter uppdateringsprocessen, den kan innehålla användbar information. Den innehåller också länkar till nerladdningar och en logg över ändringar i den nya versionen.</p>
+		<h1>Utgivingskungörelsen</h1>
+		<p>Läs utgivingskungörelsen för den senaste versionen innan du fortsätter uppdateringsprocessen, den kan innehålla användbar information. Den innehåller också länkar till nerladdningar och en logg över ändringar i den nya versionen.</p>
 		<br />
 		<h1>Hur du uppdaterar din installation med det automatiska uppdateringspaketet</h1>
 		<p>Det rekommenderade sättet att uppdatera din installation som visas här är endast giltigt för det automatiska uppdateringspaketet. Du kan också uppdatera din installation genom sätten som visas i INSTALL.html-dokumentet. Stegen för att uppdatera phpBB3 automatiskt är:</p>
@@ -542,15 +546,12 @@ $lang = array_merge($lang, array(
 			<li>Ladda upp hela den okomprimerade install-mappen till din phpBB-rotkatalog (där din config.php-fil ligger).<br /><br /></li>
 		</ul>
 		<p>När du laddat upp denna så kommer ditt forum att vara offline för vanliga användare eftersom install-katalogen du laddade upp nu finns där.<br /><br />
-		<strong><a href="%2$s" title="%2$s">Börja nu uppdateringsprocessen genom att gå till install-katalogen i din webbläsare</a>.</strong><br />
+		<strong><a href="%1$s" title="%1$s">Börja nu uppdateringsprocessen genom att gå till install-katalogen i din webbläsare</a>.</strong><br />
 		<br />
 		Du kommer sedan att guidas genom uppdateringsprocessen. Du kommer meddelas när uppdateringen är slutförd.
 		</p>
 	',
-	'UPDATE_INSTRUCTIONS_INCOMPLETE'	=> '
-		<h1>Ej slutförd uppdatering upptäcktes</h1>
-		<p>phpBB upptäckte en ej slutförd automatiskt uppdatering. Försäkra dig om att du följde varje steg i det automatiska uppdateringsverktyget. Nedan hittar du länken igen, eller så går du direkt till install-katalogen.</p>
-	',
+
 	'UPDATE_METHOD'					=> 'Uppdateringsmetod',
 	'UPDATE_METHOD_EXPLAIN'			=> 'Du kan nu välja den uppdateringsmetod du föredrar. Om du använder FTP-uppladdning kommer du få fylla i dina FTP-kontodetaljer i ett formulär. Med denna metod kommer filerna automatiskt att flyttas till sin nya plats och säkerhetskopior av de gamla filerna kommer att skapas genom att lägga till .bak till filnamnen. Om du väljer att ladda ner de ändrade filerna kommer du att kunna packa upp och ladda upp dem till sin rätta plats senare.',
 	'UPDATE_REQUIRES_FILE'			=> 'Uppdateraren kräver att följande fil finns: %s',
@@ -560,7 +561,6 @@ $lang = array_merge($lang, array(
 	'UPDATING_DATA'					=> 'Uppdaterar data',
 	'UPDATING_TO_LATEST_STABLE'		=> 'Uppdaterar databasen till senaste versionen',
 	'UPDATED_VERSION'				=> 'Uppdaterad version',
-	'UPGRADE_INSTRUCTIONS'         => 'En version <strong>%1$s</strong> med nya funktioner är tillgänglig. Läs <a href="%2$s" title="%2$s"><strong>Anslaget om utgåvan</strong></a> för att lära dig mera om de nya funktionerna och hur du ska uppdatera ditt forum.',
 	'UPLOAD_METHOD'					=> 'Uppladdningsmetod',
 	'UPDATE_DB_SUCCESS'				=> 'Databasen har uppdaterats.',
 	'UPDATE_FILE_SUCCESS'			=> 'Filuppdateringen lyckades.',

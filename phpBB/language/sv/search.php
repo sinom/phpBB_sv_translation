@@ -1,29 +1,20 @@
 <?php
-/** 
+/**
 *
-* search [Swedish] (phpBB 3.0.11)
+* This file is part of Swedish phpBB translation.
+* Copyright (c) 2010 - 2014 Swedish translation group.
 *
-* @package language
-* @version $Id: search.php 36 2012-06-27 08:50:58Z Peetra.mammapappa $
-* @copyright (c) 2006 phpBB Group, modified and translated by Swedish translation team
-* @source file is copyright (c) 2005 phpBB Group, modified and translated by Swedish translation team
-* @license http://www.gnu.org/licenses/old-licenses/gpl-2.0.html GNU Public License version 2
-* @author (c) 2006-2008 Jonathan Gulbrandsen, 2008-2012 Petra Brandt
-* Translators: Swedish translation team, working at http://www.phpbb-se.com Contact team leader at peetra.mammapappa@gmail.com
 *
-* This file is part of the Swedish language package for phpBB 3.0.x.
-* Copyright (c) 2006-2012 Swedish translation team
+* This program is distributed in the hope that it will be useful,
+* but WITHOUT ANY WARRANTY; without even the implied warranty of
+* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+* GNU General Public License for more details.
 *
-* The Swedish language package for phpBB 3.0.x is free software; you can redistribute it and/or
-* modify it under the terms of the GNU General Public License as published by the Free Software
-* Foundation, version 2 of the License.
 *
-* The Swedish Language package for phpBB 3.0.x is distributed in the hope that it will be useful,
-* but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR
-* A PARTICULAR PURPOSE. See the GNU General Public License for more details.
-*
-* You should have received a copy of the GNU General Public License along with this language
-* package. If not, see <http://www.gnu.org/licenses/old-licenses/gpl-2.0.html>.
+* @package      phpBB Sweden
+* @author       Simon Assgård <sassgard@gmail.com> (Sinom) http://www.phpbb.se/
+* @copyright    phpBB Sweden
+* @license      @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
 *
 */
 
@@ -79,16 +70,22 @@ $lang = array_merge($lang, array(
 	'NO_RECENT_SEARCHES'	=> 'Inga sökningar har gjorts nyligen.',
 	'NO_SEARCH'				=> 'Du har inte tillåtelse att använda söksystemet.',
 	'NO_SEARCH_RESULTS'		=> 'Inga träffar hittades.',
-	'NO_SEARCH_TIME'		=> 'Du kan inte söka just nu. Försök igen om några minuter.',
+	'NO_SEARCH_TIME'		=> array(
+		1	=> 'Du kan inte söka just nu. Försök igen om %d sekund.',
+		2	=> 'Du kan inte söka just nu. Försök igen om %d sekunder.',
+	),
 	'NO_SEARCH_UNREADS'		=> 'Sökning efter olästa trådar är avslaget på detta forum',
+	'WORD_IN_NO_POST'		=> 'Inga inlägg hittades eftersom ordet <strong>%s</strong> inte finns i något inlägg.',
+	'WORDS_IN_NO_POST'		=> 'Inga inlägg hittades eftersom orden <strong>%s</strong> inte finns i något inlägg.',
 
 	'POST_CHARACTERS'		=> 'tecknen av inlägget',
+	'PHRASE_SEARCH_DISABLED'	=> 'Sökning utav exakta fraser är inte tillgängligt på detta forum.',
 
 	'RECENT_SEARCHES'		=> 'Senaste sökningarna',
 	'RESULT_DAYS'			=> 'Begränsa resultaten till inlägg nyare än',
 	'RESULT_SORT'			=> 'Sortera resultat efter',
 	'RETURN_FIRST'			=> 'Skriv ut första',
-	'RETURN_TO_SEARCH_ADV'	=> 'Återgå till avancerad sökning',
+	'GO_TO_SEARCH_ADV'		=> 'Gå till avancerad sökning',
 
 	'SEARCHED_FOR'				=> 'Sökterm använd',
 	'SEARCHED_TOPIC'			=> 'Sökte inom tråd',
@@ -116,10 +113,11 @@ $lang = array_merge($lang, array(
 	'SORT_POST_SUBJECT'			=> 'Inläggämne',
 	'SORT_TIME'					=> 'Datum',
 
-	'TOO_FEW_AUTHOR_CHARS'	=> 'Du måste ange minst %d tecken av författarens namn.',
+	'SPHINX_SEARCH_FAILED'		=> 'Sökningen misslyckades: %s',
+	'SPHINX_SEARCH_FAILED_LOG'	=> 'Ursäkta, sökningen lyckades inte. Mer information om detta finns att läsa i error loggen.',
 
-	'WORD_IN_NO_POST'		=> 'Inga inlägg hittades eftersom ordet <strong>%s</strong> inte finns i något inlägg.',
-	'WORDS_IN_NO_POST'		=> 'Inga inlägg hittades eftersom orden <strong>%s</strong> inte finns i något inlägg.',
+	'TOO_FEW_AUTHOR_CHARS'	=> array(
+		1	=> 'Du måste ange minst %d tecken av författarens namn.',
+		2	=> 'Du måste ange minst %d tecken av författarens namn.',
+	),
 ));
-
-?>

@@ -112,6 +112,9 @@ $lang = array_merge($lang, array(
 	'EXT_GROUP_REAL_MEDIA'         => 'Real Media',
 	'EXT_GROUP_WINDOWS_MEDIA'      => 'Windows Media',
 
+	'FILES_GONE'			=> 'Some of the attachments you selected for deletion do not exist. They may have been already deleted. Attachments that did exist were deleted.',
+	'FILES_STATS_WRONG'		=> 'Your file statistics are likely inaccurate and need to be resynchronised. Actual values: number of attachments = %1$d, total size of attachments = %2$s.<br />Click %3$shere%4$s to resynchronise them.',
+
 	'GO_TO_EXTENSIONS'		=> 'Gå till filtypshanteringen',
 	'GROUP_NAME'			=> 'Gruppnamn',
 
@@ -135,6 +138,7 @@ $lang = array_merge($lang, array(
 	'NOT_ALLOWED_IN_PM'			=> 'Endast tillåten i inlägg',
 	'NOT_ALLOWED_IN_PM_POST'	=> 'Inte tillåten',
 	'NOT_ASSIGNED'				=> 'Inte tilldelad',
+	'NO_ATTACHMENTS'			=> 'No attachments found for this period.',
 	'NO_EXT_GROUP'				=> 'Ingen',
 	'NO_EXT_GROUP_NAME'			=> 'Inget gruppnamn angivet',
 	'NO_EXT_GROUP_SPECIFIED'	=> 'Ingen filtypsgrupp angiven.',
@@ -150,7 +154,7 @@ $lang = array_merge($lang, array(
 
 	'REMOVE_ALLOWED_IPS'			=> 'Ta bort eller häv undantag för <em>tillåtna</em> IP-adresser/värdnamn',
 	'REMOVE_DISALLOWED_IPS'		=> 'Ta bort eller häv undantag för <em>otillåtna</em> IP-adresser/värdnamn',
-
+	'RESYNC_FILES_STATS_CONFIRM'	=> 'Are you sure you wish to resynchronise file statistics?',
 	'SEARCH_IMAGICK'				=> 'Sök efter Imagemagick',
 	'SECURE_ALLOW_DENY'				=> 'Tillåt/Neka-lista',
 	'SECURE_ALLOW_DENY_EXPLAIN'		=> 'Ändra standardbeteendet när säkra nerladdningar är aktiverade för Tillåt/Neka-listan till en <strong>whitelist</strong> (Tillåt) eller en <strong>blacklist</strong> (Neka).',

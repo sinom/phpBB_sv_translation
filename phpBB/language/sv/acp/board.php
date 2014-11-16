@@ -48,15 +48,19 @@ $lang = array_merge($lang, array(
 	'ACP_BOARD_SETTINGS_EXPLAIN'	=> 'Här kan du bestämma grundläggande inställningar för ditt forum, ge det ett passande namn och beskrivning, och bland många andra inställningar justera standardvärden för tidszon och språk.',
 	'BOARD_INDEX_TEXT'				=> 'Forumindextext',
 	'BOARD_INDEX_TEXT_EXPLAIN'		=> 'Detta är texten som kommer att visas på framsidan utav forumet. Om inget anges används "Forumindex".',
+	'BOARD_STYLE'					=> 'Board style',
 	'CUSTOM_DATEFORMAT'				=> 'Eget…',
 	'DEFAULT_DATE_FORMAT'			=> 'Datumformat',
 	'DEFAULT_DATE_FORMAT_EXPLAIN'	=> 'Datumformatet är samma som PHPs <code>date</code>-funktion.',
 	'DEFAULT_LANGUAGE'				=> 'Standardspråk',
 	'DEFAULT_STYLE'					=> 'Standardstil',
+	'DEFAULT_STYLE_EXPLAIN'			=> 'The default style for new users.',
 	'DISABLE_BOARD'					=> 'Inaktivera forumet',
 	'DISABLE_BOARD_EXPLAIN'			=> 'Detta kommer att göra forumet otillgängligt för användarna. Du kan också ange ett kort meddelande (255 tecken) som ska visas om du vill.',
 	'DISPLAY_LAST_SUBJECT'			=> 'Visa ämnet utav det senast skapta inlägget i forumlistan',
 	'DISPLAY_LAST_SUBJECT_EXPLAIN'	=> 'Ämnet utav det senast skapta inlägget kommer att visas i forumlistan med en hyperlänk till inlägget. Forum med lösenordsskyddade forum kommer inte att visas för obehöriga.',
+	'GUEST_STYLE'					=> 'Guest style',
+	'GUEST_STYLE_EXPLAIN'			=> 'The board style for guests.',
 	'OVERRIDE_STYLE'				=> 'Åsidosätt användarstil',
 	'OVERRIDE_STYLE_EXPLAIN'		=> 'Ersätter användarens stil med standardstilen.',
 	'SITE_DESC'						=> 'Webbplatsbeskrivning',
@@ -123,7 +127,7 @@ $lang = array_merge($lang, array(
 	'ALLOW_UPLOAD'					=> 'Aktivera uppladdning av visningsbilder',
 	'AVATAR_GALLERY_PATH'			=> 'Sökväg till visningsbildsgalleri',
 	'AVATAR_GALLERY_PATH_EXPLAIN'	=> 'Sökväg under din phpBB-rotkatalog, t.ex. <samp>images/avatars/gallery</samp>.',
-	'AVATAR_STORAGE_PATH'			=> 'Sökväg till visningsbilder',
+	'AVATAR_STORAGE_PATH'			=> 'Sökväg till visningsbilder (denna funktion kommer inte att fungera om mappen inte är skrivbar)',
 	'AVATAR_STORAGE_PATH_EXPLAIN'	=> 'Sökväg under din phpBB-rotkatalog, t.ex. <samp>images/avatars/upload</samp>.',
 	'MAX_AVATAR_SIZE'				=> 'Maximala visningsbildsdimensioner. Om detta värde är 0, begränsas storleken på filen som ska laddas upp endast av din PHP-konfiguration',
 	'MAX_AVATAR_SIZE_EXPLAIN'		=> 'Bredd x höjd i pixlar.',
@@ -308,7 +312,8 @@ $lang = array_merge($lang, array(
 ));
 // Visual Confirmation Settings
 $lang = array_merge($lang, array(
-	'ACP_VC_SETTINGS_EXPLAIN'            => 'Här kan du göra inställningar för tillägg som är designade att blockera spambots-registreringar på forumet. Tilläggen ger den blivande medlemmen en uppgift, som datorer i bästa fall inte kan lösa, t.ex <abbr title="Completely Automated Public Turing-test to tell Computers and Humans Apart">CAPTCHA</abbr>-uppgifter.',
+	'ACP_VC_SETTINGS_EXPLAIN'        	    => 'Här kan du göra inställningar för tillägg som är designade att blockera spambots-registreringar på forumet. Tilläggen ger den blivande medlemmen en uppgift, som datorer i bästa fall inte kan lösa, t.ex <abbr title="Completely Automated Public Turing-test to tell Computers and Humans Apart">CAPTCHA</abbr>-uppgifter.',
+	'ACP_VC_EXT_GET_MORE'					=> 'For additional (and possibly better) anti-spam plugins, visit the <a href="https://www.phpbb.com/go/anti-spam-ext"><strong>phpBB.com Extensions Database</strong></a>. For more information on preventing spam on your board, visit the <a href="https://www.phpbb.com/go/anti-spam"><strong>phpBB.com Knowledge Base</strong></a>.',
 	'AVAILABLE_CAPTCHAS'					=> 'Tillgängliga tillägg',
 	'CAPTCHA_UNAVAILABLE'					=> 'CAPTCHAn kan inte väljas, då dess krav inte uppfylls.',
 	'CAPTCHA_GD'							=> 'GD bild',
@@ -364,12 +369,26 @@ $lang = array_merge($lang, array(
 	'SESSION_LENGTH_EXPLAIN'	=> 'Sessioner kommer att förfalla efter denna tid, i sekunder.',
 ));
 
+// Contact Settings
+$lang = array_merge($lang, array(
+	'ACP_CONTACT_SETTINGS_EXPLAIN'	=> 'Here you can enable and disable the contact page and also add a text that is displayed on the page.',
+
+	'CONTACT_US_ENABLE'				=> 'Enable contact page',
+	'CONTACT_US_ENABLE_EXPLAIN'		=> 'This page allows users to send emails to board administrators',
+
+	'CONTACT_US_INFO'				=> 'Contact information',
+	'CONTACT_US_INFO_EXPLAIN'		=> 'The message is displayed on the contact page',
+	'CONTACT_US_INFO_PREVIEW'		=> 'Contact page information - Preview',
+	'CONTACT_US_INFO_UPDATED'		=> 'Contact page information has been updated.',
+));
+
 // Load Settings
 $lang = array_merge($lang, array(
 	'ACP_LOAD_SETTINGS_EXPLAIN'	=> 'Här kan du aktivera och inaktivera vissa forumfunktioner för att minska mängden databehandling som krävs. På de flesta servrar så är det inte nödvändigt att inaktivera någon av dessa funktioner. På vissa system eller i delade webbhotellsmiljöer kan det vara bra att inaktivera funktioner som du inte behöver. Du kan också ange gränser för systembelastning och aktiva sessioner som när de överträds så kommer forumet att gå offline.',
 	'ALLOW_CDN'						=> 'Tillåt användningen utav tredje-parts innehållsleveransnätverk.',
 	'ALLOW_CDN_EXPLAIN'				=> 'Om denna inställning är aktiverad, några filer kommer att hanterade utav tredje parts servrar iställer för din egna webbserver. Detta reducerar bandbredden som krävs utav din server, men kan vara en säkerhetsrisk för vissa administratörer.',
-
+	'ALLOW_LIVE_SEARCHES'			=> 'Allow live searches',
+	'ALLOW_LIVE_SEARCHES_EXPLAIN'	=> 'If this setting is enabled, users are provided with keyword suggestions as they type in certain fields throughout the board.',
 	'CUSTOM_PROFILE_FIELDS'			=> 'Egna profilfält',
 	'LIMIT_LOAD'					=> 'Gräns för systembelastning',
 	'LIMIT_LOAD_EXPLAIN'			=> 'Om systemets 1-minutsbelastning överskrider detta värde så kommer forumet automatiskt att gå offline. Ett värde av 1.0 är lika med ~100% användning av en processor. Detta fungerar endast på UNIX-baserade servrar där informationen finns tillgänglig. Värdet kommer här att återställa sig själv till 0 om phpBB inte kunde hitta serverbelastningen.',
@@ -418,6 +437,7 @@ $lang = array_merge($lang, array(
 
 	'APACHE_SETUP_BEFORE_USE'	=> 'Du måste ställa in apache autentisering innan du kan ändra phpBB till denna autentiseringsmetod. Kom ihåg att användarnamnet som du använder för apacheautentiseringen måste vara samma som ditt phpBB-användarnamn. Apacheautentisering kan endast användas med mod_php (inte med CGI versionen) och med safe_mode inaktiverat.',
 
+	'LDAP'							=> 'LDAP',
 	'LDAP_DN'						=> 'LDAP bas <var>dn</var>',
 	'LDAP_DN_EXPLAIN'				=> 'Detta är “Distinguished Name”, används för att lokalisera användarinformationen, t.ex. <samp>o=My Company,c=US</samp>.',
 	'LDAP_EMAIL'					=> 'LDAP e-postattribut',
@@ -541,6 +561,8 @@ $lang = array_merge($lang, array(
 	'BOARD_HIDE_EMAILS_EXPLAIN'		=> 'Denna funktion håller alla e-postadresser fullständigt privata.',
 	'CONTACT_EMAIL'					=> 'E-postadress för att kontakta forumet',
 	'CONTACT_EMAIL_EXPLAIN'			=> 'Denna adress kommer användas när en specifik kontaktpunkt behövs, t.ex. spam, felmeddelanden, osv. Den kommer alltid att användas som <samp>From</samp> och <samp>Reply-To</samp> adress i e-postmeddelanden.',
+	'CONTACT_EMAIL_NAME'			=> 'Contact name',
+	'CONTACT_EMAIL_NAME_EXPLAIN'	=> 'This is the contact name that e-mail recipients will see. If you don’t want to have a contact name, leave this field empty.',
 	'EMAIL_FUNCTION_NAME'			=> 'E-postfunktionsnamn',
 	'EMAIL_FUNCTION_NAME_EXPLAIN'	=> 'E-postfunktionen som ska användas för att skicka e-post genom PHP.',
 	'EMAIL_PACKAGE_SIZE'			=> 'Paketstorlek för e-post',

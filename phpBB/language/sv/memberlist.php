@@ -1,29 +1,20 @@
 <?php
-/** 
+/**
 *
-* memberlist [Swedish] (phpBB 3.0.11)
+* This file is part of Swedish phpBB translation.
+* Copyright (c) 2010 - 2014 Swedish translation group.
 *
-* @package language
-* @version $Id: memberlist.php 36 2012-06-27 08:50:58Z Peetra.mammapappa $
-* @copyright (c) 2006 phpBB Group, modified and translated by Swedish translation team
-* @source file is copyright (c) 2005 phpBB Group, modified and translated by Swedish translation team
-* @license http://www.gnu.org/licenses/old-licenses/gpl-2.0.html GNU Public License version 2
-* @author (c) 2006-2008 Jonathan Gulbrandsen, 2008-2012 Petra Brandt
-* Translators: Swedish translation team, working at http://www.phpbb-se.com Contact team leader at peetra.mammapappa@gmail.com 
 *
-* This file is part of the Swedish language package for phpBB 3.0.x.
-* Copyright (c) 2006-2012 Swedish translation team
+* This program is distributed in the hope that it will be useful,
+* but WITHOUT ANY WARRANTY; without even the implied warranty of
+* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+* GNU General Public License for more details.
 *
-* The Swedish language package for phpBB 3.0.x is free software; you can redistribute it and/or
-* modify it under the terms of the GNU General Public License as published by the Free Software
-* Foundation, version 2 of the License.
 *
-* The Swedish Language package for phpBB 3.0.x is distributed in the hope that it will be useful,
-* but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR
-* A PARTICULAR PURPOSE. See the GNU General Public License for more details.
-*
-* You should have received a copy of the GNU General Public License along with this language
-* package. If not, see <http://www.gnu.org/licenses/old-licenses/gpl-2.0.html>.
+* @package      phpBB Sweden
+* @author       Simon Assgård <sassgard@gmail.com> (Sinom) http://www.phpbb.se/
+* @copyright    phpBB Sweden
+* @license      @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
 *
 */
 
@@ -64,10 +55,12 @@ $lang = array_merge($lang, array(
 	'BEFORE'				=> 'Före',
 
 	'CC_EMAIL'				=> 'Skicka en kopia av detta e-postmeddelande till mig själv.',
-	'CONTACT_USER'			=> 'Kontaktinformation',
+	'CONTACT_ADMIN'			=> 'Kontakta en forumadministratör',
 
 	'DEST_LANG'				=> 'Språk',
 	'DEST_LANG_EXPLAIN'		=> 'Välj ett språk om passar för mottagaren (om det finns tillgängligt) av detta meddelande.',
+
+	'EDIT_PROFILE'			=> 'Redigera profil',
 
 	'EMAIL_BODY_EXPLAIN'	=> 'Detta meddelande kommer att skickas som oformaterad text, använd inte HTML eller BBCode. Svarsadressen för detta e-postmeddelande kommer att vara din e-postadress.',
 	'EMAIL_DISABLED'		=> 'Alla e-postrelaterade funktioner har inaktiverats.',
@@ -77,6 +70,8 @@ $lang = array_merge($lang, array(
 	'EMPTY_MESSAGE_EMAIL'	=> 'Du måste skriva ett meddelande.',
 	'EMPTY_MESSAGE_IM'		=> 'Du måste skriva ett meddelande att skicka.',
 	'EMPTY_NAME_EMAIL'		=> 'Du måste ange mottagarens riktiga namn.',
+	'EMPTY_SENDER_EMAIL'	=> 'Du måste ange en giltlig e-postadress.',
+	'EMPTY_SENDER_NAME'		=> 'Du måste ange ett namn.',
 	'EMPTY_SUBJECT_EMAIL'	=> 'Du måste ange ett ämne för e-postmeddelandet.',
 	'EQUAL_TO'				=> 'Lika med',
 
@@ -88,16 +83,10 @@ $lang = array_merge($lang, array(
 	'HIDE_MEMBER_SEARCH'	=> 'Dölj medlemssök',
 
 	'IM_ADD_CONTACT'		=> 'Lägg till kontakt',
-	'IM_AIM'				=> 'Du måste ha AOL Instant Messenger installerat för att använda detta.',
-	'IM_AIM_EXPRESS'		=> 'AIM Express',
 	'IM_DOWNLOAD_APP'		=> 'Ladda ner program',
-	'IM_ICQ'				=> 'Kom ihåg att användaren kan ha valt att inte ta emot oombedda snabbmeddelanden.',
 	'IM_JABBER'				=> 'Kom ihåg att användaren kan ha valt att inte ta emot oombedda snabbmeddelanden.',
 	'IM_JABBER_SUBJECT'		=> 'Detta är ett automatiskt meddelande - svara inte! Meddelande from användare %1$s på %2$s.',
 	'IM_MESSAGE'			=> 'Ditt meddelande',
-	'IM_MSNM'				=> 'Du måste ha Windows Live Messenger installerat för att använda detta.',
-	'IM_MSNM_BROWSER'		=> 'Din webbläsare stödjer inte detta.',
-	'IM_MSNM_CONNECT'		=> 'MSNM/WLM är inte ansluten.\nDu måste ansluta MSNM/WLM för att fortsätta.',
 	'IM_NAME'				=> 'Ditt namn',
 	'IM_NO_DATA'			=> 'Det finns ingen passande kontaktinformation för denna användare.',
 	'IM_NO_JABBER'			=> 'Det går inte att skicka meddelande till Jabberanvändare på detta forum. Du måste ha en Jabberklient installerad på din dator för att kontakta mottagaren ovan.',
@@ -109,15 +98,19 @@ $lang = array_merge($lang, array(
 
 	'LAST_ACTIVE'				=> 'Senast aktiv',
 	'LESS_THAN'					=> 'Mindre än',
-	'LIST_USER'					=> '1 användare',
-	'LIST_USERS'				=> '%d användare',
-	'LOGIN_EXPLAIN_LEADERS'		=> 'Forumet kräver att du registrerar dig och loggar in för att visa teamlistan.',
+	'LIST_USERS'				=> array(
+		1	=> '%d användare',
+		2	=> '%d användare',
+	),
+	'LOGIN_EXPLAIN_TEAM'		=> 'Forumet kräver att du registrerar dig och loggar in för att visa teamlistan.',
 	'LOGIN_EXPLAIN_MEMBERLIST'	=> 'Forumet kräver att du registrerar dig och loggar in för att visa medlemslistan.',
 	'LOGIN_EXPLAIN_SEARCHUSER'	=> 'Forumet kräver att du registrerar dig och loggar in för att söka efter medlemmar.',
 	'LOGIN_EXPLAIN_VIEWPROFILE'	=> 'Forumet kräver att du registrerar dig och loggar in för att visa profiler.',
 
 	'MORE_THAN'				=> 'Mer än',
 
+	'NO_CONTACT_FORM'		=> 'Forumets administratörs kontaktformulär har inaktiverats.',
+	'NO_CONTACT_PAGE'		=> 'Forumets administratörs kontaktsida har inaktiverats.',
 	'NO_EMAIL'				=> 'Du har inte tillåtelse att skicka e-post till denna användare.',
 	'NO_VIEW_USERS'			=> 'Du har inte tillåtelse att visa medlemslistan eller profiler.',
 
@@ -133,12 +126,12 @@ $lang = array_merge($lang, array(
 
 	'SELECT_MARKED'			=> 'Välj markerade',
 	'SELECT_SORT_METHOD'	=> 'Välj sorteringsmetod',
-	'SEND_AIM_MESSAGE'		=> 'Skicka AIM-meddelande',
+	'SENDER_EMAIL_ADDRESS'	=> 'Din e-postadress',
+	'SENDER_NAME'			=> 'Ditt namn',
 	'SEND_ICQ_MESSAGE'		=> 'Skicka ICQ-meddelande',
 	'SEND_IM'				=> 'Snabbmeddelanden',
 	'SEND_JABBER_MESSAGE'	=> 'Skicka Jabber-meddelande',
 	'SEND_MESSAGE'			=> 'Meddelande',
-	'SEND_MSNM_MESSAGE'		=> 'Skicka MSNM/WLM-meddelande',
 	'SEND_YIM_MESSAGE'		=> 'Skicka YIM-meddelande',
 	'SORT_EMAIL'			=> 'E-post',
 	'SORT_LAST_ACTIVE'		=> 'Senast aktiv',
@@ -157,9 +150,10 @@ $lang = array_merge($lang, array(
 	'USER_PRESENCE'			=> 'Allmänt',
 
 	'VIEWING_PROFILE'		=> 'Visar profil - %s',
-	'VISITED'				=> 'Senaste besöket',
+	'VIEW_FACEBOOK_PROFILE'	=> 'Visa Facebook profil',
+	'VIEW_SKYPE_PROFILE'	=> 'Visa Skype profil',
+	'VIEW_TWITTER_PROFILE'	=> 'Visa Twitter profil',
+	'VIEW_YOUTUBE_CHANNEL'  => 'Visa YouTube-kanal',
+	'VIEW_GOOGLEPLUS_PROFILE' => 'Visa Google+ profil',
 
-	'WWW'					=> 'Webbplats',
 ));
-
-?>

@@ -231,25 +231,36 @@ $lang = array_merge($lang, array(
 	'NO_POST'						=> 'Du måste välja ett inlägg för att varna användaren för ett inlägg.',
 	'NO_POST_REPORT'				=> 'Detta inlägg rapporterades inte.',
 	'NO_POST_SELECTED'				=> 'Du måste välja minst ett inlägg för att utföra denna åtgärd.',
+	
+	'NO_POSTS_DELETED'				=> 'Det finns inga borttagna inlägg.',
+	'NO_POSTS_QUEUE'				=> 'Det finns inga inlägg som väntar på godkännande.',
+
 	'NO_REASON_DISAPPROVAL'			=> 'Ange en passande anledning för avslag.',
  	'NO_REPORT'						=> 'Ingen rapport hittades',
  	'NO_REPORTS'					=> 'Inga rapporter hittades',
  	'NO_REPORT_SELECTED'			=> 'Du måste välja minst en rapport för att utföra denna åtgärd.',
 	'NO_TOPIC_ICON'					=> 'Ingen',
 	'NO_TOPIC_SELECTED'				=> 'Du måste välja minst en tråd för att utföra denna åtgärd.',
- 	'NO_TOPICS_QUEUE'				=> 'Det finns inga trådar som väntar på godkännande.',
+
+	'NO_TOPICS_DELETED'				=> 'There are no deleted topics.',
+	'NO_TOPICS_QUEUE'				=> 'Det finns inga trådar som väntar på godkännande.',
 
 	'ONLY_TOPIC'			=> 'Endast tråd “%s”',
 	'OTHER_USERS'			=> 'Andra användare som postar från detta IP',
 
+	'QUICKMOD_ACTION_NOT_ALLOWED' => "%s not allowed as quickmod",
+
 	'PM_REPORT_CLOSED_SUCCESS'	=> 'Den valda PM-rapporten stängdes.',
 	'PM_REPORT_DELETED_SUCCESS'	=> 'Den valda PM-rapporten togs bort.',
 	'PM_REPORTED_SUCCESS'		=> 'Detta privata meddelande har nu rapporterats.',
-	'PM_REPORT_TOTAL'		=> 'Det finns totalt <strong>1</strong> PM-rapport att granska.',
-	'PM_REPORTS_TOTAL'		=> 'Det finns totalt <strong>%d</strong> PM-rapporter att granska..',
 	'PM_REPORTS_CLOSED_SUCCESS'	=> 'De valda PM-rapporterna har stängts.',
 	'PM_REPORTS_DELETED_SUCCESS'	=> 'De valda PM-rapporterna har raderats.',
-	'PM_REPORTS_ZERO_TOTAL'		=> 'Det finns inga PM-rapporter att granska.',
+	'PM_REPORTS_TOTAL'			=> array(
+		0	=> 'Det finns inga PM-rapporter att granska.',
+		1	=> 'Det finns totalt <strong>1</strong> PM-rapport att granska.',
+		2	=> 'Det finns totalt <strong>%d</strong> PM-rapporter att granska.',
+	),
+
 	'PM_REPORT_DETAILS'		=> 'Rapportdetaljer för PM',
 	'POSTER'			=> 'Postare',
 	'POSTS_APPROVED_SUCCESS'	=> 'De valda inläggen godkändes.',
@@ -257,16 +268,21 @@ $lang = array_merge($lang, array(
 	'POSTS_DISAPPROVED_SUCCESS'	=> 'De valda inläggen avslogs.',
 	'POSTS_LOCKED_SUCCESS'		=> 'De valda inläggen låstes.',
 	'POSTS_MERGED_SUCCESS'		=> 'De valda inläggen sammanfogades.',
-	'POSTS_UNLOCKED_SUCCESS'	=> 'De valda inläggen låstes upp.',
 	'POSTS_PER_PAGE'		=> 'Inlägg per sida',
 	'POSTS_PER_PAGE_EXPLAIN'	=> '(Sätt till 0 för att visa alla inlägg.)',
+
+	'POSTS_RESTORED_SUCCESS'	=> 'De valda inläggen har återställts.',
+	'POSTS_UNLOCKED_SUCCESS'	=> 'De valda inläggen har låsts upp.',
+
 	'POST_APPROVED_SUCCESS'		=> 'Det valda inlägget godkändes.',
 	'POST_DELETED_SUCCESS'		=> 'Det valda inlägget togs bort från databasen.',
 	'POST_DISAPPROVED_SUCCESS'	=> 'Det valda inlägget avslogs.',
 	'POST_LOCKED_SUCCESS'		=> 'Inlägget låstes.',
 	'POST_NOT_EXIST'			=> 'Inlägget du efterfrågade finns inte.',
 	'POST_REPORTED_SUCCESS'		=> 'Inlägget rapporterades.',
+	'POST_RESTORED_SUCCESS'		=> 'Detta inlägget har återställts.',
 	'POST_UNLOCKED_SUCCESS'		=> 'Inlägget låstes upp.',
+
 
 	'READ_USERNOTES'			=> 'Användaranteckningar',
 	'READ_WARNINGS'				=> 'Användarvarningar',
@@ -276,8 +292,13 @@ $lang = array_merge($lang, array(
 	'REPORTED_ON_DATE'			=> '',
 	'REPORTS_CLOSED_SUCCESS'	=> 'De valda rapporterna stängdes.',
 	'REPORTS_DELETED_SUCCESS'	=> 'De valda rapporterna togs bort.',
-	'REPORTS_TOTAL'				=> 'Det finns totalt <strong>%d</strong> rapporter att granska.',
-	'REPORTS_ZERO_TOTAL'		=> 'Det finns inga rapporter att granska.',
+
+	'REPORTS_TOTAL'				=> array(
+		0	=> 'Det finns inga rapporter att granska.',
+		1	=> 'Det finns totalt <strong>%d</strong> rapport att granska.',
+		2	=> 'Det finns totalt <strong>%d</strong> rapporter att granska.',
+	),
+
 	'REPORT_CLOSED'				=> 'Denna rapport har redan stängts.',
 	'REPORT_CLOSED_SUCCESS'		=> 'Den valda rapporten stängdes.',
 	'REPORT_DELETED_SUCCESS'	=> 'Den valda rapporten togs bort.',
@@ -289,7 +310,17 @@ $lang = array_merge($lang, array(
 	'REPORT_POST_EXPLAIN'		=> 'Använd detta formulär för att rapportera det valda inlägget till kategorins moderatorer och till forumadministratörerna. Du bör endast rapportera meddelandet  om det bryter mot forumets regler.',
 	'REPORT_REASON'				=> 'Rapportanledning',
 	'REPORT_TIME'				=> 'Rapporttid',
-	'REPORT_TOTAL'				=> 'Det finns totalt <strong>1</strong> rapport att granska.',
+
+	'RESTORE'					=> 'Återställ',
+	'RESTORE_POST'				=> 'Återställ inlägg',
+	'RESTORE_POST_CONFIRM'		=> 'Är du säker på att du vill återställa detta inlägg?',
+	'RESTORE_POSTS'				=> 'Återställ inlägg',
+	'RESTORE_POSTS_CONFIRM'		=> 'Är du säker på att du vill återställa valda inlägg?',
+	'RESTORE_TOPIC'				=> 'Återställ tråd',
+	'RESTORE_TOPIC_CONFIRM'		=> 'Är du säker på att du vill återställa denna tråd?',
+	'RESTORE_TOPICS'			=> 'Återställ trådar',
+	'RESTORE_TOPICS_CONFIRM'	=> 'Är du säker på att du vill återställa valda trådar?',
+
 	'RESYNC'					=> 'Synkronisera',
 	'RETURN_MESSAGE'			=> '%sÅtergå till meddelandet%s',
 	'RETURN_NEW_FORUM'			=> '%sGå till den nya kategorin%s',
@@ -330,6 +361,8 @@ $lang = array_merge($lang, array(
 	'TOPICS_FORKED_SUCCESS'		=> 'De valda trådarna kopierades.',
 	'TOPICS_LOCKED_SUCCESS'		=> 'De valda trådarna låstes.',
 	'TOPICS_MOVED_SUCCESS'		=> 'De valda trådarna flyttades.',
+	'TOPICS_RESTORED_SUCCESS'	=> 'De valda trådarna har återställts.',
+	
 	'TOPICS_RESYNC_SUCCESS'		=> 'De valda trådarna synkroniserades.',
 	'TOPICS_UNLOCKED_SUCCESS'	=> 'De valda trådarna låstes upp.',
 	'TOPIC_APPROVED_SUCCESS'	=> 'Den valda tråden godkändes.',
@@ -339,6 +372,8 @@ $lang = array_merge($lang, array(
 	'TOPIC_LOCKED_SUCCESS'		=> 'Den valda tråden låstes.',
 	'TOPIC_MOVED_SUCCESS'		=> 'Den valda tråden flyttades.',
 	'TOPIC_NOT_EXIST'			=> 'Den valda tråden finns inte.',
+	'TOPIC_RESTORED_SUCCESS'	=> 'Den valda tråden har återställts.',
+
 	'TOPIC_RESYNC_SUCCESS'		=> 'Den valda tråden synkroniserades.',
 	'TOPICS_TYPE_CHANGED'		=> 'Trådtyperna byttes.',
 	'TOPIC_SPLIT_SUCCESS'		=> 'Den valda tråden delades.',
@@ -347,9 +382,12 @@ $lang = array_merge($lang, array(
 	'TOPIC_UNLOCKED_SUCCESS'	=> 'Den valda tråden låstes upp.',
 	'TOTAL_WARNINGS'			=> 'Totalt antal varningar',
 
-	'UNAPPROVED_POSTS_TOTAL'		=> 'Det finns totalt <strong>%d</strong> inlägg som väntar på godkännande.',
-	'UNAPPROVED_POSTS_ZERO_TOTAL'	=> 'Det finns inga inlägg som väntar på godkännande.',
-	'UNAPPROVED_POST_TOTAL'			=> 'Det finns totalt <strong>1</strong> inlägg som väntar på godkännande.',
+	'UNAPPROVED_POSTS_TOTAL'		=> array(
+		0	=> 'Det finns inga inlägg som väntar på godkännande.',
+		1	=> 'Det finns totalt <strong>1</strong> inlägg som väntar på godkännande.',
+		2	=> 'Det finns totalt <strong>%d</strong> inlägg som väntar på godkännande.',
+	),
+	
 	'UNLOCK'						=> 'Lås upp',
 	'UNLOCK_POST'					=> 'Lås upp inlägg',
 	'UNLOCK_POST_EXPLAIN'			=> 'Tillåt redigering',
@@ -374,7 +412,7 @@ $lang = array_merge($lang, array(
 	'WARNING_PM_BODY'		=> 'Följande är en varning som har utfärdats mot dig av en administratör eller moderator på detta forum.[quote]%s[/quote]',
 	'WARNING_PM_SUBJECT'	=> 'Varning utfärdad',
 	'WARNING_POST_DEFAULT'	=> 'Detta är en varning för följande inlägg: %s.',
-	'WARNINGS_ZERO_TOTAL'	=> 'Inga varningar finns.',
+	'NO_WARNINGS'			=> 'Inga varningar finns.',
 	'YOU_SELECTED_TOPIC'	=> 'Du valde tråd nummer %d: %s.',
 	'report_reasons'		=> array(
 		'TITLE'	=> array(
@@ -388,7 +426,6 @@ $lang = array_merge($lang, array(
 			'SPAM'		=> 'Meddelandet innehåller reklam för en annan webbplats eller produkt.',
 			'OFF_TOPIC'	=> 'Meddelandet håller sig inte till ämnet.',
 			'OTHER'		=> 'Meddelandet passar inte in i någon av ovanstående kategorier, använd fältet för vidare information.',
-		)
+		),
 	),
 ));
-?>
