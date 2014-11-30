@@ -57,4 +57,3 @@ $lang = array_merge($lang, array(
 	'RECAPTCHA_EXPLAIN'				=> 'För att förhindra automatiska registreringar så kräver forumet att du skriver in en verifieringskod. Koden visas i bilden nedan.',
 	'RECAPTCHA_SOCKET_ERROR'		=> 'Det var ett problem med att kontakta RECAPTCHA-tjänsten: kunde inte öppna anslutning. Försök igen senare.',
 ));
-

@@ -427,7 +427,7 @@ $lang = array_merge($lang, array(
 
 	'EDIT_USERNAME'						=> 'Redigera användarnamn',
 	'ERROR'								=> 'Error',
-	'EVERYTHING_UP_TO_DATE'				=> 'Allting är senaste versionen utav phpBB. Du borde nu <a href="%1$s">logga in på ditt forum</a>. Försäkra dig om att allting fungerar som det skall. Glöm inte att ta bort, eller byta namn på install-katalogen!',
+	'EVERYTHING_UP_TO_DATE'				=> 'Allting är senaste versionen utav phpBB. Du borde nu <a href="%1$s">logga in på ditt forum</a>. Försäkra dig om att allting fungerar som det skall. Glöm inte att ta bort, eller byta namn på install-katalogen! <a href="%2$s">Skicka gärna statistik</a> via Administrationspanelen.',
 	
 	'FILE_ALREADY_UP_TO_DATE'		=> 'Filerna är redan uppdaterade.',
 	'FILE_DIFF_NOT_ALLOWED'			=> 'Filerna får inte diffas.',

@@ -68,4 +68,3 @@ $lang = array_merge($lang, array(
 	'QA_ERROR_MSG'				=> 'Var god fyll i alla fält och ange minst ett svar.',
 	'QA_LAST_QUESTION'			=> 'Du kan inte ta bort alla frågor medan tillägget är aktivt.',
 ));
-

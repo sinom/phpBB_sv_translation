@@ -237,8 +237,8 @@ $lang = array_merge($lang, array(
 	'FOLDER_ADDED'				=> 'Mappen lades till.',
 
 	'FOLDER_MESSAGE_STATUS'		=> array(
-		1	=> '%2$s utav %1$s lagrade',
-		2	=> '%2$s utav %1$s lagrade',
+		1	=> '%2$d utav %1$s lagrade',
+		2	=> '%2$d utav %1$s lagrade',
 	),
 	'FOLDER_NAME_EMPTY'			=> 'Du måste ange ett namn för denna mapp.',
 	'FOLDER_NAME_EXIST'			=> 'Mappen <strong>%s</strong> finns redan.',

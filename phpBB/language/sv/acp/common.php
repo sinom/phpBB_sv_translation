@@ -781,7 +781,7 @@ $lang = array_merge($lang, array(
 	'LOG_WARNING_DELETED'		=> '<strong>Tog bort användarvarning</strong><br />» %s',
 	'LOG_WARNINGS_DELETED'		=> array(
 		1 => '<strong>Tog användarvarning</strong><br />» %1$s',
-		2 => '<strong>Tog bort %2$s användarvarningar</strong><br />» %1$s', // Example: '<strong>Deleted 2 user warnings</strong><br />» username'
+		2 => '<strong>Tog bort %2$d användarvarningar</strong><br />» %1$s', // Example: '<strong>Deleted 2 user warnings</strong><br />» username'
 	),
 	'LOG_WARNINGS_DELETED_ALL'	=> '<strong>Tog bort alla användarvarningar</strong><br />» %1$s',
 

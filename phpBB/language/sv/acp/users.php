@@ -148,4 +148,3 @@ $lang = array_merge($lang, array(
 	'USER_WARNING_LOG_DELETED'		=> 'Det finns ingen tillgänglig information, loggen har kanske raderats.',
 	'USER_TOOLS'					=> 'Grundläggande verktyg',
 ));
-

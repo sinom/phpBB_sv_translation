@@ -203,7 +203,7 @@ $lang = array_merge($lang, array(
 	'DOWNLOAD_COUNTS'		=> array(
 		0	=> 'Inte nerladdad ännu',
 		1	=> 'Nerladdad %d gång',
-		2	=> 'Nerladdad %d gång',
+		2	=> 'Nerladdad %d gånger',
 	),
 
 	'EDIT_POST'							=> 'Redigera inlägg',

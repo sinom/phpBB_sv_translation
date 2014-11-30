@@ -9,4 +9,5 @@ Använd denna länk för att visa användarens profil:
 
 Använd denna länk för att aktivera kontot:
 {U_ACTIVATE}
+
 {EMAIL_SIG}
