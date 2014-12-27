@@ -54,7 +54,7 @@ $lang = array_merge($lang, array(
 
 	'BEFORE'				=> 'Före',
 
-	'CC_EMAIL'				=> 'Skicka en kopia av detta e-postmeddelande till mig själv.',
+	'CC_SENDER'				=> 'Skicka en kopia av detta e-postmeddelande till mig själv.',
 	'CONTACT_ADMIN'			=> 'Kontakta en forumadministratör',
 
 	'DEST_LANG'				=> 'Språk',
