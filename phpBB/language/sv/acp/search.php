@@ -91,7 +91,7 @@ $lang = array_merge($lang, array(
 	'FULLTEXT_SPHINX_WRONG_DATABASE'      => 'Sphinx sökmotor för phpBB stöder endast MySQL och PostgreSQL.',
 	'FULLTEXT_SPHINX_CONFIG_FILE'         => 'Sphinx konfigureringsfil',
 	'FULLTEXT_SPHINX_CONFIG_FILE_EXPLAIN'   => 'Innehållet som genererats för sphinx konfigureringsfil. Detta måste kopieras till filen sphinx.conf som används av sphinx sökmotor daemon.',
-	'FULLTEXT_SPHINX_NO_CONFIG_DATA'      => 'Sphinx data och konfigureringssökvägar har ej angivits. Ange dem för att generera konfigureringsfilen.',
+	'FULLTEXT_SPHINX_NO_CONFIG_DATA'      => 'Sphinx datans konfigureringssökvägar har ej angivits. Ange dem för att generera konfigureringsfilen.',
 
 	'GENERAL_SEARCH_SETTINGS'				=> 'Allmänna sökinställningar',
 	'GO_TO_SEARCH_INDEX'					=> 'Gå till sökindexsidan',

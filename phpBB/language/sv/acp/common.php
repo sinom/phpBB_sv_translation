@@ -561,6 +561,7 @@ $lang = array_merge($lang, array(
 	'LOG_LOCK_POST'				=> '<strong>Låste inlägg</strong><br />» %s',
 	'LOG_MERGE'					=> '<strong>Sammanfogade inlägg</strong> till tråd<br />» %s',
 	'LOG_MOVE'					=> '<strong>Flyttade tråd</strong><br />» från %1$s till %2$s',
+	'LOG_MOVED_TOPIC'			=> '<strong>Flyttade tråd</strong><br />» %s',
 	'LOG_PM_REPORT_CLOSED'		=> '<strong>Stängde rapport av pm</strong><br />» %s',
 	'LOG_PM_REPORT_DELETED'		=> '<strong>Raderade rapport av pm</strong><br />» %s',
 	'LOG_POST_APPROVED'			=> '<strong>Godkände inlägg</strong><br />» %s',

@@ -61,7 +61,7 @@ $lang = array_merge($lang, array(
 
 		<br />
 
-		<p>För mer information om hur man ställer in och hanterar behörigheter på ditt phpBB3-forum, se <a href="http://www.phpbb.com/support/documentation/3.0/quickstart/quick_permissions.html">kapitel 1.5 i vår Snabbstartsguide</a>.</p>',
+		<p>För mer information om hur man ställer in och hanterar behörigheter på ditt phpBB3-forum, se <a href="https://www.phpbb.com/support/docs/en/3.1/ug/quickstart/permissions/"> i vår Snabbstartsguide</a>.</p>',
 
 	'ACL_NEVER'				=> 'Aldrig',
 	'ACL_SET'				=> 'Ställer in behörigheter',
