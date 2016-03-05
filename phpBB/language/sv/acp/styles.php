@@ -82,5 +82,6 @@ $lang = array_merge($lang, array(
 	'STYLE_UNINSTALLED'			=> 'Style "%s" uninstalled successfully.',
 	'STYLE_USED_BY'				=> 'Används av (inklusive robotar)',
 	'UNINSTALL_DEFAULT'		=> 'Du kan inte avinstallera standardstilen.',
+	'BROWSE_STYLES_DATABASE'	=> 'Bläddra i stildatabasen',
 
 ));

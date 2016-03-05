@@ -2,7 +2,7 @@
 /**
 *
 * This file is part of Swedish phpBB translation.
-* Copyright (c) 2010 - 2014 Swedish translation group.
+* Copyright (c) 2010 - 2016 Swedish translation group.
 *
 *
 * This program is distributed in the hope that it will be useful,
@@ -336,6 +336,7 @@ $lang = array_merge($lang, array(
 	'IMAGE_FILETYPE_INVALID'	=> 'Bildtyp %d för MIME-typ %s stöds inte.',
 	'IMAGE_FILETYPE_MISMATCH'	=> 'Bildtyp matchade inte: förväntad filändelse %1$s men filändelsen %2$s gavs.',
 	'IN'						=> 'i',
+	'INACTIVE'					=> 'Inaktiv'
 	'INDEX'						=> 'Index',
 	'INFORMATION'				=> 'Information',
 
@@ -479,7 +480,7 @@ $lang = array_merge($lang, array(
 	'NOTIFICATION_TOPIC_DISAPPROVED'	=> '<strong>Topic disapproved</strong>:',
 	'NOTIFICATION_TOPIC_IN_QUEUE'		=> '<strong>Topic approval</strong> request by %1$s:',
 	'NOTIFICATION_TYPE_NOT_EXIST'		=> 'The notification type "%s" is missing from the file system.',
-	'NOTIFICATION_ADMIN_ACTIVATE_USER'	=> '<strong>Activation required</strong> for newly registered user: â€œ%1$sâ€',
+	'NOTIFICATION_ADMIN_ACTIVATE_USER'	=> '<strong>Aktivering krävs</strong>för inaktiverade och nyligen registrerade medlemmar: â€œ%1$sâ€',
 	// Used in conjuction with NOTIFICATION_BOOKMARK, NOTIFICATION_POST, and NOTIFICATION_QUOTE.
 	'NOTIFICATION_MANY_OTHERS'			=> 'andra',
 	'NOTIFICATION_X_OTHERS'				=> array(

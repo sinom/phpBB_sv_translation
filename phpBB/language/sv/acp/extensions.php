@@ -75,6 +75,12 @@ $lang = array_merge($lang, array(
 	'EXTENSION_NAME'			=> 'Tilläggets namn',
 	'EXTENSION_ACTIONS'			=> 'Åtgärder',
 	'EXTENSION_OPTIONS'			=> 'Inställningar',
++	'EXTENSION_INSTALL_HEADLINE'=> 'Installera ett tillägg',
++	'EXTENSION_INSTALL_EXPLAIN'	=> '<ol>
++			<li>Installera ett tillägg ifrån phpBB.com eller phpBB.se´s databas</li>
++			<li>Extrahera tillägget och ladda upp det i mappen som heter: <samp>ext/</samp>.</li>
++			<li>Aktivera tillägget, här inne i Tilläggshanteraren</li>
++		</ol>',
 	'EXTENSION_UPDATE_HEADLINE'	=> 'Uppdatera ett tillägg',
 	'EXTENSION_UPDATE_EXPLAIN'	=> '<ol>
 			<li>Inaktivera tillägget</li>
@@ -125,6 +131,7 @@ $lang = array_merge($lang, array(
 	'VERSIONCHECK_FORCE_UPDATE_ALL'		=> 'Kolla om alla versioner',
 	'FORCE_UNSTABLE'					=> 'Kolla alltid efter instabila versioner',
 	'EXTENSIONS_VERSION_CHECK_SETTINGS'	=> 'Versionsinställningar',
+	'BROWSE_EXTENSIONS_DATABASE'		=> 'Bläddra i tilläggsdatabasen',
 
 	'META_FIELD_NOT_SET'	=> 'Krävd meta data %s har inte ställts in.',
 	'META_FIELD_INVALID'	=> 'Meta data %s är ogiltig.',

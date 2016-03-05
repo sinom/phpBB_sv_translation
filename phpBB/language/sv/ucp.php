@@ -354,7 +354,7 @@ $lang = array_merge($lang, array(
 	'NOTIFICATION_TYPE_QUOTE'                     => 'Någon citerar dig i ett inlägg',
 	'NOTIFICATION_TYPE_REPORT'                     => 'Någon rapporterar ett inlägg',
 	'NOTIFICATION_TYPE_TOPIC'                        => 'Någon skapar ett ämne i ett forum som du bevakar',
-	'NOTIFICATION_TYPE_ADMIN_ACTIVATE_USER'				=> 'Nya användare som kräver aktivering',
+	'NOTIFICATION_TYPE_ADMIN_ACTIVATE_USER'				=> 'Nyligen registrerade användare som kräver aktivering',
 
 	'NOTIFY_METHOD'               => 'Metod för meddelande',
 	'NOTIFY_METHOD_BOTH'         => 'Bägge',

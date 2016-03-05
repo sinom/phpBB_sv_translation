@@ -69,6 +69,7 @@ $lang = array_merge($lang, array(
 	'NO_LANG_ID'						=> 'Du angav inget språkpaket.',
 	'NO_REMOVE_DEFAULT_LANG'			=> 'Du kan inte ta bort standardspråkpaketet.<br />Om du vill ta bort detta språkpaket, byt forumets standardspråk först.',
 	'NO_UNINSTALLED_LANGUAGE_PACKS'		=> 'Inga oinstallerade språkpaket.',
+	'BROWSE_LANGUAGE_PACKS_DATABASE'	=> 'Bläddra i språkpaketsdatabasen',
 	'THOSE_MISSING_LANG_FILES'			=> 'Följande språkfiler saknas i språket "%s" mapp.',
 	'THOSE_MISSING_LANG_VARIABLES'		=> 'Följande språkvariabler saknas i språkpaketet "%s".',
 	'UNINSTALLED_LANGUAGE_PACKS'		=> 'Ej installerade språkpaket',
