@@ -336,7 +336,7 @@ $lang = array_merge($lang, array(
 	'IMAGE_FILETYPE_INVALID'	=> 'Bildtyp %d för MIME-typ %s stöds inte.',
 	'IMAGE_FILETYPE_MISMATCH'	=> 'Bildtyp matchade inte: förväntad filändelse %1$s men filändelsen %2$s gavs.',
 	'IN'						=> 'i',
-	'INACTIVE'					=> 'Inaktiv'
+	'INACTIVE'					=> 'Inaktiv',
 	'INDEX'						=> 'Index',
 	'INFORMATION'				=> 'Information',
 

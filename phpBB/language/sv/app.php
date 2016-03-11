@@ -51,5 +51,5 @@ $lang = array_merge($lang, array(
 	'CONTROLLER_ARGUMENT_VALUE_MISSING'	=> 'Saknar värde för argumentet #%1$s: <strong>%3$s</strong> i klassen <strong>%2$s</strong>',
 	'CONTROLLER_NOT_SPECIFIED'			=> 'Ingen kontroller har blivit angiven.',
 	'CONTROLLER_METHOD_NOT_SPECIFIED'	=> 'Ingen metod var angiven för kontrollen.',
-	'CONTROLLER_SERVICE_UNDEFINED'		=> 'Tjänsten för kontrollen " â€œ<strong>%s</strong>â€" är inte definerad i ./config/services.yml.',
+	'CONTROLLER_SERVICE_UNDEFINED'		=> 'Tjänsten för kontrollen â€œ<strong>%s</strong>â€ är inte definerad i ./config/services.yml.',
 ));

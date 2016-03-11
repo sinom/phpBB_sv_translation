@@ -107,7 +107,7 @@ $lang = array_merge($lang, array(
 	'LOGIN_EXPLAIN_SEARCHUSER'	=> 'Forumet kräver att du registrerar dig och loggar in för att söka efter medlemmar.',
 	'LOGIN_EXPLAIN_VIEWPROFILE'	=> 'Forumet kräver att du registrerar dig och loggar in för att visa profiler.',
 
-	'MANAGE_GROUP'			=> 'Hanter grupp'
+	'MANAGE_GROUP'			=> 'Hanter grupp',
 	'MORE_THAN'				=> 'Mer än',
 
 	'NO_CONTACT_FORM'		=> 'Forumets administratörs kontaktformulär har inaktiverats.',
