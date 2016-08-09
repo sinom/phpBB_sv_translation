@@ -829,7 +829,7 @@ $lang = array_merge($lang, array(
 	),
 	'USERS'					=> 'Användare',
 	'USE_PERMISSIONS'		=> 'Testa användarens behörigheter',
-	'USER_NEW_PERMISSION_DISALLOWED'	=> 'Tyvärr har du inte tillåtelse att använda denna funktion. Du är kanske nyregistrerad och förväntas att delta mer före du kan använda denna funktion.',
+	'USER_NEW_PERMISSION_DISALLOWED'	=> 'Tyvärr har du inte tillåtelse att använda denna funktion. Du är kanske nyregistrerad och förväntas att delta i mer diskussioner före du kan använda denna funktion.',
 
 	'VARIANT_DATE_SEPARATOR'	=> ' / ',	// Used in date format dropdown, eg: "Today, 13:37 / 01 Jan 2008, 13:37" ... to join a relative date with calendar date
 	'VIEWED'					=> 'Visad',

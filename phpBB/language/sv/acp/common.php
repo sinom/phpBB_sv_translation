@@ -25,10 +25,10 @@ if (!defined('IN_PHPBB'))
 {
    exit;
 }
+	$lang = array();
 
 if (empty($lang) || !is_array($lang))
 {
-	$lang = array();
 }
 
 // DEVELOPERS PLEASE NOTE
@@ -597,6 +597,7 @@ $lang = array_merge($lang, array(
 
 	'LOG_ERROR_JABBER'		=> '<strong>Jabberfel</strong><br />» %s',
 	'LOG_ERROR_EMAIL'		=> '<strong>E-postfel</strong><br />» %s',
+	'LOG_ERROR_CAPTCHA'		=> '<strong>CAPTCHA-error</strong><br />» %s',
 
 	'LOG_FORUM_ADD'							=> '<strong>Skapade ny kategori</strong><br />» %s',
 	'LOG_FORUM_COPIED_PERMISSIONS'			=> '<strong>Kopierade kategoribehörigheter</strong> från %1$s<br />» %2$s',

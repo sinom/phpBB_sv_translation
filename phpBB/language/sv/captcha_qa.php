@@ -47,6 +47,7 @@ $lang = array_merge($lang, array(
 	'CAPTCHA_QA'			=> 'Q&amp;A',
 	'CONFIRM_QUESTION_EXPLAIN'	=> 'Den här frågan är till för att förebygga automatiska registreringar.',
 	'CONFIRM_QUESTION_WRONG'	=> 'Du har tillhandahållit ett felaktigt svar på frågan.',
+	'CONFIRM_QUESTION_MISSING'	=> 'Frågor för captchan kunde inte hämtas. Vänligen kontakta forumadministratören.',
 
 	'QUESTION_ANSWERS'		=> 'Svar',
 	'ANSWERS_EXPLAIN'		=> 'Var god och ange korrekta svar på frågan',
