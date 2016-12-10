@@ -136,8 +136,8 @@ $lang = array_merge($lang, array(
 	'BOARD_UNAVAILABLE'		=> 'Forumet är för närvarande inte tillgängligt, försök igen om några minuter.',
 	'BROWSING_FORUM'		=> 'Användare som besöker denna kategori: %1$s',
 	'BROWSING_FORUM_GUESTS'	=> array(
-		1	=> 'Användare som besöker denna kategori: %1$s och %2$d gäst',
-		2	=> 'Användare som besöker denna kategori: %1$s och %2$d gäster',
+		1	=> 'Användare som besöker denna kategori: %2$s och %1$d gäst',
+		2	=> 'Användare som besöker denna kategori: %2$s och %1$d gäster',
 	),
 	'BUTTON_EDIT'			=> 'Ändra',
 	'BUTTON_FORUM_LOCKED'	=> 'Låst',
