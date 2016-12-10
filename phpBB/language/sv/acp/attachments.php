@@ -120,7 +120,7 @@ $lang = array_merge($lang, array(
 
 	'IMAGE_LINK_SIZE'			=> 'Bildlänksdimensioner',
 	'IMAGE_LINK_SIZE_EXPLAIN'	=> 'Visar bildbilaga som en textlänk om bilden är större än så här. För att inaktivera detta beteende, sätt värdena till 0px och 0px.',
-	'IMAGICK_PATH'				=> 'Sökväg till Imagemagick',
+	'IMAGICK_PATH'				=> 'Sökväg till ImageMagick',
 	'IMAGICK_PATH_EXPLAIN'		=> 'Fullständig sökväg till konverteringsprogrammet Imagemagick, t.ex. <samp>/usr/bin/</samp>.',
 
 	'MAX_ATTACHMENTS'				=> 'Maximalt antal bilagor per inlägg',
@@ -155,7 +155,7 @@ $lang = array_merge($lang, array(
 	'REMOVE_ALLOWED_IPS'			=> 'Ta bort eller häv undantag för <em>tillåtna</em> IP-adresser/värdnamn',
 	'REMOVE_DISALLOWED_IPS'		=> 'Ta bort eller häv undantag för <em>otillåtna</em> IP-adresser/värdnamn',
 	'RESYNC_FILES_STATS_CONFIRM'	=> 'Are you sure you wish to resynchronise file statistics?',
-	'SEARCH_IMAGICK'				=> 'Sök efter Imagemagick',
+	'SEARCH_IMAGICK'				=> 'Sök efter ImageMagick',
 	'SECURE_ALLOW_DENY'				=> 'Tillåt/Neka-lista',
 	'SECURE_ALLOW_DENY_EXPLAIN'		=> 'Ändra standardbeteendet när säkra nerladdningar är aktiverade för Tillåt/Neka-listan till en <strong>whitelist</strong> (Tillåt) eller en <strong>blacklist</strong> (Neka).',
 	'SECURE_DOWNLOADS'				=> 'Aktivera säkra nerladdningar',

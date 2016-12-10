@@ -95,7 +95,9 @@ $lang = array_merge($lang, array(
 	'DELETE_PERMANENTLY'		=> 'Ta bort permanent',
 	'DELETE_POST_CONFIRM'		=> 'Är du säker på att du vill ta bort detta inlägget?',
 	'DELETE_POST_PERMANENTLY_CONFIRM'	=> 'Är du säker på att du vill ta bort detta inlägget <strong>permanent</strong>?',
-	'DELETE_POST_PERMANENTLY'	=> 'Tar bort detta inlägget permanent så att det inte går att återställa',
+	'DELETE_POST_PERMANENTLY'	=> array(
+		1	=> 'Tar bort detta inlägget permanent så att det inte går att återställa',
+		2	=> 'Tar bort %1$d inlägg permanent så att de inte går att återställa'
 	'DELETE_POSTS_CONFIRM'		=> 'Är du säker på att du vill ta bort dessa inlägg?',
 	'DELETE_POSTS_PERMANENTLY_CONFIRM'	=> 'Är du säker på att du vill ta bort dessa inlägg <strong>permanent</strong>?',
 	'DELETE_REASON'				=> 'Anledning till borttagning',
@@ -103,6 +105,11 @@ $lang = array_merge($lang, array(
 	'DELETE_POST_WARN'			=> 'När inlägget väl tagits bort kan det inte återställas',
 	'DELETE_TOPIC_CONFIRM'		=> 'Är du säker på att du vill ta bort denna tråden?',
 	'DELETE_TOPIC_PERMANENTLY'	=> 'Är du säker på att du vill ta bort denna tråden permanent?',
+
++	'DELETE_TOPIC_PERMANENTLY'	=> array(
++		1	=> 'Ta bort denna tråd permanent så att den inte går att återställa',
++		2	=> 'Ta bort %1$d trådar permanent så att de inte går att återställa'
+
 	'DELETE_TOPIC_PERMANENTLY_CONFIRM'	=> 'Är du säker på att du vill ta bort denna tråd <strong>permanent</strong>',
 	'DELETE_TOPICS_CONFIRM'		=> 'Är du säker på att du vill ta bort dessa trådar?',
 	'DELETE_TOPICS_PERMANENTLY_CONFIRM'	=> 'Är du säker på att du vill ta bort dessa trådar <strong>permanent</strong>',

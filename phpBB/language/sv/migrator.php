@@ -57,6 +57,7 @@ $lang = array_merge($lang, array(
 	'MIGRATION_NOT_FULFILLABLE'			=> 'Förflyttningen "%1$s" är inte genomförbar, saknar förflyttning "%2$s".',
 	'MIGRATION_NOT_VALID'				=> '%s är inte en giltig förflyttning.',
 	'MIGRATION_SCHEMA_DONE'				=> 'Installerat Schema: %1$s; Tid: %2$.2f sekunder',
+	'MIGRATION_SCHEMA_IN_PROGRESS'		=> 'Installerar Schema: %1$s; Tid: %2$.2f sekunder',
 	'MIGRATION_SCHEMA_RUNNING'			=> 'Installerar Schema: %s.',
 
 	'MIGRATION_INVALID_DATA_MISSING_CONDITION'		=> 'A migration is invalid. An if statement helper is missing a condition.',
@@ -67,9 +68,12 @@ $lang = array_merge($lang, array(
 	'MIGRATION_INVALID_DATA_UNDEFINED_METHOD'		=> 'A migration is invalid. An undefined migration tool method was encountered.',
 
 	'MODULE_ERROR'						=> 'Ett fel uppstod under installationen utav modulen: %s',
+	'MODULE_EXISTS'						=> 'En modul finns redan: %s',
+	'MODULE_EXIST_MULTIPLE'				=> 'Flera moduler med denna föräldermodul-språk finns redan: %s. Försök använda före/efter-nycklar för att klargöra modulplaceringen.',
 	'MODULE_INFO_FILE_NOT_EXIST'		=> 'En obligatorisk modulsinformationsfil saknas: %2$s',
 	'MODULE_NOT_EXIST'					=> 'En obligatorisk modul saknas: %s',
 
+	'PARENT_MODULE_FIND_ERROR'			=> 'Kunde inte fastställa föräldermodulens identifierare %s',
 	'PERMISSION_NOT_EXIST'				=> 'Behörighetsinställningarna "%s" verkar inte finnas.',
 
 	'ROLE_NOT_EXIST'					=> 'Behörighetsrollen "%s" verkar inte finnas.',
