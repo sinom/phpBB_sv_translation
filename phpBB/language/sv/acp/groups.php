@@ -56,7 +56,7 @@ $lang = array_merge($lang, array(
 
 	'GROUP_APPROVE'					=> 'Godkänn medlem',
 	'GROUP_APPROVED'				=> 'Godkända medlemmar',
-	'GROUP_AVATAR'					=> 'Gruppvisningsbild',
+	'GROUP_AVATAR'					=> 'Gruppens profilbild',
 	'GROUP_AVATAR_EXPLAIN'			=> 'Denna bild kommer att visas i gruppens kontrollpanelen.',
 	'GROUP_CATEGORY_NAME'			=> 'Kategorinamn',
 	'GROUP_CLOSED'					=> 'Stängd',
@@ -74,7 +74,7 @@ $lang = array_merge($lang, array(
 	'GROUP_DEMOTE'					=> 'Avsäg gruppledarskap',
 	'GROUP_DESC'					=> 'Gruppbeskrivning',
 	'GROUP_DETAILS'					=> 'Gruppdetaljer',
-	'GROUP_EDIT_EXPLAIN'			=> 'Här kan du redigera en existerande grupp. Du kan ändra dess namn, beskrivning och typ (öppen, stängd, osv.). Du kan också ställa in vissa gruppomfattande alternativ såsom färg, titel, osv. Ändringar som görs här åsidosätter användarnas nuvarande inställningar. Kom ihåg att gruppmedlemmar kan åsidosätta sina gruppvisningsbilder om du inte ställer in lämpliga användarbehörigheter.',
+	'GROUP_EDIT_EXPLAIN'			=> 'Här kan du redigera en existerande grupp. Du kan ändra dess namn, beskrivning och typ (öppen, stängd, osv.). Du kan också ställa in vissa gruppomfattande alternativ såsom färg, titel, osv. Ändringar som görs här åsidosätter användarnas nuvarande inställningar. Kom ihåg att gruppmedlemmar kan åsidosätta sina gruppers profilbilder om du inte ställer in lämpliga användarbehörigheter.',
 	'GROUP_ERR_USERS_EXIST'			=> 'De angivna användarna är redan medlemmar i denna grupp.',
 	'GROUP_FOUNDER_MANAGE'			=> 'Kan endast hanteras av grundare',
 	'GROUP_FOUNDER_MANAGE_EXPLAIN'	=> 'Begränsa hantering av denna grupp till endast grundare. Användare som har gruppbehörigheter kan fortfarande se denna grupp och dess medlemmar.',
