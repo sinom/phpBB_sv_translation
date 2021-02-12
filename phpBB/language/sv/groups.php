@@ -50,7 +50,7 @@ $lang = array_merge($lang, array(
 	'CANNOT_RESIGN_GROUP'		=> 'Du kan inte lämna den här gruppen. Du kan endast lämna öppna och fria grupper.',
 	'CHANGED_DEFAULT_GROUP'		=> 'Ändrade standardgrupp',
 
-	'GROUP_AVATAR'						=> 'Gruppvisningsbild',
+	'GROUP_AVATAR'						=> 'Gruppens profilbild',
 	'GROUP_CHANGE_DEFAULT'				=> 'Är du säker på att du vill byta din standardgrupp till “%s”?',
 	'GROUP_CLOSED'						=> 'Stängd',
 	'GROUP_DESC'						=> 'Gruppbeskrivning',
