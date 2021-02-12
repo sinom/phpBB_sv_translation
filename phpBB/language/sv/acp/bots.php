@@ -2,19 +2,17 @@
 /**
 *
 * This file is part of Swedish phpBB translation.
-* Copyright (c) 2010 - 2014 Swedish translation group.
+* Copyright (c) 2010 - 2021 Swedish translation group.
 *
 *
-* This program is distributed in the hope that it will be useful,
-* but WITHOUT ANY WARRANTY; without even the implied warranty of
-* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
-* GNU General Public License for more details.
+* For more information about the language pack, please visit
+* http://phpbb.se/forum/viewforum.php?f=49
 *
 *
-* @package      phpBB Sweden
-* @author       Simon Assgård <sassgard@gmail.com> (Sinom) http://www.phpbb.se/
-* @copyright    phpBB Sweden
-* @license      @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
+* @package		phpBB Sweden
+* @author		Simon Assgård <sassgard@gmail.com> (Sinom) <http://www.phpbb.se/>
+* @copyright 	(c) phpBB Limited <https://www.phpbb.com/> & phpBB Sweden <http://www.phpbb.se/>
+* @license		GNU General Public License, version 3 (GPL-3.0)
 *
 */
 
@@ -23,7 +21,7 @@
 */
 if (!defined('IN_PHPBB'))
 {
-   exit;
+	exit;
 }
 
 if (empty($lang) || !is_array($lang))
@@ -64,7 +62,7 @@ $lang = array_merge($lang, array(
 	'BOT_IP_EXPLAIN'	=> 'Partiella matchningar är tillåtna, separera IP-adresser med ett kommatecken.',
 	'BOT_NAME'			=> 'Robotens namn',
 	'BOT_NAME_EXPLAIN'	=> 'Används endast för din egen information.',
- 	'BOT_NAME_TAKEN'	=> 'Namnet används redan på ditt forum och kan inte användas för roboten.',
+	'BOT_NAME_TAKEN'	=> 'Namnet används redan på ditt forum och kan inte användas för roboten.',
 	'BOT_NEVER'			=> 'Aldrig',
 	'BOT_STYLE'			=> 'Robotens forumstil',
 	'BOT_STYLE_EXPLAIN'	=> 'Forumstilen som kommer att visas för roboten när den besöker forumet.',

@@ -2,19 +2,17 @@
 /**
 *
 * This file is part of Swedish phpBB translation.
-* Copyright (c) 2010 - 2014 Swedish translation group.
+* Copyright (c) 2010 - 2021 Swedish translation group.
 *
 *
-* This program is distributed in the hope that it will be useful,
-* but WITHOUT ANY WARRANTY; without even the implied warranty of
-* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
-* GNU General Public License for more details.
+* For more information about the language pack, please visit
+* http://phpbb.se/forum/viewforum.php?f=49
 *
 *
-* @package      phpBB Sweden
-* @author       Simon Assgård <sassgard@gmail.com> (Sinom) http://www.phpbb.se/
-* @copyright    phpBB Sweden
-* @license      @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
+* @package		phpBB Sweden
+* @author		Simon Assgård <sassgard@gmail.com> (Sinom) <http://www.phpbb.se/>
+* @copyright 	(c) phpBB Limited <https://www.phpbb.com/> & phpBB Sweden <http://www.phpbb.se/>
+* @license		GNU General Public License, version 3 (GPL-3.0)
 *
 */
 
@@ -23,7 +21,7 @@
 */
 if (!defined('IN_PHPBB'))
 {
-   exit;
+	exit;
 }
 
 if (empty($lang) || !is_array($lang))
@@ -43,12 +41,13 @@ if (empty($lang) || !is_array($lang))
 // equally where a string contains only two placeholders which are used to wrap text
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
-// BBCodes 
+// BBCodes
 // Note to translators: you can translate everything but what's between { and }
 $lang = array_merge($lang, array(
 	'ACP_BBCODES_EXPLAIN'		=> 'BBCode är en speciell variant av HTML som ger större kontroll över vad och hur någonting visas. Från denna sida kan du lägga till, ta bort och redigera egna BBCodes.',
 	'ADD_BBCODE'				=> 'Lägg till en ny BBCode',
-	'BBCODE_DANGER'				=> 'BBCode-koden som du försöker lägga till verkar använda ett {TEXT} tecken inom en HTML attribut. Det här är ett möjligt XSS-säkerhetsproblem. Försök att använda de mera begränsade typerna {SIMPLETEXT} eller {INTTEXT} istället. Fortsätt med denna operation endast om du förstår riskerna som det innebär och anser det vara absolut oundvikligt att använda  {TEXT} i detta fall.',
+
+	'BBCODE_DANGER'				=> 'BBCode-koden som du försöker lägga till verkar vara farlig. Om BB-koden använder ett {TEXT} tecken inom en HTML attribut. Det här är ett möjligt XSS-säkerhetsproblem. Försök att använda de mera begränsade typerna {SIMPLETEXT} eller {INTTEXT} istället. Fortsätt med denna operation endast om du förstår riskerna som det innebär och anser det vara absolut oundvikligt att använda  {TEXT} i detta fall.',
 	'BBCODE_DANGER_PROCEED'		=> 'Fortsätt!', //'I understand the risk',
 
 	'BBCODE_ADDED'				=> 'BBCode lades till.',
@@ -58,10 +57,12 @@ $lang = array_merge($lang, array(
 	'BBCODE_HELPLINE'			=> 'Hjälptext',
 	'BBCODE_HELPLINE_EXPLAIN'	=> 'Detta fält innehåller texten som visas när man för musen över denna BBCode.',
 	'BBCODE_HELPLINE_TEXT'		=> 'Hjälptext',
-	'BBCODE_HELPLINE_TOO_LONG'    => 'Hjälptexten du angav är för lång.',
+	'BBCODE_HELPLINE_TOO_LONG'	=> 'Hjälptexten du angav är för lång.',
+
 	'BBCODE_INVALID_TAG_NAME'	=> 'BBCode-taggnamnet som du valde finns redan.',
- 	'BBCODE_INVALID'			=> 'Din BBCode är konstruerad på ett felaktigt sätt.',
-	'BBCODE_OPEN_ENDED_TAG'		=> 'Din egen BBCode måste innehålla både en öppnings- och stängningstagg. Den får inte innehålla specialtecken.',
+	'BBCODE_INVALID'			=> 'Din BBCode är konstruerad på ett felaktigt sätt.',
+	'BBCODE_INVALID_TEMPLATE'	=> 'Din BBkods mall är ogiltlig.',
+	
 	'BBCODE_TAG'				=> 'Tagg',
 	'BBCODE_TAG_TOO_LONG'		=> 'Taggnamnet som du valde är för långt.',
 	'BBCODE_TAG_DEF_TOO_LONG'	=> 'Taggdefinitionen du angav är för lång, korta ner din taggdefinition.',
@@ -83,16 +84,16 @@ $lang = array_merge($lang, array(
 	'TOO_MANY_BBCODES'		=> 'Du kan inte skapa fler BBCodes. Ta bort en eller flera BBCodes och försök igen.',
 
 	'tokens'	=>	array(
-		'TEXT'			=> 'All text, inklusive främmande tecken, siffror, osv.… Du bör inte använda denna token i HTML-taggar. Försök istället använda IDENTIFIER, INTTEXT eller SIMPLETEXT.',
-		'SIMPLETEXT'	=> 'Tecken från det latiska alfabetet (A-Z), nmummer, mellanslag, komman, punkter, mius, plus, bindestreck och understreck.',
-		'INTTEXT'		=> 'Unicode teckenuppsättningar, nummer, mellanslag, kommatecken, punkter, minus, plus, bindestreck, understreck och blanktecken.',
-		'IDENTIFIER'	=> 'Tecken från det latinska alfabetet (A-Z), nummer, bindestreck och understreck',
-		'NUMBER'		=> 'Vilken som helst serie med siffror.',
-		'EMAIL'			=> 'En giltig e-postadress.',
-		'URL'			=> 'En giltig URL med något protokoll (http, ftp, osv… kan inte användas för javascript-exploatering). Om inget protokoll anges läggs “http://” till i början av strängen.',
-		'LOCAL_URL'		=> 'En lokal URL. URL:en måste vara relativ till trådsidan och kan inte innehålla ett servernamn eller protokoll, då länkar är hårdkodade med “%s”',
-		'RELATIVE_URL'	=> 'En relativ URL. Du kan använda detta för att matcha delar utav en URL, men var försiktig: en full URL är en godkänd relativ URL. När du vill använda relativa URLs på ditt forum, använd LOCAL_URL strängen.',
-		'COLOR'			=> 'En HTML-färg, kan antingen vara i numerisk form <samp>#FF1234</samp> eller ett <a href="http://www.w3.org/TR/CSS21/syndata.html#value-def-color">CSS färgnyckelord</a> så som <samp>fuchsia</samp> eller <samp>InactiveBorder</samp>.'
+		'TEXT'				=>			'All text, inklusive främmande tecken, siffror, osv.…',
+		'SIMPLETEXT'		=>			'Tecken från det latiska alfabetet (A-Z), nmummer, mellanslag, komman, punkter, mius, plus, bindestreck och understreck.',
+		'INTTEXT'			=>			'Unicode teckenuppsättningar, nummer, mellanslag, kommatecken, punkter, minus, plus, bindestreck, understreck och blanktecken.',
+		'IDENTIFIER'		=>			'Tecken från det latinska alfabetet (A-Z), nummer, bindestreck och understreck',
+		'NUMBER'			=>			'Vilken som helst serie med siffror.',
+		'EMAIL'				=>			'En giltig e-postadress.',
+		'URL'				=>			'En giltig URL med något tillåtet protokoll (http, ftp, osv… kan inte användas för javascript-exploatering). Om inget protokoll anges läggs “http://” till i början av strängen.',
+		'LOCAL_URL'			=>			'En lokal URL. URL:en måste vara relativ till trådsidan och kan inte innehålla ett servernamn eller protokoll, då länkar är hårdkodade med “%s”',
+		'RELATIVE_URL'		=>			'En relativ URL. Du kan använda detta för att matcha delar utav en URL, men var försiktig: en full URL är en godkänd relativ URL. När du vill använda relativa URLs på ditt forum, använd LOCAL_URL strängen.',
+		'COLOR'				=>			'En HTML-färg, kan antingen vara i numerisk form <samp>#FF1234</samp> eller ett <a href="http://www.w3.org/TR/CSS21/syndata.html#value-def-color">CSS färgnyckelord</a> så som <samp>fuchsia</samp> eller <samp>InactiveBorder</samp>.',
 	),
 ));
 
@@ -101,7 +102,7 @@ $lang = array_merge($lang, array(
 	'ACP_ICONS_EXPLAIN'		=> 'Från denna sida kan du lägga till, ta bort och redigera de ikoner som användare kan lägga till trådar och inlägg. Dessa ikoner visas generellt bredvid trådtiteln i kategorierna, eller bredvid inläggstitlarna i trådarna. Du kan också installera och skapa nya paket med ikoner.',
 	'ACP_SMILIES_EXPLAIN'	=> 'Smilies är oftast små, ibland animerade, bilder som används för att uttrycka en känsla. Från denna sida kan du lägga till, ta bort och redigera de smilies som användare kan använda i sina inlägg och personliga meddelanden. Du kan också installera nya paket med smilies.',
 	'ADD_SMILIES'			=> 'Lägg till flera smilies',
- 	'ADD_SMILEY_CODE'		=> 'Lägg till extra smilieskod',
+	'ADD_SMILEY_CODE'		=> 'Lägg till extra smilieskod',
 	'ADD_ICONS'				=> 'Lägg till flera ikoner',
 	'AFTER_ICONS'			=> 'Efter %s',
 	'AFTER_SMILIES'			=> 'Efter %s',
@@ -112,7 +113,6 @@ $lang = array_merge($lang, array(
 	'CURRENT_SMILIES'			=> 'Nuvarande smilies',
 	'CURRENT_SMILIES_EXPLAIN'	=> 'Välj vad du vill göra med de för närvarande installerade smilisarna.',
 
-	'DISPLAY_ON_POSTING'	=> 'Visa på inläggssidan',
 	'DISPLAY_ON_POSTING'		=> 'Visa på inläggssidan',
 	'DISPLAY_POSTING'			=> 'På inläggssidan',
 	'DISPLAY_POSTING_NO'		=> 'Inte på inläggssidan',
@@ -127,20 +127,20 @@ $lang = array_merge($lang, array(
 
 	'FIRST'			=> 'Första',
 
-	'ICONS_ADD'				=> 'Lägg till en ny ikon',	
-	'ICONS_ADDED'			=> array(
-		0	=> 'Inga ikoner lades till.',
-		1	=> 'Ikonen lades till.',
-		2	=> 'Ikonerna lades till.',
+	'ICONS_ADD'				=> 'Lägg till en ny ikon',
+	'ICONS_ADDED'	=>	array(
+		0	=>			'Inga ikoner lades till.',
+		1	=>			'Ikonen lades till.',
+		2	=>			'Ikonerna lades till.',
 	),
 	'ICONS_CONFIG'			=> 'Ikonkonfiguration',
 	'ICONS_DELETED'			=> 'Ikonen togs bort.',
 	'ICONS_EDIT'			=> 'Redigera ikon',
-	'ICONS_EDITED'			=> array(
-		0	=> 'Inga ikoner uppdaterades.',
-		1	=> 'Ikonen uppdaterades.',
-		2	=> 'Ikonerna uppdaterades.',
-	),	
+	'ICONS_EDITED'	=>	array(
+		0	=>			'Inga ikoner uppdaterades.',
+		1	=>			'Ikonen uppdaterades.',
+		2	=>			'Ikonerna uppdaterades.',
+	),
 	'ICONS_HEIGHT'			=> 'Ikonhöjd',
 	'ICONS_IMAGE'			=> 'Ikonbild',
 	'ICONS_IMPORTED'		=> 'Ikonpaketet installerades.',
@@ -171,24 +171,24 @@ $lang = array_merge($lang, array(
 	'REPLACE_MATCHES'	=> 'Ersätt matchningar',
 
 	'SELECT_PACKAGE'			=> 'Välj en paketfil',
-	'SMILIES_ADD'				=> 'Lägg till en ny smilie',	
-	'SMILIES_ADDED'				=> array(
-		0	=> 'Inga smilies lades till.',
-		1	=> 'Smilie lades till.',
-		2	=> 'Smilies lades till.',
-	),	
+	'SMILIES_ADD'				=> 'Lägg till en ny smilie',
+	'SMILIES_ADDED'	=>	array(
+		0	=>			'Inga smilies lades till.',
+		1	=>			'Smilie lades till.',
+		2	=>			'Smilies lades till.',
+	),
 	'SMILIES_CODE'				=> 'Kod för smilie',
 	'SMILIES_CONFIG'			=> 'Smiliekonfiguration',
 	'SMILIES_DELETED'			=> 'Smilie togs bort.',
 	'SMILIES_EDIT'				=> 'Redigera smilie',
 	'SMILIE_NO_CODE'			=> 'Smilien “%s” ignorerades, eftersom ingen kod angavs.',
 	'SMILIE_NO_EMOTION'			=> 'Smilien “%s” ignorerades, eftersom inget humör angavs.',
-	'SMILIE_NO_FILE'			=> 'Smilien “%s” ignorerades, eftersom filen inte finns.',	
-	'SMILIES_EDITED'			=> array(
-		0	=> 'Inga smilies uppdaterades.',
-		1	=> 'Smilie uppdaterades.',
-		2	=> 'Smilies uppdaterades.',
-	),	
+	'SMILIE_NO_FILE'			=> 'Smilien “%s” ignorerades, eftersom filen inte finns.',
+	'SMILIES_EDITED'	=>	array(
+		0	=>			'Inga smilies uppdaterades.',
+		1	=>			'Smilie uppdaterades.',
+		2	=>			'Smilies uppdaterades.',
+	),
 	'SMILIES_EMOTION'			=> 'Humör',
 	'SMILIES_HEIGHT'			=> 'Smiliehöjd',
 	'SMILIES_IMAGE'				=> 'Smiliebild',
@@ -199,9 +199,10 @@ $lang = array_merge($lang, array(
 	'SMILIES_ORDER'				=> 'Smiliesordning',
 	'SMILIES_URL'				=> 'Smiliesbildfil',
 	'SMILIES_WIDTH'				=> 'Smiliesbredd',
-	'TOO_MANY_SMILIES'			=> array(
-		1	=> 'Begränsning på %d smilies nådd.',
-		2	=> 'Begränsning på %d smilies nådd.',
+
+	'TOO_MANY_SMILIES'	=>	array(
+		1	=>			'Begränsning på %d smilies nådd.',
+		2	=>			'Begränsning på %d smilies nådd.',
 	),
 
 	'WRONG_PAK_TYPE'	=> 'Det angivna paketet innehåller inte lämplig data.',

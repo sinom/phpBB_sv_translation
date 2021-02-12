@@ -2,19 +2,17 @@
 /**
 *
 * This file is part of Swedish phpBB translation.
-* Copyright (c) 2010 - 2014 Swedish translation group.
+* Copyright (c) 2010 - 2021 Swedish translation group.
 *
 *
-* This program is distributed in the hope that it will be useful,
-* but WITHOUT ANY WARRANTY; without even the implied warranty of
-* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
-* GNU General Public License for more details.
+* For more information about the language pack, please visit
+* http://phpbb.se/forum/viewforum.php?f=49
 *
 *
-* @package      phpBB Sweden
-* @author       Simon Assgård <sassgard@gmail.com> (Sinom) http://www.phpbb.se/
-* @copyright    phpBB Sweden
-* @license      @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
+* @package		phpBB Sweden
+* @author		Simon Assgård <sassgard@gmail.com> (Sinom) <http://www.phpbb.se/>
+* @copyright 	(c) phpBB Limited <https://www.phpbb.com/> & phpBB Sweden <http://www.phpbb.se/>
+* @license		GNU General Public License, version 3 (GPL-3.0)
 *
 */
 
@@ -23,12 +21,14 @@
 */
 if (!defined('IN_PHPBB'))
 {
-   exit;
+	exit;
 }
+
 if (empty($lang) || !is_array($lang))
 {
 	$lang = array();
 }
+
 // DEVELOPERS PLEASE NOTE
 //
 // All language files should use UTF-8 as their encoding and the files must not contain a BOM.
@@ -40,6 +40,7 @@ if (empty($lang) || !is_array($lang))
 // You do not need this where single placeholders are used, e.g. 'Message %d' is fine
 // equally where a string contains only two placeholders which are used to wrap text
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
+
 $lang = array_merge($lang, array(
 	'ACP_ATTACHMENT_SETTINGS_EXPLAIN'	=> 'Här kan du konfigurera huvudinställningarna för bilagor och de anslutna specialkategorierna.',
 	'ACP_EXTENSION_GROUPS_EXPLAIN'		=> 'Här kan du lägga till, ta bort, ändra eller inaktivera dina filtypsgrupper. Vidare alternativ inkluderar tilldelningen av en speciell kategori till de, ändring av nerladdningsmekanismen och definiering av en uppladdningsikon som kommer att visas innan bilagan som hör till gruppen.',
@@ -72,14 +73,11 @@ $lang = array_merge($lang, array(
 	'ATTACH_QUOTA_EXPLAIN'				=> 'Maximalt hårddiskutrymme tillgängligt för alla bilagor på hela forumet, 0 är obegränsat.',
 	'ATTACH_TO_POST'					=> 'Bifoga fil till inlägg',
 
-	'CAT_FLASH_FILES'			=> 'Flash-filer',
+
 	'CAT_IMAGES'				=> 'Bilder',
-	'CAT_QUICKTIME_FILES'		=> 'Quicktime-filer',
-	'CAT_RM_FILES'					=> 'RealMedia-filer',
-	'CAT_WM_FILES'					=> 'Windows Media-filer',
-	'CHECK_CONTENT'					=> 'Kontrollera bilagor',
-	'CHECK_CONTENT_EXPLAIN'	=> 'Vissa webbläsare kan luras till att acceptera en felaktig mimetyp för uppladdade filer. Detta alternativ tillförsäkrar att sådana filer med största sannolikhet nekas.',
-	'CREATE_GROUP'					=> 'Skapa ny grupp',
+	'CHECK_CONTENT'				=> 'Kontrollera bilagor',
+	'CHECK_CONTENT_EXPLAIN'		=> 'Vissa webbläsare kan luras till att acceptera en felaktig mimetyp för uppladdade filer. Detta alternativ tillförsäkrar att sådana filer med största sannolikhet nekas.',
+	'CREATE_GROUP'				=> 'Skapa ny grupp',
 	'CREATE_THUMBNAIL'			=> 'Skapa miniatyrbild',
 	'CREATE_THUMBNAIL_EXPLAIN'	=> 'Skapa en miniatyrbild i alla möjliga situationer.',
 
@@ -102,15 +100,13 @@ $lang = array_merge($lang, array(
 	'EXTENSION_GROUPS'				=> 'Filtypsgrupper',
 	'EXTENSION_GROUP_DELETED'		=> 'Filtypsgrupp borttagen.',
 	'EXTENSION_GROUP_EXIST'			=> 'Filtypsgruppen %s finns redan.',
-	'EXT_GROUP_ARCHIVES'         => 'Arkiv',
-	'EXT_GROUP_DOCUMENTS'         => 'Dokument',
-	'EXT_GROUP_DOWNLOADABLE_FILES'   => 'Nerladdningsbara filer',
-	'EXT_GROUP_FLASH_FILES'         => 'Flash Filer',
-	'EXT_GROUP_IMAGES'            => 'Bilder',
-	'EXT_GROUP_PLAIN_TEXT'         => 'Text',
-	'EXT_GROUP_QUICKTIME_MEDIA'      => 'Quicktime Media',
-	'EXT_GROUP_REAL_MEDIA'         => 'Real Media',
-	'EXT_GROUP_WINDOWS_MEDIA'      => 'Windows Media',
+
+	'EXT_GROUP_ARCHIVES'			=> 'Arkiv',
+	'EXT_GROUP_DOCUMENTS'			=> 'Dokument',
+	'EXT_GROUP_DOWNLOADABLE_FILES'	=> 'Nerladdningsbara filer',
+
+	'EXT_GROUP_IMAGES'				=> 'Bilder',
+	'EXT_GROUP_PLAIN_TEXT'			=> 'Text',
 
 	'FILES_GONE'			=> 'Some of the attachments you selected for deletion do not exist. They may have been already deleted. Attachments that did exist were deleted.',
 	'FILES_STATS_WRONG'		=> 'Your file statistics are likely inaccurate and need to be resynchronised. Actual values: number of attachments = %1$d, total size of attachments = %2$s.<br />Click %3$shere%4$s to resynchronise them.',
@@ -120,8 +116,10 @@ $lang = array_merge($lang, array(
 
 	'IMAGE_LINK_SIZE'			=> 'Bildlänksdimensioner',
 	'IMAGE_LINK_SIZE_EXPLAIN'	=> 'Visar bildbilaga som en textlänk om bilden är större än så här. För att inaktivera detta beteende, sätt värdena till 0px och 0px.',
-	'IMAGICK_PATH'				=> 'Sökväg till ImageMagick',
-	'IMAGICK_PATH_EXPLAIN'		=> 'Fullständig sökväg till konverteringsprogrammet Imagemagick, t.ex. <samp>/usr/bin/</samp>.',
+	'IMAGE_QUALITY'				=> 'Kvalitet på uppladdade bilagor (endast JPEG)',
+	'IMAGE_QUALITY_EXPLAIN'		=> 'Ange värde mellan 50% (mindre filstorlek) och 90% (högre kvalitet). Kvalitet högre än 90% ökar filstorleken och inaktiveras. Inställningen gäller endast om maximala bilddimensioner är inställda på ett annat värde än 0px med 0px.',
+	'IMAGE_STRIP_METADATA'		=> 'Rader bildmetadata (endast JPEG)',
+	'IMAGE_STRIP_METADATA_EXPLAIN'	=> 'Remsa Exif-metadata, t.ex. författarnamn, GPS-koordinater och kamerainformation. Inställningen gäller endast om maximala bilddimensioner är inställda på ett annat värde än 0px med 0px.',
 
 	'MAX_ATTACHMENTS'				=> 'Maximalt antal bilagor per inlägg',
 	'MAX_ATTACHMENTS_PM'			=> 'Maximalt antal bilagor per personligt meddelande',
@@ -140,6 +138,10 @@ $lang = array_merge($lang, array(
 	'NOT_ASSIGNED'				=> 'Inte tilldelad',
 	'NO_ATTACHMENTS'			=> 'No attachments found for this period.',
 	'NO_EXT_GROUP'				=> 'Ingen',
+	'NO_EXT_GROUP_ALLOWED_PM'	=> 'Det finns inga <a href="%s">tillåtna tilläggsgrupper</a> för privata meddelanden.',
+	'NO_EXT_GROUP_ALLOWED_POST'	=> 'Det finns inga <a href="%s">tillåtna tilläggsgrupper</a> för inlägg.',
+
+
 	'NO_EXT_GROUP_NAME'			=> 'Inget gruppnamn angivet',
 	'NO_EXT_GROUP_SPECIFIED'	=> 'Ingen filtypsgrupp angiven.',
 	'NO_FILE_CAT'				=> 'Ingen',
@@ -153,9 +155,10 @@ $lang = array_merge($lang, array(
 	'ORDER_DENY_ALLOW'		=> 'Neka',
 
 	'REMOVE_ALLOWED_IPS'			=> 'Ta bort eller häv undantag för <em>tillåtna</em> IP-adresser/värdnamn',
-	'REMOVE_DISALLOWED_IPS'		=> 'Ta bort eller häv undantag för <em>otillåtna</em> IP-adresser/värdnamn',
+	'REMOVE_DISALLOWED_IPS'			=> 'Ta bort eller häv undantag för <em>otillåtna</em> IP-adresser/värdnamn',
 	'RESYNC_FILES_STATS_CONFIRM'	=> 'Are you sure you wish to resynchronise file statistics?',
-	'SEARCH_IMAGICK'				=> 'Sök efter ImageMagick',
+
+	'SEARCH_IMAGICK'				=> 'Sök efter Imagemagick',
 	'SECURE_ALLOW_DENY'				=> 'Tillåt/Neka-lista',
 	'SECURE_ALLOW_DENY_EXPLAIN'		=> 'Ändra standardbeteendet när säkra nerladdningar är aktiverade för Tillåt/Neka-listan till en <strong>whitelist</strong> (Tillåt) eller en <strong>blacklist</strong> (Neka).',
 	'SECURE_DOWNLOADS'				=> 'Aktivera säkra nerladdningar',

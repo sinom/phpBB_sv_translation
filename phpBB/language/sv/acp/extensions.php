@@ -2,19 +2,17 @@
 /**
 *
 * This file is part of Swedish phpBB translation.
-* Copyright (c) 2010 - 2014 Swedish translation group.
+* Copyright (c) 2010 - 2021 Swedish translation group.
 *
 *
-* This program is distributed in the hope that it will be useful,
-* but WITHOUT ANY WARRANTY; without even the implied warranty of
-* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
-* GNU General Public License for more details.
+* For more information about the language pack, please visit
+* http://phpbb.se/forum/viewforum.php?f=49
 *
 *
-* @package      phpBB Sweden
-* @author       Simon Assgård <sassgard@gmail.com> (Sinom) http://www.phpbb.se/
-* @copyright    phpBB Sweden
-* @license      @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
+* @package		phpBB Sweden
+* @author		Simon Assgård <sassgard@gmail.com> (Sinom) <http://www.phpbb.se/>
+* @copyright 	(c) phpBB Limited <https://www.phpbb.com/> & phpBB Sweden <http://www.phpbb.se/>
+* @license		GNU General Public License, version 3 (GPL-3.0)
 *
 */
 
@@ -50,6 +48,7 @@ $lang = array_merge($lang, array(
 	'EXTENSION_NOT_AVAILABLE'	=> 'Det valda tillägget är inte tillgängligt för detta forumet, vänligen verifiera att din phpBB-version samt din php-version är tillåtna (se detaljsidan).',
 	'EXTENSION_DIR_INVALID'		=> 'Det valda tillägget har en ogiltig mappstruktur och kan inte aktiveras.',
 	'EXTENSION_NOT_ENABLEABLE'	=> 'Det valda tillägget kan inte aktiveras, vänligen kontrollera tilläggets krav.',
+	'EXTENSION_NOT_INSTALLED'	=> 'Tillägget %s är inte tillgängligt. Kontrollera att det är rätt installerat.',
 
 	'DETAILS'				=> 'Detaljer',
 
@@ -75,11 +74,11 @@ $lang = array_merge($lang, array(
 	'EXTENSION_NAME'			=> 'Tilläggets namn',
 	'EXTENSION_ACTIONS'			=> 'Åtgärder',
 	'EXTENSION_OPTIONS'			=> 'Inställningar',
-	'EXTENSION_INSTALL_HEADLINE'=> 'Installera ett tillägg',
+	'EXTENSION_INSTALL_HEADLINE'=> 'Installera ett tillägg.',
 	'EXTENSION_INSTALL_EXPLAIN'	=> '<ol>
-			<li>Installera ett tillägg ifrån phpBB.com eller phpBB.se´s databas</li>
-			<li>Extrahera tillägget och ladda upp det i mappen som heter: <samp>ext/</samp>.</li>
-			<li>Aktivera tillägget, här inne i Tilläggshanteraren</li>
+			<li>Ladda ned ett tillägg från phpBBs databas</li>
+			<li>Packa upp tillägget och ladda upp det till <samp>ext/</samp> -mappen i din phpBB-mapp</li>
+			<li>Aktivera tillägget här i Tilläggshanteraren</li>
 		</ol>',
 	'EXTENSION_UPDATE_HEADLINE'	=> 'Uppdatera ett tillägg',
 	'EXTENSION_UPDATE_EXPLAIN'	=> '<ol>
@@ -131,7 +130,8 @@ $lang = array_merge($lang, array(
 	'VERSIONCHECK_FORCE_UPDATE_ALL'		=> 'Kolla om alla versioner',
 	'FORCE_UNSTABLE'					=> 'Kolla alltid efter instabila versioner',
 	'EXTENSIONS_VERSION_CHECK_SETTINGS'	=> 'Versionsinställningar',
-	'BROWSE_EXTENSIONS_DATABASE'		=> 'Bläddra i tilläggsdatabasen',
+
+	'BROWSE_EXTENSIONS_DATABASE'		=> 'Bläddra i Tilläggsdatabasen',
 
 	'META_FIELD_NOT_SET'	=> 'Krävd meta data %s har inte ställts in.',
 	'META_FIELD_INVALID'	=> 'Meta data %s är ogiltig.',

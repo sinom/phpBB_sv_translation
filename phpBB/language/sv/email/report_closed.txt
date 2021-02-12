@@ -1,8 +1,14 @@
-Subject: Rapport stängd — "{POST_SUBJECT}"
+Ämne: Rapport stängd — "{POST_SUBJECT}"
 
 Hej {USERNAME},
 
-Du får detta meddelande eftersom rapporten du gjorde angående inlägget "{POST_SUBJECT}" i "{TOPIC_TITLE}" på "{SITENAME}" nu har hanterats av en moderator eller administratör. Rapporten har markerats som avklarad och stängd. Kontakta {CLOSER_NAME} med ett personligt meddelande om du har några frågor.
+Du får detta meddelande eftersom rapporten du gjorde angående inlägget "{POST_SUBJECT}" i "{TOPIC_TITLE}" på "{SITENAME}" och som nu har hanterats av en moderator eller administratör. Rapporten har markerats som avklarad och stängd. Kontakta {CLOSER_NAME} med ett personligt meddelande om du har några frågor.
+
+Du kan se ditt rapporterade inlägg genom att klicka på följande länk:
+
+{U_VIEW_POST}
+
+Du har begärt att du får ett meddelande om detta evenemang. Kom ihåg att du alltid kan välja att inte bli meddelad om rapporter om slutna inlägg genom att ändra lämplig inställning i din profil.
 
 
 {EMAIL_SIG}

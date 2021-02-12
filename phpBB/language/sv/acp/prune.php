@@ -2,19 +2,17 @@
 /**
 *
 * This file is part of Swedish phpBB translation.
-* Copyright (c) 2010 - 2014 Swedish translation group.
+* Copyright (c) 2010 - 2021 Swedish translation group.
 *
 *
-* This program is distributed in the hope that it will be useful,
-* but WITHOUT ANY WARRANTY; without even the implied warranty of
-* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
-* GNU General Public License for more details.
+* For more information about the language pack, please visit
+* http://phpbb.se/forum/viewforum.php?f=49
 *
 *
-* @package      phpBB Sweden
-* @author       Simon Assgård <sassgard@gmail.com> (Sinom) http://www.phpbb.se/
-* @copyright    phpBB Sweden
-* @license      @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
+* @package		phpBB Sweden
+* @author		Simon Assgård <sassgard@gmail.com> (Sinom) <http://www.phpbb.se/>
+* @copyright 	(c) phpBB Limited <https://www.phpbb.com/> & phpBB Sweden <http://www.phpbb.se/>
+* @license		GNU General Public License, version 3 (GPL-3.0)
 *
 */
 
@@ -23,7 +21,7 @@
 */
 if (!defined('IN_PHPBB'))
 {
-   exit;
+	exit;
 }
 
 if (empty($lang) || !is_array($lang))
@@ -47,7 +45,8 @@ if (empty($lang) || !is_array($lang))
 $lang = array_merge($lang, array(
 	'ACP_PRUNE_USERS_EXPLAIN'	=> 'Här kan du ta bort eller inaktivera användare i ditt forum. Konton kan filtreras på flera sätt: Enligt inläggsantal, senaste besöket, osv. Alla dessa kriterier kan kombineras, du kan tex rensa bort användare som inte vart aktiva sen 2002-01-01 och med färre inlägg än 10. Alternativt kan du skriva in en lista över användare direkt i rutan, eventuella kriterier som skrivits in kommer att ignoreras. Var försiktig! När en användare väl är borttagen finns det ingen väg tillbaka.',
 
-	'CRITERIA'					=> 'Kriteria',
+	'CRITERIA'				=> 'Kriteria',
+
 	'DEACTIVATE_DELETE'			=> 'Inaktivera eller ta bort',
 	'DEACTIVATE_DELETE_EXPLAIN'	=> 'Välj om användarna ska inaktiveras eller tas bort helt, observera att det inte går att ångra!',
 	'DELETE_USERS'				=> 'Ta bort',
@@ -61,9 +60,9 @@ $lang = array_merge($lang, array(
 	'POSTS_ON_QUEUE'			=> 'Inlägg i väntan på godkännande',
 	'PRUNE_USERS_GROUP_EXPLAIN'	=> 'Begrända till användare i en specifik grupp.',
 	'PRUNE_USERS_GROUP_NONE'	=> 'Alla grupper',
- 	'PRUNE_USERS_LIST'				=> 'Användare som kommer att rensas',
- 	'PRUNE_USERS_LIST_DELETE'		=> 'Med de valda kriterierna för utrensning av användare kommer följande användare att tas bort.',
- 	'PRUNE_USERS_LIST_DEACTIVATE'	=> 'Med de valda kriterierna för utrensning av användare kommer följande användarkonton inaktiveras.',
+	'PRUNE_USERS_LIST'				=> 'Användare som kommer att rensas',
+	'PRUNE_USERS_LIST_DELETE'		=> 'Med de valda kriterierna för utrensning av användare kommer följande användare att tas bort.',
+	'PRUNE_USERS_LIST_DEACTIVATE'	=> 'Med de valda kriterierna för utrensning av användare kommer följande användarkonton inaktiveras.',
 
 	'SELECT_USERS_EXPLAIN'		=> 'Skriv in specifika användarnamn här, de kommer att användas istället för kriterierna ovan. Användare med grundarstatus kan inte rensas.',
 
@@ -89,7 +88,7 @@ $lang = array_merge($lang, array(
 	'PRUNE_ANNOUNCEMENTS'			=> 'Rensa anslag',
 	'PRUNE_FINISHED_POLLS'			=> 'Rensa avslutade omröstningar',
 	'PRUNE_FINISHED_POLLS_EXPLAIN'	=> 'Tar bort trådar med omröstningar som har avslutats.',
- 	'PRUNE_FORUM_CONFIRM'			=> 'Är du säker på att du vill rensa de valda kategorierna med de angivna inställningarna? När rensningen väl utförts finns det inget sätt att återfå de borttagna inläggen och trådarna.',
+	'PRUNE_FORUM_CONFIRM'			=> 'Är du säker på att du vill rensa de valda kategorierna med de angivna inställningarna? När rensningen väl utförts finns det inget sätt att återfå de borttagna inläggen och trådarna.',
 	'PRUNE_NOT_POSTED'				=> 'Dagar sen senaste inlägget',
 	'PRUNE_NOT_VIEWED'				=> 'Dagar sen senaste visningen',
 	'PRUNE_OLD_POLLS'				=> 'Rensa gamla omröstningar',

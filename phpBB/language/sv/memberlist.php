@@ -2,19 +2,17 @@
 /**
 *
 * This file is part of Swedish phpBB translation.
-* Copyright (c) 2010 - 2014 Swedish translation group.
+* Copyright (c) 2010 - 2021 Swedish translation group.
 *
 *
-* This program is distributed in the hope that it will be useful,
-* but WITHOUT ANY WARRANTY; without even the implied warranty of
-* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
-* GNU General Public License for more details.
+* For more information about the language pack, please visit
+* http://phpbb.se/forum/viewforum.php?f=49
 *
 *
-* @package      phpBB Sweden
-* @author       Simon Assgård <sassgard@gmail.com> (Sinom) http://www.phpbb.se/
-* @copyright    phpBB Sweden
-* @license      @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
+* @package		phpBB Sweden
+* @author		Simon Assgård <sassgard@gmail.com> (Sinom) <http://www.phpbb.se/>
+* @copyright 	(c) phpBB Limited <https://www.phpbb.com/> & phpBB Sweden <http://www.phpbb.se/>
+* @license		GNU General Public License, version 3 (GPL-3.0)
 *
 */
 
@@ -23,7 +21,7 @@
 */
 if (!defined('IN_PHPBB'))
 {
-   exit;
+	exit;
 }
 
 if (empty($lang) || !is_array($lang))
@@ -49,7 +47,8 @@ $lang = array_merge($lang, array(
 	'ACTIVE_IN_TOPIC'		=> 'Aktivast i tråd',
 	'ADD_FOE'				=> 'Markera som en ignorerad användare',
 	'ADD_FRIEND'			=> 'Lägg till som vän',
-	'AFTER'					=> 'Efter',	
+	'AFTER'					=> 'Efter',
+
 	'ALL'					=> 'Alla',
 
 	'BEFORE'				=> 'Före',
@@ -98,16 +97,16 @@ $lang = array_merge($lang, array(
 
 	'LAST_ACTIVE'				=> 'Senast aktiv',
 	'LESS_THAN'					=> 'Mindre än',
-	'LIST_USERS'				=> array(
-		1	=> '%d användare',
-		2	=> '%d användare',
+	'LIST_USERS'	=>	array(
+		1	=>			'%d användare',
+		2	=>			'%d användare',
 	),
 	'LOGIN_EXPLAIN_TEAM'		=> 'Forumet kräver att du registrerar dig och loggar in för att visa teamlistan.',
 	'LOGIN_EXPLAIN_MEMBERLIST'	=> 'Forumet kräver att du registrerar dig och loggar in för att visa medlemslistan.',
 	'LOGIN_EXPLAIN_SEARCHUSER'	=> 'Forumet kräver att du registrerar dig och loggar in för att söka efter medlemmar.',
 	'LOGIN_EXPLAIN_VIEWPROFILE'	=> 'Forumet kräver att du registrerar dig och loggar in för att visa profiler.',
 
-	'MANAGE_GROUP'			=> 'Hanter grupp',
+	'MANAGE_GROUP'			=> 'Hantera Grupp',
 	'MORE_THAN'				=> 'Mer än',
 
 	'NO_CONTACT_FORM'		=> 'Forumets administratörs kontaktformulär har inaktiverats.',
@@ -142,10 +141,10 @@ $lang = array_merge($lang, array(
 	'USER_ADMIN'			=> 'Administrera användare',
 	'USER_BAN'				=> 'Bannlys',
 	'USER_FORUM'			=> 'Användarstatistik',
-	'USER_LAST_REMINDED'	=> array(
-		0		=> 'Ingen påminnelse har sänts',
-		1		=> '%1$d påminnelse sänd<br />» %2$s',
-		2		=> '%1$d påminnelser sända<br />» %2$s',
+	'USER_LAST_REMINDED'	=>	array(
+		0	=>			'Ingen påminnelse har sänts',
+		1	=>			'%1$d påminnelse sänd<br />» %2$s',
+		2	=>			'%1$d påminnelser sända<br />» %2$s',
 	),
 	'USER_ONLINE'			=> 'Online',
 	'USER_PRESENCE'			=> 'Allmänt',
@@ -155,7 +154,6 @@ $lang = array_merge($lang, array(
 	'VIEW_FACEBOOK_PROFILE'	=> 'Visa Facebook profil',
 	'VIEW_SKYPE_PROFILE'	=> 'Visa Skype profil',
 	'VIEW_TWITTER_PROFILE'	=> 'Visa Twitter profil',
-	'VIEW_YOUTUBE_CHANNEL'  => 'Visa YouTube-kanal',
-	'VIEW_GOOGLEPLUS_PROFILE' => 'Visa Google+ profil',
+	'VIEW_YOUTUBE_CHANNEL'	=> 'Visa YouTube-kanal',
 
 ));

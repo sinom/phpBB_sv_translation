@@ -2,19 +2,17 @@
 /**
 *
 * This file is part of Swedish phpBB translation.
-* Copyright (c) 2010 - 2014 Swedish translation group.
+* Copyright (c) 2010 - 2021 Swedish translation group.
 *
 *
-* This program is distributed in the hope that it will be useful,
-* but WITHOUT ANY WARRANTY; without even the implied warranty of
-* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
-* GNU General Public License for more details.
+* For more information about the language pack, please visit
+* http://phpbb.se/forum/viewforum.php?f=49
 *
 *
-* @package      phpBB Sweden
-* @author       Simon Assgård <sassgard@gmail.com> (Sinom) http://www.phpbb.se/
-* @copyright    phpBB Sweden
-* @license      @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
+* @package		phpBB Sweden
+* @author		Simon Assgård <sassgard@gmail.com> (Sinom) <http://www.phpbb.se/>
+* @copyright 	(c) phpBB Limited <https://www.phpbb.com/> & phpBB Sweden <http://www.phpbb.se/>
+* @license		GNU General Public License, version 3 (GPL-3.0)
 *
 */
 
@@ -51,5 +49,5 @@ $lang = array_merge($lang, array(
 	'CONTROLLER_ARGUMENT_VALUE_MISSING'	=> 'Saknar värde för argumentet #%1$s: <strong>%3$s</strong> i klassen <strong>%2$s</strong>',
 	'CONTROLLER_NOT_SPECIFIED'			=> 'Ingen kontroller har blivit angiven.',
 	'CONTROLLER_METHOD_NOT_SPECIFIED'	=> 'Ingen metod var angiven för kontrollen.',
-	'CONTROLLER_SERVICE_UNDEFINED'		=> 'Tjänsten för kontrollen â€œ<strong>%s</strong>â€ är inte definerad i ./config/services.yml.',
+	'CONTROLLER_SERVICE_UNDEFINED'		=> 'Tjänsten för kontrollen "<strong>%s</strong>" är inte definerad i ./config/services.yml.',
 ));

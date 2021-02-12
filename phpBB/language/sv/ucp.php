@@ -2,19 +2,17 @@
 /**
 *
 * This file is part of Swedish phpBB translation.
-* Copyright (c) 2010 - 2014 Swedish translation group.
+* Copyright (c) 2010 - 2021 Swedish translation group.
 *
 *
-* This program is distributed in the hope that it will be useful,
-* but WITHOUT ANY WARRANTY; without even the implied warranty of
-* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
-* GNU General Public License for more details.
+* For more information about the language pack, please visit
+* http://phpbb.se/forum/viewforum.php?f=49
 *
 *
-* @package      phpBB Sweden
-* @author       Simon Assgård <sassgard@gmail.com> (Sinom) http://www.phpbb.se/
-* @copyright    phpBB Sweden
-* @license      @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
+* @package		phpBB Sweden
+* @author		Simon Assgård <sassgard@gmail.com> (Sinom) <http://www.phpbb.se/>
+* @copyright 	(c) phpBB Limited <https://www.phpbb.com/> & phpBB Sweden <http://www.phpbb.se/>
+* @license		GNU General Public License, version 3 (GPL-3.0)
 *
 */
 
@@ -23,12 +21,14 @@
 */
 if (!defined('IN_PHPBB'))
 {
-   exit;
+	exit;
 }
+
 if (empty($lang) || !is_array($lang))
 {
 	$lang = array();
 }
+
 // DEVELOPERS PLEASE NOTE
 //
 // All language files should use UTF-8 as their encoding and the files must not contain a BOM.
@@ -40,38 +40,41 @@ if (empty($lang) || !is_array($lang))
 // You do not need this where single placeholders are used, e.g. 'Message %d' is fine
 // equally where a string contains only two placeholders which are used to wrap text
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
+
 // Privacy policy and T&C
 $lang = array_merge($lang, array(
-	'TERMS_OF_USE_CONTENT'	=> 'Genom att besöka “%1$s” (hädanefter “vi”, “oss”, “vår”, “%1$s”, “%2$s”), så godkänner du att du binder dig juridiskt till följande avtal. Om du inte godkänner följande avtal, besök inte eller använd inte “%1$s”. Vi kan ändra detta avtal när som helst och vi kommer att göra allt för att informera dig om ändringar, men det vore klokt av dig att granska denna sida regelbundet på egen hand eftersom fortsatt användning av “%1$s” även efter ändringar innebär att du godkänner att du är juridiskt bunden till detta avtal.<br />
-	<br />
-	Vårt forum drivs av phpBB (hädanefter “de”, “dem”, “deras”, “phpBB mjukvara”, “www.phpbb.com”, “phpBB Limited”, “phpBB Teams”) som är en forumprogramvara tillgänglig under “<a href="http://opensource.org/licenses/gpl-2.0.php">General Public License</a>” (hädanefter “GPL”) och kan laddas ner från <a href="https://www.phpbb.com/">www.phpbb.com</a>. phpBB mjukvaran främjar endast Internetbaserade diskussioner, phpBB Limited är inte ansvariga för vad vi tillåter och/eller förbjuder för innehåll och/eller uppförande. För mer information om phpBB, besök <a href="https://www.phpbb.com/">https://www.phpbb.com/</a>.<br />
-	<br />
+	'TERMS_OF_USE_CONTENT'	=> 'Genom att besöka “%1$s” (hädanefter “vi”, “oss”, “vår”, “%1$s”, “%2$s”), så godkänner du att du binder dig juridiskt till följande avtal. Om du inte godkänner följande avtal, besök inte eller använd inte “%1$s”. Vi kan ändra detta avtal när som helst och vi kommer att göra allt för att informera dig om ändringar, men det vore klokt av dig att granska denna sida regelbundet på egen hand eftersom fortsatt användning av “%1$s” även efter ändringar innebär att du godkänner att du är juridiskt bunden till detta avtal.
+	<br><br>
+	Vårt forum drivs av phpBB (hädanefter “de”, “dem”, “deras”, “phpBB mjukvara”, “www.phpbb.com”, “phpBB Limited”, “phpBB Teams”) som är en forumprogramvara tillgänglig under “<a href="http://opensource.org/licenses/gpl-2.0.php">General Public License</a>” (hädanefter “GPL”) och kan laddas ner från <a href="https://www.phpbb.com/">www.phpbb.com</a>. phpBB mjukvaran främjar endast Internetbaserade diskussioner, phpBB Limited är inte ansvariga för vad vi tillåter och/eller förbjuder för innehåll och/eller uppförande. För mer information om phpBB, besök <a href="https://www.phpbb.com/">https://www.phpbb.com/</a>.
+	<br><br>
 	Du går med på att inte posta något grovt, obscent, vulgärt, förtalande, hatiskt, hotande, sexuellt orienterat eller något annat material som kan bryta mot lagarna i ditt land, lagar i landet där “%1$s” finns, eller internationell lag. Om du bryter mot detta så kan det leda till omedelbar och permanent bannlysning samt att vi kontaktar din Internetleverantör. IP-adressen för alla inlägg sparas. Du går med på att “%1$s” har rätten att ta bort, redigera, flytta eller stänga vilka trådar som helst, när som helst. Som användare godkänner du att all information du skriver in sparas i en databas. Denna information kommer inte att delges till någon tredje part utan ditt samtycke, men varken “%1$s” eller phpBB kan hållas ansvariga för eventuella intrångsförsök som kan leda till att information komprometteras.
 	',
-	'PRIVACY_POLICY'		=> 'Denna policy förklarar i detalj hur “%1$s” och deras partners (hädanefter “vi”, “oss”, “vår”, “%1$s”, “%2$s”) och phpBB (hädanefter “de”, “dem”, “deras”, “phpBB mjukvara”, “www.phpbb.com”, “phpBB Limited”, “phpBB Teams”) använder information som samlas in under din användning av webbplatsen (hädanefter “din information”).<br />
-	<br />
-	Din information samlas in på två sätt. För det första, genom att besöka “%1$s” så kommer phpBB mjukvaran att skapa ett antal cookies, vilket är små textfiler som laddas ner till din dators webbläsares temporära filer. De två första cookisarna innehåller bara en användaridentifierare (hädanefter “användar-id”) och en anonym sessionsidentifierare (hädanefter “sessions-id”), som automatiskt tilldelas dig av phpBB mjukvaran. En tredje cookie kommer skapas när du väl läst några trådar på “%1$s” och används för att komma ihåg vilka trådar som har lästs och inte lästs, och på detta sätt förbättras din användarupplevelse.<br />
-	<br />
-	Vi kan också möjligen skapa cookies utanför phpBB mjukvaran när du besöker “%1$s”, men dessa ligger utanför detta dokument som endast är till för att täcka sidorna som skapats av phpBB mjukvaran. Det andra sättet vi samlar in din information är genom vad du skickar till oss. Detta kan vara, men är inte begränsat till: inlägg gjorda som anonym besökare (hädanefter “anonyma inlägg”), registrering på “%1$s” (hädanefter “ditt konto”) och inlägg sparade av dig efter din registrering och medan du är inloggad (hädanefter “dina inlägg”).<br />
-	<br />
-	Ditt konto kommer alltid minst innehålla ett unikt identifierbart namn (hädanefter “ditt användarnamn”), ett personligt lösenord som används för att logga in på ditt konto (hädanefter “ditt lösenord”) och en personlig, giltig e-postadress (hädanefter “din e-postadress”). Informationen i ditt konto på “%1$s” skyddas av dataskyddslagar i landet som vi finns i. All information utöver ditt användarnamn, lösenord och din e-postadress som krävs av “%1$s” under registreringsprocessen är endera obligatorisk eller frivillig, enligt forumledningens val. Du kan enligt forumledningens val välja vilken information i ditt konto som ska visas publikt. Vidare så kan du, i ditt konto, välja vilka automatiskt genererade e-postmeddelanden phpBB mjukvaran skickar ut som du vill ha och inte ha.<br />
-	<br />
+
+	'PRIVACY_POLICY'		=> 'Denna policy förklarar i detalj hur “%1$s” och deras partners (hädanefter “vi”, “oss”, “vår”, “%1$s”, “%2$s”) och phpBB (hädanefter “de”, “dem”, “deras”, “phpBB mjukvara”, “www.phpbb.com”, “phpBB Limited”, “phpBB Teams”) använder information som samlas in under din användning av webbplatsen (hädanefter “din information”).
+	<br><br>
+	Din information samlas in på två sätt. För det första, genom att besöka “%1$s” så kommer phpBB mjukvaran att skapa ett antal cookies, vilket är små textfiler som laddas ner till din dators webbläsares temporära filer. De två första cookisarna innehåller bara en användaridentifierare (hädanefter “användar-id”) och en anonym sessionsidentifierare (hädanefter “sessions-id”), som automatiskt tilldelas dig av phpBB mjukvaran. En tredje cookie kommer skapas när du väl läst några trådar på “%1$s” och används för att komma ihåg vilka trådar som har lästs och inte lästs, och på detta sätt förbättras din användarupplevelse.
+	<br><br>
+	Vi kan också möjligen skapa cookies utanför phpBB mjukvaran när du besöker “%1$s”, men dessa ligger utanför detta dokument som endast är till för att täcka sidorna som skapats av phpBB mjukvaran. Det andra sättet vi samlar in din information är genom vad du skickar till oss. Detta kan vara, men är inte begränsat till: inlägg gjorda som anonym besökare (hädanefter “anonyma inlägg”), registrering på “%1$s” (hädanefter “ditt konto”) och inlägg sparade av dig efter din registrering och medan du är inloggad (hädanefter “dina inlägg”).
+	<br><br>
+	Ditt konto kommer alltid minst innehålla ett unikt identifierbart namn (hädanefter “ditt användarnamn”), ett personligt lösenord som används för att logga in på ditt konto (hädanefter “ditt lösenord”) och en personlig, giltig e-postadress (hädanefter “din e-postadress”). Informationen i ditt konto på “%1$s” skyddas av dataskyddslagar i landet som vi finns i. All information utöver ditt användarnamn, lösenord och din e-postadress som krävs av “%1$s” under registreringsprocessen är endera obligatorisk eller frivillig, enligt forumledningens val. Du kan enligt forumledningens val välja vilken information i ditt konto som ska visas publikt. Vidare så kan du, i ditt konto, välja vilka automatiskt genererade e-postmeddelanden phpBB mjukvaran skickar ut som du vill ha och inte ha.
+	<br><br>
 	Ditt lösenord är chiffrerat (genom ett envägs-hash) så att det är säkert. Dock är det rekommenderat att du inte använder samma lösenord på flera olika webbplatser. Ditt lösenord är vägen in till ditt konto på “%1$s”, så skydda det noga. Aldrig under några som helst omständigheter kommer någon från “%1$s”, phpBB eller annan tredje part att fråga dig efter ditt lösenord. Om du glömmer bort ditt lösenord så kan du använda “Jag har glömt mitt lösenord”-funktionen som finns i phpBB mjukvaran. Denna process kommer att be dig om ditt användarnamn och din e-postadress, sen kommer phpBB mjukvaran skicka dig ett nytt lösenord till din e-postadress.<br />
 	',
 ));
+
 // Common language entries
 $lang = array_merge($lang, array(
 	'ACCOUNT_ACTIVE'				=> 'Ditt konto aktiverades. Tack för att du registrerade dig.',
 	'ACCOUNT_ACTIVE_ADMIN'			=> 'Kontot aktiverades.',
 	'ACCOUNT_ACTIVE_PROFILE'		=> 'Ditt konto återaktiverades.',
-	'ACCOUNT_ADDED'					=> 'Tack för att du registrerade dig, ditt konto skapades. Du kan nu logga in med ditt användarnamn och lösenord.',
+	'ACCOUNT_ADDED'					=> 'Tack för att du registrerade dig, ditt konto skapades.',
 	'ACCOUNT_COPPA'					=> 'Ditt konto skapades men måste godkännas innan du kan använda det, läs din e-post för vidare instruktioner.',
 	'ACCOUNT_EMAIL_CHANGED'			=> 'Ditt konto skapades. Dock kräver detta forum att alla konton återaktiverats efter ändring av e-postadressen. En aktiveringsnyckel har skickats till din nya e-postadress. Läs din e-post för vidare instruktioner.',
 	'ACCOUNT_EMAIL_CHANGED_ADMIN'	=> 'Ditt konto skapades. Dock kräver detta forum att alla konton återaktiverats av en administratör efter ändring av e-postadressen. Ett e-postmeddelande har skickats till administratörerna och du kommer informeras när ditt konto återaktiverats.',
-	'ACCOUNT_INACTIVE'				=> 'Ditt konto skapades. Dock kräver detta forum att alla konton aktiveras innan de kan användas. En aktiveringsnyckel har skickats till dig till den e-postadress du angav. Läs din e-post för vidare instruktioner. Glöm inte att kontrollera din skräppost-mapp efter detta meddelande.',
+	'ACCOUNT_INACTIVE'				=> 'Ditt konto skapades. Dock kräver detta forum att alla konton aktiveras innan de kan användas. En aktiveringsnyckel har skickats till dig till den e-postadress du angav. Läs din e-post för vidare instruktioner.',
 	'ACCOUNT_INACTIVE_ADMIN'		=> 'Ditt konto skapades. Dock kräver detta forum att alla konton aktiveras av administratörsgruppen innan de kan användas. Ett e-postmeddelande har skickats till administratörerna och du kommer att informeras när ditt konto har aktiverats.',
-	'ACTIVATION_EMAIL_SENT'         => 'Ett e-postmeddelande för aktivering av ditt konto har skickats till din e-postadress.',
-	'ACTIVATION_EMAIL_SENT_ADMIN'   => 'Ett e-postmeddelande för aktivering av ditt konto har skickats till administratörerna.',
+	'ACTIVATION_EMAIL_SENT'			=> 'Ett e-postmeddelande för aktivering av ditt konto har skickats till din e-postadress.',
+	'ACTIVATION_EMAIL_SENT_ADMIN'	=> 'Ett e-postmeddelande för aktivering av ditt konto har skickats till administratörerna.',
 	'ADD'							=> 'Lägg till',
 	'ADD_BCC'						=> 'Lägg till [Dold kopia]',
 	'ADD_FOES'						=> 'Lägg till nya ignorerade  användare',
@@ -83,7 +86,6 @@ $lang = array_merge($lang, array(
 	'ADD_RULE'						=> 'Lägg till regel',
 	'ADD_TO'						=> 'Lägg till',
 	'ADD_USERS_UCP_EXPLAIN'			=> 'Här kan du lägga till nya medlemmar till gruppen. Du kan göra gruppen till standardgrupp för de valda användarna. Ange varje användarnamn på en ny rad.',
-	'ADD_USERS_UCP_EXPLAIN'			=> 'Här kan du lägga till nya medlemmar till gruppen. Du kan göra gruppen till standardgrupp för de valda användarna. Ange varje användarnamn på en ny rad.',
 	'ADMIN_EMAIL'					=> 'Administratörer kan skicka mig information via e-post',
 	'AGREE'							=> 'Jag godkänner detta avtal',
 	'ALLOW_PM'						=> 'Tillåt att andra användare skickar personliga meddelanden till mig',
@@ -92,7 +94,7 @@ $lang = array_merge($lang, array(
 	'ATTACHMENTS_EXPLAIN'			=> 'Detta är en lista över filer du har bifogat till inlägg på detta forum.',
 	'ATTACHMENTS_DELETED'			=> 'Bilagorna togs bort.',
 	'ATTACHMENT_DELETED'			=> 'Bilagan togs bort.',
-
+	'ATTACHMENT_LOCKED'				=> 'Denna tråd är låst, du kan inte ta bort bilagan.',
 	'AUTOLOGIN_SESSION_KEYS_DELETED'=> 'Valet "kom ihåg mig" är ny borttaget.',
 	'AVATAR_CATEGORY'				=> 'Kategori',
 	'AVATAR_DRIVER_GRAVATAR_TITLE'	=> 'Gravatar',
@@ -104,6 +106,7 @@ $lang = array_merge($lang, array(
 	'AVATAR_DRIVER_UPLOAD_TITLE'	=> 'Ladda upp avatar',
 	'AVATAR_DRIVER_UPLOAD_EXPLAIN'	=> 'Ladda upp din egna avatar.',
 	'AVATAR_EXPLAIN'				=> 'Maximalstorlek; bredd: %1$s pixlar, höjd: %2$s pixlar, filstorlek: %3$.2f KiB.',
+	'AVATAR_EXPLAIN_NO_FILESIZE'	=> 'Maximaldimension; bredd: %1$s, höjd: %2$s.',
 	'AVATAR_FEATURES_DISABLED'		=> 'Stödet för visningsbilder är för närvarande inaktiverat.',
 	'AVATAR_GALLERY'				=> 'Lokalt galleri',
 	'AVATAR_GENERAL_UPLOAD_ERROR'	=> 'Kunde inte ladda upp visningsbild till %s.',
@@ -111,7 +114,6 @@ $lang = array_merge($lang, array(
 	'AVATAR_PAGE'					=> 'Sida',
 	'AVATAR_SELECT'					=> 'Välj din avatar',
 	'AVATAR_TYPE'					=> 'Avatartyp',
-	
 	'AVATAR_TYPE_NOT_ALLOWED'		=> 'Din nuvarande visningsbild kan inte visas, eftersom denna typ av visningsbilder har förbjudits.',
 
 	'BACK_TO_DRAFTS'			=> 'Tillbaka till sparade utkast',
@@ -119,7 +121,7 @@ $lang = array_merge($lang, array(
 	'BIRTHDAY'					=> 'Födelsedag',
 	'BIRTHDAY_EXPLAIN'			=> 'Genom att ange ett år så kommer din ålder att visas när det är din födelsedag.',
 	'BOARD_DATE_FORMAT'			=> 'Mitt datumformat',
-	'BOARD_DATE_FORMAT_EXPLAIN'	=> 'Använd samma syntax som för PHPs <a href="http://www.php.net/date">date()</a>-funktion för inställning av detta fält.',
+	'BOARD_DATE_FORMAT_EXPLAIN'	=> 'Använd samma syntax som för PHPs <a href="https://secure.php.net/manual/function.date.php">date()</a>-funktion för inställning av detta fält.',
 	'BOARD_LANGUAGE'			=> 'Mitt språk',
 	'BOARD_STYLE'				=> 'Min stil',
 	'BOARD_TIMEZONE'			=> 'Min tidszon',
@@ -139,7 +141,6 @@ $lang = array_merge($lang, array(
 	'CLICK_RETURN_FOLDER'		=> '%1$sÅtergå till din “%3$s”-mapp%2$s',
 	'CONFIRMATION'				=> 'Verifiering av registrering',
 	'CONFIRM_CHANGES'			=> 'Bekräfta ändringar',
-
 	'CONFIRM_EXPLAIN'			=> 'För att förhindra automatiska registreringar så kräver forumet att du här skriver in en verifieringskod. Koden visas i bilden nedan. Om du ser dåligt eller av annan anledning inte kan se koden, kontakta %sforumadministratörerna%s.',
 	'VC_REFRESH'				=> 'Uppdatera verifieringskod',
 	'VC_REFRESH_EXPLAIN'		=> 'Om du inte ser koden  på bilden, så kan du be om en ny genom att klicka på knappen under.',
@@ -183,7 +184,7 @@ $lang = array_merge($lang, array(
 	'DEMOTE_SELECTED'			=> 'Säg upp ledarskap för vald grupp',
 	'DISABLE_CENSORS'			=> 'Aktivera ordcensur',
 	'DISPLAY_GALLERY'			=> 'Visa galleri',
-	'DOMAIN_NO_MX_RECORD_EMAIL'	=> 'Den angivna e-postdomänen har ingen giltigt MX-pekning.',
+
 	'DOWNLOADS'					=> 'Nerladdningar',
 	'DRAFTS_DELETED'			=> 'Alla valda utkast togs bort.',
 	'DRAFTS_EXPLAIN'			=> 'Här kan du se, redigera och ta bort dina sparade utkast.',
@@ -191,7 +192,6 @@ $lang = array_merge($lang, array(
 
 	'EDIT_DRAFT_EXPLAIN'		=> 'Här kan du redigera dina utkast. Utkasten innehåller ingen bilage- eller omröstningsinformation.',
 	'EMAIL_BANNED_EMAIL'		=> 'E-postadressen du angav får inte användas.',
-
 	'EMAIL_REMIND'				=> 'Detta måste vara e-postadressen som är associerad med ditt konto. Om du inte har ändrat den via kontrollpanelen så är detta e-postadressen som du registrerade ditt konto med.',
 	'EMAIL_TAKEN_EMAIL'			=> 'Den angivna e-postadressen används redan av en annan användare.',
 	'EMPTY_DRAFT'				=> 'Du måste skriva ett meddelande för att spara dina ändringar.',
@@ -204,13 +204,13 @@ $lang = array_merge($lang, array(
 	'EXPORT_FOLDER'				=> 'Exportera denna vy',
 
 	'FIELD_REQUIRED'					=> 'Fältet “%s” måste fyllas i.',
-	'FIELD_TOO_SHORT'					=> array(
-		1	=> 'Fältet “%1$s” är för kort, minst %2$d tecken krävs.',
-		2	=> 'Fältet “%1$s” är för kort, minst %2$d tecken krävs.',
+	'FIELD_TOO_SHORT'	=>	array(
+		1	=>			'Fältet “%1$s” är för kort, minst %2$d tecken krävs.',
+		2	=>			'Fältet “%1$s” är för kort, minst %2$d tecken krävs.',
 	),
-	'FIELD_TOO_LONG'					=> array(
-		1	=> 'Fältet “%1$s” är för långt, maximalt %2$d tecken är tillåtna.',
-		2	=> 'Fältet “%1$s” är för långt, maximalt %2$d tecken är tillåtna.',
+	'FIELD_TOO_LONG'	=>	array(
+		1	=>			'Fältet “%1$s” är för långt, maximalt %2$d tecken är tillåtna.',
+		2	=>			'Fältet “%1$s” är för långt, maximalt %2$d tecken är tillåtna.',
 	),
 	'FIELD_TOO_SMALL'					=> 'Värdet av “%1$s” är för lågt, det måsta vara lika med eller högre än %2$d.',
 	'FIELD_TOO_LARGE'					=> 'Värdet av “%1$s” är för högt, det största värdet som är tillåtet är %2$d.',
@@ -221,35 +221,32 @@ $lang = array_merge($lang, array(
 	'FIELD_INVALID_CHARS_ALPHA_PUNCTUATION'	=> 'Fältet “%s” innehåller felaktiga tecken, endast alfanumeriska eller _,-. tecken är tillåtna och den första måste vara alfabetisk.',
 	'FIELD_INVALID_CHARS_ALPHA_SPACERS'	=> 'Fältet “%s” har ogiltliga tecken, endast alfanumeriska, mellanslag eller -+_[] tecken är tillåtna.',
 	'FIELD_INVALID_CHARS_ALPHA_UNDERSCORE'	=> 'Fältet “%s” har ogiltliga tecken, endast alfanumeriska eller _ tecken är tillåtna.',
-	
 	'FIELD_INVALID_CHARS_LETTER_NUM_DOTS'	=> 'Fältet “%s” innehåller felaktiga tecken, endast bokstäver, nummer eller. tecken är tillåtna.',
 	'FIELD_INVALID_CHARS_LETTER_NUM_ONLY'	=> 'Fältet “%s” innehåller felaktiga tecken, endast bokstäver och nummer är tillåtna.',
 	'FIELD_INVALID_CHARS_LETTER_NUM_PUNCTUATION'	=> 'Fältet “%s” innehåller felaktiga tecken, endast bokstäver, nummer eller _,-. tecken är tillåtna och den första måste vara alfabetisk.',
 	'FIELD_INVALID_CHARS_LETTER_NUM_SPACERS'		=> 'Fältet “%s” innehåller felaktiga tecken, endast bokstäver, nummer, mellanslag och -+_[] tecken är tillåtna.',
 	'FIELD_INVALID_CHARS_LETTER_NUM_UNDERSCORE'		=> 'Fältet “%s” innehåller felaktiga tecken, endast bokstäver, nummer eller _ tecken är tillåtna.',
-
 	'FIELD_INVALID_DATE'				=> 'Fältet “%s” innehåller ett felaktigt datum.',
 	'FIELD_INVALID_URL'					=> 'Fältet “%s” har en ogiltlig URL.',
 	'FIELD_INVALID_VALUE'				=> 'Fältet “%s” har ett felaktigt värde.',
+
 	'FOE_MESSAGE'				=> 'Meddelande från en ignorerad användare',
 	'FOES_EXPLAIN'				=> 'Ovänner är användare som kommer att ignoreras automatiskt. Inlägg av dessa användare kommer inte att visas helt. Personliga meddelanden från ignorerade  användare tillåts fortfarande. Observera att du inte kan ignorera moderatorer eller administratörer.',
 	'FOES_UPDATED'				=> 'Din lista över ignorerade  användare uppdaterades.',
 	'FOLDER_ADDED'				=> 'Mappen lades till.',
-
-	'FOLDER_MESSAGE_STATUS'		=> array(
-		1	=> '%2$d utav %1$s lagrade',
-		2	=> '%2$d utav %1$s lagrade',
+	'FOLDER_MESSAGE_STATUS'	=>	array(
+		1	=>			'%2$d utav %1$s lagrade',
+		2	=>			'%2$d utav %1$s lagrade',
 	),
 	'FOLDER_NAME_EMPTY'			=> 'Du måste ange ett namn för denna mapp.',
 	'FOLDER_NAME_EXIST'			=> 'Mappen <strong>%s</strong> finns redan.',
 	'FOLDER_OPTIONS'			=> 'Mappalternativ',
 	'FOLDER_RENAMED'			=> 'Bytte namn på mappen.',
 	'FOLDER_REMOVED'			=> 'Mappen togs bort.',
-	'FOLDER_STATUS_MSG'			=> array(
-		1	=> 'Mappen är %3$d%% full (%2$d av %1$s lagrade)',
-		2	=> 'Mappen är %3$d%% full (%2$d av %1$s lagrade)',
+	'FOLDER_STATUS_MSG'	=>	array(
+		1	=>			'Mappen är %3$d%% full (%2$d av %1$s lagrade)',
+		2	=>			'Mappen är %3$d%% full (%2$d av %1$s lagrade)',
 	),
-
 	'FORWARD_PM'				=> 'Vidarebefordra PM',
 	'FORCE_PASSWORD_EXPLAIN'	=> 'Innan du kan fortsätta så måste du byta ditt lösenord.',
 	'FRIEND_MESSAGE'			=> 'Meddelande från vän',
@@ -266,11 +263,11 @@ $lang = array_merge($lang, array(
 	'FWD_TO'					=> 'Till: %s',
 
 	'GLOBAL_ANNOUNCEMENT'		=> 'Globalt meddelande',
-	
-	'GRAVATAR_AVATAR_EMAIL'         => 'Gravatar epostadress',
-	'GRAVATAR_AVATAR_EMAIL_EXPLAIN'   => 'Ange den epostadress som du använt vid registreringen hos <a href="http://www.gravatar.com/">Gravatar</a>.',
-	'GRAVATAR_AVATAR_SIZE'         => 'Avatar-dimensioner',
-	'GRAVATAR_AVATAR_SIZE_EXPLAIN'   => 'Ange höjd och bredd för avataren, lämna tomt för att försöka verifiera automatiskt.',
+
+	'GRAVATAR_AVATAR_EMAIL'			=> 'Gravatar epostadress',
+	'GRAVATAR_AVATAR_EMAIL_EXPLAIN'	=> 'Ange den epostadress som du använt vid registreringen hos <a href="http://www.gravatar.com/">Gravatar</a>.',
+	'GRAVATAR_AVATAR_SIZE'			=> 'Avatar-dimensioner',
+	'GRAVATAR_AVATAR_SIZE_EXPLAIN'	=> 'Ange höjd och bredd för avataren, lämna tomt för att försöka verifiera automatiskt.',
 
 	'HIDE_ONLINE'				=> 'Dölj att jag är online',
 	'HIDE_ONLINE_EXPLAIN'		=> 'Om du ändrar denna inställning så kommer det nya valet inte att börja gälla förrän ditt nästa besök.',
@@ -279,8 +276,9 @@ $lang = array_merge($lang, array(
 
 	'IF_FOLDER_FULL'			=> 'Om mappen är full',
 	'IMPORTANT_NEWS'			=> 'Viktiga meddelanden',
-	'INVALID_USER_BIRTHDAY'		=> 'Födelsedagen som angavs är inte ett giltigt datum.',
+	'INVALID_USER_BIRTHDAY'			=> 'Födelsedagen som angavs är inte ett giltigt datum.',
 	'INVALID_CHARS_USERNAME'	=> 'Användarnamnet innehåller förbjudna tecken.',
+	'INVALID_EMOJIS_USERNAME'	=> 'Användarnamnet innehåller förbjudna tecken (Emoji).',
 	'INVALID_CHARS_NEW_PASSWORD'=> 'Lösenordet innehåller inte de tecken som krävs.',
 	'ITEMS_REQUIRED'			=> 'Fält märkta med * måste fyllas i.',
 
@@ -292,16 +290,14 @@ $lang = array_merge($lang, array(
 	'LINK_REMOTE_SIZE'			=> 'Dimensioner för visningsbild',
 	'LINK_REMOTE_SIZE_EXPLAIN'	=> 'Ange bredden och höjden på visningsbilden, lämna tomt för att försöka automatiskt.',
 	'LOGIN_EXPLAIN_UCP'			=> 'Logga in för att visa kontrollpanelen.',
-	
-	'LOGIN_LINK'               => 'Länka eller registrera ditt konto hos en extern service med ditt forumskonto',
-	'LOGIN_LINK_EXPLAIN'         => 'Du har försökt att logga in med en extern service som ännu ej har anslutits till ett forumkonto. Du måste nu antingen länka detta konto till ett existerande konto eller skapa ett nytt konto.',
-	'LOGIN_LINK_MISSING_DATA'      => 'Erforderlig information som krävs för länkning av ditt konto med en extern service har ej angivits. Upprepa inloggningsproceduren.',
-	'LOGIN_LINK_NO_DATA_PROVIDED'   => 'Ingen information har angivits för att länka ett externt konto till ett forumkonto. Vänligen kontakta forumets administratör om problemen kvarstår.',
-	'LOGIN_KEY'               => 'Inloggningsnyckel',
-	'LOGIN_TIME'            => 'Tid för inloggning',
-	
+	'LOGIN_LINK'					=> 'Länka eller registrera ditt konto hos en extern service med ditt forumskonto',
+	'LOGIN_LINK_EXPLAIN'			=> 'Du har försökt att logga in med en extern service som ännu ej har anslutits till ett forumkonto. Du måste nu antingen länka detta konto till ett existerande konto eller skapa ett nytt konto.',
+	'LOGIN_LINK_MISSING_DATA'		=> 'Erforderlig information som krävs för länkning av ditt konto med en extern service har ej angivits. Upprepa inloggningsproceduren.',
+	'LOGIN_LINK_NO_DATA_PROVIDED'	=> 'Ingen information har angivits för att länka ett externt konto till ett forumkonto. Vänligen kontakta forumets administratör om problemen kvarstår.',
+	'LOGIN_KEY'					=> 'Inloggningsnyckel',
+	'LOGIN_TIME'				=> 'Tid för inloggning',
 	'LOGIN_REDIRECT'			=> 'Du loggades in.',
- 	'LOGOUT_FAILED'				=> 'Du loggades inte ut, eftersom din begäran inte matchade din session. Kontakta forumadministratörerna om problemet kvarstår.',
+	'LOGOUT_FAILED'				=> 'Du loggades inte ut, eftersom din begäran inte matchade din session. Kontakta forumadministratörerna om problemet kvarstår.',
 	'LOGOUT_REDIRECT'			=> 'Du loggades ut.',
 
 	'MARK_IMPORTANT'				=> 'Märk/Avmärk som viktig',
@@ -313,6 +309,7 @@ $lang = array_merge($lang, array(
 	'MESSAGE_EDITED'				=> 'Meddelandet redigerades.',
 	'MESSAGE_HISTORY'				=> 'Meddelandehistorik',
 	'MESSAGE_REMOVED_FROM_OUTBOX'	=> 'Detta meddelande togs bort av dess författare.',
+	'MESSAGE_REPORTED_MESSAGE'		=> 'Rapporterat meddelande',
 	'MESSAGE_SENT_ON'				=> '',
 	'MESSAGE_STORED'				=> 'Meddelandet skickades.',
 	'MESSAGE_TO'					=> 'Till',
@@ -320,10 +317,9 @@ $lang = array_merge($lang, array(
 	'MOVE_DELETED_MESSAGES_TO'		=> 'Flytta meddelandena till',
 	'MOVE_DOWN'						=> 'Flytta ner',
 	'MOVE_MARKED_TO_FOLDER'			=> 'Flytta markerade till %s',
-
-	'MOVE_PM_ERROR'					=> array(
-		1	=> 'Ett fel uppstod när meddelandena flyttades till den nya mappen, endast %2$d av %1$s meddelanden flyttades.',
-		2	=> 'Ett fel uppstod när meddelandena flyttades till den nya mappen, endast %2$d av %1$s meddelanden flyttades.',
+	'MOVE_PM_ERROR'	=>	array(
+		1	=>			'Ett fel uppstod när meddelandena flyttades till den nya mappen, endast %2$d av %1$s meddelanden flyttades.',
+		2	=>			'Ett fel uppstod när meddelandena flyttades till den nya mappen, endast %2$d av %1$s meddelanden flyttades.',
 	),
 	'MOVE_TO_FOLDER'				=> 'Flytta till mapp',
 	'MOVE_UP'						=> 'Flytta upp',
@@ -333,37 +329,36 @@ $lang = array_merge($lang, array(
 	'NEW_PASSWORD_CONFIRM_EMPTY'	=> 'Du angav inte ett bekräftelselösenord.',
 	'NEW_PASSWORD_ERROR'			=> 'Lösenorden du angav stämmer inte överens.',
 
-	'NOTIFICATIONS_MARK_ALL_READ'                  => 'Markera alla meddelanden som lästa',
-	'NOTIFICATIONS_MARK_ALL_READ_CONFIRM'            => 'Är du säker på att du vill markera alla meddelanden som lästa?',
-	'NOTIFICATIONS_MARK_ALL_READ_SUCCESS'            => 'Alla meddelanden har markerats som lästa.',
-	'NOTIFICATION_GROUP_MISCELLANEOUS'               => 'Diverse meddelanden',
-	'NOTIFICATION_GROUP_MODERATION'                  => 'Modereringsmeddelanden',
-
+	'NOTIFICATIONS_MARK_ALL_READ'						=> 'Markera alla meddelanden som lästa',
+	'NOTIFICATIONS_MARK_ALL_READ_CONFIRM'				=> 'Är du säker på att du vill markera alla meddelanden som lästa?',
+	'NOTIFICATIONS_MARK_ALL_READ_SUCCESS'				=> 'Alla meddelanden har markerats som lästa.',
+	'NOTIFICATION_GROUP_MISCELLANEOUS'					=> 'Diverse meddelanden',
+	'NOTIFICATION_GROUP_MODERATION'						=> 'Modereringsmeddelanden',
 	'NOTIFICATION_GROUP_ADMINISTRATION'					=> 'Administrationsnotifikationer',
+	'NOTIFICATION_GROUP_POSTING'						=> 'Inläggsmeddelanden',
+	'NOTIFICATION_METHOD_BOARD'							=> 'Notifikationer', 
+	'NOTIFICATION_METHOD_EMAIL'							=> 'Epost',
+	'NOTIFICATION_METHOD_JABBER'						=> 'Jabber',
+	'NOTIFICATION_TYPE'									=> 'Typ av meddelande',
+	'NOTIFICATION_TYPE_BOOKMARK'						=> 'Någon svara i en tråd som du har bokmärkt',
+	'NOTIFICATION_TYPE_GROUP_REQUEST'					=> 'Någon vill gå med i en grupp som du leder',
+	'NOTIFICATION_TYPE_FORUM'							=> 'Någon svarar på ett ämne i ett forum som du prenumererar på',
+	'NOTIFICATION_TYPE_IN_MODERATION_QUEUE'				=> 'Ett inlägg eller ämne kräver godkänning',
+	'NOTIFICATION_TYPE_MODERATION_QUEUE'				=> 'Dina ämnen/inlägg har godkänts/ej godkänts av moderator',
+	'NOTIFICATION_TYPE_PM'								=> 'Någon skickar ett privat meddelande till dig',
+	'NOTIFICATION_TYPE_POST'							=> 'Någon svarar i ett ämne som du bevakar',
+	'NOTIFICATION_TYPE_QUOTE'							=> 'Någon citerar dig i ett inlägg',
+	'NOTIFICATION_TYPE_REPORT'							=> 'Någon rapporterar ett inlägg',
+	'NOTIFICATION_TYPE_REPORT_CLOSED'					=> 'Din rapport om ett inlägg stängs av en moderator',
+	'NOTIFICATION_TYPE_REPORT_PM'						=> 'Någon rapporterar ett privat meddelande',
+	'NOTIFICATION_TYPE_REPORT_PM_CLOSED'				=> 'Din rapport om ett privat meddelande stängs av en moderator',
 
-	'NOTIFICATION_GROUP_POSTING'                  => 'Inläggsmeddelanden',
-	'NOTIFICATION_METHOD_EMAIL'                     => 'Epost',
-	'NOTIFICATION_METHOD_JABBER'                  => 'Jabber',
-	'NOTIFICATION_TYPE'                           => 'Typ av meddelande',
-	'NOTIFICATION_TYPE_BOOKMARK'                  => 'Någon svara i en tråd som du har bokmärkt',
-	'NOTIFICATION_TYPE_GROUP_REQUEST'               => 'Någon vill gå med i en grupp som du leder',
-	'NOTIFICATION_TYPE_IN_MODERATION_QUEUE'            => 'Ett inlägg eller ämne kräver godkänning',
-	'NOTIFICATION_TYPE_MODERATION_QUEUE'               => 'Dina ämnen/inlägg har godkänts/ej godkänts av moderator',
-	'NOTIFICATION_TYPE_PM'                        => 'Någon skickar ett privat meddelande till dig',
-	'NOTIFICATION_TYPE_POST'                     => 'Någon svarar i ett ämne som du bevakar',
-	'NOTIFICATION_TYPE_QUOTE'                     => 'Någon citerar dig i ett inlägg',
-	'NOTIFICATION_TYPE_REPORT'                     => 'Någon rapporterar ett inlägg',
-	'NOTIFICATION_TYPE_TOPIC'                        => 'Någon skapar ett ämne i ett forum som du bevakar',
-	'NOTIFICATION_TYPE_ADMIN_ACTIVATE_USER'				=> 'Nyligen registrerade användare som kräver aktivering',
-
-	'NOTIFY_METHOD'               => 'Metod för meddelande',
-	'NOTIFY_METHOD_BOTH'         => 'Bägge',
-	'NOTIFY_METHOD_EMAIL'         => 'Endast via epost',
+	'NOTIFICATION_TYPE_TOPIC'							=> 'Någon skapar ett ämne i ett forum som du bevakar',
+	'NOTIFICATION_TYPE_ADMIN_ACTIVATE_USER'				=> 'Nya användare som kräver aktivering',
 
 	'NOTIFY_METHOD'					=> 'Meddelningsmetod',
 	'NOTIFY_METHOD_BOTH'			=> 'Båda',
 	'NOTIFY_METHOD_EMAIL'			=> 'Endast via e-post',
-
 	'NOTIFY_METHOD_EXPLAIN'			=> 'Metod för att skicka meddelanden som skickats via detta forum.',
 	'NOTIFY_METHOD_IM'				=> 'Endast via Jabber',
 	'NOTIFY_ON_PM'					=> 'Meddela mig vid nya personliga meddelanden',
@@ -378,25 +373,27 @@ $lang = array_merge($lang, array(
 	'NOT_ADDED_FOES_SELF'			=> 'Du kan inte lägga till dig själv till din lista över ignorerade  användare.',
 	'NOT_AGREE'						=> 'Jag godkänner inte detta avtal',
 	'NOT_ENOUGH_SPACE_FOLDER'		=> 'Destinationsmappen “%s” verkar vara full. Den valda åtgärden har inte utförts.',
-	'NOT_MOVED_MESSAGES'			=> array(
-		1	=> 'Du har 1 personligt meddelande som hålls tillbaka på grund av full mapp.',
-		2	=> 'Du har %d personliga meddelanden som hålls tillbaka på grund av full mapp.',
+	'NOT_MOVED_MESSAGES'	=>	array(
+		1	=>			'Du har 1 personligt meddelande som hålls tillbaka på grund av full mapp.',
+		2	=>			'Du har %d personliga meddelanden som hålls tillbaka på grund av full mapp.',
 	),
 	'NO_ACTION_MODE'				=> 'Ingen meddelandeåtgärd specificerad.',
 	'NO_AUTHOR'						=> 'Ingen författare definierad för detta meddelande',
 	'NO_AVATAR'						=> 'Ingen visningsbild är vald',
 	'NO_AVATAR_CATEGORY'			=> 'Ingen',
+
 	'NO_AUTH_DELETE_MESSAGE'		=> 'Du har inte behörighet att ta bort personliga meddelanden.',
 	'NO_AUTH_EDIT_MESSAGE'			=> 'Du har inte behörighet att redigera personliga meddelanden.',
 	'NO_AUTH_FORWARD_MESSAGE'		=> 'Du har inte behörighet att vidarebefordra personliga meddelanden.',
 	'NO_AUTH_GROUP_MESSAGE'			=> 'Du har inte behörighet att skicka personliga meddelanden till grupper.',
- 	'NO_AUTH_PASSWORD_REMINDER'		=> 'Du har inte behörighet att be om ett nytt lösenord.',
+	'NO_AUTH_PASSWORD_REMINDER'		=> 'Du har inte behörighet att be om ett nytt lösenord.',
 	'NO_AUTH_PROFILEINFO'			=> 'Du har inte behörighet att ändra din profilinformation.',
- 	'NO_AUTH_READ_HOLD_MESSAGE'		=> 'Du har inte behörighet att läsa privata meddelanden som hålls tillbaka.',
+	'NO_AUTH_READ_HOLD_MESSAGE'		=> 'Du har inte behörighet att läsa privata meddelanden som hålls tillbaka.',
 	'NO_AUTH_READ_MESSAGE'			=> 'Du har inte behörighet att läsa personliga meddelanden.',
 	'NO_AUTH_READ_REMOVED_MESSAGE'	=> 'Du kan inte läsa detta meddelande eftersom det togs bort av dess författare.',
 	'NO_AUTH_SEND_MESSAGE'			=> 'Du har inte behörighet att skicka personliga meddelanden.',
 	'NO_AUTH_SIGNATURE'				=> 'Du har inte behörighet att använda signaturer.',
+
 	'NO_BCC_RECIPIENT'			=> 'Ingen',
 	'NO_BOOKMARKS'				=> 'Du har inga bokmärken.',
 	'NO_BOOKMARKS_SELECTED'		=> 'Du valde inga bokmärken.',
@@ -412,8 +409,9 @@ $lang = array_merge($lang, array(
 	'NO_NEW_FOLDER_NAME'		=> 'Du måste ange ett nytt mappnamn.',
 	'NO_NEWER_PM'				=> 'Inga nyare meddelanden.',
 	'NO_OLDER_PM'				=> 'Inga äldre meddelanden.',
- 	'NO_PASSWORD_SUPPLIED'		=> 'Du kan inte logga in utan ett lösenord.',
+	'NO_PASSWORD_SUPPLIED'		=> 'Du kan inte logga in utan ett lösenord.',
 	'NO_RECIPIENT'				=> 'Ingen mottagare angiven.',
+	'NO_RESET_TOKEN'			=> 'Du angav inte ett lösenordsåterställningstoken.',
 	'NO_RULES_DEFINED'			=> 'Inga regler definierade.',
 	'NO_SAVED_DRAFTS'			=> 'Inga utkast sparade.',
 	'NO_TO_RECIPIENT'			=> 'Ingen',
@@ -421,12 +419,14 @@ $lang = array_merge($lang, array(
 	'NO_WATCHED_SELECTED'		=> 'Du har inte valt någon bevakad tråd eller kategori.',
 	'NO_WATCHED_TOPICS'			=> 'Du bevakar inga trådar.',
 
-	'PASS_TYPE_ALPHA_EXPLAIN'	=> 'Lösenordet måste vara mellan %1$s och %2$s tecken långt och måste innehålla både stora och små bokstäver samt siffror.',
-	'PASS_TYPE_ANY_EXPLAIN'		=> 'Måste vara mellan %1$s och %2$s tecken.',
-	'PASS_TYPE_CASE_EXPLAIN'	=> 'Lösenordet måste vara mellan %1$s och %2$s tecken långt och måste innehålla både stora och små bokstäver.',
-	'PASS_TYPE_SYMBOL_EXPLAIN'	=> 'Lösenordet måste vara mellan %1$s och %2$s tecken långt och måste innehålla både stora och små bokstäver, symboler samt siffror.',
- 	'PASSWORD'					=> 'Lösenord',
+	'PASS_TYPE_ALPHA_EXPLAIN'	=> 'Lösenordet måste vara åtminstone %1$s tecken långt och måste innehålla både stora och små bokstäver samt siffror.',
+	'PASS_TYPE_ANY_EXPLAIN'		=> 'Måste vara åtminstone %1$s tecken.',
+	'PASS_TYPE_CASE_EXPLAIN'	=> 'Lösenordet måste vara åtminstone %1$s tecken långt och måste innehålla både stora och små bokstäver.',
+	'PASS_TYPE_SYMBOL_EXPLAIN'	=> 'Lösenordet måste vara åtminstone %1$s tecken långt och måste innehålla både stora och små bokstäver, symboler samt siffror.',
+	'PASSWORD'					=> 'Lösenord',
 	'PASSWORD_ACTIVATED'		=> 'Ditt nya lösenord aktiverades.',
+	'PASSWORD_RESET'			=> 'Ditt lösenord har återställts.',
+	'PASSWORD_RESET_LINK_SENT'	=> 'Om ditt konto finns skickades en länk till återställning av lösenord till din registrerade e-postadress. Om du inte får ett e-postmeddelande kan det bero på att du är förbjuden, ditt konto är inte aktiverat, du har begärt flera återställningar av lösenord inom en kort tidsram, eller så får du inte ändra ditt lösenord. Kontakta en administratör om något av dessa skäl gäller. Kontrollera också ditt spamfilter.',
 	'PASSWORD_UPDATED'			=> 'Instruktioner om ditt nya lösenord skickades till den e-postadress, som är förknipad med ditt forumkonto.',
 	'PERMISSIONS_RESTORED'		=> 'Återställde ursprungliga behörigheter.',
 	'PERMISSIONS_TRANSFERRED'	=> 'Överförde behörigheter från <strong>%s</strong>, du kan nu använda forumet med användarens behörigheter.<br />Administrationsbehörigheter överfördes inte. Du kan återgå till dina egna behörigheter när som helst.',
@@ -456,12 +456,13 @@ $lang = array_merge($lang, array(
 	'PREFERENCES_UPDATED'		=> 'Dina inställningar sparades.',
 	'PROFILE_INFO_NOTICE'		=> 'Denna information kan komma att visas för andra medlemmar. Var försiktig med personlig information. Fält märkta med * måste fyllas i.',
 	'PROFILE_UPDATED'			=> 'Din profil uppdaterades.',
-	'PROFILE_AUTOLOGIN_KEYS'   => '"Kom ihåg mig" inloggningsnycklar loggar in dig automatiskt varje gång du besöker forumet. Om du loggar ut så raderas inloggningsnyckeln på datorn som du använder vid tillfället för utloggningen. Här kan du se en översikt över automatiska inloggningsnycklar som skapats av dig med andra datorer.',
-	'PROFILE_NO_AUTOLOGIN_KEYS'   => 'Det finns inga "Kom ihåg mig" inloggningsnycklar.',
+	'PROFILE_AUTOLOGIN_KEYS'	=> '"Kom ihåg mig" inloggningsnycklar loggar in dig automatiskt varje gång du besöker forumet. Om du loggar ut så raderas inloggningsnyckeln på datorn som du använder vid tillfället för utloggningen. Här kan du se en översikt över automatiska inloggningsnycklar som skapats av dig med andra datorer.',
+	'PROFILE_NO_AUTOLOGIN_KEYS'	=> 'Det finns inga "Kom ihåg mig" inloggningsnycklar.',
 
 	'RECIPIENT'							=> 'Mottagare',
 	'RECIPIENTS'						=> 'Mottagare',
 	'REGISTRATION'						=> 'Registrering',
+	'OAUTH_REGISTRATION'				=> 'Registrering med externa tjänster',
 	'RELEASE_MESSAGES'					=> '%sSläpp alla tillbakahållna meddelanden%s… de kommer sorteras in i passande mapp om det finns tillräckligt med plats.',
 	'REMOVE_ADDRESS'					=> 'Ta bort adress',
 	'REMOVE_SELECTED_BOOKMARKS'			=> 'Ta bort valda bokmärken',
@@ -474,36 +475,31 @@ $lang = array_merge($lang, array(
 	'REPLIED_MESSAGE'					=> 'Besvarat meddelande',
 	'REPLY_TO_ALL'						=> 'Svara alla.',
 	'REPORT_PM'							=> 'Rapportera personligt meddelande',
+	'RESET_PASSWORD'					=> 'Återställ lösenord',
+	'RESET_TOKEN_EXPIRED_OR_INVALID'	=> 'Token för återställning av lösenord som du angav är ogiltigt eller har gått ut.',
 	'RESIGN_SELECTED'					=> 'Lämna vald grupp',
 	'RETURN_FOLDER'						=> '%1$sÅtergå till föregående mapp%2$s',
 	'RETURN_UCP'						=> '%sÅtergå till kontrollpanelen%s',
 	'RULE_ADDED'						=> 'Lade till regel.',
 	'RULE_ALREADY_DEFINED'				=> 'Denna regel fanns redan.',
 	'RULE_DELETED'						=> 'Tog bort regel.',
- 	'RULE_LIMIT_REACHED'				=> 'Du kan inte lägga till fler PM-regler. Du har nått det maximala antalet regler.',
+	'RULE_LIMIT_REACHED'				=> 'Du kan inte lägga till fler PM-regler. Du har nått det maximala antalet regler.',
 	'RULE_NOT_DEFINED'					=> 'Regeln är felaktig.',
-	'RULE_REMOVED_MESSAGES'				=> array(
-		1	=> '%d personligt meddelande togs bort enligt angiven regel.',
-		2	=> '%d personliga meddelanden togs bort enligt angiven regel.',
+	'RULE_REMOVED_MESSAGES'	=>	array(
+		1	=>			'%d personligt meddelande togs bort enligt angiven regel.',
+		2	=>			'%d personliga meddelanden togs bort enligt angiven regel.',
 	),
 
 	'SAME_PASSWORD_ERROR'		=> 'Det nya lösenordet du angav är samma som ditt nuvarande lösenord.',
 	'SEARCH_YOUR_POSTS'			=> 'Visa dina inlägg',
-	'SEND_PASSWORD'				=> 'Skicka lösenord',
-	'SENT_AT'					=> 'Skickat',
+
+	'SENT_AT'					=> 'Skickat',			// Used before dates in private messages
 	'SHOW_EMAIL'				=> 'Användare kan kontakta mig via e-post',
 	'SIGNATURE_EXPLAIN'			=> 'Detta är ett textstycke som kan läggas till på slutet av inlägg som du gör. Maxlängd är %d tecken.',
 	'SIGNATURE_PREVIEW'			=> 'Din signatur kommer att se ut så här i inlägg',
 	'SIGNATURE_TOO_LONG'		=> 'Din signatur är för lång.',
 	'SELECT_CURRENT_TIME'		=> 'Välj din tidszon',
 	'SELECT_TIMEZONE'			=> 'Välj tidzon',
-	'TIMEZONE_DATE_SUGGESTION'	=> 'Förslag: %s',
-	'TIMEZONE_INVALID'			=> 'Det gick inte att välja den tidszonen.',
-	'TO'						=> 'Mottagare',
-	'TO_MASS'					=> 'Mottagare',
-	'TO_ADD'					=> 'Lägg till mottagare',
-	'TO_ADD_MASS'				=> 'Lägg till mottagare',
-	'TO_ADD_GROUPS'				=> 'Lägg till grupp',
 	'SORT'						=> 'Sortera',
 	'SORT_COMMENT'				=> 'Filkommentar',
 	'SORT_DOWNLOADS'			=> 'Nerladdningar',
@@ -513,23 +509,28 @@ $lang = array_merge($lang, array(
 	'SORT_SIZE'					=> 'Filstorlek',
 
 	'TIMEZONE'					=> 'Tidszon',
+	'TIMEZONE_DATE_SUGGESTION'	=> 'Förslag: %s',
+	'TIMEZONE_INVALID'			=> 'Det gick inte att välja den tidszonen.',
 	'TO'						=> 'Till',
+	'TO_MASS'					=> 'Mottagare',
+	'TO_ADD'					=> 'Lägg till mottagare',
+	'TO_ADD_MASS'				=> 'Lägg till mottagare',
+	'TO_ADD_GROUPS'				=> 'Lägg till grupp',
 	'TOO_MANY_RECIPIENTS'		=> 'Du försökte sända ett privat meddelande till för många mottagare.',
 	'TOO_MANY_REGISTERS'		=> 'Du har överskridit det maximala antalet tillåtna registreringsförsök för denna session. Försök igen senare.',
 
 	'UCP'						=> 'Kontrollpanel',
 	'UCP_ACTIVATE'				=> 'Aktivera konto',
-
 	'UCP_ADMIN_ACTIVATE'		=> 'Observera att du måste ange en giltig e-postadress för att ditt konto ska kunna aktiveras. Forumadministratörerna kommer att granska ditt konto och om det godkänns så kommer du då att få ett e-postmeddelande till e-postadressen du anger.',
 	'UCP_ATTACHMENTS'			=> 'Bilagor',
-	'UCP_AUTH_LINK'            => 'Externa konton',
-	'UCP_AUTH_LINK_ASK'         => 'Du har förnärvarande inget konto länkat till denna externa tjänst. Klicka på knappen nedan för att länka ditt forumkonto med denna externa tjänst.',
-	'UCP_AUTH_LINK_ID'         => 'Unik indetifierare',
-	'UCP_AUTH_LINK_LINK'      => 'Länk',
-	'UCP_AUTH_LINK_MANAGE'      => 'Hantera länkningar med externa konton',
-	'UCP_AUTH_LINK_NOT_SUPPORTED'   => 'Länkning av forumkonton med extern service stöds ej av forumets aktuella verifieringsmetod.',
-	'UCP_AUTH_LINK_TITLE'      => 'Hantera dina länkningar med externa konton',
-	'UCP_AUTH_LINK_UNLINK'      => 'Avlägsna länk',
+	'UCP_AUTH_LINK'				=> 'Externa konton',
+	'UCP_AUTH_LINK_ASK'			=> 'Du har förnärvarande inget konto länkat till denna externa tjänst. Klicka på knappen nedan för att länka ditt forumkonto med denna externa tjänst.',
+	'UCP_AUTH_LINK_ID'			=> 'Unik indetifierare',
+	'UCP_AUTH_LINK_LINK'		=> 'Länk',
+	'UCP_AUTH_LINK_MANAGE'		=> 'Hantera länkningar med externa konton',
+	'UCP_AUTH_LINK_NOT_SUPPORTED'	=> 'Länkning av forumkonton med extern service stöds ej av forumets aktuella verifieringsmetod.',
+	'UCP_AUTH_LINK_TITLE'		=> 'Hantera dina länkningar med externa konton',
+	'UCP_AUTH_LINK_UNLINK'		=> 'Avlägsna länk',
 	'UCP_COPPA_BEFORE'			=> 'Före %s',
 	'UCP_COPPA_ON_AFTER'		=> 'På eller efter %s',
 	'UCP_EMAIL_ACTIVATE'		=> 'Observera att du måste ange en giltig e-postadress för att ditt konto ska kunna aktiveras. Du kommer att få ett e-postmeddelande till e-postadressen du anger med en kontoaktiveringslänk.',
@@ -542,58 +543,60 @@ $lang = array_merge($lang, array(
 	'UCP_MAIN_DRAFTS'			=> 'Hantera utkast',
 	'UCP_MAIN_FRONT'			=> 'Förstasidan',
 	'UCP_MAIN_SUBSCRIBED'		=> 'Hantera bevakningar',
+
 	'UCP_NO_ATTACHMENTS'		=> 'Du har inte bifogat några filer.',
-	
-	'UCP_NOTIFICATION_LIST'            => 'Hantera meddelanden',
-	'UCP_NOTIFICATION_LIST_EXPLAIN'      => 'Här kan du se alla meddelanden.',
-	'UCP_NOTIFICATION_OPTIONS'         => 'Ändra inställningarna för meddelanden',
-	'UCP_NOTIFICATION_OPTIONS_EXPLAIN'   => 'Här kan du ställa in metoderna för meddelanden.',
+
+	'UCP_NOTIFICATION_LIST'				=> 'Hantera meddelanden',
+	'UCP_NOTIFICATION_LIST_EXPLAIN'		=> 'Här kan du se alla meddelanden.',
+	'UCP_NOTIFICATION_OPTIONS'			=> 'Ändra inställningarna för meddelanden',
+	'UCP_NOTIFICATION_OPTIONS_EXPLAIN'	=> 'Här kan du ställa in metoderna för meddelanden.',
 
 	'UCP_PREFS'					=> 'Inställningar',
 	'UCP_PREFS_PERSONAL'		=> 'Ändra globala inställningar',
 	'UCP_PREFS_POST'			=> 'Ändra postningsstandarder',
 	'UCP_PREFS_VIEW'			=> 'Ändra visningsinställningar',
+
 	'UCP_PM'					=> 'Personliga meddelanden',
 	'UCP_PM_COMPOSE'			=> 'Skriv meddelande',
 	'UCP_PM_DRAFTS'				=> 'Hantera PM-utkast',
 	'UCP_PM_OPTIONS'			=> 'Regler, mappar &amp; inställningar',
 	'UCP_PM_UNREAD'				=> 'Olästa meddelanden',
 	'UCP_PM_VIEW'				=> 'Visa meddelanden',
+
 	'UCP_PROFILE'				=> 'Profil',
 	'UCP_PROFILE_AVATAR'		=> 'Ändra visningsbild',
 	'UCP_PROFILE_PROFILE_INFO'	=> 'Ändra profil',
 	'UCP_PROFILE_REG_DETAILS'	=> 'Ändra kontoinställningar',
 	'UCP_PROFILE_SIGNATURE'		=> 'Ändra signatur',
-	
 	'UCP_PROFILE_AUTOLOGIN_KEYS'=> 'Hantera "Kom ihåg mig" inställningen',
-	
+
 	'UCP_USERGROUPS'			=> 'Användargrupper',
 	'UCP_USERGROUPS_MEMBER'		=> 'Ändra medlemskap',
 	'UCP_USERGROUPS_MANAGE'		=> 'Hantera grupper',
+
+	'UCP_PASSWORD_RESET_DISABLED'	=> 'Återställninga utav lösenord har blivit inaktiverat. Om du behöver hjälp med att logga in på forumet, vänligen kontakta %sForum forumadministratör%s',
+	'UCP_REGISTER_DISABLE'			=> 'Det går inte att skapa nya konton just nu.',
 	
-	'UCP_PASSWORD_RESET_DISABLED'			=> 'Återställninga utav lösenord har blivit inaktiverat. Om du behöver hjälp med att logga in på forumet, vänligen kontakta %sForum forumadministratör%s',
-	'UCP_REGISTER_DISABLE'					=> 'Det går inte att skapa nya konton just nu.',
-	'UCP_REMIND'							=> 'Skicka lösenord.',
-	'UCP_RESEND'							=> 'Skicka e-postmeddelande om aktivering.',
-	'UCP_WELCOME'							=> 'Välkommen till kontrollpanelen. Härifrån kan du övervaka, visa, och uppdatera din profil, dina inställningar och dina alternativ och bevakade kategorier/trådar. Du kan också skicka meddelanden till andra användare. Försäkra dig om att du har läst eventuella meddelanden nedan innan du fortsätter.',
-	'UCP_ZEBRA'								=> 'Vänner &amp; ignorerade  användare',
-	'UCP_ZEBRA_FOES'						=> 'Hantera ignorerade  användare',
-	'UCP_ZEBRA_FRIENDS'						=> 'Hantera vänner',
+	'UCP_RESEND'					=> 'Skicka e-postmeddelande om aktivering.',
+	'UCP_WELCOME'					=> 'Välkommen till kontrollpanelen. Härifrån kan du övervaka, visa, och uppdatera din profil, dina inställningar och dina alternativ och bevakade kategorier/trådar. Du kan också skicka meddelanden till andra användare. Försäkra dig om att du har läst eventuella meddelanden nedan innan du fortsätter.',
+	'UCP_ZEBRA'						=> 'Vänner &amp; ignorerade  användare',
+	'UCP_ZEBRA_FOES'				=> 'Hantera ignorerade  användare',
+	'UCP_ZEBRA_FRIENDS'				=> 'Hantera vänner',
 	'UNDISCLOSED_RECIPIENT'			=> 'Hemlig mottagare',
-	'UNKNOWN_FOLDER'						=> 'Okänd mapp',
-	'UNWATCH_MARKED'						=> 'Sluta bevaka markerade',
-	'UPLOAD_AVATAR_FILE'					=> 'Ladda upp från din dator',
-	'UPLOAD_AVATAR_URL'						=> 'Ladda upp från URL',
-	'UPLOAD_AVATAR_URL_EXPLAIN'				=> 'Ange URL:en till platsen som innehåller bilden. Bilden kommer att kopieras till denna webbplats.',
-	'USERNAME_ALPHA_ONLY_EXPLAIN'			=> 'Användarnamnet måste vara mellan %1$s och %2$s tecken långt och får endast innehålla alfanumeriska tecken.',
-	'USERNAME_ALPHA_SPACERS_EXPLAIN'		=> 'Användarnamnet måste vara mellan %1$s och %2$s tecken långt och får endast innehålla alfanumeriska tecken, mellanslag eller -+_[].',
- 	'USERNAME_ASCII_EXPLAIN'				=> 'Användarnamnet måste vara mellan %1$s och %2$s tecken långt och får endast innehålla ASCII-tecken, så inga speciella symboler.',
- 	'USERNAME_LETTER_NUM_EXPLAIN'			=> 'Användarnamnet måste vara mellan %1$s och %2$s tecken långt och får endast innehålla bokstäver och siffror.',
- 	'USERNAME_LETTER_NUM_SPACERS_EXPLAIN'	=> 'Användarnamnet måste vara mellan %1$s och %2$s tecken långt och får endast innehålla bokstäver, siffror, mellanslag och -+_[].',
-	'USERNAME_CHARS_ANY_EXPLAIN'			=> 'Måste vara mellan %1$s och %2$s tecken.',
-	'USERNAME_TAKEN_USERNAME'				=> 'Användarnamnet som du valde används redan, välj ett annat alternativ.',
-	'USERNAME_DISALLOWED_USERNAME'			=> 'Användarnamnet som du valde är inte tillåtet eller innehåller ett otillåtet ord. Välj ett annat användarnamn.',
-	'USER_NOT_FOUND_OR_INACTIVE'			=> 'Användarnamnen som du angav finns antingen inte eller så är de inte aktiverade.',
+	'UNKNOWN_FOLDER'				=> 'Okänd mapp',
+	'UNWATCH_MARKED'				=> 'Sluta bevaka markerade',
+	'UPLOAD_AVATAR_FILE'			=> 'Ladda upp från din dator',
+	'UPLOAD_AVATAR_URL'				=> 'Ladda upp från URL',
+	'UPLOAD_AVATAR_URL_EXPLAIN'		=> 'Ange URL:en till platsen som innehåller bilden. Bilden kommer att kopieras till denna webbplats.',
+	'USERNAME_ALPHA_ONLY_EXPLAIN'	=> 'Användarnamnet måste vara mellan %1$s och %2$s tecken långt och får endast innehålla alfanumeriska tecken.',
+	'USERNAME_ALPHA_SPACERS_EXPLAIN'=> 'Användarnamnet måste vara mellan %1$s och %2$s tecken långt och får endast innehålla alfanumeriska tecken, mellanslag eller -+_[].',
+	'USERNAME_ASCII_EXPLAIN'		=> 'Användarnamnet måste vara mellan %1$s och %2$s tecken långt och får endast innehålla ASCII-tecken, så inga speciella symboler.',
+	'USERNAME_LETTER_NUM_EXPLAIN'	=> 'Användarnamnet måste vara mellan %1$s och %2$s tecken långt och får endast innehålla bokstäver och siffror.',
+	'USERNAME_LETTER_NUM_SPACERS_EXPLAIN'=> 'Användarnamnet måste vara mellan %1$s och %2$s tecken långt och får endast innehålla bokstäver, siffror, mellanslag och -+_[].',
+	'USERNAME_CHARS_ANY_EXPLAIN'	=> 'Måste vara mellan %1$s och %2$s tecken.',
+	'USERNAME_TAKEN_USERNAME'		=> 'Användarnamnet som du valde används redan, välj ett annat alternativ.',
+	'USERNAME_DISALLOWED_USERNAME'	=> 'Användarnamnet som du valde är inte tillåtet eller innehåller ett otillåtet ord. Välj ett annat användarnamn.',
+	'USER_NOT_FOUND_OR_INACTIVE'	=> 'Användarnamnen som du angav finns antingen inte eller så är de inte aktiverade.',
 
 	'VIEW_AVATARS'				=> 'Visa visningsbilder',
 	'VIEW_EDIT'					=> 'Visa/Ändra',
@@ -603,9 +606,9 @@ $lang = array_merge($lang, array(
 	'VIEW_NEXT_PM'				=> 'Nästa PM',
 	'VIEW_PM'					=> 'Visa meddelande',
 	'VIEW_PM_INFO'				=> 'Meddelandedetaljer',
-	'VIEW_PM_MESSAGES'			=> array(
-		1	=> '%d meddelande',
-		2	=> '%d meddelanden',
+	'VIEW_PM_MESSAGES'	=>	array(
+		1	=>			'%d meddelande',
+		2	=>			'%d meddelanden',
 	),
 	'VIEW_PREVIOUS_HISTORY'		=> 'Föregående PM i historiken',
 	'VIEW_PREVIOUS_PM'			=> 'Föregående PM',
@@ -631,36 +634,34 @@ $lang = array_merge($lang, array(
 	'YOUR_FRIENDS_EXPLAIN'		=> 'För att ta bort användare från denna lista, markera de du vill ta bort och klicka på <em>Skicka</em>.',
 	'YOUR_WARNINGS'				=> 'Din varningsnivå',
 
-	'PM_ACTION' => array(
-		'PLACE_INTO_FOLDER'	=> 'Placera i mapp',
-		'MARK_AS_READ'		=> 'Märk som läst',
-		'MARK_AS_IMPORTANT'	=> 'Märk meddelande',
-		'DELETE_MESSAGE'	=> 'Ta bort meddelande',
+	'PM_ACTION'	=>	array(
+		'PLACE_INTO_FOLDER'	=>			'Placera i mapp',
+		'MARK_AS_READ'	=>			'Märk som läst',
+		'MARK_AS_IMPORTANT'	=>			'Märk meddelande',
+		'DELETE_MESSAGE'	=>			'Ta bort meddelande',
 	),
-
-	'PM_CHECK' => array(
-		'SUBJECT'	=> 'Ämne',
-		'SENDER'	=> 'Sändare',
-		'MESSAGE'	=> 'Meddelande',
-		'STATUS'	=> 'Meddelandestatus',
-		'TO'		=> 'Skickat till',
+	'PM_CHECK'	=>	array(
+		'SUBJECT'	=>			'Ämne',
+		'SENDER'	=>			'Sändare',
+		'MESSAGE'	=>			'Meddelande',
+		'STATUS'	=>			'Meddelandestatus',
+		'TO'	=>			'Skickat till',
 	),
-
-	'PM_RULE' => array(
-		'IS_LIKE'		=> 'är lika med',
-		'IS_NOT_LIKE'	=> 'inte är lika med',
-		'IS'			=> 'är',
-		'IS_NOT'		=> 'inte är',
-		'BEGINS_WITH'	=> 'börjar med',
-		'ENDS_WITH'		=> 'slutar med',
-		'IS_FRIEND'		=> 'är vän',
-		'IS_FOE'		=> 'är en ignorerad användare',
-		'IS_USER'		=> 'är användare',
-		'IS_GROUP'		=> 'är medlem i användargrupp',
-		'ANSWERED'		=> 'besvarat',
-		'FORWARDED'		=> 'vidarebefordrad',
-		'TO_GROUP'		=> 'till min standardgrupp',
-		'TO_ME'			=> 'till mig',
+	'PM_RULE'	=>	array(
+		'IS_LIKE'	=>			'är lika med',
+		'IS_NOT_LIKE'	=>			'inte är lika med',
+		'IS'	=>			'är',
+		'IS_NOT'	=>			'inte är',
+		'BEGINS_WITH'	=>			'börjar med',
+		'ENDS_WITH'	=>			'slutar med',
+		'IS_FRIEND'	=>			'är vän',
+		'IS_FOE'	=>			'är en ignorerad användare',
+		'IS_USER'	=>			'är användare',
+		'IS_GROUP'	=>			'är medlem i användargrupp',
+		'ANSWERED'	=>			'besvarat',
+		'FORWARDED'	=>			'vidarebefordrad',
+		'TO_GROUP'	=>			'till min standardgrupp',
+		'TO_ME'	=>			'till mig',
 	),
 
 	'GROUPS_EXPLAIN'	=> 'Användargrupper låter administratörer hantera användare på ett enklare och smartare sätt. Du kommer som standard placeras i en specifik grupp, detta är din standardgrupp. Denna grupp bestämmer hur du visas för andra användare, till exempel användarnamnsfärg, visningsbild, titel, m.m. Om forumadministratörerna tillåter det så kan du möjligen byta standardgrupp. Du kan också placeras i eller gå med i andra grupper. Visa grupper kan ge extra tillgång till innehåll eller öka dina möjligheter på andra områden.',
@@ -669,6 +670,7 @@ $lang = array_merge($lang, array(
 	'GROUP_PENDING'		=> 'Grupper du ansökt om medlemskap i',
 	'GROUP_NONMEMBER'	=> 'Grupper du inte är medlem i',
 	'GROUP_DETAILS'		=> 'Gruppdetaljer',
+
 	'NO_LEADER'		=> 'Du är inte ledare för någon grupp',
 	'NO_MEMBER'		=> 'Du är inte medlem i någon grupp',
 	'NO_PENDING'	=> 'Du har inte ansökt om medlemskap i några grupper',

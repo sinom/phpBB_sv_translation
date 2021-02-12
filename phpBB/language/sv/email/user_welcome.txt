@@ -6,6 +6,7 @@ Spara detta e-postmeddelande för framtida bruk. Dina kontouppgifter:
 
 ----------------------------
 Användarnamn: {USERNAME}
+
 Forumadress: {U_BOARD}
 ----------------------------
 

@@ -2,19 +2,17 @@
 /**
 *
 * This file is part of Swedish phpBB translation.
-* Copyright (c) 2010 - 2014 Swedish translation group.
+* Copyright (c) 2010 - 2021 Swedish translation group.
 *
 *
-* This program is distributed in the hope that it will be useful,
-* but WITHOUT ANY WARRANTY; without even the implied warranty of
-* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
-* GNU General Public License for more details.
+* For more information about the language pack, please visit
+* http://phpbb.se/forum/viewforum.php?f=49
 *
 *
-* @package      phpBB Sweden
-* @author       Simon Assgård <sassgard@gmail.com> (Sinom) http://www.phpbb.se/
-* @copyright    phpBB Sweden
-* @license      @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
+* @package		phpBB Sweden
+* @author		Simon Assgård <sassgard@gmail.com> (Sinom) <http://www.phpbb.se/>
+* @copyright 	(c) phpBB Limited <https://www.phpbb.com/> & phpBB Sweden <http://www.phpbb.se/>
+* @license		GNU General Public License, version 3 (GPL-3.0)
 *
 */
 
@@ -23,7 +21,7 @@
 */
 if (!defined('IN_PHPBB'))
 {
-   exit;
+	exit;
 }
 
 if (empty($lang) || !is_array($lang))
@@ -85,10 +83,7 @@ $lang = array_merge($lang, array(
 
 	'FORUM_ADMIN'						=> 'Kategoriadministration',
 	'FORUM_ADMIN_EXPLAIN'				=> 'I phpBB3 är allt kategoribaserat. Varje kategori kan ha ett obegränsat antal underkategorier och du kan bestämma om de ska kunna postas i eller inte (alltså om de ska bete sig som en huvudkategori). Här kan du lägga till, redigera, ta bort, låsa och låsa upp individuella kategorier och ställa in andra inställningar. Om det behövs kan du också synkronisera en kategori här. <strong>Du måste kopiera eller ställa in lämpliga behörigheter för nyskapade kategorier för att de ska visas.</strong>',
-
 	'FORUM_AUTO_PRUNE'					=> 'Aktivera auto-rensning',
-	
-
 	'FORUM_AUTO_PRUNE_EXPLAIN'			=> 'Rensar kategorin på trådar, ställ in frekvens/åldersparametrar nedan.',
 	'FORUM_CREATED'						=> 'Kategorin skapades.',
 	'FORUM_DATA_NEGATIVE'				=> 'Rensningsparametrar kan inte vara negativa.',
@@ -107,6 +102,7 @@ $lang = array_merge($lang, array(
 	'FORUM_LINK_TRACK_EXPLAIN'			=> 'Registrerar antal gånger en kategorilänk klickats på.',
 	'FORUM_NAME'						=> 'Kategorinamn',
 	'FORUM_NAME_EMPTY'					=> 'Du måste ange ett namn för denna kategori.',
+	'FORUM_NAME_EMOJI'					=> 'Forumnamnet du angav är inte tillåtet.<br>Det innehåller följande otillåtna tecken:<br>%s',
 	'FORUM_PARENT'						=> 'Ovanliggande kategori',
 	'FORUM_PASSWORD'					=> 'Kategorilösenord',
 	'FORUM_PASSWORD_CONFIRM'			=> 'Bekräfta kategorilösenord',
@@ -114,7 +110,6 @@ $lang = array_merge($lang, array(
 	'FORUM_PASSWORD_EXPLAIN'			=> 'Ställer in ett lösenord för denna kategori, använd hellre behörighetssystemet.',
 	'FORUM_PASSWORD_UNSET'				=> 'Ta bort kategorilösenord',
 	'FORUM_PASSWORD_UNSET_EXPLAIN'		=> 'Kryssa i här om du vill ta bort kategorilösenordet.',
-	'FORUM_PASSWORD_OLD'				=> 'The forum password is using an old hashing method and should be changed.',
 	'FORUM_PASSWORD_OLD'				=> 'Kategorilösenordet använder en gammal hashningsmetod.hmm och bör ändras.',
 	'FORUM_PASSWORD_MISMATCH'			=> 'Lösenorden du angav stämde inte överens.',
 	'FORUM_PRUNE_SETTINGS'				=> 'Kategorirensningsinställningar',
@@ -140,11 +135,10 @@ $lang = array_merge($lang, array(
 
 	'LINK'						=> 'Länk',
 	'LIST_INDEX'				=> 'Lista underkategori i ovanliggande kategoris legend',
-	'LIST_INDEX_EXPLAIN'		=> 'Visar denna kategori på indexidan och på andra ställen som en länk inom legenden för dess ovanliggande kategori om dess ovanliggande kategoris "Lista underkategori i legenden"-inställning är aktiverad.',
+	'LIST_INDEX_EXPLAIN'		=> 'Visar denna kategori på indexsidan och på andra ställen som en länk i förklaringen för dess ovanliggande kategori.',
 	'LIST_SUBFORUMS'			=> 'Lista underkategorier i legenden',
 	'LIST_SUBFORUMS_EXPLAIN'	=> 'Visar denna kategoris underkategorier på indexsidan och på andra ställen som en länk i förklaringen om att inställningen "Lista underkategori i ovanliggande kategoris förklaring" är aktiverad.',
-	'LIST_INDEX_EXPLAIN'	=> 'Visar denna kategori på indexsidan och på andra ställen som en länk i förklaringen för dess ovanliggande kategori.',
-	'LOCKED'				=> 'Låst',
+	'LOCKED'					=> 'Låst',
 
 	'MOVE_POSTS_NO_POSTABLE_FORUM'	=> 'Kategorin som du valde att flytta inlägg till kan inte postas i. Välj en kategori som kan postas i.',
 	'MOVE_POSTS_TO'					=> 'Flytta inlägg till',

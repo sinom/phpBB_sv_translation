@@ -2,19 +2,17 @@
 /**
 *
 * This file is part of Swedish phpBB translation.
-* Copyright (c) 2010 - 2014 Swedish translation group.
+* Copyright (c) 2010 - 2021 Swedish translation group.
 *
 *
-* This program is distributed in the hope that it will be useful,
-* but WITHOUT ANY WARRANTY; without even the implied warranty of
-* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
-* GNU General Public License for more details.
+* For more information about the language pack, please visit
+* http://phpbb.se/forum/viewforum.php?f=49
 *
 *
-* @package      phpBB Sweden
-* @author       Simon Assgård <sassgard@gmail.com> (Sinom) http://www.phpbb.se/
-* @copyright    phpBB Sweden
-* @license      @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
+* @package		phpBB Sweden
+* @author		Simon Assgård <sassgard@gmail.com> (Sinom) <http://www.phpbb.se/>
+* @copyright 	(c) phpBB Limited <https://www.phpbb.com/> & phpBB Sweden <http://www.phpbb.se/>
+* @license		GNU General Public License, version 3 (GPL-3.0)
 *
 */
 
@@ -23,7 +21,7 @@
 */
 if (!defined('IN_PHPBB'))
 {
-   exit;
+	exit;
 }
 
 if (empty($lang) || !is_array($lang))
@@ -86,10 +84,11 @@ $lang = array_merge($lang, array(
 	'ACL_U_SAVEDRAFTS'	=> 'Kan spara utkast',
 	'ACL_U_CHGCENSORS'	=> 'Kan inaktivera ordcensur',
 	'ACL_U_SIG'			=> 'Kan använda signatur',
+	'ACL_U_EMOJI'		=> 'Kan använda emoji och rika texttecken i ämnets titel',
 
 	'ACL_U_SENDPM'		=> 'Kan skicka personliga meddelanden',
-	'ACL_U_MASSPM'		=> 'Kan skicka PM till flera användare samtidigt',
-	'ACL_U_MASSPM_GROUP'=> 'Kan skicka PM till grupper',
+	'ACL_U_MASSPM'		=> 'Kan skicka privata meddelanden till flera användare samtidigt',
+	'ACL_U_MASSPM_GROUP'=> 'Kan skicka privata meddelanden till grupper',
 	'ACL_U_READPM'		=> 'Kan läsa personliga meddelanden',
 	'ACL_U_PM_EDIT'		=> 'Kan redigera egna personliga meddelanden',
 	'ACL_U_PM_DELETE'	=> 'Kan ta bort personliga meddelanden från egen mapp',
@@ -123,9 +122,11 @@ $lang = array_merge($lang, array(
 	'ACL_F_USER_LOCK'	=> 'Kan låsa egna trådar',
 	'ACL_F_DOWNLOAD'	=> 'Kan ladda ner filer',
 	'ACL_F_REPORT'		=> 'Kan rapportera inlägg',
+
 	'ACL_F_POST'		=> 'Kan skapa nya trådar',
 	'ACL_F_STICKY'		=> 'Kan posta notiser',
 	'ACL_F_ANNOUNCE'	=> 'Kan posta anslag',
+	'ACL_F_ANNOUNCE_GLOBAL'	=> 'Kan posta globala anslag', 
 	'ACL_F_REPLY'		=> 'Kan svara på trådar',
 	'ACL_F_EDIT'		=> 'Kan redigera egna inlägg',
 	'ACL_F_DELETE'		=> 'Kan ta bort egna inlägg',
@@ -133,6 +134,7 @@ $lang = array_merge($lang, array(
 	'ACL_F_IGNOREFLOOD' => 'Kan ignorera gränsen för tid mellan inlägg',
 	'ACL_F_POSTCOUNT'	=> 'Ökar inläggsräknaren<br /><em>Observera att detta endast påverkar nya inlägg.</em>',
 	'ACL_F_NOAPPROVE'	=> 'Kan posta utan godkännande',
+
 	'ACL_F_ATTACH'		=> 'Kan bifoga filer',
 	'ACL_F_ICONS'		=> 'Kan använda tråd/inläggsikoner',
 	'ACL_F_BBCODE'		=> 'Can use BBCode',
@@ -140,6 +142,7 @@ $lang = array_merge($lang, array(
 	'ACL_F_IMG'			=> 'Kan använda BBCode [img]',
 	'ACL_F_SIGS'		=> 'Kan använda signaturer',
 	'ACL_F_SMILIES'		=> 'Kan använda smilies',
+
 	'ACL_F_POLL'		=> 'Kan skapa omröstningar',
 	'ACL_F_VOTE'		=> 'Kan rösta i omröstningar',
 	'ACL_F_VOTECHG'		=> 'Kan ändra sin röst',
@@ -153,17 +156,16 @@ $lang = array_merge($lang, array(
 	'ACL_M_APPROVE'		=> 'Kan godkänna och återställa inlägg',
 	'ACL_M_REPORT'		=> 'Kan stänga och ta bort rapporter',
 	'ACL_M_CHGPOSTER'	=> 'Kan byta inläggsförfattare',
+
 	'ACL_M_MOVE'	=> 'Kan flytta trådar',
 	'ACL_M_LOCK'	=> 'Kan låsa trådar',
 	'ACL_M_SPLIT'	=> 'Kan dela trådar',
 	'ACL_M_MERGE'	=> 'Kan sammanfoga trådar',
-	'ACL_M_INFO'	=> 'Kan visa inläggsdetaljer',
-	'ACL_M_WARN'	=> 'Kan ge ut varningar<br /><em>Denna inställningen är global. Den är inte forumbaserad.</em>', // This moderator setting is only global (and not local)
-	'ACL_M_PM_REPORT'	=> 'Kan stänga och ta bort rapporter av privata meddelanden<br /><em>Denna inställningen är global. Den är inte forumbaserad.</em>', // This moderator setting is only global (and not local
-	'ACL_M_BAN'		=> 'Kan hantera bannlysningar<br /><em>Denna inställningen är global. Den är inte forumbaserad.</em>', // This moderator setting is only global (and not local)
-	'ACL_M_INFO'	=> 'Kan visa inläggsuppgifter',
-	'ACL_M_WARN'	=> 'Kan utfärda varningar<br /><em>Denna inställning tilldelas endast globalt. Den är inte kategoribaserad.</em>', // This moderator setting is only global (and not local)
-	'ACL_M_BAN'		=> 'Kan hantera bannlysningar<br /><em>Denna inställning tilldelas endast globalt. Den är inte kategoribaserad.</em>', // This moderator setting is only global (and not local)
+
+	'ACL_M_INFO'		=> 'Kan visa inläggsuppgifter',
+	'ACL_M_WARN'		=> 'Kan utfärda varningar<br /><em>Denna inställning tilldelas endast globalt. Den är inte kategoribaserad.</em>', // This moderator setting is only global (and not local)
+	'ACL_M_PM_REPORT'	=> 'Can close and delete reports of private messages<br /><em>This setting is only assigned globally. It is not forum based.</em>', // This moderator setting is only global (and not local) /*ÄNNU_EJ_ÖVERSATT*/
+	'ACL_M_BAN'			=> 'Kan hantera bannlysningar<br /><em>Denna inställning tilldelas endast globalt. Den är inte kategoribaserad.</em>', // This moderator setting is only global (and not local)
 ));
 
 // Admin Permissions
@@ -172,14 +174,17 @@ $lang = array_merge($lang, array(
 	'ACL_A_SERVER'		=> 'Kan ändra server/kommunikationsinställningar',
 	'ACL_A_JABBER'		=> 'Kan ändra Jabber-inställningar',
 	'ACL_A_PHPINFO'		=> 'Kan visa php-inställningar',
+
 	'ACL_A_FORUM'		=> 'Kan hantera kategorier',
 	'ACL_A_FORUMADD'	=> 'Kan lägga till nya kategorier',
 	'ACL_A_FORUMDEL'	=> 'Kan ta bort kategorier',
 	'ACL_A_PRUNE'		=> 'Kan rensa kategorier',
+
 	'ACL_A_ICONS'		=> 'Kan ändra tråd/inläggsikoner och smilies',
 	'ACL_A_WORDS'		=> 'Kan ändra ordcensuren',
 	'ACL_A_BBCODE'		=> 'Kan definiera BBCode-taggar',
 	'ACL_A_ATTACH'		=> 'Kan ändra bilagesrelaterade inställningar',
+
 	'ACL_A_USER'		=> 'Kan hantera användare<br /><em>Detta inkluderar också visning av användarens webbläsaragent i onlinelistan.</em>',
 	'ACL_A_USERDEL'		=> 'Kan ta bort/rensa användare',
 	'ACL_A_GROUP'		=> 'Kan hantera grupper',

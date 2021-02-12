@@ -2,19 +2,17 @@
 /**
 *
 * This file is part of Swedish phpBB translation.
-* Copyright (c) 2010 - 2014 Swedish translation group.
+* Copyright (c) 2010 - 2021 Swedish translation group.
 *
 *
-* This program is distributed in the hope that it will be useful,
-* but WITHOUT ANY WARRANTY; without even the implied warranty of
-* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
-* GNU General Public License for more details.
+* For more information about the language pack, please visit
+* http://phpbb.se/forum/viewforum.php?f=49
 *
 *
-* @package      phpBB Sweden
-* @author       Simon Assgård <sassgard@gmail.com> (Sinom) http://www.phpbb.se/
-* @copyright    phpBB Sweden
-* @license      @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
+* @package		phpBB Sweden
+* @author		Simon Assgård <sassgard@gmail.com> (Sinom) <http://www.phpbb.se/>
+* @copyright 	(c) phpBB Limited <https://www.phpbb.com/> & phpBB Sweden <http://www.phpbb.se/>
+* @license		GNU General Public License, version 3 (GPL-3.0)
 *
 */
 
@@ -23,7 +21,7 @@
 */
 if (!defined('IN_PHPBB'))
 {
-   exit;
+	exit;
 }
 
 if (empty($lang) || !is_array($lang))
@@ -44,25 +42,25 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, array(
-	'ALREADY_DEFAULT_GROUP'				=> 'Den valda gruppen är redan din standardgrupp',
-	'ALREADY_IN_GROUP'					=> 'Du är redan medlem i den valda gruppen',
-	'ALREADY_IN_GROUP_PENDING'			=> 'Du har redan ansökt om medlemskap i den valda gruppen.',
+	'ALREADY_DEFAULT_GROUP'		=> 'Den valda gruppen är redan din standardgrupp',
+	'ALREADY_IN_GROUP'			=> 'Du är redan medlem i den valda gruppen',
+	'ALREADY_IN_GROUP_PENDING'	=> 'Du har redan ansökt om medlemskap i den valda gruppen.',
 
-	'CHANGED_DEFAULT_GROUP'				=> 'Ändrade standardgrupp',
 	'CANNOT_JOIN_GROUP'			=> 'Du kan inte gå med i denna grupp. Du kan endast gå med i öppna och fria grupper.',
 	'CANNOT_RESIGN_GROUP'		=> 'Du kan inte lämna den här gruppen. Du kan endast lämna öppna och fria grupper.',
+	'CHANGED_DEFAULT_GROUP'		=> 'Ändrade standardgrupp',
 
 	'GROUP_AVATAR'						=> 'Gruppvisningsbild',
 	'GROUP_CHANGE_DEFAULT'				=> 'Är du säker på att du vill byta din standardgrupp till “%s”?',
 	'GROUP_CLOSED'						=> 'Stängd',
 	'GROUP_DESC'						=> 'Gruppbeskrivning',
 	'GROUP_HIDDEN'						=> 'Dold',
-	'GROUP_INFORMATION'					=> 'Användargruppinformation', 
+	'GROUP_INFORMATION'					=> 'Användargruppinformation',
 	'GROUP_IS_CLOSED'					=> 'Detta är en stängd grupp, nya medlemmar accepteras endast via inbjudan från gruppledaren.',
-	'GROUP_IS_FREE'						=> 'Detta är en fri grupp, alla användare är välkomna att bli medlemmar.', 
+	'GROUP_IS_FREE'						=> 'Detta är en fri grupp, alla användare är välkomna att bli medlemmar.',
 	'GROUP_IS_HIDDEN'					=> 'Detta är en dold grupp, endast gruppmedlemmar kan se medlemslistan.',
 	'GROUP_IS_OPEN'						=> 'Detta är en öppen grupp, användare kan ansöka om medlemskap.',
-	'GROUP_IS_SPECIAL'					=> 'Detta är en specialgrupp, specialgrupper sköts av forumadministratörerna.', 
+	'GROUP_IS_SPECIAL'					=> 'Detta är en specialgrupp, specialgrupper sköts av forumadministratörerna.',
 	'GROUP_JOIN'						=> 'Gå med i grupp',
 	'GROUP_JOIN_CONFIRM'				=> 'Är du säker på att du vill gå med i den valda gruppen?',
 	'GROUP_JOIN_PENDING'				=> 'Ansök om medlemskap i gruppen',
@@ -73,7 +71,7 @@ $lang = array_merge($lang, array(
 	'GROUP_MEMBERS'						=> 'Gruppmedlemmar',
 	'GROUP_NAME'						=> 'Gruppnamn',
 	'GROUP_OPEN'						=> 'Öppen',
-	'GROUP_RANK'						=> 'Grupptitel', 
+	'GROUP_RANK'						=> 'Grupptitel',
 	'GROUP_RESIGN_MEMBERSHIP'			=> 'Säg upp gruppmedlemskap',
 	'GROUP_RESIGN_MEMBERSHIP_CONFIRM'	=> 'Är du säker på att du vill lämna den valda gruppen?',
 	'GROUP_RESIGN_PENDING'				=> 'Säg upp väntande gruppmedlemskap',

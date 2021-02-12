@@ -2,19 +2,17 @@
 /**
 *
 * This file is part of Swedish phpBB translation.
-* Copyright (c) 2010 - 2014 Swedish translation group.
+* Copyright (c) 2010 - 2021 Swedish translation group.
 *
 *
-* This program is distributed in the hope that it will be useful,
-* but WITHOUT ANY WARRANTY; without even the implied warranty of
-* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
-* GNU General Public License for more details.
+* For more information about the language pack, please visit
+* http://phpbb.se/forum/viewforum.php?f=49
 *
 *
-* @package      phpBB Sweden
-* @author       Simon Assgård <sassgard@gmail.com> (Sinom) http://www.phpbb.se/
-* @copyright    phpBB Sweden
-* @license      @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
+* @package		phpBB Sweden
+* @author		Simon Assgård <sassgard@gmail.com> (Sinom) <http://www.phpbb.se/>
+* @copyright 	(c) phpBB Limited <https://www.phpbb.com/> & phpBB Sweden <http://www.phpbb.se/>
+* @license		GNU General Public License, version 3 (GPL-3.0)
 *
 */
 
@@ -23,7 +21,7 @@
 */
 if (!defined('IN_PHPBB'))
 {
-   exit;
+	exit;
 }
 
 if (empty($lang) || !is_array($lang))
@@ -48,19 +46,21 @@ $lang = array_merge($lang, array(
 	'ACP_BOARD_SETTINGS_EXPLAIN'	=> 'Här kan du bestämma grundläggande inställningar för ditt forum, ge det ett passande namn och beskrivning, och bland många andra inställningar justera standardvärden för tidszon och språk.',
 	'BOARD_INDEX_TEXT'				=> 'Forumindextext',
 	'BOARD_INDEX_TEXT_EXPLAIN'		=> 'Detta är texten som kommer att visas på framsidan utav forumet. Om inget anges används "Forumindex".',
-	'BOARD_STYLE'					=> 'Board style',
+	'BOARD_STYLE'					=> 'Forumstil',
 	'CUSTOM_DATEFORMAT'				=> 'Eget…',
 	'DEFAULT_DATE_FORMAT'			=> 'Datumformat',
-	'DEFAULT_DATE_FORMAT_EXPLAIN'	=> 'Datumformatet är samma som PHPs <code>date</code>-funktion.',
+	'DEFAULT_DATE_FORMAT_EXPLAIN'	=> 'Datumformatet är samma som PHPs <code><a href="https://secure.php.net/manual/function.date.php">date()</a></code>-funktion.',
 	'DEFAULT_LANGUAGE'				=> 'Standardspråk',
 	'DEFAULT_STYLE'					=> 'Standardstil',
-	'DEFAULT_STYLE_EXPLAIN'			=> 'The default style for new users.',
+	'DEFAULT_STYLE_EXPLAIN'			=> 'Standarstilen för nya medlemmar.',
 	'DISABLE_BOARD'					=> 'Inaktivera forumet',
 	'DISABLE_BOARD_EXPLAIN'			=> 'Detta kommer att göra forumet otillgängligt för användarna. Du kan också ange ett kort meddelande (255 tecken) som ska visas om du vill.',
 	'DISPLAY_LAST_SUBJECT'			=> 'Visa ämnet utav det senast skapta inlägget i forumlistan',
 	'DISPLAY_LAST_SUBJECT_EXPLAIN'	=> 'Ämnet utav det senast skapta inlägget kommer att visas i forumlistan med en hyperlänk till inlägget. Forum med lösenordsskyddade forum kommer inte att visas för obehöriga.',
-	'GUEST_STYLE'					=> 'Guest style',
-	'GUEST_STYLE_EXPLAIN'			=> 'The board style for guests.',
+	'DISPLAY_UNAPPROVED_POSTS'		=> 'Visa icke godkända inlägg till författaren',
+	'DISPLAY_UNAPPROVED_POSTS_EXPLAIN'	=> 'Ej godkända inlägg kan ses av författaren. Gäller inte för gästposter.',
+	'GUEST_STYLE'					=> 'Gäststil',
+	'GUEST_STYLE_EXPLAIN'			=> 'Forumstilen för gäster.',
 	'OVERRIDE_STYLE'				=> 'Åsidosätt användarstil',
 	'OVERRIDE_STYLE_EXPLAIN'		=> 'Ersätter användarens stil med standardstilen.',
 	'SITE_DESC'						=> 'Webbplatsbeskrivning',
@@ -69,8 +69,8 @@ $lang = array_merge($lang, array(
 	'SITE_HOME_URL'					=> 'Titel på hemsida som URL',
 	'SITE_HOME_URL_EXPLAIN'			=> 'Om specifierad så kommer titeln på hemsidan att länka till denna länk istället för indexsidan utav forumet. En absolut länk krävs, t.ex. <samp>http://www.phpbb.se</samp>.',
 	'SITE_NAME'						=> 'Webbsidenamn',
-	'SYSTEM_TIMEZONE'        	    => 'Tidszon för gäster',
-	'SYSTEM_TIMEZONE_EXPLAIN'         => 'Den tidszon, som används för besökare som inte är inloggade (gäster och robotar). Inloggade användare anger sin tidszon i samband med registrering och kan ändra på den i sin kontrollpanel.',
+	'SYSTEM_TIMEZONE'				=> 'Tidszon för gäster',
+	'SYSTEM_TIMEZONE_EXPLAIN'			=> 'Den tidszon, som används för besökare som inte är inloggade (gäster och robotar). Inloggade användare anger sin tidszon i samband med registrering och kan ändra på den i sin kontrollpanel.',
 	'WARNINGS_EXPIRE'				=> 'Varningslängd',
 	'WARNINGS_EXPIRE_EXPLAIN'		=> 'Antal dagar som ska förflyta innan varningen automatiskt förfaller från användarens register. Sätt till 0 för permanent varning.',
 ));
@@ -90,13 +90,11 @@ $lang = array_merge($lang, array(
 	'ALLOW_NO_CENSORS'			=> 'Tillåt inaktivering av ordcensur',
 	'ALLOW_NO_CENSORS_EXPLAIN'	=> 'Användaren kan inaktivera den automatiska ordcensuren av inlägg och personliga meddelanden.',
 	'ALLOW_PM_ATTACHMENTS'		=> 'Tillåt bilagor i personliga meddelanden',
-
 	'ALLOW_PM_REPORT'			=> 'Tillåt användarna att rapportera pm',
 	'ALLOW_PM_REPORT_EXPLAIN'	=> 'Om aktiverat, så har användarna möjligheten att rapportera ett privat meddelande, som de har fått eller sänt. Dessa meddelanden kommer sedan att vara synliga i moderationspanelen.',
 	'ALLOW_QUICK_REPLY'			=> 'Tillåter snabbsvar',
 	'ALLOW_QUICK_REPLY_EXPLAIN'	=> 'Denna inställning tillåter snabbsvar att inaktiveras globalt. Om aktiverat, så ska kategorierna ha snabbsvar aktiverat för att det ska fungera.',
 	'ALLOW_QUICK_REPLY_BUTTON'	=> 'Spara och tillåt snabbsvar för alla kategorier',
-
 	'ALLOW_SIG'					=> 'Tillåt signaturer',
 	'ALLOW_SIG_BBCODE'			=> 'Tillåt BBCode i användarsignaturer',
 	'ALLOW_SIG_FLASH'			=> 'Tillåt användning av <code>[FLASH]</code>-BBCodetaggen i användarsignaturer',
@@ -108,20 +106,20 @@ $lang = array_merge($lang, array(
 	'ALLOW_TOPIC_NOTIFY'		=> 'Tillåt trådbevakning',
 	'BOARD_PM'					=> 'Personliga meddelanden',
 	'BOARD_PM_EXPLAIN'			=> 'Aktivera personliga meddelanden för alla användare.',
+	'ALLOW_BOARD_NOTIFICATIONS' => 'Tillåt notifikationer', 
 ));
 
 // Avatar Settings
 $lang = array_merge($lang, array(
 	'ACP_AVATAR_SETTINGS_EXPLAIN'	=> 'Visningsbilder är i allmänhet små, unika bilder en användare kan förknippa sig med. Beroende på stilen så visas de under användarnamnet i trådar. Här kan du bestämma hur användare kan definiera sina visningsbilder. Observera att för att ladda upp visningsbilder så måste du ha skapat katalogen du anger nedan och försäkra dig om att den kan skrivas till av webbservern. Kom också ihåg att filstorleksgränser endast beläggs på uppladdade visningsbilder, inte på fjärrlänkade bilder.',
+
 	'ALLOW_AVATARS'					=> 'Aktivera visningsbilder',
 	'ALLOW_AVATARS_EXPLAIN'			=> 'Tillåt allmän användning av visningsbilder. <br />Om du inaktiverar visningsbilder överlag eller av specifik typ, så kommer inaktiverade visningsbilder inte längre att visas i forumet. Användarna har ännu möjlighet att ladda ner sina egna visningsbilder i kontrollpanelen.',
 	'ALLOW_GRAVATAR'				=> 'Tillåt gravatar-avatarer',
-
-
 	'ALLOW_LOCAL'					=> 'Aktivera gallerivisningsbilder',
 	'ALLOW_REMOTE'					=> 'Aktivera fjärrvisningsbilder',
 	'ALLOW_REMOTE_EXPLAIN'			=> 'Visningsbilder som länkas till på en annan webbplats.',
-	'ALLOW_REMOTE_UPLOAD'			=> 'Aktivera uppladdning av fjärrvisningsbilder',
+	'ALLOW_REMOTE_UPLOAD'			=> 'Aktivera upppladdning av fjärrvisningsbilder',
 	'ALLOW_REMOTE_UPLOAD_EXPLAIN'	=> 'Tillåt att visningsbilder laddas upp från extern webbplats.',
 	'ALLOW_UPLOAD'					=> 'Aktivera uppladdning av visningsbilder',
 	'AVATAR_GALLERY_PATH'			=> 'Sökväg till visningsbildsgalleri',
@@ -163,8 +161,7 @@ $lang = array_merge($lang, array(
 	'PM_EDIT_TIME_EXPLAIN'		=> 'Begränsar efter hur många minuter som det går att redigera ett personligt meddelande som inte levererats än. Sätt till 0 för att inaktivera detta beteende.',
 	'PM_MAX_RECIPIENTS'			=> 'Maximalt antal tillåtna mottagare',
 	'PM_MAX_RECIPIENTS_EXPLAIN'	=> 'Det största antal mottagare ett privat meddelande kan ha. 0 för obegränsat. Man kan ändra inställningarna för pm på samma sida där man hanterar andra inställningar för grupper i administrationspanelen.',
-
-	));
+));
 
 // Post Settings
 $lang = array_merge($lang, array(
@@ -180,8 +177,8 @@ $lang = array_merge($lang, array(
 	'CHAR_LIMIT_EXPLAIN'			=> 'Det maximala antalet tecken som tillåts för ett inlägg. Sätt till 0 för obegränsat med tecken.',
 	'DELETE_TIME'					=> 'Begränsa borttagningstid.',
 	'DELETE_TIME_EXPLAIN'			=> 'Begränsar tiden som det går att ta bort ett nytt inlägg. Sätt till 0 för att inaktivera detta beteende.',
-	'DISPLAY_LAST_EDITED'		=> 'Redigeringsinformation för inlägg',
-	'DISPLAY_LAST_EDITED_EXPLAIN'		=> 'Ställ in om det ska visas vem som senast redigerat ett inlägg eller ej.',
+	'DISPLAY_LAST_EDITED'			=> 'Redigeringsinformation för inlägg',
+	'DISPLAY_LAST_EDITED_EXPLAIN'	=> 'Ställ in om det ska visas vem som senast redigerat ett inlägg eller ej.',
 	'EDIT_TIME'						=> 'Begränsa redigeringstid',
 	'EDIT_TIME_EXPLAIN'				=> 'Begränsar tiden som det går att redigera ett nytt inlägg. Sätt till 0 för att inaktivera detta beteende.',
 	'FLOOD_INTERVAL'				=> 'Tid mellan inlägg',
@@ -191,10 +188,10 @@ $lang = array_merge($lang, array(
 	'MAX_POLL_OPTIONS'				=> 'Maximalt antal omröstningsalternativ',
 	'MAX_POST_FONT_SIZE'			=> 'Maximal textstorlek per inlägg',
 	'MAX_POST_FONT_SIZE_EXPLAIN'	=> 'Den största textstorleken som tillåts i ett inlägg. Sätt till 0 för obegränsad textstorlek.',
-	'MAX_POST_IMG_HEIGHT'			=> 'Maximal bildhöjd per inlägg',
-	'MAX_POST_IMG_HEIGHT_EXPLAIN'	=> 'Maximal höjd på bilder/Flashfiler i inlägg. Sätt till 0 för obegränsad höjd.',
-	'MAX_POST_IMG_WIDTH'			=> 'Maximal bildbredd per inlägg',
-	'MAX_POST_IMG_WIDTH_EXPLAIN'	=> 'Maximal bredd på bilder/Flashfiler i inlägg. Sätt till 0 för obegränsad bredd.',
+	'MAX_POST_IMG_HEIGHT'			=> 'Maximal flash-höjd per inlägg',
+	'MAX_POST_IMG_HEIGHT_EXPLAIN'	=> 'Maximal höjd för en flashfil i inlägg. Ställ in på 0 för obegränsad storlek.',
+	'MAX_POST_IMG_WIDTH'			=> 'Maximal flash-bredd per inlägg',
+	'MAX_POST_IMG_WIDTH_EXPLAIN'	=> 'Maximal bredd på flashfiler i inlägg. Sätt till 0 för obegränsad bredd.',
 	'MAX_POST_URLS'					=> 'Maximalt antal länkar per inlägg',
 	'MAX_POST_URLS_EXPLAIN'			=> 'Maximalt antal URL:er i ett inlägg. Sätt till 0 för obegränsat antal länkar.',
 	'MIN_CHAR_LIMIT'				=> 'Minsta antal tecken i ett inlägg eller meddelande.',
@@ -231,13 +228,14 @@ $lang = array_merge($lang, array(
 $lang = array_merge($lang, array(
 	'ACP_REGISTER_SETTINGS_EXPLAIN'		=> 'Här kan du ställa in registrerings- och profilrelaterade inställningar.',
 
-	'ACC_ACTIVATION'			=> 'Kontoaktivering',
+	'ACC_ACTIVATION'				=> 'Kontoaktivering',
 	'ACC_ACTIVATION_EXPLAIN'		=> 'Detta avgör huruvida användare har direkt tillgång till forumet eller om en bekräftelse krävs. Du kan även stänga av registrationer helt. <em>"Forum-epost" måste vara aktiverat för att kunna använda denna funktion, eller administratörsaktivering.</em>',
 	'ACC_ACTIVATION_WARNING'		=> 'Vänligen notera att den just nu valda aktiveringsmetoden kräver att e-post är aktiverat, annars kommer registreringen att inaktiveras. Vi rekommenderar därför att du väljer en annan aktiveringsmetod eller aktiverar e-post.',
 	'NEW_MEMBER_POST_LIMIT'			=> 'Inläggsgräns för ny medlem',
 	'NEW_MEMBER_POST_LIMIT_EXPLAIN'	=> 'Nya medlemmar läggs automatiskt i den fördefinierade gruppen <em>Nya medlemmar</em> tills de uppnår denna mängd inlägg. Du kan använda denna grupp för att förhindra användning av pm eller granska inlägg före de blir postade i forumet. <strong>Sätt till 0 för att inaktivera detta beteende.</strong>',
 	'NEW_MEMBER_GROUP_DEFAULT'		=> 'Ange gruppen Nya medlemmar som standard',
 	'NEW_MEMBER_GROUP_DEFAULT_EXPLAIN'	=> 'Aktivera detta och definiera antal inlägg för gruppen <em>Nya medlemmar</em>, för att lägga in nya medlemmar i gruppen <em>Nya medlemmar</em> och ange den gruppen som deras standardgrupp. Detta kan vara behändigt om man vill ange en grupptitel eller visningsbild för nya medlemmar.',
+
 	'ACC_ADMIN'					=> 'Av administratör',
 	'ACC_DISABLE'				=> 'Inaktivera registrering',
 	'ACC_NONE'					=> 'Ingen (direkt tillgång)',
@@ -255,9 +253,9 @@ $lang = array_merge($lang, array(
 	'MIN_CHARS'					=> 'Min',
 	'NO_AUTH_PLUGIN'			=> 'Inget lämplig autentiseringsinsticksprogram hittades.',
 	'PASSWORD_LENGTH'			=> 'Lösenordslängd',
-	'PASSWORD_LENGTH_EXPLAIN'	=> 'Minsta och maximala antalet tecken i lösenord.',
+	'PASSWORD_LENGTH_EXPLAIN'	=> 'Minsta antal tecken i lösenord. Observera att det maximala antalet inte är begränsat.',
 	'REG_LIMIT'					=> 'Registreringsförsök',
-	'REG_LIMIT_EXPLAIN'         => 'Antal gånger användare kan misslyckas med att tolka verifieringsuppgiften vid registrering, innan sessionen låses för ytterligare försök.',
+	'REG_LIMIT_EXPLAIN'			=> 'Antal gånger användare kan misslyckas med att tolka verifieringsuppgiften vid registrering, innan sessionen låses för ytterligare försök.',
 	'USERNAME_ALPHA_ONLY'		=> 'Endast alfanumeriska',
 	'USERNAME_ALPHA_SPACERS'	=> 'Alfanumeriska och mellanrum',
 	'USERNAME_ASCII'			=> 'ASCII (ingen internationell unicode)',
@@ -269,15 +267,16 @@ $lang = array_merge($lang, array(
 	'USERNAME_LENGTH'			=> 'Användarnamnslängd',
 	'USERNAME_LENGTH_EXPLAIN'	=> 'Minsta och maximala antalet tecken i användarnamn.',
 ));
+
 // Feeds
 $lang = array_merge($lang, array(
 	'ACP_FEED_MANAGEMENT'				=> 'Inställningar för flödespublicering',
 	'ACP_FEED_MANAGEMENT_EXPLAIN'		=> 'Här kan du göra inställningar för olika Atom-flöden. Modulen gör om all BBCode i inlägg så att de kan läsas i externa flöden.',
 
-	'ACP_FEED_GENERAL'				=> 'Inställningar för flödespublicering',
+	'ACP_FEED_GENERAL'					=> 'Inställningar för flödespublicering',
 	'ACP_FEED_POST_BASED'				=> 'Inläggsbaserade flödesinställningar',
- 	'ACP_FEED_TOPIC_BASED'				=> 'Trådbaserade flödesinställningar',
- 	'ACP_FEED_SETTINGS_OTHER'			=> 'Andra flöden och inställningar',
+	'ACP_FEED_TOPIC_BASED'				=> 'Trådbaserade flödesinställningar',
+	'ACP_FEED_SETTINGS_OTHER'			=> 'Andra flöden och inställningar',
 
 	'ACP_FEED_ENABLE'					=> 'Använd flöden',
 	'ACP_FEED_ENABLE_EXPLAIN'			=> 'Aktiverar och inaktiverar Atom-flöden för hela forumet.<br />Inaktivera detta för att slå av alla flöden, oavsett inställningarna nedan.',
@@ -285,7 +284,7 @@ $lang = array_merge($lang, array(
 	'ACP_FEED_LIMIT_EXPLAIN'			=> 'Maximalt antal inlägg att visa i flödet.',
 
 	'ACP_FEED_OVERALL'					=> 'Aktivera globalt flöde',
-	'ACP_FEED_OVERALL_EXPLAIN'			=> 'Nya inlägg från hela forumet', //Aktiverar “Alla trådar”-flödet
+	'ACP_FEED_OVERALL_EXPLAIN'			=> 'Nya inlägg från hela forumet',
 	'ACP_FEED_FORUM'					=> 'Aktiverar flöde per kategori',
 	'ACP_FEED_FORUM_EXPLAIN'			=> 'Nya inlägg i enstaka kategorier.',
 	'ACP_FEED_TOPIC'					=> 'Aktivera flöde per tråd',
@@ -298,21 +297,20 @@ $lang = array_merge($lang, array(
 	'ACP_FEED_NEWS'						=> 'Nyhetsflöden',
 	'ACP_FEED_NEWS_EXPLAIN'				=> 'Ta det första inlägget från dessa kategorier. Välj inga kategorier för att avaktivera nyhetsflödet.<br />Använd t.ex. kombinationen <samp>CTRL</samp> + musklick för att markera och välja fler än en kategori.',
 
-
 	'ACP_FEED_OVERALL_FORUMS'			=> 'Aktivera kategoriflöde',
 	'ACP_FEED_OVERALL_FORUMS_EXPLAIN'	=> 'Aktiverar “Alla kategorier”-flödet och listar kategorierna',
 
 	'ACP_FEED_HTTP_AUTH'				=> 'Tillåt HTTP-autentisering',
- 	'ACP_FEED_HTTP_AUTH_EXPLAIN'		=> 'Aktiverar HTTP-autentisering, detta tillåter användare att ta emot innehåll, som är gömt för gäster genom att lägga till parametern <samp>auth=http</samp>  i URL-flödet. Notera att vissa PHP-inställningar kräver ändringar i filen .htaccess. Instruktioner hittas i den filen.',
+	'ACP_FEED_HTTP_AUTH_EXPLAIN'		=> 'Aktiverar HTTP-autentisering, detta tillåter användare att ta emot innehåll, som är gömt för gäster genom att lägga till parametern <samp>auth=http</samp>  i URL-flödet. Notera att vissa PHP-inställningar kräver ändringar i filen .htaccess. Instruktioner hittas i den filen.',
 	'ACP_FEED_ITEM_STATISTICS'			=> 'Inläggsstatistik',
 	'ACP_FEED_ITEM_STATISTICS_EXPLAIN'	=> 'Visar individuell statistik i inläggsflödet. <br />(inläggsförfattare, tid, svar, antal gånger visat)',
 	'ACP_FEED_EXCLUDE_ID'				=> 'Exkludera dessa kategorier',
-  	'ACP_FEED_EXCLUDE_ID_EXPLAIN'		=> 'Innehållfrån dessa kategorier  <strong>inkluderas inte i flöden</strong>. Välj inga kategorier för att avaktivera nyhetsflödet.<br />Använd t.ex. kombinationen <samp>CTRL</samp> + musklick för att markera och välja (avvälja) fler än en kategori.',
- 
+	'ACP_FEED_EXCLUDE_ID_EXPLAIN'		=> 'Innehållfrån dessa kategorier  <strong>inkluderas inte i flöden</strong>. Välj inga kategorier för att avaktivera nyhetsflödet.<br />Använd t.ex. kombinationen <samp>CTRL</samp> + musklick för att markera och välja (avvälja) fler än en kategori.',
 ));
+
 // Visual Confirmation Settings
 $lang = array_merge($lang, array(
-	'ACP_VC_SETTINGS_EXPLAIN'        	    => 'Här kan du göra inställningar för tillägg som är designade att blockera spambots-registreringar på forumet. Tilläggen ger den blivande medlemmen en uppgift, som datorer i bästa fall inte kan lösa, t.ex CAPTCHA-uppgifter.',
+	'ACP_VC_SETTINGS_EXPLAIN'				=> 'Här kan du göra inställningar för tillägg som är designade att blockera spambots-registreringar på forumet. Tilläggen ger den blivande medlemmen en uppgift, som datorer i bästa fall inte kan lösa, t.ex CAPTCHA-uppgifter.',
 	'ACP_VC_EXT_GET_MORE'					=> 'For additional (and possibly better) anti-spamtillägg, visit the <a href="https://www.phpbb.com/go/anti-spam-ext"><strong>phpBB.com Extensions Database</strong></a>. For more information on preventing spam on your board, visit the <a href="https://www.phpbb.com/go/anti-spam"><strong>phpBB.com Knowledge Base</strong></a>.',
 	'AVAILABLE_CAPTCHAS'					=> 'Tillgängliga tillägg',
 	'CAPTCHA_UNAVAILABLE'					=> 'CAPTCHAn kan inte väljas, då dess krav inte uppfylls.',
@@ -325,20 +323,19 @@ $lang = array_merge($lang, array(
 	'CAPTCHA_GD_X_GRID_EXPLAIN'				=> 'Använd lägre värden för att göra bilden mer svårläst. 0 inaktiverar bakgrundsbrus för x-axeln.',
 	'CAPTCHA_GD_Y_GRID'						=> 'Y-axel för bakgrundsbruset',
 	'CAPTCHA_GD_Y_GRID_EXPLAIN'				=> 'Använd lägre värden för att göra bilden mer svårläst. 0 inaktiverar bakgrundsbrus för y-axeln.',
-	'CAPTCHA_GD_WAVE'							=> 'Böljande förvrängning',
-	'CAPTCHA_GD_WAVE_EXPLAIN'					=> 'Använd en böljande förvrängning för bilden.',
+	'CAPTCHA_GD_WAVE'						=> 'Böljande förvrängning',
+	'CAPTCHA_GD_WAVE_EXPLAIN'				=> 'Använd en böljande förvrängning för bilden.',
 	'CAPTCHA_GD_3D_NOISE'					=> 'Lägg till 3D-brus',
 	'CAPTCHA_GD_3D_NOISE_EXPLAIN'			=> 'Använd extra objekt ovanför bokstäverna i bilden.',
 	'CAPTCHA_GD_FONTS'						=> 'Använd olika teckensnitt',
 	'CAPTCHA_GD_FONTS_EXPLAIN'				=> 'Denna inställning bestämmer hur många olika stilar som används för bokstäverna. Använd standard form eller ange alternativa bokstäver. Man kan också lägga till gemener (små bokstäver).',
-
 	'CAPTCHA_FONT_DEFAULT'					=> 'Standard teckensnitt',
-	'CAPTCHA_FONT_NEW'							=> 'Nya teckensnitt',
-	'CAPTCHA_FONT_LOWER'						=> 'Använd även gemener',
-
+	'CAPTCHA_FONT_NEW'						=> 'Nya teckensnitt',
+	'CAPTCHA_FONT_LOWER'					=> 'Använd även gemener',
 	'CAPTCHA_NO_GD'							=> 'Enkel bild',
 	'CAPTCHA_PREVIEW_MSG'					=> 'Dina ändringar av inställningarna för visuell bekräftelse sparades inte. Detta är endast en förhandsgranskning.',
 	'CAPTCHA_PREVIEW_EXPLAIN'				=> 'Bilden som den kommer se ut med de nuvarande inställningarna.',
+
 	'CAPTCHA_SELECT'						=> 'Installerade tillägg',
 	'CAPTCHA_SELECT_EXPLAIN'				=> 'Listrutan visar de tillägg, som forumet känner igen. Grå val är inte tillgängliga just nu och kan behöva justeras före de är användbara.',
 	'CAPTCHA_CONFIGURE'						=> 'Konfigurera tillägg',
@@ -346,12 +343,12 @@ $lang = array_merge($lang, array(
 	'CONFIGURE'								=> 'Ställ in',
 	'CAPTCHA_NO_OPTIONS'					=> 'Det här tillägget har inga inställningar.',
 
-	'VISUAL_CONFIRM_REFRESH'				=> 'Tillåt användaren uppdatera antispam-uppgiften',
-	'VISUAL_CONFIRM_REFRESH_EXPLAIN'		=> 'Användaren kan be om en ny uppgift, om man inte kan lösa den första. Detta är inte aktiverat för alla tillägg',
 	'VISUAL_CONFIRM_POST'					=> 'Aktivera åtgärder mot spambotar för inlägg gjorda av gäster',
 	'VISUAL_CONFIRM_POST_EXPLAIN'			=> 'Kräver att gästanvändare på forumet löser antispam-uppgiften för att få skicka ett inlägg.',
 	'VISUAL_CONFIRM_REG'					=> 'Aktivera åtgärder mot spambotar för registreringar',
 	'VISUAL_CONFIRM_REG_EXPLAIN'			=> 'Kräver att nya användare löser en antispam-uppgift för att förhindra massregistreringar.',
+	'VISUAL_CONFIRM_REFRESH'				=> 'Tillåt användaren uppdatera antispam-uppgiften',
+	'VISUAL_CONFIRM_REFRESH_EXPLAIN'		=> 'Användaren kan be om en ny uppgift, om man inte kan lösa den första. Detta är inte aktiverat för alla tillägg',
 ));
 
 // Cookie Settings
@@ -360,6 +357,8 @@ $lang = array_merge($lang, array(
 
 	'COOKIE_DOMAIN'				=> 'Domän för cookie',
 	'COOKIE_NAME'				=> 'Namn på cookie',
+	'COOKIE_NOTICE'				=> 'Cookie-notis',
+	'COOKIE_NOTICE_EXPLAIN'		=> 'If enabled a cookie notice will be displayed to users when visiting your board. This might be required by law depending on the content of your board and enabled extensions.', /*ÄNNU_EJ_ÖVERSATT*/
 	'COOKIE_PATH'				=> 'Sökväg för cookie',
 	'COOKIE_SECURE'				=> 'Cookiesäkerhet',
 	'COOKIE_SECURE_EXPLAIN'		=> 'Om din server körs via SSL kan du aktivera detta, låt det annars vara inaktiverat. Om du aktiverar detta och din server inte körs via SSL kommer fel att uppstå vid omdirigeringar.',
@@ -371,7 +370,7 @@ $lang = array_merge($lang, array(
 
 // Contact Settings
 $lang = array_merge($lang, array(
-	'ACP_CONTACT_SETTINGS_EXPLAIN'	=> 'Here you can enable and disable the contact page and also add a text that is displayed on the page.',
+	'ACP_CONTACT_SETTINGS_EXPLAIN'		=> 'Here you can enable and disable the contact page and also add a text that is displayed on the page.',
 
 	'CONTACT_US_ENABLE'				=> 'Enable contact page',
 	'CONTACT_US_ENABLE_EXPLAIN'		=> 'This page allows users to send emails to board administrators',
@@ -385,6 +384,7 @@ $lang = array_merge($lang, array(
 // Load Settings
 $lang = array_merge($lang, array(
 	'ACP_LOAD_SETTINGS_EXPLAIN'	=> 'Här kan du aktivera och inaktivera vissa forumfunktioner för att minska mängden databehandling som krävs. På de flesta servrar så är det inte nödvändigt att inaktivera någon av dessa funktioner. På vissa system eller i delade webbhotellsmiljöer kan det vara bra att inaktivera funktioner som du inte behöver. Du kan också ange gränser för systembelastning och aktiva sessioner som när de överträds så kommer forumet att gå offline.',
+
 	'ALLOW_CDN'						=> 'Tillåt användningen utav tredje-parts innehållsleveransnätverk.',
 	'ALLOW_CDN_EXPLAIN'				=> 'Om denna inställning är aktiverad, några filer kommer att hanterade utav tredje parts servrar iställer för din egna webbserver. Detta reducerar bandbredden som krävs utav din server, men kan vara en säkerhetsrisk för vissa administratörer.',
 	'ALLOW_LIVE_SEARCHES'			=> 'Allow live searches',
@@ -402,10 +402,15 @@ $lang = array_merge($lang, array(
 	'LOAD_USER_ACTIVITY_EXPLAIN'	=> 'Visar aktiv tråd/kategori i användarprofiler och i kontrollpanelen. Det är rekommenderat att detta inaktiveras på forum med mer än en miljon inlägg.',
 	'READ_NOTIFICATION_EXPIRE_DAYS'	=> 'Läs Notifikations slutdatum',
 	'READ_NOTIFICATION_EXPIRE_DAYS_EXPLAIN' => 'Antal dagar som måste gå innan en läst notifikation kommer att tas bort. Sätt detta värdet till 0 för att göra notifikationer permanenta.',
- 	'RECOMPILE_STYLES'			=> 'Omkompilera gamla stilkomponenter',
- 	'RECOMPILE_STYLES_EXPLAIN'	=> 'Kolla efter uppdaterade stilkomponenter på filsystemet och omkompilera.',
+	'RECOMPILE_STYLES'				=> 'Omkompilera gamla stilkomponenter',
+	'RECOMPILE_STYLES_EXPLAIN'		=> 'Kolla efter uppdaterade stilkomponenter på filsystemet och omkompilera.',
+	'YES_ACCURATE_PM_BUTTON'		=> 'Aktivera behörighetsmässig PM-knapp i ämnesidor',
+	'YES_ACCURATE_PM_BUTTON_EXPLAIN'=> 'Om den här inställningen är aktiverad kommer endast inläggsprofiler av användare som får läsa privata meddelanden att ha en privat meddelande-knapp.',
 	'YES_ANON_READ_MARKING'			=> 'Aktivera trådmärkning för gäster',
 	'YES_ANON_READ_MARKING_EXPLAIN'	=> 'Lagrar informationen om lästa/olästa trådar och kategorier för gäster. Om detta är inaktiverat, är inlägg alltid markerade som lästa, för gäster.',
+	'YES_ACCURATE_PM_BUTTON'		=> 'Aktivera korrekt PM-indikator på ämnesidor',
+	'YES_ACCURATE_PM_BUTTON_EXPLAIN'=> 'Om den här inställningen är aktiverad kommer endast användare som får läsa privata meddelanden att ha en privat meddelande-knapp.',
+ 	'YES_BIRTHDAYS'					=> 'Enable birthday listing',
 	'YES_BIRTHDAYS'					=> 'Aktivera visning av födelsedagar',
 	'YES_BIRTHDAYS_EXPLAIN'			=> 'Om inaktiverat så kommer inte födelsedagslistan att visas längre. För att denna inställning ska fungera så måste även födelsedagsfunktionen vara aktiverad.',
 	'YES_JUMPBOX'					=> 'Aktivera visning av hopprutan',
@@ -420,7 +425,7 @@ $lang = array_merge($lang, array(
 	'YES_POST_MARKING_EXPLAIN'		=> 'Indikerar om en användare har postat i en tråd.',
 	'YES_READ_MARKING'				=> 'Aktivera trådmärkning på servern',
 	'YES_READ_MARKING_EXPLAIN'		=> 'Lagrar läst/oläststatus i databasen istället för i en cookie.',
-	'YES_UNREAD_SEARCH'          			=> 'Aktivera sökning av olästa inlägg',
+	'YES_UNREAD_SEARCH'				=> 'Aktivera sökning av olästa inlägg',
 ));
 
 // Auth settings
@@ -435,7 +440,7 @@ $lang = array_merge($lang, array(
 	'AUTH_PROVIDER_OAUTH_TITLE'					=> 'OAuth',
 	'AUTH_PROVIDER_OAUTH_SECRET'				=> 'Hemlighet',
 
-	'APACHE_SETUP_BEFORE_USE'	=> 'Du måste ställa in apache autentisering innan du kan ändra phpBB till denna autentiseringsmetod. Kom ihåg att användarnamnet som du använder för apacheautentiseringen måste vara samma som ditt phpBB-användarnamn. Apacheautentisering kan endast användas med mod_php (inte med CGI versionen) och med safe_mode inaktiverat.',
+	'APACHE_SETUP_BEFORE_USE'	=> 'Du måste ställa in apache autentisering innan du kan ändra phpBB till denna autentiseringsmetod. Kom ihåg att användarnamnet som du använder för apacheautentiseringen måste vara samma som ditt phpBB-användarnamn. Apacheautentisering kan endast användas med mod_php (inte med CGI versionen).',
 
 	'LDAP'							=> 'LDAP',
 	'LDAP_DN'						=> 'LDAP bas <var>dn</var>',
@@ -489,9 +494,8 @@ $lang = array_merge($lang, array(
 	'SMILIES_PATH_EXPLAIN'		=> 'Sökväg under din phpBB-rotkatalog, t.ex. <samp>images/smilies</samp>.',
 	'UPLOAD_ICONS_PATH'			=> 'Sökväg till filtypsgruppikoner',
 	'UPLOAD_ICONS_PATH_EXPLAIN'	=> 'Sökväg under din phpBB-rotkatalog, t.ex. <samp>images/upload_icons</samp>.',
-	'USE_SYSTEM_CRON'			=> 'Kör prediodiska uppgifter från systemets cron',
-	'USE_SYSTEM_CRON_EXPLAIN'	=> 'När detta är av, phpBB kommer att arrangera för periodiska uppgifter att köras automatiskt. När detta är på, phpBB kommer inte att schemalägga några periodiska uppgifter.',
-
+	'USE_SYSTEM_CRON'		=> 'Kör prediodiska uppgifter från systemets cron',
+	'USE_SYSTEM_CRON_EXPLAIN'		=> 'När detta är av, phpBB kommer att arrangera för periodiska uppgifter att köras automatiskt. När detta är på, phpBB kommer inte att schemalägga några periodiska uppgifter.',
 ));
 
 // Security Settings
@@ -509,7 +513,6 @@ $lang = array_merge($lang, array(
 	'BROWSER_VALID_EXPLAIN'			=> 'Aktiverar webbläsekontroll för varje session. Förbättrar säkerheten.',
 	'CHECK_DNSBL'					=> 'Kontrollera IP mot “DNS Blackhole”-lista',
 	'CHECK_DNSBL_EXPLAIN'			=> 'Om aktiverat kommer användarens IP-adress kontrolleras mot följande DNSBL-tjänster vid registrering och nya inlägg: <a href="http://spamcop.net">spamcop.net</a> och <a href="http://www.spamhaus.org">www.spamhaus.org</a>. Denna kontroll kan ta ett tag beroende på serverns konfiguration. Om servern saktar ner eller för många felaktiga resultat rapporteras så är det rekommenderat att stänga av denna kontroll.',
-
 	'CLASS_B'						=> 'A.B',
 	'CLASS_C'						=> 'A.B.C',
 	'EMAIL_CHECK_MX'				=> 'Kontrollera e-postdomän efter giltig MX-post',
@@ -532,26 +535,27 @@ $lang = array_merge($lang, array(
 	'IP_LOGIN_LIMIT_USE_FORWARDED_EXPLAIN'	=> 'Istället för att begränsa inloggningsförsök per IP-adress begränsas de med <var>X_FORWARDED_FOR</var> värden. <br /><em><strong>Varning:</strong> Slå på detta endast om du använder en proxy-server som tilldelar <var>X_FORWARDED_FOR</var> pålitliga värden.</em>',
 	'MAX_LOGIN_ATTEMPTS'			=> 'Maximalt antal inloggningsförsök per användarnamn',
 	'MAX_LOGIN_ATTEMPTS_EXPLAIN'	=> 'Antal misslyckade inloggningsförsök för ett användarkonto, före antispam-uppgiften utlöses. Ange 0 för att inte utlösa denna åtgärd för riktiga användarkonton.',
-	
 	'NO_IP_VALIDATION'				=> 'Ingen',
-	'NO_REF_VALIDATION'           	=> 'Ingen',
+	'NO_REF_VALIDATION'				=> 'Ingen',
 	'PASSWORD_TYPE'					=> 'Lösenordskomplexitet',
 	'PASSWORD_TYPE_EXPLAIN'			=> 'Avgör hur komplext ett lösenord måste vara när det väljs eller ändras, påföljande alternativ inkluderar de tidigare.',
 	'PASS_TYPE_ALPHA'				=> 'Måste innehålla bokstäver och siffror',
 	'PASS_TYPE_ANY'					=> 'Inga krav',
 	'PASS_TYPE_CASE'				=> 'Måste innehålla både små och stora bokstäver',
 	'PASS_TYPE_SYMBOL'				=> 'Måste innehålla symboler',
-	'REF_HOST'                  	=> 'Kontrollera endast värd',
-	'REF_PATH'                  	=> 'Kontrollera även sökväg',
-	'REFERRER_VALID'              	=> 'Kontrollera hänvisare',
- 	'REFERRER_VALID_EXPLAIN'		=> 'Om detta är aktiverat så kommer hänvisaren för POST-förfrågningar att kontrolleras mot värd/skriptsökvägsinställningarna. Detta kan skapa problem för forum som använder flera domäner och/eller externa inloggningar.',
+	'REF_HOST'						=> 'Kontrollera endast värd',
+	'REF_PATH'						=> 'Kontrollera även sökväg',
+	'REFERRER_VALID'				=> 'Kontrollera hänvisare',
+	'REFERRER_VALID_EXPLAIN'		=> 'Om detta är aktiverat så kommer hänvisaren för POST-förfrågningar att kontrolleras mot värd/skriptsökvägsinställningarna. Detta kan skapa problem för forum som använder flera domäner och/eller externa inloggningar.',
 	'TPL_ALLOW_PHP'					=> 'Tillåt php i mallar',
 	'TPL_ALLOW_PHP_EXPLAIN'			=> 'Om detta alternativ är aktiverat så kommer <code>PHP</code> och <code>INCLUDEPHP</code> att tolkas i mallar.',
+	'UPLOAD_CERT_VALID'				=> 'Validera uppladdningscertifikat', 
+	'UPLOAD_CERT_VALID_EXPLAIN'		=> 'If enabled, certificates of remote uploads will be validated. This requires the CA bundle to be defined by the <samp>openssl.cafile</samp> or <samp>curl.cainfo</samp> setting in your php.ini.', /*ÄNNU_EJ_ÖVERSATT*/
 ));
 
 // Email Settings
 $lang = array_merge($lang, array(
-	'ACP_EMAIL_SETTINGS_EXPLAIN'   => 'Denna information används när forumet skickat ut e-postmeddelanden till dina användare. Försäkra dig om att e-postadressen du anger är giltig, all e-post som inte kommer fram kommer förmodligen att skickas till denna adress. Om ditt webbhotell inte har någon intern (PHP-baserad) e-posttjänst så kan du skicka meddelanden direkt via SMTP. Detta kräver adressen till en lämplig server (fråga din leverantör om så krävs). Om servern kräver autentisering (och endast om den gör det) ange det användarnamn och lösenord som krävs.',
+	'ACP_EMAIL_SETTINGS_EXPLAIN'	=> 'Denna information används när forumet skickat ut e-postmeddelanden till dina användare. Försäkra dig om att e-postadressen du anger är giltig, all e-post som inte kommer fram kommer förmodligen att skickas till denna adress. Om ditt webbhotell inte har någon intern (PHP-baserad) e-posttjänst så kan du skicka meddelanden direkt via SMTP. Detta kräver adressen till en lämplig server (fråga din leverantör om så krävs). Om servern kräver autentisering (och endast om den gör det) ange det användarnamn och lösenord som krävs.',
 
 	'ADMIN_EMAIL'					=> 'Returadress för e-post',
 	'ADMIN_EMAIL_EXPLAIN'			=> 'Detta kommer att användas som returadressen på alla e-postmeddelanden och som teknisk kontaktadress. Den kommer alltid att användas som <samp>Return-Path</samp> och <samp>Sender</samp> adress i e-postmeddelanden.',
@@ -563,14 +567,22 @@ $lang = array_merge($lang, array(
 	'CONTACT_EMAIL_EXPLAIN'			=> 'Denna adress kommer användas när en specifik kontaktpunkt behövs, t.ex. spam, felmeddelanden, osv. Den kommer alltid att användas som <samp>From</samp> och <samp>Reply-To</samp> adress i e-postmeddelanden.',
 	'CONTACT_EMAIL_NAME'			=> 'Contact name',
 	'CONTACT_EMAIL_NAME_EXPLAIN'	=> 'This is the contact name that e-mail recipients will see. If you don’t want to have a contact name, leave this field empty.',
+	'EMAIL_FORCE_SENDER'			=> 'Force from email address',
+	'EMAIL_FORCE_SENDER_EXPLAIN'	=> 'This will set the <samp>Return-Path</samp> to the from email address instead of using the local user and hostname of the server. This setting does not apply when using SMTP.<br><em><strong>Warning:</strong> Requires the user that the webserver runs as to be added as trusted user to the sendmail configuration.</em>',
 	'EMAIL_FUNCTION_NAME'			=> 'E-postfunktionsnamn',
 	'EMAIL_FUNCTION_NAME_EXPLAIN'	=> 'E-postfunktionen som ska användas för att skicka e-post genom PHP.',
 	'EMAIL_PACKAGE_SIZE'			=> 'Paketstorlek för e-post',
 	'EMAIL_PACKAGE_SIZE_EXPLAIN'	=> 'Detta är det maximala antalet e-postmeddelanden som skickas i ett paket. Denna inställning tillämpas på den interna meddelandekön; sätt detta värde till 0 om du har problem med e-postmeddelanden som inte kommer fram.',
+	'EMAIL_MAX_CHUNK_SIZE'			=> 'Maximalt tillåtna e-postmottagare',
+	'EMAIL_MAX_CHUNK_SIZE_EXPLAIN'	=> 'Om nödvändigt, sätt detta för att inte gå över den gräns av e-postmottagare din server tillåter i ett e-postmeddelande.',
 	'EMAIL_SIG'						=> 'E-postsignatur',
 	'EMAIL_SIG_EXPLAIN'				=> 'Denna text kommer infogas i slutet på alla e-postmeddelanden som forumet skickar ut.',
 	'ENABLE_EMAIL'					=> 'Aktivera forumets e-post',
 	'ENABLE_EMAIL_EXPLAIN'			=> 'Om detta inaktiveras så kommer forumet inte att skicka ut några e-postmeddelanden över huvud taget.<em>Notera att detta inte är kompatibelt med inställningen för administratörs- eller användaraktivering av konton. Det kommer då inte gå att aktivera konton.</em>',
+	'SEND_TEST_EMAIL'				=> 'Skicka ett test-mail', 
+	'SEND_TEST_EMAIL_EXPLAIN'		=> 'Detta kommer att skicka ett test-mail till den fördefinierade adressen i ditt konto.',
+	'SMTP_ALLOW_SELF_SIGNED'		=> 'Tillåt självsignerade SSL-certifikat',
+	'SMTP_ALLOW_SELF_SIGNED_EXPLAIN'=> 'Tillåt anslutningar till SMTP-server med självsignerade SSL-certifikat. <em><strong>Varning:</strong> Tillåtelse utav självsignerade SSL-certifikat kan orsaka säkerhetsimplikationer.</em>',
 	'SMTP_AUTH_METHOD'				=> 'Autentiseringsmetod för SMTP',
 	'SMTP_AUTH_METHOD_EXPLAIN'		=> 'Används endast om ett användarnamn/lösenord är inställt, fråga din leverantör om du är osäker på vilken metod du ska använda.',
 	'SMTP_CRAM_MD5'					=> 'CRAM-MD5',
@@ -583,10 +595,15 @@ $lang = array_merge($lang, array(
 	'SMTP_PORT'						=> 'SMTP-serverport',
 	'SMTP_PORT_EXPLAIN'				=> 'Ändra endast detta om du vet att din SMTP-server opererar på en annan port.',
 	'SMTP_SERVER'					=> 'SMTP-serveradress',
-	'SMTP_SERVER_EXPLAIN'			=> 'Notera att du måste erhålla protokoll som din server använder. Om du använder SSL, så måste detta vara "ssl://your.mailserver.com"',
+	'SMTP_SERVER_EXPLAIN'			=> 'Ange inte ett protokoll (<samp>ssl://</samp> or <samp>tls://</samp>) såvida din e-post host inte anger annat.',
 	'SMTP_SETTINGS'					=> 'SMTP-inställningar',
 	'SMTP_USERNAME'					=> 'SMTP-användarnamn',
 	'SMTP_USERNAME_EXPLAIN'			=> 'Ange endast ett användarnamn om din SMTP-server kräver det.',
+	'SMTP_VERIFY_PEER'				=> 'Verifiera SSL-certifikat',
+	'SMTP_VERIFY_PEER_EXPLAIN'		=> 'Kräv verifikation av SSL-certifikat som används utav SMTP-server. <em><strong>Varning:</strong> Anslutande med overifierade SSL-certifikat kan orsaka säkerhetsimplikationer.</em>',
+	'SMTP_VERIFY_PEER_NAME'			=> 'Verifiera SMTP-gruppnamn',
+	'SMTP_VERIFY_PEER_NAME_EXPLAIN'	=> 'Kräver verifiering av peer-namn för SMTP-servrar med SSL / TLS-anslutningar. <em><strong>Varning:</strong> Anslutning till overifierade peers kan orsaka säkerhetsimplikationer.</em>',
+	'TEST_EMAIL_SENT'				=> 'Testmeddelanadet har skickats.<br />Om du inte mottar något meddelanade, vänligen kontrollera din e-postkonfiguration.<br /><br />Om du behöver assistans, vänligen besök <a href="http://phpbb.se/forum/">phpBB supportforum</a>.',
 	'USE_SMTP'						=> 'Använd SMTP-server för e-post',
 	'USE_SMTP_EXPLAIN'				=> 'Välj “Ja” om du vill eller måste skicka e-post via en namngiven server istället för via den lokala e-postfunktionen.',
 ));
@@ -607,9 +624,8 @@ $lang = array_merge($lang, array(
 	'JAB_SERVER'				=> 'Jabberserver',
 	'JAB_SERVER_EXPLAIN'		=> 'Besök %sjabber.org%s för en lista med servrar.',
 	'JAB_SETTINGS_CHANGED'		=> 'Jabberinställningar ändrades.',
- 	'JAB_USE_SSL'				=> 'Använd SSL för att ansluta',
- 	'JAB_USE_SSL_EXPLAIN'		=> 'Om aktiverat så kommer en säker anslutning att försöka skapas. Jabberporten kommer att ändras till 5223 om port 5222 är angiven.',
+	'JAB_USE_SSL'				=> 'Använd SSL för att ansluta',
+	'JAB_USE_SSL_EXPLAIN'		=> 'Om aktiverat så kommer en säker anslutning att försöka skapas. Jabberporten kommer att ändras till 5223 om port 5222 är angiven.',
 	'JAB_USERNAME'				=> 'Jabberanvändarnamn eller JID',
 	'JAB_USERNAME_EXPLAIN'		=> 'Ange ett registrerat användarnamn eller giltigt JID. Användarnamnet kommer inte att kontrolleras. Om du enbart anger ett användarnamn, så kommer ditt JID att vara användarnamnet och servern du angett ovan. Om du vill ha en specifik server, ange ett giltigt JID, tex. user@jabber.org.',
-
 ));

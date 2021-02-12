@@ -7,7 +7,7 @@ Kontot "{USERNAME}" har inaktiverats eller skapats, du bör granska användares 
 Använd denna länk för att visa användarens profil:
 {U_USER_DETAILS}
 
-Använd denna länk för att aktivera kontot:
+Du kan aktivera kontot omedelbart genom att klicka på följande länk:
 {U_ACTIVATE}
 
 {EMAIL_SIG}

@@ -2,19 +2,17 @@
 /**
 *
 * This file is part of Swedish phpBB translation.
-* Copyright (c) 2010 - 2014 Swedish translation group.
+* Copyright (c) 2010 - 2021 Swedish translation group.
 *
 *
-* This program is distributed in the hope that it will be useful,
-* but WITHOUT ANY WARRANTY; without even the implied warranty of
-* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
-* GNU General Public License for more details.
+* For more information about the language pack, please visit
+* http://phpbb.se/forum/viewforum.php?f=49
 *
 *
-* @package      phpBB Sweden
-* @author       Simon Assgård <sassgard@gmail.com> (Sinom) http://www.phpbb.se/
-* @copyright    phpBB Sweden
-* @license      @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
+* @package		phpBB Sweden
+* @author		Simon Assgård <sassgard@gmail.com> (Sinom) <http://www.phpbb.se/>
+* @copyright 	(c) phpBB Limited <https://www.phpbb.com/> & phpBB Sweden <http://www.phpbb.se/>
+* @license		GNU General Public License, version 3 (GPL-3.0)
 *
 */
 
@@ -44,26 +42,26 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, array(
-	'CAPTCHA_QA'			=> 'Q&amp;A',
+	'CAPTCHA_QA'				=> 'Q&amp;A',
 	'CONFIRM_QUESTION_EXPLAIN'	=> 'Den här frågan är till för att förebygga automatiska registreringar.',
 	'CONFIRM_QUESTION_WRONG'	=> 'Du har tillhandahållit ett felaktigt svar på frågan.',
-	'CONFIRM_QUESTION_MISSING'	=> 'Frågor för captchan kunde inte hämtas. Vänligen kontakta forumadministratören.',
+	'CONFIRM_QUESTION_MISSING'	=> 'Frågor till captcha kunde inte hämtas. Vänligen kontakta en forumadministratör.', 
 
-	'QUESTION_ANSWERS'		=> 'Svar',
-	'ANSWERS_EXPLAIN'		=> 'Var god och ange korrekta svar på frågan',
-	'CONFIRM_QUESTION'		=> 'Fråga',
+	'QUESTION_ANSWERS'			=> 'Svar',
+	'ANSWERS_EXPLAIN'			=> 'Var god och ange korrekta svar på frågan',
+	'CONFIRM_QUESTION'			=> 'Fråga',
 
-	'ANSWER'			=> 'Svar',
-	'EDIT_QUESTION'			=> 'Redigera fråga',
-	'QUESTIONS'			=> 'Frågor',
-	'QUESTIONS_EXPLAIN'		=> 'För varje fält där Q&amp;A tillägget är aktiverat, kommer en utav de frågor ställas till användaren här. För att använda detta tillägg, måste åtminstone en fråga vara tillgänglig på forumets standardspråk. Dessa frågor bör vara enkla för din målgrupp att besvara, men omöjliga att besvara genom en automatisk robotsökning med Google™. Det bästa resultatet uppnår du genom att använda ett stort urval frågor, som regelbundet bytes ut. Aktivera strikt kontroll, om din fråga baserar sig på skrivning med stor begynnelsebokstav, kommatering eller blanktecken.',
-	'QUESTION_DELETED'		=> 'Frågan togs bort',
-	'QUESTION_LANG'		=> 'Språk',
+	'ANSWER'					=> 'Svar',
+	'EDIT_QUESTION'				=> 'Redigera fråga',
+	'QUESTIONS'					=> 'Frågor',
+	'QUESTIONS_EXPLAIN'			=> 'För varje fält där Q&amp;A tillägget är aktiverat, kommer en utav de frågor ställas till användaren här. För att använda detta tillägg, måste åtminstone en fråga vara tillgänglig på forumets standardspråk. Dessa frågor bör vara enkla för din målgrupp att besvara, men omöjliga att besvara genom en automatisk robotsökning med Google™. Det bästa resultatet uppnår du genom att använda ett stort urval frågor, som regelbundet bytes ut. Aktivera strikt kontroll, om din fråga baserar sig på skrivning med stor begynnelsebokstav, kommatering eller blanktecken.',
+	'QUESTION_DELETED'			=> 'Frågan togs bort',
+	'QUESTION_LANG'				=> 'Språk',
 	'QUESTION_LANG_EXPLAIN'		=> 'Språket, som den här frågan, med tillhörnade svar är skrivet på.',
-	'QUESTION_STRICT'	=> 'Strikt kontroll',
+	'QUESTION_STRICT'			=> 'Strikt kontroll',
 	'QUESTION_STRICT_EXPLAIN'	=> 'Aktivera för att påtvinga blandning av versaler och gemener, samt skilje och interpunktionstecken.',
 
-	'QUESTION_TEXT'		=> 'Fråga',
+	'QUESTION_TEXT'				=> 'Fråga',
 	'QUESTION_TEXT_EXPLAIN'		=> 'Frågan som ställs till användaren.',
 
 	'QA_ERROR_MSG'				=> 'Var god fyll i alla fält och ange minst ett svar.',

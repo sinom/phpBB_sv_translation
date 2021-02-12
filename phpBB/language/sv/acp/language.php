@@ -2,19 +2,17 @@
 /**
 *
 * This file is part of Swedish phpBB translation.
-* Copyright (c) 2010 - 2014 Swedish translation group.
+* Copyright (c) 2010 - 2021 Swedish translation group.
 *
 *
-* This program is distributed in the hope that it will be useful,
-* but WITHOUT ANY WARRANTY; without even the implied warranty of
-* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
-* GNU General Public License for more details.
+* For more information about the language pack, please visit
+* http://phpbb.se/forum/viewforum.php?f=49
 *
 *
-* @package      phpBB Sweden
-* @author       Simon Assgård <sassgard@gmail.com> (Sinom) http://www.phpbb.se/
-* @copyright    phpBB Sweden
-* @license      @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
+* @package		phpBB Sweden
+* @author		Simon Assgård <sassgard@gmail.com> (Sinom) <http://www.phpbb.se/>
+* @copyright 	(c) phpBB Limited <https://www.phpbb.com/> & phpBB Sweden <http://www.phpbb.se/>
+* @license		GNU General Public License, version 3 (GPL-3.0)
 *
 */
 
@@ -23,12 +21,14 @@
 */
 if (!defined('IN_PHPBB'))
 {
-   exit;
+	exit;
 }
+
 if (empty($lang) || !is_array($lang))
 {
 	$lang = array();
 }
+
 // DEVELOPERS PLEASE NOTE
 //
 // All language files should use UTF-8 as their encoding and the files must not contain a BOM.
@@ -40,19 +40,21 @@ if (empty($lang) || !is_array($lang))
 // You do not need this where single placeholders are used, e.g. 'Message %d' is fine
 // equally where a string contains only two placeholders which are used to wrap text
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
+
 $lang = array_merge($lang, array(
 	'ACP_FILES'						=> 'Administrationsspråkfiler',
 	'ACP_LANGUAGE_PACKS_EXPLAIN'	=> 'Här kan du installera/ta bort språkpaket. Standardspråket är stjärnmärkt.',
-	'DELETE_LANGUAGE_CONFIRM'		=> 'Är du säker på att du vill ta bort “%s”?',
-	'INSTALLED_LANGUAGE_PACKS'		=> 'Installerade språkpaket',
-	'LANGUAGE_DETAILS_UPDATED'			=> 'Språkdetaljer uppdaterades.',
 
+	'DELETE_LANGUAGE_CONFIRM'		=> 'Är du säker på att du vill ta bort “%s”?',
+
+	'INSTALLED_LANGUAGE_PACKS'		=> 'Installerade språkpaket',
+
+	'LANGUAGE_DETAILS_UPDATED'			=> 'Språkdetaljer uppdaterades.',
 	'LANGUAGE_PACK_ALREADY_INSTALLED'	=> 'Detta språkpaket är redan installerat.',
 	'LANGUAGE_PACK_DELETED'				=> 'Språkpaketet "%s" togs bort. Alla användare som använde detta språk har återställts till forumets standardspråk.',
 	'LANGUAGE_PACK_DETAILS'				=> 'Språkpaketsdetaljer',
 	'LANGUAGE_PACK_INSTALLED'			=> 'Språkpaketet "%s" installerades.',
 	'LANGUAGE_PACK_CPF_UPDATE'			=> 'Det egna profilfältets språksträngar kopierades från standardspråket. Var god ändra dessa strängar efter behov.',
-
 	'LANGUAGE_PACK_ISO'					=> 'ISO',
 	'LANGUAGE_PACK_LOCALNAME'			=> 'Lokalt namn',
 	'LANGUAGE_PACK_NAME'				=> 'Namn',
@@ -63,15 +65,19 @@ $lang = array_merge($lang, array(
 	'LANG_ENGLISH_NAME'					=> 'Engelskt namn',
 	'LANG_ISO_CODE'						=> 'ISO-kod',
 	'LANG_LOCAL_NAME'					=> 'Lokalt namn',
-	'MISSING_LANG_FILES'				=> 'Saknade språkfiler',
-	'MISSING_LANG_VARIABLES'			=> 'Saknade språkvariablar',
-	'NO_FILE_SELECTED'					=> 'Du angav ingen språkfil.',
-	'NO_LANG_ID'						=> 'Du angav inget språkpaket.',
-	'NO_REMOVE_DEFAULT_LANG'			=> 'Du kan inte ta bort standardspråkpaketet.<br />Om du vill ta bort detta språkpaket, byt forumets standardspråk först.',
-	'NO_UNINSTALLED_LANGUAGE_PACKS'		=> 'Inga oinstallerade språkpaket.',
-	'BROWSE_LANGUAGE_PACKS_DATABASE'	=> 'Bläddra i språkpaketsdatabasen',
+
+	'MISSING_LANG_FILES'		=> 'Saknade språkfiler',
+	'MISSING_LANG_VARIABLES'	=> 'Saknade språkvariablar',
+
+	'NO_FILE_SELECTED'				=> 'Du angav ingen språkfil.',
+	'NO_LANG_ID'					=> 'Du angav inget språkpaket.',
+	'NO_REMOVE_DEFAULT_LANG'		=> 'Du kan inte ta bort standardspråkpaketet.<br />Om du vill ta bort detta språkpaket, byt forumets standardspråk först.',
+	'NO_UNINSTALLED_LANGUAGE_PACKS'	=> 'Inga oinstallerade språkpaket.',
+
 	'THOSE_MISSING_LANG_FILES'			=> 'Följande språkfiler saknas i språket "%s" mapp.',
 	'THOSE_MISSING_LANG_VARIABLES'		=> 'Följande språkvariabler saknas i språkpaketet "%s".',
-	'UNINSTALLED_LANGUAGE_PACKS'		=> 'Ej installerade språkpaket',
 
+	'UNINSTALLED_LANGUAGE_PACKS'	=> 'Ej installerade språkpaket',
+
+	'BROWSE_LANGUAGE_PACKS_DATABASE'	=> 'Bläddra i språkpaketsdatabasen', 
 ));

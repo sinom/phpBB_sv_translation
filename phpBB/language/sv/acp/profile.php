@@ -2,19 +2,17 @@
 /**
 *
 * This file is part of Swedish phpBB translation.
-* Copyright (c) 2010 - 2014 Swedish translation group.
+* Copyright (c) 2010 - 2021 Swedish translation group.
 *
 *
-* This program is distributed in the hope that it will be useful,
-* but WITHOUT ANY WARRANTY; without even the implied warranty of
-* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
-* GNU General Public License for more details.
+* For more information about the language pack, please visit
+* http://phpbb.se/forum/viewforum.php?f=49
 *
 *
-* @package      phpBB Sweden
-* @author       Simon Assgård <sassgard@gmail.com> (Sinom) http://www.phpbb.se/
-* @copyright    phpBB Sweden
-* @license      @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
+* @package		phpBB Sweden
+* @author		Simon Assgård <sassgard@gmail.com> (Sinom) <http://www.phpbb.se/>
+* @copyright 	(c) phpBB Limited <https://www.phpbb.com/> & phpBB Sweden <http://www.phpbb.se/>
+* @license		GNU General Public License, version 3 (GPL-3.0)
 *
 */
 
@@ -23,7 +21,7 @@
 */
 if (!defined('IN_PHPBB'))
 {
-   exit;
+	exit;
 }
 
 if (empty($lang) || !is_array($lang))
@@ -100,14 +98,13 @@ $lang = array_merge($lang, array(
 	'FIELD_DESCRIPTION'			=> 'Fältbeskrivning',
 	'FIELD_DESCRIPTION_EXPLAIN'	=> 'Beskrivningen för detta fält som visas för användaren.',
 	'FIELD_DROPDOWN'			=> 'Listruta',
-	'FIELD_GOOGLEPLUS'			=> 'Google+',
+
 	'FIELD_IDENT'				=> 'Fältidentifikation',
 	'FIELD_IDENT_ALREADY_EXIST'	=> 'Den valda fältidentifikationen finns redan. Välj ett annat namn.',
 	'FIELD_IDENT_EXPLAIN'		=> 'Fältidentifikationen är ett namn för att identifiera profilfältet inom databasen och i mallarna.',
 	'FIELD_INT'					=> 'Nummer',
 	'FIELD_IS_CONTACT'			=> 'Visa fält som kontaktfält',
 	'FIELD_IS_CONTACT_EXPLAIN'	=> 'Kontaktfält visas inuti kontaktdelen av användarprofilen och visas anorlunda i miniprofilen jämte inlägg och privata meddelanden. Du kan använda <samp>%s</samp> som en platshållarvariable som kommer att ersättas utav ett värde satt utav användaren.',
-
 	'FIELD_LENGTH'				=> 'Längd på inmatningsruta',
 	'FIELD_NOT_FOUND'			=> 'Profilfältet hittades inte.',
 	'FIELD_STRING'				=> 'Enkelt textfält',
@@ -119,14 +116,14 @@ $lang = array_merge($lang, array(
 	'FIRST_OPTION'				=> 'Första alternativet',
 
 	'HIDE_PROFILE_FIELD'			=> 'Dölj profilfält',
-	'HIDE_PROFILE_FIELD_EXPLAIN'	=> 'Gömmer profilfältet för alla andra användare utom användaren själv, administratören och moderatorer. Dessa kan ännu se detta fält. Om visningsalternativet "Visa i kontrollpanel" är inaktiverat, så kommmer användaren inte att kunna se eller ändra detta profilfält. Det kan ändras endast av administratören.',
+	'HIDE_PROFILE_FIELD_EXPLAIN'	=> 'Gömmer profilfältet för alla andra användare utom administratören och moderatorer. Dessa kan ännu se detta fält. Om visningsalternativet "Visa i kontrollpanel" är inaktiverat, så kommmer användaren inte att kunna se eller ändra detta profilfält. Det kan ändras endast av administratören.',
 
 	'INVALID_CHARS_FIELD_IDENT'	=> 'Fältidentifikationen kan endast innehålla små bokstäver a-z och _',
 	'INVALID_FIELD_IDENT_LEN'	=> 'Fältidentifikationen kan endast vara upp till 17 tecken lång',
 	'ISO_LANGUAGE'				=> 'Språk [%s]',
 
 	'LANG_SPECIFIC_OPTIONS'		=> 'Språkspecifika inställningar [<strong>%s</strong>]',
-	
+
 	'LETTER_NUM_DOTS'			=> 'Any letters, numbers and dots (periods)',
 	'LETTER_NUM_ONLY'			=> 'Any letters and numbers',
 	'LETTER_NUM_PUNCTUATION'	=> 'Any letters, numbers, comma, dots, underscores and dashes beginning with any letter',
@@ -158,9 +155,9 @@ $lang = array_merge($lang, array(
 	'ROWS'						=> 'Rader',
 
 	'SAVE'							=> 'Spara',
- 	'SHOW_NOVALUE_FIELD'			=> 'Visa fältet om inget värde är valt.',
- 	'SHOW_NOVALUE_FIELD_EXPLAIN'	=> 'Bestämmer om profilfältet skall visas ifall inget värde är valt för tillvalsfälten eller om inget värde än har valts för de obligatoriska fälten.',
 	'SECOND_OPTION'					=> 'Andra alternativet',
+	'SHOW_NOVALUE_FIELD'			=> 'Visa fältet om inget värde är valt.',
+	'SHOW_NOVALUE_FIELD_EXPLAIN'	=> 'Bestämmer om profilfältet skall visas ifall inget värde är valt för tillvalsfälten eller om inget värde än har valts för de obligatoriska fälten.',
 	'STEP_1_EXPLAIN_CREATE'			=> 'Här kan du ange de första grundläggande parametrarna för ditt nya profilfält. Denna information krävs för att kunna gå vidare till nästa steg där du kan ställa in återstående alternativ och ändra ditt profilfält ännu mer.',
 	'STEP_1_EXPLAIN_EDIT'			=> 'Här kan du ange de grundläggande parametrarna för ditt profilfält. De relevanta alternativen beräknas om i nästa steg.',
 	'STEP_1_TITLE_CREATE'			=> 'Lägg till profilfält',

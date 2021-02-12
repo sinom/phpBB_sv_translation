@@ -2,19 +2,17 @@
 /**
 *
 * This file is part of Swedish phpBB translation.
-* Copyright (c) 2010 - 2014 Swedish translation group.
+* Copyright (c) 2010 - 2021 Swedish translation group.
 *
 *
-* This program is distributed in the hope that it will be useful,
-* but WITHOUT ANY WARRANTY; without even the implied warranty of
-* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
-* GNU General Public License for more details.
+* For more information about the language pack, please visit
+* http://phpbb.se/forum/viewforum.php?f=49
 *
 *
-* @package      phpBB Sweden
-* @author       Simon Assgård <sassgard@gmail.com> (Sinom) http://www.phpbb.se/
-* @copyright    phpBB Sweden
-* @license      @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
+* @package		phpBB Sweden
+* @author		Simon Assgård <sassgard@gmail.com> (Sinom) <http://www.phpbb.se/>
+* @copyright 	(c) phpBB Limited <https://www.phpbb.com/> & phpBB Sweden <http://www.phpbb.se/>
+* @license		GNU General Public License, version 3 (GPL-3.0)
 *
 */
 
@@ -23,12 +21,14 @@
 */
 if (!defined('IN_PHPBB'))
 {
-   exit;
+	exit;
 }
+
 if (empty($lang) || !is_array($lang))
 {
 	$lang = array();
 }
+
 // DEVELOPERS PLEASE NOTE
 //
 // All language files should use UTF-8 as their encoding and the files must not contain a BOM.
@@ -40,9 +40,10 @@ if (empty($lang) || !is_array($lang))
 // You do not need this where single placeholders are used, e.g. 'Message %d' is fine
 // equally where a string contains only two placeholders which are used to wrap text
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
+
 $lang = array_merge($lang, array(
 	'ACTION'				=> 'Handling',
- 	'ACTION_NOTE'			=> 'Handling/Anteckning',
+	'ACTION_NOTE'			=> 'Handling/Anteckning',
 	'ADD_FEEDBACK'			=> 'Lägg till användaranteckning',
 	'ADD_FEEDBACK_EXPLAIN'	=> 'Fyll i följande formulär om du vill lägga till en användaranteckning för denna användare. Använd endast oformaterad text; HTML, BBCode, osv. är inte tillåtet.',
 	'ADD_WARNING'			=> 'Lägg till varning',
@@ -86,7 +87,7 @@ $lang = array_merge($lang, array(
 	'DELETE_REPORT_CONFIRM'		=> 'Är du säker på att du vill ta bort den valda rapporten?',
 	'DELETE_REPORTS'			=> 'Ta bort rapporter',
 	'DELETE_REPORTS_CONFIRM'	=> 'Är du säker på att du vill ta bort de valda rapporterna?',
- 	'DELETE_SHADOW_TOPIC'		=> 'Ta bort skuggtråd',
+	'DELETE_SHADOW_TOPIC'		=> 'Ta bort skuggtråd',
 	'DELETE_TOPICS'				=> 'Ta bort valda trådar',
 	'DISAPPROVE'				=> 'Avslå',
 	'DISAPPROVE_REASON'			=> 'Skäl för avslag',
@@ -116,7 +117,7 @@ $lang = array_merge($lang, array(
 	'GLOBAL_ANNOUNCEMENT'	=> 'Globalt meddelande',
 
 	'IP_INFO'				=> 'IP-adressinformation',
- 	'IPS_POSTED_FROM'		=> 'IP-adresser som denna användare postat ifrån',
+	'IPS_POSTED_FROM'		=> 'IP-adresser som denna användare postat ifrån',
 
 	'LATEST_LOGS'				=> 'De fem senaste loggade handlingarna',
 	'LATEST_REPORTED'			=> 'De fem senaste rapporterna',
@@ -125,9 +126,9 @@ $lang = array_merge($lang, array(
 	'LATEST_WARNING_TIME'		=> 'Senast utfärdade varningen',
 	'LATEST_WARNINGS'			=> 'De senaste fem varningarna',
 	'LEAVE_SHADOW'				=> 'Lämna kvar skuggtråd i den gamla kategorin.',
-	'LIST_REPORTS'				=> array(
-		1	=> '%d rapport',
-		2	=> '%d rapporter',
+	'LIST_REPORTS'	=>	array(
+		1	=>			'%d rapport',
+		2	=>			'%d rapporter',
 	),
 	'LOCK'						=> 'Lås',
 	'LOCK_POST_POST'			=> 'Lås inlägg',
@@ -139,6 +140,7 @@ $lang = array_merge($lang, array(
 	'LOCK_TOPICS_CONFIRM'		=> 'Är du säker på att du vill låsa alla valda trådar?',
 	'LOGS_CURRENT_TOPIC'		=> 'Visar loggar för:',
 	'LOGIN_EXPLAIN_MCP'			=> 'För att moderera denna kategori måste du logga in.',
+	'LOGVIEW_VIEWPOST'			=> 'Visa inlägg', 
 	'LOGVIEW_VIEWTOPIC'			=> 'Visa tråd',
 	'LOGVIEW_VIEWLOGS'			=> 'Visa trådlogg',
 	'LOGVIEW_VIEWFORUM'			=> 'Visa kategori',
@@ -146,15 +148,19 @@ $lang = array_merge($lang, array(
 	'LOOKUP_IP'					=> 'Kolla upp IP',
 
 	'MARKED_NOTES_DELETED'		=> 'Tog bort alla markerade användaranteckningar.',
+
 	'MCP_ADD'						=> 'Lägg till varning',
+
 	'MCP_BAN'					=> 'Bannlys',
 	'MCP_BAN_EMAILS'			=> 'Bannlys e-postadresser',
 	'MCP_BAN_IPS'				=> 'Bannlys IP-adresser',
 	'MCP_BAN_USERNAMES'			=> 'Bannlys användare',
+
 	'MCP_LOGS'						=> 'Moderationslogg',
 	'MCP_LOGS_FRONT'				=> 'Förstasidan',
 	'MCP_LOGS_FORUM_VIEW'			=> 'Kategoriloggar',
 	'MCP_LOGS_TOPIC_VIEW'			=> 'Trådloggar',
+
 	'MCP_MAIN'						=> 'Start',
 	'MCP_MAIN_FORUM_VIEW'			=> 'Visa kategori',
 	'MCP_MAIN_FRONT'				=> 'Förstasidan',
@@ -176,16 +182,20 @@ $lang = array_merge($lang, array(
 	'MCP_MAKE_NORMAL_CONFIRM'		=> 'Är du säker på att du vill göra om denna tråd till “normal tråd”?',
 	'MCP_MAKE_NORMALS'				=> 'Gör till “normala trådar”',
 	'MCP_MAKE_NORMALS_CONFIRM'		=> 'Är du säker på att du vill göra om dessa trådar till “normala trådar”?',
+
 	'MCP_NOTES'						=> 'Användaranteckningar',
 	'MCP_NOTES_FRONT'				=> 'Förstasidan',
 	'MCP_NOTES_USER'				=> 'Användardetaljer',
+
 	'MCP_POST_REPORTS'				=> 'Rapporter mot detta inlägg',
+
 	'MCP_PM_REPORTS'				=> 'Rapporterade PM',
 	'MCP_PM_REPORT_DETAILS'			=> 'Rapportdetaljer om PM',
 	'MCP_PM_REPORTS_CLOSED'			=> 'Stängda PM-rapporter',
 	'MCP_PM_REPORTS_CLOSED_EXPLAIN'	=> 'Detta är en lista över alla PM-rapporter som redan behandlats.',
 	'MCP_PM_REPORTS_OPEN'			=> 'Öppna PM-rapporter',
 	'MCP_PM_REPORTS_OPEN_EXPLAIN'	=> 'Detta är en lista över alla PM-rapporter som inte behandlats',
+
 	'MCP_REPORTS'					=> 'Rapporterade meddelanden',
 	'MCP_REPORT_DETAILS'			=> 'Rapportdetaljer',
 	'MCP_REPORTS_CLOSED'			=> 'Stängda inläggsrapporter',
@@ -205,6 +215,7 @@ $lang = array_merge($lang, array(
 	'MCP_QUEUE_DELETED_TOPICS_EXPLAIN'		=> 'Detta är en lista med alla mjukt borttagna trådar. Du kan antingen återställa dem eller ta bort dom helt från denna skärm.',
 
 	'MCP_VIEW_USER'			=> 'Visa varningar för en specifik användare',
+
 	'MCP_WARN'				=> 'Varningar',
 	'MCP_WARN_FRONT'		=> 'Förstasidan',
 	'MCP_WARN_LIST'			=> 'Lista varningar',
@@ -214,10 +225,10 @@ $lang = array_merge($lang, array(
 	'MERGE_POSTS_CONFIRM'	=> 'Är du säker på att du vill flytta de valda inläggen?',
 	'MERGE_TOPIC_EXPLAIN'	=> 'Genom att använda formuläret nedan så kan du flytta valda inlägg in i en annan tråd. Dessa inlägg syns inte längre i ursprungstråden. Inläggen kommer inte att omordnas och det kommer att se ut som om användarna postade dem i den nya tråden.<br />Ange tråd-ID:et för den tråd du vill flytta till eller klicka på “Välj tråd”-knappen för att söka efter en tråd.',
 	'MERGE_TOPIC_ID'		=> 'Destinationstrådens identifikationsnummer (Tråd-ID)',
- 	'MERGE_TOPICS'			=> 'Sammanfoga trådar',
- 	'MERGE_TOPICS_CONFIRM'	=> 'Är du säker på att du vill sammanfoga de valda trådarna?',
+	'MERGE_TOPICS'			=> 'Sammanfoga trådar',
+	'MERGE_TOPICS_CONFIRM'	=> 'Är du säker på att du vill sammanfoga de valda trådarna?',
 	'MODERATE_FORUM'		=> 'Moderera kategori',
- 	'MODERATE_TOPIC'		=> 'Moderera tråd',
+	'MODERATE_TOPIC'		=> 'Moderera tråd',
 	'MODERATE_POST'			=> 'Moderera inlägg',
 	'MOD_OPTIONS'			=> 'Moderationsalternativ',
 	'MORE_INFO'				=> 'Vidare information',
@@ -239,49 +250,44 @@ $lang = array_merge($lang, array(
 	'NO_POST'						=> 'Du måste välja ett inlägg för att varna användaren för ett inlägg.',
 	'NO_POST_REPORT'				=> 'Detta inlägg rapporterades inte.',
 	'NO_POST_SELECTED'				=> 'Du måste välja minst ett inlägg för att utföra denna åtgärd.',
-	
 	'NO_POSTS_DELETED'				=> 'Det finns inga borttagna inlägg.',
 	'NO_POSTS_QUEUE'				=> 'Det finns inga inlägg som väntar på godkännande.',
-
 	'NO_REASON_DISAPPROVAL'			=> 'Ange en passande anledning för avslag.',
- 	'NO_REPORT'						=> 'Ingen rapport hittades',
- 	'NO_REPORTS'					=> 'Inga rapporter hittades',
- 	'NO_REPORT_SELECTED'			=> 'Du måste välja minst en rapport för att utföra denna åtgärd.',
+	'NO_REPORT'						=> 'Ingen rapport hittades',
+	'NO_REPORTS'					=> 'Inga rapporter hittades',
+	'NO_REPORT_SELECTED'			=> 'Du måste välja minst en rapport för att utföra denna åtgärd.',
 	'NO_TOPIC_ICON'					=> 'Ingen',
 	'NO_TOPIC_SELECTED'				=> 'Du måste välja minst en tråd för att utföra denna åtgärd.',
-
 	'NO_TOPICS_DELETED'				=> 'There are no deleted topics.',
 	'NO_TOPICS_QUEUE'				=> 'Det finns inga trådar som väntar på godkännande.',
 
 	'ONLY_TOPIC'			=> 'Endast tråd “%s”',
 	'OTHER_USERS'			=> 'Andra användare som postar från detta IP',
 
-	'QUICKMOD_ACTION_NOT_ALLOWED' => "%s not allowed as quickmod",
+	'QUICKMOD_ACTION_NOT_ALLOWED' => '%s är ej giltigt som en snabbmod',
+
 
 	'PM_REPORT_CLOSED_SUCCESS'	=> 'Den valda PM-rapporten stängdes.',
 	'PM_REPORT_DELETED_SUCCESS'	=> 'Den valda PM-rapporten togs bort.',
 	'PM_REPORTED_SUCCESS'		=> 'Detta privata meddelande har nu rapporterats.',
 	'PM_REPORTS_CLOSED_SUCCESS'	=> 'De valda PM-rapporterna har stängts.',
-	'PM_REPORTS_DELETED_SUCCESS'	=> 'De valda PM-rapporterna har raderats.',
-	'PM_REPORTS_TOTAL'			=> array(
-		0	=> 'Det finns inga PM-rapporter att granska.',
-		1	=> 'Det finns totalt <strong>1</strong> PM-rapport att granska.',
-		2	=> 'Det finns totalt <strong>%d</strong> PM-rapporter att granska.',
+	'PM_REPORTS_DELETED_SUCCESS'=> 'De valda PM-rapporterna har raderats.',
+	'PM_REPORTS_TOTAL'	=>	array(
+		0	=>			'Det finns inga PM-rapporter att granska.',
+		1	=>			'Det finns totalt <strong>1</strong> PM-rapport att granska.',
+		2	=>			'Det finns totalt <strong>%d</strong> PM-rapporter att granska.',
 	),
-
-	'PM_REPORT_DETAILS'		=> 'Rapportdetaljer för PM',
-	'POSTER'			=> 'Postare',
+	'PM_REPORT_DETAILS'			=> 'Rapportdetaljer för PM',
+	'POSTER'					=> 'Postare',
 	'POSTS_APPROVED_SUCCESS'	=> 'De valda inläggen godkändes.',
 	'POSTS_DELETED_SUCCESS'		=> 'De valda inläggen togs bort databasen.',
 	'POSTS_DISAPPROVED_SUCCESS'	=> 'De valda inläggen avslogs.',
 	'POSTS_LOCKED_SUCCESS'		=> 'De valda inläggen låstes.',
 	'POSTS_MERGED_SUCCESS'		=> 'De valda inläggen sammanfogades.',
-	'POSTS_PER_PAGE'		=> 'Inlägg per sida',
+	'POSTS_PER_PAGE'			=> 'Inlägg per sida',
 	'POSTS_PER_PAGE_EXPLAIN'	=> '(Sätt till 0 för att visa alla inlägg.)',
-
 	'POSTS_RESTORED_SUCCESS'	=> 'De valda inläggen har återställts.',
 	'POSTS_UNLOCKED_SUCCESS'	=> 'De valda inläggen har låsts upp.',
-
 	'POST_APPROVED_SUCCESS'		=> 'Det valda inlägget godkändes.',
 	'POST_DELETED_SUCCESS'		=> 'Det valda inlägget togs bort från databasen.',
 	'POST_DISAPPROVED_SUCCESS'	=> 'Det valda inlägget avslogs.',
@@ -291,7 +297,6 @@ $lang = array_merge($lang, array(
 	'POST_RESTORED_SUCCESS'		=> 'Detta inlägget har återställts.',
 	'POST_UNLOCKED_SUCCESS'		=> 'Inlägget låstes upp.',
 
-
 	'READ_USERNOTES'			=> 'Användaranteckningar',
 	'READ_WARNINGS'				=> 'Användarvarningar',
 	'REPORTER'					=> 'Rapportör',
@@ -300,13 +305,11 @@ $lang = array_merge($lang, array(
 	'REPORTED_ON_DATE'			=> '',
 	'REPORTS_CLOSED_SUCCESS'	=> 'De valda rapporterna stängdes.',
 	'REPORTS_DELETED_SUCCESS'	=> 'De valda rapporterna togs bort.',
-
-	'REPORTS_TOTAL'				=> array(
-		0	=> 'Det finns inga rapporter att granska.',
-		1	=> 'Det finns totalt <strong>%d</strong> rapport att granska.',
-		2	=> 'Det finns totalt <strong>%d</strong> rapporter att granska.',
+	'REPORTS_TOTAL'	=>	array(
+		0	=>			'Det finns inga rapporter att granska.',
+		1	=>			'Det finns totalt <strong>%d</strong> rapport att granska.',
+		2	=>			'Det finns totalt <strong>%d</strong> rapporter att granska.',
 	),
-
 	'REPORT_CLOSED'				=> 'Denna rapport har redan stängts.',
 	'REPORT_CLOSED_SUCCESS'		=> 'Den valda rapporten stängdes.',
 	'REPORT_DELETED_SUCCESS'	=> 'Den valda rapporten togs bort.',
@@ -318,7 +321,6 @@ $lang = array_merge($lang, array(
 	'REPORT_POST_EXPLAIN'		=> 'Använd detta formulär för att rapportera det valda inlägget till kategorins moderatorer och till forumadministratörerna. Du bör endast rapportera meddelandet  om det bryter mot forumets regler.',
 	'REPORT_REASON'				=> 'Rapportanledning',
 	'REPORT_TIME'				=> 'Rapporttid',
-
 	'RESTORE'					=> 'Återställ',
 	'RESTORE_POST'				=> 'Återställ inlägg',
 	'RESTORE_POST_CONFIRM'		=> 'Är du säker på att du vill återställa detta inlägg?',
@@ -328,7 +330,6 @@ $lang = array_merge($lang, array(
 	'RESTORE_TOPIC_CONFIRM'		=> 'Är du säker på att du vill återställa denna tråd?',
 	'RESTORE_TOPICS'			=> 'Återställ trådar',
 	'RESTORE_TOPICS_CONFIRM'	=> 'Är du säker på att du vill återställa valda trådar?',
-
 	'RESYNC'					=> 'Synkronisera',
 	'RETURN_MESSAGE'			=> '%sÅtergå till meddelandet%s',
 	'RETURN_NEW_FORUM'			=> '%sGå till den nya kategorin%s',
@@ -337,13 +338,13 @@ $lang = array_merge($lang, array(
 	'RETURN_POST'				=> '%sÅtergå till inlägget%s',
 	'RETURN_QUEUE'				=> '%sÅtergå till kön%s',
 	'RETURN_REPORTS'			=> '%sÅtergå till rapporterna%s',
- 	'RETURN_TOPIC_SIMPLE'		=> '%sÅtergå till tråden%s',
+	'RETURN_TOPIC_SIMPLE'		=> '%sÅtergå till tråden%s',
 
 	'SEARCH_POSTS_BY_USER'				=> 'Sök inlägg av',
 	'SELECT_ACTION'						=> 'Välj önskad åtgärd',
- 	'SELECT_FORUM_GLOBAL_ANNOUNCEMENT'	=> 'Välj den kategori som du vill att detta globala anslag ska visas.',
- 	'SELECT_FORUM_GLOBAL_ANNOUNCEMENTS'	=> 'En eller fler av de valda trådarna är globala anslag. Välj den kategori som du vill att de ska visas.',
- 	'SELECT_MERGE'						=> 'Välj för förening',
+	'SELECT_FORUM_GLOBAL_ANNOUNCEMENT'	=> 'Välj den kategori som du vill att detta globala anslag ska visas.',
+	'SELECT_FORUM_GLOBAL_ANNOUNCEMENTS'	=> 'En eller fler av de valda trådarna är globala anslag. Välj den kategori som du vill att de ska visas.',
+	'SELECT_MERGE'						=> 'Välj för förening',
 	'SELECT_TOPICS_FROM'				=> 'Välj trådar från',
 	'SELECT_TOPIC'						=> 'Välj tråd',
 	'SELECT_USER'						=> 'Välj användare',
@@ -362,7 +363,7 @@ $lang = array_merge($lang, array(
 	'SPLIT_TOPIC_EXPLAIN'				=> 'Genom att använda detta formulär kan du dela en tråd i två, antingen genom att välja inläggen enskilt eller genom att dela vid ett valt inlägg.',
 
 	'THIS_PM_IP'				=> 'IP för detta PM',
-	 'THIS_POST_IP'				=> 'IP för detta inlägg',
+	'THIS_POST_IP'				=> 'IP för detta inlägg',
 	'TOPICS_APPROVED_SUCCESS'	=> 'De valda trådarna godkändes.',
 	'TOPICS_DELETED_SUCCESS'	=> 'De valda trådarna togs bort från databasen.',
 	'TOPICS_DISAPPROVED_SUCCESS'=> 'De valda trådarna avslogs.',
@@ -370,8 +371,8 @@ $lang = array_merge($lang, array(
 	'TOPICS_LOCKED_SUCCESS'		=> 'De valda trådarna låstes.',
 	'TOPICS_MOVED_SUCCESS'		=> 'De valda trådarna flyttades.',
 	'TOPICS_RESTORED_SUCCESS'	=> 'De valda trådarna har återställts.',
-	
 	'TOPICS_RESYNC_SUCCESS'		=> 'De valda trådarna synkroniserades.',
+	'TOPICS_TYPE_CHANGED'		=> 'Trådtyperna byttes.',
 	'TOPICS_UNLOCKED_SUCCESS'	=> 'De valda trådarna låstes upp.',
 	'TOPIC_APPROVED_SUCCESS'	=> 'Den valda tråden godkändes.',
 	'TOPIC_DELETED_SUCCESS'		=> 'Den valda tråden togs bort från databasen.',
@@ -381,21 +382,18 @@ $lang = array_merge($lang, array(
 	'TOPIC_MOVED_SUCCESS'		=> 'Den valda tråden flyttades.',
 	'TOPIC_NOT_EXIST'			=> 'Den valda tråden finns inte.',
 	'TOPIC_RESTORED_SUCCESS'	=> 'Den valda tråden har återställts.',
-
 	'TOPIC_RESYNC_SUCCESS'		=> 'Den valda tråden synkroniserades.',
-	'TOPICS_TYPE_CHANGED'		=> 'Trådtyperna byttes.',
 	'TOPIC_SPLIT_SUCCESS'		=> 'Den valda tråden delades.',
 	'TOPIC_TIME'				=> 'Trådtid',
 	'TOPIC_TYPE_CHANGED'		=> 'Trådtyp ändrades.',
 	'TOPIC_UNLOCKED_SUCCESS'	=> 'Den valda tråden låstes upp.',
 	'TOTAL_WARNINGS'			=> 'Totalt antal varningar',
 
-	'UNAPPROVED_POSTS_TOTAL'		=> array(
-		0	=> 'Det finns inga inlägg som väntar på godkännande.',
-		1	=> 'Det finns totalt <strong>1</strong> inlägg som väntar på godkännande.',
-		2	=> 'Det finns totalt <strong>%d</strong> inlägg som väntar på godkännande.',
+	'UNAPPROVED_POSTS_TOTAL'	=>	array(
+		0	=>			'Det finns inga inlägg som väntar på godkännande.',
+		1	=>			'Det finns totalt <strong>1</strong> inlägg som väntar på godkännande.',
+		2	=>			'Det finns totalt <strong>%d</strong> inlägg som väntar på godkännande.',
 	),
-	
 	'UNLOCK'						=> 'Lås upp',
 	'UNLOCK_POST'					=> 'Lås upp inlägg',
 	'UNLOCK_POST_EXPLAIN'			=> 'Tillåt redigering',
@@ -415,25 +413,28 @@ $lang = array_merge($lang, array(
 	'VIEW_DETAILS'			=> 'Visa detaljer',
 	'VIEW_PM'				=> 'Visa PM',
 	'VIEW_POST'				=> 'Visa inlägg',
+
 	'WARNED_USERS'			=> 'Varnade användare',
 	'WARNED_USERS_EXPLAIN'	=> 'Detta är en lista över användare som har varningar utfärdade mot sig.',
 	'WARNING_PM_BODY'		=> 'Följande är en varning som har utfärdats mot dig av en administratör eller moderator på detta forum.[quote]%s[/quote]',
 	'WARNING_PM_SUBJECT'	=> 'Varning utfärdad',
 	'WARNING_POST_DEFAULT'	=> 'Detta är en varning för följande inlägg: %s.',
-	'NO_WARNINGS'			=> 'Inga varningar finns.',
+	'NO_WARNINGS'	=> 'Inga varningar finns.',
+
 	'YOU_SELECTED_TOPIC'	=> 'Du valde tråd nummer %d: %s.',
-	'report_reasons'		=> array(
-		'TITLE'	=> array(
-			'WAREZ'		=> 'Olagligt innehåll',
-			'SPAM'		=> 'Spam',
-			'OFF_TOPIC'	=> 'Utanför ämnet',
-			'OTHER'		=> 'Annat',
+
+	'report_reasons'	=>	array(
+		'TITLE'	=>	array(
+			'WAREZ'	=>				'Olagligt innehåll',
+			'SPAM'	=>				'Spam',
+			'OFF_TOPIC'	=>				'Utanför ämnet',
+			'OTHER'	=>				'Annat',
 		),
-		'DESCRIPTION' => array(
-			'WAREZ'		=> 'Meddelandet innehåller länkar till olaglig eller piratkopierad programvara.',
-			'SPAM'		=> 'Meddelandet innehåller reklam för en annan webbplats eller produkt.',
-			'OFF_TOPIC'	=> 'Meddelandet håller sig inte till ämnet.',
-			'OTHER'		=> 'Meddelandet passar inte in i någon av ovanstående kategorier, använd fältet för vidare information.',
+		'DESCRIPTION'	=>	array(
+			'WAREZ'	=>				'Meddelandet innehåller länkar till olaglig eller piratkopierad programvara.',
+			'SPAM'	=>				'Meddelandet innehåller reklam för en annan webbplats eller produkt.',
+			'OFF_TOPIC'	=>				'Meddelandet håller sig inte till ämnet.',
+			'OTHER'	=>				'Meddelandet passar inte in i någon av ovanstående kategorier, använd fältet för vidare information.',
 		),
 	),
 ));

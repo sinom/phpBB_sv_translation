@@ -2,19 +2,17 @@
 /**
 *
 * This file is part of Swedish phpBB translation.
-* Copyright (c) 2010 - 2014 Swedish translation group.
+* Copyright (c) 2010 - 2021 Swedish translation group.
 *
 *
-* This program is distributed in the hope that it will be useful,
-* but WITHOUT ANY WARRANTY; without even the implied warranty of
-* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
-* GNU General Public License for more details.
+* For more information about the language pack, please visit
+* http://phpbb.se/forum/viewforum.php?f=49
 *
 *
-* @package      phpBB Sweden
-* @author       Simon Assgård <sassgard@gmail.com> (Sinom) http://www.phpbb.se/
-* @copyright    phpBB Sweden
-* @license      @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
+* @package		phpBB Sweden
+* @author		Simon Assgård <sassgard@gmail.com> (Sinom) <http://www.phpbb.se/>
+* @copyright 	(c) phpBB Limited <https://www.phpbb.com/> & phpBB Sweden <http://www.phpbb.se/>
+* @license		GNU General Public License, version 3 (GPL-3.0)
 *
 */
 
@@ -23,7 +21,7 @@
 */
 if (!defined('IN_PHPBB'))
 {
-   exit;
+	exit;
 }
 
 if (empty($lang) || !is_array($lang))
@@ -61,7 +59,7 @@ $lang = array_merge($lang, array(
 
 		<br />
 
-		<p>För mer information om hur man ställer in och hanterar behörigheter på ditt phpBB3-forum, se <a href="https://www.phpbb.com/support/docs/en/3.1/ug/quickstart/permissions/"> i vår Snabbstartsguide</a>.</p>',
+		<p>För mer information om hur man ställer in och hanterar behörigheter på ditt phpBB3-forum, se <a href="http://www.phpbb.com/support/documentation/3.3/quickstart/quick_permissions.html">kapitel 1.5 i vår Snabbstartsguide</a>.</p>',
 
 	'ACL_NEVER'				=> 'Aldrig',
 	'ACL_SET'				=> 'Ställer in behörigheter',
@@ -78,7 +76,7 @@ $lang = array_merge($lang, array(
 	'ACL_TYPE_GLOBAL_M_'	=> 'Globala moderationsbehörigheter',
 	'ACL_TYPE_LOCAL_M_'		=> 'Kategorimoderationsbehörigheter',
 	'ACL_TYPE_LOCAL_F_'		=> 'Kategoribehörigheter',
-	
+
 	'ACL_NO'				=> 'Nej',
 	'ACL_VIEW'				=> 'Visar behörigheter',
 	'ACL_VIEW_EXPLAIN'		=> 'Här kan du se de verksamma behörigheterna som användaren/gruppen har. En röd ruta indikerar att användaren/gruppen inte har den behörigheten, en grön ruta indikerar att användaren/gruppen har den behörigheten.',
@@ -116,6 +114,7 @@ $lang = array_merge($lang, array(
 	'APPLY_PERMISSIONS'			=> 'Tillämpa behörigheter',
 	'APPLY_PERMISSIONS_EXPLAIN'	=> 'Behörigheterna och rollen definierad för denna post kommer endast tilldelas till denna post och alla ikryssade poster.',
 	'AUTH_UPDATED'				=> 'Behörigheterna uppdaterades.',
+
 	'COPY_PERMISSIONS_CONFIRM'				=> 'Är du säker på att du vill fortsätta? Dett akommer att skriva över alla tidigare behörigheter för målet.',
 	'COPY_PERMISSIONS_FORUM_FROM_EXPLAIN'	=> 'Kategorin du ska kopiera behörigheter från.',
 	'COPY_PERMISSIONS_FORUM_TO_EXPLAIN'		=> 'Målkategori dit behörigheterna ska kopieras.',
@@ -213,6 +212,7 @@ $lang = array_merge($lang, array(
 	'ROLE_DESCRIPTION_USER_NOPM'			=> 'Har en begränsad uppsättning funktioner, och kan inte använda personliga meddelanden.',
 	'ROLE_DESCRIPTION_USER_STANDARD'		=> 'Kan komma åt de flesta men inte alla användarfunktioner. Kan inte byta användarnamn eller ignorera gräns för tid mellan inlägg, till exempel.',
 	'ROLE_DESCRIPTION_USER_NEW_MEMBER'		=> 'En roll för gruppen Ny medlem; Innehåller behörighetsklass <strong>ALDRIG</strong> för att hindra nyregistrerade från att använda vissa funktioner.',
+
 	'ROLE_DESCRIPTION_EXPLAIN'		=> 'Du kan skriva in en kort förklaring till vad rollen gör eller vad den är till för. Texten du skriver in här kommer också att visas på behörighetssidorna.',
 	'ROLE_DESCRIPTION_LONG'			=> 'Rollbeskrivningen är för lång, den får inte vara länge än 4000 tecken.',
 	'ROLE_DETAILS'					=> 'Rolldetaljer',

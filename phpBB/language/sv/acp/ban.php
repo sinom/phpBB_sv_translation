@@ -2,19 +2,17 @@
 /**
 *
 * This file is part of Swedish phpBB translation.
-* Copyright (c) 2010 - 2014 Swedish translation group.
+* Copyright (c) 2010 - 2021 Swedish translation group.
 *
 *
-* This program is distributed in the hope that it will be useful,
-* but WITHOUT ANY WARRANTY; without even the implied warranty of
-* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
-* GNU General Public License for more details.
+* For more information about the language pack, please visit
+* http://phpbb.se/forum/viewforum.php?f=49
 *
 *
-* @package      phpBB Sweden
-* @author       Simon Assgård <sassgard@gmail.com> (Sinom) http://www.phpbb.se/
-* @copyright    phpBB Sweden
-* @license      @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
+* @package		phpBB Sweden
+* @author		Simon Assgård <sassgard@gmail.com> (Sinom) <http://www.phpbb.se/>
+* @copyright 	(c) phpBB Limited <https://www.phpbb.com/> & phpBB Sweden <http://www.phpbb.se/>
+* @license		GNU General Public License, version 3 (GPL-3.0)
 *
 */
 
@@ -23,7 +21,7 @@
 */
 if (!defined('IN_PHPBB'))
 {
-   exit;
+	exit;
 }
 
 if (empty($lang) || !is_array($lang))
@@ -59,7 +57,6 @@ $lang = array_merge($lang, array(
 	'BANNED_UNTIL_DATE'		=> 'till och med %s', // Example: "until Mon 13.Jul.2009, 14:44"
 	'BANNED_UNTIL_DURATION'	=> '%1$s (till och med %2$s)', // Example: "7 days (until Tue 14.Jul.2009, 14:44)"
 
-
 	'EMAIL_BAN'					=> 'Bannlys en eller flera e-postadresser',
 	'EMAIL_BAN_EXCLUDE_EXPLAIN'	=> 'Aktivera detta för att undanta den angivna e-postadressen från alla nuvarande bannlysningar.',
 	'EMAIL_BAN_EXPLAIN'			=> 'För att ange fler än en e-postadress, ange varje e-postadress på en ny rad. För att matcha partiella adresser använd * som jokertecken, t.ex. <samp>*@hotmail.com</samp>, <samp>*@*.domain.tld</samp>, osv.',
@@ -75,18 +72,18 @@ $lang = array_merge($lang, array(
 	'IP_UNBAN'					=> 'Häv bannlysta eller undantagna IP-adresser',
 	'IP_UNBAN_EXPLAIN'			=> 'Du kan häva flera bannlysta (eller undantagna) e-postadresser på samma gång genom att använda den rätta kombinationen av mus och tangentbord för din dator och webbläsare. Undantagna IP-adresser är betonade.',
 
- 	'LENGTH_BAN_INVALID'		=> 'Datumet måste vara i formatet <kbd>ÅÅÅÅ-MM-DD</kbd>.',
-	
+	'LENGTH_BAN_INVALID'		=> 'Datumet måste vara i formatet <kbd>ÅÅÅÅ-MM-DD</kbd>.',
+
 	'OPTIONS_BANNED'			=> 'Bannade',
 	'OPTIONS_EXCLUDED'			=> 'Undantagna',
- 
+
 	'PERMANENT'		=> 'Permanent',
-	
+
 	'UNTIL'						=> 'Tills',
 	'USER_BAN'					=> 'Bannlys en eller flera användare med användarnamnen',
 	'USER_BAN_EXCLUDE_EXPLAIN'	=> 'Aktivera detta för att undanta den angivna användaren från alla nuvarande bannlysningar.',
 	'USER_BAN_EXPLAIN'			=> 'Du kan bannlysa flera användare på samma gång genom att skriva in varje namn på en ny rad. Använd <span style="text-decoration: underline;">Hitta en medlem</span>-funktionen för att söka efter och lägga till en eller flera användare automatiskt.',
 	'USER_NO_BANNED'			=> 'Inga bannlysta användare',
 	'USER_UNBAN'				=> 'Häv bannlysta eller undantagna användare med användarnamnen',
-	'USER_UNBAN_EXPLAIN'		=> 'Du kan häva flera bannlysta (eller undantagna) användare på samma gång genom att använda den rätta kombinationen av mus och tangentbord för din dator och webbläsare. Undantagna användare är betonade.',	
+	'USER_UNBAN_EXPLAIN'		=> 'Du kan häva flera bannlysta (eller undantagna) användare på samma gång genom att använda den rätta kombinationen av mus och tangentbord för din dator och webbläsare. Undantagna användare är betonade.',
 ));

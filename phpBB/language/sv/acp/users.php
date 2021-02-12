@@ -2,19 +2,17 @@
 /**
 *
 * This file is part of Swedish phpBB translation.
-* Copyright (c) 2010 - 2014 Swedish translation group.
+* Copyright (c) 2010 - 2021 Swedish translation group.
 *
 *
-* This program is distributed in the hope that it will be useful,
-* but WITHOUT ANY WARRANTY; without even the implied warranty of
-* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
-* GNU General Public License for more details.
+* For more information about the language pack, please visit
+* http://phpbb.se/forum/viewforum.php?f=49
 *
 *
-* @package      phpBB Sweden
-* @author       Simon Assgård <sassgard@gmail.com> (Sinom) http://www.phpbb.se/
-* @copyright    phpBB Sweden
-* @license      @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
+* @package		phpBB Sweden
+* @author		Simon Assgård <sassgard@gmail.com> (Sinom) <http://www.phpbb.se/>
+* @copyright 	(c) phpBB Limited <https://www.phpbb.com/> & phpBB Sweden <http://www.phpbb.se/>
+* @license		GNU General Public License, version 3 (GPL-3.0)
 *
 */
 
@@ -23,7 +21,7 @@
 */
 if (!defined('IN_PHPBB'))
 {
-   exit;
+	exit;
 }
 
 if (empty($lang) || !is_array($lang))
@@ -47,10 +45,10 @@ $lang = array_merge($lang, array(
 	'ADMIN_SIG_PREVIEW'		=> 'Förhandsvisning av signatur',
 	'AT_LEAST_ONE_FOUNDER'	=> 'Du kan inte ändra denna grundare till normal användare. Det måste finnas minst en grundare aktiverad för detta forum. Om du vill ändra denna användares status, gör en annan användare till grundare först.',
 
- 	'BAN_ALREADY_ENTERED'	=> 'Bannlysningen hade redan införts sen tidigare. Bannlysningslistan uppdaterades inte.',
+	'BAN_ALREADY_ENTERED'	=> 'Bannlysningen hade redan införts sen tidigare. Bannlysningslistan uppdaterades inte.',
 	'BAN_SUCCESSFUL'		=> 'Bannlysningen infördes.',
-	'CANNOT_BAN_ANONYMOUS'	=> 'Du kan inte bannlysa det anonyma kontot. Behörigheter för anonyma användare kan ställas in under behörighetsfliken.',
 
+	'CANNOT_BAN_ANONYMOUS'			=> 'Du kan inte bannlysa det anonyma kontot. Behörigheter för anonyma användare kan ställas in under behörighetsfliken.',
 	'CANNOT_BAN_FOUNDER'			=> 'Du kan inte bannlysa grundare.',
 	'CANNOT_BAN_YOURSELF'			=> 'Du kan inte bannlysa dig själv.',
 	'CANNOT_DEACTIVATE_BOT'			=> 'Du kan inte inaktivera robotkonton. Inaktivera roboten på robotsidan istället.',
@@ -62,7 +60,7 @@ $lang = array_merge($lang, array(
 	'CANNOT_REMOVE_ANONYMOUS'		=> 'Du kan inte ta bort gästkontot.',
 	'CANNOT_REMOVE_FOUNDER'			=> 'Du har inte behörighet att ta bort grundarkonton.',
 	'CANNOT_REMOVE_YOURSELF'		=> 'Du kan inte ta bort ditt eget konto.',
-	'CANNOT_SET_FOUNDER_IGNORED'		=> 'Du kan inte göra ignorerade användare till grundare.',
+	'CANNOT_SET_FOUNDER_IGNORED'	=> 'Du kan inte göra ignorerade användare till grundare.',
 	'CANNOT_SET_FOUNDER_INACTIVE'	=> 'Du måste aktivera användarna innan du kan göra de till grundare, endast aktiverade användare kan befordras.',
 	'CONFIRM_EMAIL_EXPLAIN'			=> 'Du behöver endast ange detta om du byter användarens e-postadress.',
 

@@ -2,19 +2,17 @@
 /**
 *
 * This file is part of Swedish phpBB translation.
-* Copyright (c) 2010 - 2014 Swedish translation group.
+* Copyright (c) 2010 - 2021 Swedish translation group.
 *
 *
-* This program is distributed in the hope that it will be useful,
-* but WITHOUT ANY WARRANTY; without even the implied warranty of
-* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
-* GNU General Public License for more details.
+* For more information about the language pack, please visit
+* http://phpbb.se/forum/viewforum.php?f=49
 *
 *
-* @package      phpBB Sweden
-* @author       Simon Assgård <sassgard@gmail.com> (Sinom) http://www.phpbb.se/
-* @copyright    phpBB Sweden
-* @license      @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
+* @package		phpBB Sweden
+* @author		Simon Assgård <sassgard@gmail.com> (Sinom) <http://www.phpbb.se/>
+* @copyright 	(c) phpBB Limited <https://www.phpbb.com/> & phpBB Sweden <http://www.phpbb.se/>
+* @license		GNU General Public License, version 3 (GPL-3.0)
 *
 */
 
@@ -23,7 +21,7 @@
 */
 if (!defined('IN_PHPBB'))
 {
-   exit;
+	exit;
 }
 
 if (empty($lang) || !is_array($lang))
@@ -50,16 +48,17 @@ $lang = array_merge($lang, array(
 
 	'BACKUP_DELETE'		=> 'Säkerhetskopian togs bort.',
 	'BACKUP_INVALID'	=> 'Den valda säkerhetskopian är ogiltig.',
+	'BACKUP_NOT_SUPPORTED'=> 'Den valda backupfilen är stöds inte',
 	'BACKUP_OPTIONS'	=> 'Säkerhetskopieringsalternativ',
 	'BACKUP_SUCCESS'	=> 'Säkerhetskopian skapades.',
 	'BACKUP_TYPE'		=> 'Typ av säkerhetskopiering',
 
-	'DATABASE'					=> 'Databasverktyg',
-	'DATA_ONLY'					=> 'Endast data',
-	'DELETE_BACKUP'				=> 'Ta bort säkerhetskopia',
- 	'DELETE_SELECTED_BACKUP'	=> 'Är du säker på att du vill ta bort den valda säkerhetskopian?',
-	'DESELECT_ALL'				=> 'Avmarkera alla',
-	'DOWNLOAD_BACKUP'			=> 'Ladda ner säkerhetskopia',
+	'DATABASE'			=> 'Databasverktyg',
+	'DATA_ONLY'			=> 'Endast data',
+	'DELETE_BACKUP'		=> 'Ta bort säkerhetskopia',
+	'DELETE_SELECTED_BACKUP'	=> 'Är du säker på att du vill ta bort den valda säkerhetskopian?',
+	'DESELECT_ALL'		=> 'Avmarkera alla',
+	'DOWNLOAD_BACKUP'	=> 'Ladda ner säkerhetskopia',
 
 	'FILE_TYPE'			=> 'Filtyp',
 	'FILE_WRITE_FAIL'	=> 'Kan inte skriva till katalogen store/.',
@@ -67,11 +66,10 @@ $lang = array_merge($lang, array(
 
 	'RESTORE_FAILURE'		=> 'Säkerhetskopian kan vara korrupt.',
 	'RESTORE_OPTIONS'		=> 'Återställningsalternativ',
-	'RESTORE_SUCCESS'		=> 'Databasen återställdes.<br /><br />Ditt forum bör nu vara återställt till det skick som det var i innan säkerhetskopieringen gjordes.',
 	'RESTORE_SELECTED_BACKUP'	=> 'Är du säker på att du vill återställa vald backup?',
+	'RESTORE_SUCCESS'		=> 'Databasen återställdes.<br /><br />Ditt forum bör nu vara återställt till det skick som det var i innan säkerhetskopieringen gjordes.',
 
-
- 	'SELECT_ALL'			=> 'Välj alla',
+	'SELECT_ALL'			=> 'Välj alla',
 	'SELECT_FILE'			=> 'Välj en fil',
 	'START_BACKUP'			=> 'Starta säkerhetskopieringen',
 	'START_RESTORE'			=> 'Starta återställningen',

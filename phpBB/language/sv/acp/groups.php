@@ -2,19 +2,17 @@
 /**
 *
 * This file is part of Swedish phpBB translation.
-* Copyright (c) 2010 - 2014 Swedish translation group.
+* Copyright (c) 2010 - 2021 Swedish translation group.
 *
 *
-* This program is distributed in the hope that it will be useful,
-* but WITHOUT ANY WARRANTY; without even the implied warranty of
-* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
-* GNU General Public License for more details.
+* For more information about the language pack, please visit
+* http://phpbb.se/forum/viewforum.php?f=49
 *
 *
-* @package      phpBB Sweden
-* @author       Simon Assgård <sassgard@gmail.com> (Sinom) http://www.phpbb.se/
-* @copyright    phpBB Sweden
-* @license      @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
+* @package		phpBB Sweden
+* @author		Simon Assgård <sassgard@gmail.com> (Sinom) <http://www.phpbb.se/>
+* @copyright 	(c) phpBB Limited <https://www.phpbb.com/> & phpBB Sweden <http://www.phpbb.se/>
+* @license		GNU General Public License, version 3 (GPL-3.0)
 *
 */
 
@@ -23,7 +21,7 @@
 */
 if (!defined('IN_PHPBB'))
 {
-   exit;
+	exit;
 }
 
 if (empty($lang) || !is_array($lang))
@@ -55,6 +53,7 @@ $lang = array_merge($lang, array(
 
 	'GROUPS_NO_MEMBERS'				=> 'Denna grupp har inga medlemmar',
 	'GROUPS_NO_MODS'				=> 'Inga gruppledare utsedda',
+
 	'GROUP_APPROVE'					=> 'Godkänn medlem',
 	'GROUP_APPROVED'				=> 'Godkända medlemmar',
 	'GROUP_AVATAR'					=> 'Gruppvisningsbild',
@@ -63,9 +62,9 @@ $lang = array_merge($lang, array(
 	'GROUP_CLOSED'					=> 'Stängd',
 	'GROUP_COLOR'					=> 'Gruppfärg',
 	'GROUP_COLOR_EXPLAIN'			=> 'Definerar färgen vars medlemmars namn visas i, lämna orörd för standard.',
-	'GROUP_CONFIRM_ADD_USERS'		=> array(
-		1	=> 'Är du säker på att du vill lägga till användare %2$s till gruppen?',
-		2	=> 'Är du säker på att du vill lägga till användarna %2$s till gruppen?',
+	'GROUP_CONFIRM_ADD_USERS'	=>	array(
+		1	=>			'Är du säker på att du vill lägga till användare %2$s till gruppen?',
+		2	=>			'Är du säker på att du vill lägga till användarna %2$s till gruppen?',
 	),
 	'GROUP_CREATED'					=> 'Gruppen skapades.',
 	'GROUP_DEFAULT'					=> 'Gör till standardgrupp för medlem',
@@ -83,7 +82,7 @@ $lang = array_merge($lang, array(
 	'GROUP_LANG'					=> 'Gruppspråk',
 	'GROUP_LEAD'					=> 'Gruppledare',
 	'GROUP_LEADERS_ADDED'			=> 'Nya ledare lades till i gruppen.',
-	'GROUP_LEGEND'			=> 'Visa gruppen i förklaringen på indexsidan',
+	'GROUP_LEGEND'					=> 'Visa gruppen i förklaringen på indexsidan',
 	'GROUP_LIST'					=> 'Nuvarande medlemmar',
 	'GROUP_LIST_EXPLAIN'			=> 'Detta är en fullständig lista över alla nuvarande medlemmar i denna grupp. Du kan ta bort medlemmar (förutom i vissa specialgrupper) eller lägga till nya.',
 	'GROUP_MEMBERS'					=> 'Gruppmedlemmar',
@@ -94,7 +93,7 @@ $lang = array_merge($lang, array(
 	'GROUP_MODS_DEMOTED'			=> 'Gruppledarna avsades ledarskap.',
 	'GROUP_MODS_PROMOTED'			=> 'Gruppmedlemmarna befordrades.',
 	'GROUP_NAME'					=> 'Gruppnamn',
- 	'GROUP_NAME_TAKEN'				=> 'Gruppnamnet som du valde används redan, välj ett annat alternativ.',
+	'GROUP_NAME_TAKEN'				=> 'Gruppnamnet som du valde används redan, välj ett annat alternativ.',
 	'GROUP_OPEN'					=> 'Öppen',
 	'GROUP_PENDING'					=> 'Väntande medlemmar',
 	'GROUP_MAX_RECIPIENTS'			=> 'Maximalt antal tillåtna mottagare per privat meddelande',
@@ -113,9 +112,11 @@ $lang = array_merge($lang, array(
 	'GROUP_TYPE'					=> 'Grupptyp',
 	'GROUP_TYPE_EXPLAIN'			=> 'Detta avgör vilka användare som kan gå med i eller visa denna grupp.',
 	'GROUP_UPDATED'					=> 'Gruppinställningarna uppdaterades.',
+
 	'GROUP_USERS_ADDED'				=> 'Nya användare lades till i gruppen.',
 	'GROUP_USERS_EXIST'				=> 'De valda användarna är redan medlemmar.',
 	'GROUP_USERS_REMOVE'			=> 'Användarna togs bort från gruppen och nya standarder ställdes in.',
+	'GROUP_USERS_INVALID'			=> 'Inga användare blev tillagda till gruppen då följande användarnamn inte existerar: %s',
 	'LEGEND_EXPLAIN'				=> 'Följande grupper visas i grupplegenden:',
 	'LEGEND_SETTINGS'				=> 'Legendstatistik',
 	'LEGEND_SORT_GROUPNAME'			=> 'Sortera legend efter gruppnamn',
@@ -123,7 +124,6 @@ $lang = array_merge($lang, array(
 
 	'MANAGE_LEGEND'			=> 'Hantera grupplegend',
 	'MANAGE_TEAMPAGE'		=> 'Hantera teamsidan',
-
 	'MAKE_DEFAULT_FOR_ALL'	=> 'Gör till standardgrupp för alla medlemmar',
 	'MEMBERS'				=> 'Medlemmar',
 
@@ -134,10 +134,13 @@ $lang = array_merge($lang, array(
 	'NO_USERS'					=> 'Du angav inga användare.',
 	'NO_USERS_ADDED'			=> 'Inga användare lades till gruppen.',
 	'NO_VALID_USERS'			=> 'Du har inte angett några användare som det går att utföra den handlingen på.',
-	'SELECT_GROUP'				=> 'Välj en grupp',
 
+	'PENDING_MEMBERS'			=> 'Väntande',
+
+	'SELECT_GROUP'				=> 'Välj en grupp',
 	'SPECIAL_GROUPS'			=> 'Fördefinierade grupper',
 	'SPECIAL_GROUPS_EXPLAIN'	=> 'Fördefinierade grupper är speciella grupper, de kan inte tas bort eller ändras direkt. Du kan dock fortfarande lägga till användare och ändra grundläggande inställningar.',
+
 	'TEAMPAGE'					=> 'Teamsidan',
 	'TEAMPAGE_DISP_ALL'			=> 'Alla medlemskap',
 	'TEAMPAGE_DISP_DEFAULT'		=> 'Användarens standardgrupp',
@@ -147,7 +150,6 @@ $lang = array_merge($lang, array(
 	'TEAMPAGE_FORUMS_EXPLAIN'	=> 'Om vald till ja, så kommer moderatorerna ha en lista med alla forum där moderatorernas behörigheter visas i deras rad. Detta kan vara väldigt jobbigt för databaser.',
 	'TEAMPAGE_MEMBERSHIPS'		=> 'Visa gruppmedlemskap',
 	'TEAMPAGE_SETTINGS'			=> 'Teamsideinställningar',
-
 	'TOTAL_MEMBERS'				=> 'Medlemmar',
 
 	'USERS_APPROVED'				=> 'Användarna godkändes.',
