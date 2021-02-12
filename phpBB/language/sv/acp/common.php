@@ -443,7 +443,7 @@ $lang = array_merge($lang, array(
 	'USERS_PER_DAY'		=> 'Användare per dag',
 
 	'VALUE'						=> 'Värde',
-	'VERSIONCHECK_FAIL'			=> 'Kunde inte hämta information omn senaste version.',
+	'VERSIONCHECK_FAIL'			=> 'Kunde inte hämta information om senaste version.',
 	'VERSIONCHECK_FORCE_UPDATE'	=> 'Kontrollera version igen',
 	'VERSION_CHECK'				=> 'Versionskontroll', 
 	'VERSION_CHECK_EXPLAIN'		=> 'Kontrollerar om din phpBB-installation är aktuell.', 
