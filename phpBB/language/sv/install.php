@@ -93,19 +93,19 @@ $lang = array_merge($lang, array(
 // Requirements translation
 $lang = array_merge($lang, array(
 	// Filesystem requirements
-	'FILE_NOT_EXISTS'						=> 'File does not exist', /*ÄNNU_EJ_ÖVERSATT*/
-	'FILE_NOT_EXISTS_EXPLAIN'				=> 'To be able to install phpBB the %1$s file needs to exist.', /*ÄNNU_EJ_ÖVERSATT*/
-	'FILE_NOT_EXISTS_EXPLAIN_OPTIONAL'		=> 'It is recommended that the %1$s file exist for a better forum user experience.', /*ÄNNU_EJ_ÖVERSATT*/
-	'FILE_NOT_WRITABLE'						=> 'File is not writable', /*ÄNNU_EJ_ÖVERSATT*/
-	'FILE_NOT_WRITABLE_EXPLAIN'				=> 'To be able to install phpBB the %1$s file needs to be writable.', /*ÄNNU_EJ_ÖVERSATT*/
-	'FILE_NOT_WRITABLE_EXPLAIN_OPTIONAL'	=> 'It is recommended that the %1$s file be writable for a better forum user experience.', /*ÄNNU_EJ_ÖVERSATT*/
+	'FILE_NOT_EXISTS'						=> 'Filen finns ej',
+	'FILE_NOT_EXISTS_EXPLAIN'				=> 'Filen %1$s måste finnas för att phpBB ska kunna installeras.',
+	'FILE_NOT_EXISTS_EXPLAIN_OPTIONAL'		=> 'Filen %1$s bör finnas för en bättre användarupplevelse.',
+	'FILE_NOT_WRITABLE'						=> 'Det går ej att skriva till filen',
+	'FILE_NOT_WRITABLE_EXPLAIN'				=> 'Det måste gå att skriva till filen %1$s för att phpBB ska kunna installeras.',
+	'FILE_NOT_WRITABLE_EXPLAIN_OPTIONAL'	=> 'Det måste gå att skriva till filen %1$s för en bättre användarupplevelse.',
 
-	'DIRECTORY_NOT_EXISTS'						=> 'Directory does not exist', /*ÄNNU_EJ_ÖVERSATT*/
-	'DIRECTORY_NOT_EXISTS_EXPLAIN'				=> 'To be able to install phpBB the %1$s directory needs to exist.', /*ÄNNU_EJ_ÖVERSATT*/
-	'DIRECTORY_NOT_EXISTS_EXPLAIN_OPTIONAL'		=> 'It is recommended that the %1$s directory exist for a better forum user experience.', /*ÄNNU_EJ_ÖVERSATT*/
-	'DIRECTORY_NOT_WRITABLE'					=> 'Directory is not writable', /*ÄNNU_EJ_ÖVERSATT*/
-	'DIRECTORY_NOT_WRITABLE_EXPLAIN'			=> 'To be able to install phpBB the %1$s directory needs to be writable.', /*ÄNNU_EJ_ÖVERSATT*/
-	'DIRECTORY_NOT_WRITABLE_EXPLAIN_OPTIONAL'	=> 'It is recommended that the %1$s directory be writable for a better forum user experience.', /*ÄNNU_EJ_ÖVERSATT*/
+	'DIRECTORY_NOT_EXISTS'						=> 'Katalogen finns ej',
+	'DIRECTORY_NOT_EXISTS_EXPLAIN'				=> 'Katalogen %1$s måste finnas för att phpBB ska kunna installeras.',
+	'DIRECTORY_NOT_EXISTS_EXPLAIN_OPTIONAL'		=> 'Katalogen %1$s bör finnas för en bättre användarupplevelse.',
+	'DIRECTORY_NOT_WRITABLE'					=> 'Det går ej att skriva till katalogen',
+	'DIRECTORY_NOT_WRITABLE_EXPLAIN'			=> 'Det måste gå att skriva till katalogen %1$s för att phpBB ska kunna installeras.',
+	'DIRECTORY_NOT_WRITABLE_EXPLAIN_OPTIONAL'	=> 'Det måste gå att skriva till katalogen %1$s för en bättre användarupplevelse.',
 
 	// Server requirements
 	'PHP_VERSION_REQD'					=> 'PHP-version >= 5.3.3',
@@ -118,12 +118,12 @@ $lang = array_merge($lang, array(
 	'PHP_JSON_SUPPORT_EXPLAIN'			=> '<strong>Obligatorisk</strong> - För att phpBB skall fungera korrekt, så måste PHP JSON vara tillgänglig.',
 	'PHP_MBSTRING_SUPPORT'				=> 'PHP mbstring support',
 	'PHP_MBSTRING_SUPPORT_EXPLAIN'		=> 'För att phpBB ska fungera korrekt måste PHP mbstring-tillägget vara tillgängligt.',	
-	'PHP_XML_SUPPORT'					=> 'PHP XML/DOM support', /*ÄNNU_EJ_ÖVERSATT*/
-	'PHP_XML_SUPPORT_EXPLAIN'			=> 'In order for phpBB to function correctly, the PHP XML/DOM extension needs to be available.', /*ÄNNU_EJ_ÖVERSATT*/
+	'PHP_XML_SUPPORT'					=> 'Stöd för PHP XML/DOM',
+	'PHP_XML_SUPPORT_EXPLAIN'			=> 'För att phpBB ska fungera som det ska så måste stöd för PHP XML/DOM finnas.',
 	'PHP_SUPPORTED_DB'					=> 'Databaser som stöds',
 	'PHP_SUPPORTED_DB_EXPLAIN'			=> '<strong>Obligatoriskt</strong> - Du måste ha stöd för minst en kompatibel databas inom PHP. Om inga databasmoduler visas som tillgängliga bör du kontakta ditt webbhotell eller granska det relevanta PHP-installationsdokumentet för hjälp.',
 
-	'RETEST_REQUIREMENTS'	=> 'Retest requirements', /*ÄNNU_EJ_ÖVERSATT*/
+	'RETEST_REQUIREMENTS'	=> 'Testa systemkraven igen',
 
 	'STAGE_REQUIREMENTS'	=> 'Systemkrav'
 ));
@@ -132,8 +132,8 @@ $lang = array_merge($lang, array(
 $lang = array_merge($lang, array(
 	'INST_ERR_MISSING_DATA'		=> 'Du måste fylla i alla fält i detta block.',
 
-	'TIMEOUT_DETECTED_TITLE'	=> 'The installer detected a timeout', /*ÄNNU_EJ_ÖVERSATT*/
-	'TIMEOUT_DETECTED_MESSAGE'	=> 'The installer has detected a timeout, you may try to refresh the page, which may lead to data corruption. We suggest that you either increase your timeout settings or try to use the CLI.', /*ÄNNU_EJ_ÖVERSATT*/
+	'TIMEOUT_DETECTED_TITLE'	=> 'Installationsrutinen upptäckte en tidsöverskridelse',
+	'TIMEOUT_DETECTED_MESSAGE'	=> 'Installationsrutinen upptäckte en tidsöverskridelse, du kan ladda om sidan, vilket kan leda till korrumperad data. Vi rekommenderar att du antingen höjer serverns inställningar för tidsöverskridelser eller försöker använda CLI.',
 ));
 
 // Data obtaining translations
@@ -185,7 +185,7 @@ $lang = array_merge($lang, array(
 	'DB_PASSWORD'			=> 'Databaslösenord',
 	'DB_NAME'				=> 'Databasnamn',
 	'DB_USERNAME'			=> 'Databasanvändarnamn',
-	'DATABASE_VERSION'		=> 'Database version', /*ÄNNU_EJ_ÖVERSATT*/
+	'DATABASE_VERSION'		=> 'Databasversion',
 	'TABLE_PREFIX'			=> 'Prefix för tabeller i databasen',
 	'TABLE_PREFIX_EXPLAIN'	=> 'Prefixet får bara innehåll alfanumeriskt tecken (a-z + A-Z + 0-9) och understreck (_). Det bör inte börja med ett understreck.',
 
@@ -212,20 +212,20 @@ $lang = array_merge($lang, array(
 	'INST_ERR_DB_NO_SQLITE3'		=> 'Versionen av SQLite tillägget som du har installerad är för gammal, den måste uppgraderas till minst 3.6.15.',
 	'INST_ERR_DB_NO_ORACLE'			=> 'Versionen av Oracle som är installerad på denna maskin kräver att du ställer in <var>NLS_CHARACTERSET</var>-parametern till <var>UTF8</var>. Uppgradera din installation till 9.2eller ändra parametern.',
 	'INST_ERR_DB_NO_POSTGRES'		=> 'Databasen du har valt skapades inte med <var>UNICODE</var> eller <var>UTF8</var> kodning. Försök installera med en databas med <var>UNICODE</var> eller <var>UTF8</var> kodning.',
-	'INST_SCHEMA_FILE_NOT_WRITABLE'	=> 'The schema file is not writable', /*ÄNNU_EJ_ÖVERSATT*/
+	'INST_SCHEMA_FILE_NOT_WRITABLE'	=> 'Kan ej skriva till schemafilen',
 
 	//
 	// Email data
 	//
-	'EMAIL_CONFIG'	=> 'E-mail configuration', /*ÄNNU_EJ_ÖVERSATT*/
+	'EMAIL_CONFIG'	=> 'E-postinställningar',
 
 	// Package info
-	'PACKAGE_VERSION'					=> 'Package version installed', /*ÄNNU_EJ_ÖVERSATT*/
-	'UPDATE_INCOMPLETE'				=> 'Your phpBB installation has not been correctly updated.', /*ÄNNU_EJ_ÖVERSATT*/
-	'UPDATE_INCOMPLETE_MORE'		=> 'Please read the information below in order to fix this error.', /*ÄNNU_EJ_ÖVERSATT*/
-	'UPDATE_INCOMPLETE_EXPLAIN'		=> '<h1>Incomplete update</h1>
+	'PACKAGE_VERSION'					=> 'Installerad paketversion',
+	'UPDATE_INCOMPLETE'				=> 'Din installation av phpBB har ej uppdaterats fullständigt.',
+	'UPDATE_INCOMPLETE_MORE'		=> 'Läs informationen nedan för att lösa felet.',
+	'UPDATE_INCOMPLETE_EXPLAIN'		=> '<h1>Ofullständig uppdatering</h1>
 
-		<p>We noticed that the last update of your phpBB installation hasn’t been completed. Visit the <a href="%1$s" title="%1$s">database updater</a>, ensure <em>Update database only</em> is selected and click on <strong>Submit</strong>. Don\'t forget to delete the "install"-directory after you have updated the database successfully.</p>', /*ÄNNU_EJ_ÖVERSATT*/
+		<p>Vi har registrerat att den senaste uppdateringen av din phpBB-installation ej har utförts fullständigt. Går till <a href="%1$s" title="%1$s">databasuppdateringen</a>, välj <em>Uppdatera endast databasen</em> och klicka på <strong>Skicka</strong>. Glöm ej att radera katalogen "install" efter utförd uppdatering av databasen.</p>',
 
 	//
 	// Server data
@@ -304,14 +304,14 @@ $lang = array_merge($lang, array(
 	'TASK_CREATE_TABLES'				=> 'Skapar tabeller',
 
 	// Install data
-	'TASK_ADD_BOTS'			=> 'Registering bots', /*ÄNNU_EJ_ÖVERSATT*/
-	'TASK_ADD_LANGUAGES'	=> 'Installing available languages', /*ÄNNU_EJ_ÖVERSATT*/
-	'TASK_ADD_MODULES'		=> 'Installing modules', /*ÄNNU_EJ_ÖVERSATT*/
+	'TASK_ADD_BOTS'			=> 'Registerar bots',
+	'TASK_ADD_LANGUAGES'	=> 'Installerar tillgängliga språk',
+	'TASK_ADD_MODULES'		=> 'Installerar moduler',
 
 	// Install finish tasks
-	'TASK_INSTALL_EXTENSIONS'	=> 'Installing packaged extensions', /*ÄNNU_EJ_ÖVERSATT*/
-	'TASK_NOTIFY_USER'			=> 'Sending notification e-mail', /*ÄNNU_EJ_ÖVERSATT*/
-	'TASK_POPULATE_MIGRATIONS'	=> 'Populating migrations', /*ÄNNU_EJ_ÖVERSATT*/
+	'TASK_INSTALL_EXTENSIONS'	=> 'Installerar paketerade tillägg',
+	'TASK_NOTIFY_USER'			=> 'Skickar meddelanden',
+	'TASK_POPULATE_MIGRATIONS'	=> 'Fyller migreringar',
 
 	// Installer general progress messages
 	'INSTALLER_FINISHED'	=> 'Installationen har slutförts',
@@ -319,32 +319,32 @@ $lang = array_merge($lang, array(
 
 // Installer's general messages
 $lang = array_merge($lang, array(
-	'MODULE_NOT_FOUND'				=> 'Module not found', /*ÄNNU_EJ_ÖVERSATT*/
-	'MODULE_NOT_FOUND_DESCRIPTION'	=> 'A module could not be found because the service, %s, is undefined.', /*ÄNNU_EJ_ÖVERSATT*/
+	'MODULE_NOT_FOUND'				=> 'Modul kunde ej hittas',
+	'MODULE_NOT_FOUND_DESCRIPTION'	=> 'En modul kunde ej hittas eftersom servicen, %s, är odefinerad.',
 
-	'TASK_NOT_FOUND'				=> 'Task not found', /*ÄNNU_EJ_ÖVERSATT*/
-	'TASK_NOT_FOUND_DESCRIPTION'	=> 'A task could not be found because the service, %s, is undefined.', /*ÄNNU_EJ_ÖVERSATT*/
+	'TASK_NOT_FOUND'				=> 'Aktivitet kunde ej hittas',
+	'TASK_NOT_FOUND_DESCRIPTION'	=> 'En aktivitet kunde ej hittas eftersom servicen, %s, är odefinerad.',
 
-	'SKIP_MODULE'	=> 'Skip “%s” module', /*ÄNNU_EJ_ÖVERSATT*/
-	'SKIP_TASK'		=> 'Skip “%s” task', /*ÄNNU_EJ_ÖVERSATT*/
+	'SKIP_MODULE'	=> 'Hoppa över modul “%s”',
+	'SKIP_TASK'		=> 'Hoppa över aktivitet “%s”',
 
-	'TASK_SERVICE_INSTALLER_MISSING'	=> 'All installer task services should start with “installer”', /*ÄNNU_EJ_ÖVERSATT*/
-	'TASK_CLASS_NOT_FOUND'				=> 'Installer task service definition is invalid. Service name “%1$s” given, the expected class namespace is “%2$s” for that. For more information please see the documentation of task_interface.', /*ÄNNU_EJ_ÖVERSATT*/
+	'TASK_SERVICE_INSTALLER_MISSING'	=> 'Alla installationsaktiviteters service bör börja med “installer”',
+	'TASK_CLASS_NOT_FOUND'				=> 'Installationsaktiviteters servicedefinition är ogiltig. Servicebenämningen är “%1$s”, förväntad class-namnrymd är “%2$s”. Mer information finns i dokumentationen för task_interface.',
 
-	'INSTALLER_CONFIG_NOT_WRITABLE'	=> 'The installer config file is not writable.', /*ÄNNU_EJ_ÖVERSATT*/
+	'INSTALLER_CONFIG_NOT_WRITABLE'	=> 'Kan ej skriva till installationsrutinens konfigureringsfil.',
 ));
 
 // CLI messages
 $lang = array_merge($lang, array(
-	'CLI_INSTALL_BOARD'				=> 'Install phpBB', /*ÄNNU_EJ_ÖVERSATT*/
-	'CLI_UPDATE_BOARD'				=> 'Update phpBB', /*ÄNNU_EJ_ÖVERSATT*/
-	'CLI_INSTALL_SHOW_CONFIG'		=> 'Show the configuration which will be used', /*ÄNNU_EJ_ÖVERSATT*/
-	'CLI_INSTALL_VALIDATE_CONFIG'	=> 'Validate a configuration file', /*ÄNNU_EJ_ÖVERSATT*/
-	'CLI_CONFIG_FILE'				=> 'Config file to use', /*ÄNNU_EJ_ÖVERSATT*/
-	'MISSING_FILE'					=> 'Unable to access file %1$s', /*ÄNNU_EJ_ÖVERSATT*/
-	'MISSING_DATA'					=> 'Config file is missing data or might contain invalid settings.', /*ÄNNU_EJ_ÖVERSATT*/
-	'INVALID_YAML_FILE'				=> 'Could not parse YAML file %1$s', /*ÄNNU_EJ_ÖVERSATT*/
-	'CONFIGURATION_VALID'			=> 'The configuration file is valid', /*ÄNNU_EJ_ÖVERSATT*/
+	'CLI_INSTALL_BOARD'				=> 'Installera phpBB',
+	'CLI_UPDATE_BOARD'				=> 'Uppdatera phpBB',
+	'CLI_INSTALL_SHOW_CONFIG'		=> 'Visa konfigureringen som kommer att användas',
+	'CLI_INSTALL_VALIDATE_CONFIG'	=> 'Validera konfigureringsfilen',
+	'CLI_CONFIG_FILE'				=> 'Konfigureringsfil som skall användas',
+	'MISSING_FILE'					=> 'Kan ej öppna filen %1$s',
+	'MISSING_DATA'					=> 'Konfigureringsfilen saknar data eller innehåller eventuellt ogiltiga inställningar.',
+	'INVALID_YAML_FILE'				=> 'Kunde ej parsa YAML-filen %1$s',
+	'CONFIGURATION_VALID'			=> 'Konfigureringsfilen är ogiltig',
 ));
 
 // Common updater messages
@@ -373,18 +373,18 @@ $lang = array_merge($lang, array(
 // Updater forms
 $lang = array_merge($lang, array(
 	// Updater types
-	'UPDATE_TYPE'			=> 'Type of update to run', /*ÄNNU_EJ_ÖVERSATT*/
+	'UPDATE_TYPE'			=> 'Typ av uppdatering som skall utföras',
 
-	'UPDATE_TYPE_ALL'		=> 'Update filesystem and database', /*ÄNNU_EJ_ÖVERSATT*/
-	'UPDATE_TYPE_DB_ONLY'	=> 'Update database only', /*ÄNNU_EJ_ÖVERSATT*/
+	'UPDATE_TYPE_ALL'		=> 'Uppdatera filsystem och databas',
+	'UPDATE_TYPE_DB_ONLY'	=> 'Uppdatera endast databasen',
 
 	// File updater methods
-	'UPDATE_FILE_METHOD_TITLE'		=> 'File updater methods', /*ÄNNU_EJ_ÖVERSATT*/
+	'UPDATE_FILE_METHOD_TITLE'		=> 'Metod för uppdatering av filer',
 
-	'UPDATE_FILE_METHOD'			=> 'File updater method', /*ÄNNU_EJ_ÖVERSATT*/
-	'UPDATE_FILE_METHOD_DOWNLOAD'	=> 'Download modified files in an archive', /*ÄNNU_EJ_ÖVERSATT*/
-	'UPDATE_FILE_METHOD_FTP'		=> 'Update files via FTP (Automatic)', /*ÄNNU_EJ_ÖVERSATT*/
-	'UPDATE_FILE_METHOD_FILESYSTEM'	=> 'Update files via direct file access (Automatic)', /*ÄNNU_EJ_ÖVERSATT*/
+	'UPDATE_FILE_METHOD'			=> 'Metod för uppdatering av filer',
+	'UPDATE_FILE_METHOD_DOWNLOAD'	=> 'Ladda ner ändrade filer i ett komprimerat arkiv',
+	'UPDATE_FILE_METHOD_FTP'		=> 'Uppdatera filer via FTP (automatiskt)',
+	'UPDATE_FILE_METHOD_FILESYSTEM'	=> 'Uppdatera filer via direkt filåtkomst (automatiskt)',
 
 	// File updater archives
 	'SELECT_DOWNLOAD_FORMAT'	=> 'Välj arkivformat',
@@ -395,7 +395,7 @@ $lang = array_merge($lang, array(
 
 // Requirements messages
 $lang = array_merge($lang, array(
-	'UPDATE_FILES_NOT_FOUND'	=> 'No valid update directory was found, please make sure you uploaded the relevant files.', /*ÄNNU_EJ_ÖVERSATT*/
+	'UPDATE_FILES_NOT_FOUND'	=> 'Giltig uppdateringskatalog kunde ej hittas, kontrollera att du har laddat upp alla erforderliga filer.',
 
 	'NO_UPDATE_FILES_UP_TO_DATE'	=> 'Din installation är av den senaste versionen. Det finns ingen anledning att köra uppdateringsverktyget. Om du vill göra en integritetskontroll på dina filer så försäkra dig om att du laddat upp de rätta uppdateringsfilerna.',
 	'OLD_UPDATE_FILES'				=> 'Uppdateringsfilerna är gamla. Dessa uppdaterinsfiler är för att uppdatera från phpBB %1$s till phpBB %2$s men den senaste versionen av phpBB är %3$s.',
@@ -407,16 +407,16 @@ $lang = array_merge($lang, array(
 	'STAGE_UPDATE_FILES'		=> 'Uppdatera filer',
 
 	// Check files
-	'UPDATE_CHECK_FILES'	=> 'Check files to update', /*ÄNNU_EJ_ÖVERSATT*/
+	'UPDATE_CHECK_FILES'	=> 'Kontrollera filerna som skall uppdateras',
 
 	// Update file differ
-	'FILE_DIFFER_ERROR_FILE_CANNOT_BE_READ'	=> 'The file differ failed to open %s.', /*ÄNNU_EJ_ÖVERSATT*/
+	'FILE_DIFFER_ERROR_FILE_CANNOT_BE_READ'	=> 'Filjämförelsefunktionen kunde ej öppna %s.',
 
-	'UPDATE_FILE_DIFF'		=> 'Diffing changed files', /*ÄNNU_EJ_ÖVERSATT*/
-	'ALL_FILES_DIFFED'		=> 'All modified files has been diffed.', /*ÄNNU_EJ_ÖVERSATT*/
+	'UPDATE_FILE_DIFF'		=> 'Jämför ändrade filer',
+	'ALL_FILES_DIFFED'		=> 'Alla ändrade filer har jämförts.',
 
 	// File status
-	'UPDATE_CONTINUE_FILE_UPDATE'	=> 'Update files', /*ÄNNU_EJ_ÖVERSATT*/
+	'UPDATE_CONTINUE_FILE_UPDATE'	=> 'Uppdatera filerna',
 
 	'DOWNLOAD'							=> 'Ladda ner',
 	'DOWNLOAD_CONFLICTS'				=> 'Ladda ner konflikterna för denna fil',
@@ -441,26 +441,26 @@ $lang = array_merge($lang, array(
 	'FILES_NOT_MODIFIED_EXPLAIN'	=> 'Följande filer är inte ändrade och representerar originalfilerna från den phpBB-version som du vill uppdatera från.',
 	'FILES_UP_TO_DATE'				=> 'Redan uppdaterade filer',
 	'FILES_UP_TO_DATE_EXPLAIN'		=> 'Följande filer är redan uppdaterade och behöver inte uppdateras.',
-	'FILES_VERSION'					=> 'Files Version', /*ÄNNU_EJ_ÖVERSATT*/
+	'FILES_VERSION'					=> 'Filversioner',
 	'TOGGLE_DISPLAY'				=> 'Visa/dölj fillista',
 
 	// File updater
-	'UPDATE_UPDATING_FILES'	=> 'Updating files', /*ÄNNU_EJ_ÖVERSATT*/
+	'UPDATE_UPDATING_FILES'	=> 'Uppdaterar filerna',
 
-	'UPDATE_FILE_UPDATER_HAS_FAILED'	=> 'File updater “%1$s“ has failed. The installer will try to fallback to “%2$s“.', /*ÄNNU_EJ_ÖVERSATT*/
-	'UPDATE_FILE_UPDATERS_HAVE_FAILED'	=> 'The file updater failed. No further fallback methods are available.', /*ÄNNU_EJ_ÖVERSATT*/
+	'UPDATE_FILE_UPDATER_HAS_FAILED'	=> 'Filuppdateringen “%1$s“ misslyckades. Installationsrutinen försöker återvända till “%2$s“.',
+	'UPDATE_FILE_UPDATERS_HAVE_FAILED'	=> 'Filuppdateringen misslyckades. Ytterligare alternativa metoder finns ej.',
 
-	'UPDATE_CONTINUE_UPDATE_PROCESS'	=> 'Continue update process', /*ÄNNU_EJ_ÖVERSATT*/
-	'UPDATE_RECHECK_UPDATE_FILES'		=> 'Check files again', /*ÄNNU_EJ_ÖVERSATT*/
+	'UPDATE_CONTINUE_UPDATE_PROCESS'	=> 'Fortsätt uppdateringen',
+	'UPDATE_RECHECK_UPDATE_FILES'		=> 'Kontrollera filerna igen',
 ));
 
 // Update database
 $lang = array_merge($lang, array(
-	'STAGE_UPDATE_DATABASE'		=> 'Update database', /*ÄNNU_EJ_ÖVERSATT*/
+	'STAGE_UPDATE_DATABASE'		=> 'Uppdatera databasen',
 
 	'INLINE_UPDATE_SUCCESSFUL'		=> 'Databasuppdateringen lyckades. Du kan nu fortsätta uppdateringsprocessen.',
 
-	'TASK_UPDATE_EXTENSIONS'	=> 'Updating extensions', /*ÄNNU_EJ_ÖVERSATT*/
+	'TASK_UPDATE_EXTENSIONS'	=> 'Uppdaterar tillägg',
 ));
 
 // Converter
