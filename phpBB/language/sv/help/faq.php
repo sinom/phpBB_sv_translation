@@ -163,7 +163,7 @@ $lang = array_merge($lang, array(
 	'HELP_FAQ_LOGIN_LOST_PASSWORD_ANSWER'	=> 'Ingen panik! Även om du inte kan återfå ditt nuvarande lösenord så kan du enkelt återställa det. Gå till inloggningssidan och klicka på Jag har glömt mitt lösenord. Följ instruktionerna och du kommer att kunna logga in igen inom kort.',
 	'HELP_FAQ_LOGIN_LOST_PASSWORD_QUESTION'	=> 'Jag har glömt bort mitt lösenord!',
 
-	'HELP_FAQ_LOGIN_REGISTER_ANSWER'	=> 'Det är det inte säkert att du måste, det är upp till administratören att bestämma om du måste registrera dig eller inte för att kunna skriva och/eller läsa inlägg. Men registrering ger dig tillgång till utökade funktioner som inte finns för gäster som till exempel visningsbilder, personliga meddelanden, skicka e-post till andra användare, medlemskap i användargrupper, med mera. Det tar endast några minuter att registrera sig, så det rekommenderas.',
+	'HELP_FAQ_LOGIN_REGISTER_ANSWER'	=> 'Det är det inte säkert att du måste, det är upp till administratören att bestämma om du måste registrera dig eller inte för att kunna skriva och/eller läsa inlägg. Men registrering ger dig tillgång till utökade funktioner som inte finns för gäster som till exempel profilbilder, personliga meddelanden, skicka e-post till andra användare, medlemskap i användargrupper, med mera. Det tar endast några minuter att registrera sig, så det rekommenderas.',
 	'HELP_FAQ_LOGIN_REGISTER_QUESTION'	=> 'Varför måste jag ens registrera mig?',
 
 	'HELP_FAQ_LOGIN_REGISTER_CONFIRM_ANSWER'	=> 'Försäkra dig först och främst om att du anger rätt användarnamn och lösenord. Om de stämmer så kan en av två saker ha hänt. Om COPPA-stöd är aktiverat och du under registreringen angav att du är under 13 år så måste du följa instruktionerna du fått. Vissa forum kräver också att nya registreringar aktiveras innan de kan användas, antingen av dig själv eller av an administratör; denna information visades under registreringen. Om du har fått ett e-postmeddelande, följ instruktionerna i det. Om du inte fått ett e-postmeddelande så kanske du angav en felaktig e-postadress eller så fastnade e-postmeddelandet i ett skräppostfilter. Om du är säker på att e-postadressen du angav var korrekt, kontakta en administratör.', 
@@ -241,11 +241,11 @@ $lang = array_merge($lang, array(
 
 
 // Alternativ och inställningar
-	'HELP_FAQ_USERSETTINGS_AVATAR_ANSWER'	=> 'Det finns två bilder som kan visas tillsammans med ett användarnamn i inlägg. Den ena är en titelbild, oftast är dessa bilder i form av stjärnor, prickar eller block som visar hur många inlägg du har gjort eller din status på forumet. Den andra bilden, oftast är den större, är känd som en visningsbild och är i allmänhet unik eller personlig för varje användare.',
+	'HELP_FAQ_USERSETTINGS_AVATAR_ANSWER'	=> 'Det finns två bilder som kan visas tillsammans med ett användarnamn i inlägg. Den ena är en titelbild, oftast är dessa bilder i form av stjärnor, prickar eller block som visar hur många inlägg du har gjort eller din status på forumet. Den andra bilden, oftast är den större, är känd som en profilbild och är i allmänhet unik eller personlig för varje användare.',
 	'HELP_FAQ_USERSETTINGS_AVATAR_QUESTION'	=> 'Vad är det för bild som visas tillsammans med mitt användarnamn?',
 
-	'HELP_FAQ_USERSETTINGS_AVATAR_DISPLAY_ANSWER'	=> 'Det är upp till forumadministratören att tillåta visningsbilder och välja vilka sätt visningsbilder kan användas på. Om du inte kan använda visningsbilder, kontakta en forumadministratör och fråga de om deras anledning till detta.',
-	'HELP_FAQ_USERSETTINGS_AVATAR_DISPLAY_QUESTION'	=> 'Hur lägger jag till en visningsbild?',
+	'HELP_FAQ_USERSETTINGS_AVATAR_DISPLAY_ANSWER'	=> 'Det är upp till forumadministratören att tillåta profilbilder och välja vilka sätt profilbilder kan användas på. Om du inte kan använda profilbilder, kontakta en forumadministratör och fråga de om deras anledning till detta.',
+	'HELP_FAQ_USERSETTINGS_AVATAR_DISPLAY_QUESTION'	=> 'Hur lägger jag till en profilbild?',
 
 
 	'HELP_FAQ_USERSETTINGS_CHANGE_SETTINGS_ANSWER'	=> 'Om du är registrerad så sparas alla dina inställningar i forumets databas. För att ändra inställningar, klicka på Kontrollpanel-länken (finns oftast längst upp på forumsidorna men så är inte alltid fallet). Här kan du ändra alla dina inställningar och alternativ.',
