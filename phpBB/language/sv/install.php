@@ -71,7 +71,7 @@ $lang = array_merge($lang, array(
 	</ul>
 	<p><strong>Observera:</strong> om du installerar med SQLite ska du ange den fullständiga sökvägen till din databasfil i DSN-fältet och lämna användarnamn och lösenordsfälten tomma. Av säkerhetsskäl bör du se till att databasfilen inte är lagrad på en plats som kan nås från webben.</p>
 
-	<p>phpBB3 stödjer följande databaser:</p>
+	<p>phpBB3 har stöd för följande databaser:</p>
 	<ul>
 		<li>MySQL 4.1.3 eller nyare (MySQLi krävs)</li>
 		<li>PostgreSQL 8.3+</li>
@@ -82,7 +82,7 @@ $lang = array_merge($lang, array(
 		<li>Oracle</li>
 	</ul>
 
-	<p>Endast de databaser som din server stödjer kommer att visas.',
+	<p>Endast de databaser som din server har stöd kommer att visas.',
 
 	'ACP_LINK'	=> 'Ta mig till <a href="%1$s">ACP (administrationspanelen)</a>',
 
