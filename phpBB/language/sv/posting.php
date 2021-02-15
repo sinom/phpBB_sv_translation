@@ -184,7 +184,7 @@ $lang = array_merge($lang, array(
 	'NO_POLL_TITLE'				=> 'Du måste ange en omröstningsfråga.',
 	'NO_POST'					=> 'Det valda inlägget finns inte.',
 	'NO_POST_MODE'				=> 'Inget postningsalternativ specificerades.',
-	'NO_TEMP_DIR'				=> 'Temporär mapp kunde inte hittas eller är ej skrivbar.',
+	'NO_TEMP_DIR'				=> 'Temporär katalog kunde inte hittas eller är ej skrivbar.',
 
 	'PARTIAL_UPLOAD'			=> 'Filen laddades endast upp delvis.',
 	'PHP_UPLOAD_STOPPED'		=> 'Ett PHP-tillägg har stoppat filuppladdningen.',
