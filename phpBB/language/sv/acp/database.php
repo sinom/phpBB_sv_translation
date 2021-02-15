@@ -43,8 +43,8 @@ if (empty($lang) || !is_array($lang))
 
 // Database Backup/Restore
 $lang = array_merge($lang, array(
-	'ACP_BACKUP_EXPLAIN'	=> 'Här kan du säkerhetskopiera all din phpBB-relaterad data. Du kan lagra det resulterande arkivet i din <samp>store/</samp> mapp eller ladda ner det direkt. Beroende på din serverkonfiguration kan du komprimera filen i ett antal olika format.',
-	'ACP_RESTORE_EXPLAIN'	=> 'Detta kommer att utföra en fullständig återställning av alla phpBB-tabeller från en sparad fil. Om din server stödjer det kan du använda en gzip eller bzip2-komprimerad textfil och den kommer automatiskt packas upp. <strong>VARNING</strong> Detta kommer att skriva över all befintlig data. Återställning kan ta lång tid så lämna inte denna sida förrän den är slutförd. Säkerhetskopior lagras i <samp>store/</samp>-mappen och antas ha skapats av phpBBs säkerhetskopieringsfunktion. Återställning av säkerhetskopior som inte skapats av det inbyggda systemet kanske inte fungerar.',
+	'ACP_BACKUP_EXPLAIN'	=> 'Här kan du säkerhetskopiera all din phpBB-relaterad data. Du kan lagra det resulterande arkivet i din <samp>store/</samp>-katalog eller ladda ner det direkt. Beroende på din serverkonfiguration kan du komprimera filen i ett antal olika format.',
+	'ACP_RESTORE_EXPLAIN'	=> 'Detta kommer att utföra en fullständig återställning av alla phpBB-tabeller från en sparad fil. Om din server stödjer det kan du använda en gzip eller bzip2-komprimerad textfil och den kommer automatiskt packas upp. <strong>VARNING</strong> Detta kommer att skriva över all befintlig data. Återställning kan ta lång tid så lämna inte denna sida förrän den är slutförd. Säkerhetskopior lagras i <samp>store/</samp>-katalogen och antas ha skapats av phpBBs säkerhetskopieringsfunktion. Återställning av säkerhetskopior som inte skapats av det inbyggda systemet kanske inte fungerar.',
 
 	'BACKUP_DELETE'		=> 'Säkerhetskopian togs bort.',
 	'BACKUP_INVALID'	=> 'Den valda säkerhetskopian är ogiltig.',
