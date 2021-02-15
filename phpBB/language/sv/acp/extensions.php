@@ -46,7 +46,7 @@ $lang = array_merge($lang, array(
 	'EXTENSIONS_EXPLAIN'		=> 'Tilläggshanteraren är ett verktyg i ditt phpBB forum som tillåter dig att hantera alla dina tilläggs status och visa information om dem.',
 	'EXTENSION_INVALID_LIST'	=> '“%s” tillägget är inte giltigt.<br />%s<br /><br />',
 	'EXTENSION_NOT_AVAILABLE'	=> 'Det valda tillägget är inte tillgängligt för detta forumet, vänligen verifiera att din phpBB-version samt din php-version är tillåtna (se detaljsidan).',
-	'EXTENSION_DIR_INVALID'		=> 'Det valda tillägget har en ogiltig mappstruktur och kan inte aktiveras.',
+	'EXTENSION_DIR_INVALID'		=> 'Det valda tillägget har en ogiltig katalogstruktur och kan inte aktiveras.',
 	'EXTENSION_NOT_ENABLEABLE'	=> 'Det valda tillägget kan inte aktiveras, vänligen kontrollera tilläggets krav.',
 	'EXTENSION_NOT_INSTALLED'	=> 'Tillägget %s är inte tillgängligt. Kontrollera att det är rätt installerat.',
 
@@ -77,7 +77,7 @@ $lang = array_merge($lang, array(
 	'EXTENSION_INSTALL_HEADLINE'=> 'Installera ett tillägg.',
 	'EXTENSION_INSTALL_EXPLAIN'	=> '<ol>
 			<li>Ladda ned ett tillägg från phpBBs databas</li>
-			<li>Packa upp tillägget och ladda upp det till <samp>ext/</samp> -mappen i din phpBB-mapp</li>
+			<li>Packa upp tillägget och ladda upp det till <samp>ext/</samp>-katalogen i din phpBB-katalog</li>
 			<li>Aktivera tillägget här i Tilläggshanteraren</li>
 		</ol>',
 	'EXTENSION_UPDATE_HEADLINE'	=> 'Uppdatera ett tillägg',
