@@ -253,7 +253,7 @@ $lang = array_merge($lang, array(
 	'DOWNLOAD'					=> 'Ladda ner',
 	'DOWNLOAD_AS'				=> 'Ladda ner som',
 	'DOWNLOAD_STORE'			=> 'Ladda ner eller lagra fil',
-	'DOWNLOAD_STORE_EXPLAIN'	=> 'Du kan ladda ner filen direkt eller spara den i din <samp>store/</samp>-mapp.',
+	'DOWNLOAD_STORE_EXPLAIN'	=> 'Du kan ladda ner filen direkt eller spara den i din <samp>store/</samp>-katalog.',
 	'DOWNLOADS'					=> 'Nedladdningar',
 
 	'EDIT'					=> 'Redigera',
@@ -678,7 +678,7 @@ $lang = array_merge($lang, array(
 	'LOG_LANGUAGE_PACK_INSTALLED'	=> '<strong>Installerade språkpaket</strong><br />» %s',
 	'LOG_LANGUAGE_PACK_UPDATED'		=> '<strong>Uppdaterade språkpaketsdetaljer</strong><br />» %s',
 	'LOG_LANGUAGE_FILE_REPLACED'	=> '<strong>Ersatte språkfil</strong><br />» %s',
-	'LOG_LANGUAGE_FILE_SUBMITTED'	=> '<strong>Skickade språkfil och placerade den i store-mappen</strong><br />» %s',
+	'LOG_LANGUAGE_FILE_SUBMITTED'	=> '<strong>Skickade språkfil och placerade den i store-katalogen</strong><br />» %s',
 
 	'LOG_MASS_EMAIL'		=> '<strong>Skickade massutskick</strong><br />» %s',
 
