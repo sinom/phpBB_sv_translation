@@ -360,7 +360,7 @@ $lang = array_merge($lang, array(
 		<ul style="margin-left: 20px; font-size: 1.1em;">
 			<li>Gå till <a href="https://www.phpbb.com/downloads/" title="https://www.phpbb.com/downloads/">phpBB.com nerladdningssida</a> och ladda ner det rätta "Automatic Update Package" arkivet.<br /><br /></li>
 			<li>Packa upp arkivet.<br /><br /></li>
-			<li>Ladda upp hela den okomprimerade install-mappen till din phpBB-rotkatalog (där din config.php-fil ligger).<br /><br /></li>
+			<li>Ladda upp hela den okomprimerade install-katalogen till din phpBB-rotkatalog (där din config.php-fil ligger).<br /><br /></li>
 		</ul>
 		<p>När du laddat upp denna så kommer ditt forum att vara offline för vanliga användare eftersom install-katalogen du laddade upp nu finns där.<br /><br />
 		<strong><a href="%1$s" title="%1$s">Börja nu uppdateringsprocessen genom att gå till install-katalogen i din webbläsare</a>.</strong><br />
@@ -471,8 +471,8 @@ $lang = array_merge($lang, array(
 	'COULD_NOT_FIND_PATH'		=> 'Kunde inte hitta sökvägen till ditta förra forum. Kontrollera dina inställningar och försök igen.<br />» %s var den angivna källsökvägen.',
 	'CONFIG_PHPBB_EMPTY'		=> 'phpBB3-konfigurationsvariabeln för “%s” är tom.',
 
-	'MAKE_FOLDER_WRITABLE'		=> 'Försäkra dig om att denna mapp finns och kan skrivas till av webbservern och försök sedan igen:<br />»<strong>%s</strong>.',
-	'MAKE_FOLDERS_WRITABLE'		=> 'Försäkra dig om att dessa mappar finns och kan skrivas till av webbservern och försök sedan igen:<br />»<strong>%s</strong>.',
+	'MAKE_FOLDER_WRITABLE'		=> 'Försäkra dig om att denna katalog finns och kan skrivas till av webbservern och försök sedan igen:<br />»<strong>%s</strong>.',
+	'MAKE_FOLDERS_WRITABLE'		=> 'Försäkra dig om att dessa kataloger finns och kan skrivas till av webbservern och försök sedan igen:<br />»<strong>%s</strong>.',
 
 	'INSTALL_TEST'				=> 'Testa igen',
 
@@ -561,7 +561,7 @@ $lang = array_merge($lang, array(
 	'CONV_ERROR_NO_SMILIES_PATH'		=> 'Påpekande till utvecklaren: du måste ange $convertor[\'smilies_path\'] för att använda %s.',
 	'CONV_ERROR_NO_UPLOAD_DIR'			=> 'Påpekande till utvecklaren: du måste ange $convertor[\'upload_path\'] för att använda %s.',
 	'CONV_ERROR_PERM_SETTING'			=> 'Kunde inte infoga/uppdatera behörighetsinställningar.',
-	'CONV_ERROR_PM_COUNT'				=> 'Kunde inte välja PM-antal för mapp.',
+	'CONV_ERROR_PM_COUNT'				=> 'Kunde inte välja PM-antal för katalog.',
 	'CONV_ERROR_REPLACE_CATEGORY'		=> 'Kunde inte infoga ny kategori som skulle ersätta gammal huvudkategori.',
 	'CONV_ERROR_REPLACE_FORUM'			=> 'Kunde inte infoga ny kategori som skulle ersätta gammal kategori.',
 	'CONV_ERROR_USER_ACCESS'			=> 'Kunde inte hämta användarautentiseringsinformation.',
