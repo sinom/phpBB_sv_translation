@@ -134,10 +134,10 @@ $lang = array_merge($lang, array(
 	'GENERAL_FORUM_SETTINGS'	=> 'Allmänna kategoriinställningar',
 
 	'LINK'						=> 'Länk',
-	'LIST_INDEX'				=> 'Lista underkategori i ovanliggande kategoris legend',
-	'LIST_INDEX_EXPLAIN'		=> 'Visar denna kategori på indexsidan och på andra ställen som en länk i förklaringen för dess ovanliggande kategori.',
-	'LIST_SUBFORUMS'			=> 'Lista underkategorier i legenden',
-	'LIST_SUBFORUMS_EXPLAIN'	=> 'Visar denna kategoris underkategorier på indexsidan och på andra ställen som en länk i förklaringen om att inställningen "Lista underkategori i ovanliggande kategoris förklaring" är aktiverad.',
+	'LIST_INDEX'				=> 'Visa underkategori i ovanliggande kategoris beskrivning',
+	'LIST_INDEX_EXPLAIN'		=> 'Visar en länk till denna kategori i dess ovanliggande kategoris beskrivning och på indexsidan.',
+	'LIST_SUBFORUMS'			=> 'Visa underkategorier i beskrivningen',
+	'LIST_SUBFORUMS_EXPLAIN'	=> 'Om inställningen "Visa underkategori i ovanliggande kategoris beskrivning" är aktiverad visas länkar till denna kategoris underkategorier i kategorins beskrivning och på indexsidan.',
 	'LOCKED'					=> 'Låst',
 
 	'MOVE_POSTS_NO_POSTABLE_FORUM'	=> 'Kategorin som du valde att flytta inlägg till kan inte postas i. Välj en kategori som kan postas i.',
