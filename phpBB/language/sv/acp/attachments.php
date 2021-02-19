@@ -108,8 +108,8 @@ $lang = array_merge($lang, array(
 	'EXT_GROUP_IMAGES'				=> 'Bilder',
 	'EXT_GROUP_PLAIN_TEXT'			=> 'Text',
 
-	'FILES_GONE'			=> 'Some of the attachments you selected for deletion do not exist. They may have been already deleted. Attachments that did exist were deleted.',
-	'FILES_STATS_WRONG'		=> 'Your file statistics are likely inaccurate and need to be resynchronised. Actual values: number of attachments = %1$d, total size of attachments = %2$s.<br />Click %3$shere%4$s to resynchronise them.',
+	'FILES_GONE'			=> 'Vissa av filerna som du har valt för radering existerar ej. De har antagligen redan raderats. Filerna som existerade raderades.',
+	'FILES_STATS_WRONG'		=> 'Din filstatistik är antagligen ogiltig och måste synkroniseras igen. Aktuella värden: antal bilagor = %1$d, total storlek för bilagor = %2$s.<br />Klicka %3$shär%4$s för att synkronisera statistiken.',
 
 	'GO_TO_EXTENSIONS'		=> 'Gå till filtypshanteringen',
 	'GROUP_NAME'			=> 'Gruppnamn',
