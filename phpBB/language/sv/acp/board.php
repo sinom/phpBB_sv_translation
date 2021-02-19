@@ -430,7 +430,7 @@ $lang = array_merge($lang, array(
 
 // Auth settings
 $lang = array_merge($lang, array(
-	'ACP_AUTH_SETTINGS_EXPLAIN'	=> 'phpBB stödjer autentiseringsinsticksprogram, eller moduler. Detta låter dig bestämma hur användarna autentiseras när de loggar in på forumet. Som standard finns tre insticksprogram tillgängliga; DB, LDAP och Apache. Inte alla metoder kräver ytterligare information så fyll endast i fält som är relevanta för den valda metoden.',
+	'ACP_AUTH_SETTINGS_EXPLAIN'	=> 'phpBB har stöd för autentiseringsinsticksprogram, eller moduler. Detta låter dig bestämma hur användarna autentiseras när de loggar in på forumet. Som standard finns tre insticksprogram tillgängliga; DB, LDAP och Apache. Inte alla metoder kräver ytterligare information så fyll endast i fält som är relevanta för den valda metoden.',
 
 	'AUTH_METHOD'				=> 'Välj en autentiseringsmetod',
 
@@ -469,7 +469,7 @@ $lang = array_merge($lang, array(
 	'ACP_SERVER_SETTINGS_EXPLAIN'	=> 'Här kan du ställa in server- och domäninställningar. Försäkra dig om att informationen du anger är korrekt, fel kommer att resultera i e-postmeddelanden med felaktig information. När du anger domännamnet kom ihåg att det ska inkludera http:// eller annat protokoll. Ändra endast portnumret om du vet att din server använder ett annat värde, port 80 är korrekt i de flesta fall.',
 
 	'ENABLE_GZIP'				=> 'Aktivera GZip-komprimering',
-	'ENABLE_GZIP_EXPLAIN'		=> 'Genererat innehåll kommer att komprimeras innan det skickas till användaren om dennes webbläsare stödjer det. Detta kan minska nätverkstrafik men kommer också öka CPU-användning både på server- och klientsidan. Kräver att zlib med phptillägg är aktiverad på servern för att laddas.',
+	'ENABLE_GZIP_EXPLAIN'		=> 'Genererat innehåll kommer att komprimeras innan det skickas till användaren om dennes webbläsare har stöd för det. Detta kan minska nätverkstrafik men kommer också öka CPU-användning både på server- och klientsidan. Kräver att zlib med phptillägg är aktiverad på servern för att laddas.',
 	'FORCE_SERVER_VARS'			=> 'Påtvinga URL-inställningar',
 	'FORCE_SERVER_VARS_EXPLAIN'	=> 'Om satt till ja så kommer serverinställningarna som anges här att användas istället för de automatiskt fastställda värdena.',
 	'ICONS_PATH'				=> 'Sökväg till postikoner',
@@ -477,7 +477,7 @@ $lang = array_merge($lang, array(
 	'MOD_REWRITE_ENABLE'		=> 'Aktivera permalänkar',
 	'MOD_REWRITE_ENABLE_EXPLAIN' => 'Om aktiverad, länkar kommer som innehåller t.ex ’app.php’ kommer att skrivas om så att filnamnet inte syns. (T.ex. app.php/foo kommer att bli enbart /foo). <strong>Apaches mod_rewrite modul krävs utav servern för att detta skall fungera.</strong>',
 	'MOD_REWRITE_DISABLED'		=> '<strong>mod_rewrite</strong> modulen på din Apache server är inaktiverad. Aktivera denna module eller kontakta ditt webbhotell för att aktivera denna funktion.',
-	'MOD_REWRITE_INFORMATION_UNAVAILABLE' => 'Vi kunde inte klargöra utifall denna servern stödjer permalänkar eller inte.',
+	'MOD_REWRITE_INFORMATION_UNAVAILABLE' => 'Vi kunde inte klargöra om denna servern har stöd för permalänkar eller inte.',
 	'PATH_SETTINGS'				=> 'Sökvägsinställningar',
 	'RANKS_PATH'				=> 'Sökväg till titelbilder',
 	'RANKS_PATH_EXPLAIN'		=> 'Sökväg under din phpBB-rotkatalog, t.ex. <samp>images/ranks</samp>.',
@@ -610,7 +610,7 @@ $lang = array_merge($lang, array(
 
 // Jabber settings
 $lang = array_merge($lang, array(
-	'ACP_JABBER_SETTINGS_EXPLAIN'	=> 'Här kan du aktivera och kontrollera användningen av Jabber för snabbmeddelanden och forumunderrättningar. Jabber är ett protokoll med öppen källkod och kan därför användas av vem som helst. Vissa Jabberservrar inkluderar gateways eller transporter som låter dig kontakta användare på andra nätverk. Inte alla servrar stödjer alla transporter och ändringar i protokoll kan förhindra transporter från att fungera. Observera att det kan ta flera sekunder att uppdatera Jabberkontodetaljer, så stoppa inte skriptet förrän det körts färdigt!',
+	'ACP_JABBER_SETTINGS_EXPLAIN'	=> 'Här kan du aktivera och kontrollera användningen av Jabber för snabbmeddelanden och forumunderrättningar. Jabber är ett protokoll med öppen källkod och kan därför användas av vem som helst. Vissa Jabberservrar inkluderar gateways eller transporter som låter dig kontakta användare på andra nätverk. Inte alla servrar har stöd för alla transporter och ändringar i protokoll kan förhindra transporter från att fungera. Observera att det kan ta flera sekunder att uppdatera Jabberkontodetaljer, så stoppa inte skriptet förrän det körts färdigt!',
 
 	'JAB_ENABLE'				=> 'Aktivera Jabber',
 	'JAB_ENABLE_EXPLAIN'		=> 'Aktiverar användning av Jabbermeddelanden och underrättningar.',
