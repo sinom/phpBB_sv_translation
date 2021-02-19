@@ -156,7 +156,7 @@ $lang = array_merge($lang, array(
 
 	'REMOVE_ALLOWED_IPS'			=> 'Ta bort eller häv undantag för <em>tillåtna</em> IP-adresser/värdnamn',
 	'REMOVE_DISALLOWED_IPS'			=> 'Ta bort eller häv undantag för <em>otillåtna</em> IP-adresser/värdnamn',
-	'RESYNC_FILES_STATS_CONFIRM'	=> 'Are you sure you wish to resynchronise file statistics?',
+	'RESYNC_FILES_STATS_CONFIRM'	=> 'Är du säker på att du vill synkronisera filstatistiken?',
 
 	'SEARCH_IMAGICK'				=> 'Sök efter Imagemagick',
 	'SECURE_ALLOW_DENY'				=> 'Tillåt/Neka-lista',
