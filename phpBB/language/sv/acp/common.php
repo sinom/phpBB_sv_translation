@@ -209,7 +209,7 @@ $lang = array_merge($lang, array(
 
 	'ACP_VC_SETTINGS'					=> 'Åtgärder mot spambotar',
 	'ACP_VC_CAPTCHA_DISPLAY'			=> 'Förhandsvisning av antispam-bild',
-	'ACP_VERSION_CHECK'					=> 'Kolla efter uppdateringar',
+	'ACP_VERSION_CHECK'					=> 'Versionskontroll',
 	'ACP_VIEW_ADMIN_PERMISSIONS'		=> 'Visa administrativa behörigheter',
 	'ACP_VIEW_FORUM_MOD_PERMISSIONS'	=> 'Visa kategorimoderationsbehörigheter',
 	'ACP_VIEW_FORUM_PERMISSIONS'		=> 'Visa kategoribaserade behörigheter',
@@ -238,10 +238,10 @@ $lang = array_merge($lang, array(
 
 	'COLOUR_SWATCH'			=> 'Karta över webbsäkra färger',
 	'CONFIG_UPDATED'		=> 'Konfigurationen uppdaterades.',
-	'CRON_LOCK_ERROR'		=> 'Could not obtain cron lock.',
-	'CRON_NO_SUCH_TASK'		=> 'Could not find cron task â€œ%sâ€.',
-	'CRON_NO_TASK'			=> 'No cron tasks need to be run right now.',
-	'CRON_NO_TASKS'			=> 'No cron tasks could be found.',
+	'CRON_LOCK_ERROR'		=> 'Kunde ej hämta cron-spärr.',
+	'CRON_NO_SUCH_TASK'		=> 'Kund ej hitta cron-aktiviteten “%s”.',
+	'CRON_NO_TASK'			=> 'Ingen cron-aktivitet måste utföras nu.',
+	'CRON_NO_TASKS'			=> 'Kund ej hitta cron-aktiviteter.',
 	'CSV_INVALID'			=> 'Den angivna kommaseparerade inställningen “%1$s” är ogiltig. Värdena bör endast avgränsas med kommatecken, det bör inte innehålla några ledande eller efterföljande avgränsare.',
 	'CURRENT_VERSION'		=> 'Nuvarande version', 
 
@@ -307,7 +307,7 @@ $lang = array_merge($lang, array(
 	'REPARSE_LOCK_ERROR'				=> 'Omtolkning pågår redan utav en annan process.', 
 	'RESYNC'							=> 'Synkronisera',
 
-	'RUNNING_TASK'			=> 'Running task: %s.',
+	'RUNNING_TASK'			=> 'Pågående aktivitet: %s.',
 	'SELECT_ANONYMOUS'		=> 'Välj den anonyma användaren (gäst)',
 	'SELECT_OPTION'			=> 'Välj alternativ',
 
@@ -318,8 +318,8 @@ $lang = array_merge($lang, array(
 
 	'SHOW_ALL_OPERATIONS'	=> 'Visa alla händelser',
 
-	'TASKS_NOT_READY'			=> 'Not ready tasks:',
-	'TASKS_READY'			=> 'Ready tasks:',
+	'TASKS_NOT_READY'			=> 'Aktiviteter ej redo:',
+	'TASKS_READY'			=> 'Aktiviteter redo:',
 	'TOTAL_SIZE'			=> 'Total storlek',
 
 	'UCP'					=> 'Kontrollpanel',
