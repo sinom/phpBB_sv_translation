@@ -43,7 +43,7 @@ if (empty($lang) || !is_array($lang))
 
 $lang = array_merge($lang, array(
 	'ACP_FILES'						=> 'Administrationsspråkfiler',
-	'ACP_LANGUAGE_PACKS_EXPLAIN'	=> 'Här kan du installera/ta bort språkpaket. Standardspråket är stjärnmärkt.',
+	'ACP_LANGUAGE_PACKS_EXPLAIN'	=> 'Här kan du installera/ta bort språkpaket. Standardspråket är markerat med *.',
 
 	'DELETE_LANGUAGE_CONFIRM'		=> 'Är du säker på att du vill ta bort “%s”?',
 
