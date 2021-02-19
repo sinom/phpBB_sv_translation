@@ -127,8 +127,8 @@ $lang = array_merge($lang, array(
 	'DOWNLOAD_LATEST'		=> 'Hämta version',
 	'NO_VERSIONCHECK'		=> 'Ingen versionskontroll är angiven.',
 
-	'VERSIONCHECK_FORCE_UPDATE_ALL'		=> 'Kolla om alla versioner',
-	'FORCE_UNSTABLE'					=> 'Kolla alltid efter instabila versioner',
+	'VERSIONCHECK_FORCE_UPDATE_ALL'		=> 'Kontrollera alla versioner',
+	'FORCE_UNSTABLE'					=> 'Kolla även efter instabila versioner',
 	'EXTENSIONS_VERSION_CHECK_SETTINGS'	=> 'Versionsinställningar',
 
 	'BROWSE_EXTENSIONS_DATABASE'		=> 'Bläddra i Tilläggsdatabasen',
