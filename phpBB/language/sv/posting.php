@@ -278,7 +278,7 @@ $lang = array_merge($lang, array(
 	'USER_CANNOT_DELETE'		=> 'Du kan inte ta bort inlägg i denna kategori.',
 	'USER_CANNOT_EDIT'			=> 'Du kan inte redigera inlägg i denna kategori.',
 	'USER_CANNOT_REPLY'			=> 'Du kan inte svara på trådar i denna kategori.',
-	'USER_CANNOT_FORUM_POST'	=> 'Du kan inte posta i denna kategori eftersom kategoritypen inte stödjer det.',
+	'USER_CANNOT_FORUM_POST'	=> 'Du kan inte posta i denna kategori eftersom kategoritypen ej har stöd för det.',
 
 	'VIEW_MESSAGE'				=> '%sVisa ditt meddelande%s',
 	'VIEW_PRIVATE_MESSAGE'		=> '%sVisa ditt skickade personliga meddelande%s',
