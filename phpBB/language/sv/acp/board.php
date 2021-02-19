@@ -357,8 +357,8 @@ $lang = array_merge($lang, array(
 
 	'COOKIE_DOMAIN'				=> 'Domän för cookie',
 	'COOKIE_NAME'				=> 'Namn på cookie',
-	'COOKIE_NOTICE'				=> 'Cookie-notis',
-	'COOKIE_NOTICE_EXPLAIN'		=> 'If enabled a cookie notice will be displayed to users when visiting your board. This might be required by law depending on the content of your board and enabled extensions.', /*ÄNNU_EJ_ÖVERSATT*/
+	'COOKIE_NOTICE'				=> 'Meddelande om cookies',
+	'COOKIE_NOTICE_EXPLAIN'		=> 'Om denna inställning aktiveras så visas ett meddelande om cookies när forumet besöks. Detta kan vara ett lagkrav beroende på forumets innehåll och aktiverade tillägg.',
 	'COOKIE_PATH'				=> 'Sökväg för cookie',
 	'COOKIE_SECURE'				=> 'Cookiesäkerhet',
 	'COOKIE_SECURE_EXPLAIN'		=> 'Om din server körs via SSL kan du aktivera detta, låt det annars vara inaktiverat. Om du aktiverar detta och din server inte körs via SSL kommer fel att uppstå vid omdirigeringar.',
@@ -370,15 +370,15 @@ $lang = array_merge($lang, array(
 
 // Contact Settings
 $lang = array_merge($lang, array(
-	'ACP_CONTACT_SETTINGS_EXPLAIN'		=> 'Here you can enable and disable the contact page and also add a text that is displayed on the page.',
+	'ACP_CONTACT_SETTINGS_EXPLAIN'		=> 'Här kan du aktivera eller deaktivera kontaktsidan och lägga till en text som ska visas på kontaktsidan.',
 
-	'CONTACT_US_ENABLE'				=> 'Enable contact page',
-	'CONTACT_US_ENABLE_EXPLAIN'		=> 'This page allows users to send emails to board administrators',
+	'CONTACT_US_ENABLE'				=> 'Aktivera kontaktsidan',
+	'CONTACT_US_ENABLE_EXPLAIN'		=> 'På den här sidan kan e-post skickas till forumets administratörer',
 
-	'CONTACT_US_INFO'				=> 'Contact information',
-	'CONTACT_US_INFO_EXPLAIN'		=> 'The message is displayed on the contact page',
-	'CONTACT_US_INFO_PREVIEW'		=> 'Contact page information - Preview',
-	'CONTACT_US_INFO_UPDATED'		=> 'Contact page information has been updated.',
+	'CONTACT_US_INFO'				=> 'Kontaktinformation',
+	'CONTACT_US_INFO_EXPLAIN'		=> 'Detta meddelande visas på kontaktsidan',
+	'CONTACT_US_INFO_PREVIEW'		=> 'Kontaktinformation - förhandsgranskning',
+	'CONTACT_US_INFO_UPDATED'		=> 'Kontaktinformationen har uppdaterats.',
 ));
 
 // Load Settings
@@ -387,8 +387,8 @@ $lang = array_merge($lang, array(
 
 	'ALLOW_CDN'						=> 'Tillåt användningen utav tredje-parts innehållsleveransnätverk.',
 	'ALLOW_CDN_EXPLAIN'				=> 'Om denna inställning är aktiverad, några filer kommer att hanterade utav tredje parts servrar iställer för din egna webbserver. Detta reducerar bandbredden som krävs utav din server, men kan vara en säkerhetsrisk för vissa administratörer.',
-	'ALLOW_LIVE_SEARCHES'			=> 'Allow live searches',
-	'ALLOW_LIVE_SEARCHES_EXPLAIN'	=> 'If this setting is enabled, users are provided with keyword suggestions as they type in certain fields throughout the board.',
+	'ALLOW_LIVE_SEARCHES'			=> 'Tillåt live-sökning',
+	'ALLOW_LIVE_SEARCHES_EXPLAIN'	=> 'Aktiveras denna inställning så kommer användarna att få förslag på nyckelord medan de skriver i vissa fält i forumet.',
 	'CUSTOM_PROFILE_FIELDS'			=> 'Egna profilfält',
 	'LIMIT_LOAD'					=> 'Gräns för systembelastning',
 	'LIMIT_LOAD_EXPLAIN'			=> 'Om systemets 1-minutsbelastning överskrider detta värde så kommer forumet automatiskt att gå offline. Ett värde av 1.0 är lika med ~100% användning av en processor. Detta fungerar endast på UNIX-baserade servrar där informationen finns tillgänglig. Värdet kommer här att återställa sig själv till 0 om phpBB inte kunde hitta serverbelastningen.',
@@ -550,7 +550,7 @@ $lang = array_merge($lang, array(
 	'TPL_ALLOW_PHP'					=> 'Tillåt php i mallar',
 	'TPL_ALLOW_PHP_EXPLAIN'			=> 'Om detta alternativ är aktiverat så kommer <code>PHP</code> och <code>INCLUDEPHP</code> att tolkas i mallar.',
 	'UPLOAD_CERT_VALID'				=> 'Validera uppladdningscertifikat', 
-	'UPLOAD_CERT_VALID_EXPLAIN'		=> 'If enabled, certificates of remote uploads will be validated. This requires the CA bundle to be defined by the <samp>openssl.cafile</samp> or <samp>curl.cainfo</samp> setting in your php.ini.', /*ÄNNU_EJ_ÖVERSATT*/
+	'UPLOAD_CERT_VALID_EXPLAIN'		=> 'Om detta aktiveras så kommer uppladdningscertifikat att valideras för fjärruppladdningar. Detta kräver att CA paketet defineras i inställningarna <samp>openssl.cafile</samp> eller <samp>curl.cainfo</samp> i din php.ini.',
 ));
 
 // Email Settings
@@ -565,10 +565,10 @@ $lang = array_merge($lang, array(
 	'BOARD_HIDE_EMAILS_EXPLAIN'		=> 'Denna funktion håller alla e-postadresser fullständigt privata.',
 	'CONTACT_EMAIL'					=> 'E-postadress för att kontakta forumet',
 	'CONTACT_EMAIL_EXPLAIN'			=> 'Denna adress kommer användas när en specifik kontaktpunkt behövs, t.ex. spam, felmeddelanden, osv. Den kommer alltid att användas som <samp>From</samp> och <samp>Reply-To</samp> adress i e-postmeddelanden.',
-	'CONTACT_EMAIL_NAME'			=> 'Contact name',
-	'CONTACT_EMAIL_NAME_EXPLAIN'	=> 'This is the contact name that e-mail recipients will see. If you don’t want to have a contact name, leave this field empty.',
-	'EMAIL_FORCE_SENDER'			=> 'Force from email address',
-	'EMAIL_FORCE_SENDER_EXPLAIN'	=> 'This will set the <samp>Return-Path</samp> to the from email address instead of using the local user and hostname of the server. This setting does not apply when using SMTP.<br><em><strong>Warning:</strong> Requires the user that the webserver runs as to be added as trusted user to the sendmail configuration.</em>',
+	'CONTACT_EMAIL_NAME'			=> 'Kontaktnamn',
+	'CONTACT_EMAIL_NAME_EXPLAIN'	=> 'Detta är kontaktnamnet som e-postmottagare kommer att se. Lämna fältet tomt om du ej vill använda ett kontaktnamn.',
+	'EMAIL_FORCE_SENDER'			=> 'Tvinga "från" e-postadress',
+	'EMAIL_FORCE_SENDER_EXPLAIN'	=> 'Här ställs <samp>Return-Path</samp> till "från" e-postadressen in istället för lokal användare och hostnamn från servern. Denna inställning är ej aktiv om du använder SMTP.<br><em><strong>Varning:</strong> detta kräver att användaren som webservern körs med läggs till i listan över tillförlitliga användare i konfigureringen av sendmail.</em>',
 	'EMAIL_FUNCTION_NAME'			=> 'E-postfunktionsnamn',
 	'EMAIL_FUNCTION_NAME_EXPLAIN'	=> 'E-postfunktionen som ska användas för att skicka e-post genom PHP.',
 	'EMAIL_PACKAGE_SIZE'			=> 'Paketstorlek för e-post',
