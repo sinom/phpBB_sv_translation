@@ -66,7 +66,7 @@ $lang = array_merge($lang, array(
 
 	'DELETE_POSTS'			=> 'Ta bort inlägg',
 	'DELETE_USER'			=> 'Ta bort användare',
-	'DELETE_USER_EXPLAIN'	=> 'Observera att borttagande av användare är slutgiltigt, borttagna användare kan inte återställas. Olästa privata meddelanden skickade utav denna användaren kommer att bli borttagna och inte kunna läsas utav mottagaren',
+	'DELETE_USER_EXPLAIN'	=> 'Observera att borttagande av användare är slutgiltigt, borttagna användare kan inte återställas. Olästa privata meddelanden skickade av denna användaren kommer att bli borttagna och inte kunna läsas utav mottagaren',
 
 	'FORCE_REACTIVATION_SUCCESS'	=> 'Påtvingade återaktivering.',
 	'FOUNDER'						=> 'Grundare',
