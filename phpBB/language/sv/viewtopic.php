@@ -55,7 +55,7 @@ $lang = array_merge($lang, array(
 	'BUMP_TOPIC'			=> 'Knuffa upp tråden',
 
 	'DELETE_TOPIC'			=> 'Ta bort tråden',
-	'DELETED_INFORMATION'	=> 'Borttagen utav %1$s den %2$s',
+	'DELETED_INFORMATION'	=> 'Borttagen av %1$s den %2$s',
 	'DISAPPROVE'					=> 'Underkänn',
 	'DOWNLOAD_NOTICE'		=> 'Du har inte behörighet att öppna de filer som bifogats till detta inlägg.',
 
