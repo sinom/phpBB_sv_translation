@@ -2,7 +2,7 @@ Subject: Meddelande om svar på tråd — "{TOPIC_TITLE}"
 
 Hej {USERNAME},
 
-Du får detta meddelande för att du bevakar tråden "{TOPIC_TITLE}" på "{SITENAME}". Denna tråd har besvarats sedan ditt senaste besök<!-- IF AUTHOR_NAME !== '' --> utav {AUTHOR_NAME}<!-- ENDIF -->. Du kan använda följande länk för att läsa svaren som gjorts, inga fler meddelanden kommer att skickas förrän du besökt tråden.
+Du får detta meddelande för att du bevakar tråden "{TOPIC_TITLE}" på "{SITENAME}". Denna tråd har besvarats sedan ditt senaste besök<!-- IF AUTHOR_NAME !== '' --> av {AUTHOR_NAME}<!-- ENDIF -->. Du kan använda följande länk för att läsa svaren som gjorts, inga fler meddelanden kommer att skickas förrän du besökt tråden.
 
 Om du vill visa det nyaste inlägget som gjorts sedan ditt senaste besök, klicka på följande länk:
 {U_NEWEST_POST}
