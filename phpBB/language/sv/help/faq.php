@@ -127,7 +127,7 @@ $lang = array_merge($lang, array(
 
 
 // Om phpBB3
-	'HELP_FAQ_ISSUES_ADMIN_ANSWER'	=> 'Alla användar på forumet kan använda "Kontakta oss"-formuläret, ifall denna funktion är aktiverad utav forumadministratören.<br />Användare på forumet kan även använda "Teamet"-länken.',
+	'HELP_FAQ_ISSUES_ADMIN_ANSWER'	=> 'Alla användare på forumet kan använda "Kontakta oss"-formuläret, ifall denna funktion är aktiverad av forumadministratören.<br />Användare på forumet kan även använda "Teamet"-länken.',
 	'HELP_FAQ_ISSUES_ADMIN_QUESTION'	=> 'Hur kontaktar jag en forumadministratör?',
 
 	'HELP_FAQ_ISSUES_FEATURE_ANSWER'	=> 'Denna programvara har gjorts och licensierats av phpBB Limited. Om du anser att en funktion bör läggas till eller vill rapportera en bugg, var vänlig och besök phpBB Idécenter, där du kommer att hitta verktyg för att göra så.',
