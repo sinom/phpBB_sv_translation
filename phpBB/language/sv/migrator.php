@@ -73,7 +73,7 @@ $lang = array_merge($lang, array(
 	'MIGRATION_INVALID_DATA_UNDEFINED_TOOL'			=> 'En migrering är ogiltig. Ett odefinierat migreringsredskap påträffades.',
 	'MIGRATION_INVALID_DATA_UNDEFINED_METHOD'		=> 'En migrering är ogiltig. En odefinierat migreringsredskapsmetod påträffades.',
 
-	'MODULE_ERROR'						=> 'Ett fel uppstod under installationen utav modulen: %s',
+	'MODULE_ERROR'						=> 'Ett fel uppstod under installationen av modulen: %s',
 	'MODULE_EXISTS'						=> 'En modul finns redan: %s',
 	'MODULE_EXIST_MULTIPLE'				=> 'Ett flertal moduler med det angivna förälder-modul langname finns redan: %s. Försök använda före/efter-nycklar för att förtydliga modulens placering.',
 	'MODULE_INFO_FILE_NOT_EXIST'		=> 'En obligatorisk modulsinformationsfil saknas: %2$s',
