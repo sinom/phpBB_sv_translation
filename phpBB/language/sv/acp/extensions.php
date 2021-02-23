@@ -97,7 +97,7 @@ $lang = array_merge($lang, array(
 	'EXTENSION_DELETE_DATA_CONFIRM'	=> 'Är du säker på att du vill radera den data som är associerade med “%s”?<br /><br />Detta tar bort alla sina data och inställningar, och kan inte göras ogjort!',
 	'EXTENSION_DISABLE_CONFIRM'		=> 'Är du säker på att du vill inaktivera “%s” tillägget?',
 	'EXTENSION_ENABLE_CONFIRM'		=> 'Är du säker på att du vill aktivera “%s” tillägget?',
-	'EXTENSION_FORCE_UNSTABLE_CONFIRM'	=> 'Är du säker på att du vill påtvinga användande utav en instabil version?',
+	'EXTENSION_FORCE_UNSTABLE_CONFIRM'	=> 'Är du säker på att du vill påtvinga användning av en instabil version?',
 
 	'RETURN_TO_EXTENSION_LIST'	=> 'Återgå till tilläggslistan',
 
