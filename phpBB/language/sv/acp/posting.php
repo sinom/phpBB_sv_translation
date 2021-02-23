@@ -92,7 +92,7 @@ $lang = array_merge($lang, array(
 		'EMAIL'				=>			'En giltig e-postadress.',
 		'URL'				=>			'En giltig URL med något tillåtet protokoll (http, ftp, osv… kan inte användas för javascript-exploatering). Om inget protokoll anges läggs “http://” till i början av strängen.',
 		'LOCAL_URL'			=>			'En lokal URL. URL:en måste vara relativ till trådsidan och kan inte innehålla ett servernamn eller protokoll, då länkar är hårdkodade med “%s”',
-		'RELATIVE_URL'		=>			'En relativ URL. Du kan använda detta för att matcha delar utav en URL, men var försiktig: en full URL är en godkänd relativ URL. När du vill använda relativa URLs på ditt forum, använd LOCAL_URL strängen.',
+		'RELATIVE_URL'		=>			'En relativ URL. Du kan använda detta för att matcha delar av en URL, men var försiktig: en full URL är en godkänd relativ URL. När du vill använda relativa URLs på ditt forum, använd LOCAL_URL strängen.',
 		'COLOR'				=>			'En HTML-färg, kan antingen vara i numerisk form <samp>#FF1234</samp> eller ett <a href="http://www.w3.org/TR/CSS21/syndata.html#value-def-color">CSS färgnyckelord</a> så som <samp>fuchsia</samp> eller <samp>InactiveBorder</samp>.',
 	),
 ));
