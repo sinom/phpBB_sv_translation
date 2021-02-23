@@ -235,8 +235,8 @@ $lang = array_merge($lang, array(
 	'FOES_UPDATED'				=> 'Din lista över ignorerade användare uppdaterades.',
 	'FOLDER_ADDED'				=> 'Katalogen lades till.',
 	'FOLDER_MESSAGE_STATUS'	=>	array(
-		1	=>			'%2$d utav %1$s lagrade',
-		2	=>			'%2$d utav %1$s lagrade',
+		1	=>			'%2$d av %1$s lagrade',
+		2	=>			'%2$d av %1$s lagrade',
 	),
 	'FOLDER_NAME_EMPTY'			=> 'Du måste ange ett namn för denna katalog.',
 	'FOLDER_NAME_EXIST'			=> 'Katalogen <strong>%s</strong> finns redan.',
@@ -574,7 +574,7 @@ $lang = array_merge($lang, array(
 	'UCP_USERGROUPS_MEMBER'		=> 'Ändra medlemskap',
 	'UCP_USERGROUPS_MANAGE'		=> 'Hantera grupper',
 
-	'UCP_PASSWORD_RESET_DISABLED'	=> 'Återställninga utav lösenord har blivit inaktiverat. Om du behöver hjälp med att logga in på forumet, vänligen kontakta %sForum forumadministratör%s',
+	'UCP_PASSWORD_RESET_DISABLED'	=> 'Återställninga av lösenord har blivit inaktiverat. Om du behöver hjälp med att logga in på forumet, vänligen kontakta %sForum forumadministratör%s',
 	'UCP_REGISTER_DISABLE'			=> 'Det går inte att skapa nya konton just nu.',
 	
 	'UCP_RESEND'					=> 'Skicka e-postmeddelande om aktivering.',
