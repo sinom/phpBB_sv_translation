@@ -85,14 +85,14 @@ $lang = array_merge($lang, array(
 	'WORD_IN_NO_POST'		=> 'Inga inlägg hittades eftersom ordet <strong>%s</strong> inte finns i något inlägg.',
 	'WORDS_IN_NO_POST'		=> 'Inga inlägg hittades eftersom orden <strong>%s</strong> inte finns i något inlägg.',
 
-	'POST_CHARACTERS'		=> 'tecknen av inlägget',
-	'PHRASE_SEARCH_DISABLED'	=> 'Sökning utav exakta fraser är inte tillgängligt på detta forum.',
+	'POST_CHARACTERS'		=> 'tecken av inlägget',
+	'PHRASE_SEARCH_DISABLED'	=> 'Sökning av exakta fraser är inte tillgängligt på detta forum.',
 
 	'RECENT_SEARCHES'		=> 'Senaste sökningarna',
 	'RESULT_DAYS'			=> 'Begränsa resultaten till inlägg nyare än',
 	'RESULT_SORT'			=> 'Sortera resultat efter',
 	'RETURN_FIRST'			=> 'Skriv ut första',
-	'RETURN_FIRST_EXPLAIN'	=> 'Ställ på 0 för att visa hela inlägget.',
+	'RETURN_FIRST_EXPLAIN'	=> 'Ställ in till 0 för att visa hela inlägget.',
 	'GO_TO_SEARCH_ADV'	=> 'Gå till avancerad sökning',
 
 	'SEARCHED_FOR'				=> 'Sökterm använd',
@@ -118,7 +118,7 @@ $lang = array_merge($lang, array(
 	'SORT_AUTHOR'				=> 'Författare',
 	'SORT_DESCENDING'			=> 'Fallande',
 	'SORT_FORUM'				=> 'Kategori',
-	'SORT_POST_SUBJECT'			=> 'Inläggämne',
+	'SORT_POST_SUBJECT'			=> 'Inläggsämne',
 	'SORT_TIME'					=> 'Datum',
 	'SPHINX_SEARCH_FAILED'		=> 'Sökningen misslyckades: %s',
 	'SPHINX_SEARCH_FAILED_LOG'	=> 'Ursäkta, sökningen lyckades inte. Mer information om detta finns att läsa i error loggen.',
