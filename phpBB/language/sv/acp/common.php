@@ -233,7 +233,7 @@ $lang = array_merge($lang, array(
 
 
 
-	'CONTAINER_EXCEPTION' => 'phpBB påträffade ett fel under skapandet utav behållaren på grund av ett installerat tillägg, således har alla tillägg tillfälligt blivit avstängda. Försök rensa ditt forums cache. Alla tillägg kommer automatiskt att återaktiveras när felet är löst. Om felet kvarstår, vänligen besök <a href="https://www.phpbb.com/support">phpBB.com</a> för support.',
+	'CONTAINER_EXCEPTION' => 'phpBB påträffade ett fel under skapandet av behållaren på grund av ett installerat tillägg, således har alla tillägg tillfälligt blivit avstängda. Försök rensa ditt forums cache. Alla tillägg kommer automatiskt att återaktiveras när felet är löst. Om felet kvarstår, vänligen besök <a href="https://www.phpbb.com/support">phpBB.com</a> för support.',
 	'EXCEPTION' => 'Undantag', 
 
 	'COLOUR_SWATCH'			=> 'Karta över webbsäkra färger',
@@ -304,7 +304,7 @@ $lang = array_merge($lang, array(
 
 	'RELEASE_ANNOUNCEMENT'		=> 'Tillkännagivande', 
 	'REMIND'							=> 'Påminn',
-	'REPARSE_LOCK_ERROR'				=> 'Omtolkning pågår redan utav en annan process.', 
+	'REPARSE_LOCK_ERROR'				=> 'Omtolkning pågår redan av en annan process.', 
 	'RESYNC'							=> 'Synkronisera',
 
 	'RUNNING_TASK'			=> 'Pågående aktivitet: %s.',
@@ -583,9 +583,9 @@ $lang = array_merge($lang, array(
 
 	'LOG_APPROVE_TOPIC'			=> '<strong>Godkände tråd</strong><br />» %s',
 	'LOG_BUMP_TOPIC'			=> '<strong>Användare knuffade upp tråd</strong><br />» %s',
-	'LOG_DELETE_POST'			=> '<strong>Tog bort inlägget “%1$s” skrivet utav “%2$s” med följande anledning</strong><br />» %3$s',
+	'LOG_DELETE_POST'			=> '<strong>Tog bort inlägget “%1$s” skrivet av “%2$s” med följande anledning</strong><br />» %3$s',
 	'LOG_DELETE_SHADOW_TOPIC'	=> '<strong>Tog bort skuggtråd</strong><br />» %s',
-	'LOG_DELETE_TOPIC'			=> '<strong>Tog bort tråd “%1$s” skriven av “%2$s” på grund utav följande anledning</strong><br />» %3$s',
+	'LOG_DELETE_TOPIC'			=> '<strong>Tog bort tråd “%1$s” skriven av “%2$s” med följande anledning</strong><br />» %3$s',
 	'LOG_FORK'					=> '<strong>Kopierade tråd</strong><br />» från %s',
 	'LOG_LOCK'					=> '<strong>Låste tråd</strong><br />» %s',
 	'LOG_LOCK_POST'				=> '<strong>Låste inlägg</strong><br />» %s',
@@ -595,20 +595,20 @@ $lang = array_merge($lang, array(
 	'LOG_PM_REPORT_CLOSED'		=> '<strong>Stängde rapport av pm</strong><br />» %s',
 	'LOG_PM_REPORT_DELETED'		=> '<strong>Raderade rapport av pm</strong><br />» %s',
 	'LOG_POST_APPROVED'			=> '<strong>Godkände inlägg</strong><br />» %s',
-	'LOG_POST_DISAPPROVED'		=> '<strong>Avslog inlägg “%1$s” skriven utav “%3$s” med följande anledning</strong><br />» %2$s',
+	'LOG_POST_DISAPPROVED'		=> '<strong>Avslog inlägg “%1$s” skriven av “%3$s” med följande anledning</strong><br />» %2$s',
 	'LOG_POST_EDITED'			=> '<strong>Redigerade inlägg “%1$s” skrivet av “%2$s” med följande anledning</strong><br />» %3$s',
 	'LOG_POST_RESTORED'			=> '<strong>Återställda inlägg</strong><br />» %s',
 	'LOG_REPORT_CLOSED'			=> '<strong>Stängde rapport</strong><br />» %s',
 	'LOG_REPORT_DELETED'		=> '<strong>Tog bort rapport</strong><br />» %s',
-	'LOG_RESTORE_TOPIC'			=> '<strong>Återställda inlägg “%1$s” skrivna utav</strong><br />» %2$s',
-	'LOG_SOFTDELETE_POST'		=> '<strong>Mjukborttagna inlägget “%1$s” skrivet utav “%2$s” på grund utav följande anledning</strong><br />» %3$s',
-	'LOG_SOFTDELETE_TOPIC'		=> '<strong>Mjukborttagen tråd “%1$s” skriven utav “%2$s” på grund utav följande anledning</strong><br />» %3$s',
+	'LOG_RESTORE_TOPIC'			=> '<strong>Återställda inlägg “%1$s” skrivna av</strong><br />» %2$s',
+	'LOG_SOFTDELETE_POST'		=> '<strong>Mjukborttagna inlägget “%1$s” skrivet av “%2$s” med följande anledning</strong><br />» %3$s',
+	'LOG_SOFTDELETE_TOPIC'		=> '<strong>Mjukborttagen tråd “%1$s” skriven av “%2$s” med följande anledning</strong><br />» %3$s',
 	'LOG_SPLIT_DESTINATION'		=> '<strong>Flyttade delade inlägg</strong><br />» till %s',
 	'LOG_SPLIT_SOURCE'			=> '<strong>Delade inlägg</strong><br />» från %s',
 
 	'LOG_TOPIC_APPROVED'		=> '<strong>Godkände tråd</strong><br />» %s',
 	'LOG_TOPIC_RESTORED'		=> '<strong>Återställda trådar</strong><br />» %s',
-	'LOG_TOPIC_DISAPPROVED'		=> '<strong>Avslog tråd “%1$s” skriven utav “%3$s” med följande anledning</strong><br />%2$s',
+	'LOG_TOPIC_DISAPPROVED'		=> '<strong>Avslog tråd “%1$s” skriven av “%3$s” med följande anledning</strong><br />%2$s',
 	'LOG_TOPIC_RESYNC'			=> '<strong>Synkroniserade trådräknare</strong><br />» %s',
 	'LOG_TOPIC_TYPE_CHANGED'	=> '<strong>Ändrade trådtyp</strong><br />» %s',
 	'LOG_UNLOCK'				=> '<strong>Låste upp tråd</strong><br />» %s',
@@ -731,7 +731,7 @@ $lang = array_merge($lang, array(
 	'LOG_REASON_REMOVED'	=> '<strong>Tog bort rapport/avslagsanledning</strong><br />» %s',
 	'LOG_REASON_UPDATED'	=> '<strong>Uppdaterade rapport/avslagsanledning</strong><br />» %s',
 
-	'LOG_REFERER_INVALID'		=> '<strong>Hänvisningarkontroll misslyckades</strong><br />Â»Hänvisare var â€œ<em>%1$s</em>â€. Förfrågningen nekades och sessionen dödades.',
+	'LOG_REFERER_INVALID'		=> '<strong>Hänvisningarkontroll misslyckades</strong><br />»Hänvisaren var “<em>%1$s</em>”. Förfrågningen nekades och sessionen dödades.',
 	'LOG_RESET_DATE'			=> '<strong>Forumets startdatum återställt</strong>',
 	'LOG_RESET_ONLINE'			=> '<strong>Räknaren för flest användare online samtidigt återställdes</strong>',
 	'LOG_RESYNC_FILES_STATS'	=> '<strong>Statistiken för filerna synkroniserades</strong>',
@@ -779,7 +779,7 @@ $lang = array_merge($lang, array(
 	'LOG_USER_BAN_IP'		=> '<strong>Bannlyste IP-adress via användarhanteringen</strong> med anledningen “<em>%1$s</em>”<br />» %2$s',
 	'LOG_USER_BAN_EMAIL'	=> '<strong>Bannlyste e-postadress via användarhanteringen</strong> med anledningen “<em>%1$s</em>”<br />» %2$s',
 	'LOG_USER_DELETED'		=> '<strong>Tog bort användare</strong><br />» %s',
-	'LOG_USER_DEL_ATTACH'	=> '<strong>Tog bort alla användarens bifogade filer</strong><br />» %s',
+	'LOG_USER_DEL_ATTACH'	=> '<strong>Tog bort alla filer bifogade av användaren</strong><br />» %s',
 	'LOG_USER_DEL_AVATAR'	=> '<strong>Tog bort användarens profilbild</strong><br />» %s',
 	'LOG_USER_DEL_OUTBOX'	=> '<strong>Tömde utkorgen</strong><br />» %s',
 	'LOG_USER_DEL_POSTS'	=> '<strong>Tog bort alla inlägg gjorda av användaren</strong><br />» %s',
