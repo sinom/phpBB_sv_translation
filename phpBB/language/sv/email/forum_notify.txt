@@ -2,7 +2,7 @@
 
 Hej {USERNAME},
 
-Du får detta meddelande för att du bevakar kategorin "{FORUM_NAME}" på "{SITENAME}". Denna kategori har fått ett nytt svar i tråden "{TOPIC_TITLE}"<!-- IF AUTHOR_NAME !== '' --> utav {AUTHOR_NAME}<!-- ENDIF -->  sedan ditt senaste besök. Du kan använda följande länk för att visa det senaste olästa svaret, inga fler meddelanden kommer att skickas till dig förrän du besökt tråden.
+Du får detta meddelande för att du bevakar kategorin "{FORUM_NAME}" på "{SITENAME}". Denna kategori har fått ett nytt svar i tråden "{TOPIC_TITLE}"<!-- IF AUTHOR_NAME !== '' --> av {AUTHOR_NAME}<!-- ENDIF -->  sedan ditt senaste besök. Du kan använda följande länk för att visa det senaste olästa svaret, inga fler meddelanden kommer att skickas till dig förrän du besökt tråden.
 
 {U_NEWEST_POST}
 
