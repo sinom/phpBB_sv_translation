@@ -239,9 +239,9 @@ $lang = array_merge($lang, array(
 	'COLOUR_SWATCH'			=> 'Karta över webbsäkra färger',
 	'CONFIG_UPDATED'		=> 'Konfigurationen uppdaterades.',
 	'CRON_LOCK_ERROR'		=> 'Kunde ej hämta cron-spärr.',
-	'CRON_NO_SUCH_TASK'		=> 'Kund ej hitta cron-aktiviteten “%s”.',
+	'CRON_NO_SUCH_TASK'		=> 'Kunde ej hitta cron-aktiviteten “%s”.',
 	'CRON_NO_TASK'			=> 'Ingen cron-aktivitet måste utföras nu.',
-	'CRON_NO_TASKS'			=> 'Kund ej hitta cron-aktiviteter.',
+	'CRON_NO_TASKS'			=> 'Kunde ej hitta cron-aktiviteter.',
 	'CSV_INVALID'			=> 'Den angivna kommaseparerade inställningen “%1$s” är ogiltig. Värdena bör endast avgränsas med kommatecken, det bör inte innehålla några ledande eller efterföljande avgränsare.',
 	'CURRENT_VERSION'		=> 'Nuvarande version', 
 
