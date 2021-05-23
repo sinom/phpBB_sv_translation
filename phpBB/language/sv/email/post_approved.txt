@@ -1,4 +1,4 @@
-Subject: Inlägg godkänt — "{POST_SUBJECT}"
+Ämne: Inlägg godkänt — "{POST_SUBJECT}"
 
 Hej {USERNAME},
 

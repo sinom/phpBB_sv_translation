@@ -1,4 +1,4 @@
-Subject: Rapport borttagen - "{PM_SUBJECT}"
+Ämne: Rapport borttagen - "{PM_SUBJECT}"
 
 Hej {USERNAME},
 

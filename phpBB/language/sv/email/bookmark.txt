@@ -1,4 +1,4 @@
-Subject: Svar i - "{TOPIC_TITLE}"
+Ämne: Svar i - "{TOPIC_TITLE}"
 
 Hello {USERNAME},
 
