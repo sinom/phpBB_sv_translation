@@ -1,8 +1,8 @@
-Subject: Tråd avslagen — "{TOPIC_TITLE}"
+Ämne: Tråd avslagen — "{TOPIC_TITLE}"
 
 Hej {USERNAME},
 
-Du får detta meddelande för att din tråd "{TOPIC_TITLE}" på "{SITENAME}" har avslagits av en moderator eller administratör.
+Ditt ämne "{TOPIC_TITLE}" på "{SITENAME}" avvisades av en moderator eller administratör.
 
 Följande skäl gavs:
 

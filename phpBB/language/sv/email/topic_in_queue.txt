@@ -1,13 +1,13 @@
-Subject: Topic moderation notification - "{TOPIC_TITLE}"
+Ämne: Ämnet behöver godkännas - "{TOPIC_TITLE}"
 
-Hello {USERNAME},
+Hej {USERNAME},
 
-You are receiving this notification because the topic "{TOPIC_TITLE}" at "{SITENAME}" needs approval.
+Ämnet "{TOPIC_TITLE}" på "{SITENAME}" behöver godkännas.
 
-If you want to view the topic, click the following link:
+Om du vill se ämnet, klicka på följande länk:
 {U_VIEW_TOPIC}
 
-If you want to view the forum, click the following link:
+Om du vill se forumet klickar du på följande länk:
 {U_FORUM}
 
 {EMAIL_SIG}

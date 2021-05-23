@@ -1,9 +1,8 @@
-Ämne: Meddelande om nytt inlägg i kategori — "{FORUM_NAME}"
+Ämne: Svar i — "{FORUM_NAME}"
 
 Hej {USERNAME},
 
-Du får detta meddelande för att du bevakar kategorin "{FORUM_NAME}" på "{SITENAME}". Denna kategori har fått ett nytt svar i tråden "{TOPIC_TITLE}"<!-- IF AUTHOR_NAME !== '' --> av {AUTHOR_NAME}<!-- ENDIF -->  sedan ditt senaste besök. Du kan använda följande länk för att visa det senaste olästa svaret, inga fler meddelanden kommer att skickas till dig förrän du besökt tråden.
-
+"{FORUM_NAME}" fick ett nytt svar på ämnet "{TOPIC_TITLE}"<!-- IF AUTHOR_NAME != '' --> by {AUTHOR_NAME}<!-- ENDIF --> sedan ditt senaste besök i "{SITENAME}". Inga fler meddelanden skickas förrän du besöker ämnet.
 {U_NEWEST_POST}
 
 Om du vill besöka tråden, klicka på följande länk:

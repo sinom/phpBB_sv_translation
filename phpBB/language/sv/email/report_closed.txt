@@ -2,10 +2,9 @@
 
 Hej {USERNAME},
 
-Du får detta meddelande eftersom rapporten du gjorde angående inlägget "{POST_SUBJECT}" i "{TOPIC_TITLE}" på "{SITENAME}" och som nu har hanterats av en moderator eller administratör. Rapporten har markerats som avklarad och stängd. Kontakta {CLOSER_NAME} med ett personligt meddelande om du har några frågor.
+Rapporten som du lämnade in på inlägget "{POST_SUBJECT}" av "{AUTHOR_NAME}" i "{TOPIC_TITLE}" på "{SITENAME}" hanterades av en moderator eller av en administratör. Rapporten stängdes därefter. Om du har ytterligare frågor kontakta {CLOSER_NAME} med ett privat meddelande..
 
 Du kan se ditt rapporterade inlägg genom att klicka på följande länk:
-
 {U_VIEW_POST}
 
 Du har begärt att du får ett meddelande om detta evenemang. Kom ihåg att du alltid kan välja att inte bli meddelad om rapporter om slutna inlägg genom att ändra lämplig inställning i din profil.

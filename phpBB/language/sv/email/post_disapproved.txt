@@ -2,10 +2,9 @@ Subject: Inlägg avslaget — "{POST_SUBJECT}"
 
 Hej {USERNAME},
 
-Du får detta meddelande för att ditt inlägg "{POST_SUBJECT}" på "{SITENAME}" avslagits av en moderator eller administratör.
+Ditt inlägg "{POST_SUBJECT}" på "{SITENAME}" avvisades av en moderator eller administratör.
 
 Följande skäl gavs:
-
 {REASON}
 
 {EMAIL_SIG}

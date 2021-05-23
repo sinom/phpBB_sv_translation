@@ -101,6 +101,7 @@ $lang = array_merge($lang, array(
 	'AUTH_PROVIDER_OAUTH_ERROR_INVALID_ENTRY'				=> 'Ogiltlig databasquery.',
 	'AUTH_PROVIDER_OAUTH_ERROR_INVALID_SERVICE_TYPE'		=> 'Ogiltlig tjänst av OAuth.',
 	'AUTH_PROVIDER_OAUTH_ERROR_REQUEST'						=> 'Något gick fel när du behandlade din OAuth-begäran.',
+	'AUTH_PROVIDER_OAUTH_RETURN_ERROR'						=> 'Den externa tjänsten returnerade fel värde, därför kan din begäran inte behandlas.',
 	'AUTH_PROVIDER_OAUTH_ERROR_SERVICE_NOT_CREATED'			=> 'OAuthtjänst är inte skapad',
 	'AUTH_PROVIDER_OAUTH_SERVICE_BITLY'						=> 'Bitly',
 	'AUTH_PROVIDER_OAUTH_SERVICE_FACEBOOK'					=> 'Facebook',

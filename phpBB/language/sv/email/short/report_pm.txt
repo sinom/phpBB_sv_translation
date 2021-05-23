@@ -1,8 +1,8 @@
-Subject: Privat meddelanderapport - "{TOPIC_TITLE}"
+Ämne: Privat meddelanderapport - "{TOPIC_TITLE}"
 
 Hej {USERNAME},
 
-Du får det här meddelandet eftersom ett privat meddelande med titeln "{SUBJECT}" av "{AUTHOR_NAME}" på "{SITENAME}" rapporterades.
+Ett privat meddelande med titeln "{SUBJECT}" av "{AUTHOR_NAME}" vid "{SITENAME}" rapporterades.
 
 If you vill du se rapporten, klicka på följande länk:
 {U_VIEW_REPORT}

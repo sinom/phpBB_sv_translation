@@ -1,14 +1,11 @@
-Subject: Meddelande om ny tråd — "{FORUM_NAME}"
+Ämne: Ny tråd i — "{FORUM_NAME}"
 
 Hej {USERNAME},
 
-Du får detta meddelande för att du bevakar kategorin "{FORUM_NAME}" på "{SITENAME}". Det har skapats en ny tråd<!-- IF AUTHOR_NAME !== '' --> av {AUTHOR_NAME}<!-- ENDIF --> sedan ditt senaste besök som heter "{TOPIC_TITLE}".
-Du kan använda följande länk för att besöka denna kategori, inga fler meddelanden kommer att skickas till dig förrän du besökt kategorin.
-
+Forumet "{FORUM_NAME}" fick ett nytt ämne "{TOPIC_TITLE}"<!-- IF AUTHOR_NAME != '' --> by {AUTHOR_NAME}<!-- ENDIF --> sedan ditt senaste besök i "{SITENAME} ". Inga fler meddelanden skickas förrän du besöker forumet.
 {U_FORUM}
 
-Om du inte längre vill bevaka denna kategori kan du antingen klicka på "Sluta bevaka denna kategori"-länken som du hittar i kategorin ovan, eller genom att klicka på följande länk:
-
+Om du inte längre vill se detta forum klickar du på följande länk:
 {U_STOP_WATCHING_FORUM}
 
 {EMAIL_SIG}

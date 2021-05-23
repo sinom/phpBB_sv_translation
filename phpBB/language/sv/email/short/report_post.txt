@@ -1,8 +1,8 @@
-Subject: Inläggsrapport - "{TOPIC_TITLE}"
+Ämne: Inläggsrapport - "{TOPIC_TITLE}"
 
 Hej {USERNAME},
 
-Du får det här meddelandet eftersom inlägg "{POST_SUBJECT}" på "{SITENAME}" rapporterades.
+Inlägget "{POST_SUBJECT}" vid "{SITENAME}" rapporterades..
 
 Om du vill du se rapporten, klicka på följande länk:
 {U_VIEW_REPORT}

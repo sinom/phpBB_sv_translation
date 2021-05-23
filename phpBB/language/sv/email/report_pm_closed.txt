@@ -2,10 +2,9 @@
 
 Hallå {USERNAME},
 
-Du får detta meddelande på grund av den rapport du skickade in på det privata meddelandet "{SUBJECT}" av "{AUTHOR_NAME}" på "{SITENAME}" hanterades av en moderator eller av en administratör. Rapporten stängdes därefter. Om du har ytterligare frågor kontakta {CLOSER_NAME} med ett personligt meddelande.
+Rapporten som du lämnade in på det privata meddelandet "{SUBJECT}" av "{AUTHOR_NAME}" vid "{SITENAME}" hanterades av en moderator eller av en administratör. Rapporten stängdes därefter. Om du har ytterligare frågor kontakta {CLOSER_NAME} med ett privat meddelande.
 
 Du kan se ditt rapporterade privata meddelande genom att klicka på följande länk:
-
 {U_VIEW_MESSAGE}
 
 Du har begärt att du får ett meddelande om detta evenemang. Kom ihåg att du alltid kan välja att inte bli meddelad om avslutade privata meddelanderapporter genom att ändra lämplig inställning i din profil.

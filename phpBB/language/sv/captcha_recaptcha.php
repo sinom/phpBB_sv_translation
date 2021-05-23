@@ -53,10 +53,11 @@ $lang = array_merge($lang, [
 	'CAPTCHA_RECAPTCHA'				=> 'reCaptcha v2',
 	'CAPTCHA_RECAPTCHA_V3'			=> 'reCaptcha v3',
 
-	'RECAPTCHA_INCORRECT'			=> 'Den visuella konfirmationskoden som du angav är felaktig',
-	'RECAPTCHA_NOSCRIPT'			=> 'Vänligen aktivera JavaScript i din webbläsare för att ladda reCaptcha.',
-	'RECAPTCHA_NOT_AVAILABLE'		=> 'Du behöver ett konto på <a href="https://www.google.com/recaptcha">www.google.com/recaptcha</a> för att kunna använda reCaptcha.',
-	'RECAPTCHA_INVISIBLE'			=> 'Denna CAPTCHA är faktiskt osynlig. För att verifiera att det fungerar bör en liten ikon visas i det nedre högra hörnet av denna sida.',
+	'RECAPTCHA_INCORRECT'				=> 'Den visuella konfirmationskoden som du angav är felaktig',
+	'RECAPTCHA_NOSCRIPT'				=> 'Vänligen aktivera JavaScript i din webbläsare för att ladda reCaptcha.',
+	'RECAPTCHA_NOT_AVAILABLE'			=> 'Du behöver ett konto på <a href="https://www.google.com/recaptcha">www.google.com/recaptcha</a> för att kunna använda reCaptcha.',
+	'RECAPTCHA_INVISIBLE'				=> 'Denna CAPTCHA är faktiskt osynlig. För att verifiera att det fungerar bör en liten ikon visas i det nedre högra hörnet av denna sida.',
+	'RECAPTCHA_V3_LOGIN_ERROR_ATTEMPTS'	=> 'Du har överskridit maximalt antal tillåtna inloggningsförsök. <br> Förutom ditt användarnamn och lösenord kommer den osynliga reCAPTCHA v3 att användas för att autentisera din session.',
 
 	'RECAPTCHA_PUBLIC'				=> 'Site key',
 	'RECAPTCHA_PUBLIC_EXPLAIN'		=> 'Din sid-reCaptcha nyckel. Nycklar kan erhållas på <a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a>. Använd reCAPTCHA v2 &gt; Osynlig typ av reCAPTCHA-märke.',

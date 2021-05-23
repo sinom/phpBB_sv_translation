@@ -1,8 +1,8 @@
-Subject: Tråd godkänd — "{TOPIC_TITLE}"
+Ämne: Tråd godkänd — "{TOPIC_TITLE}"
 
 Hej {USERNAME},
 
-Du får detta meddelande för att din tråd "{TOPIC_TITLE}" på "{SITENAME}" har godkänts av en moderator eller administratör.
+Your topic "{TOPIC_TITLE}" at "{SITENAME}" was approved by a moderator or administrator.
 
 Om du vill besöka tråden, klicka på följande länk:
 {U_VIEW_TOPIC}

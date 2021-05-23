@@ -1,13 +1,13 @@
-Subject: Post report - "{TOPIC_TITLE}"
+Ämne: Inläggsrapport - "{TOPIC_TITLE}"
 
-Hello {USERNAME},
+Hej {USERNAME},
 
-You are receiving this notification because the post "{POST_SUBJECT}" at "{SITENAME}" was reported.
+Inlägget "{POST_SUBJECT}" vid "{SITENAME}" rapporterades.
 
-If you want to view the report, click the following link:
+Om du vill se rapporten klickar du på följande länk:
 {U_VIEW_REPORT}
 
-If you want to view the post, click the following link:
+Om du vill se inlägget klickar du på följande länk:
 {U_VIEW_POST}
 
 {EMAIL_SIG}
