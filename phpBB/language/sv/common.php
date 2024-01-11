@@ -2,7 +2,7 @@
 /**
 *
 * This file is part of Swedish phpBB translation.
-* Copyright (c) 2010 - 2021 Swedish translation group.
+* Copyright (c) 2010 - 2023 Swedish translation group.
 *
 *
 * For more information about the language pack, please visit
@@ -46,7 +46,7 @@ if (empty($lang) || !is_array($lang))
 //
 
 $lang = array_merge($lang, array(
-	'TRANSLATION_INFO'	=> 'Swedish translation by <a href="http://www.phpbb.se/">phpBB Sweden</a> &copy; 2006-2020',
+	'TRANSLATION_INFO'	=> 'Swedish translation by <a href="http://www.phpbb.se/">phpBB Sweden</a> &copy; 2006-2023',
 	'DIRECTION'			=> 'ltr',
 	'DATE_FORMAT'		=> '|d M Y|',	// 01 Jan 2007 (with Relative days enabled)
 	'DATETIME_FORMAT'	=> '|d M Y, H:i|',	// 01 Jan 2007, 13:37 (with Relative days enabled)
@@ -438,6 +438,7 @@ $lang = array_merge($lang, array(
 	'MESSAGE'				=> 'Meddelande',
 	'MESSAGES'				=> 'Meddelanden',
 	'MESSAGES_COUNT'	=>	array(
+		0	=> 			'oändligt med meddelanden',
 		1	=>			'%d meddelande',
 		2	=>			'%d meddelanden',
 	),
@@ -608,7 +609,7 @@ $lang = array_merge($lang, array(
 	'POSTS_UNAPPROVED_FORUM'=> 'Minst ett inlägg i detta forum har inte godkänts.',
 	'POST_BY_AUTHOR'		=> 'av',
 	'POST_BY_FOE'			=> '<strong>%1$s</strong> som är på din lista över ignorerade användare, gjorde detta inlägg.',
-	'POST_DISPLAY'			=> '%1$sVisa detta inlägg%2$s.',
+	'POST_DISPLAY'			=> 'Visa detta inlägg',
 	'POST_DAY'				=> '%.2f inlägg per dag',
 	'POST_DELETED_ACTION'	=> 'Borttagna inlägg:',
 	'POST_DELETED'			=> 'Detta inlägg har blivit borttaget.',
@@ -682,6 +683,10 @@ $lang = array_merge($lang, array(
 	'RETURN_TOPIC'				=> '%sÅtergå till tråden du senast besökte%s',
 	'RETURN_TO'					=> 'Återgå till "%s"',
 	'RETURN_TO_INDEX'			=> 'Återgå till forumindex',
+
+	'ROUTE_NOT_FOUND'				=> 'Den begärda rutten "%s" kunde inte hittas.',
+	'ROUTE_INVALID_MISSING_PARAMS'	=> 'Ogiltiga eller saknade parametrar har skickats för rutten "%s".',
+
 	'FEED'						=> 'Flöde',
 	'FEED_NEWS'					=> 'Nyheter',
 	'FEED_TOPICS_ACTIVE'		=> 'Aktiva trådar',
