@@ -2,7 +2,7 @@
 /**
 *
 * This file is part of Swedish phpBB translation.
-* Copyright (c) 2010 - 2024 Swedish translation group.
+* Copyright (c) 2010 - 2022 Swedish translation group.
 *
 *
 * For more information about the language pack, please visit

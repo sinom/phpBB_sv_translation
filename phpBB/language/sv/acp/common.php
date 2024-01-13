@@ -742,6 +742,10 @@ $lang = array_merge($lang, array(
 	'LOG_SEARCH_INDEX_CREATED'	=> '<strong>Skapade sökindex för</strong><br />» %s',
 	'LOG_SEARCH_INDEX_REMOVED'	=> '<strong>Tog bort sökindex för</strong><br />» %s',
 	'LOG_SPHINX_ERROR'			=> '<strong>Sphinx Error</strong><br />» %s',
+
+	'LOG_SPAMHAUS_OPEN_RESOLVER'		=> 'Spamhaus tillåter inte frågor som använder en öppen lösning. Kontroll av svartlista har inaktiverats. För mer information, se https://www.spamhaus.com/product/help-for-spamhaus-public-mirror-users/.',
+	'LOG_SPAMHAUS_VOLUME_LIMIT'			=> 'Spamhaus-frågaevolymgräns har överskridits. Kontroll av svartlista har inaktiverats. För mer information, se https://www.spamhaus.com/product/help-for-spamhaus-public-mirror-users/.',
+
 	'LOG_STYLE_ADD'				=> '<strong>Lade till ny stil</strong><br />» %s',
 	'LOG_STYLE_DELETE'			=> '<strong>Tog bort stil</strong><br />» %s',
 	'LOG_STYLE_EDIT_DETAILS'	=> '<strong>Ändrade stil</strong><br />» %s',

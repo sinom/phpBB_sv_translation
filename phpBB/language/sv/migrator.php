@@ -82,5 +82,6 @@ $lang = array_merge($lang, array(
 	'PARENT_MODULE_FIND_ERROR'			=> 'Kan ej avgöra föräldra-modulens identifierare: %s', 
 	'PERMISSION_NOT_EXIST'				=> 'Behörighetsinställningarna "%s" verkar inte finnas.',
 
+	'ROLE_ASSIGNED_NOT_EXIST'			=> 'Behörighetsroppen till gruppen "%1$s" verkar inte finnas. Rollid: "%2$s"',
 	'ROLE_NOT_EXIST'					=> 'Behörighetsrollen "%s" verkar inte finnas.',
 ));

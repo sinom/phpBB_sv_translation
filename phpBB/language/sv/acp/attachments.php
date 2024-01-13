@@ -181,4 +181,5 @@ $lang = array_merge($lang, array(
 	'UPLOAD_DIR_EXPLAIN'			=> 'Lagringssökväg för bilagor. Observera att om du ändrar denna katalog och bilagor redan laddats upp så måste du kopiera de gamla filerna till den nya platsen.',
 	'UPLOAD_ICON'					=> 'Uppladdningsikon',
 	'UPLOAD_NOT_DIR'				=> 'Uppladdningsplatsen du angav verkar inte vara en katalog.',
+	'UPLOAD_POST_NOT_EXIST'			=> 'Filen “%1$s” kan inte laddas upp till inläggsnummer %2$d då inlägget inte existerar.',
 ));

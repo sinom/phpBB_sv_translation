@@ -386,7 +386,7 @@ $lang = array_merge($lang, array(
 	'ACP_LOAD_SETTINGS_EXPLAIN'	=> 'Här kan du aktivera och inaktivera vissa forumfunktioner för att minska mängden databehandling som krävs. På de flesta servrar så är det inte nödvändigt att inaktivera någon av dessa funktioner. På vissa system eller i delade webbhotellsmiljöer kan det vara bra att inaktivera funktioner som du inte behöver. Du kan också ange gränser för systembelastning och aktiva sessioner som när de överträds så kommer forumet att gå offline.',
 
 	'ALLOW_CDN'						=> 'Tillåt användningen av tredje-parts innehållsleveransnätverk.',
-	'ALLOW_CDN_EXPLAIN'				=> 'Om denna inställning är aktiverad, några filer kommer att hanterade av tredje parts servrar iställer för din egna webbserver. Detta reducerar bandbredden som krävs av din server, men kan vara en säkerhetsrisk för vissa administratörer.',
+	'ALLOW_CDN_EXPLAIN'				=> 'Om den här inställningen är aktiverad kommer vissa filer att serveras från externa tredjepartsservrar istället för din server. Detta minskar nätverksbandbredden som används av din server, men kan utgöra ett sekretessproblem i vissa länder. I en standard phpBB-installation inkluderar detta att ladda "jQuery" och typsnittet "Open Sans" från Googles innehållsleveransnätverk. Detta gäller även typsnittet "Font Awesome", som phpBB och vissa tillägg använder för att rendera ikoner.',
 	'ALLOW_LIVE_SEARCHES'			=> 'Tillåt live-sökning',
 	'ALLOW_LIVE_SEARCHES_EXPLAIN'	=> 'Aktiveras denna inställning så kommer användarna att få förslag på nyckelord medan de skriver i vissa fält i forumet.',
 	'CUSTOM_PROFILE_FIELDS'			=> 'Egna profilfält',
@@ -486,7 +486,7 @@ $lang = array_merge($lang, array(
 	'SCRIPT_PATH'				=> 'Skriptsökväg',
 	'SCRIPT_PATH_EXPLAIN'		=> 'Sökvägen där phpBB finns relativt till domännamnet, t.ex. <samp>/phpBB3</samp>.',
 	'SERVER_NAME'				=> 'Domännamn',
-	'SERVER_NAME_EXPLAIN'		=> 'Domännamnet som detta forum körs på (t.ex. <samp>www.example.com</samp>).',
+	'SERVER_NAME_EXPLAIN'		=> 'Domännamnet som detta forum körs på (t.ex. <samp>example.com</samp>).',
 	'SERVER_PORT'				=> 'Serverport',
 	'SERVER_PORT_EXPLAIN'		=> 'Porten som din server körs på, oftast 80, ändra endast om annan.',
 	'SERVER_PROTOCOL'			=> 'Serverprotokoll',

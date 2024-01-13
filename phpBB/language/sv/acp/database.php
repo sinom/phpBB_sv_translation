@@ -75,6 +75,7 @@ $lang = array_merge($lang, array(
 	'START_RESTORE'			=> 'Starta återställningen',
 	'STORE_AND_DOWNLOAD'	=> 'Lagra och ladda ner',
 	'STORE_LOCAL'			=> 'Lagra filen lokalt',
+	'STRUCTURE_ONLY'		=> 'Endast struktur',
 
 	'TABLE_SELECT'		=> 'Välj tabeller',
 	'TABLE_SELECT_ERROR'=> 'Du måste välja minst en tabell.',
