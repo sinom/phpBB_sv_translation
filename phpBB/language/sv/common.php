@@ -175,6 +175,11 @@ $lang = array_merge($lang, array(
 		1	=>			'%d tecken',
 		2	=>			'%d tecken',
 	),
+	// Specialversion som ska användas vid beskrivning av intervall t.ex. "min x tecken och max y tecken"
+	'CHARACTERS_XY'			=> array(
+		1	=> '%d tecken',
+		2	=> '%d tecken',
+	),
 	'COLLAPSE_VIEW'			=> 'Minimera',
 	'CLOSE_WINDOW'			=> 'Stäng fönster',
 	'CODE'					=> 'Kod',

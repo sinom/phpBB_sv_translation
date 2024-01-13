@@ -63,7 +63,7 @@ $lang = array_merge($lang, array(
 
 	'ACL_NEVER'				=> 'Aldrig',
 	'ACL_SET'				=> 'Ställer in behörigheter',
-	'ACL_SET_EXPLAIN'		=> 'Behörigheter är baserade på ett enkelt <strong>JA</strong>/<strong>NEJ</strong>-system. Om du sätter ett alternativ till <strong>ALDRIG</strong> för en användare eller användargrupp så åsidosätter det alla andra värden som tilldelats. Om du inte vill tilldela ett värde för ett alternativ för denna användare eller grupp välj <strong>NEJ</strong>. Om värden är tilldelade för detta alternativ någon annan stans så kommer de att användas istället, annars kommer <strong>ALDRIG</strong> att antas. Alla markerade objekt (med kryssrutan framför de) kommer att kopiera den behörighetsuppsättning du definierat.',
+	'ACL_SET_EXPLAIN'		=> 'Behörigheter är baserade på ett enkelt <strong>JA</strong>/<strong>NEJ</strong>-system. Om du sätter ett alternativ till <strong>ALDRIG</strong> för en användare eller användargrupp så åsidosätter det alla andra värden som tilldelats. Om du inte vill tilldela ett värde för ett alternativ för denna användare eller grupp välj <strong>NEJ</strong>. Om värden är tilldelade för detta alternativ någon annan stans så kommer de att användas istället, annars kommer <strong>ALDRIG</strong> att antas. Alla markerade objekt (med kryssrutan framför de) kommer att kopiera den behörighetsuppsättning du definierat. Observera att inställning av administrativa behörigheter för grundarkonton inte har någon effekt eftersom administratörsbehörigheter alltid är inställda på <strong>JA</strong> för grundare.',
 	'ACL_SETTING'			=> 'Inställning',
 
 	'ACL_TYPE_A_'			=> 'Administrativa behörigheter',

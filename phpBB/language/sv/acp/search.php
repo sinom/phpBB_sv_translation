@@ -59,7 +59,7 @@ $lang = array_merge($lang, array(
 	'DEFAULT_SEARCH_RETURN_CHARS_EXPLAIN'	=> 'Standardantalet tecken som kommer att returneras när du söker. Ett värde på 0 kommer att returnera hela inlägget.',
 
 	'DELETE_INDEX'							=> 'Ta bort index',
-	'DELETING_INDEX_IN_PROGRESS'			=> 'Indexborttagning pågår',
+	'DELETING_INDEX_IN_PROGRESS'			=> 'Borttagning av index pågår...',
 	'DELETING_INDEX_IN_PROGRESS_EXPLAIN'	=> 'Söksystemet rensar för närvarande indexet. Detta kan ta några minuter.',
 
 	'FULLTEXT_MYSQL_INCOMPATIBLE_DATABASE'	=> 'MySQL fulltextsystemet kan endast användas med MySQL4 och senare.',
@@ -99,7 +99,7 @@ $lang = array_merge($lang, array(
 	'GO_TO_SEARCH_INDEX'					=> 'Gå till sökindexsidan',
 
 	'INDEX_STATS'							=> 'Indexstatistik',
-	'INDEXING_IN_PROGRESS'					=> 'Indexering pågår',
+	'INDEXING_IN_PROGRESS'					=> 'Indexering pågår...',
 	'INDEXING_IN_PROGRESS_EXPLAIN'			=> 'Söksystemet indexerar för närvarande alla inlägg på forumet. Detta kan ta allt från några minuter till några timmar beroende på ditt forums storlek.',
 
 	'LIMIT_SEARCH_LOAD'						=> 'Söksystemets belastningsgräns',
@@ -119,15 +119,19 @@ $lang = array_merge($lang, array(
 	'SEARCH_GUEST_INTERVAL'					=> 'Tid mellan gästsökningar',
 	'SEARCH_GUEST_INTERVAL_EXPLAIN'			=> 'Antal sekunder gäster måste vänta mellan sökningar. Om en gäst söker så måste alla andra vänta tills tidsintervallen passerats.',
 	'SEARCH_INDEX_CREATE_REDIRECT'	=>	array(
-		2	=>			'Alla inlägg fram till inlägg ID %2$d indexerades, av vilka %1$d inlägg var inom detta steg.<br />',
+		2	=>			'Alla inlägg fram till inlägg ID %2$d indexerades, av vilka %1$d inlägg var inom detta steg.',
 	),
 	'SEARCH_INDEX_CREATE_REDIRECT_RATE'	=>	array(
-		2	=>			'Den nuvarande hastigheten på indexeringen är ungefär %1$.1f inlägg per sekund.<br />Indexering pågår…',
+		2	=>			'Den nuvarande hastigheten på indexeringen är ungefär %1$.1f inlägg per sekund.',
 	),
 	'SEARCH_INDEX_DELETE_REDIRECT'	=>	array(
-		2	=>			'Alla inlägg fram till inlägg ID %2$d togs bort från sökindexet.<br />Borttagning pågår…',
+		2	=>			'Alla inlägg upp till inläggs-id %2$d har tagits bort från sökindexet, varav %1$d inlägg var inom detta steg.',
+	),
+	'SEARCH_INDEX_DELETE_REDIRECT_RATE'		=> array(
+		2	=>			'Den nuvarande raderingshastigheten är ungefär %1$.1f inlägg per sekund.',
 	),
 	'SEARCH_INDEX_CREATED'					=> 'Indexerade alla inlägg i forumets databas.',
+	'SEARCH_INDEX_PROGRESS'					=> 'Klar: %1$d | Väntande: %2$d | Totalt: %3$d',
 	'SEARCH_INDEX_REMOVED'					=> 'Tog bort sökindexet för detta system.',
 	'SEARCH_INTERVAL'						=> 'Tid mellan användarsökningar',
 	'SEARCH_INTERVAL_EXPLAIN'				=> 'Antal sekunder användare måste vänta mellan sökningar. Denna gräns kontrolleras oberoende för varje användare.',

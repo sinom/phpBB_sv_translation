@@ -50,7 +50,7 @@ $lang = array_merge($lang, array(
 
 	// Introduction page
 	'INTRODUCTION_TITLE'	=> 'Introduktion',
-	'INTRODUCTION_BODY'		=> 'Välkommen till phpBB3!<br /><br />phpBB® är den mest använda open source bulletin board-lösningen i världen. phpBB3 är den senaste installationen i en paketlinje som startades år 2000. Liksom dess föregångare är phpBB3 funktionrikt, användarvänlig och fullt stödd av phpBB-teamet. phpBB3 förbättras väsentligt på vad som gjorde phpBB2 populär, och lägger till vanligt förekommande funktioner som inte var närvarande i tidigare versioner. Vi hoppas att det överstiger dina förväntningar.<br /><br />Detta installationssystem leder dig genom att installera phpBB3, uppdatera till den senaste versionen av phpBB3 från tidigare versioner, samt konvertera till phpBB3 från ett annat diskussionssystem (inklusive phpBB2). För mer information uppmanar vi dig att läsa <a href="../docs/INSTALL.html">installationsguiden</a>.<br /><br />För att läsa phpBB3-licensen eller lära dig om att få stöd och vår inställning till det, välj önskat alternativ på sidmenyn. För att fortsätta, välj lämplig flik ovan.',
+	'INTRODUCTION_BODY'		=> 'Välkommen till phpBB3!<br /><br />phpBB® är den mest använda open source bulletin board-lösningen i världen. phpBB3 är den senaste installationen i en paketlinje som startades år 2000. Liksom dess föregångare är phpBB3 funktionrikt, användarvänlig och fullt stödd av phpBB-teamet. phpBB3 förbättras väsentligt på vad som gjorde phpBB2 populär, och lägger till vanligt förekommande funktioner som inte var närvarande i tidigare versioner. Vi hoppas att det överstiger dina förväntningar.<br /><br />Detta installationssystem leder dig genom att installera phpBB3, uppdatera till den senaste versionen av phpBB3 från tidigare versioner, samt konvertera till phpBB3 från ett annat diskussionssystem (inklusive phpBB2). För mer information uppmanar vi dig att läsa <a href="%1$s">installationsguiden</a>.<br /><br />För att läsa phpBB3-licensen eller lära dig om att få stöd och vår inställning till det, välj önskat alternativ på sidmenyn. För att fortsätta, välj lämplig flik ovan.',
 
 	// Support page
 	'SUPPORT_TITLE'		=> 'Support',
@@ -109,7 +109,7 @@ $lang = array_merge($lang, array(
 
 	// Server requirements
 	'PHP_VERSION_REQD'					=> 'PHP-version >= 5.3.3',
-	'PHP_VERSION_REQD_EXPLAIN'			=> 'phpBB kräver PHP-version 7.1.3 eller högre.',
+	'PHP_VERSION_REQD_EXPLAIN'			=> 'phpBB kräver PHP-version 7.2.0 eller högre.',
 	'PHP_GETIMAGESIZE_SUPPORT'			=> 'PHP-funktionen getimagesize() finns tillgänglig',
 	'PHP_GETIMAGESIZE_SUPPORT_EXPLAIN'	=> '<strong>Obligatoriskt</strong> - För att phpBB ska fungera som det ska så måste getimagesize-funktionen finnas.',
 	'PCRE_UTF_SUPPORT'					=> 'PCRE UTF-8 stöd',
@@ -481,10 +481,12 @@ $lang = array_merge($lang, array(
 	'CHECK_TABLE_PREFIX'		=> 'Kontrollera ditt tabellprefix och försök igen.',
 
 	// Conversion in progress
+	'CATEGORY'					=> 'Kategori',
 	'CONTINUE_CONVERT'			=> 'Fortsätt konverteringen',
 	'CONTINUE_CONVERT_BODY'		=> 'Ett tidigare konverteringsförsök har upptäckts. Du kan nu välja mellan att starta en ny konvertering eller fortsätta med den påbörjade.',
 	'CONVERT_NEW_CONVERSION'	=> 'Ny konvertering',
 	'CONTINUE_OLD_CONVERSION'	=> 'Fortsätt tidigare påbörjad konvertering',
+	'POST_ID'					=> 'Inläggs-ID',
 
 	// Start conversion
 	'SUB_INTRO'					=> 'Introduktion',
@@ -540,6 +542,11 @@ $lang = array_merge($lang, array(
 	// Finish conversion
 	'CONVERT_COMPLETE'			=> 'Konvertering slutförd',
 	'CONVERT_COMPLETE_EXPLAIN'	=> 'Du har nu konverterat ditt forum till phpBB 3.3! Du kan nu logga in på ditt forum. Försäkra dig om att inställningarna överförts korrekt innan du aktiverar ditt forum genom att ta bort install-katalogen. Kom ihåg att hjälp för hur man använder phpBB finns att få i <a href="https://www.phpbb.com/support/docs/en/3.3/ug/">dokumentationen</a>, på det <a href="https://www.phpbb.com/community/viewforum.php?f=661">engelska supportforumet</a> och på det svenska supportforumet.',
+
+	'COLLIDING_CLEAN_USERNAME'			=> '<strong>%s</strong> är det rena användarnamnet för:',
+	'COLLIDING_USER'					=> '» användar-id: <strong>%d</strong> användarnamn: <strong>%s</strong> (%d posts)',
+	'COLLIDING_USERNAMES_FOUND'			=> 'Kolliderande användarnamn hittades på din gamla tavla. För att slutföra konverteringen vänligen ta bort eller byt namn på dessa användare så att det bara finns en användare på din gamla tavla för varje rent användarnamn.',
+	'CONV_ERR_FATAL'					=> 'Fatalt konverteringsfel',
 
 	'CONV_ERROR_ATTACH_FTP_DIR'			=> 'FTP-uppladdning av bilagor är aktiverat på det gamla forumet. Inaktivera FTP-uppladdning och försäkra dig om att ett giltig uppladdningskatalog är angiven. Kopiera sen alla bifogade filer till den nya katalogen som ska vara tillgänglig från webben. Starta om konverteraren efter att du har gjort detta.',
 	'CONV_ERROR_CONFIG_EMPTY'			=> 'Det finns ingen konfigurationsinformation tillgänglig för konverteringen.',

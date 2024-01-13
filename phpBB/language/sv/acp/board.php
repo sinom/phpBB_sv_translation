@@ -49,7 +49,7 @@ $lang = array_merge($lang, array(
 	'BOARD_STYLE'					=> 'Forumstil',
 	'CUSTOM_DATEFORMAT'				=> 'Eget…',
 	'DEFAULT_DATE_FORMAT'			=> 'Datumformat',
-	'DEFAULT_DATE_FORMAT_EXPLAIN'	=> 'Datumformatet är samma som PHPs <code><a href="https://secure.php.net/manual/function.date.php">date()</a></code>-funktion.',
+	'DEFAULT_DATE_FORMAT_EXPLAIN'	=> 'Syntaxen är samma som PHPs <a href="https://www.php.net/manual/datetime.format.php">datum-funktion</a>.',
 	'DEFAULT_LANGUAGE'				=> 'Standardspråk',
 	'DEFAULT_STYLE'					=> 'Standardstil',
 	'DEFAULT_STYLE_EXPLAIN'			=> 'Standarstilen för nya medlemmar.',
