@@ -1,4 +1,4 @@
-Ämne: Notifikation om inläggsmoderering - "{TOPIC_TITLE}"
+Subject: Notifikation om inläggsmoderering - "{TOPIC_TITLE}"
 
 Hej {USERNAME},
 

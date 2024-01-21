@@ -1,4 +1,4 @@
-Ämne: Tråd godkänd — "{TOPIC_TITLE}"
+Subject: Tråd godkänd — "{TOPIC_TITLE}"
 
 Hej {USERNAME},
 

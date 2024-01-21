@@ -1,4 +1,4 @@
-Ämne: Rapport borttagen — "{POST_SUBJECT}"
+Subject: Rapport borttagen — "{POST_SUBJECT}"
 
 Hej {USERNAME},
 

@@ -1,4 +1,4 @@
-Ämne: Rapport stängd — "{POST_SUBJECT}"
+Subject: Rapport stängd — "{POST_SUBJECT}"
 
 Hej {USERNAME},
 

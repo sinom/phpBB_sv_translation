@@ -1,4 +1,4 @@
-Ämne: Inlägg måste godkännas - "{TOPIC_TITLE}"
+Subject: Inlägg måste godkännas - "{TOPIC_TITLE}"
 
 Hej {USERNAME},
 

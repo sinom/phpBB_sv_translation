@@ -1,4 +1,4 @@
-Ämne: Rapporten om privat meddelande är stängd - "{SUBJECT}"
+Subject: Rapporten om privat meddelande är stängd - "{SUBJECT}"
 
 Hallå {USERNAME},
 

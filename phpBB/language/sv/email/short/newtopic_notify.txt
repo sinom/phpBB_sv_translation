@@ -1,4 +1,4 @@
-Ämne: Ny tråd i — "{FORUM_NAME}"
+Subject: Ny tråd i — "{FORUM_NAME}"
 
 Hej {USERNAME},
 

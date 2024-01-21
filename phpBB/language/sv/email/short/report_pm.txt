@@ -1,4 +1,4 @@
-Ämne: Privat meddelanderapport - "{TOPIC_TITLE}"
+Subject: Privat meddelanderapport - "{TOPIC_TITLE}"
 
 Hej {USERNAME},
 

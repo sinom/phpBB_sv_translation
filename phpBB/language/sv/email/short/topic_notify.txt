@@ -1,4 +1,4 @@
-Ämne: Meddelande om svar på tråd — "{TOPIC_TITLE}"
+Subject: Meddelande om svar på tråd — "{TOPIC_TITLE}"
 
 Hej {USERNAME},
 

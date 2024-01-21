@@ -1,4 +1,4 @@
-Ämne: Svar i — "{FORUM_NAME}"
+Subject: Svar i — "{FORUM_NAME}"
 
 Hej {USERNAME},
 

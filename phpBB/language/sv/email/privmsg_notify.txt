@@ -1,4 +1,4 @@
-Ämne: Nytt personligt meddelande
+Subject: Nytt personligt meddelande
 
 Hej {USERNAME},
 

@@ -1,4 +1,4 @@
-Ämne: Inläggsrapport - "{TOPIC_TITLE}"
+Subject: Inläggsrapport - "{TOPIC_TITLE}"
 
 Hej {USERNAME},
 

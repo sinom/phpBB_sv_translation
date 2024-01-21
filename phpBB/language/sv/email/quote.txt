@@ -1,4 +1,4 @@
-Ämne: Citerad i - "{TOPIC_TITLE}"
+Subject: Citerad i - "{TOPIC_TITLE}"
 
 Hej {USERNAME},
 

@@ -1,4 +1,4 @@
-Ämne: Tråd avslagen — "{TOPIC_TITLE}"
+Subject: Tråd avslagen — "{TOPIC_TITLE}"
 
 Hej {USERNAME},
 

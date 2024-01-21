@@ -1,4 +1,4 @@
-Ämne: Inlägg avslaget — "{POST_SUBJECT}"
+Subject: Inlägg avslaget — "{POST_SUBJECT}"
 
 Hej {USERNAME},
 
