@@ -1,8 +1,9 @@
 Subject: Inlägg måste godkännas - "{TOPIC_TITLE}"
 
-Hello {USERNAME},
+Hej {USERNAME},
 
-You are receiving this notification because the post "{POST_SUBJECT}" at "{SITENAME}" needs approval.
+
+Du får detta meddelande eftersom inlägget "{POST_SUBJECT}" i "{SITENAME}" behöver godkännas.
 
 Om du vill se inlägget klickar du på följande länk:
 {U_VIEW_POST}

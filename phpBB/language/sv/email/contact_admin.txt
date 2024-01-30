@@ -1,5 +1,5 @@
 
-Hello {TO_USERNAME},
+Hej {TO_USERNAME},
 
 The following is an e-mail sent to you through the administration contact page on "{SITENAME}".
 

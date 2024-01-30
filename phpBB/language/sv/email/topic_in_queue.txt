@@ -1,5 +1,5 @@
 Subject: Ämnet behöver godkännas "{TOPIC_TITLE}"
-test
+
 Hej {USERNAME},
 
 Ämnet "{TOPIC_TITLE}" på "{SITENAME}" behöver godkännas.

@@ -1,6 +1,6 @@
 Subject: phpBB is correctly configured to send emails
 
-Hello {USERNAME},
+Hej {USERNAME},
 
 Congratulations. If you received this email, phpBB is correctly configured to send emails.
 

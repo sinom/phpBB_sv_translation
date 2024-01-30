@@ -1,6 +1,6 @@
 Subject: Svar i - "{TOPIC_TITLE}"
 
-Hello {USERNAME},
+Hej {USERNAME},
 
 Ditt bokmärkta ämne "{TOPIC_TITLE}" fick ett nytt svar sedan ditt senaste besök i "{SITENAME}". Inga fler meddelanden skickas förrän du besöker ämnet.
 
