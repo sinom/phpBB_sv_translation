@@ -60,8 +60,8 @@ $lang = array_merge($lang, array(
 	'DOWNLOAD_NOTICE'		=> 'Du har inte behörighet att öppna de filer som bifogats till detta inlägg.',
 
 	'EDITED_TIMES_TOTAL'	=>	array(
-		1	=>			'Senast redigerad av %2$s den %3$s, redigerad totalt %1$d gånger.',
-		2	=>			'Senast redigerad av %2$s den %3$s, redigerad totalt %1$d gång.',
+		1	=>			'Senast redigerad av %2$s den %3$s, redigerad totalt %1$d gång.',
+		2	=>			'Senast redigerad av %2$s den %3$s, redigerad totalt %1$d gånger.',
 	),
 	'EMAIL_TOPIC'			=> 'Skicka tråd via e-post',
 	'ERROR_NO_ATTACHMENT'	=> 'Den valda bilagan finns inte längre.',
