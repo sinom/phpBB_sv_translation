@@ -163,9 +163,9 @@ $lang = array_merge($lang, array(
 	'ACL_M_MERGE'	=> 'Kan sammanfoga trådar',
 
 	'ACL_M_INFO'		=> 'Kan visa inläggsuppgifter',
-	'ACL_M_WARN'		=> 'Kan utfärda varningar<br /><em>Denna inställning tilldelas endast globalt. Den är inte kategoribaserad.</em>', // This moderator setting is only global (and not local)
-	'ACL_M_PM_REPORT'	=> 'Can close and delete reports of private messages<br /><em>This setting is only assigned globally. It is not forum based.</em>', // This moderator setting is only global (and not local) /*ÄNNU_EJ_ÖVERSATT*/
-	'ACL_M_BAN'			=> 'Kan hantera bannlysningar<br /><em>Denna inställning tilldelas endast globalt. Den är inte kategoribaserad.</em>', // This moderator setting is only global (and not local)
+	'ACL_M_WARN'		=> 'Kan utfärda varningar',
+	'ACL_M_PM_REPORT'	=> 'Kan stänga och ta bort rapporter om privata meddelanden',
+	'ACL_M_BAN'			=> 'Kan hantera bannlysningar',
 ));
 
 // Admin Permissions
