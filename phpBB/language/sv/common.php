@@ -70,6 +70,7 @@ $lang = array_merge($lang, array(
 	'ACCOUNT_NOT_ACTIVATED'			=> 'Ditt konto har inte aktiverats än.',
 	'ACP'							=> 'Administrationspanel',
 	'ACP_SHORT'						=> 'ACP',
+	'ACTIVATION_ALREADY_SENT'		=> 'Aktiverings e-postmeddelandet har redan skickats till din e-postadress. Du kan försöka igen efter 24 timmar. Om du fortsätter att ha problem med att aktivera ditt konto, vänligen kontakta en forumadministratör.',
 	'ACTIVE'						=> 'aktiv',
 	'ACTIVE_ERROR'					=> 'Det angivna användarnamnet är för närvarande inaktiverat. Om du har problem med att aktivera ditt konto, kontakta en administratör.',
 	'ADMINISTRATOR'					=> 'Administratör',
