@@ -157,7 +157,7 @@ $lang = array_merge($lang, array(
 	'CLI_THUMBNAIL_NOTHING_TO_DELETE'	=> 'No thumbnails to delete.', /*ÄNNU_EJ_ÖVERSATT*/
 
 	'CLI_USER_ADD_SUCCESS'			=> 'Användaren %s har lagts till.',
-	'CLI_USER_DELETE_CONFIRM'		=> 'Är du säker på att du vill ta bort '%s'? [j/N]',
+	'CLI_USER_DELETE_CONFIRM'		=> 'Är du säker på att du vill ta bort "%s"? [j/N]',
 	'CLI_USER_DELETE_ID_CONFIRM'	=> 'Är du säker på att du vill ta bort användar-ID:n "%s"? [j/N]',
 	'CLI_USER_DELETE_ID_SUCCESS'	=> 'Användar-ID:n har raderats.',
 	'CLI_USER_DELETE_ID_START'		=> 'Ta bort användare med ID',
