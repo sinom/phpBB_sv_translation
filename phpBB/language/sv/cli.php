@@ -2,7 +2,7 @@
 /**
 *
 * This file is part of Swedish phpBB translation.
-* Copyright (c) 2010 - 2022 Swedish translation group.
+* Copyright (c) 2010 - 2024 Swedish translation group.
 *
 *
 * For more information about the language pack, please visit
@@ -112,6 +112,8 @@ $lang = array_merge($lang, array(
 	'CLI_DESCRIPTION_USER_ADD_OPTION_NOTIFY'	=> 'Send account activation email to the new user (not sent by default)', /*ÄNNU_EJ_ÖVERSATT*/
 	'CLI_DESCRIPTION_USER_DELETE'				=> 'Delete a user account.', /*ÄNNU_EJ_ÖVERSATT*/
 	'CLI_DESCRIPTION_USER_DELETE_USERNAME'		=> 'Username of the user to delete', /*ÄNNU_EJ_ÖVERSATT*/
+	'CLI_DESCRIPTION_USER_DELETE_ID'			=> 'Ta bort användarkonton efter ID.',
+	'CLI_DESCRIPTION_USER_DELETE_ID_OPTION_ID'	=> 'Användar-ID för användarna som ska raderas',
 	'CLI_DESCRIPTION_USER_DELETE_OPTION_POSTS'	=> 'Delete all posts by the user. Without this option, the user’s posts will be retained.', /*ÄNNU_EJ_ÖVERSATT*/
 	'CLI_DESCRIPTION_USER_RECLEAN'				=> 'Re-clean usernames.', /*ÄNNU_EJ_ÖVERSATT*/
 
@@ -148,29 +150,45 @@ $lang = array_merge($lang, array(
 	'CLI_THUMBNAIL_SKIPPED'		=> '%1$s (%2$s) skipped.', /*ÄNNU_EJ_ÖVERSATT*/
 	'CLI_THUMBNAIL_GENERATED'	=> '%1$s (%2$s) generated.', /*ÄNNU_EJ_ÖVERSATT*/
 	'CLI_THUMBNAIL_GENERATING'	=> 'Generating thumbnails', /*ÄNNU_EJ_ÖVERSATT*/
-	'CLI_THUMBNAIL_GENERATING_DONE'	=> 'All thumbnails have been regenerated.', /*ÄNNU_EJ_ÖVERSATT*/
-	'CLI_THUMBNAIL_DELETING_DONE'	=> 'All thumbnails have been deleted.', /*ÄNNU_EJ_ÖVERSATT*/
+	'CLI_THUMBNAIL_GENERATING_DONE'	=> 'Alla miniatyrer har återskapats.', /*ÄNNU_EJ_ÖVERSATT*/
+	'CLI_THUMBNAIL_DELETING_DONE'	=> 'Alla miniatyrer har tagits bort.', /*ÄNNU_EJ_ÖVERSATT*/
 
 	'CLI_THUMBNAIL_NOTHING_TO_GENERATE'	=> 'No thumbnails to generate.', /*ÄNNU_EJ_ÖVERSATT*/
 	'CLI_THUMBNAIL_NOTHING_TO_DELETE'	=> 'No thumbnails to delete.', /*ÄNNU_EJ_ÖVERSATT*/
 
-	'CLI_USER_ADD_SUCCESS'		=> 'Successfully added user %s.', /*ÄNNU_EJ_ÖVERSATT*/
-	'CLI_USER_DELETE_CONFIRM'	=> 'Are you sure you want to delete ‘%s’? [y/N]', /*ÄNNU_EJ_ÖVERSATT*/
-	'CLI_USER_RECLEAN_START'	=> 'Re-cleaning usernames', /*ÄNNU_EJ_ÖVERSATT*/
-	'CLI_USER_RECLEAN_DONE'	=>	/*ÄNNU_EJ_ÖVERSATT*/ array(
-		0	=>			'Re-cleaning complete. No usernames needed to be cleaned.',
-		1	=>			'Re-cleaning complete. %d username was cleaned.',
-		2	=>			'Re-cleaning complete. %d usernames were cleaned.',
-	),
+	'CLI_USER_ADD_SUCCESS'			=> 'Användaren %s har lagts till.',
+	'CLI_USER_DELETE_CONFIRM'		=> 'Är du säker på att du vill ta bort '%s'? [j/N]',
+	'CLI_USER_DELETE_ID_CONFIRM'	=> 'Är du säker på att du vill ta bort användar-ID:n "%s"? [j/N]',
+	'CLI_USER_DELETE_ID_SUCCESS'	=> 'Användar-ID:n har raderats.',
+	'CLI_USER_DELETE_ID_START'		=> 'Ta bort användare med ID',
+	'CLI_USER_DELETE_NONE'			=> 'Inga användare raderades av användar-ID.',
+	'CLI_USER_RECLEAN_START'		=> 'Rengör användarnamn igen',
+	'CLI_USER_RECLEAN_DONE'			=> [
+		0	=>			'Rengöring klar. Inga användarnamn behövde rengöras.',
+		1	=>			'Rengöring klar. %d användarnamn har rensats.',
+		2	=>			'Rengöring klar. %d användarnamn rensades.',
+	],
+
+	'CLI_DESCRIPTION_EXTENSION_MANAGE'					=> 'Hanterar ett tillägg',
+	'CLI_DESCRIPTION_EXTENSION_MANAGE_ARGUMENT'			=> 'Tillägg att hantera',
+	'CLI_DESCRIPTION_EXTENSION_INSTALL'					=> 'Installera det eller de angivna tilläggen.',
+	'CLI_DESCRIPTION_EXTENSION_INSTALL_OPTION_ENABLE'	=> 'Aktivera tillägg(er) efter installationen',
+	'CLI_DESCRIPTION_EXTENSION_INSTALL_ARGUMENT'		=> 'Tillägg(er) att installera, t.ex.: leverantör/paket',
+	'CLI_DESCRIPTION_EXTENSION_LIST_AVAILABLE'			=> 'Lista tillägg tillgängliga för installation.',
+	'CLI_DESCRIPTION_EXTENSION_REMOVE'					=> 'Ta bort den eller de angivna tilläggen.',
+	'CLI_DESCRIPTION_EXTENSION_REMOVE_OPTION_PURGE'		=> 'Rensa förlängning(ar) när du tar bort dem',
+	'CLI_DESCRIPTION_EXTENSION_REMOVE_ARGUMENT'			=> 'Förlängning(er) att ta bort, t.ex.: leverantör/paket',
+	'CLI_DESCRIPTION_EXTENSION_UPDATE'					=> 'Uppdatera det eller de angivna tilläggen.',
+	'CLI_DESCRIPTION_EXTENSION_UPDATE_ARGUMENT'			=> 'Tillägg att uppdatera, t.ex.: leverantör/paket',
 ));
 
 // Additional help for commands.
 $lang = array_merge($lang, array(
-	'CLI_HELP_CRON_RUN'			=> $lang['CLI_DESCRIPTION_CRON_RUN'] . ' Optionally you can specify a cron task name to run only the specified cron task.', /*ÄNNU_EJ_ÖVERSATT*/
-	'CLI_HELP_USER_ACTIVATE'	=> 'Activate a user account, or deactivate an account using the <info>--deactivate</info> option.
-To optionally send an activation email to the user, use the <info>--send-email</info> option.', /*ÄNNU_EJ_ÖVERSATT*/
-	'CLI_HELP_USER_ADD'			=> 'The <info>%command.name%</info> command adds a new user:
-If this command is run without options, you will be prompted to enter them.
-To optionally send an email to the new user, use the <info>--send-email</info> option.', /*ÄNNU_EJ_ÖVERSATT*/
-	'CLI_HELP_USER_RECLEAN'		=> 'Re-clean usernames will check all stored usernames and ensure clean versions are also stored. Cleaned usernames are a case insensitive form, NFC normalized and transformed to ASCII.', /*ÄNNU_EJ_ÖVERSATT*/
+	'CLI_HELP_CRON_RUN'			=> $lang['CLI_DESCRIPTION_CRON_RUN'] . ' Alternativt kan du ange ett cron-uppgiftsnamn för att endast köra den angivna cron-uppgiften.', /*ÄNNU_EJ_ÖVERSATT*/
+	'CLI_HELP_USER_ACTIVATE'	=> 'Aktivera ett användarkonto, eller avaktivera ett konto med alternativet <info>--avaktivera</info>.
+För att valfritt skicka ett aktiveringse-postmeddelande till användaren, använd alternativet <info>--send-e-post</info>.', /*ÄNNU_EJ_ÖVERSATT*/
+	'CLI_HELP_USER_ADD'			=> 'Kommandot <info>%command.name%</info> lägger till en ny användare:
+Om det här kommandot körs utan alternativ kommer du att bli ombedd att ange dem.
+Om du vill skicka ett e-postmeddelande till den nya användaren, använd alternativet <info>--sänd-e-post</info>.', /*ÄNNU_EJ_ÖVERSATT*/
+	'CLI_HELP_USER_RECLEAN'		=> 'Re-clean användarnamn kommer att kontrollera alla lagrade användarnamn och säkerställa att rena versioner också lagras. Rensade användarnamn är en skiftlägesokänslig form, NFC-normaliserad och omvandlad till ASCII.', /*ÄNNU_EJ_ÖVERSATT*/
 ));
