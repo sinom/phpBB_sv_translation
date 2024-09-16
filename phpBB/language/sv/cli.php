@@ -57,9 +57,9 @@ $lang = array_merge($lang, array(
 	'CLI_DESCRIPTION_CRON_LIST'					=> 'Skriver ut en lista med färdiga och icke-färdiga cron-jobb.',
 	'CLI_DESCRIPTION_CRON_RUN'					=> 'Kör alla färdiga cron-uppgifter.',
 	'CLI_DESCRIPTION_CRON_RUN_ARGUMENT_1'		=> 'Namn på den uppgift som skall köras',
-	'CLI_DESCRIPTION_DB_LIST'					=> 'List all installed and available migrations.', /*ÄNNU_EJ_ÖVERSATT*/
+	'CLI_DESCRIPTION_DB_LIST'					=> 'Lista alla installerade och tillgängliga migreringar.',
 	'CLI_DESCRIPTION_DB_MIGRATE'				=> 'Uppdaterar databasen genom att tillämpa migreringar.',
-	'CLI_DESCRIPTION_DB_REVERT'					=> 'Revert a migration.', /*ÄNNU_EJ_ÖVERSATT*/
+	'CLI_DESCRIPTION_DB_REVERT'					=> 'Återställ en migrering.',
 	'CLI_DESCRIPTION_DELETE_CONFIG'				=> 'Tar bort ett konfigurationsalternativ',
 	'CLI_DESCRIPTION_DISABLE_EXTENSION'			=> 'Inaktiverar angivet tillägg.',
 	'CLI_DESCRIPTION_ENABLE_EXTENSION'			=> 'Aktiverar angivet tillägg.',
@@ -68,54 +68,54 @@ $lang = array_merge($lang, array(
 	'CLI_DESCRIPTION_INCREMENT_CONFIG'			=> 'Ökar ett konfigurationsalternativs värde',
 	'CLI_DESCRIPTION_LIST_EXTENSIONS'			=> 'Listar alla tillägg i databasen och i filsystemet.',
 
-	'CLI_DESCRIPTION_OPTION_ENV'				=> 'The Environment name.', /*ÄNNU_EJ_ÖVERSATT*/
+	'CLI_DESCRIPTION_OPTION_ENV'				=> 'Miljönamnet.',
 	'CLI_DESCRIPTION_OPTION_SAFE_MODE'			=> 'Kör i felsäkert läge (utan tillägg).',
 	'CLI_DESCRIPTION_OPTION_SHELL'				=> 'Lansera skalet.',
 
 	'CLI_DESCRIPTION_PURGE_EXTENSION'			=> 'Rensar angivet tillägg.',
 
-	'CLI_DESCRIPTION_REPARSER_LIST'						=> 'Lists the types of text that can be reparsed.', /*ÄNNU_EJ_ÖVERSATT*/
-	'CLI_DESCRIPTION_REPARSER_AVAILABLE'				=> 'Available reparsers:', /*ÄNNU_EJ_ÖVERSATT*/
-	'CLI_DESCRIPTION_REPARSER_REPARSE'					=> 'Reparses stored text with the current text_formatter services.', /*ÄNNU_EJ_ÖVERSATT*/
-	'CLI_DESCRIPTION_REPARSER_REPARSE_ARG_1'			=> 'Type of text to reparse. Leave blank to reparse everything.', /*ÄNNU_EJ_ÖVERSATT*/
-	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_DRY_RUN'		=> 'Do not save any changes; just print what would happen', /*ÄNNU_EJ_ÖVERSATT*/
-	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_RANGE_MIN'	=> 'Lowest record ID to process', /*ÄNNU_EJ_ÖVERSATT*/
-	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_RANGE_MAX'	=> 'Highest record ID to process', /*ÄNNU_EJ_ÖVERSATT*/
-	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_RANGE_SIZE'	=> 'Approximate number of records to process at a time', /*ÄNNU_EJ_ÖVERSATT*/
-	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_RESUME'		=> 'Start reparsing where the last execution stopped', /*ÄNNU_EJ_ÖVERSATT*/
+	'CLI_DESCRIPTION_REPARSER_LIST'						=> 'Listar de typer av text som kan repareras.',
+	'CLI_DESCRIPTION_REPARSER_AVAILABLE'				=> 'Tillgängliga reparerare:',
+	'CLI_DESCRIPTION_REPARSER_REPARSE'					=> 'Reparerar lagrad text med de aktuella text_formatter-tjänsterna.',
+	'CLI_DESCRIPTION_REPARSER_REPARSE_ARG_1'			=> 'Typ av text att reparera. Lämna tomt för att reparera allt.',
+	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_DRY_RUN'		=> 'Spara inga ändringar; skriv bara ut vad som skulle hända',
+	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_RANGE_MIN'	=> 'Lägsta post-ID att bearbeta',
+	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_RANGE_MAX'	=> 'Högsta post-ID att bearbeta',
+	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_RANGE_SIZE'	=> 'Ungefärligt antal poster att bearbeta åt gången',
+	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_RESUME'		=> 'Börja reparera där den senaste exekveringen slutade',
 
 	
 
 	'CLI_DESCRIPTION_SET_ATOMIC_CONFIG'					=> 'Ställer en konfigurationsalternativs värde endast om gamla matchar det aktuella värdet',
 	'CLI_DESCRIPTION_SET_CONFIG'						=> 'Ställer en konfigurationsalternativs värde',
 
-	'CLI_DESCRIPTION_THUMBNAIL_DELETE'					=> 'Delete all existing thumbnails.', /*ÄNNU_EJ_ÖVERSATT*/
-	'CLI_DESCRIPTION_THUMBNAIL_GENERATE'				=> 'Generate all missing thumbnails.', /*ÄNNU_EJ_ÖVERSATT*/
-	'CLI_DESCRIPTION_THUMBNAIL_RECREATE'				=> 'Recreate all thumbnails.', /*ÄNNU_EJ_ÖVERSATT*/
+	'CLI_DESCRIPTION_THUMBNAIL_DELETE'					=> 'Ta bort alla befintliga miniatyrer.',
+	'CLI_DESCRIPTION_THUMBNAIL_GENERATE'				=> 'Generera alla saknade miniatyrer.',
+	'CLI_DESCRIPTION_THUMBNAIL_RECREATE'				=> 'Återskapa alla miniatyrer.',
 
-	'CLI_DESCRIPTION_UPDATE_CHECK'					=> 'Check if the board is up to date.', /*ÄNNU_EJ_ÖVERSATT*/
-	'CLI_DESCRIPTION_UPDATE_CHECK_ARGUMENT_1'		=> 'Name of the extension to check (if all, checks all the extensions)', /*ÄNNU_EJ_ÖVERSATT*/
-	'CLI_DESCRIPTION_UPDATE_CHECK_OPTION_CACHE'		=> 'Run check command with cache.', /*ÄNNU_EJ_ÖVERSATT*/
-	'CLI_DESCRIPTION_UPDATE_CHECK_OPTION_STABILITY'	=> 'Run command choosing to check only stable or unstable versions.', /*ÄNNU_EJ_ÖVERSATT*/
+	'CLI_DESCRIPTION_UPDATE_CHECK'					=> 'Kontrollera om tavlan är uppdaterad.',
+	'CLI_DESCRIPTION_UPDATE_CHECK_ARGUMENT_1'		=> 'Namn på tillägget som ska kontrolleras (om alla, kontrollerar alla tillägg)',
+	'CLI_DESCRIPTION_UPDATE_CHECK_OPTION_CACHE'		=> 'Kör kontrollkommandot med cache.',
+	'CLI_DESCRIPTION_UPDATE_CHECK_OPTION_STABILITY'	=> 'Kör kommandot och välj att endast kontrollera stabila eller instabila versioner.',
 
-	'CLI_ERROR_INVALID_STABILITY' => '"%s" is not a valid stability.', /*ÄNNU_EJ_ÖVERSATT*/
+	'CLI_ERROR_INVALID_STABILITY' => '"%s" är inte en giltig stabilitet.',
 
-	'CLI_DESCRIPTION_USER_ACTIVATE'				=> 'Activate (or deactivate) a user account.', /*ÄNNU_EJ_ÖVERSATT*/
-	'CLI_DESCRIPTION_USER_ACTIVATE_USERNAME'	=> 'Username of the account to activate.', /*ÄNNU_EJ_ÖVERSATT*/
-	'CLI_DESCRIPTION_USER_ACTIVATE_DEACTIVATE'	=> 'Deactivate the user’s account', /*ÄNNU_EJ_ÖVERSATT*/
-	'CLI_DESCRIPTION_USER_ACTIVATE_ACTIVE'		=> 'The user is already active.', /*ÄNNU_EJ_ÖVERSATT*/
-	'CLI_DESCRIPTION_USER_ACTIVATE_INACTIVE'	=> 'The user is already inactive.', /*ÄNNU_EJ_ÖVERSATT*/
-	'CLI_DESCRIPTION_USER_ADD'					=> 'Add a new user.', /*ÄNNU_EJ_ÖVERSATT*/
-	'CLI_DESCRIPTION_USER_ADD_OPTION_USERNAME'	=> 'Username of the new user', /*ÄNNU_EJ_ÖVERSATT*/
-	'CLI_DESCRIPTION_USER_ADD_OPTION_PASSWORD'	=> 'Password of the new user', /*ÄNNU_EJ_ÖVERSATT*/
-	'CLI_DESCRIPTION_USER_ADD_OPTION_EMAIL'		=> 'E-mail address of the new user', /*ÄNNU_EJ_ÖVERSATT*/
-	'CLI_DESCRIPTION_USER_ADD_OPTION_NOTIFY'	=> 'Send account activation email to the new user (not sent by default)', /*ÄNNU_EJ_ÖVERSATT*/
-	'CLI_DESCRIPTION_USER_DELETE'				=> 'Delete a user account.', /*ÄNNU_EJ_ÖVERSATT*/
-	'CLI_DESCRIPTION_USER_DELETE_USERNAME'		=> 'Username of the user to delete', /*ÄNNU_EJ_ÖVERSATT*/
+	'CLI_DESCRIPTION_USER_ACTIVATE'				=> 'Aktivera (eller avaktivera) ett användarkonto.',
+	'CLI_DESCRIPTION_USER_ACTIVATE_USERNAME'	=> 'Användarnamn på kontot som ska aktiveras.',
+	'CLI_DESCRIPTION_USER_ACTIVATE_DEACTIVATE'	=> 'Inaktivera användarens konto',
+	'CLI_DESCRIPTION_USER_ACTIVATE_ACTIVE'		=> 'Användaren är redan aktiv.',
+	'CLI_DESCRIPTION_USER_ACTIVATE_INACTIVE'	=> 'Användaren är redan inaktiv.',
+	'CLI_DESCRIPTION_USER_ADD'					=> 'Lägg till en ny användare.',
+	'CLI_DESCRIPTION_USER_ADD_OPTION_USERNAME'	=> 'Användarnamn för den nya användaren',
+	'CLI_DESCRIPTION_USER_ADD_OPTION_PASSWORD'	=> 'Lösenord för den nya användaren',
+	'CLI_DESCRIPTION_USER_ADD_OPTION_EMAIL'		=> 'E-postadress till den nya användaren',
+	'CLI_DESCRIPTION_USER_ADD_OPTION_NOTIFY'	=> 'Skicka e-post om kontoaktivering till den nya användaren (skickas inte som standard)',
+	'CLI_DESCRIPTION_USER_DELETE'				=> 'Ta bort ett användarkonto.',
+	'CLI_DESCRIPTION_USER_DELETE_USERNAME'		=> 'Användarnamn på användaren som ska raderas',
 	'CLI_DESCRIPTION_USER_DELETE_ID'			=> 'Ta bort användarkonton efter ID.',
 	'CLI_DESCRIPTION_USER_DELETE_ID_OPTION_ID'	=> 'Användar-ID för användarna som ska raderas',
-	'CLI_DESCRIPTION_USER_DELETE_OPTION_POSTS'	=> 'Delete all posts by the user. Without this option, the user’s posts will be retained.', /*ÄNNU_EJ_ÖVERSATT*/
-	'CLI_DESCRIPTION_USER_RECLEAN'				=> 'Re-clean usernames.', /*ÄNNU_EJ_ÖVERSATT*/
+	'CLI_DESCRIPTION_USER_DELETE_OPTION_POSTS'	=> 'Ta bort alla inlägg av användaren. Utan detta alternativ kommer användarens inlägg att behållas.', 
+	'CLI_DESCRIPTION_USER_RECLEAN'				=> 'Rensa användarnamn igen.',
 
 	'CLI_EXTENSION_DISABLE_FAILURE'		=> 'Det gick inte att inaktivera tillägget %s',
 	'CLI_EXTENSION_DISABLE_SUCCESS'		=> 'Lyckades inaktivera tillägget %s',
@@ -124,8 +124,8 @@ $lang = array_merge($lang, array(
 	'CLI_EXTENSION_NAME'				=> 'Namn på tillägget',
 	'CLI_EXTENSION_PURGE_FAILURE'		=> 'Kunde inte tömma tillägget %s',
 	'CLI_EXTENSION_PURGE_SUCCESS'		=> 'Lyckades tömma tillägget %s',
-	'CLI_EXTENSION_UPDATE_FAILURE'		=> 'Could not update extension %s', /*ÄNNU_EJ_ÖVERSATT*/
-	'CLI_EXTENSION_UPDATE_SUCCESS'		=> 'Successfully updated extension %s', /*ÄNNU_EJ_ÖVERSATT*/
+	'CLI_EXTENSION_UPDATE_FAILURE'		=> 'Det gick inte att uppdatera tillägget %s',
+	'CLI_EXTENSION_UPDATE_SUCCESS'		=> 'Tillägget har uppdaterats %s',
 	'CLI_EXTENSION_NOT_FOUND'			=> 'Inga tillägg kunde hittas.',
 	'CLI_EXTENSIONS_AVAILABLE'			=> 'Tillgänglig',
 	'CLI_EXTENSIONS_DISABLED'			=> 'Inaktiverad',
@@ -133,28 +133,28 @@ $lang = array_merge($lang, array(
 
 	
 
-	'CLI_MIGRATION_NAME'					=> 'Migration name, including the namespace (use forward slashes instead of backslashes to avoid problems).', /*ÄNNU_EJ_ÖVERSATT*/
-	'CLI_MIGRATIONS_AVAILABLE'				=> 'Available migrations', /*ÄNNU_EJ_ÖVERSATT*/
-	'CLI_MIGRATIONS_INSTALLED'				=> 'Installed migrations', /*ÄNNU_EJ_ÖVERSATT*/
-	'CLI_MIGRATIONS_ONLY_AVAILABLE'		    => 'Show only available migrations', /*ÄNNU_EJ_ÖVERSATT*/
-	'CLI_MIGRATIONS_EMPTY'                  => 'No migrations.', /*ÄNNU_EJ_ÖVERSATT*/
+	'CLI_MIGRATION_NAME'					=> 'Migreringsnamn, inklusive namnutrymmet (använd snedstreck istället för bakåtstreck för att undvika problem).',
+	'CLI_MIGRATIONS_AVAILABLE'				=> 'Tillgängliga migreringar',
+	'CLI_MIGRATIONS_INSTALLED'				=> 'Installerade migrationer',
+	'CLI_MIGRATIONS_ONLY_AVAILABLE'		    => 'Visa endast tillgängliga migreringar',
+	'CLI_MIGRATIONS_EMPTY'                  => 'Inga migrationer.',
 
-	'CLI_REPARSER_REPARSE_REPARSING'		=> 'Reparsing %1$s (range %2$d..%3$d)', /*ÄNNU_EJ_ÖVERSATT*/
-	'CLI_REPARSER_REPARSE_REPARSING_START'	=> 'Reparsing %s...', /*ÄNNU_EJ_ÖVERSATT*/
-	'CLI_REPARSER_REPARSE_SUCCESS'			=> 'Reparsing ended with success', /*ÄNNU_EJ_ÖVERSATT*/
+	'CLI_REPARSER_REPARSE_REPARSING'		=> 'Reparerar %1$s (range %2$d..%3$d)',
+	'CLI_REPARSER_REPARSE_REPARSING_START'	=> 'Reparerar %s...',
+	'CLI_REPARSER_REPARSE_SUCCESS'			=> 'Repareringen slutade med framgång',
 
 	// In all the case %1$s is the logical name of the file and %2$s the real name on the filesystem
 	// eg: big_image.png (2_a51529ae7932008cf8454a95af84cacd) generated.
-	'CLI_THUMBNAIL_DELETED'		=> '%1$s (%2$s) deleted.', /*ÄNNU_EJ_ÖVERSATT*/
-	'CLI_THUMBNAIL_DELETING'	=> 'Deleting thumbnails', /*ÄNNU_EJ_ÖVERSATT*/
-	'CLI_THUMBNAIL_SKIPPED'		=> '%1$s (%2$s) skipped.', /*ÄNNU_EJ_ÖVERSATT*/
-	'CLI_THUMBNAIL_GENERATED'	=> '%1$s (%2$s) generated.', /*ÄNNU_EJ_ÖVERSATT*/
-	'CLI_THUMBNAIL_GENERATING'	=> 'Generating thumbnails', /*ÄNNU_EJ_ÖVERSATT*/
-	'CLI_THUMBNAIL_GENERATING_DONE'	=> 'Alla miniatyrer har återskapats.', /*ÄNNU_EJ_ÖVERSATT*/
-	'CLI_THUMBNAIL_DELETING_DONE'	=> 'Alla miniatyrer har tagits bort.', /*ÄNNU_EJ_ÖVERSATT*/
+	'CLI_THUMBNAIL_DELETED'		=> '%1$s (%2$s) borttagna.',
+	'CLI_THUMBNAIL_DELETING'	=> 'Ta bort miniatyrer',
+	'CLI_THUMBNAIL_SKIPPED'		=> '%1$s (%2$s) hoppades över.',
+	'CLI_THUMBNAIL_GENERATED'	=> '%1$s (%2$s) genererade.',
+	'CLI_THUMBNAIL_GENERATING'	=> 'Genererar miniatyrer',
+	'CLI_THUMBNAIL_GENERATING_DONE'	=> 'Alla miniatyrer har återskapats.',
+	'CLI_THUMBNAIL_DELETING_DONE'	=> 'Alla miniatyrer har tagits bort.',
 
-	'CLI_THUMBNAIL_NOTHING_TO_GENERATE'	=> 'No thumbnails to generate.', /*ÄNNU_EJ_ÖVERSATT*/
-	'CLI_THUMBNAIL_NOTHING_TO_DELETE'	=> 'No thumbnails to delete.', /*ÄNNU_EJ_ÖVERSATT*/
+	'CLI_THUMBNAIL_NOTHING_TO_GENERATE'	=> 'Inga miniatyrer att generera.',
+	'CLI_THUMBNAIL_NOTHING_TO_DELETE'	=> 'Inga miniatyrer att radera.',
 
 	'CLI_USER_ADD_SUCCESS'			=> 'Användaren %s har lagts till.',
 	'CLI_USER_DELETE_CONFIRM'		=> 'Är du säker på att du vill ta bort "%s"? [j/N]',
@@ -184,11 +184,11 @@ $lang = array_merge($lang, array(
 
 // Additional help for commands.
 $lang = array_merge($lang, array(
-	'CLI_HELP_CRON_RUN'			=> $lang['CLI_DESCRIPTION_CRON_RUN'] . ' Alternativt kan du ange ett cron-uppgiftsnamn för att endast köra den angivna cron-uppgiften.', /*ÄNNU_EJ_ÖVERSATT*/
+	'CLI_HELP_CRON_RUN'			=> $lang['CLI_DESCRIPTION_CRON_RUN'] . ' Alternativt kan du ange ett cron-uppgiftsnamn för att endast köra den angivna cron-uppgiften.',
 	'CLI_HELP_USER_ACTIVATE'	=> 'Aktivera ett användarkonto, eller avaktivera ett konto med alternativet <info>--avaktivera</info>.
-För att valfritt skicka ett aktiveringse-postmeddelande till användaren, använd alternativet <info>--send-e-post</info>.', /*ÄNNU_EJ_ÖVERSATT*/
+För att valfritt skicka ett aktiveringse-postmeddelande till användaren, använd alternativet <info>--send-e-post</info>.',
 	'CLI_HELP_USER_ADD'			=> 'Kommandot <info>%command.name%</info> lägger till en ny användare:
 Om det här kommandot körs utan alternativ kommer du att bli ombedd att ange dem.
-Om du vill skicka ett e-postmeddelande till den nya användaren, använd alternativet <info>--sänd-e-post</info>.', /*ÄNNU_EJ_ÖVERSATT*/
-	'CLI_HELP_USER_RECLEAN'		=> 'Re-clean användarnamn kommer att kontrollera alla lagrade användarnamn och säkerställa att rena versioner också lagras. Rensade användarnamn är en skiftlägesokänslig form, NFC-normaliserad och omvandlad till ASCII.', /*ÄNNU_EJ_ÖVERSATT*/
+Om du vill skicka ett e-postmeddelande till den nya användaren, använd alternativet <info>--sänd-e-post</info>.',
+	'CLI_HELP_USER_RECLEAN'		=> 'Re-clean användarnamn kommer att kontrollera alla lagrade användarnamn och säkerställa att rena versioner också lagras. Rensade användarnamn är en skiftlägesokänslig form, NFC-normaliserad och omvandlad till ASCII.',
 ));
