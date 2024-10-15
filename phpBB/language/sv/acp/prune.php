@@ -58,7 +58,7 @@ $lang = array_merge($lang, array(
 	'LAST_ACTIVE_EXPLAIN'		=> 'Ange ett datum i formatet <kbd>ÅÅÅÅ-MM-DD</kbd>. Mata in <kbd>0000-00-00</kbd> för att ta bort användare, som aldrig loggat in, <em>Före</em> and <em>Efter</em> kriterier ignoreras.',
 
 	'POSTS_ON_QUEUE'			=> 'Inlägg i väntan på godkännande',
-	'PRUNE_USERS_GROUP_EXPLAIN'	=> 'Begrända till användare i en specifik grupp.',
+	'PRUNE_USERS_GROUP_EXPLAIN'	=> 'Begränsa till användare i en specifik grupp.',
 	'PRUNE_USERS_GROUP_NONE'	=> 'Alla grupper',
 	'PRUNE_USERS_LIST'				=> 'Användare som kommer att rensas',
 	'PRUNE_USERS_LIST_DELETE'		=> 'Med de valda kriterierna för utrensning av användare kommer följande användare att tas bort.',
