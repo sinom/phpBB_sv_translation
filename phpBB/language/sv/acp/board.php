@@ -168,6 +168,8 @@ $lang = array_merge($lang, array(
 	'ACP_POST_SETTINGS_EXPLAIN'			=> 'Här kan du ställa in all standardinställningar för inlägg.',
 	'ALLOW_POST_LINKS'					=> 'Tillåt länkar i inlägg/personliga meddelanden',
 	'ALLOW_POST_LINKS_EXPLAIN'			=> 'Om inaktiverat så kommer <code>[URL]</code>-BBCodetaggen och automatiska/magiska URL:er att inaktiveras.',
+	'ALLOWED_SCHEMES_LINKS'				=> 'Tillåtna scheman i länkar',
+	'ALLOWED_SCHEMES_LINKS_EXPLAIN'		=> 'Användare kan bara posta webbadresser utan schema eller en av de kommaseparerade listan över tillåtna scheman.',
 	'ALLOW_POST_FLASH'					=> 'Tillåt användning av <code>[FLASH]</code>-BBCodetaggen i inlägg',
 	'ALLOW_POST_FLASH_EXPLAIN'			=> 'Om inaktiverat så kommer <code>[FLASH]</code>-BBCodetaggen inaktiveras i inlägg. Annars kontrollerar behörighetssystemet vilka användare som kan använda <code>[FLASH]</code>-BBCodetaggen.',
 
