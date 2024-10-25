@@ -81,7 +81,7 @@ $lang = array_merge($lang, array(
 	'ACP_CLIENT_COMMUNICATION'	=> 'Klientkommunikation',
 	'ACP_COOKIE_SETTINGS'		=> 'Cookieinställningar',
 	'ACP_CONTACT'				=> 'Contact page',
-	'ACP_CONTACT_SETTINGS'		=> 'Contact page settings',
+	'ACP_CONTACT_SETTINGS'		=> 'Inställningar för kontaktsida',
 	'ACP_CRITICAL_LOGS'			=> 'Fellogg',
 	'ACP_CUSTOM_PROFILE_FIELDS'	=> 'Egna profilfält',
 
