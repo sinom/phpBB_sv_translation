@@ -15,13 +15,13 @@
 *** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
+
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
-
 
 
 <!-- PROJECT LOGO -->
@@ -51,7 +51,7 @@
 
 <!-- TABLE OF CONTENTS -->
 <details open="open">
-  <summary>Table of Contents</summary>
+  <summary>Innehållsförteckning</summary>
   <ol>
     <li>
       <a href="#about-the-project">Om översättningen</a>
@@ -78,9 +78,16 @@ Här sker översättningen av phpBB.com med hjälp av olika personers ideela ver
 För att bidra med översättningen rekommenderas textredigeraren nedan.
 * [Sublime Text 3](https://www.sublimetext.com)
 
+### Toppbidragsgivare:
+
+<a href="https://github.com/sinom/phpBB_sv_translation/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=sinom/phpBB_sv_translation" alt="contrib.rocks image" />
+</a>
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTACT -->
-## Kontakt
+### Kontakt
 
 Simon Assgård - (http://h2odesign.se) - kontakt@h2odesign.se
 
@@ -89,15 +96,15 @@ Projektlänk: [https://github.com/sinom/phpBB_sv_translation](https://github.com
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge
+[contributors-shield]: https://img.shields.io/github/contributors/sinom/phpBB_sv_translation.svg?style=for-the-badge
 [contributors-url]: https://github.com/sinom/phpBB_sv_translation/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=for-the-badge
+[forks-shield]: https://img.shields.io/github/forks/sinom/phpBB_sv_translation.svg?style=for-the-badge
 [forks-url]: https://github.com/sinom/phpBB_sv_translation/network/members
-[stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=for-the-badge
+[stars-shield]: https://img.shields.io/github/stars/sinom/phpBB_sv_translation.svg?style=for-the-badge
 [stars-url]: https://github.com/sinom/phpBB_sv_translation/stargazers
-[issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=for-the-badge
+[issues-shield]: https://img.shields.io/github/issues/sinom/phpBB_sv_translation.svg?style=for-the-badge
 [issues-url]: https://github.com/sinom/phpBB_sv_translation/issues
-[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
+[license-shield]: https://img.shields.io/github/license/sinom/phpBB_sv_translation.svg?style=for-the-badge
 [license-url]: https://github.com/sinom/phpBB_sv_translation/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://se.linkedin.com/in/simon-assg%C3%A5rd-a33781151
