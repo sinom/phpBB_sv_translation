@@ -116,6 +116,7 @@ $lang = array_merge($lang, array(
 	'VIEW_INFO'				=> 'Inläggsuppgifter',
 	'VIEW_NEXT_TOPIC'		=> 'Nästa tråd',
 	'VIEW_PREVIOUS_TOPIC'	=> 'Föregående tråd',
+	'VIEW_QUOTED_POST'		=> 'Se citerat inlägg',
 	'VIEW_RESULTS'			=> 'Visa resultat',
 	'VIEW_TOPIC_POSTS'	=>	array(
 		1	=>			'%d inlägg',

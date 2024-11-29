@@ -230,7 +230,7 @@ $lang = array_merge($lang, array(
 	'HELP_FAQ_SEARCH_FORUM_ANSWER'	=> 'Ange en term i sökrutan som finns på indexsidan, forumsidor och trådsidor. Avancerad sökning kan nås genom att klicka på “Avancerad sökning”-länken som finns på alla sidor på forumet. Hur sökfunktionen nås kan variera beroende på vilken stil som används.',
 	'HELP_FAQ_SEARCH_FORUM_QUESTION'	=> 'Hur söker jag på forumet?',
 
-	'HELP_FAQ_SEARCH_MEMBERS_ANSWER'	=> 'Gå till “Medlemmar”-sidan och klicka på “Hitta en medlem”-länken.',
+	'HELP_FAQ_SEARCH_MEMBERS_ANSWER'	=> 'Besök medlemslistan och klicka på länken "Hitta en medlem".',
 	'HELP_FAQ_SEARCH_MEMBERS_QUESTION'	=> 'Hur söker jag efter medlemmar?',
 
 	'HELP_FAQ_SEARCH_NO_RESULT_ANSWER'	=> 'Din sökning var förmodligen för vag och innehöll för många vanliga termer som inte indexeras av phpBB3. Var mer specifik och använd alternativen som finns i avancerad sökning.',

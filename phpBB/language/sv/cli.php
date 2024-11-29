@@ -79,6 +79,7 @@ $lang = array_merge($lang, array(
 	'CLI_DESCRIPTION_REPARSER_REPARSE'					=> 'Reparerar lagrad text med de aktuella text_formatter-tjänsterna.',
 	'CLI_DESCRIPTION_REPARSER_REPARSE_ARG_1'			=> 'Typ av text att reparera. Lämna tomt för att reparera allt.',
 	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_DRY_RUN'		=> 'Spara inga ändringar; skriv bara ut vad som skulle hända',
+	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_FORCE_BBCODE'	=> 'Omtolka alla BBCkoder utan undantag. Observera att alla tidigare inaktiverade BBC-koder kommer att omarbetas, aktiveras och återges helt.',
 	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_RANGE_MIN'	=> 'Lägsta post-ID att bearbeta',
 	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_RANGE_MAX'	=> 'Högsta post-ID att bearbeta',
 	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_RANGE_SIZE'	=> 'Ungefärligt antal poster att bearbeta åt gången',

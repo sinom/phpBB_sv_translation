@@ -52,6 +52,7 @@ $lang = array_merge($lang, array(
 
 	'DETAILS'				=> 'Detaljer',
 
+	'EXTENSIONS_NOT_INSTALLED'	=> 'Ej installerade tillägg',
 	'EXTENSIONS_DISABLED'	=> 'Inaktiverad tillägg',
 	'EXTENSIONS_ENABLED'	=> 'Aktiverade tillägg',
 
