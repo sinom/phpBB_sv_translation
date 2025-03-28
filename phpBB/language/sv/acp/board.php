@@ -498,8 +498,8 @@ $lang = array_merge($lang, array(
 	'SMILIES_PATH_EXPLAIN'		=> 'Sökväg under din phpBB-rotkatalog, t.ex. <samp>images/smilies</samp>.',
 	'UPLOAD_ICONS_PATH'			=> 'Sökväg till filtypsgruppikoner',
 	'UPLOAD_ICONS_PATH_EXPLAIN'	=> 'Sökväg under din phpBB-rotkatalog, t.ex. <samp>images/upload_icons</samp>.',
-	'USE_SYSTEM_CRON'		=> 'Kör prediodiska uppgifter från systemets cron',
-	'USE_SYSTEM_CRON_EXPLAIN'		=> 'När detta är av, phpBB kommer att arrangera för periodiska uppgifter att köras automatiskt. När detta är på, phpBB kommer inte att schemalägga några periodiska uppgifter.',
+	'USE_SYSTEM_CRON'			=> 'Kör prediodiska uppgifter från operativsystemets cron',
+	'USE_SYSTEM_CRON_EXPLAIN'	=> 'När detta är inaktiverat kommer phpBB att ordna för periodiska uppgifter som ska köras automatiskt. När det är aktiverat kommer phpBB inte att schemalägga några periodiska uppgifter av sig själv; En systemadministratör måste ordna <code>bin/phpbbcli.php cron:run</code> som ska drivas av operativsystemets cron-anläggning med regelbundna intervaller (t.ex. var 5: e minut).',
 ));
 
 // Security Settings

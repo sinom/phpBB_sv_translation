@@ -363,6 +363,8 @@ $lang = array_merge($lang, array(
 	'HIDE_ME'						=> 'Dölj att jag är online denna session.',
 	'HOURS'							=> 'Timmar',
 	'HOME'							=> 'Hem',
+	'HTTP_HANDLER_NOT_FOUND'		=> 'Funktionen kunde inte slutföras eftersom cURL PHP-tillägget och allow_url_fopen PHP ini-inställningen har inaktiverats och ingen annan HTTP-hanterare kunde hittas.',
+
 
 	'ICQ'						=> 'ICQ',
 	'IF'						=> 'Om',
