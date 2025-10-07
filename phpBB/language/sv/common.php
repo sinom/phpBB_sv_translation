@@ -583,13 +583,13 @@ $lang = array_merge($lang, array(
 	'ONLINE_BUDDIES'			=> 'Vänner online',
 	// "... :: x registered and y hidden"
 	'ONLINE_USERS_TOTAL'	=>	array(
-		1	=>			'Totalt <strong>%d</strong> användare online: :: %2$s and %3$s',
-		2	=>			'Totalt <strong>%d</strong> användare online: :: %2$s and %3$s',
+		1	=>			'Totalt <strong>%d</strong> användare online: :: %2$s och %3$s',
+		2	=>			'Totalt <strong>%d</strong> användare online: :: %2$s och %3$s',
 	),
 	// "... :: x registered, y hidden and z guests"
 	'ONLINE_USERS_TOTAL_GUESTS'	=>	array(
-		1	=>			'Totalt <strong>%d</strong> användare online: :: %2$s, %3$s and %4$s',
-		2	=>			'Totalt <strong>%d</strong> användare online: :: %2$s, %3$s and %4$s',
+		1	=>			'Totalt <strong>%d</strong> användare online: :: %2$s, %3$s och %4$s',
+		2	=>			'Totalt <strong>%d</strong> användare online: :: %2$s, %3$s och %4$s',
 	),
 	'OPTIONS'					=> 'Alternativ',
 
