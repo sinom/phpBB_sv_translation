@@ -2,7 +2,7 @@
 /**
 *
 * This file is part of Swedish phpBB translation.
-* Copyright (c) 2010 - 2025 Swedish translation group.
+* Copyright (c) 2010 - 2027 Swedish translation group.
 *
 *
 * For more information about the language pack, please visit
@@ -46,7 +46,7 @@ if (empty($lang) || !is_array($lang))
 //
 
 $lang = array_merge($lang, array(
-	'TRANSLATION_INFO'	=> 'Swedish translation by <a href="http://www.phpbb.se/">phpBB Sweden</a> &copy; 2006-2024',
+	'TRANSLATION_INFO'	=> 'Swedish translation by <a href="http://www.phpbb.se/">phpBB Sweden</a> &copy; 2006-2027',
 	'DIRECTION'			=> 'ltr',
 	'DATE_FORMAT'		=> '|d M Y|',	// 01 Jan 2007 (with Relative days enabled)
 	'DATETIME_FORMAT'	=> '|d M Y, H:i|',	// 01 Jan 2007, 13:37 (with Relative days enabled)
