@@ -303,7 +303,7 @@ $lang = array_merge($lang, array(
 	'ACP_FEED_OVERALL_FORUMS_EXPLAIN'	=> 'Aktiverar “Alla kategorier”-flödet och listar kategorierna',
 
 	'ACP_FEED_HTTP_AUTH'				=> 'Tillåt HTTP-autentisering',
-	'ACP_FEED_HTTP_AUTH_EXPLAIN'		=> 'Aktiverar HTTP-autentisering, detta tillåter användare att ta emot innehåll, som är gömt för gäster genom att lägga till parametern <samp>auth=http</samp>  i URL-flödet. Notera att vissa PHP-inställningar kräver ändringar i filen .htaccess. Instruktioner hittas i den filen.',
+	'ACP_FEED_HTTP_AUTH_EXPLAIN'		=> 'Aktiverar HTTP-autentisering, vilket tillåter användare att komma åt innehåll som är dolt för gäster genom att lägga till parametern <samp>auth=http</samp> till flödesadressen. Observera att vissa PHP-konfigurationer kan kräva ytterligare ändringar av .htaccess-filen; hänvisa till den filen för vägledning. HTTP-autentisering stöds endast över krypterade (https) anslutningar.',
 	'ACP_FEED_ITEM_STATISTICS'			=> 'Inläggsstatistik',
 	'ACP_FEED_ITEM_STATISTICS_EXPLAIN'	=> 'Visar individuell statistik i inläggsflödet. <br />(inläggsförfattare, tid, svar, antal gånger visat)',
 	'ACP_FEED_EXCLUDE_ID'				=> 'Exkludera dessa kategorier',
