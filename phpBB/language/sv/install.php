@@ -87,7 +87,7 @@ $lang = array_merge($lang, array(
 	'ACP_LINK'	=> 'Ta mig till <a href="%1$s">ACP (administrationspanelen)</a>',
 
 	'INSTALL_PHPBB_INSTALLED'		=> 'phpBB är redan installerat.',
-	'INSTALL_PHPBB_NOT_INSTALLED'	=> 'phpBB är inte installerat än.'
+	'INSTALL_PHPBB_NOT_INSTALLED'	=> 'phpBB är inte installerat än.',
 	'INSTALL_RESTART'				=> 'Starta om installationen',
 ));
 
