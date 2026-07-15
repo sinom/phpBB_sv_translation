@@ -208,6 +208,7 @@ $lang = array_merge($lang, array(
 	'INST_ERR_DB_FORUM_PATH'		=> 'Databasfilen du angivit finns inom ditt forums katalogträd. Du bör placera denna fil i en plats som inte är tillgänglig från webben.',
 	'INST_ERR_DB_CONNECT'			=> 'Kunde inte ansluta till databasen, se felmeddelande nedan.',
 	'INST_ERR_DB_NO_ERROR'			=> 'Inget felmeddelande gavs.',
+	'INST_ERR_DB_NO_WRITABLE'		=> 'Både databasen och mappen som innehåller den måste vara skrivbara.',
 	'INST_ERR_PREFIX'				=> 'Tabeller med det angivna prefixet finns redan, välj ett annat alternativ.',
 	'INST_ERR_DB_NO_MYSQLI'			=> 'Versionen av MySQL som är installerad på denna maskin är inte kompatibel med “MySQL with MySQLi Extension”-alternativet som du har valt. Försök med “MySQL”-alternativet istället.',
 	'INST_ERR_DB_NO_SQLITE3'		=> 'Versionen av SQLite tillägget som du har installerad är för gammal, den måste uppgraderas till minst 3.6.15.',
@@ -303,6 +304,7 @@ $lang = array_merge($lang, array(
 	'TASK_CREATE_DATABASE_SCHEMA_FILE'	=> 'Skapa databasschema-fil',
 	'TASK_SETUP_DATABASE'				=> 'Ställer in databas',
 	'TASK_CREATE_TABLES'				=> 'Skapar tabeller',
+	'TASK_CREATE_SEARCH_INDEX'			=> 'Skapar sökindex',
 
 	// Install data
 	'TASK_ADD_BOTS'			=> 'Registerar bots',

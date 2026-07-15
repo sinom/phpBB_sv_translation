@@ -68,6 +68,8 @@ $lang = array_merge($lang, array(
 	'CLI_DESCRIPTION_INCREMENT_CONFIG'			=> 'Ökar ett konfigurationsalternativs värde',
 	'CLI_DESCRIPTION_LIST_EXTENSIONS'			=> 'Listar alla tillägg i databasen och i filsystemet.',
 
+	'CLI_DESCRIPTION_FIX_LEFT_RIGHT_IDS'		=> 'Reparerar trädstrukturen för forum och moduler.',
+
 	'CLI_DESCRIPTION_OPTION_ENV'				=> 'Miljönamnet.',
 	'CLI_DESCRIPTION_OPTION_SAFE_MODE'			=> 'Kör i felsäkert läge (utan tillägg).',
 	'CLI_DESCRIPTION_OPTION_SHELL'				=> 'Lansera skalet.',
@@ -98,6 +100,7 @@ $lang = array_merge($lang, array(
 	'CLI_DESCRIPTION_UPDATE_CHECK_ARGUMENT_1'		=> 'Namn på tillägget som ska kontrolleras (om alla, kontrollerar alla tillägg)',
 	'CLI_DESCRIPTION_UPDATE_CHECK_OPTION_CACHE'		=> 'Kör kontrollkommandot med cache.',
 	'CLI_DESCRIPTION_UPDATE_CHECK_OPTION_STABILITY'	=> 'Kör kommandot och välj att endast kontrollera stabila eller instabila versioner.',
+	'CLI_DESCRIPTION_UPDATE_HASH_BCRYPT'			=> 'Uppdaterar föråldrade lösenordshashar till att hashas med bcrypt.',
 
 	'CLI_ERROR_INVALID_STABILITY' => '"%s" är inte en giltig stabilitet.',
 
@@ -118,10 +121,13 @@ $lang = array_merge($lang, array(
 	'CLI_DESCRIPTION_USER_DELETE_OPTION_POSTS'	=> 'Ta bort alla inlägg av användaren. Utan detta alternativ kommer användarens inlägg att behållas.', 
 	'CLI_DESCRIPTION_USER_RECLEAN'				=> 'Rensa användarnamn igen.',
 
+	'CLI_EXTENSION_DISABLED'			=> 'Tillägget %s är inte aktiverat',
 	'CLI_EXTENSION_DISABLE_FAILURE'		=> 'Det gick inte att inaktivera tillägget %s',
 	'CLI_EXTENSION_DISABLE_SUCCESS'		=> 'Lyckades inaktivera tillägget %s',
+	'CLI_EXTENSION_ENABLED'				=> 'Tillägget %s är redan aktiverat',
 	'CLI_EXTENSION_ENABLE_FAILURE'		=> 'Kunde inte aktivera tillägget %s',
 	'CLI_EXTENSION_ENABLE_SUCCESS'		=> 'Lyckades aktivera tillägget %s',
+	'CLI_EXTENSION_NOT_EXIST'			=> 'Tillägget %s finns inte',
 	'CLI_EXTENSION_NAME'				=> 'Namn på tillägget',
 	'CLI_EXTENSION_PURGE_FAILURE'		=> 'Kunde inte tömma tillägget %s',
 	'CLI_EXTENSION_PURGE_SUCCESS'		=> 'Lyckades tömma tillägget %s',
@@ -131,8 +137,10 @@ $lang = array_merge($lang, array(
 	'CLI_EXTENSIONS_AVAILABLE'			=> 'Tillgänglig',
 	'CLI_EXTENSIONS_DISABLED'			=> 'Inaktiverad',
 	'CLI_EXTENSIONS_ENABLED'			=> 'Aktiverad',
+	'CLI_EXTENSION_NOT_ENABLEABLE'		=> 'Tillägget %s kan inte aktiveras.',
 
-	
+	'CLI_FIXUP_FIX_LEFT_RIGHT_IDS_SUCCESS'	=> 'Trädstrukturen för forum och moduler har reparerats framgångsrikt.',
+	'CLI_FIXUP_UPDATE_HASH_BCRYPT_SUCCESS' => 'Uppdateringen av föråldrade lösenordshashar till bcrypt lyckades.',
 
 	'CLI_MIGRATION_NAME'					=> 'Migreringsnamn, inklusive namnutrymmet (använd snedstreck istället för bakåtstreck för att undvika problem).',
 	'CLI_MIGRATIONS_AVAILABLE'				=> 'Tillgängliga migreringar',

@@ -133,6 +133,9 @@ $lang = array_merge($lang, array(
 
 	'GENERAL_FORUM_SETTINGS'	=> 'Allmänna kategoriinställningar',
 
+	'LIMIT_SUBFORUMS'			=> 'Begränsa förklaringen till direkta underkategorier',
+	'LIMIT_SUBFORUMS_EXPLAIN'	=> 'Begränsar underforumen som visas till underforum som är direkt underliggande (barn) till det aktuella forumet. Om detta inaktiveras så visas alla underforum som har alternativet ”Visa underforum i förklaringen” aktiverat, oavsett djup.',
+
 	'LINK'						=> 'Länk',
 	'LIST_INDEX'				=> 'Visa underkategori i ovanliggande kategoris beskrivning',
 	'LIST_INDEX_EXPLAIN'		=> 'Visar en länk till denna kategori i dess ovanliggande kategoris beskrivning och på indexsidan.',

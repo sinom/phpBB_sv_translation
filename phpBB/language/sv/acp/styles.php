@@ -87,8 +87,10 @@ $lang = array_merge($lang, [
 	'STYLE_UNINSTALLED'				=> 'Stilen "%s" avinstallerades.',
 	'STYLE_PHPBB_VERSION'			=> 'phpBB-version',
 	'STYLE_USED_BY'					=> 'Används av (inklusive robotar)',
+	'STYLE_VERSION'					=> 'Stilversion',
 
 	'UNINSTALL_DEFAULT'				=> 'Du kan inte avinstallera standardstilen.',
+	'UNINSTALL_PROSILVER'			=> 'Du kan inte avinstallera stilen ”prosilver”.',
 
 	'BROWSE_STYLES_DATABASE'		=> 'Bläddra i Stil-databasen', 
 ]);

@@ -91,6 +91,7 @@ $lang = array_merge($lang, array(
 	'NO_UNREAD_POSTS'		=> 'Det finns inga nya olästa inlägg i denna tråd.',
 	'NO_VOTE_OPTION'		=> 'Du måste välja ett alternativ för att rösta.',
 	'NO_VOTES'				=> 'Inga röster',
+	'NO_AUTH_PRINT_TOPIC'	=> 'Du har inte behörighet att skriva ut ämnen.',
 
 	'POLL_ENDED_AT'			=> 'Omröstningen slutade %s',
 	'POLL_RUN_TILL'			=> 'Omröstningen varar till %s',

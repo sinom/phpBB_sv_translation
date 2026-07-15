@@ -200,6 +200,7 @@ $lang = array_merge($lang, array(
 	'CONTACT_USER'			=> 'Kontakta %s',
 	'CONTACT_US'			=> 'Kontakta oss',
 	'COOKIE_CONSENT_INFO'	=> 'Lär dig mer', 
+	'COOKIE_CONSENT_HREF'	=> 'http://cookiesandyou.com',
 	'COOKIE_CONSENT_MSG'	=> 'Den här sidan använder cookies för att ge dig den bästa upplevelsen.', 
 	'COOKIE_CONSENT_OK'		=> 'Uppfattat!', 
 	'COOKIES_DELETED'		=> 'Alla cookies skapade av detta forum togs bort.',
@@ -595,6 +596,7 @@ $lang = array_merge($lang, array(
 
 	'PAGE_OF'				=> 'Sida <strong>%1$d</strong> av <strong>%2$d</strong>',
 	'PAGE_TITLE_NUMBER'		=> 'Sida %s',
+	'PAGE_NOT_FOUND'		=> 'Den begärda sidan hittades inte.',
 	'PASSWORD'				=> 'Lösenord',
 	'PIXEL'					=> 'px',
 	'PIXELS'	=>	array(

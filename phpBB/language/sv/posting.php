@@ -151,7 +151,7 @@ $lang = array_merge($lang, array(
 	'LOGIN_EXPLAIN_REPLY'		=> 'Du måste logga in för att svara på trådar i denna kategori.',
 
 	'MAX_ATTACHMENT_FILESIZE'	=> 'Maximal filstorlek per bilaga: %s.',
-	'MAX_FONT_SIZE_EXCEEDED'	=> 'Du får endast använda textstorlekar upp till storlek %1$d.',
+	'MAX_FONT_SIZE_EXCEEDED'	=> 'Du får endast använda textstorlekar upp till storlek %d.',
 	'MAX_FLASH_HEIGHT_EXCEEDED'	=>	array(
 		1	=>			'Dina flashfiler får inte vara högre än %d pixel hög',
 		2	=>			'Dina flashfiler får inte vara högre än %d pixlar höga',

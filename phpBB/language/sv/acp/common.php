@@ -398,7 +398,7 @@ $lang = array_merge($lang, array(
 	'NUMBER_ORPHAN'		=> 'Föräldralösa bilagor',
 
 	'PHP_VERSION'		=> 'PHP-version',
-	'PHP_VERSION_OLD'	=> 'php-versionen som är installerad på servern kommer inte att stödas i kommande versioner av phpBB. %sDetaljer%s',
+	'PHP_VERSION_OLD'	=> 'PHP-versionen på den här servern (%1$s) kommer inte längre att stödjas av framtida versioner av phpBB. Den lägsta versionen som krävs kommer att vara PHP %2$s. %3$sDetaljer%4$s',
 
 	'POSTS_PER_DAY'		=> 'Inlägg per dag',
 
@@ -449,6 +449,9 @@ $lang = array_merge($lang, array(
 	'VERSION_CHECK_EXPLAIN'		=> 'Kontrollerar om din phpBB-installation är aktuell.', 
 	'VERSION_NOT_UP_TO_DATE_ACP'	=> 'Din phpBB-installation är inte aktuell.<br />Nedan finns en link till tillkännagivandet, vilket innehåller mer information så väl som instruktioner om hur du uppdaterar.',
 	'VERSION_NOT_UP_TO_DATE_TITLE'	=> 'Din phpBB-installation är inte aktuell.', 
+	'VERSIONCHECK_INVALID_ENTRY'	=> 'Informationen om den senaste versionen innehåller ett element som inte stöds.',
+	'VERSIONCHECK_INVALID_URL'	=> 'Informationen om den senaste versionen innehåller en ogiltig URL.',
+	'VERSIONCHECK_INVALID_VERSION'	=> 'Informationen om den senaste versionen innehåller ett ogiltigt versionsnummer.',
 	'VERSION_UP_TO_DATE_ACP'	=> 'Din phpBB-installation är aktuell. Det finns inga tillgängliga uppdateringar för närvarande.', 
 	'VIEW_ADMIN_LOG'			=> 'Visa administrationsloggen',
 	'VIEW_INACTIVE_USERS'		=> 'Visa inaktiverade användare',
@@ -822,7 +825,7 @@ $lang = array_merge($lang, array(
 		1	=>			'<strong>Tog användarvarning</strong><br />» %1$s',
 		2	=>			'<strong>Tog bort %2$d användarvarningar</strong><br />» %1$s', // Example: '<strong>Deleted 2 user warnings</strong><br />» username',
 	),
-	'LOG_WARNINGS_DELETED_ALL'	=> '<strong>Tog bort alla användarvarningar</strong><br />» %1$s',
+	'LOG_WARNINGS_DELETED_ALL'	=> '<strong>Tog bort alla användarvarningar</strong><br />» %s',
 
 	'LOG_WORD_ADD'			=> '<strong>Lade till ordcensurering</strong><br />» %s',
 	'LOG_WORD_DELETE'		=> '<strong>Tog bort ordcensurering</strong><br />» %s',

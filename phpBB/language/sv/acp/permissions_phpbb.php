@@ -123,6 +123,8 @@ $lang = array_merge($lang, array(
 	'ACL_F_DOWNLOAD'	=> 'Kan ladda ner filer',
 	'ACL_F_REPORT'		=> 'Kan rapportera inlägg',
 
+	'ACL_F_LIST_TOPICS'	=> 'Kan se ämnen',
+
 	'ACL_F_POST'		=> 'Kan skapa nya trådar',
 	'ACL_F_STICKY'		=> 'Kan posta notiser',
 	'ACL_F_ANNOUNCE'	=> 'Kan posta anslag',
