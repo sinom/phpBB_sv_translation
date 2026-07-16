@@ -67,7 +67,6 @@ $lang = array_merge($lang, array(
 
 	'ACCOUNT_ALREADY_ACTIVATED'		=> 'Ditt konto har redan aktiverats.',
 	'ACCOUNT_DEACTIVATED'			=> 'Ditt konto har inaktiverats manuellt och kan endast återaktiveras av en administratör.',
-	'ACCOUNT_NOT_ACTIVATED'			=> 'Ditt konto har inte aktiverats än.',
 	'ACP'							=> 'Administrationspanel',
 	'ACP_SHORT'						=> 'ACP',
 	'ACTIVATION_ALREADY_SENT'		=> 'Aktiverings e-postmeddelandet har redan skickats till din e-postadress. Du kan försöka igen efter 24 timmar. Om du fortsätter att ha problem med att aktivera ditt konto, vänligen kontakta en forumadministratör.',

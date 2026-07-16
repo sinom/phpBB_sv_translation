@@ -177,18 +177,6 @@ $lang = array_merge($lang, array(
 		1	=>			'Rengöring klar. %d användarnamn har rensats.',
 		2	=>			'Rengöring klar. %d användarnamn rensades.',
 	],
-
-	'CLI_DESCRIPTION_EXTENSION_MANAGE'					=> 'Hanterar ett tillägg',
-	'CLI_DESCRIPTION_EXTENSION_MANAGE_ARGUMENT'			=> 'Tillägg att hantera',
-	'CLI_DESCRIPTION_EXTENSION_INSTALL'					=> 'Installera det eller de angivna tilläggen.',
-	'CLI_DESCRIPTION_EXTENSION_INSTALL_OPTION_ENABLE'	=> 'Aktivera tillägg(er) efter installationen',
-	'CLI_DESCRIPTION_EXTENSION_INSTALL_ARGUMENT'		=> 'Tillägg(er) att installera, t.ex.: leverantör/paket',
-	'CLI_DESCRIPTION_EXTENSION_LIST_AVAILABLE'			=> 'Lista tillägg tillgängliga för installation.',
-	'CLI_DESCRIPTION_EXTENSION_REMOVE'					=> 'Ta bort den eller de angivna tilläggen.',
-	'CLI_DESCRIPTION_EXTENSION_REMOVE_OPTION_PURGE'		=> 'Rensa förlängning(ar) när du tar bort dem',
-	'CLI_DESCRIPTION_EXTENSION_REMOVE_ARGUMENT'			=> 'Förlängning(er) att ta bort, t.ex.: leverantör/paket',
-	'CLI_DESCRIPTION_EXTENSION_UPDATE'					=> 'Uppdatera det eller de angivna tilläggen.',
-	'CLI_DESCRIPTION_EXTENSION_UPDATE_ARGUMENT'			=> 'Tillägg att uppdatera, t.ex.: leverantör/paket',
 ));
 
 // Additional help for commands.

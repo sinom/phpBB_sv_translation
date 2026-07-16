@@ -258,7 +258,7 @@ $lang = array_merge($lang, array(
 	'NO_REPORT_SELECTED'			=> 'Du måste välja minst en rapport för att utföra denna åtgärd.',
 	'NO_TOPIC_ICON'					=> 'Ingen',
 	'NO_TOPIC_SELECTED'				=> 'Du måste välja minst en tråd för att utföra denna åtgärd.',
-	'NO_TOPICS_DELETED'				=> 'There are no deleted topics.',
+	'NO_TOPICS_DELETED'				=> 'Det finns inga raderade ämnen.',
 	'NO_TOPICS_QUEUE'				=> 'Det finns inga trådar som väntar på godkännande.',
 
 	'ONLY_TOPIC'			=> 'Endast tråd “%s”',

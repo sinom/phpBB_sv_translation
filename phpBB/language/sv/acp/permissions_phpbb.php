@@ -139,7 +139,7 @@ $lang = array_merge($lang, array(
 
 	'ACL_F_ATTACH'		=> 'Kan bifoga filer',
 	'ACL_F_ICONS'		=> 'Kan använda tråd/inläggsikoner',
-	'ACL_F_BBCODE'		=> 'Can use BBCode',
+	'ACL_F_BBCODE'		=> 'Kan använda BBCode',
 	'ACL_F_FLASH'		=> 'Kan använda BBCode [flash]',
 	'ACL_F_IMG'			=> 'Kan använda BBCode [img]',
 	'ACL_F_SIGS'		=> 'Kan använda signaturer',

@@ -718,7 +718,7 @@ $lang = array_merge($lang, array(
 
 	'LOG_PRUNE'					=> '<strong>Rensade kategorier</strong><br />» %s',
 	'LOG_AUTO_PRUNE'			=> '<strong>Auto-rensade kategorier</strong><br />» %s',
-	'LOG_PRUNE_SHADOW'		=> '<strong>Auto-pruned shadow topics</strong><br />» %s',
+	'LOG_PRUNE_SHADOW'			=> '<strong>Automatiskt rensade skuggämnen</strong><br />» %s',
 	'LOG_PRUNE_USER_DEAC'		=> '<strong>Användare inaktiverade</strong><br />» %s',
 	'LOG_PRUNE_USER_DEL_DEL'	=> '<strong>Användare rensade och inlägg borttagna</strong><br />» %s',
 	'LOG_PRUNE_USER_DEL_ANON'	=> '<strong>Användare rensade och inlägg behållna</strong><br />» %s',

@@ -44,11 +44,11 @@ if (empty($lang) || !is_array($lang))
 // Custom profile fields
 $lang = array_merge($lang, array(
 	'ADDED_PROFILE_FIELD'	=> 'Lade till nytt eget profilfält.',
-	'ALPHA_DOTS'			=> 'Alphanumeric and dots (periods)',
+	'ALPHA_DOTS'			=> 'Alfanumerisk och punkter',
 	'ALPHA_ONLY'			=> 'Endast alfanumeriska',
 	'ALPHA_SPACERS'			=> 'Alfanumeriska och mellanslag',
 	'ALPHA_UNDERSCORE'		=> 'Alfanumeriska och understreck',
-	'ALPHA_PUNCTUATION'		=> 'Alphanumeric with comma, dots, underscore and dashes beginning with a letter',
+	'ALPHA_PUNCTUATION'		=> 'Alfanumerisk med komma, punkter, understreck och bindestreck som börjar med en bokstav',
 	'ALWAYS_TODAY'			=> 'Alltid det aktuella datumet',
 
 	'BOOL_ENTRIES_EXPLAIN'	=> 'Ange dina alternativ nu.',
@@ -124,11 +124,11 @@ $lang = array_merge($lang, array(
 
 	'LANG_SPECIFIC_OPTIONS'		=> 'Språkspecifika inställningar [<strong>%s</strong>]',
 
-	'LETTER_NUM_DOTS'			=> 'Any letters, numbers and dots (periods)',
-	'LETTER_NUM_ONLY'			=> 'Any letters and numbers',
-	'LETTER_NUM_PUNCTUATION'	=> 'Any letters, numbers, comma, dots, underscores and dashes beginning with any letter',
-	'LETTER_NUM_SPACERS'		=> 'Any letters, numbers and spacers',
-	'LETTER_NUM_UNDERSCORE'		=> 'Any letters, numbers and underscores',
+	'LETTER_NUM_DOTS'			=> 'Alla bokstäver, siffror och punkter (punkter)',
+	'LETTER_NUM_ONLY'			=> 'Alla bokstäver och siffror',
+	'LETTER_NUM_PUNCTUATION'	=> 'Alla bokstäver, siffror, komma, punkter, understreck och bindestreck som börjar med en bokstav',
+	'LETTER_NUM_SPACERS'		=> 'Alla bokstäver, siffror och blanksteg',
+	'LETTER_NUM_UNDERSCORE'		=> 'Alla bokstäver, siffror och understreck',
 
 	'MAX_FIELD_CHARS'		=> 'Maximalt antal tecken',
 	'MAX_FIELD_NUMBER'		=> 'Högsta tillåtna nummer',

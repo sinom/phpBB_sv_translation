@@ -56,17 +56,17 @@ $lang = array_merge($lang, [
 	'RECAPTCHA_INVISIBLE'				=> 'Denna CAPTCHA är faktiskt osynlig. För att verifiera att det fungerar bör en liten ikon visas i det nedre högra hörnet av denna sida.',
 	'RECAPTCHA_V3_LOGIN_ERROR_ATTEMPTS'	=> 'Du har överskridit maximalt antal tillåtna inloggningsförsök. <br> Förutom ditt användarnamn och lösenord kommer den osynliga reCAPTCHA v3 att användas för att autentisera din session.',
 
-	'RECAPTCHA_PUBLIC'				=> 'Site key',
+	'RECAPTCHA_PUBLIC'				=> 'Webbplatsnyckel',
 	'RECAPTCHA_PUBLIC_EXPLAIN'		=> 'Din sid-reCaptcha nyckel. Nycklar kan erhållas på <a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a>. Använd reCAPTCHA v2 &gt; Osynlig typ av reCAPTCHA-märke.',
 	'RECAPTCHA_V3_PUBLIC_EXPLAIN'	=> 'Din webbplats reCAPTCHA-nyckel. Nycklar kan erhållas på <a href="https://www.google.com/recaptcha"> www.google.com/recaptcha </a>. Använd reCAPTCHA v3.',
-	'RECAPTCHA_PRIVATE'				=> 'Secret key',
+	'RECAPTCHA_PRIVATE'				=> 'Hemlig nyckel',
 	'RECAPTCHA_PRIVATE_EXPLAIN'		=> 'Din hemliga reCaptcha nyckel. Nycklar kan erhållas på <a href="https://www.google.com/recaptcha">www.google.com/recaptcha</a> Använd reCAPTCHA v2 &gt; Osynlig typ av reCAPTCHA-märke.',
 	'RECAPTCHA_V3_PRIVATE_EXPLAIN'	=> 'Din hemliga reCAPTCHA-nyckel. Nycklar kan erhållas på <a href="https://www.google.com/recaptcha"> www.google.com/recaptcha </a>. Använd reCAPTCHA v3.',
 
 	'RECAPTCHA_V3_DOMAIN'				=> 'Begär domän',
-	'RECAPTCHA_V3_DOMAIN_EXPLAIN'		=> 'The domain to fetch the script from and to use when verifying the request.<br>Use <samp>recaptcha.net</samp> when <samp>google.com</samp> is not accessible.',
+	'RECAPTCHA_V3_DOMAIN_EXPLAIN'		=> 'Domänen som skriptet hämtas från och som används när begäran verifieras.<br>Använd <samp>recaptcha.net</samp> när <samp>google.com</samp> inte är tillgänglig.',
 
-	'RECAPTCHA_V3_METHOD'				=> 'Request method',
+	'RECAPTCHA_V3_METHOD'				=> 'Begär metod',
 	'RECAPTCHA_V3_METHOD_EXPLAIN'		=> 'Domänen att hämta skriptet från och att använda vid verifiering av begäran. <br> Använd <samp> recaptcha.net </samp> när <samp> google.com </samp> inte är tillgängligt.',
 	'RECAPTCHA_V3_METHOD_CURL'			=> 'cURL',
 	'RECAPTCHA_V3_METHOD_POST'			=> 'POST',

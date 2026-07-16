@@ -136,17 +136,14 @@ $lang = array_merge($lang, array(
 	'NOT_ALLOWED_IN_PM'			=> 'Endast tillåten i inlägg',
 	'NOT_ALLOWED_IN_PM_POST'	=> 'Inte tillåten',
 	'NOT_ASSIGNED'				=> 'Inte tilldelad',
-	'NO_ATTACHMENTS'			=> 'No attachments found for this period.',
+	'NO_ATTACHMENTS'			=> 'Inga bilagor hittades för denna period.',
 	'NO_EXT_GROUP'				=> 'Ingen',
 	'NO_EXT_GROUP_ALLOWED_PM'	=> 'Det finns inga <a href="%s">tillåtna tilläggsgrupper</a> för privata meddelanden.',
 	'NO_EXT_GROUP_ALLOWED_POST'	=> 'Det finns inga <a href="%s">tillåtna tilläggsgrupper</a> för inlägg.',
-
-
 	'NO_EXT_GROUP_NAME'			=> 'Inget gruppnamn angivet',
 	'NO_EXT_GROUP_SPECIFIED'	=> 'Ingen filtypsgrupp angiven.',
 	'NO_FILE_CAT'				=> 'Ingen',
 	'NO_IMAGE'					=> 'Ingen bild',
-	'NO_THUMBNAIL_SUPPORT'		=> 'Miniatyrbildsstöd har inaktiverats. För att det ska fungera måste antingen GD-extension finnas tillgänglig eller så måste Imagemagick vara installerad. Ingen av dessa hittades.',
 	'NO_UPLOAD_DIR'				=> 'Uppladdningskatalogen du angav finns inte.',
 	'NO_WRITE_UPLOAD'			=> 'Uppladdningskatalogen du angav kan inte skrivas till. Ändra behörigheterna så att webbservern kan skriva till den.',
 
@@ -158,7 +155,6 @@ $lang = array_merge($lang, array(
 	'REMOVE_DISALLOWED_IPS'			=> 'Ta bort eller häv undantag för <em>otillåtna</em> IP-adresser/värdnamn',
 	'RESYNC_FILES_STATS_CONFIRM'	=> 'Är du säker på att du vill synkronisera filstatistiken?',
 
-	'SEARCH_IMAGICK'				=> 'Sök efter Imagemagick',
 	'SECURE_ALLOW_DENY'				=> 'Tillåt/Neka-lista',
 	'SECURE_ALLOW_DENY_EXPLAIN'		=> 'Ändra standardbeteendet när säkra nerladdningar är aktiverade för Tillåt/Neka-listan till en <strong>whitelist</strong> (Tillåt) eller en <strong>blacklist</strong> (Neka).',
 	'SECURE_DOWNLOADS'				=> 'Aktivera säkra nerladdningar',

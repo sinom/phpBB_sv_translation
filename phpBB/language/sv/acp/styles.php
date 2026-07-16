@@ -46,7 +46,7 @@ $lang = array_merge($lang, [
 'Här kan du hantera stilarna på ditt forum.<br>Vänligen notera att du inte kan avinstallera “<strong>prosilver</strong>”-stilen då detta är phpBB’s standardstil och primära föräldrastilen.',
 	'CANNOT_BE_INSTALLED'			=> 'Kan inte bli installerad',
 	'CONFIRM_UNINSTALL_STYLES'		=> 'Är du säker på att du vill avinstallera valda stilar?',
-	'COPYRIGHT'						=> 'Copyright',
+	'COPYRIGHT'						=> 'Upphovsrätt',
 
 	'DEACTIVATE_DEFAULT'			=> 'Du kan inte inaktivera standardstilen.',
 	'DELETE_FROM_FS'				=> 'Ta bort från filsystemet',

@@ -70,11 +70,11 @@ $lang = array_merge($lang, array(
 
 	'FULLTEXT_POSTGRES_INCOMPATIBLE_DATABASE'	=> 'PostgreSQL fulltext backend kan endast användas med PostgreSQL.',
 	'FULLTEXT_POSTGRES_TOTAL_POSTS'			=> 'Totalt antal indexerade inlägg',
-	'FULLTEXT_POSTGRES_VERSION_CHECK'		=> 'PostgreSQL version',
+	'FULLTEXT_POSTGRES_VERSION_CHECK'		=> 'PostgreSQL-version',
 	'FULLTEXT_POSTGRES_TS_NAME'				=> 'Konfigureringsprofil för textsökning:',
 	'FULLTEXT_POSTGRES_MIN_WORD_LEN'			=> 'Minimal ordlängd för nyckelord',
 	'FULLTEXT_POSTGRES_MAX_WORD_LEN'			=> 'Maximal ordlängd för nyckelord',
-	'FULLTEXT_POSTGRES_VERSION_CHECK_EXPLAIN'		=> 'Denna sökningsbackend kräver PostgreSQL version 8.3 eller högre.',
+	'FULLTEXT_POSTGRES_VERSION_CHECK_EXPLAIN'		=> 'Denna sökningsbackend kräver PostgreSQL-version 8.3 eller högre.',
 	'FULLTEXT_POSTGRES_TS_NAME_EXPLAIN'				=> 'Konfigureringsprofilen för textsökningen som används för att fastställa parser och ordbok.',
 	'FULLTEXT_POSTGRES_MIN_WORD_LEN_EXPLAIN'			=> 'Ord med minst detta antal tecken kommer att användas vid sökning i databasen.',
 	'FULLTEXT_POSTGRES_MAX_WORD_LEN_EXPLAIN'			=> 'Ord med högst detta antal tecken kommer att användas vid sökning i databasen.',
