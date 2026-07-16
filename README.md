@@ -1,111 +1,289 @@
-<!--
-*** Thanks for checking out the Best-README-Template. If you have a suggestion
-*** that would make this better, please fork the repo and create a pull request
-*** or simply open an issue with the tag "enhancement".
-*** Thanks again! Now go create something AMAZING! :D
--->
+# 🇸🇪 Svenska språkpaketet för phpBB
 
-
-
-<!-- PROJECT SHIELDS -->
-<!--
-*** I'm using markdown "reference style" links for readability.
-*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
-*** See the bottom of this document for the declaration of the reference variables
-*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
-*** https://www.markdownguide.org/basic-syntax/#reference-style-links
--->
-
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
-
-
-<!-- PROJECT LOGO -->
-<br />
 <p align="center">
-  <a href="https://github.com/sinom/phpBB_sv_translation">
-    <img src="images/logo.png" alt="Logo" width="272" height="72">
-  </a>
-
-  <h3 align="center">Den svenska översättningen av phpBB</h3>
-
-  <p align="center">
-    För mer information kring diskussionen av översättningen, klicka nedan!
-    <br />
-    <a href="http://phpbb.se/forum/viewforum.php?f=55"><strong>[3.3.X] - Översättning »</strong></a>
-    <br />
-    <br />
-    <a href="http://phpbb.se/forum/index.php">phpBB.se</a>
-    ·
-    <a href="http://phpbb.se/kontakt/">Kontakt</a>
-    ·
-    <a href="http://phpbb.se/phpbb-nyheter/">Nyheter</a>
-  </p>
+  <img src="images/github_banner_v2.png" alt="Svenska phpBB-översättningen">
 </p>
 
+<p align="center">
+  <strong>En komplett svensk översättning av phpBB.</strong><br>
+  Ett communitydrivet projekt för att tillhandahålla ett aktuellt och korrekt svenskt språkpaket.
+</p>
 
+---
 
-<!-- TABLE OF CONTENTS -->
-<details open="open">
-  <summary>Innehållsförteckning</summary>
-  <ol>
-    <li>
-      <a href="#about-the-project">Om översättningen</a>
-      <ul>
-        <li><a href="#built-with">Byggd med</a></li>
-      </ul>
-    </li>
-    <li><a href="#contact">Kontakt</a></li>
-  </ol>
-</details>
+## 📌 Om projektet
 
+Detta projekt innehåller den svenska översättningen för **phpBB**.
 
+Målet är att erbjuda ett komplett språkpaket med:
 
-<!-- ABOUT THE PROJECT -->
-## Om översättningen
+- korrekt svensk översättning
+- konsekvent terminologi
+- kontinuerligt underhåll
+- enkel installation
+- tydlig versionshantering
 
-[![Product Name Screen Shot][product-screenshot]](http://phpbb.se/forum/index.php)
+Projektet är skapat för svenska phpBB-användare och administratörer som vill använda phpBB på svenska.
 
-Här sker översättningen av phpBB.com med hjälp av olika personers ideela verksamhet för att se till att vi alltid har en bra, korrekt och snabbt uppdaterad översättning.
+---
 
+## 📦 Installation
 
-### Byggd med
+### 1. Ladda ner språkpaketet
 
-För att bidra med översättningen rekommenderas textredigeraren nedan.
-* [Sublime Text 3](https://www.sublimetext.com)
+Gå till projektets **Releases** och ladda ner den senaste `.zip`-filen.
 
-### Toppbidragsgivare:
+Exempel:
 
-<a href="https://github.com/sinom/phpBB_sv_translation/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=sinom/phpBB_sv_translation" alt="contrib.rocks image" />
-</a>
+```
+phpBB-3.3.17-sv-1.0.3.zip
+```
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+---
 
-<!-- CONTACT -->
-### Kontakt
+### 2. Packa upp filen
 
-Simon Assgård - (http://h2odesign.se) - kontakt@h2odesign.se
+Efter uppackning ska strukturen se ut ungefär så här:
 
-Projektlänk: [https://github.com/sinom/phpBB_sv_translation](https://github.com/sinom/phpBB_sv_translation)
+```
+styles/
+language/
+└── sv/
+    ├── common.php
+    ├── acp/
+    ├── email/
+    └── ...
+ext/
+```
 
+---
 
-<!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/sinom/phpBB_sv_translation.svg?style=for-the-badge
-[contributors-url]: https://github.com/sinom/phpBB_sv_translation/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/sinom/phpBB_sv_translation.svg?style=for-the-badge
-[forks-url]: https://github.com/sinom/phpBB_sv_translation/network/members
-[stars-shield]: https://img.shields.io/github/stars/sinom/phpBB_sv_translation.svg?style=for-the-badge
-[stars-url]: https://github.com/sinom/phpBB_sv_translation/stargazers
-[issues-shield]: https://img.shields.io/github/issues/sinom/phpBB_sv_translation.svg?style=for-the-badge
-[issues-url]: https://github.com/sinom/phpBB_sv_translation/issues
-[license-shield]: https://img.shields.io/github/license/sinom/phpBB_sv_translation.svg?style=for-the-badge
-[license-url]: https://github.com/sinom/phpBB_sv_translation/blob/master/LICENSE.txt
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://se.linkedin.com/in/simon-assg%C3%A5rd-a33781151
-[product-screenshot]: images/screenshot.png
+### 3. Installera språkpaketet
+
+Kopiera mapparna:
+
+```
+styles/
+language/
+ext/
+```
+
+till din phpBB-installation (root):
+
+```
+phpBB/
+```
+
+Resultatet ska bli:
+
+```
+phpBB/
+└── language/
+    └── sv/
+    styles/
+    ext/
+```
+
+---
+
+### 4. Aktivera svenska
+
+Logga in i phpBB:s administrationspanel:
+
+```
+Administrationspanel
+→ System
+→ Språkpaket
+```
+
+Installera och aktivera svenska språket.
+
+---
+
+# 🔢 Versionshantering
+
+Språkpaketen följer phpBB:s versionsnummer samt den svenska översättningens eget versionsnummer.
+
+Filnamnet är uppbyggt enligt följande:
+
+```
+phpBB-[phpBB-version]-sv-[översättningsversion].zip
+```
+
+Exempel:
+
+```
+phpBB-3.3.17-sv-1.0.3.zip
+```
+
+Betyder:
+
+| Del | Förklaring |
+|---|---|
+| `phpBB` | Projektet som språkpaketet gäller för |
+| `3.3.17` | Version av phpBB som språkpaketet är anpassat för |
+| `sv` | Svenskt språkpaket |
+| `1.0.3` | Version av den svenska översättningen |
+| `.zip` | Färdigt installationspaket |
+
+---
+
+## Exempel: `phpBB-3.3.17-sv-1.0.3.zip`
+
+Denna fil betyder:
+
+- Språkpaketet är anpassat för **phpBB 3.3.17**
+- Språket är **svenska**
+- Översättningen är version **1.0.3**
+
+Versionsnumret efter `sv-` beskriver alltså själva översättningen och är separat från phpBB:s versionsnummer.
+
+---
+
+## Versionsnivåer för översättningen
+
+Översättningen använder formatet:
+
+```
+MAJOR.MINOR.PATCH
+```
+
+Exempel:
+
+```
+1.0.3
+```
+
+---
+
+### Major
+
+Exempel:
+
+```
+2.0.0
+```
+
+Används vid större förändringar:
+
+- ny struktur för språkpaketet
+- större omarbetning av översättningen
+- större förändringar kopplade till framtida phpBB-versioner
+
+---
+
+### Minor
+
+Exempel:
+
+```
+1.1.0
+```
+
+Används vid:
+
+- större mängder nya översatta språksträngar
+- förbättrade översättningar
+- större språkliga förändringar
+
+---
+
+### Patch
+
+Exempel:
+
+```
+1.0.3
+```
+
+Används vid:
+
+- stavningskorrigeringar
+- grammatiska förbättringar
+- mindre justeringar
+- rättningar av befintliga språksträngar
+
+---
+
+## Exempel på versionshistorik
+
+| Fil | Förklaring |
+|---|---|
+| `phpBB-3.3.17-sv-1.0.0.zip` | Första versionen av svenska översättningen för phpBB 3.3.17 |
+| `phpBB-3.3.17-sv-1.0.1.zip` | Mindre korrigeringar |
+| `phpBB-3.3.17-sv-1.0.3.zip` | Ytterligare förbättringar och rättningar |
+| `phpBB-3.3.18-sv-1.0.0.zip` | Nytt språkpaket anpassat för phpBB 3.3.18 |
+
+# 👥 Översättningsgruppen
+
+Projektet underhålls av:
+
+| Namn | Roll |
+|---|---|
+| Sinom | Huvudansvarig / utveckling |
+| Holger | Översättning och granskning |
+
+---
+
+# 📁 Projektstruktur
+
+```
+phpBB_sv_translation/
+│
+├── language/
+│   └── sv/
+│       ├── acp/
+│       ├── email/
+│       └── *.php
+│
+├── images/
+│   └── banner.png
+│
+├── README.md
+│
+└── LICENSE
+```
+
+---
+
+# 🔄 Uppdateringar
+
+När phpBB släpper nya versioner uppdateras språkpaketet vid behov.
+
+Fokus ligger på:
+
+- att nya språksträngar inkluderas
+- att gamla översättningar fortfarande är korrekta
+- att användare enkelt kan uppdatera sitt språkpaket
+
+---
+
+# 📝 Rapportera problem
+
+Har du hittat en felaktig översättning eller saknar en språksträng?
+
+Skapa gärna ett **Issue** med:
+
+- phpBB-version
+- aktuell språksträng
+- föreslagen ändring
+- eventuell förklaring
+
+---
+
+# 📜 Licens
+
+Detta språkpaket följer samma licensprinciper som phpBB.
+
+phpBB är utvecklat av:
+
+https://www.phpbb.com/
+
+Detta projekt är en svensk översättning och är inte en officiell produkt från phpBB Limited.
+
+---
+
+<p align="center">
+  🇸🇪 <strong>Svensk phpBB-översättning</strong><br>
+  Skapar gemenskap
+</p>
