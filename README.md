@@ -5,6 +5,17 @@
 </p>
 
 <p align="center">
+
+![phpBB Version](https://img.shields.io/badge/phpBB-3.3.17-blue.svg)
+![Language](https://img.shields.io/badge/language-Svenska-yellow.svg)
+![GitHub Release](https://img.shields.io/github/v/release/sinom/phpBB_sv_translation)
+![GitHub Last Commit](https://img.shields.io/github/last-commit/sinom/phpBB_sv_translation)
+![GitHub Commit Activity](https://img.shields.io/github/commit-activity/m/sinom/phpBB_sv_translation)
+![GitHub Issues](https://img.shields.io/github/issues/sinom/phpBB_sv_translation)
+![Status](https://img.shields.io/badge/status-active-success.svg)
+</p>
+
+<p align="center">
   <strong>En komplett svensk översättning av phpBB.</strong><br>
   Ett communitydrivet projekt för att tillhandahålla ett aktuellt och korrekt svenskt språkpaket.
 </p>
