@@ -1,0 +1,40 @@
+name: Build phpBB Swedish Language Pack
+
+on:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Read version
+        id: version
+        run: |
+          VERSION=$(cat VERSION)
+          echo "version=$VERSION" >> $GITHUB_OUTPUT
+
+      - name: Create package structure
+        run: |
+          mkdir -p svenska_${{ steps.version.outputs.version }}/swedish_${{ steps.version.outputs.version }}
+          cp -r phpBB/* svenska_${{ steps.version.outputs.version }}/swedish_${{ steps.version.outputs.version }}/
+
+      - name: Create ZIP
+        run: |
+          zip -r svenska_${{ steps.version.outputs.version }}.zip svenska_${{ steps.version.outputs.version }}
+
+      - name: Create Release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: svenska_${{ steps.version.outputs.version }}
+          name: svenska_${{ steps.version.outputs.version }}
+          files: |
+            svenska_${{ steps.version.outputs.version }}.zip
