@@ -1,0 +1,42 @@
+name: Generate Commit Heatmap
+
+on:
+  push:
+    branches:
+      - master
+
+  schedule:
+    - cron: "0 0 * * 0"
+
+jobs:
+  heatmap:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Generate heatmap
+        uses: lowlighter/metrics@latest
+        with:
+          filename: images/commit-heatmap.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+          base: ""
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
+
+      - name: Commit changes
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+
+          git add images/commit-heatmap.svg
+
+          git commit -m "Update commit heatmap" || exit 0
+          git push
