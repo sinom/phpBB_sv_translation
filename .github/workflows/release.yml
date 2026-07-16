@@ -33,10 +33,32 @@ jobs:
         run: |
           zip -r phpBB-${{ steps.version.outputs.phpbb_version }}-sv-${{ steps.version.outputs.language_version }}.zip svenska_${{ steps.version.outputs.phpbb_version }}
 
+      - name: Generate release notes
+        id: release_notes
+        run: |
+          echo "## Swedish Language Pack for phpBB ${{ steps.version.outputs.phpbb_version }}" > release_notes.md
+          echo "" >> release_notes.md
+          echo "This release contains the Swedish translation package for phpBB ${{ steps.version.outputs.phpbb_version }}." >> release_notes.md
+          echo "" >> release_notes.md
+          echo "**Language Pack Version:** ${{ steps.version.outputs.language_version }}" >> release_notes.md
+          echo "" >> release_notes.md
+          echo "### Changes in this release" >> release_notes.md
+          echo "" >> release_notes.md
+          
+          git log $(git describe --tags --abbrev=0 HEAD^)..HEAD --pretty=format:"- %s" >> release_notes.md || echo "- Initial release" >> release_notes.md
+
+          echo "" >> release_notes.md
+          echo "### Installation" >> release_notes.md
+          echo "" >> release_notes.md
+          echo "1. Download the ZIP archive." >> release_notes.md
+          echo "2. Extract the contents to your phpBB installation." >> release_notes.md
+          echo "3. Enable the Swedish language pack from the phpBB Administration Control Panel." >> release_notes.md
+
       - name: Create Release
         uses: softprops/action-gh-release@v2
         with:
           tag_name: phpBB-${{ steps.version.outputs.phpbb_version }}-sv-${{ steps.version.outputs.language_version }}
-          name: phpBB-${{ steps.version.outputs.phpbb_version }} Swedish Language Pack ${{ steps.version.outputs.language_version }}
+          name: phpBB ${{ steps.version.outputs.phpbb_version }} - Swedish Language Pack ${{ steps.version.outputs.language_version }}
+          body_path: release_notes.md
           files: |
             phpBB-${{ steps.version.outputs.phpbb_version }}-sv-${{ steps.version.outputs.language_version }}.zip
