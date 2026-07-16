@@ -16,25 +16,26 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Read version
+      - name: Read versions
         id: version
         run: |
-          VERSION=$(cat VERSION)
-          echo "version=$VERSION" >> $GITHUB_OUTPUT
+          source VERSION
+
+          echo "phpbb_version=$phpbb_version" >> $GITHUB_OUTPUT
+          echo "language_version=$language_version" >> $GITHUB_OUTPUT
 
       - name: Create package structure
         run: |
-          mkdir -p svenska_${{ steps.version.outputs.version }}/swedish_${{ steps.version.outputs.version }}
-          cp -r phpBB/* svenska_${{ steps.version.outputs.version }}/swedish_${{ steps.version.outputs.version }}/
+          mkdir -p svenska_${{ steps.version.outputs.phpbb_version }}/swedish_${{ steps.version.outputs.phpbb_version }}
+          cp -r phpBB/* svenska_${{ steps.version.outputs.phpbb_version }}/swedish_${{ steps.version.outputs.phpbb_version }}/
 
       - name: Create ZIP
         run: |
-          zip -r svenska_${{ steps.version.outputs.version }}.zip svenska_${{ steps.version.outputs.version }}
-
+          zip -r phpBB-${{ steps.version.outputs.phpbb_version }}-sv-${{ steps.version.outputs.language_version }}.zip svenska_${{ steps.version.outputs.phpbb_version }}
       - name: Create Release
         uses: softprops/action-gh-release@v2
         with:
-          tag_name: svenska_${{ steps.version.outputs.version }}
-          name: svenska_${{ steps.version.outputs.version }}
+          tag_name: phpBB-${{ steps.version.outputs.phpbb_version }}-sv-${{ steps.version.outputs.language_version }}
+          name: phpBB-${{ steps.version.outputs.phpbb_version }} Swedish Language Pack ${{ steps.version.outputs.language_version }}
           files: |
             svenska_${{ steps.version.outputs.version }}.zip
