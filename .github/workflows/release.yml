@@ -2,8 +2,8 @@ name: Build phpBB Swedish Language Pack
 
 on:
   push:
-    branches:
-      - main
+    tags:
+      - "phpBB-*"
 
 permissions:
   contents: write
@@ -32,10 +32,11 @@ jobs:
       - name: Create ZIP
         run: |
           zip -r phpBB-${{ steps.version.outputs.phpbb_version }}-sv-${{ steps.version.outputs.language_version }}.zip svenska_${{ steps.version.outputs.phpbb_version }}
+
       - name: Create Release
         uses: softprops/action-gh-release@v2
         with:
           tag_name: phpBB-${{ steps.version.outputs.phpbb_version }}-sv-${{ steps.version.outputs.language_version }}
           name: phpBB-${{ steps.version.outputs.phpbb_version }} Swedish Language Pack ${{ steps.version.outputs.language_version }}
           files: |
-            svenska_${{ steps.version.outputs.version }}.zip
+            phpBB-${{ steps.version.outputs.phpbb_version }}-sv-${{ steps.version.outputs.language_version }}.zip
