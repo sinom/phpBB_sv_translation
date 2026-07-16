@@ -12,7 +12,7 @@
 ![GitHub Last Commit](https://img.shields.io/github/last-commit/sinom/phpBB_sv_translation)
 ![GitHub Commit Activity](https://img.shields.io/github/commit-activity/m/sinom/phpBB_sv_translation)
 ![GitHub Issues](https://img.shields.io/github/issues/sinom/phpBB_sv_translation)
-![Status](https://img.shields.io/badge/status-active-success.svg)
+
 </p>
 
 <p align="center">
@@ -35,6 +35,12 @@ Målet är att erbjuda ett komplett språkpaket med:
 - tydlig versionshantering
 
 Projektet är skapat för svenska phpBB-användare och administratörer som vill använda phpBB på svenska.
+
+---
+
+## 📊 Projektaktivitet
+
+<img src="images/commit-heatmap.svg" alt="Commit heatmap">
 
 ---
 
