@@ -77,8 +77,8 @@ $lang = array_merge($lang, array(
 	'ACCOUNT_EMAIL_CHANGED_ADMIN'	=> 'Ditt konto skapades. Dock kräver detta forum att alla konton återaktiverats av en administratör efter ändring av e-postadressen. Ett e-postmeddelande har skickats till administratörerna och du kommer informeras när ditt konto återaktiverats.',
 	'ACCOUNT_INACTIVE'				=> 'Ditt konto skapades. Dock kräver detta forum att alla konton aktiveras innan de kan användas. En aktiveringsnyckel har skickats till dig till den e-postadress du angav. Läs din e-post för vidare instruktioner.',
 	'ACCOUNT_INACTIVE_ADMIN'		=> 'Ditt konto skapades. Dock kräver detta forum att alla konton aktiveras av administratörsgruppen innan de kan användas. Ett e-postmeddelande har skickats till administratörerna och du kommer att informeras när ditt konto har aktiverats.',
-	'ACTIVATION_EMAIL_SENT'			=> 'Ett e-postmeddelande för aktivering av ditt konto har skickats till din e-postadress.',
-	'ACTIVATION_EMAIL_SENT_ADMIN'	=> 'Ett e-postmeddelande för aktivering av ditt konto har skickats till administratörerna.',
+	'ACTIVATION_EMAIL_SENT'			=> 'Ett aktiveringsmejl har skickats till den angivna adressen, förutsatt att användarnamnet och e-postadressen du uppgav är korrekta. Det går endast att skicka ett aktiveringsmejl per dygn. Om du fortfarande har problem med att aktivera ditt konto, vänligen kontakta en administratör.',
+	'ACTIVATION_EMAIL_SENT_ADMIN'	=> 'Ett aktiveringsmejl har skickats till administratörens e-postadress, förutsatt att användarnamnet och e-postadressen du angav är korrekta. Det går endast att skicka ett aktiveringsmejl per dygn. Om du fortfarande har problem med att aktivera ditt konto, vänligen kontakta en styrelseadministratör.',
 	'ADD'							=> 'Lägg till',
 	'ADD_BCC'						=> 'Lägg till [Dold kopia]',
 	'ADD_FOES'						=> 'Lägg till nya ignorerade användare',
@@ -359,6 +359,7 @@ $lang = array_merge($lang, array(
 
 	'NOTIFICATION_TYPE_TOPIC'							=> 'Någon skapar ett ämne i ett forum som du bevakar',
 	'NOTIFICATION_TYPE_ADMIN_ACTIVATE_USER'				=> 'Nya användare som kräver aktivering',
+	'NOTIFICATION_TYPE_UPDATE_MAINTENANCE' 				=> 'phpBB-uppdateringsaviseringar',
 
 	'NOTIFY_METHOD'					=> 'Meddelningsmetod',
 	'NOTIFY_METHOD_BOTH'			=> 'Båda',

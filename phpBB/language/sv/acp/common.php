@@ -616,6 +616,7 @@ $lang = array_merge($lang, array(
 	'LOG_TOPIC_TYPE_CHANGED'	=> '<strong>Ändrade trådtyp</strong><br />» %s',
 	'LOG_UNLOCK'				=> '<strong>Låste upp tråd</strong><br />» %s',
 	'LOG_UNLOCK_POST'			=> '<strong>Låste upp inlägg</strong><br />» %s',
+	'LOG_VERSION_CHECK_FAIL' 	=> '<strong>Versionskontrollen misslyckades</strong>',
 
 	'LOG_DISALLOW_ADD'		=> '<strong>Lade till förbjudet användarnamn</strong><br />» %s',
 	'LOG_DISALLOW_DELETE'	=> '<strong>Tog bort förbjudet användarnamn</strong>',

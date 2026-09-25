@@ -153,7 +153,7 @@ $lang = array_merge($lang, array(
 	'VIEWING_PROFILE'		=> 'Visar profil - %s',
 	'VIEW_FACEBOOK_PROFILE'	=> 'Visa Facebook profil',
 	'VIEW_SKYPE_PROFILE'	=> 'Visa Skype profil',
-	'VIEW_TWITTER_PROFILE'	=> 'Visa Twitter profil',
+	'VIEW_TWITTER_PROFILE'	=> 'Visa X-profil',
 	'VIEW_YOUTUBE_PROFILE'	=> 'Visa YouTube-profil',
 
 ));

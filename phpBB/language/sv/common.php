@@ -68,7 +68,7 @@ $lang = array_merge($lang, array(
 	'ACCOUNT_ALREADY_ACTIVATED'		=> 'Ditt konto har redan aktiverats.',
 	'ACCOUNT_DEACTIVATED'			=> 'Ditt konto har inaktiverats manuellt och kan endast återaktiveras av en administratör.',
 	'ACP'							=> 'Administrationspanel',
-	'ACP_SHORT'						=> 'ACP',
+
 	'ACTIVATION_ALREADY_SENT'		=> 'Aktiverings e-postmeddelandet har redan skickats till din e-postadress. Du kan försöka igen efter 24 timmar. Om du fortsätter att ha problem med att aktivera ditt konto, vänligen kontakta en forumadministratör.',
 	'ACTIVE'						=> 'aktiv',
 	'ACTIVE_ERROR'					=> 'Det angivna användarnamnet är för närvarande inaktiverat. Om du har problem med att aktivera ditt konto, kontakta en administratör.',
@@ -106,7 +106,7 @@ $lang = array_merge($lang, array(
 	'AUTH_PROVIDER_OAUTH_SERVICE_BITLY'						=> 'Bitly',
 	'AUTH_PROVIDER_OAUTH_SERVICE_FACEBOOK'					=> 'Facebook',
 	'AUTH_PROVIDER_OAUTH_SERVICE_GOOGLE'					=> 'Google',
-	'AUTH_PROVIDER_OAUTH_SERVICE_TWITTER'					=> 'Twitter',
+	'AUTH_PROVIDER_OAUTH_SERVICE_TWITTER'					=> 'X',
 	'AUTH_PROVIDER_OAUTH_TOKEN_ERROR_NOT_STORED'			=> 'OAuthtoken är inte sparad.',
 	'AUTH_PROVIDER_OAUTH_TOKEN_ERROR_INCORRECTLY_STORED'	=> 'OAuthtoken är felaktigt sparad.',
 	'AVATAR_DISALLOWED_CONTENT'		=> 'Uppladdningen nekades eftersom den uppladdade filen identifieras som en möjlig smittspridare.',
@@ -344,6 +344,7 @@ $lang = array_merge($lang, array(
 		2	=>			'%d gäster',
 	),
 	'G_ADMINISTRATORS'			=> 'Administratörer',
+	'G_AI_CRAWLERS' => 'AI-sökrobotar',
 	'G_BOTS'					=> 'Robotar',
 	'G_GUESTS'					=> 'Gäster',
 	'G_REGISTERED'				=> 'Registrerade användare',
@@ -516,6 +517,11 @@ $lang = array_merge($lang, array(
 	'NOTIFICATION_TOPIC_IN_QUEUE'		=> '<strong>Begäran om trådgodkännande</strong> av %1$s:',
 	'NOTIFICATION_TYPE_NOT_EXIST'		=> 'Notifikationstypen "%s" saknas ifrån filsystemet.',
 	'NOTIFICATION_ADMIN_ACTIVATE_USER'	=> '<strong>Aktivering krävs</strong> för nyligen registrerad användare: “%1$s”',
+	'NOTIFICATION_UPDATE_CRITICAL' 		=> '<strong>phpBB %2$s-uppdatering tillgänglig - Kritisk uppdatering krävs</strong>: Ditt forum kör %1$s och en ny version som innehåller kritiska säkerhetsrättningar bör installeras omedelbart.',
+	'NOTIFICATION_UPDATE_MAINTENANCE' 	=> '<strong>phpBB %2$s-uppdatering tillgänglig</strong>: Ditt forum kör %1$s och en ny version finns tillgänglig.',
+	'NOTIFICATION_UPDATE_SECURITY' 		=> '<strong>Uppdatering av phpBB %2$s tillgänglig - Säkerhetsuppdatering</strong>: Ditt forum kör %1$s och en ny version som innehåller säkerhetskorrigeringar är tillgänglig. Vi rekommenderar att du uppdaterar ditt forum för att hålla det säkert och skyddat.',
+
+
 	// Used in conjunction with NOTIFICATION_BOOKMARK and NOTIFICATION_POST.
 	'NOTIFICATION_MANY_OTHERS'			=> 'andra',
 	'NOTIFICATION_X_OTHERS'				=>	array(
@@ -849,7 +855,7 @@ $lang = array_merge($lang, array(
 		2	=>			'Totalt antal medlemmar <strong>%d</strong>',
 	),
 	'TRACKED_PHP_ERROR'	=> 'Spårade PHP-fel: %s',
-	'TWITTER'			=> 'Twitter',
+	'TWITTER'			=> 'X',
 
 	'UNABLE_GET_IMAGE_SIZE'	=> 'Det gick inte att fastställa bildens storlek. Vänligen verifiera att den URL du angav är korrekt.',
 	'UNABLE_TO_DELIVER_FILE'=> 'Kunde inte leverera filen.',

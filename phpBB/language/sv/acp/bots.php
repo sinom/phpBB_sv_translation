@@ -55,6 +55,8 @@ $lang = array_merge($lang, array(
 	'BOT_DELETED'		=> 'Roboten togs bort.',
 	'BOT_EDIT'			=> 'Redigera robotar',
 	'BOT_EDIT_EXPLAIN'	=> 'Här kan du lägga till eller redigera en existerande robot. Du kan definiera en “user agent”-sträng och/eller en eller flera IP-adresser (eller en kedja av adresser) som ska matchas. Var försiktig när du definierar “user agent”-strängar eller adresser. Du kan också specificera en stil eller ett språk som ska visas för roboten när den besöker ditt forum. Detta kan låta dig minska bandbreddsanväningen genom att ställa in en enklare forumstil för robotar. Kom ihåg att ställa in lämpliga behörigheter för den speciella Robot-användargruppen.',
+	'BOT_GROUP' 		=> 'Botgrupp',
+	'BOT_GROUP_EXPLAIN' => 'Välj den grupp som denna bot tillhör.',
 	'BOT_LANG'			=> 'Robotens språk',
 	'BOT_LANG_EXPLAIN'	=> 'Språket som visas för roboten när den besöker forumet.',
 	'BOT_LAST_VISIT'	=> 'Senaste besöket',
@@ -71,6 +73,7 @@ $lang = array_merge($lang, array(
 	'ERR_BOT_AGENT_MATCHES_UA'	=> 'Den “user agent” du angav liknar den du redan använder. Justera agenten för denna robot.',
 	'ERR_BOT_NO_IP'				=> 'IP-adresserna du angav var felaktiga eller så kunde inte värdnamnet hittas.',
 	'ERR_BOT_NO_MATCHES'		=> 'Du måste ange minst antingen en “user agent” eller en IP-adress som ska matchas mot denna robot.',
+	'ERR_BOT_NO_NAME' 			=> 'Du måste ange ett botnamn.',
 
 	'NO_BOT'		=> 'Hittade ingen robot med det angivna ID:t.',
 	'NO_BOT_GROUP'	=> 'Hittade inte den speciella robotgruppen.',

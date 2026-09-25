@@ -367,10 +367,16 @@ $lang = array_merge($lang, array(
 	'COOKIE_PATH_EXPLAIN'		=> 'Detta är i vanliga fall samma sak som sökvägen till dina skript, eller helt enkelt ett snedstreck (/) för att göra cookien tillgänglig över hela webbplatsens domän.',
 	'COOKIE_SECURE'				=> 'Cookiesäkerhet',
 	'COOKIE_SECURE_EXPLAIN'		=> 'Om din server körs via SSL kan du aktivera detta, låt det annars vara inaktiverat. Om du aktiverar detta och din server inte körs via SSL kommer fel att uppstå vid omdirigeringar.',
+	'SESSION_GC' 				=> 'Intervall för sessionsrensning',
+	'SESSION_GC_EXPLAIN' 		=> 'Intervall i sekunder mellan rensningar av gamla sessioner.',
 	'ONLINE_LENGTH'				=> 'Visa som online tidsspann',
 	'ONLINE_LENGTH_EXPLAIN'		=> 'Antal minuter som ska gå tills inaktiva användare inte längre visas i “Vilka är online”-listorna. Ju högre detta värde är desto mer databehandling krävs för att skapa listorna.',
+	'SESSION_GUEST_LENGTH' 		=> 'Gästsessionslängd',
+	'SESSION_GUEST_LENGTH_EXPLAIN' => 'Sessioner för gäster kommer att förfalla efter denna tid, i sekunder.',
 	'SESSION_LENGTH'			=> 'Sessionslängd',
 	'SESSION_LENGTH_EXPLAIN'	=> 'Sessioner kommer att förfalla efter denna tid, i sekunder.',
+	'SESSION_GUEST_GC' 			=> 'Rensningsintervall för gästsessioner',
+	'SESSION_GUEST_GC_EXPLAIN'	=> 'Intervall i sekunder mellan rensningar av gamla gästsessioner.',
 ));
 
 // Contact Settings

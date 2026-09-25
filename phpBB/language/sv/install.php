@@ -301,6 +301,7 @@ $lang = array_merge($lang, array(
 	// Install database
 	'TASK_ADD_CONFIG_SETTINGS'			=> 'Lägga till konfigurationsinställningar',
 	'TASK_ADD_DEFAULT_DATA'				=> 'Lägga till standardinställningar i databasen',
+	'TASK_ADD_AI_CRAWLERS' 				=> 'Registrerar AI-sökrobotar',
 	'TASK_CREATE_DATABASE_SCHEMA_FILE'	=> 'Skapa databasschema-fil',
 	'TASK_SETUP_DATABASE'				=> 'Ställer in databas',
 	'TASK_CREATE_TABLES'				=> 'Skapar tabeller',
@@ -471,6 +472,7 @@ $lang = array_merge($lang, array(
 	// Common converter messages
 	'CONVERT_NOT_EXIST'			=> 'Den angivna konverteraren finns inte.',
 	'DEV_NO_TEST_FILE'			=> 'Inga värden angavs för test_file-variabeln i konverteraren. Om du är användaren av denna konverterare så ska du inte se detta fel, rapportera detta meddelande till författaren av konverteraren. Om du är författaren av konverteraren så måste du ange namnet för filen som finns i källforumet så att sökvägen kan bekräftas.',
+	'COULD_NOT_COPY'			=> 'Kunde inte kopiera filen <strong>%1$s</strong> till <strong>%2$s</strong><br><br>Kontrollera att målkatalogen finns och är skrivbar för webbservern.',
 	'COULD_NOT_FIND_PATH'		=> 'Kunde inte hitta sökvägen till ditta förra forum. Kontrollera dina inställningar och försök igen.<br />» %s var den angivna källsökvägen.',
 	'CONFIG_PHPBB_EMPTY'		=> 'phpBB3-konfigurationsvariabeln för “%s” är tom.',
 
